@@ -47,7 +47,7 @@
       <SolutionItems Include="$(InputPath)\Web.config" />
     </ItemGroup>
 
-    <Unzip ZipFileName="\\NAS.hq.isogeo.fr\Deployments\help.isogeo.com\%(Projects.FileName).zip" TargetDirectory="$(_OutDir)_PublishedWebsites" />
+    <Unzip ZipFileName="\\NAS.hq.isogeo.fr\Developments\Projects\%(Projects.FileName)\%(Projects.FileName).zip" TargetDirectory="$(_OutDir)_PublishedWebsites" />
     <Copy
       SourceFiles="@(SolutionItems)"
       DestinationFiles="@(SolutionItems->'$(_OutDir)_PublishedWebsites\%(RecursiveDir)%(Filename)%(Extension)')"
