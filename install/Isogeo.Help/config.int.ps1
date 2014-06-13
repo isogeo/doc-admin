@@ -13,6 +13,12 @@ $config = @{
                 skipAppCreation="true"
             }
         }
-        parameters=@{}
+        parameters=@{
+            element="setParameter"
+            attributes=@{
+                name="dummy"
+                value="dummy"
+            }
+        },
     }
 }
