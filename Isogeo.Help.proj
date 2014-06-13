@@ -41,7 +41,7 @@
     Outputs="$(IntermediateOutputPath)bin\%(Projects.FileName)\dummy.txt"
   >
     <PropertyGroup>
-      <_OutDir>$(TmpBinOutputPath)%(Projects.FileName)\%(Projects.Configuration)\%(Projects.Platform)\_PublishedWebsites\%(Projects.FileName)</_OutDir>
+      <_OutDir>$(TmpBinOutputPath)%(Projects.FileName)\%(Projects.Configuration)\%(Projects.Platform)\_PublishedWebsites\%(Projects.FileName)\</_OutDir>
     </PropertyGroup>
     <ItemGroup>
       <SolutionItems Include="$(InputPath)\Web.config" />
