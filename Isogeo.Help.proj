@@ -41,16 +41,16 @@
     Outputs="$(IntermediateOutputPath)bin\%(Projects.FileName)\dummy.txt"
   >
     <PropertyGroup>
-      <_OutDir>$(TmpBinOutputPath)%(Projects.FileName)\%(Projects.Configuration)\%(Projects.Platform)\</_OutDir>
+      <_OutDir>$(TmpBinOutputPath)%(Projects.FileName)\%(Projects.Configuration)\%(Projects.Platform)\_PublishedWebsites\%(Projects.FileName)</_OutDir>
     </PropertyGroup>
     <ItemGroup>
       <SolutionItems Include="$(InputPath)\Web.config" />
     </ItemGroup>
 
-    <Unzip ZipFileName="\\NAS.hq.isogeo.fr\Developments\Projects\%(Projects.FileName)\%(Projects.FileName).zip" TargetDirectory="$(_OutDir)_PublishedWebsites\%(Projects.FileName)" />
+    <Unzip ZipFileName="\\NAS.hq.isogeo.fr\Developments\Projects\%(Projects.FileName)\%(Projects.FileName).zip" TargetDirectory="$(_OutDir)" />
     <Copy
       SourceFiles="@(SolutionItems)"
-      DestinationFiles="@(SolutionItems->'$(_OutDir)_PublishedWebsites\%(Projects.FileName)\%(RecursiveDir)%(Filename)%(Extension)')"
+      DestinationFiles="@(SolutionItems->'$(_OutDir)%(RecursiveDir)%(Filename)%(Extension)')"
       OverwriteReadOnlyFiles="true"
       SkipUnchangedFiles="true"
     />
