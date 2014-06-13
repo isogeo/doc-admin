@@ -19,6 +19,6 @@ $config = @{
                 name="dummy"
                 value="dummy"
             }
-        },
+        }
     }
 }
