@@ -8,8 +8,6 @@
     <ProjectName Condition="'$(ProjectName)'==''">$(MSBuildProjectName)</ProjectName>
     <WindowsSdkVersion>v7.1</WindowsSdkVersion>
     <GitPath>$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Git_is1', 'InstallLocation', null, RegistryView.Registry64, RegistryView.Registry32))bin</GitPath>
-    <RUBY_BIN>$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\RubyInstaller\MRI\1.9.3', 'InstallLocation', null, RegistryView.Registry64, RegistryView.Registry32))\bin</RUBY_BIN>
-    <GEM_HOME>$(USERPROFILE)\.gem\ruby\1.9.1\bin</GEM_HOME>
   </PropertyGroup>
 
 
@@ -27,7 +25,7 @@
 
   <ItemGroup>
     <Projects Include="Gruntfile.js">
-      <Properties>AppName=$(ProjectName);PathAdditions=$([MSBuild]::Escape("$(GitPath);$(RUBY_BIN);$(GEM_HOME)"))</Properties>
+      <Properties>AppName=$(ProjectName);PathAdditions=$([MSBuild]::Escape("$(GitPath)"))</Properties>
     </Projects>
   </ItemGroup>
 
