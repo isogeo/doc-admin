@@ -32,6 +32,15 @@ module.exports = function (grunt) {
         * Copy task to copy files into release package
         */
         copy: {
+            assets: {
+                files: [{
+                    expand: true,
+                    dot: true,
+                    cwd: 'dist',
+                    src: ['**/*.*'],
+                    dest: '<%= help.build %>'
+                }]
+            },
             bin: {
                 files: [{
                     expand: true,
@@ -44,7 +53,7 @@ module.exports = function (grunt) {
                 }, {
                     expand: true,
                     dot: true,
-                    dest: '<%= help.dest %>/public',
+                    dest: '<%= help.dest %>/dist',
                     cwd: '<%= help.build %>',
                     src: ['**/**.*']
                 }]
@@ -113,7 +122,7 @@ module.exports = function (grunt) {
     grunt.registerTask('release', [
         'clean:complete',
         'build',
-        'copy:bin'
+        'copy'
     ]);
 
 };
