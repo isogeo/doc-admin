@@ -1,0 +1,27 @@
+{
+    "title": null,
+    "description": null,
+    "isbn": null,
+
+    "pluginsConfig": {
+        "fontSettings": {
+            "theme": "white",
+            "family": "sans"
+        }
+    },
+
+    "links": {
+        "sidebar": {
+            "Site Isogeo": "http://www.isogeo.com/",
+            "Application": "https://app.isogeo.com/"
+        },
+
+        "sharing": {
+            "google": false,
+            "facebook": false,
+            "twitter": false,
+            "weibo": false,
+            "all": false
+        }
+    }
+}
