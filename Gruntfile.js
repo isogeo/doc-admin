@@ -8,7 +8,9 @@ module.exports = function (grunt) {
         build: 'tmp/obj/bin',
         dest: grunt.option('dest') || 'tmp/bin/Gruntfile/Release/Any CPU/Isogeo.Help',
         tmp: 'tmp',
-        src: 'src'
+        src: 'src',
+        out: 'tmp/out/bin',
+        version: process.env.CCNetLabel || '0.0.0.0'
     };
 
     grunt.initConfig({
@@ -39,7 +41,7 @@ module.exports = function (grunt) {
                     dot: true,
                     cwd: 'dist',
                     src: ['**/*.*'],
-                    dest: '<%= help.build %>'
+                    dest: '<%= help.build %>/site'
                 }]
             },
             bin: {
@@ -54,8 +56,26 @@ module.exports = function (grunt) {
                     expand: true,
                     dot: true,
                     dest: '<%= help.dest %>',
-                    cwd: '<%= help.build %>',
-                    src: ['**/**.*']
+                    cwd: '<%= help.build %>/site',
+                    src: ['**/*.*']
+                }, {
+                    expand: true,
+                    dot: true,
+                    dest: '<%= help.dest %>',
+                    cwd: '<%= help.build %>/book',
+                    src: ['**/*.pdf']
+                }]
+            },
+            out: {
+                files: [{
+                    expand: true,
+                    dot: true,
+                    dest: '<%= help.out %>',
+                    cwd: '<%= help.build %>/book',
+                    src: ['**/*.pdf'],
+                    rename: function(dest, src) {
+                        return dest + '/Isogeo.Help.' + src.substring(0, src.indexOf('/')) + '.<%= help.version %>.pdf';
+                    }
                 }]
             }
         }
@@ -65,11 +85,11 @@ module.exports = function (grunt) {
     /**
     * Serve the book
     */
-    grunt.registerTask('serveBook', 'Serve the book', function() {
+    grunt.registerTask('serveSite', 'Serve the book', function() {
         var done = this.async();
         gitbook.generate.folder({
-            input: '.',
-            output: 'tmp/obj/bin'
+            input: 'Help',
+            output: 'tmp/obj/bin/site'
         }).then(function(error) {
             done(error);
         }, done);
@@ -82,25 +102,41 @@ module.exports = function (grunt) {
     grunt.registerTask('buildBook', 'Build the book', function() {
         var done = this.async();
         gitbook.generate.folder({
-            input: '.',
-            output: 'tmp/obj/bin'
+            input: 'Help',
+            output: 'tmp/obj/bin/book',
+            generator: 'ebook',
+            extension: 'pdf'
         }).then(function(error) {
             done(error);
         }, done);
     });
 
     /**
+     * Build the site
+     */
+    grunt.registerTask('buildSite', 'Build the site', function() {
+         var done = this.async();
+         gitbook.generate.folder({
+         input: 'Help',
+         output: 'tmp/obj/bin/site'
+         }).then(function(error) {
+         done(error);
+         }, done);
+    });
+
+    /**
     * Incremental build, starts the application
     */
     grunt.registerTask('start', [
-        'serveBook'
+        'serveSite'
     ]);
 
     /**
     * Continuous build
     */
     grunt.registerTask('build', [
-        'buildBook'
+        'buildBook',
+        'buildSite'
     ]);
 
     /**
