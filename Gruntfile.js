@@ -2,6 +2,7 @@ module.exports = function (grunt) {
     'use strict';
     
     require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
+    var gitbook = require('gitbook');
 
     var helpConfig = {
         build: 'tmp/obj/bin',
@@ -66,15 +67,13 @@ module.exports = function (grunt) {
     */
     grunt.registerTask('serveBook', 'Serve the book', function() {
         var done = this.async();
-        grunt.util.spawn({
-            cmd: 'gitbook',
-            args: ['serve', '--output=tmp/obj/bin'],
-            opts: {
-                stdio: 'inherit'
-            }
-        }, function(error) {
+        gitbook.generate.folder({
+            input: '.',
+            output: 'tmp/obj/bin'
+        }).then(function(error) {
             done(error);
-        });
+        }, done);
+        //TODO: host the book
     });
 
     /**
@@ -82,15 +81,12 @@ module.exports = function (grunt) {
     */
     grunt.registerTask('buildBook', 'Build the book', function() {
         var done = this.async();
-        grunt.util.spawn({
-            cmd: 'gitbook',
-            args: ['build', '--output=tmp/obj/bin'],
-            opts: {
-                stdio: 'inherit'
-            }
-        }, function(error) {
+        gitbook.generate.folder({
+            input: '.',
+            output: 'tmp/obj/bin'
+        }).then(function(error) {
             done(error);
-        });
+        }, done);
     });
 
     /**
