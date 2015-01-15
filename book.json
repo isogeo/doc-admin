@@ -23,5 +23,12 @@
             "weibo": false,
             "all": false
         }
+    },
+
+    "plugins": ["ga"],
+    "pluginsConfig": {
+        "ga": {
+            "token": "UA-22345848-2"
+        }
     }
 }
