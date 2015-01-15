@@ -4,7 +4,7 @@ module.exports = function (grunt) {
     require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
 
     var helpConfig = {
-        build: 'tmp/obj/build',
+        build: 'tmp/obj/bin',
         dest: grunt.option('dest') || 'tmp/bin/Gruntfile/Release/Any CPU/Isogeo.Help',
         tmp: 'tmp',
         src: 'src'
@@ -47,13 +47,12 @@ module.exports = function (grunt) {
                     dot: true,
                     dest: '<%= help.dest %>',
                     src: [
-                        '*.{js,json}',
-                        'Web.config'
+                        'bin/**/*.*'
                     ]
                 }, {
                     expand: true,
                     dot: true,
-                    dest: '<%= help.dest %>/dist',
+                    dest: '<%= help.dest %>',
                     cwd: '<%= help.build %>',
                     src: ['**/**.*']
                 }]
@@ -69,12 +68,12 @@ module.exports = function (grunt) {
         var done = this.async();
         grunt.util.spawn({
             cmd: 'gitbook',
-            args: ['serve', '--output=tmp/obj/devel'],
+            args: ['serve', '--output=tmp/obj/bin'],
             opts: {
                 stdio: 'inherit'
             }
-        }, function () {
-            done();
+        }, function(error) {
+            done(error);
         });
     });
 
@@ -85,12 +84,12 @@ module.exports = function (grunt) {
         var done = this.async();
         grunt.util.spawn({
             cmd: 'gitbook',
-            args: ['build', '--output=tmp/obj/build'],
+            args: ['build', '--output=tmp/obj/bin'],
             opts: {
                 stdio: 'inherit'
             }
-        }, function () {
-            done();
+        }, function(error) {
+            done(error);
         });
     });
 
