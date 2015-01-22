@@ -1,1 +1,1 @@
-* [French](fr/)
+* [Français](fr/)
