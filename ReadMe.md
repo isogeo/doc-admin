@@ -23,3 +23,16 @@ Isogeo.Help is the project used to generate the online help for the Isogeo platf
 
 
 ## Development
+
+
+## Process
+
+
+
+## Related resources
+
+- [Document de travail initial](https://docs.google.com/a/isogeo.fr/document/d/1D39wXdfw0ueq9PViHike9qlAO26PSs6IoyAUgsvC3_Y/edit)
+- [Dedicated folder on Google Drive](https://drive.google.com/drive/u/0/#folders/0B1LzWJagMM-PVFZpeU9jQjZRYUk)
+- [Redmine project (bug tracking)](https://dev.isogeo.net/redmine/projects/help)
+- [WYSIWYG Editor (desktop)](https://github.com/GitbookIO/editor)
+- [GitBook official website](https://www.gitbook.com)
