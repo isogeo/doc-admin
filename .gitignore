@@ -1,3 +1,14 @@
+# custom
+*.log
+*Thumbs.db
+
+# binaries
+*.hnd
+*.pdf
+*.docx
+*.mobi
+*.epub
+
 tmp/
 node_modules/
 packages/
