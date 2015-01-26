@@ -1,2 +1,4 @@
-Isogeo est une application web qui vous permet de gérer et partager un catalogue exhaustif, à jour et documenté de vos données SIG. 
-Ce document vous explique pas à pas, comment l’utiliser.
+# Architecture et cycles de développement
+
+Isogeo est une plateforme SaaS dont le développement suit la méthodologie AGILE et les cycles de la méthode Scrum.
+
