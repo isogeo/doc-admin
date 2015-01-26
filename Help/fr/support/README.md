@@ -6,8 +6,8 @@ Si vous avez une question, une suggestion ou encore si vous avez identifié une 
 
 Si vous souhaitez que votre problème soit traité rapidement, voici quelques bonnes pratiques :
 
-- préfixer l'objet de votre mail avec le nom de la brique logicielle concernée : APP - *objet*, SCAN - *objet*, OpenCatalog - *objet* etc. 
-- s'il s'agit du service de scan, s'assurer d'abord d'avoir la dernière version installée chez vous (voir chapitre concerné) ; 
+- préfixer l'objet de votre mail avec le nom de la brique logicielle concernée : APP - *objet*, SCAN - *objet*, OpenCatalog - *objet* etc.
+- s'il s'agit du service de scan, s'assurer d'abord d'avoir la dernière version installée chez vous (voir chapitre concerné) ;
 - préciser s'il s'agit d'une demande d'assistance ou bien du signalement d'une anomalie ;
 - s'il s'agit d'une anomalie :
   * s'assurer qu'elle est reproduisible ;
@@ -21,8 +21,11 @@ Si vous souhaitez que votre problème soit traité rapidement, voici quelques bo
 ## Modèle de courriel pour signaler une anomalie
 
 **A :** support@isogeo.fr
+
 **Copie à :** chef_de_projet@isogeo.fr
+
 **Objet :** Scan - Le nombre de fiches remontées ne correspond pas à celui attendu (nombre de données dans le point d'entrée)
+
 **Corps du message** :
 Bonjour,
 
@@ -36,5 +39,5 @@ Pour reproduire :
 2. lancer le scan sur le point d'entrée *X* : 10 tables sont indiquées ;
 3. aller dans l'inventaire : seules 8 tables apparaissent.
 
---
+-----
 Signature
