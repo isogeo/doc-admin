@@ -2,15 +2,18 @@
 *.log
 *Thumbs.db
 
-# binaries
+# outputs binaries
 *.hnd
 *.pdf
 *.docx
 *.mobi
 *.epub
 
+# dependencies for build & serve commands
 tmp/
 node_modules/
 packages/
+Help/_book/
 
+# logs files
 *.log
