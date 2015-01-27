@@ -1,6 +1,6 @@
 # S'inscrire à Isogeo
 
-Isogeo est une application web professionnelle. Chaque utilisateur y accède via un login et un mot de passe sécurisé qu’il définit lors de son inscription.
+Isogeo est une application web professionnelle. Chaque utilisateur y accède via un identifiant et un mot de passe sécurisé qu’il définit lors de son inscription.
 
 Pour s’inscrire à Isogeo il faut y être invité par un administrateur. En effet, dès lors qu’un administrateur a accès à la plateforme il peut inviter autant d’utilisateurs qu’il le souhaite à rejoindre son groupe d’utilisateurs.
 
