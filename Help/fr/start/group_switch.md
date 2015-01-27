@@ -1,4 +1,4 @@
-# Groupes
+# Accéder à plusieurs groupes de travail
 
 Votre compte Isogeo peut être lié à plusieurs groupes de travail. Le cas échéant, si vous souhaitez changer de groupe, inutile de vous déconnecter, il vous suffit de :
 
