@@ -19,9 +19,13 @@ Voici les étapes qui suivent l'invitation d'un utilisateur :
     ![Création de compte](../images/ID_creation_compte.png "Formulaire d'inscription à Isogeo")
 
 4.	Indiquer votre Prénom et Nom ;
+
 5.	Indiquer votre mail ;
+
 6.	Créer votre mot de passe ;
+
 7.	Cliquer sur `Valider`, la page suivante s’affiche ;
+
 8.	Cliquer sur `Accepter` vous êtes inscrit à Isogeo !
 
     ![Rejoindre le groupe qui vous a invité](../images/Isogeo_invitation_interface_1.png "Bienvenue sur le groupe qui vous a invité")
