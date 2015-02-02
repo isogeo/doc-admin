@@ -43,7 +43,7 @@
             "bottom": 36
         },
 
-        "headerTemplate": null,
-        "footerTemplate": null
+        "headerTemplate": "_TITLE_",
+        "footerTemplate": "_SECTION_"
     }
 }
