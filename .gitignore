@@ -14,6 +14,7 @@ tmp/
 node_modules/
 packages/
 Help/_book/
+HELP/local_build.bat
 
 # logs files
 *.log
