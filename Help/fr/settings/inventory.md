@@ -15,25 +15,42 @@ Vous y retrouvez :
 
 ## L'interface
 
-détail de l'interface
+![En-tête des fiches](../images/inv_global.png "Les informations affichées dans l'en-tête d'une fiche (en mode liste)")
+
+Sous la barre des menus, une barre d'actions permet (de gauche à droite) :
+
+* de créer une fiche manuelle ;
+* de gérer les sélections :
+    * sélectionner toutes les fiches de la page en cours ;
+    * retirer de la sélection les fiches de la page en cours ;
+    * vider la sélection.
+* de gérer les options de tri :
+    * par date de création de la métadonnée (par défaut) ;
+    * par date de dernière modification de la métadonnée ;
+    * par titre ;
+    * par date de création de la donnée.
+* d'aller à une page en particulier.
+
+Tout en bas à gauche, il est possible de régler la pagination :
+
+*  afficher 20 fiches par page (par défaut) ;
+*  afficher 30 fiches par page ;
+*  afficher 50 fiches par page.
 
 ## L'en-tête des fiches de métadonnées
 
 ![En-tête des fiches](../images/inv_ressource_header.png "Les informations affichées dans l'en-tête d'une fiche (en mode liste)")
 
-* Le propriétaire de la fiche : <span style="color:#fb4141">en marron</span>,
-* le type de ressource (vecteur, raster, ensemble de données, autre): <span style="color:#fb4141">en vert</span>
-* le format : <span style="color:#fb4141">en bleu</span>
-* le système de coordonnées : <span style="color:#fb4141">en gris foncé</span>
-* le(s) catalogue(s) : <span style="color:#fb4141">en gris clair</span>
-* les thèmes Inspire précédés d’un ICONE
-* les mots-clés précédés d’un ICONE
-* sur la droite, la date de tri s’affiche.
+* Le propriétaire de la fiche : <span style="color:#C09E7E">en marron</span>,
+* le type de ressource (vecteur, raster, ensemble de données, autre): <span style="color:#8FB39B">en vert</span>
+* le format : <span style="color:#6480a7">en bleu</span>
+* le système de coordonnées : <span style="color:#999">en gris foncé</span>
+* le(s) catalogue(s) : <span style="color:#bed3db">en gris clair</span>
+* les thèmes Inspire précédés d’une icône en forme de feuille ;
+* les mots-clés précédés d’une icône en forme d'étiquette ;
+* sur la droite, la date de tri choisie s’affiche.
 
-Remarque : Ces informations agissent également comme des filtres. Dans l’exemple ci-dessus, si vous cliquez sur le tag « SHP », vous  visualisez toutes les données stockées au format shapefiles.
-Remarque : Autre exemple, si vous cliquez sur la thématique Inspire « Services d’utilité publique et services publics » vous ne visualisez que les données affectées à cette thématique. Il en est de même pour les systèmes de coordonnées et les mots-clés.
-
-
+> Astuce : Ces informations agissent également comme des filtres. Par exemple, si vous cliquez sur le tag d'un format, vous afficherez toutes les données correspondantes.
 
 
 
