@@ -2,15 +2,24 @@
 
 Cet onglet donne les éléménts de connaissance basique sur une ressource.
 
+![Edition unitaire - Identification](../../images/inv_edit_one_identification.png "L'édition unitaire - onglet identification")
+
 ### Titre
 
+Le titre doit permettre de distinguer la donnée de celles qui pourraient être similaires.
+
+La recommandation est
 
 ### Résumé
 
+Une description narrative de ce que la donnée représente.
 
-### Emplacement
+Exemple : « Cette donnée représente tous les terrains de sport aménagés en plein air sur la commune de la Flèche en 2012. ».
 
+### Emplacement / nom de la donnée
+
+L’emplacement de stockage de la donnée, qu'il s'gisse d'un fichier ou d'une base de données.
 
 ### Rapport de validation d'INSPIRE
 
-Contient le titre de la donnée et une description narrative du phénomène représenté. Exemple : « Cette donnée représente tous les terrains de sport aménagés en plein air sur la commune de la Flèche en 2012. ». L’emplacement de stockage de la donnée est également indiqué (\\SIG_DATA\Cadastre\Batiments.shp). Pour toutes les données visées par la directive Inspire, l’onglet « Identification » permet également de savoir si la métadonnée est conforme ou non à Inspire ;
+Pour toutes les données visées par la directive Inspire, permet également de savoir si la métadonnée est conforme ou non à la norme.

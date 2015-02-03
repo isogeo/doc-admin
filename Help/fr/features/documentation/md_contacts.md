@@ -2,6 +2,9 @@
 
 L’onglet « Contact » permet d’affecter, depuis votre carnet d’adresse, un ou plusieurs contacts pour chacune des données ;
 
+![Edition unitaire - Contacts](../../images/inv_edit_one_contacts.png "L'édition unitaire - onglet Contacts")
+
+
 ## comprendre les contacts
 contact métadonnée, contact donnée
 
