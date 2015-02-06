@@ -1,2 +1,9 @@
-Isogeo est une application web qui vous permet de gérer et partager un catalogue exhaustif, à jour et documenté de vos données SIG.
-Ce document vous explique pas à pas, comment l’utiliser.
+# Guide d'installation du service Isogeo Worker
+
+## Historique
+
+Développé en 2013 par Isogeo, le service Isogeo Worker a commencé à être déployé à la fin de la même année et surtout à partir de début 2014. Basé su l'ETL FME, édité par Safe Software, il permet de lire un très grand nombre de formats de données géographiques et d'en extraire la plupart des informations techniques que l'on s'attend à voir dans un fiche de métadonnées.
+
+## Architecture
+
+![Schéma de l'architecture vulgarisée](../../../images/scanFME_architecture.png "Architecture globale du service de scan Isogeo")
