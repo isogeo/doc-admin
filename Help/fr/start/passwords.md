@@ -1,5 +1,4 @@
-Gérer mon  mot de passe
-=======
+# Gérer mon  mot de passe
 
 Pour [modifier votre mot de passe](https://id.isogeo.com/change-password) :
 

@@ -16,7 +16,7 @@ Entre le logo et la barre de recherche, une roue s'anime à chaque fois que la p
 
 ![Loader](../images/loader.gif "L'icône de chargement")
 
-*Astuce : Quand la roue tourne, il ne faut plus cliquer ! Si elle tourne à l'infini, rechargez la page. (proverbe Isogeo)*
+> Astuce : Quand la roue tourne, il ne faut plus cliquer ! Si elle tourne à l'infini, rechargez la page. (proverbe Isogeo)
 
 ## La recherche et les filtres
 
@@ -24,7 +24,7 @@ Où que vous soyez sur Isogeo, vous pouvez lancer une recherche simple ou avanc�
 
 ![Barre de recherche et filtres](../images/search_bar_filters_empty.png "Faire une recherche simple ou avancée à tout moment")
 
-> Pour maîtriser au mieux la recherche et la navigation de l'inventaire, voir [le chapitre dédié (5.4)](../features/inventory/README.html).
+Pour maîtriser au mieux la recherche et la navigation de l'inventaire, voir [le chapitre dédié (5.4)](../features/inventory/README.html).
 
 ## Les menus
 

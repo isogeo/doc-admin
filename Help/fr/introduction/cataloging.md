@@ -4,7 +4,7 @@ Cette étape est essentielle au partage et à la valorisation de son patrimoine 
 
 * un catalogue à usage interne,
 * un catalogue à destination des partenaires
-* et un catalogue pour le grand public. 
+* et un catalogue pour le grand public.
 
 Une fiche de métadonnées peut appartenir à plusieurs catalogues.
 

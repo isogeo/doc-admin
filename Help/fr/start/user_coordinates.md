@@ -2,7 +2,7 @@
 
 En cliquant sur votre nom en haut à droite de votre écran, vous pouvez visualiser et modifier les différents paramètres de votre compte Isogeo.
 
-*Astuce : Vous pouvez aussi y accéder directement via : https://app.isogeo.com/settings/profile*
+> Astuce : Vous pouvez aussi y accéder directement via : https://app.isogeo.com/settings/profile
 
 ![Coordonnées utilisateur](../images/user_profile_coordinates.png "Renseigner mes coordonnées")
 
