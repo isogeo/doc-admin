@@ -6,9 +6,12 @@ Il est également possible d’affecter systématiquement les nouvelles données
 
 1.	Cliquer sur le bouton « Scanner » en regard du point d’entrée choisi. La liste des requêtes s’affiche.
 
-    ![Les formats scannés automatiquement](../../images/scanFME_Formats_WordCloud.png "Chercher les données dans Isogeo")
+    ![Les requêtes d'un point d'entrée](../../images/scanFME_EntryPoint_Requests.png "Afficher l'historique des requêtes effectuées sur un point d'entrée")
 
 2.	Cliquer sur la ligne d’une requête en cours pour visualiser le scan.
+
+    ![Déroulement d'un scan](../../images/ScanFME_ProcessLive_GeoFLA_2014-12-26.gif "Le processus de scan à l'oeuvre")
+
 3.	L’opération de scan se déroule en 3 phases :
     4.	Recenser : le scan dresse la liste des données ;
     5.	Signer : le scan signe toutes les données qu’il a recensées de façon à marquer les données au moment du scan et pouvoir en déduire si la donnée a déjà été scannée ou pas auparavant ou modifiée depuis le dernier scan ;
@@ -31,3 +34,8 @@ La liste complète des données recensées pendant le scan vous permet d’ident
 
 Allez dans l’inventaire pour découvrir ces données et parcourir leurs métadonnées.
 
+## Précisions
+
+cas de la copie d'une donnée
+renommer un point d'entrée
+table visible à partir de plusieurs points d'entrée
