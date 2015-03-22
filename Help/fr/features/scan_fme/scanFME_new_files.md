@@ -1,4 +1,4 @@
-# Ajouter une source de données à scanner
+# Ajouter un répertoire de fichiers à scanner
 
 Pour créer un point d’entrée « Fichiers » vous devez :
 

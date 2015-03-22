@@ -11,6 +11,8 @@ Pour créer un point d’entrée « Base de données » vous devez :
 5.	Saisir les paramètres de connexion ;
 6.	Sauvegarder.
 
+    ![Nouveau point d'entrée base](../../imsages/scanFME_new_DB_ready.png "Le nouveau point d'entrée est prêt à être scanné")
+
 ## Paramètres requis selon le type de base de données
 
 Légende :
@@ -27,8 +29,8 @@ Légende :
 | Identifiant                 | X       | X      | X          |                          |
 | Mot de passe                | X       | X      | X          |                          |
 | Nom de la base de données   | X       |        | X          |                          |
-| Fichier de connexion (.sde) | -       |        |            |                          |
-| Nom de l'instance           | -       |        |            |                          |
-| Version transactionnelle    | -       |        |            |                          |
+| Fichier de connexion (.sde) | -       |        |            | X                        |
+| Nom de l'instance           | -       |        |            | X                        |
+| Version transactionnelle    | -       |        |            | X                        |
 
 
