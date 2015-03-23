@@ -7,5 +7,25 @@ Ce document vous explique pas à pas, comment l’utiliser.
 
 # Prérequis techniques
 
-navigateurs compatibles
+Pour accéder à Isogeo vous pouvez utiliser l'un des navigateurs suivants :
+
+Navigateurs supportés :
+
+* Internet Explorer 10 et +
+* Firefox ESR
+* 3 derniéres versions stables de Firefox et Chrome
+
+
+![Alerte navigateur](images/OC_browser_alert.png "Message qui s'affiche en cas de navigateur non supporté")
+
+
+Pour accéder à Open Catalog vous pouvez utiliser l'un des navigateurs suivants :
+
+Navigateurs supportés :
+
+* Internet Explorer 9 et +
+* Firefox ESR
+* 3 derniéres versions stables de Firefox et Chrome
+
+Navigateurs compatibles :
 
