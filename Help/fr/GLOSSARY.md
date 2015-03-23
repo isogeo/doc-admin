@@ -10,6 +10,9 @@ Une plate-forme Web est un ensemble de briques logicielles cohérentes qui assur
 # Groupe de travail
 Dans Isogeo, l'unité de lecture est le patrimoine de données géographiques : à chaque patrimoine son groupe de travail ! Un groupe de travail est un ensemble d'utilisateurs (administrateurs, éditeurs ou lecteurs) travaillant sur un patrimoine (= inventaire). Un utilisateur peut appartenir à plusieurs groupes de travail, à différents niveaux selon chaque groupe.
 
+# Métadonnées
+Une plate-forme Web est un ensemble de briques logicielles cohérentes qui assurent un service directement accessible via une connexion Internet.
+
 # AGILE
 Ensemble de pratiques méthologiques pour les projets de développement en informatique mais pouvant s'appliquer à d'autres domaines. Voir la [fiche Wikipédia](http://fr.wikipedia.org/wiki/M%C3%A9thode_agile).
 
