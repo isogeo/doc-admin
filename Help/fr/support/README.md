@@ -20,7 +20,7 @@ Si vous souhaitez que votre problème soit traité rapidement, voici quelques bo
 
 ## Modèle de courriel pour signaler une anomalie
 
-**A :** support@isogeo.fr
+**A :** [support@isogeo.fr](mailto:support@isogeo.fr?subject=[Scan / OpenCatalog / APP] sujet problème&cc=projets@isogeo.fr)
 
 **Copie à :** chef_de_projet@isogeo.fr
 
