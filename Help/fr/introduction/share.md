@@ -1,4 +1,16 @@
-# Partager, diffuser et valoriser vos catalogues
+# Cataloguer
+
+Cette étape est essentielle au partage et à la valorisation de son patrimoine de données. Elle permet d’organiser les fiches de métadonnées dans différents catalogues, comme par exemple :
+
+* un catalogue à usage interne,
+* un catalogue à destination des partenaires
+* et un catalogue pour le grand public.
+
+Une fiche de métadonnées peut appartenir à plusieurs catalogues.
+
+Grâce à une gestion fine des catalogues, Isogeo vous permet de maîtriser la diffusion de vos données en fonction du public visé.
+
+# Valoriser vos données : partager et diffuser vos catalogues
 
 La dernière étape de ce processus consiste à valoriser vos catalogues auprès de vos utilisateurs. Grâce à une gestion des droits maîtrisée, Isogeo vous permet de diffuser vos catalogues de  données :
 

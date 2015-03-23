@@ -1,8 +1,12 @@
 # Renseigner les fiches de métadonnées
 
-Chaque donnée de votre inventaire est décrite par sa fiche descriptive (sa métadonnée). Une fiche contient plusieurs informations réparties en onglets dont le nombre varie selon le type de ressource à documenté.
+Chaque ressource (donnée, ensemble de données, service, ressource) de votre inventaire est décrite par sa fiche descriptive (sa métadonnée). Une fiche contient plusieurs informations réparties en onglets dont le nombre varie selon le type de ressource à documenter.
 
-## Matrice des onglets par type de métadonnées
+## Les différents types de ressources
+
+fx
+
+## Onglets par type de fiches de métadonnées
 
 | Onglet          | Vecteur | Raster  | Ensemble | Service | Ressource | Ed. / lot |
 |:---------------:|:-------:|:-------:|:--------:|:-------:|:---------:|:---------:|

@@ -5,8 +5,7 @@ Pour vous faciliter la saisie des métadonnées, l’opération de scan remplit 
 * Dans l’onglet « Identification » :
 
     * le nom du fichier ou de la table ;
-    * l’emplacement de stockage de la donnée ;
-    * la vignette autogénérée (uniquement avec Isogeo Daemon).
+    * l’emplacement de stockage de la donnée.
 
 * Dans l’onglet « Histoire » :
 

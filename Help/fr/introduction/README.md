@@ -1,6 +1,6 @@
 # Présentation générale
 
-Isogeo est une solution logicielle de catalogage et de gestion des métadonnées SIG. Elle permet de :
+Isogeo est une solution logicielle de catalogage et de partage des données SIG. Elle permet de :
 
 - créer un inventaire  exhaustif, à jour et documenté des données SIG ;
 - gérer un (ou plusieurs) catalogue(s) de données à partir de l’inventaire ;

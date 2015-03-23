@@ -1,6 +1,6 @@
 # L'interface globale
 
-Une barre fixe de menus et raccourcis se trouver en haut de l'interface qui est **commune à tous les écrans de la plateforme** Isogeo. Voici le détail des différents éléments qui la composent.
+Une barre fixe de menus et raccourcis se trouve en haut de l'interface qui est **commune à tous les écrans de la plateforme** Isogeo. Voici le détail des différents éléments qui la composent, de gauche à droite.
 
 ![La barre de faire](../images/all_header_bar.png "Raccourcis et menus communs à tous les écrans de la plateforme")
 
@@ -24,7 +24,7 @@ Où que vous soyez sur Isogeo, vous pouvez lancer une recherche simple ou avanc�
 
 ![Barre de recherche et filtres](../images/search_bar_filters_empty.png "Faire une recherche simple ou avancée à tout moment")
 
-Pour maîtriser au mieux la recherche et la navigation de l'inventaire, voir [le chapitre dédié (5.4)](../features/inventory/README.html).
+Pour maîtriser au mieux la recherche et la navigation de l'inventaire, voir [le chapitre dédié](../features/inventory/search.html).
 
 ## Les menus
 

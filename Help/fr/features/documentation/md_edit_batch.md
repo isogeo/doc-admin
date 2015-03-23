@@ -10,6 +10,8 @@ La démarche à suivre est la suivante :
 
 ![L'édition par lot](../../images/inv_edit_batch_demo_history_comment.gif "Démonstration de l'édition par lot")
 
+> Astuce : vérifiez bien votre sélection avant de vous lancer dans une édition par lot (voir les précisions plus bas).
+
 ## Champs éditables par lot
 
 | Onglet          | Ed. / lot |
@@ -26,11 +28,11 @@ La démarche à suivre est la suivante :
 | Métadonnée      | X         |
 
 
-## Précisions
+## Fonctionnement et précisions
 
-*  l'édition par lot n'affiche pas les informations déjà renseignées dans les fiches sélectionnées. C'est pourquoi l'onglet géographie affiche toujours une carte vide.
+*  l'édition par lot n'affiche pas les informations déjà renseignées dans les fiches sélectionnées. Par exemple c'est pourquoi l'onglet géographie affiche toujours une carte vide.
 
-* l'édition par lot écrase les valeurs existantes dans les fiches sélectionnées. Par exemple, si vous indiquez un résumé, il écrasera les résumés éventuellement renseignés auparavant.
+* l'édition par lot écrase les valeurs existantes des champs uniques et ajoute les valeurs indiquées pour les champs multiples. Par exemple, si vous indiquez un résumé et une ressource associée, il écrasera les résumés éventuellement renseignés auparavant mais ajoutera la ressource associée aux précédentes.
 
 * l'édition par lot ne s'appliquera qu'aux champs modifiés. Par exemple, si vous n'ajoutez que le résumé, les autres champs seront laissés en l'état.
 

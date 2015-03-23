@@ -33,11 +33,11 @@ Le service est théoriquement capable de scanner l’ensemble des formats pris e
 
 Tous les formats ne sont néanmoins pas pris en compte au même degré et de la même façon, compte-tenu de leurs spécificités. Le tableau 1 rappelle également que certaines licences sont nécessaires à la prise en charge de certains formats.
 
-### Licences requises
+## Licences minimales requises
 
 | Stockage | Type    | Format                       | Dépendances indispensables | Licence FME  |
-|:-------- | ------- | -----------                  | -------------------------- | ------------ |
-| Fichiers | Vecteur | MapInfo TAB                  | .tab, .dat. id, . map      | Professional |
+|:-------- | ------- | ---------------------------- | -------------------------- | ------------ |
+| Fichiers | Vecteur | MapInfo TAB                  | .tab, .dat, id, . map      | Professional |
 | Fichiers | Vecteur | Esri shapefile               | .shp, .dbf, .shx           | Professional |
 | Fichiers | Vecteur | MapInfo Interchange Format   | .mif, .mid                 | Professional |
 | Fichiers | Raster  | Enhanced Compression Wavelet | .ecw                       | Professional |

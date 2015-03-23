@@ -37,5 +37,7 @@ Allez dans l’inventaire pour découvrir ces données et parcourir leurs métad
 ## Précisions
 
 cas de la copie d'une donnée
+
 renommer un point d'entrée
+
 table visible à partir de plusieurs points d'entrée
