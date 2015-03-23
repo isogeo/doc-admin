@@ -27,10 +27,8 @@ Les éléments des graphiques agissent comme des raccourcis filtrés sur l'inven
 
 ## Le point de contact du groupe de travail
 
-contacts dans Isogeo
+Ces coordonnées sont celles au point de contact global du groupe de travail. Il est affecté en tant que [point de contact de toutes les métadonnées](http://georezo.net/wiki/main/donnees/inspire/aide_a_la_saisie_des_metadonnees_inspire#point_de_contact_des_metadonnees), information requise par la directive INSPIRE par exemple.  Il faut le différencer des [contacts relatifs aux jeux de données et services](http://georezo.net/wiki/main/donnees/inspire/aide_a_la_saisie_des_metadonnees_inspire#organisations_responsables_de_l_etablissement_de_la_gestion_de_la_maintenance_et_de_la_diffusion_des_series_et_services_de_donnees_geographiques), qui sont à spécifier dans l'édition des fiches correspondantes.
 
-pré-requis INSPIRE
-
-commun à toutes les MD quand elles sont sous forme de XML (donc dans le CSW)
+Il est donc très important de renseigner ces coordonnées en cliquant sur l'icône d'édition qui apparaît au survol de la souris en haut à droite de cette partie :
 
 ![Edition du point de contact](../images/tdb_edit_contact_workgroup.gif "Editer le point de contact global du groupe de travail Isogeo")
