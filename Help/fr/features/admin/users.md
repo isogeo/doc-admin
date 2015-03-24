@@ -1,9 +1,11 @@
 # Gestion des utilisateurs
 
 Isogeo distingue trois profils utilisateurs :
-* Administrateur,
-* Éditeur,
-* Lecteur.
+* L’`administrateur` accède à toutes les fonctionnalités de l’application. Il gère les utilisateurs et leurs droits, les éléments communs à l'échelle du groupe de travail, le recensement des données, la mise à jour de l’inventaire, les catalogues, les partages, la diffusion et peut saisir des métadonnées.
+
+* L’`éditeur` peut saisir et modifier des métadonnées, rechercher des données et exploiter ces données grâce aux services et ressources associés.
+
+* Le `lecteur` peut rechercher des données et exploiter les données grâce aux services et ressources associés. Dans la pratique, ce profil est très peu utilisé, on préfèrera créer des OpenCatalog pour une consultation plus confortable.
 
 ## Inviter un nouvel utilisateur
 
@@ -17,8 +19,9 @@ Pour inviter un nouvel utilisateur :
 
 L'utilisateur reçoit alors un courriel d'invitation ([voir le chapitre dédié](../../start/signup.html)).
 
-![Nouvel utilisateur](../../images/adm_users_add.gif "In`vite[r un nouvel utilisateur`](https://app.isogeo.com/admin/users/invitations/new)")
+> L’invitation est valable 7 jours et un administrateur peut la révoquer à tout moment.
 
+![Nouvel utilisateur](../../images/adm_users_add.gif "Inviter un nouvel utilisateur")
 
 ## Droits de chaque profil
 
