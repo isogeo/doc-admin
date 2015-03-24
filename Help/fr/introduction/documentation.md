@@ -11,7 +11,7 @@ En respectant le formalisme imposé par la directive Inspire et les normes d’i
 
 * **Associer** : lier des services aux données (carte PDF, carte interactive, lien de téléchargement, site web, etc.). Cette opération fait de la métadonnée un véritable ‘concentrateur de ressources’ et permet à vos utilisateurs d’accéder facilement aux données.
 
-| ![Utilisation simple](../images/icone_simple_bleu_140px.png "Ergonomie et simplicité d'utilisation") | ![Multi-utilisateurs](../images/icone_multiuser_bleu_140px.png "Gestion muti-comptes") | ![Tableau de bord](../images/icone_tdb_bleu.png "Tableau de bord") | ![Compatibilité INSPIRE](../images/icone_inspire_bleu_140px.png "Interopérabilité avec les standards") |
+| ![Utilisation simple](../images/icone_simple_bleu_140px.png "Ergonomie et simplicité d'utilisation") | ![Multi-utilisateurs](../images/icone_multiuser_bleu_140px.png "Gestion muti-comptes") | ![Tableau de bord](../images/icone_tdb_bleu_140px.png "Tableau de bord") | ![Compatibilité INSPIRE](../images/icone_inspire_bleu_140px.png "Interopérabilité avec les standards") |
 | :--: | :-- | :--: | :--: |
 
 # Maintenir son patrimoine à jour
