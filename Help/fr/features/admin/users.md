@@ -41,7 +41,8 @@ L'utilisateur reçoit alors un courriel d'invitation ([voir le chapitre dédié]
 | Gérer les spécifications                      | X                 |           |           |
 | Gérer les paramètres du groupe                | X                 |           |           |
 | Créer une métadonnée                          | X                 |           |           |
-| Accéder à l'inventaire complet                | X                 | X         | X         |
+| Accéder à l'inventaire complet                | X                 |           |           |
+| Accéder aux données cataloguées               | X                 | X         | X         |
 | Modifier les métadonnées                      | X                 | X         |           |
 | Créer / affecter / désaffecter un mot-clé     | X                 | X         |           |
 | Affecter / désaffecter une thématique INSPIRE | X                 | X         |           |           |
