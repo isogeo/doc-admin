@@ -7,6 +7,8 @@ Isogeo distingue trois profils utilisateurs :
 
 * Le `lecteur` peut rechercher des données et exploiter les données grâce aux services et ressources associés. Dans la pratique, ce profil est très peu utilisé, on préfèrera créer des OpenCatalog pour une consultation plus confortable.
 
+> Astuce : accéder directement aux [utilisateurs](https://app.isogeo.com/admin/users/memberships).
+
 ## Inviter un nouvel utilisateur
 
 Pour inviter un nouvel utilisateur :
@@ -28,10 +30,10 @@ L'utilisateur reçoit alors un courriel d'invitation ([voir le chapitre dédié]
 | Fonctionnalités                               | Administrateur    | Éditeur   | Lecteur   |
 | :-------------------------------------------- | :---------------: | :-------: | :-------: |
 | Gérer les utilisateurs                        | X                 |           |           |
-| Gérer les contacts (carnet d'adresses)        | X                 |           |           |
+| Ajouter / modifier / supprimer un contact     | X                 |           |           |
 | Gérer les points d'entrée                     | X                 |           |           |
 | Gérer le scan                                 | X                 |           |           |
-| Gérer les catalogues                          | X                 |           |           |
+| Créer, affecter ou désaffecter un catalogue   | X                 |           |           |
 | Gérer les partages                            | X                 |           |           |
 | Gérer le moissonnage CSW                      | X                 |           |           |
 | Gérer la liste des système des coordonnées    | X                 |           |           |
@@ -40,4 +42,6 @@ L'utilisateur reçoit alors un courriel d'invitation ([voir le chapitre dédié]
 | Gérer les paramètres du groupe                | X                 |           |           |
 | Créer une métadonnée                          | X                 |           |           |
 | Accéder à l'inventaire complet                | X                 | X         | X         |
-| Modifier les métadonnées                      | X                 | X         |           ||
+| Modifier les métadonnées                      | X                 | X         |           |
+| Créer / affecter / désaffecter un mot-clé     | X                 | X         |           |
+| Affecter / désaffecter une thématique INSPIRE | X                 | X         |           |           |
