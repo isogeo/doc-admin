@@ -2,6 +2,7 @@
 
 Une donnée SIG est souvent créée et vérifiée à partir d'un certain nombre de spécifications techniques regroupées dans différents types de documents : standards officiels, cahiers des charges, descriptif de livraison, feuille de route technique, etc.
 
+> Astuce : accéder directement aux [spécifications](https://app.isogeo.com/admin/specifications).
 
  Pour porter à connaissance de vos utilisateurs cette précieuse information, Isogeo vous permet de gérer un référentiel de spécifications.
 La démarche est très simple, commencez par lister les spécifications de données utilisées au sein de votre organisme. Ensuite, lors de la saisie des métadonnées il vous suffira d’y faire référence. Une modification dans les spécifications survient, pas de panique !
