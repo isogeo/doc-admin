@@ -10,7 +10,7 @@ contact métadonnée, contact donnée
 
 ## Matrice des rôles des contacts
 
-| Rôle               | Description | INSPIRE | Recommandé |
+| Rôle               | Description | INSPIRE | [Recommandé](http://georezo.net/wiki/main/donnees/inspire/aide_a_la_saisie_des_metadonnees_inspire#organisations_responsables_de_l_etablissement_de_la_gestion_de_la_maintenance_et_de_la_diffusion_des_series_et_services_de_donnees_geographiques) |
 |:-------------------|:-----------:|:--------|:----------:|
 | Auteur             | X           | X       | X          |
 | Analyste principal | X           | X       | X          |
