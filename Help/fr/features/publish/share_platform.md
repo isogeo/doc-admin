@@ -21,4 +21,4 @@ Le(s) destinataire(s) de votre partage qui pourront consulter votre catalogue da
 
 En activant l’option `J'autorise les destinataires de ce partage à diffuser ces catalogues`, vous permettez à l’organisme destinataire de diffuser vos catalogues à travers ses propre partages CSW et OpenCatalog.
 
-![Icone partage](/fr/images/adm_shares_platform_edit.png "Partager les catalogues entre groupes de travail Isogeo")
+![Partager sur la plateforme](/fr/images/adm_shares_platform_edit.png "Partager les catalogues entre groupes de travail Isogeo")
