@@ -18,7 +18,7 @@ Exemple : « Cette donnée représente tous les terrains de sport aménagés en 
 
 ### Emplacement / nom de la donnée
 
-L’emplacement de stockage de la donnée, qu'il s'gisse d'un fichier ou d'une base de données.
+L’emplacement de stockage de la donnée, qu'il s'agisse d'un fichier ou d'une base de données.
 
 ### Rapport de validation d'INSPIRE
 

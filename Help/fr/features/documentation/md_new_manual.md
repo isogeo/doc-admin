@@ -19,4 +19,4 @@ Pour cela il suffit de cliquer sur le bouton `+ Créer`de l'inventaire. Vous ave
 Cette fonctionnalité est utile dans différents cas de figure :
 si vous n’êtes pas équipé du scan ou si vous souhaitez créer des fiches de métadonnées dont les formats de données ne sont pas pris en compte (format SIG non pris en compte, carte PDF, fichier statistique Excel, etc.).
 
-> L'administrateur d'un groupe de travail peut désactiver sette possibilité via les paramètres dans le menu `Administration`.
+> Astuce : l'administrateur d'un groupe de travail peut désactiver sette possibilité via les paramètres dans le menu `Administration`.

@@ -20,17 +20,7 @@ Après validation, un lien de téléchargement est mis à votre disposition. Cli
 
 Une fenêtre va alors s’ouvrir et vous indiquer que l’installation et le démarrage du service sont en cours puis se fermer automatiquement.
 
-Si la fenêtre ne se ferme pas et qu’un message d’erreur est apparu, contactez notre support par mail à support@isogeo.fr ou par téléphone au 09 82 37 20 53.
-
-
-
-
-
-
-
-
-
-
+Si la fenêtre ne se ferme pas et qu’un message d’erreur est apparu, contactez notre support par mail à support@isogeo.fr.
 
 ## Configuration du service
 

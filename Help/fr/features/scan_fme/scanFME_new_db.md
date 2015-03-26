@@ -20,7 +20,7 @@ Légende :
 * \ = facultatif
 * \- = désactivé
 
-| Champ                       | PostGIS | Oracle | SQL Server | + Geodatabase Esri (SDE) |
+| Champ                       | PostGIS | Oracle | SQL Server | + Esri (SDE) |
 | --------------------------- | :-----: | :----: | :--------: | :----------------------: |
 | Nom                         | X       | X      | X          | X                        |
 | Type                        | X       | X      | X          | X                        |

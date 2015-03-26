@@ -14,7 +14,7 @@ Pour pouvoir utiliser le Service Isogeo Worker (scan FME) sur votre poste de tra
 * Windows Server 2003 SP2
 * Windows XP SP3 (sauf la version 64 bits)
 
-Même si il est possible d’installer le service Isogeo sur un poste d'utilisateur, il est recommandé d’utiliser un serveur pour des questions de performances, d’accès et de disponibilité.
+Même s'il est possible d’installer le service Isogeo sur un poste d'utilisateur, il est recommandé d’utiliser un serveur pour des questions de performances, d’accès et de disponibilité.
 
 ## Installation de FME Desktop
 

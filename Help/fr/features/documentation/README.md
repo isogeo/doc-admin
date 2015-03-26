@@ -4,7 +4,12 @@ Chaque ressource (donnée, ensemble de données, service, ressource) de votre in
 
 ## Les différents types de ressources
 
-fx
+Il y a plusieurs types de fiches de métadonnées possibles :
+* jeu de données de type vecteur ;
+* jeu de données de type raster ;
+* ensemble de données (collection) ;
+* service ;
+* ressource.
 
 ## Onglets par type de fiches de métadonnées
 

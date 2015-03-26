@@ -13,11 +13,11 @@ Isogeo distingue trois profils utilisateurs :
 
 Pour inviter un nouvel utilisateur :
 
-1. aller dans [le menu dédié](https://app.isogeo.com/admin/users) ;
-2. cliquer sur [l'onglet `+ Inviter`](https://app.isogeo.com/admin/users/invitations/new) ;
-3. entrer l'adresse électronique de l'utilisateur ;
-4. choisir le niveau d'accès ;
-5. cliquer sur `Inviter`.
+1. Aller dans [le menu dédié](https://app.isogeo.com/admin/users) ;
+2. Cliquer sur [l'onglet `+ Inviter`](https://app.isogeo.com/admin/users/invitations/new) ;
+3. Entrer l'adresse électronique de l'utilisateur ;
+4. Choisir le niveau d'accès ;
+5. Cliquer sur `Inviter`.
 
 L'utilisateur reçoit alors un courriel d'invitation ([voir le chapitre dédié](/fr/start/signup.html)).
 
@@ -43,7 +43,7 @@ L'utilisateur reçoit alors un courriel d'invitation ([voir le chapitre dédié]
 | Créer une métadonnée                          | X                 |           |           |
 | Accéder à l'inventaire complet                | X                 |           |           |
 | Accéder au tableau de bord                    | X                 | X         |           |
-| Accéder aux données cataloguées               | X                 | X         | X         |
 | Modifier les métadonnées                      | X                 | X         |           |
 | Créer / affecter / désaffecter un mot-clé     | X                 | X         |           |
-| Affecter / désaffecter une thématique INSPIRE | X                 | X         |           |           |
+| Affecter / désaffecter une thématique INSPIRE | X                 | X         |           |
+| Accéder aux données cataloguées               | X                 | X         | X         |
