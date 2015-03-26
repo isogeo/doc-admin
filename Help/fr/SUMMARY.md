@@ -54,7 +54,7 @@
        * [Diffuser vos catalogues via OpenCatalog](features/publish/share_opencatalog.md)
        * [Régler l'affichage des liens selon les usages](features/publish/share_visibility.md)
    * [Administrer](features/admin/README.md)
-       * [Le groupe](features/admin/group.md)
+       * [Le groupe de travail](features/admin/group.md)
        * [Les utilisateurs](features/admin/users.md)
        * [Le carnet d'adresses](features/admin/contacts.md)
        * [Les systèmes de coordonnées](features/admin/srs.md)
