@@ -123,3 +123,17 @@ Ou sans numéros :
 
 [Chemin relatif vers un fichier par exemple](/fr/index.pdf)
 
+
+## Images
+
+Attention il n'est pas possible de préciser les dimensions de l'image. Il faut donc lier vers une image déjà redimensionnée.
+
+#### Syntaxe
+
+```no-highlight
+![Texte alternatif](http://www.isogeo.com/images/logo.png "Titre de l'image")
+```
+
+#### Rendu
+
+![Texte alternatif](http://www.isogeo.com/images/logo.png "Titre de l'image")
