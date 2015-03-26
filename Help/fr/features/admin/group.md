@@ -23,3 +23,5 @@ La langue d’une métadonnée doit être spécifiée dans l’onglet `Métadonn
 ## Couleur du thème pour les OpenCatalogs
 
 Si vous souhaitez intégrer au mieux les OpenCatalogs dans la charte graphique de votre organisme, vous pouvez sélectionner la couleur principale du thème.
+
+![Thème OpenCatalogs](fr/images/adm_global_OC_ThemeSwitcher.gif "Configurer la coleur principale des OpenCatalogs")
