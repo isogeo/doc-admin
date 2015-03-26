@@ -1,4 +1,4 @@
-# Paraméter mon compte Isogeo
+# Paramétrer mon compte Isogeo
 
 En cliquant sur votre nom en haut à droite de votre écran, vous pouvez visualiser et modifier les différents paramètres de votre compte Isogeo. Par défaut vous arrivez sur la page de vos réglages.
 
