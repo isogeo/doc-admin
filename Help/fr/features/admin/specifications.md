@@ -2,20 +2,33 @@
 
 Une donnée SIG est souvent créée et vérifiée à partir d'un certain nombre de spécifications techniques regroupées dans différents types de documents : standards officiels, cahiers des charges, descriptif de livraison, feuille de route technique, etc.
 
+Pour porter à connaissance de vos utilisateurs cette précieuse information, Isogeo vous permet de gérer un référentiel centralisé de spécifications dans lequel il suffit de piocher lors de la saisie des métadonnées. Les modifications apportées à une spécification du référentiel sont dynamiquement reportées sur toutes les fiches auxquelles elle a été appliquée.
+
 > Astuce : accéder directement aux [spécifications](https://app.isogeo.com/admin/specifications).
 
- Pour porter à connaissance de vos utilisateurs cette précieuse information, Isogeo vous permet de gérer un référentiel de spécifications.
-La démarche est très simple, commencez par lister les spécifications de données utilisées au sein de votre organisme. Ensuite, lors de la saisie des métadonnées il vous suffira d’y faire référence. Une modification dans les spécifications survient, pas de panique !
+## Les différentes spécifications
 
-Modifier uniquement votre référentiel,  toutes les métadonnées y faisant références seront automatiquement mis à jour.
+Par défaut, Isogeo propose un certain nombre de standards de référence (INSPIRE, Covadis...). Elles sont identifiables facilement grâce à l'icône de cadenas en regard du titre dans la liste.
 
-Plus besoin de révisé chacune de vos fiches. Du temps de gagné, des métadonnées de qualité !
+Grâce aux onglets, vous pouvez filtrer :
+* [`Mes spécifications`](https://app.isogeo.com/admin/specifications/owned) : seulement les licences de votre groupe de travail ;
+* [`Autres`](https://app.isogeo.com/admin/specifications/shared) : les licences disponibles par défaut par Isogeo ;
+* `Toutes` : l'ensemble des licences.
 
-Pour listes les spécifications disponibles au sein de votre organisme, il vous suffit de :
-5.	Dans le menu « Administration > Spécifications » ;
-6.	Cliquer sur le bouton « + » pour ajouter une spécification ;
-7.	Renseigner : le nom, l’URL et la date de publication ;
-8.	Enregistrer
+## Ajouter une spécification
 
-Toutes les spécifications ajoutées sont disponibles dans l’onglet « Qualité > Spécifications »
-Pour supprimer une spécification, il vous suffit de la sélectionner et de cliquer sur « Supprimer »
+Pour ajouter une spécification au sein de votre groupe de travail, il vous suffit de :
+
+1.	Dans le menu `Administration` > `Spécifications` ;
+2.	Cliquer sur le bouton [`+ Ajouter`](https://app.isogeo.com/admin/specifications/new) ;
+3.	Renseigner :
+    * le nom : intitulé descriptif comportant généralement le numéro de version ou la date de référence ;
+    * l’URL : le lien vers le document complet de la licence ;
+    * et un résumé des conditions (libre ou pas, payant ou pas, restreint ou pas, etc.).
+4.	Cliquer sur `Créer`, `Enregistrer` ou `Supprimer`.
+
+Toutes les spécifications ajoutées sont disponibles dans l’onglet`Qualité` > `Spécifications`.
+
+![Démo nouvelle spécification](../../images/adm_specs_add.gif "Ajouter une nouvelle spécification")
+
+
