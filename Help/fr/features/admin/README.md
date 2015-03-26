@@ -9,4 +9,4 @@ Elle est composée de plusieurs sections :
 *  `Configuration`, pour régler les différentes ressources disponibles à l'échelle du groupe de travail ;
 *  `Applications`, où vous pouvez accéder aux interfaces indépendantes de l'application, comme le scan FME.
 
-![Démo menu administration](../../images/adm_tour_menus.gif "Tour guidé de l'administration")
+![Démo menu administration](/fr/images/adm_tour_menus.gif "Tour guidé de l'administration")

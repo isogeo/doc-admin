@@ -2,7 +2,7 @@ Isogeo est une application web qui vous permet de gérer et partager un catalogu
 
 Ce document vous explique pas à pas comment l’utiliser en décrivant le fonctionnement et l'utilisation de ses différents modules et ressources. Si vous rencontrez des difficultés que vous ne parvenez pas à résoudre avec cette aide en ligne, [contactez le support](support/README.html).
 
-![La plateforme](images/offer_schema_platform_modAPI.png "Modules et ressources de la plateforme Isogeo")
+![La plateforme](/fr/images/offer_schema_platform_modAPI.png "Modules et ressources de la plateforme Isogeo")
 
 ## Navigateurs supportés
 
@@ -19,7 +19,7 @@ Pour accéder à un OpenCatalog, les navigateurs supportés sont :
 * 3 derniéres versions stables de [Mozilla Firefox](https://www.mozilla.org/fr/firefox) et [Google Chrome](https://www.google.fr/chrome/browser/desktop/).
 
 
-![Alerte navigateur](images/OC_browser_alert.png "Message qui s'affiche en cas de navigateur non supporté")
+![Alerte navigateur](/fr/images/OC_browser_alert.png "Message qui s'affiche en cas de navigateur non supporté")
 
 > Astuce : si vous ou vos utilisateurs ne possèdent pas les droits suffisants pour mettre à jour le navigateur, vous pouvez utiliser une version portable (sans installation mais aux performances réduites) de [Mozilla Firefox](http://portableapps.com/apps/internet/firefox_portable/localization).
 
@@ -37,8 +37,8 @@ Cette aide en ligne est un site internet à part entière basé sur l'outil [Git
 * type et taille de police personnalisable ;
 * glossaire dynamique ;
 * chaque page et chaque niveau de titre a une URL spécifique permettant de partager des raccourcis précis facilement (exemple : [aller directement aux bonnes pratiques du support](/fr/support/README.html#bonnes-pratiques)) ;
-* pour voir les animations en bonne résolution faire un clic-droit et choisir *Aficher l'image dans un nouvel onglet* ;
+* pour voir les animations en bonne résolution faire un clic-droit et choisir *Afficher l'image [dans un nouvel onglet]* ;
 * boutons de partage sur les réseaux sociaux ;
-* [document PDF](http://help.isogeo.com/fr/index.pdf) généré pour impression éventuelle (non optimisé).
+* [document PDF](/fr/index.pdf) généré pour impression éventuelle (non optimisé).
 
-![Interface de l'aide en ligne](images/GitBook_help.png "Utiliser GitBook")
+![Interface de l'aide en ligne](/fr/images/GitBook_help.png "Utiliser GitBook")

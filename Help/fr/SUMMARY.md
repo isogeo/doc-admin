@@ -21,7 +21,7 @@
 * [Fonctionnalités](features/README.md)
    * [Recenser](features/scan_fme/README.md)
        * [Le processus de scan automatique](features/scan_fme/scanFME_process.md)
-       * [Les types de "Point d'entrée"](features/scan_fme/scanFME_source.md)
+       * [Les types de "points d'entrée"](features/scan_fme/scanFME_source.md)
        * [Les formats pris en compte](features/scan_fme/scanFME_formats.md)
        * [Créer un point d'entrée "Fichiers"](features/scan_fme/scanFME_new_files.md)
        * [Créer un point d'entrée "Base de données"](features/scan_fme/scanFME_new_db.md)

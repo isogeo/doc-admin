@@ -1,6 +1,6 @@
 # Le tableau de bord
 
-![Le tableau de bord](../images/tdb_formats.png "Le tableau de bord d'Isogeo")
+![Le tableau de bord](/fr/images/tdb_formats.png "Le tableau de bord d'Isogeo")
 
 ## Un outil de monitoring
 
@@ -19,7 +19,7 @@ Page d'accueil des administrateurs, il synthètise votre patrimoine de données 
 
 Chaque catégorie en orange affiche un graphique différent correspondant à la métrique choisie :
 
-![Les métriques de l'inventaire](../images/tdb_metrics.gif "Raccourcis et menus communs à tous les écrans de la plateforme")
+![Les métriques de l'inventaire](/fr/images/tdb_metrics.gif "Raccourcis et menus communs à tous les écrans de la plateforme")
 
 Les éléments des graphiques agissent comme des raccourcis filtrés sur l'inventaire. Par exemple, dans le diagramme en camembert des formats, si vous cliquez sur l'un des formats représentés, vous accèderez directement à la liste des données correspondantes au format choisi.
 
@@ -31,4 +31,4 @@ Ces coordonnées sont celles au point de contact global du groupe de travail. Il
 
 Il est donc très important de renseigner ces coordonnées en cliquant sur l'icône d'édition qui apparaît au survol de la souris en haut à droite de cette partie :
 
-![Edition du point de contact](../images/tdb_edit_contact_workgroup.gif "Editer le point de contact global du groupe de travail Isogeo")
+![Edition du point de contact](/fr/images/tdb_edit_contact_workgroup.gif "Editer le point de contact global du groupe de travail Isogeo")

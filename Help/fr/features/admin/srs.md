@@ -19,4 +19,4 @@ Pour configurer la liste des systèmes de coordonnées :
 
 Pour retirer un système de coordonnées, il suffit de cliquer sur l'icône en forme de poubelle en regard de chaque projection (l'alias est perdu).
 
-![Nouvel utilisateur](../../images/adm_srs_add.gif "Inviter un nouvel utilisateur")
+![Nouvel utilisateur](/fr/images/adm_srs_add.gif "Inviter un nouvel utilisateur")

@@ -19,18 +19,18 @@ Pour inviter un nouvel utilisateur :
 4. choisir le niveau d'accès ;
 5. cliquer sur `Inviter`.
 
-L'utilisateur reçoit alors un courriel d'invitation ([voir le chapitre dédié](../../start/signup.html)).
+L'utilisateur reçoit alors un courriel d'invitation ([voir le chapitre dédié](/fr/start/signup.html)).
 
 > L’invitation est valable 7 jours et un administrateur peut la révoquer à tout moment.
 
-![Nouvel utilisateur](../../images/adm_users_add.gif "Inviter un nouvel utilisateur")
+![Nouvel utilisateur](fr/images/adm_users_add.gif "Inviter un nouvel utilisateur")
 
 ## Droits de chaque profil
 
 | Fonctionnalités                               | Administrateur    | Éditeur   | Lecteur   |
 | :-------------------------------------------- | :---------------: | :-------: | :-------: |
 | Gérer les utilisateurs                        | X                 |           |           |
-| Ajouter / modifier / supprimer un contact     | X                 |           |           |
+| Gérer le carnet d'adresses                    | X                 |           |           |
 | Gérer les points d'entrée                     | X                 |           |           |
 | Gérer le scan                                 | X                 |           |           |
 | Créer, affecter ou désaffecter un catalogue   | X                 |           |           |
@@ -42,6 +42,7 @@ L'utilisateur reçoit alors un courriel d'invitation ([voir le chapitre dédié]
 | Gérer les paramètres du groupe                | X                 |           |           |
 | Créer une métadonnée                          | X                 |           |           |
 | Accéder à l'inventaire complet                | X                 |           |           |
+| Accéder au tableau de bord                    | X                 | X         |           |
 | Accéder aux données cataloguées               | X                 | X         | X         |
 | Modifier les métadonnées                      | X                 | X         |           |
 | Créer / affecter / désaffecter un mot-clé     | X                 | X         |           |

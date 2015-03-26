@@ -15,7 +15,7 @@ Première étape du cycle de documentation, il est très facile d'étiqueter dan
 1.	Aller dans l'inventaire et sélectionner une ou plusieurs données ;
 2.	Cliquer sur `Etiqueter`, le widget se déroule alors ;
 
-![Etiqueter](../../images/inv_edit_tags_widget.png "Widget étiquetage")
+![Etiqueter](/fr/images/inv_edit_tags_widget.png "Widget étiquetage")
 
 Vous voyez alors :
 * la liste des étiquettes déjà affectées aux données sélectionnées, par types et par ordre alphabétique ;
@@ -27,4 +27,4 @@ Vous voyez alors :
     * `Voir toutes les thématiques Inspire` permet d'afficher toutes les thématiques de la directive ;
     * `Voir les mots-clés` permet d'afficher les mots-clés utilisés dans les données selectionnées et les mots-clés correspondant à la recherche saisie ;
 
-![Affecter et enlever des mots-clés](../../images/inv_edit_tags_keywords.gif "Mots-clés")
+![Affecter et enlever des mots-clés](/fr/images/inv_edit_tags_keywords.gif "Mots-clés")

@@ -1,4 +1,4 @@
-# Cataloguer
+# Cataloguer : un prérequis pour partager
 
 Cette étape est essentielle au partage et à la valorisation de son patrimoine de données. Elle permet d’organiser les fiches de métadonnées dans différents catalogues, comme par exemple :
 
@@ -24,7 +24,7 @@ Ainsi tous vos utilisateurs - internes et externes – ont accès à un catalogu
 
 Si Isogeo place les métadonnées au cœur d’un processus métier innovant, c’est dans un cadre plus global de définition d’une gouvernance territoriale des données géographiques dans laquelle producteurs, utilisateurs et administrateurs participent à l’enrichissement et à la valorisation collective de données géographiques maitrisées.
 
-| ![OpenCatalog](../images/icone_OpenCatalog_140px.png "Diffuser facilement ses catalogues grâce à OpenCatalog") | ![Partage](../images/icone_partage_140px.png "Partager et collaborer avec entre groupes de travail de la plateforme") | ![CSW](../images/icone_CSW_140px.png "Echanger ses données avec d'autres noeuds CSW") | ![API](../images/icone_API_140px.png "Créer des interfaces d'accès au patrimoine via l'API") |
+| ![OpenCatalog](/fr/images/icone_OpenCatalog_140px.png "Diffuser facilement ses catalogues grâce à OpenCatalog") | ![Partage](/fr/images/icone_partage_140px.png "Partager et collaborer avec entre groupes de travail de la plateforme") | ![CSW](/fr/images/icone_CSW_140px.png "Echanger ses données avec d'autres noeuds CSW") | ![API](/fr/images/icone_API_140px.png "Créer des interfaces d'accès au patrimoine via l'API") |
 | :--: | :-- | :--: | :--: |
 
 

@@ -29,6 +29,6 @@ Pour ajouter une spécification au sein de votre groupe de travail, il vous suff
 
 Toutes les spécifications ajoutées sont disponibles dans l’onglet`Qualité` > `Spécifications`.
 
-![Démo nouvelle spécification](../../images/adm_specs_add.gif "Ajouter une nouvelle spécification")
+![Démo nouvelle spécification](/fr/images/adm_specs_add.gif "Ajouter une nouvelle spécification")
 
 

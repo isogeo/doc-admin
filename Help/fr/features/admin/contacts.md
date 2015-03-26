@@ -15,6 +15,6 @@ Pour créer un contact, la démarche est simple, il faut :
 
 Tous les contacts créés peuvent être affectés aux fiches de métadonnées via l’onglet « Contact » d’une fiche de métadonnées.
 
-![Démo nouveau contact](../../images/adm_contacts_add.gif "Créer un nouveau contact")
+![Démo nouveau contact](/fr/images/adm_contacts_add.gif "Créer un nouveau contact")
 
 > Astuce : aucun champ de contact n'est requis pour pouvoir créer un contact. Il est donc possible de créer tous les contacts à la suite et de revenir les compléter ou modifier plus tard, lorsque vous disposez de leurs coordonnées ou avez décidé de telle modalité ou formulation.

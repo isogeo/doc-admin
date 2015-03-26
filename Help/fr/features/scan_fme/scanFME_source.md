@@ -1,6 +1,6 @@
-# Les points d'entrées
+# Les points d'entrée
 
-Il existe trois types de « points d’entrée » :
+Il existe deux types de « points d’entrée » :
 
 * Fichiers : définition des chemins d’accès aux répertoires contenant les données géographiques (sur un ou plusieurs serveurs ; sur un ou plusieurs postes informatiques ; prise en compte ou non des sous-répertoires) et sélection d’une liste des formats à scanner ;
 

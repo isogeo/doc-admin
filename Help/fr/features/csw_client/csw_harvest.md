@@ -23,7 +23,7 @@ Pour créer un point d’entrée « Service CSW », vous devez :
 5.  Enregistrer
 6.  Scanner
 
-![Nouveau point d'entrée CSW](../images/user_profile_coordinates.png "Moissonner un serveur CSW")
+![Nouveau point d'entrée CSW](/fr/images/user_profile_coordinates.png "Moissonner un serveur CSW")
 
 Une fois le scan terminé, toutes les fiches de métadonnées récoltées sont consultables dans l’inventaire et directement accessibles via la catégorie de filtres « Autres », en bas de liste.
 

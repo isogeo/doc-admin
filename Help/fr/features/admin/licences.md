@@ -31,7 +31,7 @@ Pour ajouter une licence au sein de votre groupe de travail, il vous suffit de :
 
 Toutes les licences ajoutées sont disponibles dans l’onglet `CGU` > `Conditions` lors de l'édition d'une fiche de métadonnées.
 
-![Démo nouvelle licence](../../images/adm_licenses_add.gif "Ajouter une nouvelle licence")
+![Démo nouvelle licence](/fr/images/adm_licenses_add.gif "Ajouter une nouvelle licence")
 
 ## Usage avancé
 

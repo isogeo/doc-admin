@@ -5,7 +5,7 @@ Pour utiliser Isogeo, il suffit de se rendre sur https://app.isogeo.com muni(e) 
 * Adresse e-mail : exemple@domaine.fr ;
 * Mot de passe : monmotdepasse
 
-![Page d'authentification](../images/ID_log_in.gif "Page de connexion à la plateforme Isogeo")
+![Page d'authentification](/fr/images/ID_log_in.gif "Page de connexion à la plateforme Isogeo")
 
 Cliquez ensuite sur `Valider` : Isogeo vérifie vos identifiants et vous redirige vers la plateforme.
 
@@ -15,5 +15,5 @@ L’option `Se souvenir de moi ?` est activée par défaut. Elle vous permet d�
 
 Si vous avez perdu votre mot de passe, ce n’est pas grave ! Il vous suffit de cliquer sur le lien `Mot de passe perdu ?` et d’indiquer votre e-mail. Un courrier du support Isogeo vous communiquera la démarche à faire pour réinitialiser votre mot de passe.
 
-![Réinitialiser son mot de passe](../images/ID_password_reminder_mail.png "Le mail avec le lien de réinitialistion")
+![Réinitialiser son mot de passe](/fr/images/ID_password_reminder_mail.png "Le mail avec le lien de réinitialistion")
 
