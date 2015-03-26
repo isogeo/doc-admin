@@ -20,7 +20,7 @@ Le nom des couches disponibles peut être retrouvé grâce à l’action GetCapa
 6. Dans les actions de la ressource associée, cocher l’option `Visualisation` ;
 7. `Valider` puis `Enregistrer` au niveau de l'édition de la fiche.
 
-![Ajout flux WMS](/fr/images/inv_edit_resource_WMS.png "Ajouter un flux WMS en ressource associée")
+![Ajout flux WMS](/fr/images/inv_edit_one_resource_WMS.png "Ajouter un flux WMS en ressource associée")
 
 ### Rendu dans l'OpenCatalog
 
@@ -44,7 +44,7 @@ Le nom des couches disponibles peut être retrouvé grâce à l’action GetCapa
 6. Dans les actions de la ressource associée, cocher l’option `Visualisation` ;
 7. `Valider` puis `Enregistrer` au niveau de l'édition de la fiche.
 
-![Ajout flux WFS](/fr/images/inv_edit_resource_WFS.png "Ajouter un flux WFS en ressource associée")
+![Ajout flux WFS](/fr/images/inv_edit_one_resource_WFS.png "Ajouter un flux WFS en ressource associée")
 
 ### Rendu dans l'OpenCatalog
 
@@ -68,7 +68,7 @@ Le nom des couches disponibles peut être retrouvé grâce à l’action GetCapa
 6. Dans les actions de la ressource associé, cocher l’option `Visualisation` ;
 7. `Valider` puis `Enregistrer` au niveau de l'édition de la fiche.
 
-![Ajout flux WMTS](/fr/images/inv_edit_resource_WMTS.png "Ajouter un flux WMTS en ressource associée")
+![Ajout flux WMTS](/fr/images/inv_edit_one_resource_WMTS.png "Ajouter un flux WMTS en ressource associée")
 
 ### Rendu dans l'OpenCatalog
 
@@ -89,7 +89,7 @@ Un service Esri Feature permet d’obtenir à partir d’une requête les entit�
 5. Dans les actions de la ressource associée, cocher l’option `Visualisation` ;
 6. `Valider` puis `Enregistrer` au niveau de l'édition de la fiche.
 
-![Ajout flux Esri Map](/fr/images/inv_edit_resource_EsriMap.png "Ajouter un flux Esri Map en ressource associée")
+![Ajout flux Esri Map](/fr/images/inv_edit_one_resource_EsriMap.png "Ajouter un flux Esri Map en ressource associée")
 
 ### Rendu dans l'OpenCatalog
 
@@ -109,7 +109,7 @@ Un service Esri Feature permet d’obtenir à partir d’une requête les entit�
 5. Dans les actions de la ressource associée, cocher l’option `Visualisation`
 6. `Valider` puis `Enregistrer` au niveau de l'édition de la fiche.
 
-![Ajout flux Esri Feature](/fr/images/inv_edit_resource_EsriFeature.png "Ajouter un flux Esri Feature en ressource associée")
+![Ajout flux Esri Feature](/fr/images/inv_edit_one_resource_EsriFeature.png "Ajouter un flux Esri Feature en ressource associée")
 
 ### Rendu dans l'OpenCatalog
 
@@ -129,7 +129,7 @@ Un service Esri Feature permet d’obtenir à partir d’une requête les entit�
 5. Dans les actions de la ressource associée, cocher l’option `Visualisation` ;
 6. `Valider` puis `Enregistrer` au niveau de l'édition de la fiche.
 
-![Ajout flux Esri Tiled Map](/fr/images/inv_edit_resource_EsriTiledMap.png "Ajouter un flux Esri Tiled Map en ressource associée")
+![Ajout flux Esri Tiled Map](/fr/images/inv_edit_one_resource_EsriTiledMap.png "Ajouter un flux Esri Tiled Map en ressource associée")
 
 ### Rendu dans l'OpenCatalog
 
