@@ -1,380 +1,81 @@
-# Markdown
+# Des ressources adaptées aux usages
 
-GitBook use by default the Markdown syntax.
+Il n’est pas rare que l’administrateur de données mette en place des ressources associées aux données qui ne sont pas accessibles ou visibles par tout le monde. Le cas de figure classique est la différence d’accès entre le grand public et les services internes.
 
-This is intended as a quick reference and showcase. For more complete info, see [John Gruber's original spec](http://daringfireball.net/projects/markdown/) and the [Github-flavored Markdown info page](http://github.github.com/github-flavored-markdown/).
+Comme toujours dans Isogeo :
 
+* Priorité aux usages : les différents niveaux d’accès aux ressources dépendent du type d’utilisateurs, autrement dit des destinataires des partages ;
+* Tout est métadonnée : un bouquet de services géographiques peut également être documenté à minima ;
+* Documenter une fois, valoriser X fois.
 
-## Être référencé comme contact
+## Mise en oeuvre
 
+### Scénario classique
 
-## Langue et fuseau horaire
+Par exemple, dans le compte de démonstration d’Isogeo, nous avons inventorié les données du [portail GéoLittoral](http://www.geolittoral.developpement-durable.gouv.fr/). Imaginons un scénario selon lequel la fiche de métadonnées de submersion marine offre 3 niveaux de ressources liés aux usages :
 
+* La possibilité ouverte à **tous** (grand public) de **télécharger** la donnée brute ;
+* La possibilité pour les **utilisateurs avertis** de **visualiser** le flux WMS (rendu de la couche d’information) ;
+* La possibilité pour les **agents en interne** de **consulter les données via un flux WFS** (affichage des attributs).
 
-## Abonnements et liens utiles
+### Procédure
 
-## Headers
+Dans l’ordre, nous avons :
 
-```no-highlight
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
+1.	Créé une fiche de métadonnées de type « ressource » sur le serveur cartographique pour les utilisateurs avertis (serveur WMS donc)  et affectée au catalogue « **utilisateurs avertis (niveau 1)** » ;
 
-Alternatively, for H1 and H2, an underline-ish style:
+2.	Créé une fiche de métadonnées de type « ressource » sur le serveur cartographique pour les agents internes (serveur WFS donc) et affectée au catalogue « **agents internes (niveau 2)** » ;
 
-Alt-H1
-======
+3.	Téléversé la donnée brute directement sur la fiche de métadonnées de submersion marine créée grâce au scan automatique et affectée au catalogue GéoLittoral ;
 
-Alt-H2
-------
-```
+4.	Associé à la fiche de submersion marine le flux WMS renseigné dans la fiche sur le serveur WMS ;
 
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
+5.	Associé à la fiche de submersion marine le flux WFS renseigné dans la fiche sur le serveur WFS ;
 
-Alternatively, for H1 and H2, an underline-ish style:
+6.	Crée un partage OpenCatalog pour le grand public dans lequel on a mis le catalogue GéoLittoral sans le catalogue « public » ou « interne » : [la fiche est consultable ici](http://open.isogeo.com/s/14cbb8fce4fd471ab3af9fb849d0dcd1/GbhLhG7hoNFHdkrgh8n9o9I3Sym20/m/cb71d8f42ba44788b348b5bc9f79e58c).
 
-Alt-H1
-======
+    ![Submersion marine 0](/fr/images/adm_shares_OC_demo_Geolittoral0.png "Seul le lien de téléchargement des données est disponible")
 
-Alt-H2
-------
+7.	Créé un partage OpenCatalog pour les utilisateurs avertis grand public dans lequel on a mis le catalogue GéoLittoral avec le catalogue « utilisateurs avertis » : [la fiche est consultable ici](http://open.isogeo.com/s/4e3617fa59674e8b98b4d9a62a6ad6e7/oOGYrOxAMjf11jYmo6hbbeGNG2TC0/m/cb71d8f42ba44788b348b5bc9f79e58c).
 
+    ![Submersion marine 1](/fr/images/adm_shares_OC_demo_Geolittoral1.png "En plus du lien de téléchargement, on a accès au WMS")
 
-## Emphasis
+8.	Créé un partage OpenCatalog pour le grand public dans lequel on a mis le catalogue GéoLittoral avec le catalogue « utilisateurs avertis (niveau 1)» et le catalogue « agents internes (niveau 2)» : [la fiche est consultable ici](http://open.isogeo.com/s/d61fe9892eb345e7b6840bbfc4cf5733/zuD9LtBEXRi7ynIXyRyWIy4hC0xz0/m/cb71d8f42ba44788b348b5bc9f79e58c).
 
-```no-highlight
-Emphasis, aka italics, with *asterisks* or _underscores_.
+    ![Submersion marine 2](/fr/images/adm_shares_OC_demo_Geolittoral2.png "Accès aux 3 ressources : téléchargement, WMS et WFS")
 
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
 
-Combined emphasis with **asterisks and _underscores_**.
+### Résultat
 
-Strikethrough uses two tildes. ~~Scratch this.~~
-```
+3 niveaux d’accès différents à la même fiche de métadonnées :
 
-Emphasis, aka italics, with *asterisks* or _underscores_.
+* Une interface de consultation où il n’est possible que de télécharger les données brutes ;
 
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
+    ![Submersion marine 0](/fr/images/OC_Demo_Submersion_Niv0.png "Seul le lien de téléchargement des données est disponible")
 
-Combined emphasis with **asterisks and _underscores_**.
+* Une interface de consultation où il est possible de :
+    - télécharger les données brutes ;
+    - et afficher la couche via un flux WMS ;
 
-Strikethrough uses two tildes. ~~Scratch this.~~
+    ![Submersion marine 1](/fr/images/OC_Demo_Submersion_Niv1.png "En plus du lien de téléchargement, on a accès au WMS")
 
+* Une interface de consultation où il est possible de :
+    - télécharger les données brutes ;
+    - afficher la couche via un flux WMS ;
+    - et afficher les données via un flux WFS
 
-## Lists
+    ![Submersion marine 2](/fr/images/OC_Demo_Submersion_Niv2.png "Accès aux 3 ressources : téléchargement, WMS et WFS")
 
-(In this example, leading and trailing spaces are shown with with dots: ⋅)
+### Schéma
 
-```no-highlight
-1. First ordered list item
-2. Another item
-⋅⋅* Unordered sub-list.
-1. Actual numbers don't matter, just that it's a number
-⋅⋅1. Ordered sub-list
-4. And another item.
+3 étapes :
 
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
+1.	Créer une fiche de métadonnées sur une ressource (serveur, bouquet de services, boîte à outils ensemble de traitements, etc) et renseigner les liens associés ;
 
-⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
-⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
-⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
+2.	Associer les ressources aux fiches de métadonnées concernées ;
 
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
-```
+3.	Créer OpenCatalog. Si la fiche sur la ressource et la fiche sur les jeux de données sont dans le même partage, les liens associés à la 1ère seront visibles ;
 
-1. First ordered list item
-2. Another item
-  * Unordered sub-list.
-1. Actual numbers don't matter, just that it's a number
-  1. Ordered sub-list
-4. And another item.
+4.	Bonne pratique : créer un catalogue des ressources par niveau d'usage.
 
-   You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
-
-   To have a line break without a paragraph, you will need to use two trailing spaces.
-   Note that this line is separate, but within the same paragraph.
-   (This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
-
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
-
-
-## Links
-
-There are two ways to create links.
-
-```no-highlight
-[I'm an inline-style link](https://www.google.com)
-
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself]
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
-```
-
-[I'm an inline-style link](https://www.google.com)
-
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself]
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
-
-
-## Images
-
-```no-highlight
-Here's our logo (hover to see the title text):
-
-Inline-style:
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-
-Reference-style:
-![alt text][logo]
-
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
-```
-
-Here's our logo (hover to see the title text):
-
-Inline-style:
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-
-Reference-style:
-![alt text][logo]
-
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
-
-
-## Code and Syntax Highlighting
-
-Code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers -- like Github's and *Markdown Here* -- support syntax highlighting. Which languages are supported and how those language names should be written will vary from renderer to renderer. *Markdown Here* supports highlighting for dozens of languages (and not-really-languages, like diffs and HTTP headers); to see the complete list, and how to write the language names, see the [highlight.js demo page](http://softwaremaniacs.org/media/soft/highlight/test.html).
-
-```no-highlight
-Inline `code` has `back-ticks around` it.
-```
-
-Inline `code` has `back-ticks around` it.
-
-Blocks of code are either fenced by lines with three back-ticks <code>```</code>, or are indented with four spaces. I recommend only using the fenced code blocks -- they're easier and only they support syntax highlighting.
-
-<pre lang="no-highlight"><code>```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
-
-```python
-s = "Python syntax highlighting"
-print s
-```
-
-```
-No language indicated, so no syntax highlighting.
-But let's throw in a &lt;b&gt;tag&lt;/b&gt;.
-```
-</code></pre>
-
-
-
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
-
-```python
-s = "Python syntax highlighting"
-print s
-```
-
-```
-No language indicated, so no syntax highlighting in Markdown Here (varies on Github).
-But let's throw in a <b>tag</b>.
-```
-
-
-## Tables
-
-Tables aren't part of the core Markdown spec, but they are part of GFM and *Markdown Here* supports them. They are an easy way of adding tables to your email -- a task that would otherwise require copy-pasting from another application.
-
-```no-highlight
-Colons can be used to align columns.
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
-
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
-```
-
-Colons can be used to align columns.
-
-| Tables        | Are           | Cool |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
-
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
-
-
-## Blockquotes
-
-```no-highlight
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
-
-Quote break.
-
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
-```
-
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
-
-Quote break.
-
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
-
-
-## Inline HTML
-
-You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
-
-```no-highlight
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
-
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
-```
-
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
-
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
-
-
-## Horizontal Rule
-
-```
-Three or more...
-
----
-
-Hyphens
-
-***
-
-Asterisks
-
-___
-
-Underscores
-```
-
-Three or more...
-
----
-
-Hyphens
-
-***
-
-Asterisks
-
-___
-
-Underscores
-
-
-## Line Breaks
-
-My basic recommendation for learning how line breaks work is to experiment and discover -- hit &lt;Enter&gt; once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), see what happens. You'll soon learn to get what you want. "Markdown Toggle" is your friend.
-
-Here are some things to try out:
-
-```
-Here's a line for us to start with.
-
-This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
-
-This line is also a separate paragraph, but...
-This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
-```
-
-Here's a line for us to start with.
-
-This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
-
-This line is also begins a separate paragraph, but...
-This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
-
-(Technical note: *Markdown Here* uses GFM line breaks, so there's no need to use MD's two-space line breaks.)
-
-
-## Youtube videos
-
-They can't be added directly but you can add an image with a link to the video like this:
-
-```no-highlight
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
-" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg"
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
-```
-
-Or, in pure Markdown, but losing the image sizing and border:
-
-```no-highlight
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
-```
-
-Referencing a bug by #bugID in your git commit links it to the slip. For example #1.
+    ![Schéma affichage différencié](/fr/images/resources_DifferentDisplays_schema.png "Accès aux 3 ressources : téléchargement, WMS et WFS")
