@@ -1,380 +1,138 @@
-# Markdown
+# Associer des services géographiques
 
-GitBook use by default the Markdown syntax.
+Les services cartographiques doivent être renseignés en tant que ressources associées d’une fiche. Il suffit ensuite de le renseigner correctement afin que les applications tierces puissent l’utiliser convenablement. Voici la marche à suivre pour chaque type de service.
 
-This is intended as a quick reference and showcase. For more complete info, see [John Gruber's original spec](http://daringfireball.net/projects/markdown/) and the [Github-flavored Markdown info page](http://github.github.com/github-flavored-markdown/).
+Si jamais le paramètre *layer* n’est pas renseigné dans l’URL, une erreur s’affiche dans l’interface de l’OpenCatalog :
 
+![Erreur flux OpenCatalog](/fr/images/OC_view_ErrorLayerIsMissing.png "Erreur de lecture de flux dans l'OpenCatalog")
 
-## Être référencé comme contact
+____
+## Associer un flux WMS
 
+Un WMS pour [Web Map Service](http://fr.wikipedia.org/wiki/Web_Map_Service) est un protocole standardisé OGC ([*Open Geospatial Consortium*](http://fr.wikipedia.org/wiki/Open_Geospatial_Consortium)) qui permet d’obtenir à partir d’une requête une image des données géographiques voulues.
 
-## Langue et fuseau horaire
+1. Ajouter une ressource associée ;
+2. Choisir le type `WMS` ;
+3. Renseigner l’URL du service : http://clc.developpement-durable.gouv.fr/geoserver/wms par exemple ;
+4. Ajouter le nom de la couche à afficher via le paramètre *layers* : **?layers=clc:CLC06** par exemple.
+Le nom des couches disponibles peut être retrouvé grâce à l’action GetCapabilities : **?request=GetCapabilities**
+5. Cliquer sur `Valider` ;
+6. Dans les actions de la ressource associée, cocher l’option `Visualisation` ;
+7. `Valider` puis `Enregistrer` au niveau de l'édition de la fiche.
 
+![Ajout flux WMS](/fr/images/inv_edit_resource_WMS.png "Ajouter un flux WMS en ressource associée")
 
-## Abonnements et liens utiles
+### Rendu dans l'OpenCatalog
 
-## Headers
+Voir un exemple en ligne où le flux consommé est celui mis à disposition par le MEDDE : [données de 2006 Corine Land COver sur la France métropolitaine](http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0/m/4643b80d5ef248588709c7367036191a).
 
-```no-highlight
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
+![WMS dans OpenCatalog](/fr/images/OC_view_WMS.png "Visualisation d'un flux WMS dans l'OpenCatalog")
 
-Alternatively, for H1 and H2, an underline-ish style:
+____
+## Associer un flux WFS
 
-Alt-H1
-======
+Un WFS pour [Web Feature Service](http://fr.wikipedia.org/wiki/Web_Feature_Service) est un protocole standardisé OGC ([*Open Geospatial Consortium*](http://fr.wikipedia.org/wiki/Open_Geospatial_Consortium)) qui permet d’obtenir à partir d’une requête les entités géographiques voulues. C’est donc ensuite à la librairie cartographique de les représenter.
 
-Alt-H2
-------
-```
+> Pour des raisons de sécurité, seul les WFS acceptant le format JSONP sont visualisables par l’OpenCatalog.
 
-# H1
-## H2
-### H3
-#### H4
-##### H5
-###### H6
+1. Ajouter une ressource associée ;
+2. Choisir le type `WFS` ;
+3. Renseigner l’URL du service http://noisy.hq.isogeo.fr:6090/geoserver/Isogeo/ows par exemple ;
+4. Ajouter le nom de la couche à afficher via le paramètre *layers* : **?layers=Isogeo:DEPARTEMENT_2014** par exemple ;
+Le nom des couches disponibles peut être retrouvé grâce à l’action GetCapabilities : **?request=GetCapabilities** ;
+5. Cliquer sur `Valider` ;
+6. Dans les actions de la ressource associée, cocher l’option `Visualisation` ;
+7. `Valider` puis `Enregistrer` au niveau de l'édition de la fiche.
 
-Alternatively, for H1 and H2, an underline-ish style:
+![Ajout flux WFS](/fr/images/inv_edit_resource_WFS.png "Ajouter un flux WFS en ressource associée")
 
-Alt-H1
-======
+### Rendu dans l'OpenCatalog
 
-Alt-H2
-------
+Voir un exemple en ligne : [départements de France métropolitaine en 2014](http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0/m/754209f115c040a48d43ffc262b16500).
 
+![WFS dans OpenCatalog](/fr/images/OC_view_WFS.png "Consultation d'un flux WFS dans l'OpenCatalog")
 
-## Emphasis
+____
+## Associer un flux WMTS
 
-```no-highlight
-Emphasis, aka italics, with *asterisks* or _underscores_.
+Un WMTS pour [Web Map Tile Service](http://fr.wikipedia.org/wiki/Web_Map_Tile_Service) est un protocole standardisé OGC ([*Open Geospatial Consortium*](http://fr.wikipedia.org/wiki/Open_Geospatial_Consortium)) qui permet d’obtenir à partir d’une requête une image préalablement générée par le serveur cartographique.
 
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
+> Il est nécessaire que le WMTS accepte l’EPSG 900913 pour fonctionner dans l’OpenCatalog
 
-Combined emphasis with **asterisks and _underscores_**.
+1. Ajouter une ressource associée ;
+2. Choisir le type `WMTS` ;
+3. Renseigner l’URL du service : http://suite.opengeo.org/geoserver/gwc/service/wmts par exemple ;
+4. Ajouter le nom de la couche à afficher via le paramètre layers : **?layers=opengeo:countries** par exemple.
+Le nom des couches disponibles peut être retrouvé grâce à l’action GetCapabilities : **?request=GetCapabilities** ;
+5. Cliquer sur `Valider` ;
+6. Dans les actions de la ressource associé, cocher l’option `Visualisation` ;
+7. `Valider` puis `Enregistrer` au niveau de l'édition de la fiche.
 
-Strikethrough uses two tildes. ~~Scratch this.~~
-```
+![Ajout flux WMTS](/fr/images/inv_edit_resource_WMTS.png "Ajouter un flux WMTS en ressource associée")
 
-Emphasis, aka italics, with *asterisks* or _underscores_.
+### Rendu dans l'OpenCatalog
 
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
+Voir un exemple en ligne : [couche tuilée des pays du monde attahée à la donnée des stades de la coupe du monde de football 2014](http://open.isogeo.com/s/c502e8f7c9da4c3aacdf3d905672d54c/Q4SvPfiIIslbdwkbWRFJLk7XWo4G0/m/56ed291af72f46dc9835fc9ae29fe938).
 
-Combined emphasis with **asterisks and _underscores_**.
+![WMTS dans OpenCatalog](/fr/images/OC_view_WMTS.png "Visualisation d'un flux WMTS dans l'OpenCatalog")
 
-Strikethrough uses two tildes. ~~Scratch this.~~
-
-
-## Lists
-
-(In this example, leading and trailing spaces are shown with with dots: ⋅)
-
-```no-highlight
-1. First ordered list item
-2. Another item
-⋅⋅* Unordered sub-list.
-1. Actual numbers don't matter, just that it's a number
-⋅⋅1. Ordered sub-list
-4. And another item.
-
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
-
-⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
-⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
-⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
-
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
-```
-
-1. First ordered list item
-2. Another item
-  * Unordered sub-list.
-1. Actual numbers don't matter, just that it's a number
-  1. Ordered sub-list
-4. And another item.
-
-   You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
-
-   To have a line break without a paragraph, you will need to use two trailing spaces.
-   Note that this line is separate, but within the same paragraph.
-   (This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
-
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
-
-
-## Links
-
-There are two ways to create links.
-
-```no-highlight
-[I'm an inline-style link](https://www.google.com)
-
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself]
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
-```
-
-[I'm an inline-style link](https://www.google.com)
-
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself]
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
-
-
-## Images
-
-```no-highlight
-Here's our logo (hover to see the title text):
-
-Inline-style:
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-
-Reference-style:
-![alt text][logo]
-
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
-```
-
-Here's our logo (hover to see the title text):
-
-Inline-style:
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
-
-Reference-style:
-![alt text][logo]
-
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
-
-
-## Code and Syntax Highlighting
-
-Code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers -- like Github's and *Markdown Here* -- support syntax highlighting. Which languages are supported and how those language names should be written will vary from renderer to renderer. *Markdown Here* supports highlighting for dozens of languages (and not-really-languages, like diffs and HTTP headers); to see the complete list, and how to write the language names, see the [highlight.js demo page](http://softwaremaniacs.org/media/soft/highlight/test.html).
-
-```no-highlight
-Inline `code` has `back-ticks around` it.
-```
-
-Inline `code` has `back-ticks around` it.
-
-Blocks of code are either fenced by lines with three back-ticks <code>```</code>, or are indented with four spaces. I recommend only using the fenced code blocks -- they're easier and only they support syntax highlighting.
-
-<pre lang="no-highlight"><code>```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
-
-```python
-s = "Python syntax highlighting"
-print s
-```
-
-```
-No language indicated, so no syntax highlighting.
-But let's throw in a &lt;b&gt;tag&lt;/b&gt;.
-```
-</code></pre>
-
-
-
-```javascript
-var s = "JavaScript syntax highlighting";
-alert(s);
-```
-
-```python
-s = "Python syntax highlighting"
-print s
-```
-
-```
-No language indicated, so no syntax highlighting in Markdown Here (varies on Github).
-But let's throw in a <b>tag</b>.
-```
-
-
-## Tables
-
-Tables aren't part of the core Markdown spec, but they are part of GFM and *Markdown Here* supports them. They are an easy way of adding tables to your email -- a task that would otherwise require copy-pasting from another application.
-
-```no-highlight
-Colons can be used to align columns.
-
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
-
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
-```
-
-Colons can be used to align columns.
-
-| Tables        | Are           | Cool |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
-
-The outer pipes (|) are optional, and you don't need to make the raw Markdown line up prettily. You can also use inline Markdown.
-
-Markdown | Less | Pretty
---- | --- | ---
-*Still* | `renders` | **nicely**
-1 | 2 | 3
-
-
-## Blockquotes
-
-```no-highlight
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
-
-Quote break.
-
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
-```
-
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
-
-Quote break.
-
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
-
-
-## Inline HTML
-
-You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
-
-```no-highlight
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
-
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
-```
-
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
-
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
-
-
-## Horizontal Rule
-
-```
-Three or more...
-
----
-
-Hyphens
-
-***
-
-Asterisks
 
 ___
+## Associer un flux Esri Map
 
-Underscores
-```
+Un service Esri Feature permet d’obtenir à partir d’une requête les entités géographiques voulues. Ce type de service est founi par ArcGIS for Server ou ArcGIS Online, des outils développés par la société Esri.
 
-Three or more...
+1. Ajouter une ressource associée ;
+2. Choisir le type Service ESRI Map ;
+3. Renseigner l’URL du service ; http://noisy.hq.isogeo.fr:6080/arcgis/rest/services/USA_DATA/Airports/MapServer/0 par exemple ;
+4. Cliquer sur `Valider`
+5. Dans les actions de la ressource associée, cocher l’option `Visualisation` ;
+6. `Valider` puis `Enregistrer` au niveau de l'édition de la fiche.
 
----
+![Ajout flux Esri Map](/fr/images/inv_edit_resource_EsriMap.png "Ajouter un flux Esri Map en ressource associée")
 
-Hyphens
+### Rendu dans l'OpenCatalog
 
-***
+Voir un exemple en ligne : [données des EPCI  en 2014 issues d'OpenStreetMap](http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0/m/78e4a2ce9a7d4b09a80eecd131130166).
 
-Asterisks
+![Esri Map dans OpenCatalog](/fr/images/OC_view_EsriMap.png "Consultation d'un flux Esri Map dans l'OpenCatalog")
 
 ___
+## Associer un flux Esri Feature
 
-Underscores
+Un service Esri Feature permet d’obtenir à partir d’une requête les entités géographiques voulues. Ce type de service est founi par ArcGIS for Server ou ArcGIS Online, des outils développés par la société Esri.
 
+1. Ajouter une ressource associée
+2. Choisir le type `Service ESRI Feature`
+3. Renseigner l’URL du service http://services1.arcgis.com/ApmCsFVnpW3bVGYw/arcgis/rest/services/Ports/FeatureServer/0 par exemple
+4. Cliquer sur `Valider`
+5. Dans les actions de la ressource associée, cocher l’option `Visualisation`
+6. `Valider` puis `Enregistrer` au niveau de l'édition de la fiche.
 
-## Line Breaks
+![Ajout flux Esri Feature](/fr/images/inv_edit_resource_EsriFeature.png "Ajouter un flux Esri Feature en ressource associée")
 
-My basic recommendation for learning how line breaks work is to experiment and discover -- hit &lt;Enter&gt; once (i.e., insert one newline), then hit it twice (i.e., insert two newlines), see what happens. You'll soon learn to get what you want. "Markdown Toggle" is your friend.
+### Rendu dans l'OpenCatalog
 
-Here are some things to try out:
+Voir un exemple en ligne : [données des stades de la coupe du monde de football 2014](http://open.isogeo.com/s/c502e8f7c9da4c3aacdf3d905672d54c/Q4SvPfiIIslbdwkbWRFJLk7XWo4G0/m/56ed291af72f46dc9835fc9ae29fe938).
 
-```
-Here's a line for us to start with.
+![Esri Feature dans OpenCatalog](/fr/images/OC_view_EsriFeatures.png "Consultation d'un flux Esri Feature dans l'OpenCatalog")
 
-This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
+___
+## Associer un flux Esri Tiled Map
 
-This line is also a separate paragraph, but...
-This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
-```
+Un service Esri Feature permet d’obtenir à partir d’une requête les entités géographiques voulues. Ce type de service est founi par ArcGIS for Server ou ArcGIS Online, des outils développés par la société Esri.
 
-Here's a line for us to start with.
+1. Ajouter une ressource associée ;
+2. Choisir le type `Service ESRI Tile` ;
+3. Renseigner l’URL du service : http://tiles.arcgis.com/tiles/ApmCsFVnpW3bVGYw/arcgis/rest/services/Populated_Places/MapServer par exemple ;
+4. Cliquer sur `Valider` ;
+5. Dans les actions de la ressource associée, cocher l’option `Visualisation` ;
+6. `Valider` puis `Enregistrer` au niveau de l'édition de la fiche.
 
-This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
+![Ajout flux Esri Tiled Map](/fr/images/inv_edit_resource_EsriTiledMap.png "Ajouter un flux Esri Tiled Map en ressource associée")
 
-This line is also begins a separate paragraph, but...
-This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
+### Rendu dans l'OpenCatalog
 
-(Technical note: *Markdown Here* uses GFM line breaks, so there's no need to use MD's two-space line breaks.)
+Voir un exemple en ligne : [données des stades de la coupe du monde de football 2014](http://open.isogeo.com/s/c502e8f7c9da4c3aacdf3d905672d54c/Q4SvPfiIIslbdwkbWRFJLk7XWo4G0/m/56ed291af72f46dc9835fc9ae29fe938).
 
-
-## Youtube videos
-
-They can't be added directly but you can add an image with a link to the video like this:
-
-```no-highlight
-<a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
-" target="_blank"><img src="http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg"
-alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
-```
-
-Or, in pure Markdown, but losing the image sizing and border:
-
-```no-highlight
-[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
-```
-
-Referencing a bug by #bugID in your git commit links it to the slip. For example #1.
+![Esri Tiled Map dans OpenCatalog](/fr/images/OC_view_EsriTiledMap.png "Consultation d'un flux Esri Tiled Map dans l'OpenCatalog")
