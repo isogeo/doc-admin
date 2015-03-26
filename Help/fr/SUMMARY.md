@@ -48,7 +48,7 @@
        * [Faire une métadonnée INSPIRE](features/documentation/md_inspire.md)
    * [Valoriser](features/publish/README.md)
        * [Lier des services géographiques](features/publish/webservices.md)
-       * [Héberger les données brutes directement sur Isogeo](features/publish/hosting.md)
+       * [Lier les données à télécharger](features/publish/hosting.md)
        * [Partager vos catalogues sur la plateforme](features/publish/share_platform.md)
        * [Diffuser vos catalogues en CSW](features/publish/csw_server.md)
        * [Diffuser vos catalogues via OpenCatalog](features/publish/share_opencatalog.md)
