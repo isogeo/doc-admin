@@ -6,7 +6,6 @@ L’onglet « Contact » permet d’affecter, depuis votre carnet d’adresse, u
 
 
 ## Comprendre les contacts
-contact métadonnée, contact donnée
 
 ## Matrice des rôles des contacts
 

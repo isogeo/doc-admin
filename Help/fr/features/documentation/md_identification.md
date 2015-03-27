@@ -8,8 +8,6 @@ Cet onglet donne les éléménts de connaissance basique sur une ressource.
 
 Le titre doit permettre de distinguer la donnée de celles qui pourraient être similaires.
 
-La recommandation est
-
 ### Résumé
 
 Une description narrative de ce que la donnée représente.
