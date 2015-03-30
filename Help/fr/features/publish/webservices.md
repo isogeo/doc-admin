@@ -6,6 +6,8 @@ Si jamais le paramètre *layer* n’est pas renseigné dans l’URL, une erreur 
 
 ![Erreur flux OpenCatalog](/fr/images/OC_view_ErrorLayerIsMissing.png "Erreur de lecture de flux dans l'OpenCatalog")
 
+> Astuce : si vous souhaitez que vos services géographiques soient correctement "consommés" par des plaetformes externes, comme geOrchestra ou Prodige, elles doivent être formatées d'une certain façon. Voir [l'annexe à ce sujet](/fr/appendices/webgeoservices_in_csw.html).
+
 ____
 ## Associer un flux WMS
 
@@ -33,7 +35,7 @@ ____
 
 Un WFS pour [Web Feature Service](http://fr.wikipedia.org/wiki/Web_Feature_Service) est un protocole standardisé OGC ([*Open Geospatial Consortium*](http://fr.wikipedia.org/wiki/Open_Geospatial_Consortium)) qui permet d’obtenir à partir d’une requête les entités géographiques voulues. C’est donc ensuite à la librairie cartographique de les représenter.
 
-> Pour des raisons de sécurité, seul les WFS acceptant le format JSONP sont visualisables par l’OpenCatalog.
+> Astuce : pour des raisons de sécurité, seul les WFS acceptant le format JSONP sont visualisables par l’OpenCatalog. Voir [l'annexe à ce sujet](/fr/appendices/wfs_jsonp.html).
 
 1. Ajouter une ressource associée ;
 2. Choisir le type `WFS` ;
