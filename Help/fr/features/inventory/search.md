@@ -54,11 +54,11 @@ Lorsque l'on tape dans la barre de recherche, l’auto-complétion propose les 3
 
 | Champ                     | Icône                             |
 | :--                       | :-------------------------------: |
-| Formats                   | <i class="fa fa-leaf"></i>        |
+| Formats                   | <i class="fa fa-cube"></i>        |
 | Catalogues                | <i class="fa fa-book"></i>        |
 | Mots-clés                 | <i class="fa fa-tag"></i>         |
 | Propriétaires             | <i class="fa fa-users"></i>       |
 | Thèmes INSPIRE            | <i class="fa fa-leaf"></i>        |
 | Systèmes de coordonnées   | <i class="fa fa-globe"></i>       |
 | Types de ressource        | <i class="fa fa-asterisk"></i>    |
-| Types d'actions associées | <i class="fa fa-cube"></i>        |
+| Types d'actions associées | <i class="fa fa-play"></i>        |
