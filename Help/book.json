@@ -3,13 +3,6 @@
     "description": null,
     "isbn": null,
 
-    "pluginsConfig": {
-        "fontSettings": {
-            "theme": "white",
-            "family": "sans"
-        }
-    },
-
     "links": {
         "sidebar": {
             "Site Isogeo": "http://www.isogeo.com/",
@@ -27,6 +20,10 @@
 
     "plugins": ["ga", "anchors"],
     "pluginsConfig": {
+        "fontSettings": {
+            "theme": "white",
+            "family": "sans"
+        },
         "ga": {
             "token": "UA-22345848-2"
         }
