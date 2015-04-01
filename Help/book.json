@@ -18,7 +18,8 @@
         }
     },
 
-    "plugins": ["ga", "anchors"],
+    "plugins": ["ga", "anchors", "customtheme"],
+
     "pluginsConfig": {
         "fontSettings": {
             "theme": "white",
@@ -26,6 +27,9 @@
         },
         "ga": {
             "token": "UA-22345848-2"
+        },
+        "customtheme": {
+            "css": ["_styles/custom.css"]
         }
     },
 
@@ -42,5 +46,9 @@
 
         "headerTemplate": "_TITLE_",
         "footerTemplate": "_SECTION_"
+    },
+
+    "styles": {
+        "custom": "styles/custom.css"
     }
 }
