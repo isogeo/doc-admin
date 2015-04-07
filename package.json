@@ -4,7 +4,9 @@
   "description": "",
   "keywords": [
     "isogeo",
-    "help"
+    "help",
+	"userguide",
+	"documentation"
   ],
   "private": true,
   "repository": {
