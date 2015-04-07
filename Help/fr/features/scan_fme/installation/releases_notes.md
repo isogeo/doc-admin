@@ -46,7 +46,9 @@ Vous pouvez faciement vérifier la version du service installée chez vous en pa
 
 _________
 
-> Au-delà de cette ligne, les services sont considérés comme obsolètes et le voyant s'affiche en rouge.
+> Au-delà de cette ligne, les services sont considérés comme obsolètes et le voyant s'affiche en orange.
+
+![Scan FME - version obsolète](/fr/images/scanFME_service_version_obsolete.png "Service obsolète")
 
 ### 1.0.20
 
