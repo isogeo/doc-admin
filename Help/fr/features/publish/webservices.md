@@ -2,7 +2,7 @@
 
 Les services cartographiques doivent être renseignés en tant que ressources associées d’une fiche. Il suffit ensuite de le renseigner correctement afin que les applications tierces puissent l’utiliser convenablement. Voici la marche à suivre pour chaque type de service.
 
-Si jamais le paramètre *layer* n’est pas renseigné dans l’URL, une erreur s’affiche dans l’interface de l’OpenCatalog :
+Si jamais le paramètre *layers* n’est pas renseigné dans l’URL, une erreur s’affiche dans l’interface de l’OpenCatalog :
 
 ![Erreur flux OpenCatalog](/fr/images/OC_view_ErrorLayerIsMissing.png "Erreur de lecture de flux dans l'OpenCatalog")
 
@@ -82,7 +82,7 @@ Voir un exemple en ligne : [couche tuilée des pays du monde attahée à la donn
 ___
 ## Associer un flux Esri Map
 
-Un service Esri Feature permet d’obtenir à partir d’une requête les entités géographiques voulues. Ce type de service est founi par ArcGIS for Server ou ArcGIS Online, des outils développés par la société Esri.
+Un service Esri Feature permet d’obtenir à partir d’une requête les entités géographiques voulues. Ce type de service est fourni par ArcGIS for Server ou ArcGIS Online, des outils développés par la société Esri.
 
 1. Ajouter une ressource associée ;
 2. Choisir le type Service ESRI Map ;
@@ -102,7 +102,7 @@ Voir un exemple en ligne : [données des EPCI  en 2014 issues d'OpenStreetMap](h
 ___
 ## Associer un flux Esri Feature
 
-Un service Esri Feature permet d’obtenir à partir d’une requête les entités géographiques voulues. Ce type de service est founi par ArcGIS for Server ou ArcGIS Online, des outils développés par la société Esri.
+Un service Esri Feature permet d’obtenir à partir d’une requête les entités géographiques voulues. Ce type de service est fourni par ArcGIS for Server ou ArcGIS Online, des outils développés par la société Esri.
 
 1. Ajouter une ressource associée
 2. Choisir le type `Service ESRI Feature`
@@ -122,7 +122,7 @@ Voir un exemple en ligne : [données des stades de la coupe du monde de football
 ___
 ## Associer un flux Esri Tiled Map
 
-Un service Esri Feature permet d’obtenir à partir d’une requête les entités géographiques voulues. Ce type de service est founi par ArcGIS for Server ou ArcGIS Online, des outils développés par la société Esri.
+Un service Esri Feature permet d’obtenir à partir d’une requête les entités géographiques voulues. Ce type de service est fourni par ArcGIS for Server ou ArcGIS Online, des outils développés par la société Esri.
 
 1. Ajouter une ressource associée ;
 2. Choisir le type `Service ESRI Tile` ;
