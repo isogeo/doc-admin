@@ -44,6 +44,10 @@ Vous pouvez faciement vérifier la version du service installée chez vous en pa
 
 * Possibilité d’arrêter une requête.
 
+_________
+
+> Au-delà de cette ligne, les services sont considérés comme obsolètes et le voyant s'affiche en rouge.
+
 ### 1.0.20
 
 * Format ESRI Grid (.asc) ;
