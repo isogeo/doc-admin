@@ -24,8 +24,42 @@ Pour créer un OpenCatalog, il suffit de :
 ![Gérer les OpenCatalogs](/fr/images/adm_shares_OC_edit.png "Diffuser les catalogues via les OpenCatalogs")
 
 
-« OpenCatalog » est développé via l’API Isogeo. Il est très facilement intégrable dans vos sites web existants (intranet, extranet, portail carto, portail OpenData, IDG, etc.) via IFRAME.
+## Intégrer un OpenCatalog en iFrame
 
-Des exemples d’intégration est le portail de la [PPIGE](http://www.ppige-npdc.fr/geocatalogue/) ou de la [Moselle](http://www.moselleinfogeo.fr/infogeo/isogeo).
+« OpenCatalog » est développé via l’API Isogeo. Il est très facilement intégrable dans vos sites web existants (intranet, extranet, portail carto, portail OpenData, IDG, etc.) via une [balise HTML iFrame](http://www.w3schools.com/tags/tag_iframe.asp).
 
+### Syntaxe
 
+Par exemple, pour intégrer l'OpenCatalog de démonstration :
+
+```no-higlight
+<iframe src="http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0" height="400"></iframe></a>
+```
+
+### Rendu
+
+<iframe src="http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0" width="850" height="600"></iframe></a>
+
+Des exemples d’intégration en ligne :
+* le portail de la [PPIGE](http://www.ppige-npdc.fr/geocatalogue/)
+* celui de la [Moselle](http://www.moselleinfogeo.fr/infogeo/isogeo).
+
+## Intégrer une seule fiche en iFrame
+
+Si vous ne souhaitez intégrer qu'une seule fiche par exemple dans une fenêtre de type pop-up, il suffit d'ajouter `?lock` à la fin de l'adresse de la fiche souhaitée et de placer le tout dans une balise iFrame.
+
+Différences par rapport à l'intégration normale :
+* la barre du haut ;
+* les filtres ne sont pas cliquables.
+
+### Syntaxe
+
+Par exemple, pour intégrer la fiche de métadonnées sur les départements 2014 :
+
+```no-higlight
+<iframe src="http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0/m/754209f115c040a48d43ffc262b16500?lock" height="400"></iframe></a>
+```
+
+### Rendu
+
+<iframe src="http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0/m/754209f115c040a48d43ffc262b16500?lock" width="850" height="600"></iframe></a>
