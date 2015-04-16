@@ -32,7 +32,8 @@ Ainsi que les Service Pack associés (SP1, SP2, SP3, SP4).
 
 Vous devez créer un compte utilisateur Windows permettant :
 
-* d'exécuter FME Desktop sur le poste où est installé le Service Isogeo,
+* d'exécuter FME Desktop sur le poste où est installé le service Isogeo,
+* de pouvoir écrire dans le répertoire d'installation du service Isogeo,
 * d’accéder aux ressources réseaux nécessaires pour lire vos données SIG.
 
 Par exemple, créer un nouveau compte utilisateur intitulé Isogeo ayant les droits adéquats.
