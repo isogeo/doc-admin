@@ -6,13 +6,6 @@ En cliquant sur votre nom en haut à droite de votre écran, vous pouvez visuali
 
 ![Gestion compte utilisateur](/fr/images/params_MonCompte.png "Paramétrer son compte d'utilisateur Isogeo")
 
-## Être référencé comme contact
-
-En tant qu'utilisateur Isogeo, vous allez certainement être affecté comme contact sur les fiches de métadonnées. Pour éviter de devoir dupliquer [vos coordonnées](user_coordinates.html) dans le carnet d'adresses de votre groupe de travail et de permettre à chacun des éditeurs de la plateforme de vous lier à vos données il vous suffit de :
-
-1.	Cliquer sur votre nom en haut à droite de votre écran ;
-2.	Cliquer sur le menu `Paramètres` ;
-3.	Cocher `J'autorise les utilisateurs externes à mon organisme à me référencer à travers Isogeo` ;
 
 ## Langue et fuseau horaire
 
