@@ -7,8 +7,8 @@ Le moteur de recherche d’Isogeo porte sur les champs suivants :
 * Le titre ;
 * Le nom du fichier ou de la table ;
 * Le résumé ;
+* Le format ;
 * Les mots-clés ;
-* Les catalogues ;
 * Les thématiques INSPIRE.
 
 Il est important de garder certaines caractéristiques à l’esprit :
