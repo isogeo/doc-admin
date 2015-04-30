@@ -1,12 +1,12 @@
 {
   "name": "isogeo-help",
-  "version": "0.0.1",
+  "version": "2.11.0-49",
   "description": "",
   "keywords": [
     "isogeo",
     "help",
-	"userguide",
-	"documentation"
+    "userguide",
+    "documentation"
   ],
   "private": true,
   "repository": {

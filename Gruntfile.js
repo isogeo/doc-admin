@@ -89,7 +89,8 @@ module.exports = function (grunt) {
         var done = this.async();
         gitbook.generate.folder({
             input: 'Help',
-            output: 'tmp/obj/bin/site'
+            output: 'tmp/obj/bin/site',
+            verbose: true
         }).then(function(error) {
             done(error);
         }, done);
@@ -105,7 +106,8 @@ module.exports = function (grunt) {
             input: 'Help',
             output: 'tmp/obj/bin/book',
             generator: 'ebook',
-            extension: 'pdf'
+            extension: 'pdf',
+            verbose: true
         }).then(function(error) {
             done(error);
         }, done);
@@ -117,8 +119,8 @@ module.exports = function (grunt) {
     grunt.registerTask('buildSite', 'Build the site', function() {
          var done = this.async();
          gitbook.generate.folder({
-         input: 'Help',
-         output: 'tmp/obj/bin/site'
+             input: 'Help',
+             output: 'tmp/obj/bin/site'
          }).then(function(error) {
          done(error);
          }, done);
