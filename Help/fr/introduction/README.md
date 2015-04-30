@@ -9,7 +9,7 @@ Isogeo est une solution logicielle de catalogage et de partage des données SIG.
 
 Ainsi, chaque organisme équipé peut maîtriser son patrimoine de données SIG et valoriser celui-ci en interne, auprès de ses partenaires et du grand public.
 
-Toutes les fonctionnalités de la solution Isogeo s’inscrivent dans un processus métier clair et innovant : recenser, documenter et valoriser les données SIG en toute simplicité.
+Toutes les fonctionnalités de la solution Isogeo s’inscrivent dans un processus métier clair et innovant : [recenser](/fr/introduction/inventorize.html), [documenter](/fr/introduction/documentation.html) et [valoriser](/fr/introduction/share.html) les données SIG en toute simplicité.
 
 Le schéma ci-dessous illustre ce processus métier :
 
