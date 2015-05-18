@@ -5,7 +5,7 @@
 Le moteur de recherche d’Isogeo porte sur les champs suivants :
 
 * Le titre ;
-* Le nom du fichier ou de la table ;
+* Le nom du fichier (sans son extension) ou de la table ;
 * Le résumé ;
 * Le format ;
 * Les mots-clés ;
