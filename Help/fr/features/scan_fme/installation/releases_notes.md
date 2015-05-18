@@ -2,7 +2,7 @@
 
 Indépendant de la plateforme, le service est mis à jour lorsque des anomalies sont remontées ou pour couvrir de nouveaux besoins identifiés (nouveaux formats par exemple). Attention, ne pas confondre avec les mises à jour concernant l'interface d'administration du scan à laquelle vous accédez via https://app.isogeo.com/admin/isogeo-worker.
 
-Vous pouvez faciement vérifier la version du service installée chez vous en passant la souris sur le(s) voyant(s) en haut à droite de l'interface d'administration du scan :
+Vous pouvez facilement vérifier la version du service installée chez vous en passant la souris sur le(s) voyant(s) en haut à droite de l'interface d'administration du scan :
 
 ![Scan FME - version](/fr/images/scanFME_service_version.png "Vérifier la version du service")
 
