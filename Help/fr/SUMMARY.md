@@ -68,6 +68,7 @@
    * [Notes de version du service](features/scan_fme/installation/releases_notes.md)
 * [Support](support/README.md)
 * [Architecture technique et feuille de route](releases_notes/README.md)
+   * [Version 2.12.0](releases_notes/2_12_0.md)
    * [Version 2.11.0](releases_notes/2_11_0.md)
    * [Version 2.10.0](releases_notes/2_10_0.md)
    * [Version 2.9.0](releases_notes/2_09_0.md)
@@ -76,4 +77,6 @@
 * [Annexes](appendices/README.md)
    * [Les ressources associées dans les outils externes](appendices/webgeoservices_in_csw.md)
    * [Configurer les WFS en JSONP](appendices/wfs_jsonp.md)
+   * [Se faire moissonner par le Géocatalogue national](appendices/harvest_geocatalogue_fr.md)
+   * [Diffuser ses données sur DataGouv.fr](appendices/bridge_csw2datagouvfr.md)
 
