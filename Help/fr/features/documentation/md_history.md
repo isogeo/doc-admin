@@ -5,3 +5,21 @@ L’onglet « Histoire » décrit le contexte et la méthode de création de la 
 ![Edition unitaire - Histoire](/fr/images/inv_edit_one_history.png "L'édition unitaire - onglet Histoire")
 
 
+### Contexte de collecte
+
+
+
+### Méthode de collecte
+
+
+### Période de validité
+
+### Commentaire
+
+
+### Fréquence de mise à jour
+
+
+### Evénements
+
+

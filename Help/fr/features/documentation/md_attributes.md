@@ -5,3 +5,9 @@ L’onglet « Attribut » liste tous les champs attributaires de la donnée et p
 
 ![Edition unitaire - Attributs](/fr/images/inv_edit_one_attributes.png "L'édition unitaire - onglet Attributs")
 
+
+### Attributs remontés automatiquement
+
+
+
+### Attributs manuels

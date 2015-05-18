@@ -4,3 +4,8 @@ L’onglet « Qualité » précise les spécifications utilisées pour collecter
 
 ![Edition unitaire - Qualité](/fr/images/inv_edit_one_quality.png "L'édition unitaire - onglet Qualité")
 
+### Conformité aux spécifications
+
+
+### Cohérence topologique
+

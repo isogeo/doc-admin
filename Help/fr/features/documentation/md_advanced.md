@@ -5,3 +5,7 @@ L’onglet « Avancé » permet de spécifier le format, la version du format et
 
 ![Edition unitaire - Avancé](/fr/images/inv_edit_one_advanced.png "L'édition unitaire - onglet Avancé")
 
+### Format
+
+### Encodage
+

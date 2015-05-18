@@ -5,3 +5,8 @@ L’onglet « Métadonnées » permet d’indiquer la date de création et la la
 
 ![Edition unitaire - Métadonnée](/fr/images/inv_edit_one_metadata.png "L'édition unitaire - onglet Métadonnée")
 
+
+### Date de création de la métadonnée
+
+### Langue de la métadonnée
+

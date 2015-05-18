@@ -4,3 +4,10 @@ L’onglet « Ressources » permet de créer des liens vers les documents (carte
 
 
 ![Edition unitaire - Ressources](/fr/images/inv_edit_one_linkedResources.png "L'édition unitaire - onglet Ressources")
+
+### La fiche au format XML (ISO 19139)
+
+
+### Liens associés
+
+
