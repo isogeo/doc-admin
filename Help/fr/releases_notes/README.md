@@ -2,7 +2,7 @@
 
 Isogeo est une plateforme SaaS dont le développement suit la méthodologie AGILE et les cycles de la méthode Scrum.
 
-La qualité est l'un des axes majeurs de développement d'Isogeo. A ce sujet, nous recommandons la lecture de [l'article du directeur technique sur les processus à l'oeuvre pour garantir la qualité du développement](http://blog.isogeo.com/software-quality-assurance-the-road-to-zero-defects). Il est proposé une traduction partielle ci-après.
+![Architecture Isogeo](/fr/images/all_architecture_Isogeo.png "Schéma global de l'architecture de la plateforme Isogeo")
 
 ## Installation et gestion des environnements
 
@@ -15,7 +15,6 @@ La solution Isogeo est déployée en mode SaaS sur la plateforme de Cloud Comput
 * la plateforme de **production** est accessible par tous les utilisateurs. Elle permet de gérer les formations et la production. Toutes les deux semaines une nouvelle version est potentiellement livrée sur la plateforme de production. Lorsque les développements concernent uniquement le site internet « outil », l’exécutable installé chez le client n’a pas besoin d’être mis à jour. Lorsque les développements concernent l’exécutable, une mise à jour manuelle chez le client peut être nécessaire. Le planning, l’exécutable et la procédure de mise à jour sont préalablement communiqués à l’organisme client.
 
 Les utilisateurs de la solution ont accès à un seul et même environnement de production.
-
 
 ## Ressources matérielles pour le service
 
@@ -104,20 +103,30 @@ Isogeo s’engage à garantir un taux de disponibilité conformément au tableau
 
 ## Démarche de qualité logicielle
 
-### Intégration continue
-Pour chacune des modifications de code (commits), l'intégration continues contrôle :
+La qualité est l'un des axes majeurs de développement d'Isogeo. A ce sujet, nous recommandons la lecture de [l'article (en anglais) du directeur technique sur les processus à l'oeuvre pour garantir la qualité du développement](http://blog.isogeo.com/software-quality-assurance-the-road-to-zero-defects), dont il est proposé une traduction partielle ci-après.
 
-* le code source se doit d'être cohérent, c'est-à-dire qu'il ne doit pas casser le processu de compilation de l'application. Cela permet d'assurer que les versions de l'application synchronisées en local ne posent pas de problème aux autres développeurs.
+### Intégration continue
+Pour chacune des modifications de code (commits), l'intégration continue contrôle :
+
+* le code source se doit d'être cohérent, c'est-à-dire qu'il ne doit pas casser le processus de compilation de l'application. Cela permet d'assurer que les versions de l'application synchronisées en local ne posent pas de problème aux autres développeurs.
 * l'application en sortie correspond à des critères de qualité basiques :
     + elle doit passer tous les [tests unitaires](http://www.extremeprogramming.org/rules/unittests.html) ;
     + elle doit répondre aux chartes internes, qui s'appuient sur un ensemble d'outils dédiés ([FxCop](https://msdn.microsoft.com/en-us/library/bb429476%28v=vs.80%29.aspx) or [JSHint](http://jshint.com/)).
 
-Tous les développeurs sont chargés de surveiller l'état de l'intégration continue et crriger immédiatement le moindre problème.
+Tous les développeurs sont chargés de surveiller l'état de l'intégration continue et corriger immédiatement le moindre problème.
 
-La configuration du serveur de compilation peut être simple en observant queles bonnes pratiques :
+La configuration du serveur de compilation peut être simple en observant quelques bonnes pratiques :
 
 * des conventions qui définissent comment sont organisés les dossiers des projets (certains dossiers de fichiers sont là dans un certain but). C'est également très important pour les développeurs qui peuvent ainsi passer d'un projet à un autre sans perdre leurs repères.
 * les gestionnaires de paquets permettent de gérer facilement les dépendances ([NuGet](http://www.nuget.org/) ou [npm](https://www.npmjs.com/)). L'une d'entre elles est un ensemble de scripts commun à tous les projets qui assure la cohérence globale et le respect des conventions sus-mentionnées. Le code source de ces scripts est librement accessible sur [GitHub](https://github.com/isogeo/Isogeo.Build).
 
+### Intégration quotidienne
 
+
+The Nightly Build is basically an extension of the previous build. It is triggered every night and it does everything the Continuous Build does and:
+
+    it creates a deployable package for the project, deployable meaning that we will ultimately be able to deploy it on all our platforms (we currently have Integration, QualityAssurance and Production) with only a reconfiguration. The technology we use to create such packages is Microsoft Web Deploy which is very suited to the task.
+    it automatically deploys the package on our Integration platform. This platform is self-hosted inside Isogeo and can be used by developers and testers alike to ensure that all the components put together still form a coherent platform.
+
+We also have a QualityAssurance platform that is hosted on Windows Azure (as is our Production platform). It is used to test the platform in a realistic environment before the release of a new version, every three months. Most of our components can be deployed on Windows Azure using the same Web Deploy technology, but our API requires to be packaged in a specific Azure package format. We use another set of scripts to manually create such packages from the build server packages.
 
