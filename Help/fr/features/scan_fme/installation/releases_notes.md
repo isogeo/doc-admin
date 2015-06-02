@@ -6,6 +6,10 @@ Vous pouvez facilement vérifier la version du service installée chez vous en p
 
 ![Scan FME - version](/fr/images/scanFME_service_version.png "Vérifier la version du service")
 
+### 1.3.2
+
+* Nouvelle version de [NSSM](http://nssm.cc/) (utilisé pour gérer le service Windows)
+* (Fix) Désinstallation du service sur une machine 32 bits
 
 ### 1.3.1
 
