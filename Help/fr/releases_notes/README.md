@@ -2,7 +2,7 @@
 
 Isogeo est une plateforme SaaS dont le développement suit la méthodologie AGILE et les cycles de la méthode Scrum.
 
-![Architecture Isogeo](/fr/images/all_architecture_Isogeo.png "Schéma global de l'architecture de la plateforme Isogeo")
+![Architecture Isogeo](/fr/images/architecture_Isogeo.png "Schéma global de l'architecture de la plateforme Isogeo")
 
 ## Installation et gestion des environnements
 
@@ -109,24 +109,62 @@ La qualité est l'un des axes majeurs de développement d'Isogeo. A ce sujet, no
 Pour chacune des modifications de code (commits), l'intégration continue contrôle :
 
 * le code source se doit d'être cohérent, c'est-à-dire qu'il ne doit pas casser le processus de compilation de l'application. Cela permet d'assurer que les versions de l'application synchronisées en local ne posent pas de problème aux autres développeurs.
+
 * l'application en sortie correspond à des critères de qualité basiques :
     + elle doit passer tous les [tests unitaires](http://www.extremeprogramming.org/rules/unittests.html) ;
     + elle doit répondre aux chartes internes, qui s'appuient sur un ensemble d'outils dédiés ([FxCop](https://msdn.microsoft.com/en-us/library/bb429476%28v=vs.80%29.aspx) or [JSHint](http://jshint.com/)).
 
 Tous les développeurs sont chargés de surveiller l'état de l'intégration continue et corriger immédiatement le moindre problème.
 
+![Intégration continue](/fr/images/architecture_ContinuousBuild.png "Le processus d'intégration continue")
+
 La configuration du serveur de compilation peut être simple en observant quelques bonnes pratiques :
 
 * des conventions qui définissent comment sont organisés les dossiers des projets (certains dossiers de fichiers sont là dans un certain but). C'est également très important pour les développeurs qui peuvent ainsi passer d'un projet à un autre sans perdre leurs repères.
+
 * les gestionnaires de paquets permettent de gérer facilement les dépendances ([NuGet](http://www.nuget.org/) ou [npm](https://www.npmjs.com/)). L'une d'entre elles est un ensemble de scripts commun à tous les projets qui assure la cohérence globale et le respect des conventions sus-mentionnées. Le code source de ces scripts est librement accessible sur [GitHub](https://github.com/isogeo/Isogeo.Build).
 
-### Intégration quotidienne
+### Compilation quotidienne
+
+La compilation quotidienne (*Nightly Build*) est la suite logique de l'intégration continue. Déclenchée toutes les nuit, elle repasse par les mêmes étapes et en plus :
+
+* elle crée un paquet déployable pour le projet, c'est-à-dire à même d'être déployé sur l'ensemble de nos plateformes (*Integration*, *QualityAssurance* et *Production*) en adaptant seulement la configuration a technologie utilisée pour générer ces paquets est [*Microsoft Web Deploy*](http://www.iis.net/downloads/microsoft/web-deploy) qui est tout à fait adaptée à ce genre d'usage.
+
+* elle déploie ensuite automatiquement la paquet sur la plateforme d'intégration. Auto-hébergée à Isogeo, cette plateforme peut être utilisée par les développeurs et les testeurs notamment pour s'assurer que les différents composants assemblés forment toujours une plateforme cohérente.
+
+Nous avons également une plateforme de recette hébergée sur Windows Azure (tout comme la plateforme de production). Elle est utilisée pour tester la plateforme en conditions réelles avant la sortie d'une nouvelle version, tous les 3 mois. La plupart des composants déployés sur Windows Azure utilise également la technologie *Microsoft Web Deploy*, mais notre API requiert d'être packagée dans un [format Azure spécifique](https://msdn.microsoft.com/fr-fr/library/azure/gg433055.aspx). Nous utilisons donc un autre ensemble de scripts pour générer manuellement ces paquets à partir du serveur de compilation.
+
+![Compilation quotidienne](/fr/images/architecture_NightlyBuild.png "Le processus de compilation quotidienne")
+
+Pour le moment, les tests exécutés sur ces plateformes sont manuels. Mias une fois déployées, les plateformes sont automatiquement surveillées :
+
+* par le [système de surveillance et de notifications intégré à Azure](https://msdn.microsoft.com/fr-fr/library/azure/dn306639.aspx),
+* par l'excellent service [New Relic](http://newrelic.com/).
+
+### La route à parcourir
+
+Our current process makes the deployment of a new version a breeze, and we are fairly confident in doing it. But there are loads of improvements to be made in certain areas to greatly raise the bar in the quality of our platform: we need more automated tests, and we need to get rid of the few remaining manual tasks required in the deployement process.
+
+#### Tests automatisés
+
+The main goal for 2015 is to improve the quality and the coverage of our current tests:
+
+    we need more unit tests on all our components. This is an evergoing process.
+    we need automated integration tests for our API. The main effort resides in the creation of a completely managed test database that can be used to test for all our use cases. And we are currently evaluating the use of RunScope as our test platform.
+    we need automated integration tests for our applications. This only requires the same test database as above. Once this is done, tools like Selenium can be used for that purpose.
+
+These tests will not be part of the Continuous Integration process because they have too many dependencies: the fact that for any reason the test database server is unavailable or a web server is down should not prevent us to create a new package and deploy a hotfix for instance.
 
 
-The Nightly Build is basically an extension of the previous build. It is triggered every night and it does everything the Continuous Build does and:
+#### Déploiement automatisé
 
-    it creates a deployable package for the project, deployable meaning that we will ultimately be able to deploy it on all our platforms (we currently have Integration, QualityAssurance and Production) with only a reconfiguration. The technology we use to create such packages is Microsoft Web Deploy which is very suited to the task.
-    it automatically deploys the package on our Integration platform. This platform is self-hosted inside Isogeo and can be used by developers and testers alike to ensure that all the components put together still form a coherent platform.
+We also need a Deployment Server that can automatically mix a set of configurations with a set of packages and deploy a new version of our software on any given platform (Integration, QualityAssurance or Production). The main benefits of such a platform would be to:
 
-We also have a QualityAssurance platform that is hosted on Windows Azure (as is our Production platform). It is used to test the platform in a realistic environment before the release of a new version, every three months. Most of our components can be deployed on Windows Azure using the same Web Deploy technology, but our API requires to be packaged in a specific Azure package format. We use another set of scripts to manually create such packages from the build server packages.
+    completely automate the deployment of our software so that it would not require a high technical expertise anymore.
+    allow to automatically run part or all of our automated integration tests on any platform.
 
+![Déploiement automatisé](/fr/images/architecture_ContinuousDeployment.png "Schma du déploiement automatisé visé")
+
+La route est droite mais la pente est rude ([référence](http://fr.wikipedia.org/wiki/Raffarinade)) ! Qu'importe
+
+Anyway we are looking forward to develop these new processes and tools so that our users can enjoy their experience on an evermore reliable platform: Isogeo.
