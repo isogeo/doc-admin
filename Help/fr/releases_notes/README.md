@@ -45,16 +45,15 @@ Cette plateforme met à disposition cinq types de services :
 
 ### Taux d’indisponibilité
 
-La société Isogeo met en œuvre les moyens nécessaires pour assurer une disponibilité maximale (s’approchant des 24h/24 et 7j/7) et pour rendre les données accessibles à tout moment. Les moyens mis en œuvre sont détaillés sur le site de Microsoft© Windows Azure© : https://www.windowsazure.com/en-us/support/faq/
+La société Isogeo met en œuvre les moyens nécessaires pour assurer une disponibilité maximale (s’approchant des 24h/24 et 7j/7) et pour rendre les données accessibles à tout moment. Les moyens mis en œuvre sont détaillés sur le site de Microsoft© Windows Azure© : http://azure.microsoft.com/fr-fr/support/faq/
 
 En raison de l’état de l’art, la société Isogeo ne peut pas garantir le fonctionnement du service sans anomalie et de manière ininterrompue. Néanmoins Isogeo s’engage à garantir un taux de disponibilité conformément au tableau suivant :
 
-| Service            | Disponibilité | Heures d’indisponibilité    |
-| :----------------- | :-----------: | :-------------------------: |
-| Microsoft Azure    | 99,95%        | 4,5h                        |
-| Isogeo déploiement | 99,45%        | 48h (24 déploiements de 2h) |
-| Isogeo imprévues   | 99,60%        | 35h                         |
-
+| Service            | Disponibilité | Indisponibilité / an        | Indisponibilité / trimestre |
+| :----------------- | :-----------: | :-------------------------: | :-------------------------: |
+| Microsoft Azure    | 99,95%        | 4,5h                        | 1,12h                       |
+| Isogeo déploiement | 99,45%        | 48h (24 déploiements de 2h) | 12h                         |
+| Isogeo imprévues   | 99,60%        | 35h                         | 8,75h                       |
 
 Le taux de disponibilité global du service est donc de 99%.
 
@@ -65,19 +64,6 @@ Les opérations de maintenance programmées concernent la mise à jour du site i
 La mise à jour du site internet « outil » est transparente pour les utilisateurs de la solution. Elle ne nécessite pas d’intervention de la part de l’organisme.
 
 Seules les mises à jour de l’exécutable peuvent requérir l’intervention de l’organisme. Un mail est envoyé par le support Isogeo une semaine avant l’opération de maintenance programmée dans le cas où une intervention manuelle devrait être réalisée.
-
-### Modalités du constat du taux d’indisponibilité
-
-Le taux de disponibilité est mesuré par le service de Windows Azure. Les outils mis en œuvre sont décrits sur le site de Microsoft© Windows Azure© : https://www.windowsazure.com/en-us/support/faq/
-
-Isogeo s’engage à garantir un taux de disponibilité conformément au tableau suivant :
-
-| Service            | Disponibilité | Indisponibilité / an        | Indisponibilité / trimestre |
-| :----------------- | :-----------: | :-------------------------: | :-------------------------: |
-| Microsoft Azure    | 99,95%        | 4,5h                        | 1,12h                       |
-| Isogeo déploiement | 99,45%        | 48h (24 déploiements de 2h) | 12h                         |
-| Isogeo imprévues   | 99,60%        | 35h                         | 8,75h                       |
-
 
 ## Sécurité
 
@@ -136,35 +122,32 @@ Nous avons également une plateforme de recette hébergée sur Windows Azure (to
 
 ![Compilation quotidienne](/fr/images/architecture_NightlyBuild.png "Le processus de compilation quotidienne")
 
-Pour le moment, les tests exécutés sur ces plateformes sont manuels. Mias une fois déployées, les plateformes sont automatiquement surveillées :
+Pour le moment, les tests exécutés sur ces plateformes sont manuels. Mais une fois déployées, les plateformes sont automatiquement surveillées :
 
 * par le [système de surveillance et de notifications intégré à Azure](https://msdn.microsoft.com/fr-fr/library/azure/dn306639.aspx),
 * par l'excellent service [New Relic](http://newrelic.com/).
 
 ### La route à parcourir
 
-Our current process makes the deployment of a new version a breeze, and we are fairly confident in doing it. But there are loads of improvements to be made in certain areas to greatly raise the bar in the quality of our platform: we need more automated tests, and we need to get rid of the few remaining manual tasks required in the deployement process.
+Nos procédures actuelles facilitent grandement la mise en production d'une nouvelle version et nous permettent d'être assez confiants sur tout le processus. Mais il y a encore de nombreuses pistes d'améliorations à apporter sur certains points pour monter d'un cran la qualité de notre plateforme : nous avons besoin de monter en puissance sur les tests automatisés et de nous débarasser des résidus d'opérations manuelles dans le processus de déploiement.
 
 #### Tests automatisés
 
-The main goal for 2015 is to improve the quality and the coverage of our current tests:
+Le principal objectif pour les évolutions à venir est d'améliorer la qualité et la couverture des tests actuels :
 
-    we need more unit tests on all our components. This is an evergoing process.
-    we need automated integration tests for our API. The main effort resides in the creation of a completely managed test database that can be used to test for all our use cases. And we are currently evaluating the use of RunScope as our test platform.
-    we need automated integration tests for our applications. This only requires the same test database as above. Once this is done, tools like Selenium can be used for that purpose.
+* plus de tests unitaires sur tous les composants. C'est un processus permanent et de longue haleine ;
+* des tests automatisés d'intégration de notre API. Le principal effort à fournir réside dans la création d'une base de données dédiée aux tests de nos différents cas d'usage. Nous nous intéressons de près à des services comme [Runscope](https://www.runscope.com/).
+* des tests automatisés d'intégration de nos applicatifs. Le prérequis est le même : une base de données de test. Une fois satisfait, des outils tels que [Selenium](http://docs.seleniumhq.org/) devraient convenir à nos besoins.
 
-These tests will not be part of the Continuous Integration process because they have too many dependencies: the fact that for any reason the test database server is unavailable or a web server is down should not prevent us to create a new package and deploy a hotfix for instance.
-
+Tous ces tests ne feront pas partie de l'intégration continue car ils ont beaucoup trop de dépendances: l'indisponibilité, pour une raison ou pour une autre, de la base de test ou de l'un des serveurs web ne devrait pas nous empêcher de compiler un nouveau paquet ou déployer un correctif par exemple.
 
 #### Déploiement automatisé
 
-We also need a Deployment Server that can automatically mix a set of configurations with a set of packages and deploy a new version of our software on any given platform (Integration, QualityAssurance or Production). The main benefits of such a platform would be to:
+Nous avons également besoin d'un serveur de déploiement qui puisse automatiquement, à partir d'un ensemble de configurations et de paquets, déployer une nouvelle version de notre logiciel sur n'importe laquelle de nos plateformes (*Integration*, *QualityAssurance*, *Production*). Les principaux bénéfices de ce genre de plateforme seraient :
 
-    completely automate the deployment of our software so that it would not require a high technical expertise anymore.
-    allow to automatically run part or all of our automated integration tests on any platform.
+* d'automatiser complètement le déploiement de notre solution sans nécessiter un haut niveau de compétence technique ;
+* permettre de faire tourner tout ou partie des tests automatisés d'intégration sur n'importe laquelle e nos plateformes.
 
 ![Déploiement automatisé](/fr/images/architecture_ContinuousDeployment.png "Schma du déploiement automatisé visé")
 
-La route est droite mais la pente est rude ([référence](http://fr.wikipedia.org/wiki/Raffarinade)) ! Qu'importe
-
-Anyway we are looking forward to develop these new processes and tools so that our users can enjoy their experience on an evermore reliable platform: Isogeo.
+La route est droite mais la pente est rude ([référence](http://fr.wikipedia.org/wiki/Raffarinade)) ! Qu'importe nous continuons d'avancer en intégrant les outils nécessaires et en instaurant ces nouveaux processus de façon à ce que nos utilisateurs puissent profiter d'une expérience toujours plus sereine sur Isogeo.
