@@ -1,12 +1,18 @@
 # Architecture et cycles de développement
 
-Isogeo est une plateforme SaaS dont le développement suit la méthodologie AGILE et les cycles de la méthode Scrum.
+Isogeo est une plateforme SaaS (Software as a Service) pour une plus grande souplesse d’installation et d’utilisation et dont le développement suit la méthodologie AGILE et les cycles de la méthode Scrum.
+
+Comme le montre le schéma ci-dessous, Isogeo est constituée de deux composants principaux :
+
+* Un site internet « outil » : un environnement de travail hébergé par la société Isogeo.
+
+* Un agent : un service Windows déployé sur un serveur ou une station de travail au sein de l’organisme client.
 
 ![Architecture Isogeo](/fr/images/architecture_Isogeo.png "Schéma global de l'architecture de la plateforme Isogeo")
 
 ## Installation et gestion des environnements
 
-La solution Isogeo est déployée en mode SaaS sur la plateforme de Cloud Computing de Microsoft : Windows Azure.  Trois environnements distincts permettent de gérer les développements, les tests et la production :
+La solution Isogeo fonctionne en mode SaaS sur la plateforme de *Cloud Computing* de Microsoft : Windows Azure. Trois environnements distincts permettent de gérer les développements, les tests et la production :
 
 * la plateforme de **développement** est réservée à la société Isogeo. Elle permet de gérer les développements de la solution. Mise à jour toutes les nuits elle agrège l’ensemble des développements effectués dans la journée (voir plus bas pour la démarche de qualité logicielle à Isogeo) ;
 
