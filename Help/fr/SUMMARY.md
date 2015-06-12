@@ -56,6 +56,7 @@
    * [Administrer](features/admin/README.md)
        * [Le groupe de travail](features/admin/group.md)
        * [Les utilisateurs](features/admin/users.md)
+       * [Les catalogues](features/admin/catalogs.md)
        * [Le carnet d'adresses](features/admin/contacts.md)
        * [Les systèmes de coordonnées](features/admin/srs.md)
        * [Les licences](features/admin/licences.md)
