@@ -68,7 +68,7 @@
    * [Mettre à jour](features/scan_fme/installation/update.md)
    * [Notes de version du service](features/scan_fme/installation/releases_notes.md)
 * [Support](support/README.md)
-* [Architecture technique et feuille de route](releases_notes/README.md)
+* [Architecture technique et politique de développement](releases_notes/README.md)
    * [Version 2.12.0](releases_notes/2_12_0.md)
    * [Version 2.11.0](releases_notes/2_11_0.md)
    * [Version 2.10.0](releases_notes/2_10_0.md)

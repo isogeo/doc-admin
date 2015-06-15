@@ -30,26 +30,13 @@ En fonction des caractéristiques des données parcourues, il peut devenir gourm
 
 ## Sauvegarde et restauration
 
-La plateforme Isogeo (application et base de données) est sauvegardée quotidiennement dans un lieu de stockage privé sur le Cloud Computing Microsoft© : Windows Azure©. Les moyens de sauvegarde utilisés sont décrits sur le site officiel de Microsoft©: http://www.windowsazure.com/fr-fr.
+La plateforme Isogeo (application et base de données) est sauvegardée quotidiennement dans un lieu de stockage privé sur le Cloud Computing Microsoft© : Windows Azure©. Les moyens de sauvegarde utilisés sont décrits sur le site officiel de [Microsoft©](http://www.windowsazure.com/fr-fr).
 
-Une restauration générale de la plateforme peut être réalisée en quelques heures à la charge d’Isogeo.
+Une restauration générale de la plateforme peut être réalisée à la charge d’Isogeo.
 
-La restauration de l’environnement propre à l’organisme peut être réalisée dans la journée à la charge de l’organisme.
+La restauration de l’environnement propre à l’organisme peut être réalisée à la charge de l’organisme.
 
-## Conditions d'hébergement
-
-La plateforme Isogeo est hébergée dans le Cloud de Microsoft© : Windows Azure©. Les conditions d’hébergement sont décrites en détail sur le site officiel de Microsoft© pour plus de détails : http://www.windowsazure.com/fr-fr/
-
-Cette plateforme met à disposition cinq types de services :
-
-* Une ferme de frontaux web (Web Roles) ;
-* Des services d’arrière-plan (WorkerRoles) : comparables à des services Windows ;
-* Un cluster de bases de données (SQL Azure) ;
-* Des machines virtuelles ;
-* Un service de stockage de fichiers ;
-* La communication entre le navigateur et l’outil se fait exclusivement en SSL (*Secure Sockets Layer*).
-
-### Taux d’indisponibilité
+### Taux de disponibilité
 
 La société Isogeo met en œuvre les moyens nécessaires pour assurer une disponibilité maximale (s’approchant des 24h/24 et 7j/7) et pour rendre les données accessibles à tout moment. Les moyens mis en œuvre sont détaillés sur le site de Microsoft© Windows Azure© : http://azure.microsoft.com/fr-fr/support/faq/
 
@@ -75,11 +62,11 @@ Seules les mises à jour de l’exécutable peuvent requérir l’intervention d
 
 ### Sécurisation des accès et des transmissions
 
-* L’exécutable Isogeo (composant client) communique avec la plateforme Isogeo lors de certaines opérations d’administration (scan des données géographiques et synchronisation). L’authentification se fait par identifiants et la communication est chiffrée entre l’agent et la plateforme (SSL).
+* Le service Isogeo (composant client) communique avec la plateforme Isogeo lors de certaines opérations d’administration (scan des données géographiques et synchronisation). L’authentification se fait par identifiants et la communication est chiffrée entre l’agent et la plateforme (SSL).
 
 * La communication entre l’agent et la plateforme est initiée depuis l’agent. Il n’est pas nécessaire d’ouvrir de ports entrants spécifiques.
 
-* Il est en revanche indispensable d’autoriser les communications entrantes pour toutes les communications initiées depuis le réseau local sur le port tcp 5671.
+* Il est en revanche indispensable d’autoriser les communications entrantes et sortantes sur le port TCP 5671.
 
 ### Contrôle de l’accès aux données lors du recensement automatique
 
@@ -87,7 +74,9 @@ Seules les mises à jour de l’exécutable peuvent requérir l’intervention d
 
 * L’accès aux données est entièrement configurable par l’organisme. Il suffit d’indiquer à l’exécutable les bases de données et les répertoires auquel il peut accéder.
 
-* L’accès aux données se fait quel que soit le système d’exploitation du serveur ou du poste de travail dans lequel elles sont stockées (Windows 2000, XP, Vista, 7, Unix, Linux, OS X de MAC)
+* L’accès aux données dépend du type de stockage des données :
+    * Système de Gestion de Base de Données (SGBD) : tous systèmes d'exploitation.
+    * Fichiers : il faut pouvoir mettre à disposition du service un partage de type Windows (protocole SMB). De plus, il est préférable qu'ils soient hébergés sur un OS de type serveur.
 
 * L'accès aux données est en lecture seule, mais certains fournisseurs d’accès aux données requièrent un accès en lecture/écriture. La donnée géographique n’est pas modifiée, mais des mises à jour de fichiers d’index ou d’informations techniques peuvent demander des accès en écriture.
 
@@ -131,29 +120,5 @@ Nous avons également une plateforme de recette hébergée sur Windows Azure (to
 Pour le moment, les tests exécutés sur ces plateformes sont manuels. Mais une fois déployées, les plateformes sont automatiquement surveillées :
 
 * par le [système de surveillance et de notifications intégré à Azure](https://msdn.microsoft.com/fr-fr/library/azure/dn306639.aspx),
-* par l'excellent service [New Relic](http://newrelic.com/).
+* par le service [New Relic](http://newrelic.com/).
 
-### La route à parcourir
-
-Nos procédures actuelles facilitent grandement la mise en production d'une nouvelle version et nous permettent d'être assez confiants sur tout le processus. Mais il y a encore de nombreuses pistes d'améliorations à apporter sur certains points pour monter d'un cran la qualité de notre plateforme : nous avons besoin de monter en puissance sur les tests automatisés et de nous débarasser des résidus d'opérations manuelles dans le processus de déploiement.
-
-#### Tests automatisés
-
-Le principal objectif pour les évolutions à venir est d'améliorer la qualité et la couverture des tests actuels :
-
-* plus de tests unitaires sur tous les composants. C'est un processus permanent et de longue haleine ;
-* des tests automatisés d'intégration de notre API. Le principal effort à fournir réside dans la création d'une base de données dédiée aux tests de nos différents cas d'usage. Nous nous intéressons de près à des services comme [Runscope](https://www.runscope.com/).
-* des tests automatisés d'intégration de nos applicatifs. Le prérequis est le même : une base de données de test. Une fois satisfait, des outils tels que [Selenium](http://docs.seleniumhq.org/) devraient convenir à nos besoins.
-
-Tous ces tests ne feront pas partie de l'intégration continue car ils ont beaucoup trop de dépendances: l'indisponibilité, pour une raison ou pour une autre, de la base de test ou de l'un des serveurs web ne devrait pas nous empêcher de compiler un nouveau paquet ou déployer un correctif par exemple.
-
-#### Déploiement automatisé
-
-Nous avons également besoin d'un serveur de déploiement qui puisse automatiquement, à partir d'un ensemble de configurations et de paquets, déployer une nouvelle version de notre logiciel sur n'importe laquelle de nos plateformes (*Integration*, *QualityAssurance*, *Production*). Les principaux bénéfices de ce genre de plateforme seraient :
-
-* d'automatiser complètement le déploiement de notre solution sans nécessiter un haut niveau de compétence technique ;
-* permettre de faire tourner tout ou partie des tests automatisés d'intégration sur n'importe laquelle e nos plateformes.
-
-![Déploiement automatisé](/fr/images/architecture_ContinuousDeployment.png "Schma du déploiement automatisé visé")
-
-La route est droite mais la pente est rude ([référence](http://fr.wikipedia.org/wiki/Raffarinade)) ! Qu'importe nous continuons d'avancer en intégrant les outils nécessaires et en instaurant ces nouveaux processus de façon à ce que nos utilisateurs puissent profiter d'une expérience toujours plus sereine sur Isogeo.
