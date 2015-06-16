@@ -11,3 +11,21 @@ L’onglet « Ressources » permet de créer des liens vers les documents (carte
 ### Liens associés
 
 
+
+#### Actions possibles par type de lien
+
+Légende :
+* X = possible
+* (X) = valeur par défaut
+
+| Type           | Téléchargement | Visualisation | Autre |
+| :------------- | :------------: | :-----------: | :---: |
+| Lien           | X              | X             | (X)   |
+| WFS            | (X)            | (X)           | X     |
+| WMS            |                | (X)           | X     |
+| WMTS           |                | (X)           | X     |
+| Esri Feature   | (X)            | (X)           | X     |
+| Esri Map       |                | (X)           | X     |
+| Esri Tiled Map |                | (X)           | X     |
+| Donnée brute   | (X)            |               | X     |
+
