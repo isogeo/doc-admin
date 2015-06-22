@@ -13,7 +13,7 @@ Cet onglet donne les éléments de connaissance basique sur une ressource. Il es
 | Exigence INSPIRE           | Obligatoire         |
 | Edition par lot            | Oui, par écrasement |
 | Scan                       | Non                 |
-| Moteur de recherche        | X                   |
+| Moteur de recherche        | X (+ tri)                   |
 
 ### Résumé
 
