@@ -19,11 +19,11 @@ La démarche à suivre est la suivante :
 | Identification  | X         |
 | Histoire        | X         |
 | Géographie      | X         |
-| Qualité         |           |
+| Qualité         | X         |
 | Attributs       |           |
 | CGU             | X         |
 | Ressources      | X         |
-| Contacts        |           |
+| Contacts        | X         |
 | Avancé          | X         |
 | Métadonnée      | X         |
 
