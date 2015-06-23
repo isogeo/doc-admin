@@ -1,5 +1,8 @@
 Isogeo est une application web qui vous permet de gérer et partager un catalogue exhaustif, à jour et documenté de vos données géographiques.
 
+<iframe width="853" height="480" src="https://www.youtube.com/embed/JbBxxpC4hzQ?rel=0" frameborder="0" allowfullscreen></iframe>
+
+
 Ce document vous explique pas à pas comment l’utiliser en décrivant le fonctionnement et l'utilisation de ses différents modules et ressources. Si vous rencontrez des difficultés que vous ne parvenez pas à résoudre avec cette aide en ligne, [contactez le support](support/README.html).
 
 ![La plateforme](/fr/images/offer_schema_platform_modAPI.png "Modules et ressources de la plateforme Isogeo")
