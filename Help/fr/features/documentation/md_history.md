@@ -70,4 +70,4 @@ L’onglet « Histoire » décrit le contexte et la méthode de création de la 
 | Scan                       | Oui, pour les dates de modification |
 | Moteur de recherche        | Tri                                 |
 
-
+> Astuce : chaque événement étant une sous-ressource de la métadonnée, il faut enregistrer les modifications de chaque événement avant d'enregistrer les modifications au niveau de la ressource, sans quoi les modifications seront perdues !
