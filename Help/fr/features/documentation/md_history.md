@@ -64,8 +64,8 @@ L’onglet « Histoire » décrit le contexte et la méthode de création de la 
 | Définition                 | Historique des dates clés sur la vie de la donnée |
 | :------------------------- | :------------------------------------------------ |
 | Indications                | Ces dates rendent compte de la vie de la donnée. Elles peuvent être de 3 types (correspondant à 3 couleurs) : <br /><br />- création (vert, unique, manuelle) : quand la donnée a été créée la toute première fois. Il ne s'agit pas de la date de référence du phénomène décrit. Typiquement, si la série de données est une photographie prise le 15 mai 2000 d’un monument historique datant de 1920, la date de création de la ressource est le 15 mai 2000, pas 1920 ;<br /><br />- modification (bleu, multiple, auto et manuelle) : indique une révision de la donnée. Le scan crée automatiquement l'événement si des modifications sont détectées sur la géométrie, les attributs ou la projection ;<br /><br />- publication (gris, multiple, manuelle) :  date à laquelle la ressource est disponible ou la date d’entrée en vigueur.|
-| Exemple                    | ![Onglet histoire - événements](/fr/images/inv_edit_one_history_events.png "La gestion des événements de la vie d'une donnée") |
-| Exigence INSPIRE           | Obligatoire                         |
+| Exemple                    | ![Onglet histoire - événements](/fr/images/inv_edit_one_history_events_900px.png "La gestion des événements de la vie d'une donnée") |
+| Exigence INSPIRE           | Obligatoire si la période de validité n’est pas renseignée et fortement recommandé |
 | Edition par lot            | Oui par incrémentation, pour les dates de modification et de publication |
 | Scan                       | Oui, pour les dates de modification |
 | Moteur de recherche        | Tri                                 |
