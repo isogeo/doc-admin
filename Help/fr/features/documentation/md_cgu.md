@@ -8,7 +8,7 @@ L’onglet « CGU » précise les contraintes d’accès et d’utilisation de l
 
 | Définition          | Règles encadrant l'accès et l'usage des ressources |
 | :------------------ | :------------------------------------------------ |
-| Indications         | Préciser les conditions applicables à l’accès et à l’utilisation des données et des services de données géographiques, et, le cas échéant, les frais correspondants.<br />Ces informations sont regroupées dans une licence qu'elle soit standard (ODbL, IGN Service public, etc.) ou spécifique (convention d'échanges, charte d'utilisation...).<br />La liste des licences disponible est modifiable par l'administrateur (voir [le chapitre dédié](/fr/features/admin/licences.html)).|
+| Indications         | Préciser les conditions applicables à l’accès et à l’utilisation des données et des services de données géographiques, et, le cas échéant, les frais correspondants.<br />Ces informations sont regroupées dans une licence qu'elle soit standard (ODbL, IGN Service public, etc.) ou spécifique (convention d'échanges, charte d'utilisation...).<br />La liste des licences disponibles est modifiable par l'administrateur (voir [le chapitre dédié](/fr/features/admin/licences.html)).|
 | Exemple             | Convention d'échange - prestataires/partenaires<br />**Convention destinée à encadrer l'échange temporaire ou pérenne de données géographiques auprès des prestataires ou partenaires.** |
 | Exigence INSPIRE    | Obligatoire                   |
 | Edition par lot     | Oui, par incrémentation       |
