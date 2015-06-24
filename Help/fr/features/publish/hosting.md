@@ -8,7 +8,7 @@ Plusieurs options s'offrent à vous :
 * indiquer un lien vers un service de téléchargement.
 
 ## Héberger les données brutes directement sur Isogeo !
-[Icone stockage](/fr/images/offer_schema_platform_resStorage.png "Hébergement et stockage de données dans le cloud d'Isogeo")
+![Icone stockage](/fr/images/offer_schema_platform_resStorage.png "Hébergement et stockage de données dans le cloud d'Isogeo")
 
 Vous pouvez héberger des données brutes ou des documents sur Isogeo, via l’interface de saisie des métadonnées.
 

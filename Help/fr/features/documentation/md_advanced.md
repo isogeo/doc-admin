@@ -8,7 +8,7 @@ L’onglet « Avancé » permet de spécifier le format, la version du format et
 
 | Définition          | Type de ressource renseigné                       |
 | :------------------ | :------------------------------------------------ |
-| Indications         | il s'agit d'indiquer s'il s'agit d'un jeu de données ou d'un ensemble de données. Dans Isogeo, les modèles sont clairement différenciés au moment de la création de la fiche de métadonnée (manuelle ou automatique). |
+| Indications         | Il s'agit d'indiquer s'il s'agit d'un jeu de données ou d'un ensemble de données. Dans Isogeo, les modèles sont clairement différenciés au moment de la création de la fiche de métadonnée (manuelle ou automatique). |
 | Exigence INSPIRE    | Obligatoire                   |
 | Edition par lot     | Oui, par écrasement           |
 | Scan                | Oui                           |

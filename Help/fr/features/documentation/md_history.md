@@ -8,7 +8,7 @@ L’onglet « Histoire » décrit le contexte et la méthode de création de la 
 
 | Définition                 | Objectif de la collecte |
 | :------------------------- | :---------------------- |
-| Indications                | Indiquer pourquoi et dans quel cadre cette donnée a t'elle été produite |
+| Indications                | Indiquer pourquoi et dans quel cadre cette donnée a été produite |
 | Exemple                    | La BD CARTO® est l'une des grandes bases de données produites par l'Institut Géographique National. Elle est née au milieu des années 80 avec le développement d’outils informatiques puissants qui ouvraient de nouvelles perspectives de gestion et d’analyse informatisées des données localisées.<br /><br />Elle est particulièrement adaptée à la cartographie de synthèse et aux applications d’études de projet, de gestion d’infrastructures et d’aménagement du territoire, au niveau départemental et régional. |
 | Exigence INSPIRE           | Obligatoire         |
 | Edition par lot            | Oui, par écrasement |

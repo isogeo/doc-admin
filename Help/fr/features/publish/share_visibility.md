@@ -76,6 +76,6 @@ Dans l’ordre, nous avons :
 
 3.	Créer OpenCatalog. Si la fiche sur la ressource et la fiche sur les jeux de données sont dans le même partage, les liens associés à la 1ère seront visibles ;
 
-4.	Bonne pratique : créer un catalogue des ressources par niveau d'usage.
+Bonne pratique : créer un catalogue des ressources par niveau d'usage.
 
-    ![Schéma affichage différencié](/fr/images/resources_DifferentDisplays_schema.png "Accès aux 3 ressources : téléchargement, WMS et WFS")
+![Schéma affichage différencié](/fr/images/resources_DifferentDisplays_schema.png "Accès aux 3 ressources : téléchargement, WMS et WFS")

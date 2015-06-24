@@ -36,6 +36,6 @@ La démarche à suivre est la suivante :
 
 * l'édition par lot ne s'appliquera qu'aux champs modifiés. Par exemple, si vous n'ajoutez que le résumé, les autres champs seront laissés en l'état.
 
-* si une fiche de la sélection ne vous appartient pas, vous ne pourrez pas réaliser l'édition par lot Pensez à filtrer sur votre groupe de travail.
+* si une fiche de la sélection ne vous appartient pas, vous ne pourrez pas réaliser l'édition par lot. Pensez à filtrer sur votre groupe de travail.
 
-* si plusieurs types de ressources sont représentés dans la sélection (par exemple des données vecteurs avec des services, les champs disponibles pour l'édiiton par lot seront limités au plus petit dénominateur commun.
+* si plusieurs types de ressources sont représentés dans la sélection (par exemple des données vecteurs avec des services), les champs disponibles pour l'édition par lot seront limités au plus petit dénominateur commun.

@@ -6,13 +6,15 @@ Un [tableau de correspondance des champs Isogeo avec la directive INSPIRE](https
 
 [![Edition unitaire - Métadonnée](/fr/images/annex_Tableau_IsogeoINSPIRE "L'édition unitaire - onglet Métadonnée")](https://docs.google.com/spreadsheet/ccc?key=0AgqcgCYNe0TfdGI3M1l2WEZaNExxYnpkb29YRzNNY3c&usp=sharing)
 
+> Astuce : la catégorie ISO est déduite automatiquement du thème INSPIRE par Isogeo.
+
 ## Valideur
 
 Le valideur INSPIRE, adopté par la communauté européenne, est directement intégré dans la solution Isogeo.
 
-Dès qu’une donnée est classée dans un thème Inspire (cf. §8.2.7), le valideur se lance et vérifie la conformité de votre fiche de métadonnée :
+Dès qu’une donnée est classée dans un thème Inspire (voir [chapitre dédié](/fr/features/documentation/md_classify.html#comment-tiqueter)), le valideur se lance et vérifie la conformité de votre fiche de métadonnée :
 * si elle est valide, le message suivant « Cette fiche est conforme Inspire » s’affiche en vert dans l’onglet `Identification` ;
-* s’il manque des informations, elles sont listées en jaune..
+* s’il manque des informations, elles sont listées en jaune.
 
 ## INSPIRE en quelques clics
 

@@ -12,7 +12,7 @@ Pour cela, il suffit de :
 4.	Cliquer sur « Sélectionner le fichier », l’explorateur Windows s’ouvre ;
 5.	Sélectionner le XML à importer ;
 6.	Activer ou désactiver l’option `écraser les données existantes` ;
-7.	CLiquer sur `Importer`. Les informations contenues dans le XML sont importées dans la fiche de métadonnées.
+7.	Cliquer sur `Importer`. Les informations contenues dans le XML sont importées dans la fiche de métadonnées.
 
 Les champs importés sont les suivants :
 

@@ -21,7 +21,7 @@ Chaque catégorie en orange affiche un graphique différent correspondant à la 
 
 ![Les métriques de l'inventaire](/fr/images/tdb_metrics.gif "Raccourcis et menus communs à tous les écrans de la plateforme")
 
-Les éléments des graphiques agissent comme des raccourcis filtrés sur l'inventaire. Par exemple, dans le diagramme en camembert des formats, si vous cliquez sur l'un des formats représentés, vous accèderez directement à la liste des données correspondantes au format choisi.
+Les éléments des graphiques agissent comme des raccourcis filtrés sur l'inventaire. Par exemple, dans le diagramme circulaire des formats, si vous cliquez sur l'un des formats représentés, vous accèderez directement à la liste des données correspondantes au format choisi.
 
 > A noter : les métriques prennent en compte uniquement les données **appartenant** à votre groupe de travail. Celles qui vous ont été partagées par d'autres groupes ou celles moissonnées depuis un service CSW ne sont pas représentées.
 

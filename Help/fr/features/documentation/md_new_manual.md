@@ -10,7 +10,6 @@ Vous pouvez choisir parmi les différents modèles disponibles :
 * Service ;
 * Ressource.
 
-
 Pour cela il suffit de cliquer sur le bouton `+ Créer`de l'inventaire. Vous avez alors 2 façons de procéder :
 
 * soit en créant une fiche vierge en indiquant seulement son titre ;

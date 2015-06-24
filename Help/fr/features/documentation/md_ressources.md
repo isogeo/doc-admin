@@ -12,6 +12,7 @@ L’onglet « Ressources » permet de créer des liens vers les documents (carte
 
 
 
+
 #### Actions possibles par type de lien
 
 Légende :

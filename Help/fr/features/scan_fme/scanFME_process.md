@@ -34,6 +34,6 @@ Allez dans l’inventaire pour découvrir ces données et parcourir leurs métad
 
 ## Cas particuliers
 
-- Si vous copiez une donnée sans changer le nom de fichier, le scan indiquera qu'il a détecté un doublon mais crééera quand même une nouvelle fiche ;
+- Si vous copiez une donnée sans changer le nom de fichier, le scan indiquera qu'il a détecté un doublon mais créera quand même une nouvelle fiche ;
 - Le renommage un point d'entrée n'est pas possible aujourd'hui. Il faut nécessairement le supprimer et en re-créer un ;
 - Une table visible à partir de plusieurs points d'entrée (chaînes de connexion différentes) ne sera pas dupliquée.

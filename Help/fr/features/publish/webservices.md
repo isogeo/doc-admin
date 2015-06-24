@@ -6,7 +6,7 @@ Si jamais le paramètre *layers* n’est pas renseigné dans l’URL, une erreur
 
 ![Erreur flux OpenCatalog](/fr/images/OC_view_ErrorLayerIsMissing.png "Erreur de lecture de flux dans l'OpenCatalog")
 
-> Astuce : si vous souhaitez que vos services géographiques soient correctement "consommés" par des plaetformes externes, comme geOrchestra ou Prodige, elles doivent être formatées d'une certain façon. Voir [l'annexe à ce sujet](/fr/appendices/webgeoservices_in_csw.html).
+> Astuce : si vous souhaitez que vos services géographiques soient correctement "consommés" par des plateformes externes, comme geOrchestra ou Prodige, elles doivent être formatées d'une certain façon. Voir [l'annexe à ce sujet](/fr/appendices/webgeoservices_in_csw.html).
 
 ____
 ## Associer un flux WMS
