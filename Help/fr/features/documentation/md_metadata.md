@@ -15,9 +15,9 @@ L’onglet « Métadonnées » permet d’indiquer la date de création et la la
 | Scan                | Oui                           |
 | Moteur de recherche | Filtres                       |
 
-> Astuce : si vous importez un fichier XML depuis une fiche existante (automatique ou manuelle) et que vous choisissez d'écraser les données, la date de création sera remplacée par celle contenue dans le XML. Pour plus d'informations :
-* ,
-* les dates dans Isogeo.
+> Astuce : si vous importez un fichier XML depuis une fiche existante (automatique ou manuelle) et que vous choisissez d'écraser les données, la date de création sera remplacée par celle contenue dans le XML. Pour plus d'informations, consulter :
+* l'[import XML](/fr/features/documentation/md_import.html) et le [moissonnage CSW](/fr/features/csw_client/csw_harvest.html),
+* les [dates dans Isogeo](/fr/appendices/different_dates.html).
 
 ### Langue
 
@@ -29,3 +29,5 @@ L’onglet « Métadonnées » permet d’indiquer la date de création et la la
 | Edition par lot     | Oui, par écrasement           |
 | Scan                | Non                           |
 | Moteur de recherche | Non                           |
+
+> Astuce : il est possible de définir la langue des métadonnées par défaut dans les paramètres du groupe de travail (voir [chapitre dédié](/fr/features/admin/group.html#dfinir-la-langue-des-mtadonnes-par-dfaut)). Elle n'apparaîtra pas ici mais sera celle de référence dans vos partages CSW.
