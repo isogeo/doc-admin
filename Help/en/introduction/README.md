@@ -1,27 +1,27 @@
-# Présentation générale
+# Overview
 
-Isogeo est une solution logicielle de catalogage et de partage des données SIG. Elle permet de :
+Isogeo is a software solution for cataloguing and sharing GIS data. It can be used to:
 
-* créer un inventaire  exhaustif, à jour et documenté des données SIG ;
-* gérer un (ou plusieurs) catalogue(s) de données à partir de l’inventaire ;
-* partager et exploiter le(s) catalogue(s) à travers une multitude de fonctionnalités et de services web ;
-* publier vos catalogues au sein d’une plateforme dédiée et intégrable dans vos sites web.
+* create an exhaustive, up-to-date and documented inventory of the GIS data;
+* manage one or more data catalogues based on the inventory;
+* share and use the catalogue(s) via an extensive array of functions and web services;
+* publish your catalogues on a dedicated platform that can be integrated in your websites.
 
-Ainsi, chaque organisme équipé peut maîtriser son patrimoine de données SIG et valoriser celui-ci en interne, auprès de ses partenaires et du grand public.
+Each body/organization can thus manage its GIS data assets and share them internally with its partners and the general public.
 
-Toutes les fonctionnalités de la solution Isogeo s’inscrivent dans un processus métier clair et innovant : [recenser](/fr/introduction/inventorize.html), [documenter](/fr/introduction/documentation.html) et [valoriser](/fr/introduction/share.html) les données SIG en toute simplicité.
+All the functions available in the Isogeo solution are part of a clear, innovative value chain: [inventorizing](/fr/introduction/inventorize.html), [documenting](/fr/introduction/documentation.html) and [sharing](/fr/introduction/share.html) the GIS data in a perfectly straightforward manner.
 
-Le schéma ci-dessous illustre ce processus métier :
+The diagram below illustrates this value chain:
 
-![Brochure du process](/fr/images/brochure_FR.png "Un processus orienté métier")
+![Process brochure](/en/images/brochure_FR.png "A business-oriented process")
 
-Avant de prendre en main chacune des fonctionnalités offertes par la solution Isogeo, il est important de bien comprendre ce processus métier.
+Before dealing with each function available in the Isogeo solution, it is important to have a clear understanding of this value chain.
 
-Le catalogage des données et la gestion des métadonnées sont des actions stratégiques qu’il ne faut pas négliger pour **gouverner et valoriser son patrimoine de données**. Lorsque vous vous engagez dans le catalogage de vos données, vous êtes très souvent confronté à ces questions :
+Cataloguing data and managing metadata represent strategic actions that must not be overlooked in order to **govern and add value to your data assets**.  When you undertake to catalogue your data, you will often come up against the following questions:
 
-* Quelles données documenter ?
-* Quelles métadonnées renseigner ?
-* Et quelle méthodologie employer ?
+* Which data should I document?
+* Which metadata should I enter?
+* Which method should I adopt?
 
-Dans le but de vous apporter des réponses concrètes, Isogeo a défini un processus métier simple et approuvé. En voici les principales étapes.
+To provide you with concrete answers, Isogeo has defined an approved, straightforward value chain. Here are the main steps.
 

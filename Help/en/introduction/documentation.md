@@ -1,22 +1,22 @@
-# Documenter
+# Documenting
 
-En respectant le formalisme imposé par la directive INSPIRE et les normes d’interopérabilité définies par ISO. Dans cette phase de documentation, on distingue 3 opérations :
+In compliance with the formalism laid down by the INSPIRE directive and the interoperability standards defined by ISO. 3 operations can be distinguished in this documentation phase: 
 
-* **Qualifier** : décrire les données (titre, résumé, historique, géographie, conditions générales d’accès et d’utilisation, contacts, etc...). Cette opération est facilitée par 3 processus :
-    - la récupération automatique d’un tiers des champs requis par la directive Inspire ;
-    - la saisie par lot (possibilité de saisir plusieurs fiches en même temps) ;
-    - l’import des fiches existantes au format XML.
+* **Qualify**: describing the data (title, summary, history, geography, general terms and conditions for access and use, contracts, etc.). This operation is facilitated by 3 processes:
+    - automatic retrieval of one third of the required fields by the Inspire directive;
+    - batch input (possibility of entering several records at the same time);
+    - import of existing records in XML format.
 
-* **Classer** : affecter des thématiques et des mots-clés grâce à la gestion d’un thésaurus personnalisable. Cette étape indispensable au catalogage facilite la recherche des données.
+* **Classify**: assigning sets of themes and keywords using a customizable thesaurus. Essential for cataloguing, this step facilitates the subsequent data search.
 
-* **Associer** : lier des services aux données (carte PDF, carte interactive, lien de téléchargement, site web, etc.). Cette opération fait de la métadonnée un véritable ‘concentrateur de ressources’ et permet à vos utilisateurs d’accéder facilement aux données.
+* **Associate**: associating services with the data (PDF map, interactive map, download link, website, etc.). This operation transforms the metadata into a veritable 'resource concentrator' and allows your users to easily access the data.
 
-| ![Utilisation simple](/fr/images/icone_simple_bleu_140px.png "Ergonomie et simplicité d'utilisation") | ![Multi-utilisateurs](/fr/images/icone_multiuser_bleu_140px.png "Gestion muti-comptes") | ![Tableau de bord](/fr/images/icone_tdb_bleu_140px.png "Tableau de bord") | ![Compatibilité INSPIRE](/fr/images/icone_inspire_bleu_140px.png "Interopérabilité avec les standards") |
+| ![Easy-to-use](/en/images/icone_simple_bleu_140px.png "User-friendly and easy-to-use") | ![Multi-user](/en/images/icone_multiuser_bleu_140px.png "Multi-account management") | ![Dashboard](/en/images/icone_tdb_bleu_140px.png "Dashboard") | ![INSPIRE-compatible](/en/images/icone_inspire_bleu_140px.png "Interoperability with standards") |
 | :--: | :-- | :--: | :--: |
 
-# Maintenir son patrimoine à jour
+# Keeping your data assets up to date
 
-Au-delà de la documentation, l'une des difficultés actuelles réside dans la mise à jour des métadonnées. Isogeo a développé une technologie unique pour garder en permanence ce lien pérenne entre `donnée` et `métadonnée`.
+Beyond the actual documentation, one of the current difficulties resides in updating the metadata. Isogeo has developed a unique technology to permanently maintain this ongoing link between `data` and `metadata`.
 
-Toutes les modifications survenues sur les données sont automatiquement répercutées dans les fiches de métadonnées correspondantes. L’ensemble des opérations sont identifiées puis listées chronologiquement dans l’historique de la donnée.
+Any changes that have been made to the data are automatically transferred to the corresponding metadata. All operations are identified, then listed in chronological order in the history of the data.
 

@@ -21,7 +21,7 @@ Proceed as follows to create an OpenCatalog:
 5.	Name the share;
 6.	`Save`;
 
-![Gérer les OpenCatalogs](/fr/images/adm_shares_OC_edit.png "Diffuser les catalogues via les OpenCatalogs")
+![OpenCatalog management](/en/images/adm_shares_OC_edit.png "Publishing catalogues as OpenCatalogs")
 
 
 ## Integrating an OpenCatalog in iFrame

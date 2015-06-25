@@ -1,31 +1,31 @@
-# Cataloguer : un prérequis pour partager
+﻿# Cataloguing: a prerequisite for sharing
 
-Cette étape est essentielle au partage et à la valorisation de son patrimoine de données. Elle permet d’organiser les fiches de métadonnées dans différents catalogues, comme par exemple :
+This step is essential for sharing and adding value to your data assets. It serves to organize the metadata records into different catalogues, for example:
 
-* un catalogue à usage interne,
-* un catalogue à destination des partenaires
-* et un catalogue pour le grand public.
+* one catalogue for internal use,
+* one catalogue for partners
+* one catalogue for the general public.
 
-Une fiche de métadonnées peut appartenir à plusieurs catalogues.
+A given metadata record may belong to a number of catalogues.
 
-Grâce à une gestion fine des catalogues, Isogeo vous permet de maîtriser la diffusion de vos données en fonction du public visé.
+With its granular catalogue management, Isogeo allows you to manage the publication of your data in line with the target audience.
 
-# Valoriser vos données : partager et diffuser vos catalogues
+# Adding value to your data: sharing and publishing your catalogues
 
-La dernière étape de ce processus consiste à valoriser vos catalogues auprès de vos utilisateurs. Grâce à une gestion des droits maîtrisée, Isogeo vous permet de diffuser vos catalogues de  données :
+The last step in this process consists in adding value to your catalogues with your users. With its controlled rights management system, Isogeo allows you to publish your data catalogues:
 
-* En interne.
-* En externe :
-    * auprès de vos partenaires équipés Isogeo ;
-    * dans vos propres médias (intranet, extranet, internet) ;
-    * au sein de votre Infrastructure de Données Géographiques, via un service web normalisé CSW 2.0 ;
+* Internally.
+* Externally:
+    * to your partners equipped with Isogeo;
+    * via your own media (intranet, extranet, internet);
+    * within your Geographic Data Infrastructure via a CSW 2.0 standardized web service.
 
-Ainsi tous vos utilisateurs - internes et externes – ont accès à un catalogue de données et aux services de recherche, de consultation et de téléchargement à leur disposition.
+All your users – both internal and external – thus have access to a data catalogue and to services for searching, viewing and downloading data.
 
-Si Isogeo place les métadonnées au cœur d’un processus métier innovant, c’est dans un cadre plus global de définition d’une gouvernance territoriale des données géographiques dans laquelle producteurs, utilisateurs et administrateurs participent à l’enrichissement et à la valorisation collective de données géographiques maitrisées.
+While Isogeo places metadata at the core of an innovative value chain, producers, users and administrators participate in collectively enhancing and valorizing controlled geographic data in a more global framework in which a territorial method of spatial data governance is defined.
 
-| ![OpenCatalog](/fr/images/icone_OpenCatalog_140px.png "Diffuser facilement ses catalogues grâce à OpenCatalog") | ![Partage](/fr/images/icone_partage_140px.png "Partager et collaborer avec entre groupes de travail de la plateforme") | ![CSW](/fr/images/icone_CSW_140px.png "Echanger ses données avec d'autres noeuds CSW") | ![API](/fr/images/icone_API_140px.png "Créer des interfaces d'accès au patrimoine via l'API") |
+| ![OpenCatalog](/en/images/icone_OpenCatalog_140px.png "Easily publishing your catalogues using OpenCatalog") | ![Sharing](/en/images/icone_partage_140px.png "Sharing and collaborating with other workgroups on the platform") | ![CSW](/fr/images/icone_CSW_140px.png "Exchanging your data with other CSW nodes") | ![API](/fr/images/icone_API_140px.png "Creating data asset access interfaces via the API") |
 | :--: | :-- | :--: | :--: |
 
 
-**Bon catalogage !**
+**Make the most of your cataloguing!**

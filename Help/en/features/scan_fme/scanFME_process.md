@@ -1,21 +1,21 @@
-﻿# How the FME scan works
+# How the FME scan works
 
 ## Process
 
 1.	Click on the "Scan" button opposite the selected entry point. The list of queries is displayed.
 
-    ![Les requêtes d'un point d'entrée](/fr/images/scanFME_EntryPoint_Requests.png "Afficher l'historique des requêtes effectuées sur un point d'entrée")
+    ![Entry point requests](/en/images/scanFME_EntryPoint_Requests.png "Displaying the history of requests made on an entry point")
 
 2.	Click on the line of a request in progress to view the scan.
 
-    ![Déroulement d'un scan](/fr/images/ScanFME_ProcessLive_GeoFLA_2014-12-26.gif "Le processus de scan à l'oeuvre")
+    ![Scan procedure](/en/images/ScanFME_ProcessLive_GeoFLA_2014-12-26.gif "The scan process in action")
 
 3.	The scan operation comprises 3 phases:
     4.	Inventorize: the scan establishes the list of data;
     5.	Sign: the scan signs all the data it has inventorized to mark the data when scanned, and to be able to deduce whether the data has already been scanned previously or modified since the last scan;
     6.	Document: the scan creates the records for newly detected data, or updates the records for modified data.
 
-    ![Les formats scannés automatiquement](/fr/images/scanFME_PostGIS_requete_annot.png "Chercher les données dans Isogeo")
+    ![Formats scanned automatically](/en/images/scanFME_PostGIS_requete_annot.png "Data search in Isogeo")
 
 4.	Once it has finished, the scan indicates:
 	* The complete list of data inventorized. Each data item in this list is characterized by a unique identifier, its name, location, format and status (new, modified, unchanged, deleted, error). You can sort this list;
