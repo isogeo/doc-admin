@@ -36,7 +36,7 @@ Les fonctionnalités d’Isogeo sont réparties en 3 menus :
 * Le menu [`Tableau de bord`](/fr/settings/dashboard.html) donne aux administrateurs un aperçu global de votre inventaire ;
 * Le menu [`Administration`](/fr/settings/administration.html) permet aux administrateurs d'ajuster les réglages applicables à tout le groupe de travail.
 
-Si vous utilisez Isogeo à partir d'écrans à basse résolution, il est à noter que les étiquttes disparaissent au profit d'icônes.
+Si vous utilisez Isogeo à partir d'écrans à basse résolution, il est à noter que les étiquettes disparaissent au profit d'icônes.
 
 ![Les 3 menus en basse résolution](/fr/images/all_header_bar_menus_low_resolution.png "Les icônes Inventaire, Tableau de Bord ou Administration pour les basses résolutions")
 
