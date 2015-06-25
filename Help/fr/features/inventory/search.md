@@ -13,7 +13,7 @@ Le moteur de recherche d’Isogeo porte sur les champs suivants :
 
 Il est important de garder certaines caractéristiques à l’esprit :
 
-* Il est sensible à la casse (minuscules / majuscules) ;
+* Il est insensible à la casse (minuscules / majuscules) ;
 * Il ne prend pas en compte les caractères spéciaux (points, accents…).
 
 ## Les principes d'une recherche optimale
