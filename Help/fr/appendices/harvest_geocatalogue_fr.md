@@ -86,4 +86,4 @@ Voici le processus suivi :
 
 ### Précisions
 
-Le GéoCatalogue national ets géré par le BRGM avec qui nous travaillons pour nous assurer de la bonne interopérabilité entre nos plateformes. Isogeo s'assure de générer des CSW respectant les standards. Nous ne pouvons cependant pas répondre pour les anomalies liées au GéoCatalogue (ou à d'autres plateformes). N'hésitez pas à contacter l'équipe du GéoCatalogue national en cas de problème.
+Le GéoCatalogue national est géré par le BRGM avec qui nous travaillons pour nous assurer de la bonne interopérabilité entre nos plateformes. Isogeo s'assure de générer des CSW respectant les standards. Nous ne pouvons cependant pas répondre pour les anomalies liées au GéoCatalogue (ou à d'autres plateformes). N'hésitez pas à contacter l'équipe du GéoCatalogue national en cas de problème.
