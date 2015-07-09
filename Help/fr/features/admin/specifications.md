@@ -11,9 +11,9 @@ Pour porter à connaissance de vos utilisateurs cette précieuse information, Is
 Par défaut, Isogeo propose un certain nombre de standards de référence (INSPIRE, Covadis...). Elles sont identifiables facilement grâce à l'icône de cadenas en regard du titre dans la liste.
 
 Grâce aux onglets, vous pouvez filtrer :
-* [`Mes spécifications`](https://app.isogeo.com/admin/specifications/owned) : seulement les licences de votre groupe de travail ;
-* [`Autres`](https://app.isogeo.com/admin/specifications/shared) : les licences disponibles par défaut par Isogeo ;
-* `Toutes` : l'ensemble des licences.
+* [`Mes spécifications`](https://app.isogeo.com/admin/specifications/owned) : seulement les spécifications de votre groupe de travail ;
+* [`Autres`](https://app.isogeo.com/admin/specifications/shared) : les spécifications disponibles par défaut par Isogeo ;
+* `Toutes` : l'ensemble des spécifications.
 
 ## Ajouter une spécification
 
@@ -22,9 +22,9 @@ Pour ajouter une spécification au sein de votre groupe de travail, il vous suff
 1.	Dans le menu `Administration` > `Spécifications` ;
 2.	Cliquer sur le bouton [`+ Ajouter`](https://app.isogeo.com/admin/specifications/new) ;
 3.	Renseigner :
-    * le nom : intitulé descriptif comportant généralement le numéro de version ou la date de référence ;
-    * l’URL : le lien vers le document complet de la licence ;
-    * et un résumé des conditions (libre ou pas, payant ou pas, restreint ou pas, etc.).
+    * le nom : intitulé descriptif ;
+    * l’URL : le lien vers le document complet de la spécification ;
+    * la date de publication de référence de la spécification.
 4.	Cliquer sur `Créer`, `Enregistrer` ou `Supprimer`.
 
 Toutes les spécifications ajoutées sont disponibles dans l’onglet`Qualité` > `Spécifications`.
