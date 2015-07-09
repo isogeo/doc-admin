@@ -35,12 +35,12 @@ ____
 
 Un WFS pour [Web Feature Service](http://fr.wikipedia.org/wiki/Web_Feature_Service) est un protocole standardisé OGC ([*Open Geospatial Consortium*](http://fr.wikipedia.org/wiki/Open_Geospatial_Consortium)) qui permet d’obtenir à partir d’une requête les entités géographiques voulues. C’est donc ensuite à la librairie cartographique de les représenter.
 
-> Astuce : pour des raisons de sécurité, seul les WFS acceptant le format JSONP sont visualisables par l’OpenCatalog. Voir [l'annexe à ce sujet](/fr/appendices/wfs_jsonp.html).
+> Astuce : pour des raisons de sécurité, seuls les WFS acceptant le format JSONP sont visualisables par l’OpenCatalog. Voir [l'annexe à ce sujet](/fr/appendices/wfs_jsonp.html).
 
 1. Ajouter une ressource associée ;
 2. Choisir le type `WFS` ;
 3. Renseigner l’URL du service http://noisy.hq.isogeo.fr:6090/geoserver/Isogeo/ows par exemple ;
-4. Ajouter le nom de la couche à afficher via le paramètre *layers* : **?layers=Isogeo:DEPARTEMENT_2014** par exemple ;
+4. Ajouter le nom de la couche à afficher via le paramètre *typeName* : **?typeName=Isogeo:DEPARTEMENT_2014** par exemple ;
 Le nom des couches disponibles peut être retrouvé grâce à l’action GetCapabilities : **?request=GetCapabilities** ;
 5. Cliquer sur `Valider` ;
 6. Dans les actions de la ressource associée, cocher l’option `Visualisation` ;
