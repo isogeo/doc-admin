@@ -76,7 +76,7 @@ Pour dessiner manuellement l’emprise de la donnée sur la carte :
 | Définition                 | Précision géographique de la ressource (surtout utilisée pour les données raster) |
 | :------------------------- | :--------------------------------------------------------- |
 | Indications                | Numérique et exprimée en mètres|
-| Exemple                    |   |
+| Exemple                    |  5 m |
 | Exigence INSPIRE           | Obligatoire si l'échelle n'est pas renseignée |
 | Edition par lot            | Oui, par écrasement                         |
 | Scan                       | Non                                         |
