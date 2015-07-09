@@ -4,7 +4,7 @@
 
 Chaque service Isogeo est généré à partir de notre plate-forme et possède ses propres identifiants.
 
-Pour le récupérer, connectez-vous sur http://app.isogeo.com avec votre compte et rendez-vous dans la section Administration > Applications > Scan FME ou plus directement cliquez ici.
+Pour le récupérer, connectez-vous sur https://app.isogeo.com avec votre compte et rendez-vous dans la section Administration > Applications > Scan FME ou plus directement cliquez ici.
 
 Lors de votre première visite, vous êtes invité à créer votre premier service en lui donnant un nom simple par exemple le nom de la machine ou de son utilisateur.
 
