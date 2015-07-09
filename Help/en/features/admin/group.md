@@ -1,27 +1,27 @@
-# Paramètres du groupe de travail
+# Workgroup parameters
 
-Cette partie permet de personnaliser le groupe de travail.
+This section is used to customize the workgroup.
 
-> Astuce : accéder directement aux [paramètres du groupe](https://app.isogeo.com/admin/settings).
+> Tip: go directly to [group settings](https://app.isogeo.com/admin/settings).
 
 
-## Autoriser la création de fiches manuelles
+## Authorizing creation of manual records
 
-Si vous souhaitez autoriser la création de fiches de métadonnées manuelles, c'est-à-dire indépendantes d'une source de données et non créées par le scan.
+If you want to authorize creating manual metadata records, i.e. records that are independent of a data source and not created by the scan.
 
-## Autoriser le groupe à être référencé en tant que contact
+## Authorize the group to be referenced as a contact
 
-Si vous souhaitez autoriser les utilisateurs Isogeo à indiquer votre groupe d’utilisateur comme contact sur les métadonnées de leurs catalogues, il suffit :
+If you want to authorize Isogeo users to specify your user group as a contact on the metadata in their catalogs, simply proceed as follows:
 
-1.	Ouvrir le menu `Administration` > `Paramètres` ;
-2.	Cocher l’option `Autoriser le groupe à être référencé en tant que contact de métadonnées`.
+1.	Select `Administration` > `Settings`;
+2.	Check the option `Allow group to be added as a contact`.
 
-## Définir la langue des métadonnées par défaut
+## Defining the default metadata language
 
-La langue d’une métadonnée doit être spécifiée dans l’onglet `Métadonnée` d’une fiche de métadonnées. Si vous souhaitez renseigner cette information pour toutes les nouvelles fiches créées, il suffit de choisir la langue parmi celles proposées.
+You must specify the metadata language in a metadata record's `Metadata` tab. To specify this information for all new records created, choose the language from those available.
 
-## Couleur du thème pour les OpenCatalogs
+## OpenCatalog theme color
 
-Si vous souhaitez intégrer au mieux les OpenCatalogs dans la charte graphique de votre organisme, vous pouvez sélectionner la couleur principale du thème.
+If you want OpenCatalogs to integrate better into your organization's graphic design, you can select the main color of the theme.
 
-![Thème OpenCatalogs](fr/images/adm_global_OC_ThemeSwitcher.gif "Configurer la coleur principale des OpenCatalogs")
+![OpenCatalogs theme](en/images/adm_global_OC_ThemeSwitcher.gif "Configuring the main color of OpenCatalogs")

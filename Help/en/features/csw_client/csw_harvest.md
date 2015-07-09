@@ -1,35 +1,35 @@
-# Utiliser le client CSW
+# Using the CSW client
 
-Vous gérez un catalogue de données moissonnable en CSW, vous souhaitez récupérer ces métadonnées dans Isogeo. Pour cela c’est très simple, il vous suffit de suivre la démarche suivante.
+If you manage a data catalog that can be harvested using CSW and you want to retrieve this metadata in Isogeo: simply proceed as explained below.
 
-## Principes des noeuds CSW
+## About CSW nodes
 
-Le GéoCatalogue national est le nœud privilégié pour la France de l’Infrastructure de Données Géographiques (IDG) nationale pour la recherche et la consultation des métadonnées. Sa base de métadonnées sert au rapportage de la France sur la mise en œuvre de la directive INSPIRE.
+For the purpose of researching and viewing metadata, France's national GeoCatalog is the preferred node of the national Spatial Data Infrastructure (SDI). Its metadatabase is used for reports by France on the implementation of the INSPIRE directive.
 
-Ainsi, les autorités publiques détenant des données et services géographiques entrant dans le cadre d’INSPIRE sont incitées à alimenter le Géocatalogue. Trois méthodes sont possibles :
+Public authorities that possess geographical data and services within the scope of the INSPIRE initiative are encouraged to populate the GeoCatalog. Three methods are available for this purpose:
 
-* en référençant leur propre catalogue de données, qui sera automatiquement moissonné pour alimenter le Géocatalogue.
-* en déposant les fichiers de métadonnées sur le GéoCatalogue.
-* en saisissant directement les métadonnées dans le GéoCatalogue (la méthode est expliquée plus loin dans l’article).
+* referencing their own data catalog, which will be automatically harvested to populate the GeoCatalog.
+* posting metadata files to the GeoCatalog.
+* directly entering the metadata in the GeoCatalog (this method is explained below).
 
-## Créer un point d'entrée "Service CSW"
+## Creating a "CSW service" entry point
 
-Pour créer un point d’entrée « Service CSW », vous devez :
+Proceed as follows to create a "CSW service" entry point:
 
-1.  Dans le menu « Points d’entrée », créer un nouveau point d’entrée ;
-2.  Sélectionner le type « Service CSW » ;
-3.  Nommer le point d’entrée (exemple : catalogue CG Calvados) ;
-4.  Saisir l’URL du CSW sans les paramètres (c’est-à-dire sans ce qui est après le `?`) ;
-5.  Enregistrer ;
-6.  Scanner.
+1.  In the "Entry points" menu, create a new entry point;
+2.  Select the "CSW service" type;
+3.  Name the entry point (for example: CG Calvados catalog);
+4.  Enter the URL of the CSW without the parameters (excluding whatever comes after the `?`);
+5.  Save;
+6.  Scan.
 
-![Nouveau point d'entrée CSW](/fr/images/adm_client_csw_new.png "Moissonner un serveur CSW")
+![New CSW entry point](/en/images/adm_client_csw_new.png "Harvesting a CSW server")
 
-Une fois le scan terminé, toutes les fiches de métadonnées récoltées sont consultables dans l’inventaire.
+Once the scan has finished, all the metadata records gathered can be viewed in the inventory.
 
-Ces fiches ne sont pas modifiables car nous considérons qu’elles sont encore gérées dans le catalogue moissonné. Si vous souhaitez les modifier et donc les gérer avec Isogeo, vous devez supprimer le point d’entrée et vous séparer de votre ancien outil de catalogage ;)
+These records cannot be modified since we assume that they are still managed in the harvested catalog. If you want to modify them using Isogeo, you must delete the entry point and separate from your old cataloging tool.
 
-Remarques :
+Comments:
 
-* Le moissonnage CSW respecte les même règles de fonctionnement que l’import XML ISO 19139 décrit dans le chapitre "Importer l'existant" ;
-* le XML ISO 19139 disponible dans l’onglet « ressources » de la fiche est absolument identique à l'original (même s'il est invalide).
+* CSW harvesting follows the same operating rules as XML ISO 19139 import described in the chapter "Importing existing metadata";
+* The XML ISO 19139 available in the record's "Resources" tab is identical to the original (even if it is invalid).

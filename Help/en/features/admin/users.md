@@ -1,49 +1,49 @@
-# Gestion des utilisateurs
+# Managing users
 
-Isogeo distingue trois profils utilisateurs :
-* L’`administrateur` accède à toutes les fonctionnalités de l’application. Il gère les utilisateurs et leurs droits, les éléments communs à l'échelle du groupe de travail, le recensement des données, la mise à jour de l’inventaire, les catalogues, les partages, la diffusion et peut saisir des métadonnées.
+Isogeo makes a distinction between three user profiles:
+* `The Administrator`, who has full access to all the application's functions. The Administrator manages users and their rights, elements shared at the workgroup level, data inventorying, inventory updates, catalogs, shares, publishing, and can enter metadata.
 
-* L’`éditeur` peut saisir et modifier des métadonnées, rechercher des données et exploiter ces données grâce aux services et ressources associés.
+* The `Writer`, who can enter and modify metadata, and search for and use this data using the associated services and resources.
 
-* Le `lecteur` peut rechercher des données et exploiter les données grâce aux services et ressources associés. Dans la pratique, ce profil est très peu utilisé, on préfèrera créer des OpenCatalog pour une consultation plus confortable.
+* The `Reader`, who can search for and use data using the associated services and resources. In practice, this profile is rarely used; it is better to create OpenCatalogs for easier viewing.
 
-> Astuce : accéder directement aux [utilisateurs](https://app.isogeo.com/admin/users/memberships).
+> Tip: go directly to [users](https://app.isogeo.com/admin/users/memberships).
 
-## Inviter un nouvel utilisateur
+## Inviting a new user
 
-Pour inviter un nouvel utilisateur :
+Proceed as follows to invite a new user:
 
-1. Aller dans [le menu dédié](https://app.isogeo.com/admin/users) ;
-2. Cliquer sur [l'onglet `+ Inviter`](https://app.isogeo.com/admin/users/invitations/new) ;
-3. Entrer l'adresse électronique de l'utilisateur ;
-4. Choisir le niveau d'accès ;
-5. Cliquer sur `Inviter`.
+1. Go to [the dedicated menu](https://app.isogeo.com/admin/users);
+2. Click on [the `+ Invite` tab](https://app.isogeo.com/admin/users/invitations/new);
+3. Enter the user's Email address;
+4. Choose the access level (Role);
+5. Click on `Invite`.
 
-L'utilisateur reçoit alors un courriel d'invitation ([voir le chapitre dédié](/fr/start/signup.html)).
+The user will receive an invitation email ([see the dedicated chapter](/en/start/signup.html)).
 
-> L’invitation est valable 7 jours et un administrateur peut la révoquer à tout moment.
+> The invitation is valid for 7 days; it can be revoked at any time by an administrator.
 
-![Nouvel utilisateur](fr/images/adm_users_add.gif "Inviter un nouvel utilisateur")
+![New user](en/images/adm_users_add.gif "Inviting a new user")
 
-## Droits de chaque profil
+## Rights for each profile
 
-| Fonctionnalités                               | Administrateur    | Éditeur   | Lecteur   |
+| Functions                                       | Administrator    | Writer   | Reader   |
 | :-------------------------------------------- | :---------------: | :-------: | :-------: |
-| Gérer les utilisateurs                        | X                 |           |           |
-| Gérer le carnet d'adresses                    | X                 |           |           |
-| Gérer les points d'entrée                     | X                 |           |           |
-| Gérer le scan                                 | X                 |           |           |
-| Créer, affecter ou désaffecter un catalogue   | X                 |           |           |
-| Gérer les partages                            | X                 |           |           |
-| Gérer le moissonnage CSW                      | X                 |           |           |
-| Gérer la liste des système des coordonnées    | X                 |           |           |
-| Gérer les licences                            | X                 |           |           |
-| Gérer les spécifications                      | X                 |           |           |
-| Gérer les paramètres du groupe                | X                 |           |           |
-| Créer une métadonnée                          | X                 |           |           |
-| Accéder à l'inventaire complet                | X                 |           |           |
-| Accéder au tableau de bord                    | X                 | X         |           |
-| Modifier les métadonnées                      | X                 | X         |           |
-| Créer / affecter / désaffecter un mot-clé     | X                 | X         |           |
-| Affecter / désaffecter une thématique INSPIRE | X                 | X         |           |
-| Accéder aux données cataloguées               | X                 | X         | X         |
+| Manage users                                | X                 |           |           |
+| Manage the address book                 | X                 |           |           |
+| Manage the entry points                    | X                 |           |           |
+| Manage the scan                            | X                 |           |           |
+| Create, assign or unassign a catalog   | X                 |           |           |
+| Manage shares                                | X                 |           |           |
+| Manage CSW harvesting                 | X                 |           |           |
+| Manage the list of coordinate systems    | X                 |           |           |
+| Manage licenses                                | X                 |           |           |
+| Manage specifications                          | X                 |           |           |
+| Manage group parameters                | X                 |           |           |
+| Create metadata                     | X                 |           |           |
+| Access the full inventory                | X                 |           |           |
+| Access the dashboard                    | X                 | X         |           |
+| Modify metadata                      | X                 | X         |           |
+| Create, assign or unassign a keyword   | X                 | X         |           |
+| Assign/unassign an INSPIRE theme       | X                 | X         |           |
+| Access the cataloged data               | X                 | X         | X         |

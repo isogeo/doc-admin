@@ -1,22 +1,22 @@
-# Gérer les systèmes de coordonnées
+# Managing coordinate systems
 
-Une donnée géographique a généralement un système de coordonnées qu’il faut indiquer dans sa fiche de métadonnées. Le scan Isogeo l'identifie automatiquement ce système mais dans le cas de fiches manuelles ou de certains formats mal reconnus, il revient à l'éditeur de renseigner ou corriger le système de coordonnées.
+Geodata is generally associated with a coordinate system that must be specified in its metadata record. The Isogeo scan automatically identifies this system. However, in the case of manual records or some poorly recognized formats, the publisher must enter or correct the coordinate system.
 
-Pour cela, Isogeo prend en compte les milliers de systèmes de coordonnées inscrits dans le référentiel international [`EPSG Registry`](http://www.epsg-registry.org/) (voir [ici pour consulter le registre via une interface plus moderne](http://epsg.io/)).
+Isogeo integrates thousands of coordinate systems listed in the international registry [`EPSG Registry`](http://www.epsg-registry.org/) (see [here to view the registry using a more recent interface](http://epsg.io/)).
 
-Pour en faciliter la gestion et éviter la confusion aux éditeurs (pas forcément spécialistes ou au fait des besoins de projection), l’administrateur peut restreindre les systèmes de coordonnées visibles dans l’onglet `Géographie` d’une fiche de métadonnées.
+To make it easier to manage these systems, and to avoid confusing publishers (who are not necessarily specialists or conversant with projection requirements), the administrator can limit the coordinate systems visible in the `Geography'` tab in a metadata record.
 
-> Astuce : accéder directement aux [systèmes de coordonnées](https://app.isogeo.com/admin/coordinate-systems).
+> Tip: go directly to [coordinate systems](https://app.isogeo.com/admin/coordinate-systems).
 
-## Sélectionner et renommer un système de coordonnées
+## Selecting and renaming a coordinate system
 
-Pour configurer la liste des systèmes de coordonnées :
+Proceed as follows to configure the list of coordinate systems:
 
-1.	Aller dans le menu `Administration` > `Systèmes de coordonnées` ;
-2.	Rechercher dans la liste de gauche, les systèmes de coordonnées à ajouter dans la liste de droite (ex : RGF 93) ;
-3.	Cliquer sur le bouton `+` en regard, le système de coordonnées sélectionné est ajouté à la liste de l’organisme ;
-4.	En cliquant sur l'icône en forme de crayon, il est possible de donner un alias à chaque système de projection. Utile pour les utilisateurs non spécialistes.
+1.	Select `Administration` > `Coordinate systems`;
+2.	In the list on the left, search for the coordinate systems you wish to add to the list on the right (for example,  RGF 93);
+3.	Click on the `+` button. The system is added to the list of selected coordinate systems;
+4.	Click on the pencil icon to specify an alias for a coordinate system. This can be useful for non-specialists.
 
-Pour retirer un système de coordonnées, il suffit de cliquer sur l'icône en forme de poubelle en regard de chaque projection (l'alias est perdu).
+To remove a coordinate system from the list of selected systems, simply click on the trash can icon next to the corresponding projection (the alias is also deleted).
 
-![Nouvel utilisateur](/fr/images/adm_srs_add.gif "Inviter un nouvel utilisateur")
+![New user](/en/images/adm_srs_add.gif "Inviting a new user")

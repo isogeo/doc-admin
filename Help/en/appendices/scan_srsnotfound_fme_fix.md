@@ -1,49 +1,49 @@
-# Systèmes de référence spatiale (SRS) et emprises non reconnus
+# Spatial Reference Systems (SRS) and unrecognized bounding boxes
 
-Il peut arriver que le scan ne renseigne pas le système de coordonnées ou l'enveloppe convexe. Basé sur FME, il faut s'assurer que les projections soient renseignées de façon à être correctement lues par l'[ETL](https://fr.wikipedia.org/wiki/Extract_Transform_Load).
+There may be times when the scan does not enter the coordinate system or the convex envelope. Based on FME, you must ensure that projections are entered so that they can be read properly by the [ETL](https://en.wikipedia.org/wiki/Extract_transform_load).
 
-## Cas n°1 (majoritaire) : une emprise, pas de SRS
+## Case 1 (majority of cases): a bounding box, no SRS
 
-Dans la majeure partie des cas, le problème provient du fait que FME ne reconnaisse pas le système de coordonnées. Cela ne veut pas dire que le système n’a pu être lu et utilisé par FME. Pour résumer, FME utilise la définition du système, mais ne le reconnaît pas.
+In most cases, the problem stems from the fact that FME does not recognize the coordinate system. This does not mean that the system could not be read and used by FME. In short, FME uses the system definition, but does not recognize it.
 
-![Une emprise, pas de SRS](/fr/images/annex_srsNotFound_case1_NoSRS_ButMap.png "Problème de configuration des projections de FME - Cas 1")
+![A bounding box, no SRS](/en/images/annex_srsNotFound_case1_NoSRS_ButMap.png "Problem configuring FME projections - Case 1")
 
-Afin de corriger ce problème, il faut donc indiquer à FME comment reconnaître ce système. Selon s'il s'agitDeux solutions sont possibles :
+To fix this problem, you must "tell" FME how to recognize this system. There are two possible solutions:
 
-### Le système est un système connu avec un code EPSG
+### The system is a known system with an EPSG code
 
-Si le but est de configurer un seul logiciel FME, il faut se rendre dans le dossier `Reproject/Exceptions` (dans le répertoire d’installation de FME), et éditer le fichier correspondant au format utilisé. Il faut ensuite trouver le paragraphe concernant le pays du système de coordonnées. Puis comme pour les systèmes déjà présents dans le document, ajouter une nouvelle ligne pour le système à ajouter.
+If you are looking to configure a single FME solution, go to the `Reproject/Exceptions` folder (in the FME installation directory), and edit the file corresponding to the format used. You must then find the paragraph for the country of the coordinate system. You must then add a new line for the system that you want to add, just like for the systems already present in this file.
 
-![Modification du fichier esriwkt.db](/fr/images/annex_srsNotFound_EditWKT.png "Ajouter la reconnaissance d'une projection à FME")
+![Modifying the esriwkt.db file](/en/images/annex_srsNotFound_EditWKT.png "Adding a projection recognition to FME")
 
-#### Exemples
+#### Examples
 
-Le système de coordonnées Lambert93 (EPSG 2154) pour les formats ESRI (Shapefile,
-Geodatabases...) n’est pas reconnu :
+The Lambert93 coordinate system (EPSG 2154) for ESRI formats (Shapefile,
+Geodatabases, etc.) is not recognized:
 
-1. Ouvrir `esriwkt.db`,
-2. Rechercher le paragraphe `French`,
-3. Par défaut, il existe déjà plusieurs définitions pour le système Lambert93 ;
-4. Ajouter votre définition en la recopiant depuis le fichier .prj.
+1. Open `esriwkt.db`,
+2. Find the paragraph `French`,
+3. By default, there are several definitions for the Lambert93 system;
+4. Add your definition by copying it from the .prj file.
 
-> Astuce : si vous n'avez pas de fichier `.prj` (stockage en geodatabases par exemple), vous pouvez en créer un la liste des systèmes (clic droit/sauvegarder comme...).
+> Tip: if you do not have a `.prj` file (for example, if you store your data in geodatabase files), you can create one in the list of systems (right-click/Save as...).
 
-Le système de coordonnées RGF93 / CC42 (EPSG 3942) pour le format Oracle n’est pas
-reconnu :
+The RGF93 / CC42 coordinate system (EPSG 3942) for the Oracle format is not
+recognized:
 
-1. Ouvrir le document `oracle.db`,
-2. Rechercher le paragraphe `French`,
-3. Ajouter la ligne suivante : `ORACLE|RGF93.CC42|3942`.
+1. Open document `oracle.db`,
+2. Find the paragraph `French`,
+3. Add the following line: `ORACLE|RGF93.CC42|3942`.
 
-## Cas n°2 : ni emprise, ni SRS
+## Case 2: no bounding box, no SRS
 
-Si la fiche n’a pas d’emprise, c'est que la reprojection n’a pu être effectuée, ce qui signifie que FME ne possède pas le système d’origine.
+If the record does not contain a bounding box, this infers that the reprojection could not be performed, which means that FME does not have the source system.
 
-![Ni SRS, ni emprise](/fr/images/annex_srsNotFound_case2_NoSRS_NoMap.png "Problème de configuration des projections de FME - Cas 2")
+![No SRS, no bounding box](/en/images/annex_srsNotFound_case2_NoSRS_NoMap.png "Problem configuring FME projections - Case 2")
 
-Cela peut se produire pour les formats de données qui ne gèrent pas correctement les systèmes de coordonnées, comme cela est le cas des fichiers CAO / DAO par exemple.
+This may occur for data formats that do not correctly manage the coordinate systems, as is the case with CAD files, for example.
 
-### Ressources
+### Resources
 
-* trouvez votre système de coordonnées dans le [registre officiel EPSG](http://epsg.io/) ;
-* les [systèmes de coordonnées français dans FME](http://documentation.veremes.net/public/fme/fme_ft_systemes_de_projection_francais.pdf).
+* find your coordinate system in the [EPSG official registry](http://epsg.io/);
+* [French coordinate systems in FME](http://documentation.veremes.net/public/fme/fme_ft_systemes_de_projection_francais.pdf).

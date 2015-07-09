@@ -1,12 +1,12 @@
-# Les ressources associées dans d'autres plateformes
+# Associated resources on other platforms
 
-Pour afficher correctement une couche dans un visualiseur type geOrchestra ou Prodige, il faut respecter le scénario B recommandé par le CNIG dans [le guide des services de recherche au chapitre 6.1](http://cnig.gouv.fr/wp-content/uploads/2015/Guide-recherche-INSPIRE1.htm) .
+To properly display a layer in a viewer such as geOrchestra or Prodige, you must follow scenario B recommended by the French National Geographic Information Commission (CNIG).
 
-Donc dans Isogeo, il faut [ajouter une ressource associée de type WMS](/fr/features/documentation/md_ressources.html) en indiquant :
-* le nom de la couche dans le service comme intitulé du lien (exemple : `capl_adresses_points`)
-* URL du lien du service avec le paramètre `GetCapabilities` (exemple : http://geoservices.lorient-agglo.fr/wms?service=WMS&request=GetCapabilities
+In Isogeo, you must [add a WMS associated resource](/en/features/documentation/md_ressources.html) specifying:
+* the name of the layer in the service as the title of the link (for example: `capl_points_addresses`)
+* the URL of the service's link with the `GetCapabilities` parameter (for example: http://geoservices.lorient-agglo.fr/wms?service=WMS&request=GetCapabilities
 
-Le lien WMS est alors transmis ainsi dans le CSW :
+The WMS link is then sent to the CSW:
 
 ```xml
 <transferOptions>

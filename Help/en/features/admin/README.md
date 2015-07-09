@@ -1,12 +1,12 @@
-# Administrer
+# Administration
 
-L'accès à la partie administration est réservé, comme son nom l'indique, aux utilisateurs disposant d'un compte de type administrateur.
+Access to the administration section is reserved for users with an administrator account.
 
-Elle est composée de plusieurs sections :
-*  `Isogeo`, pour configurer le groupe de travail et les utilisateurs ;
-*  `Inventaire`, pour paramétrer l'ogranisation de l'inventaire en catalogues et les partages ;
-*  `Synchronisation`, pour moissonner des noeuds CSW ;
-*  `Configuration`, pour régler les différentes ressources disponibles à l'échelle du groupe de travail ;
-*  `Applications`, où vous pouvez accéder aux interfaces indépendantes de l'application, comme le scan FME.
+It includes a number of sections:
+*  `Isogeo` for configuring workgroups and users;
+*  `Inventory` for setting up the organization of the inventory in catalogs and shares;
+*  `Synchronization` for harvesting CSW nodes;
+*  `Configuration` for configuring available resources at the workgroup level;
+*  `Applications` for accessing interfaces that are application-independent, such as FME scans.
 
-![Démo menu administration](/fr/images/adm_tour_menus.gif "Tour guidé de l'administration")
+![Administration menu demo](/en/images/adm_tour_menus.gif "Administration guided tour")

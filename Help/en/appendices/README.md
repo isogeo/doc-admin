@@ -1,2 +1,2 @@
-# Annexes
+# Appendices
 

@@ -1,34 +1,34 @@
-# Configurer les spécifications
+# Configuring specifications
 
-Une donnée SIG est souvent créée et vérifiée à partir d'un certain nombre de spécifications techniques regroupées dans différents types de documents : standards officiels, cahiers des charges, descriptif de livraison, feuille de route technique, etc.
+GIS data is often created and verified using a number of technical specifications contained in different document types: official standards, specifications, delivery descriptions, technical roadmaps, etc.
 
-Pour porter à connaissance de vos utilisateurs cette précieuse information, Isogeo vous permet de gérer un référentiel centralisé de spécifications dans lequel il suffit de piocher lors de la saisie des métadonnées. Les modifications apportées à une spécification du référentiel sont dynamiquement reportées sur toutes les fiches auxquelles elle a été appliquée.
+To make your users aware of this important information, Isogeo allows you to manage a centralized specifications repository where you can drill down when entering metadata. Any modifications made to a specification in the repository are dynamically updated in all the records to which a specification applies.
 
-> Astuce : accéder directement aux [spécifications](https://app.isogeo.com/admin/specifications).
+> Tip: go directly to [specifications](https://app.isogeo.com/admin/specifications).
 
-## Les différentes spécifications
+## Specifications types
 
-Par défaut, Isogeo propose un certain nombre de standards de référence (INSPIRE, Covadis...). Elles sont identifiables facilement grâce à l'icône de cadenas en regard du titre dans la liste.
+Isogeo suggests some reference standards by default (INSPIRE, Covadis, etc.). They are easily recognized by the padlock icon next to their name in the list.
 
-Grâce aux onglets, vous pouvez filtrer :
-* [`Mes spécifications`](https://app.isogeo.com/admin/specifications/owned) : seulement les licences de votre groupe de travail ;
-* [`Autres`](https://app.isogeo.com/admin/specifications/shared) : les licences disponibles par défaut par Isogeo ;
-* `Toutes` : l'ensemble des licences.
+Using the tabs, you can filter by:
+* [`My specifications`](https://app.isogeo.com/admin/specifications/owned): only specifications for your workgroup;
+* [`Others`](https://app.isogeo.com/admin/specifications/shared): specifications suggested by Isogeo by default;
+* `All`: all specifications.
 
-## Ajouter une spécification
+## Adding a specification
 
-Pour ajouter une spécification au sein de votre groupe de travail, il vous suffit de :
+To add a specification to your workgroup, simply proceed as follows:
 
-1.	Dans le menu `Administration` > `Spécifications` ;
-2.	Cliquer sur le bouton [`+ Ajouter`](https://app.isogeo.com/admin/specifications/new) ;
-3.	Renseigner :
-    * le nom : intitulé descriptif comportant généralement le numéro de version ou la date de référence ;
-    * l’URL : le lien vers le document complet de la licence ;
-    * et un résumé des conditions (libre ou pas, payant ou pas, restreint ou pas, etc.).
-4.	Cliquer sur `Créer`, `Enregistrer` ou `Supprimer`.
+1.	Select `Administration` > `Specifications`;
+2.	Click on the [`+ New`](https://app.isogeo.com/admin/specifications/new) button;
+3.	Enter:
+    * Name: a descriptive name generally including the version number or reference date;
+    * Link: the URL for the full document of the specification;
+    * and a summary of conditions (free or not, paid or not, restricted or not, etc.).
+4.	Click on `Create`, `Save` or `Delete`.
 
-Toutes les spécifications ajoutées sont disponibles dans l’onglet`Qualité` > `Spécifications`.
+All the specifications added are available in the `Quality` > `Specifications` tab.
 
-![Démo nouvelle spécification](/fr/images/adm_specs_add.gif "Ajouter une nouvelle spécification")
+![New specification demo](/en/images/adm_specs_add.gif "Adding a new specification")
 
 
