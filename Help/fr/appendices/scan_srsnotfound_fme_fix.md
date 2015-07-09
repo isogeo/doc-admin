@@ -8,7 +8,7 @@ Dans la majeure partie des cas, le problème provient du fait que FME ne reconna
 
 ![Une emprise, pas de SRS](/fr/images/annex_srsNotFound_case1_NoSRS_ButMap.png "Problème de configuration des projections de FME - Cas 1")
 
-Afin de corriger ce problème, il faut donc indiquer à FME comment reconnaître ce système. Selon s'il s'agitDeux solutions sont possibles :
+Afin de corriger ce problème, il faut donc indiquer à FME comment reconnaître ce système. Deux cas de figure sont possibles :
 
 ### Le système est un système connu avec un code EPSG
 
