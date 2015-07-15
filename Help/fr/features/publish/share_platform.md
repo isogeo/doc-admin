@@ -17,7 +17,7 @@ Pour partager un ou plusieurs catalogues, vous devez :
 4.	Nommer le partage ;
 5.	`Enregistrer`.
 
-Le(s) destinataire(s) de votre partage qui pourront consulter votre catalogue dans leur Inventaire
+Le(s) destinataire(s) de votre partage pourront alors consulter votre catalogue directement dans leur Inventaire.
 
 En activant l’option `J'autorise les destinataires de ce partage à diffuser ces catalogues`, vous permettez à l’organisme destinataire de diffuser vos catalogues à travers ses propre partages CSW et OpenCatalog.
 
