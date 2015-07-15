@@ -24,7 +24,7 @@ Les utilisateurs de la solution ont accès à un seul et même environnement de 
 
 ## Ressources matérielles pour le service
 
-Les besoins matériels nécessaires sont fonction du volume et du type de données traitées par l’agent au sein du système d’information. De manière générale il est judicieux de se rapporter aux besoins matériels de FME Desktop 2013.
+Les besoins matériels nécessaires sont fonction du volume et du type de données traitées par l’agent au sein du système d’information. De manière générale il est judicieux de se rapporter aux besoins matériels de FME Desktop.
 
 En fonction des caractéristiques des données parcourues, il peut devenir gourmand en RAM (signature de jeux de données vectoriels en multi-géométries, rasters très lourds...). Un processeur simple cœur et un dimensionnement suffisant de la RAM sont à prévoir en fonction de la taille maximale des données disponibles.
 
