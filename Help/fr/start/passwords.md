@@ -1,6 +1,6 @@
 # Gérer mon  mot de passe
 
-Pour [modifier votre mot de passe](https://id.isogeo.com/change-password) :
+Pour [modifier votre mot de passe](https://app.isogeo.com/new-password) :
 
 1.	Cliquer sur votre nom en haut à droite de l’écran ;
 2.	Cliquer  sur le menu « Paramètres » pour accéder aux paramètres de votre compte utilisateur
