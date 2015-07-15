@@ -29,7 +29,7 @@ L’onglet « Contact » permet d’affecter, depuis votre carnet d’adresse, u
 | Distributeur              |             |              |
 | Editeur (publication)     |             |              |
 | Fournisseur               | Organisme ou personne qui délivre physiquement la donnée, soit de manière directe au destinataire, soit par l’intermédiaire d’un diffuseur | X |
-| Point de contact          | Organisme ou personne que l’on peut contacter pour avoir des renseignements détaillés sur la donnée. |  **X**       |
+| Point de contact          | Organisme ou personne que l’on peut contacter pour avoir des renseignements détaillés sur la donnée. |  **(X)**       |
 | Responsable du traitement |             |              |
 | Utilisateur               |             | -            |
 
