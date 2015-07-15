@@ -22,7 +22,7 @@ Grâce aux onglets, vous pouvez filtrer :
 Pour ajouter une licence au sein de votre groupe de travail, il vous suffit de :
 
 1.	Dans le menu `Administration` > `Licences` ;
-2.	Cliquer sur le bouton [`+ Ajouter`](https://app.isogeo.com/admin/licenses/new) ;
+2.	Cliquer sur le bouton [`+ Nouvelle`](https://app.isogeo.com/admin/licenses/new) ;
 3.	Renseigner :
     * le nom : intitulé descriptif comportant généralement le numéro de version ou la date de référence ;
     * l’URL : le lien vers le document complet de la licence ;

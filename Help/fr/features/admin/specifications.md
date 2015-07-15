@@ -20,7 +20,7 @@ Grâce aux onglets, vous pouvez filtrer :
 Pour ajouter une spécification au sein de votre groupe de travail, il vous suffit de :
 
 1.	Dans le menu `Administration` > `Spécifications` ;
-2.	Cliquer sur le bouton [`+ Ajouter`](https://app.isogeo.com/admin/specifications/new) ;
+2.	Cliquer sur le bouton [`+ Nouvelle`](https://app.isogeo.com/admin/specifications/new) ;
 3.	Renseigner :
     * le nom : intitulé descriptif ;
     * l’URL : le lien vers le document complet de la spécification ;
