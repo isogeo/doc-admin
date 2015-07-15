@@ -8,11 +8,11 @@ Voici les étapes qui suivent l'invitation d'un utilisateur :
 
 1.	Vous venez de recevoir un mail vous invitant à rejoindre un groupe d’utilisateur sur Isogeo :
 
-    ![Courrier d'invitation](/fr/images/Isogeo_invitation_mail_1.png "Vous êtes invités sur Isogeo - Checkez le courrier indésirable")
+    ![Courrier d'invitation](/fr/images/Isogeo_invitation_mail.png "Vous êtes invités sur Isogeo - Checkez le courrier indésirable")
 
 2.	Cliquer sur le lien contenu dans le mail, la page ci-dessous s’ouvre dans votre navigateur :
 
-    ![Connexion / inscription](/fr/images/Isogeo_invitation_accueil_1.png "Connectez-vous ou créez votre compte")
+    ![Connexion / inscription](/fr/images/Isogeo_invitation_join.png "Connectez-vous ou créez votre compte")
 
 3.	Cliquez sur le lien « Créer un compte ! » la page suivante s’affiche :
 
@@ -28,7 +28,7 @@ Voici les étapes qui suivent l'invitation d'un utilisateur :
 
 8.	Cliquer sur `Accepter`, vous êtes inscrit à Isogeo !
 
-    ![Rejoindre le groupe qui vous a invité](/fr/images/Isogeo_invitation_interface_1.png "Bienvenue sur le groupe qui vous a invité")
+    ![Rejoindre le groupe qui vous a invité](/fr/images/Isogeo_invitation_accept.png "Bienvenue sur le groupe qui vous a invité")
 
 
 
