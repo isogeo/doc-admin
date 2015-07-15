@@ -1,30 +1,30 @@
-# Renseigner les fiches de métadonnées
+# Completing metadata records
 
-Chaque ressource (donnée, ensemble de données, service, ressource) de votre inventaire est décrite par sa fiche descriptive (sa métadonnée). Une fiche contient plusieurs informations réparties en onglets dont le nombre varie selon le type de ressource à documenter.
+Each resource (data, data series, service, resource) in your inventory is described by its descriptive record (its metadata). A record contains various information shown via a number of tabs; this number depends on the resource being documented.
 
-## Les différents types de ressources
+## Different resource types
 
-Il y a plusieurs types de fiches de métadonnées possibles :
-* jeu de données de type vecteur ;
-* jeu de données de type raster ;
-* ensemble de données (collection) ;
-* service ;
-* ressource.
+There are several possible types of metadata:
+* vector-type dataset
+* raster-type dataset
+* data series (collection)
+* service
+* resource
 
-## Onglets par type de fiches de métadonnées
+## Tabs by metadata type
 
-| Onglet          | Vecteur | Raster  | Ensemble | Service | Ressource | Ed. / lot |
+| Tab       | Vector | Raster  | Collection | Service | Resource | Batch  edit  |
 |:---------------:|:-------:|:-------:|:--------:|:-------:|:---------:|:---------:|
 | Identification  | X       | X       | X        | X       | X         | X         |
-| Histoire        | X       | X       | X        | X       | X         | X         |
-| Géographie      | X       | X       | X        | X       |           | X         |
-| Qualité         | X       | X       | X        |         |           | X         |
-| Attributs       | X       |         | X        |         |           | X         |
-| CGU             | X       | X       | X        | X       | X         | X         |
-| Ressources      | X       | X       | X        | X       | X         | X         |
+| History        | X       | X       | X        | X       | X         | X         |
+| Geography      | X       | X       | X        | X       |           | X         |
+| Quality         | X       | X       | X        |         |           | X         |
+| Attributes       | X       |         | X        |         |           | X         |
+| TOS             | X       | X       | X        | X       | X         | X         |
+| Resources      | X       | X       | X        | X       | X         | X         |
 | Contacts        | X       | X       | X        | X       | X         | X         |
-| Avancé          | X       | X       | X        |         |           | X         |
-| Métadonnée      | X       | X       | X        | X       | X         | X         |
+| Advanced          | X       | X       | X        |         |           | X         |
+| Metadata      | X       | X       | X        | X       | X         | X         |
 
 
 

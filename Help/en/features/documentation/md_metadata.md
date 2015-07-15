@@ -1,33 +1,33 @@
-## Onglet Métadonnée
+## "Metadata" tab
 
-L’onglet « Métadonnées » permet d’indiquer la date de création et la langue de la fiche de métadonnée.
+The "Metadata" tab is used to display the metadata's creation date and language.
 
-![Edition unitaire - Métadonnée](/fr/images/inv_edit_one_metadata.png "L'édition unitaire - onglet Métadonnée")
+![Single edition - Metadata](/en/images/inv_edit_one_metadata.png "Single edition - Metadata tab")
 
-### Date de création
+### Creation date
 
-| Définition          | Date de création de la métadonnée |
+| Definition          | Metadata creation date |
 | :------------------ | :------------------------------------------------ |
-| Indications         | Elle est enregistrée automatiquement, que ce soit à partir d'un scan, d'un moissonnage CSW, d'un import XML ou d'une création manuelle. C'est cette date qui est transmise dans la balise *dateStamp* du profil CSW de l'ISO 19115.<br />Il n'est pas possible d'éditer ce champ. |
-| Exemple             | 23/06/2015                    |
-| Exigence INSPIRE    | Obligatoire                   |
-| Edition par lot     | Non                           |
-| Scan                | Oui                           |
-| Moteur de recherche | Filtres                       |
+| Indications         | It is automatically saved, whether from a scan, a CSW harvest, an XML import or manual creation. This is the date transmitted in the CSW profile's *dateStamp* tag in ISO 19115.<br />This field cannot be edited. |
+| Example             | 06/23/2015                    |
+| INSPIRE requirement   | Mandatory                   |
+| Batch edition     | No                           |
+| Scan                | Yes                           |
+| Search engine | Filters                       |
 
-> Astuce : si vous importez un fichier XML depuis une fiche existante (automatique ou manuelle) et que vous choisissez d'écraser les données, la date de création sera remplacée par celle contenue dans le XML. Pour plus d'informations, consulter :
-* l'[import XML](/fr/features/documentation/md_import.html) et le [moissonnage CSW](/fr/features/csw_client/csw_harvest.html),
-* les [dates dans Isogeo](/fr/appendices/different_dates.html).
+> Tip: if you import an XML file from an existing record (automatically or manually) and choose to overwrite the values, the creation date will be replaced by the one in the XML file. For further details, refer to:
+* [XML import](/en/features/documentation/md_import.html) and [CSW harvesting](/en/features/csw_client/csw_harvest.html),
+* [dates in Isogeo](/en/appendices/different_dates.html).
 
-### Langue
+### Language
 
-| Définition          | Langue dans laquelle est rédigée la métadonnée       |
+| Definition          | Language in which the metadata is written       |
 | :------------------ | :------------------------------------------------    |
-| Indications         | La langue de la métadonnée et non celle de la donnée |
-| Exemple             | Français                                             |
-| Exigence INSPIRE    | Obligatoire                   |
-| Edition par lot     | Oui, par écrasement           |
-| Scan                | Non                           |
-| Moteur de recherche | Non                           |
+| Indications         | The language for the metadata, not the data |
+| Example             | French                                             |
+| INSPIRE requirement   | Mandatory                   |
+| Batch edition     | Yes, by overwriting           |
+| Scan                | No                           |
+| Search engine | No                         |
 
-> Astuce : il est possible de définir la langue des métadonnées par défaut dans les paramètres du groupe de travail (voir [chapitre dédié](/fr/features/admin/group.html#dfinir-la-langue-des-mtadonnes-par-dfaut)). Elle n'apparaîtra pas ici mais sera celle de référence dans vos partages CSW.
+> Tip: you can define the default metadata language in the workgroup parameters (see the [dedicated chapter](/en/features/admin/group.html#Defining-the-default-metadata-language)). Although it will not display here, this will be the reference language in your CSW shares.

@@ -1,36 +1,36 @@
-# Les champs complétés automatiquement
+# Pre-entered fields
 
-Pour vous faciliter la saisie des métadonnées, l’opération de scan remplit automatiquement les informations suivantes :
+To make entering metadata easier, the scan operation automatically enters the following information:
 
-* Dans l’onglet « Identification » :
+* In the "Identification" tab:
 
-    * le nom du fichier ou de la table ;
-    * l’emplacement de stockage de la donnée.
+    * the title of the file or table;
+    * the data's storage location.
 
-* Dans l’onglet « Histoire » :
+* In the "History" tab:
 
-    * la date de création de la fiche de métadonnée ;
-    * la date de dernière modification de la fiche de métadonnée.
+    * the creation date for the metadata record;
+    * the last modification date for the metadata record;
 
-* Dans l’onglet « Géographie »
+* In the "Geography" tab:
 
-    * le nombre d’entités géographiques ;
-    * le type de géométrie ;
-    * le système de coordonnées (nom et code EPSG) ;
-    * les coordonnées de l’emprise (Xmin; Xmax; Ymin; Ymax).
+    * the number of geographic entities;
+    * the geometry type;
+    * the coordinate system (name and EPSG code);
+    * the bounding box coordinates (Xmin; Xmax; Ymin; Ymax).
 
-* Dans l’onglet « Attributs » :
+* In the "Attributes" tab:
 
-    * le nom de chaque attribut ;
-    * le type de chaque attibut.
+    * the name of each attribute;
+    * the type of each attribute.
 
-* Dans l’onglet « Avancé » :
+* In the "Advanced" tab:
 
-    * le type de ressource (données, ensemble de données) ;
-    * le format de la donnée.
+    * the resource type (dataset, series);
+    * the data format.
 
-* Dans la version « XML ISO19139 » de la fiche :
+* In version "XML ISO19139" of the record:
 
-    * l’encodage des caractères de la métadonnée ;
-    * l’identifiant unique ;
-    * le point de contact de la fiche de métadonnées.
+    * the metadata character encoding;
+    * the unique identifier;
+    * the metadata record's point of contact.

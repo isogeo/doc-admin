@@ -1,84 +1,84 @@
-## Onglet "Géographie"
+## "Geography" tab
 
-L’onglet « Géographie » représente l’emprise de la donnée sur une carte et indique le format de la donnée, le nombre d’entités, le type de géométrie, le système de coordonnées, les coordonnées de l’emprise, l’échelle et la résolution de la donnée ;
+The "Geography" tab displays the data's bounding box on a map. It shows the data format, the number of entities, the geometry type, the coordinate system, the bounding box coordinates, the data scale and resolution.
 
-![Edition unitaire - Géographie](/fr/images/inv_edit_one_geography.png "L'édition unitaire - onglet Géographie")
+![Single edition - Geography](/en/images/inv_edit_one_geography.png "Single edition - Geography tab")
 
-### Carte
+### Map
 
-| Définition                 | Étendue de la ressource dans l’espace géographique, exprimée sous la forme d'un polygone de délimitation |
+| Definition                 | Area of the resource in the geographic space, expressed as a boundary polygon |
 | :------------------------- | :--------------------------------------------------------- |
-| Indications                | L’emprise doit englober l’ensemble des objets contenus dans le jeu de données. En cas d'édition manuelle, le polygone de délimitation doit être le plus ajusté possible, afin de délimiter le plus fidèlement possible la ressource décrite (ne pas donner un rectangle couvrant la France entière pour des données limitées à une commune). Dans l'idéal, le polygone de délimitation couvre seulement des espaces contigus et doit être multiple en cas de territoires éparpillés.<br />Si plusieurs emprises sont indiquées, elles ne doivent pas se superposer. |
-| Exemple                    | ![Onglet géographie - carte](/fr/images/inv_edit_one_geography_map_500px.png "La représentation de l'enveloppe convexe d'une donnée sur la carte") |
-| Exigence INSPIRE           | Obligatoire            |
-| Edition par lot            | Oui, par écrasement    |
-| Scan                       | Oui, enveloppe convexe |
-| Moteur de recherche        | Non                    |
+| Indications                | The bounding box must encompass all objects contained in the data set. When editing manually, the boundary polygon must be adjusted precisely to represent the boundary for the corresponding resource as accurately as possible (do not define a rectangle that covers an entire country for data limited to a town or city). Ideally, the boundary polygon will only cover contiguous spaces, and must be multiplied for non-contiguous territories.<br />If there are multiple boundary boxes, they must not overlap. |
+| Example                    | ![Geography tab - map](/en/images/inv_edit_one_geography_map_500px.png "Displays the convex envelope for a given data item on a map") |
+| INSPIRE requirement   | Mandatory                   |
+| Batch edition     | Yes, by overwriting           |
+| Scan                       | Yes, convex envelope |
+| Search engine        | No                    |
 
-> Astuce : si l'enveloppe convexe n'est pas reconnue automatiquement par le scan, consultez [l'annexe à ce sujet](/fr/appendices/scan_srsnotfound_fme_fix.html).
+> Tip: if the scan does not automatically recognize the convex envelope, refer to [the corresponding appendix](/en/appendices/scan_srsnotfound_fme_fix.html).
 
-Pour dessiner manuellement l’emprise de la donnée sur la carte :
+To manually draw the data's bounding box on the map:
 
-1.	Cliquer sur « Modifier » ;
-2.	Dans la carte, choisir l’outil « dessiner un polygone » ou « dessiner un rectangle » ;
-3.	Tracer l’emprise sur la carte ;
-4.	Terminer votre saisie en double-cliquant sur la carte ou en recliquant sur le premier sommet du polygone ;
-5.	Enregistrer.
+1.	Click on "Edit."
+2.	On the map, choose the "Draw a polygon" or "Draw a rectangle" tool.
+3.	Draw the bounding box on the map.
+4.	To finish, double-click on the map, or click on the first peak of the polygon again.
+5.	Save.
 
-### Nombre d'entités
+### Number of entities
 
-| Définition                 | Nombre d'objets géographiques |
+| Definition                 | Number of geographic objects |
 | :------------------------- | :---------------------------- |
-| Indications                | Doit être un entier.          |
-| Exemple                    | 20                            |
-| Exigence INSPIRE           | Facultatif                    |
-| Edition par lot            | Oui, par écrasement           |
-| Scan                       | Oui                           |
-| Moteur de recherche        | Non                           |
+| Indications                | Must be an integer.          |
+| Example                    | 20                            |
+| INSPIRE requirement   | Optional        |
+| Batch edition     | Yes, by overwriting           |
+| Scan                | Yes       |
+| Search engine        | No                           |
 
-### Géométrie
+### Geometry
 
-| Définition                 | Type de géométrie des objets géographiques |
+| Definition                 | Geometry type for geographic objects |
 | :------------------------- | :--------------------------------------------------------- |
-| Indications                | L'une des valeurs suivantes :<br />- Point,<br />- LineString,<br />- Polygon,<br />- MultiPoint,<br />- MultiLineString,<br />- MultiPolygon,<br />- GeometryCollection,<br />- CircularString,<br />- CompoundCurve,<br />- CurvePolygon,<br />- MultiCurve,<br />- MultiSurface,<br />- Curve,<br />- Surface,<br />- PolyhedralSurface,<br />- TIN |
-| Exemple                    | Polygon |
-| Exigence INSPIRE           | Obligatoire            |
-| Edition par lot            | Oui, par écrasement    |
-| Scan                       | Oui                    |
-| Moteur de recherche        | Non                    |
+| Indications                | One of the following values:<br />- Point,<br />- LineString,<br />- Polygon,<br />- MultiPoint,<br />- MultiLineString,<br />- MultiPolygon,<br />- GeometryCollection,<br />- CircularString,<br />- CompoundCurve,<br />- CurvePolygon,<br />- MultiCurve,<br />- MultiSurface,<br />- Curve,<br />- Surface,<br />- PolyhedralSurface,<br />- TIN |
+| Example                    | Polygon                    |
+| INSPIRE requirement   | Mandatory                   |
+| Batch edition     | Yes, by overwriting           |
+| Scan                | Yes       |
+| Search engine        | No                    |
 
-### Systèmes de coordonnées
+### Coordinate system
 
-| Définition                 | Nom et code EPSG du système de coordonnées géographique ou projeté |
+| Definition                 | Name and EPSG code for the geographic or projected coordinate system |
 | :------------------------- | :--------------------------------------------------------- |
-| Indications                | Si le système n'a pas été reconnu automatiquement, choisir une valeur dans la liste disponible, personnalisable par l'administrateur ([voir chapitre dédié](/fr/features/admin/srs.html)) |
-| Exemple                    | Code EPSG : 2154<br />Nom : RGF93 / Lambert-93  |
-| Exigence INSPIRE           | Obligatoire            |
-| Edition par lot            | Oui, par écrasement    |
-| Scan                       | Oui                    |
-| Moteur de recherche        | Filtre                 |
+| Indications                | If the system was not automatically recognized, select a value from the list; the administrator can customize this list ([see the dedicated chapter](/en/features/admin/srs.html)) |
+| Example                    | EPSG code: 2154<br />Name: RGF93 / Lambert-93  |
+| INSPIRE requirement   | Mandatory                   |
+| Batch edition     | Yes, by overwriting           |
+| Scan                | Yes       |
+| Search engine | Filter                       |
 
-> Astuce : si le système de coordonnées n'est pas reconnu automatiquement par le scan, consultez [l'annexe à ce sujet](/fr/appendices/scan_srsnotfound_fme_fix.html).
+> Tip: if the scan does not automatically recognize the coordinate system, refer to [the corresponding appendix](/en/appendices/scan_srsnotfound_fme_fix.html).
 
-### Echelle
+### Scale
 
-| Définition                 | Précision géographique de la ressource (surtout utilisée pour les données vecteur) |
+| Definition                 | Geographic precision of the resource (mainly used for vector data) |
 | :------------------------- | :--------------------------------------------------------- |
-| Indications                | Numérique |
-| Exemple                    | 10000 |
-| Exigence INSPIRE           | Obligatoire si la résolution n'est pas renseignée |
-| Edition par lot            | Oui, par écrasement                         |
-| Scan                       | Non                                         |
-| Moteur de recherche        | Non                                         |
+| Indications                | Numeral |
+| Example                    | 10000           |
+| INSPIRE requirement           | Mandatory if the resolution is not specified |
+| Batch edition     | Yes, by overwriting           |
+| Scan                | No        |
+| Search engine        | No                    |
 
-### Résolution
+### Resolution
 
-| Définition                 | Précision géographique de la ressource (surtout utilisée pour les données raster) |
+| Definition                 | Geographic precision of the resource (mainly used for raster data) |
 | :------------------------- | :--------------------------------------------------------- |
-| Indications                | Numérique et exprimée en mètres|
-| Exemple                    |   |
-| Exigence INSPIRE           | Obligatoire si l'échelle n'est pas renseignée |
-| Edition par lot            | Oui, par écrasement                         |
-| Scan                       | Non                                         |
-| Moteur de recherche        | Non                                         |
+| Indications                | Numeral, in meters|
+| Example                    |                      |
+| INSPIRE requirement           | Mandatory if the scale is not specified |
+| Batch edition     | Yes, by overwriting           |
+| Scan                | No        |
+| Search engine        | No                    |
 

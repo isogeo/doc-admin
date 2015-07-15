@@ -1,14 +1,14 @@
-# L'édition unitaire
+# Single edit
 
-Pour saisir une fiche de métadonnées, voici la démarche à suivre :
-1.	Ouvrir la fiche descriptive ;
-2.	Cliquer sur le bouton `Modifier` ;
-3.	Saisir les informations demandées dans les différents onglets :
-    * Ajouter un titre (ex : les points d’apport volontaire installés à Bordeaux en 2012) ;
-    * Ajouter un résumé (ex : cette donnée représente l’emplacement des points d’apport volontaire des déchets ménagers sur le territoire de la ville de Bordeaux en 2012) ;
-    * Décrire le contexte et la méthode de collecte (ex : cette donnée a été créée par les services municipaux de la ville dans le cadre de leur mission de gestion des déchets ménagers. Cette donnée sert également de support de communication et d’outil pour les usagers du tri) ;
-    * Indiquer la date de création de la donnée (ex : 15/12/2012) ;
-    * Saisir les Condition Générales d’Utilisation (CGU) en faisant directement référence à une licence, une convention d’échange ;
-    * Ajouter des liens vers les services et les ressources associés à la donnée en renseignant son URL (ex : webmapping, service de téléchargement, cartothèque, photo, vidéo, etc.)
+Proceed as follows to enter a metadata record:
+1.	Open the descriptive record.
+2.	Click on the `Edit` button.
+3.	Enter the information requested in the various tabs:
+    * Add a title (for example "Waste drop-off points installed in Bordeaux in 2012");
+    * Add a summary (for example, "This data represents the position of the household waste drop-off points in the city of Bordeaux in 2012");
+    * Enter the context and collection method ("This data was created by the city's municipal department as part of its household refuse management project. This data also serves for communications and as a tool for waste sorting users");
+    * Indicate the data's creation date (for example  12/15/2012);
+    * Enter the Terms of Service (TOS) by referring directly to a license or data exchange agreement;
+    * Add links to services and resources associated with the data by entering the corresponding URLs (web mapping, download service, map library, photo, video, etc.).
 
 

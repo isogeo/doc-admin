@@ -1,35 +1,35 @@
-# Importer des métadonnées standardisées
+# Importing standardized metadata
 
-Si votre fournisseur de données vous a livré des métadonnées ou bien que vous disposiez déjà de métadonnées auparavant, Isogeo vous permet de les importer au format XML ISO19139 ou Dublin-Core.
+If your data supplier has provided you with metadata or if you already have metadata, you can use Isogeo to import it in XML ISO19139 or Dublin-Core format.
 
-Pour cela, il suffit de :
-1.	Ouvrir une fiche de métadonnées, manuelle ou créée par le scan ;
-2.	Cliquer sur `Modifier` ;
-3.	Cliquer sur `Importer` la fenêtre pop-up ci-dessous s’ouvre :
+To do so, proceed as follows:
+1.	Open a metadata record created either manually or by the scan.
+2.	Click `Edit`.
+3.	Click `Import`. The following pop-up window displays:
 
-    ![Import XML](/fr/images/inv_edit_one_importXML.png "Formulaire d'import XML")
+    ![Import XML](/en/images/inv_edit_one_importXML.png "XML import form")
 
-4.	Cliquer sur « Sélectionner le fichier », l’explorateur Windows s’ouvre ;
-5.	Sélectionner le XML à importer ;
-6.	Activer ou désactiver l’option `écraser les données existantes` ;
-7.	Cliquer sur `Importer`. Les informations contenues dans le XML sont importées dans la fiche de métadonnées.
+4.	Click on "Select file" Windows Explorer opens.
+5.	Select the XML file to import.
+6.	Enable or disable the `Overwrite existing values` option.
+7.	Click on `Import`. The information from the XML file is imported to the metadata record.
 
-Les champs importés sont les suivants :
+The following fields are imported:
 
-* le titre,
-* le résumé,
-* les thématiques INSPIRE,
-* les mots-clés,
-* la date de création de la métadonnée,
-* la langue de la métadonnée,
-* la période de validité,
-* le contexte de collecte,
-* l’emprise,
-* l’échelle équivalente,
-* la résolution,
-* les contraintes d’accès et d’utilisation,
-* le type de la ressource,
-* le format
-* et l’encodage des caractères de la donnée.
+* title
+* summary
+* INSPIRE themes
+* keywords
+* the creation date for the metadata;
+* metadata language
+* validity period
+* collection context
+* bounding box
+* equivalent scale
+* resolution
+* access and use conditions
+* resource type
+* format
+* metadata character encoding
 
 

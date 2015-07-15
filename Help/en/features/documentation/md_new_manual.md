@@ -1,21 +1,21 @@
-# Fiches manuelles
+# Manual records
 
-Au-delà des formats de données pour lesquels le scan automatique prend en charge une partie de la documentation et le suivi des mises à jour, vous pouvez à tout moment créer une fiche "manuelle" ou "orpheline" puisqu'elle n'est pas liée à la donnée source.
+In addition to the data formats for which the scan automatically completes partial documentation and monitors updates, you can create a "manual" or "orphan" record at any time that is not associated with the source data.
 
-Vous pouvez choisir parmi les différents modèles disponibles :
+You can choose from several templates:
 
-* Données (vecteur) ;
-* Données (raster) ;
-* Ensemble de données ;
-* Service ;
-* Ressource.
+* Data (vector)
+* Data (raster)
+* Data series
+* Service
+* Resource
 
-Pour cela il suffit de cliquer sur le bouton `+ Créer`de l'inventaire. Vous avez alors 2 façons de procéder :
+Simply click on the `+Create` button in the Inventory. There are two ways to proceed:
 
-* soit en créant une fiche vierge en indiquant seulement son titre ;
-* soit en créant une fiche à partir de l'import d'une fiche au format XML 19139.
+* creating a blank record, specifying only a title;
+* or by creating a record from an existing record imported in XML 19139 format.
 
-Cette fonctionnalité est utile dans différents cas de figure :
-si vous n’êtes pas équipé du scan ou si vous souhaitez créer des fiches de métadonnées dont les formats de données ne sont pas pris en compte (format SIG non pris en compte, carte PDF, fichier statistique Excel, etc.).
+This feature is useful in a number of cases:
+if you do not have the scan function, or if you want to create metadata records in formats that are not supported (unsupported GIS formats, PDF maps, Excel statistics files, etc.).
 
-> Astuce : l'administrateur d'un groupe de travail peut désactiver sette possibilité via les paramètres dans le menu `Administration`.
+> Tip: a workgroup administrator can disable this feature via the settings in the `Administration` menu.

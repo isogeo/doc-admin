@@ -1,32 +1,32 @@
-## Onglet "Ressources"
+## "Resources" tab
 
-L’onglet « Ressources » permet de créer des liens vers les documents (cartes, statistiques, etc.) et les services web associés à la donnée (visualiser, télécharger, etc.)
-
-
-![Edition unitaire - Ressources](/fr/images/inv_edit_one_linkedResources.png "L'édition unitaire - onglet Ressources")
-
-### La fiche au format XML (ISO 19139)
+The "Resources" tab is used to create links to documents (maps, statistics, etc.) and web services associated with the data (view, download, etc.).
 
 
-### Liens associés
+![Single edition - Resources](/en/images/inv_edit_one_linkedResources.png "Single edition - Resources tab")
+
+### Records in XML format (ISO 19139)
+
+
+### Associated links
 
 
 
 
-#### Actions possibles par type de lien
+#### Possible actions per link type
 
-Légende :
+Key:
 * X = possible
-* (X) = valeur par défaut
+* (X) = default value
 
-| Type           | Téléchargement | Visualisation | Autre |
+| Type           | Download | View | Other |
 | :------------- | :------------: | :-----------: | :---: |
-| Lien           | X              | X             | (X)   |
-| WFS            | (X)            | (X)           | X     |
-| WMS            |                | (X)           | X     |
-| WMTS           |                | (X)           | X     |
-| Esri Feature   | (X)            | (X)           | X     |
-| Esri Map       |                | (X)           | X     |
-| Esri Tiled Map |                | (X)           | X     |
-| Donnée brute   | (X)            |               | X     |
+| Link           | X              | X             | (X)   |
+| WFS Service          | (X)            | (X)           | X     |
+| WMS Service             |                | (X)           | X     |
+| WMTS Service           |                | (X)           | X     |
+| Esri Feature Service    | (X)            | (X)           | X     |
+| Esri Map Service        |                | (X)           | X     |
+| Esri Tile Service  |                | (X)           | X     |
+| Raw data   | (X)            |               | X     |
 

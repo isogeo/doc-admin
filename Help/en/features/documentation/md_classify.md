@@ -1,30 +1,30 @@
-# Classer facilement mes données grâce à l'étiquetage
+# Easily classifying my data using tags
 
-Dans Isogeo, il est possible d'affecter 3 types d'étiquettes aux fiches de métadonnées :
+In Isogeo you can assign 3 types of tags to the metadata records:
 
-* les catalogues, orientés usages, métiers, thématiques ;
-* les thématiques INSPIRE pour les données destinées à être en conformité avec la directive européenne ;
-* les mots-clés descriptifs.
+* catalogs, oriented towards uses, businesses, themes;
+* INSPIRE themes for data intended to comply with the European directive;
+* descriptive keywords.
 
-Dans tous les cas, une donnée peut se voir affecter une ou plusieurs étiquettes de chaque type, même si dans la cas d'INSPIRE, il est recommandé de n'en choisir qu'un.
+While you can assign one or more tags of each type to your data, even for INSPIRE, we recommend choosing only one.
 
-## Comment étiqueter
+## Tagging
 
-Première étape du cycle de documentation, il est très facile d'étiqueter dans Isogeo et il est possible d'affecter les 3 types d'étiquettes :
+This is the first step in the documentation cycle. Tagging is very straightforward in Isogeo; you can assign 3 types of tags:
 
-1.	Aller dans l'inventaire et sélectionner une ou plusieurs données ;
-2.	Cliquer sur `Etiqueter`, le widget se déroule alors ;
+1.	Go to the inventory and select one or more data items;
+2.	Click on `Tag`. The widget starts;
 
-![Etiqueter](/fr/images/inv_edit_tags_widget.png "Widget étiquetage")
+![Tag](/en/images/inv_edit_tags_widget.png "Tagging widget")
 
-Vous voyez alors :
-* la liste des étiquettes déjà affectées aux données sélectionnées, par types et par ordre alphabétique ;
-* un champ de saisie vous permettant de :
-    * rechercher dans les étiquettes déjà affectées ;
-    * rechercher parmi les mots-clés existant dans tous les groupes de travail Isogeo (y compris le vôtre) ;
-* trois boutons de filtres :
-    * `Voir tous les catalogues` permet d'afficher tous les catalogues disponibles dans votre groupe de travail ;
-    * `Voir toutes les thématiques Inspire` permet d'afficher toutes les thématiques de la directive ;
-    * `Voir les mots-clés` permet d'afficher les mots-clés utilisés dans les données selectionnées et les mots-clés correspondant à la recherche saisie ;
+You should now see:
+* A list of tags already assigned to the data selected, by type and in alphabetical order;
+* An entry field where you can:
+    * search tags already assigned;
+    * search existing keywords in all Isogeo workgroups (including your own);
+* Three filter buttons:
+    * `View all catalogs` to display all the catalogs available in your workgroup;
+    * `View all Inspire themes` to display all the directive's themes;
+    * `View keywords` to display keywords used in the selected data, and keywords that match the search string entered;
 
-![Affecter et enlever des mots-clés](/fr/images/inv_edit_tags_keywords.gif "Mots-clés")
+![Assigning and removing keywords](/en/images/inv_edit_tags_keywords.gif "Keywords")

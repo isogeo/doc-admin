@@ -1,139 +1,139 @@
-# Mettre en forme les textes
+# Formatting texts
 
-Toujours dans l'optique de faciliter la saisie et la consultation des catalogues de données, Isogeo permet de mettre en forme les zones de texte en utilisant la syntaxe markdown, reprise dans l'application mais aussi dans les OpenCatalogs.
+Since we are always making it easier for you to enter data and view data catalogs, Isogeo lets you format text areas using markdown syntax, which is used in the application as well as OpenCatalogs.
 
-Un mémo est disponible sous forme de lien en regard de chaque zone de texte éditable dans l'application, mais voici une liste exhaustive de ce qu'il est possible de faire.
+A cheat sheet is provided via a link next to each editable text field in the application. Here is a complete list of what can be done.
 
-Quelques recommandations :
-* les retours à la ligne sont interprétés. Par exemple, pour ouvrir une liste à puces, il faut sauter une ligne.
-* le rendu peut ne pas être le même partout (cela dépend des implémentations) ;
-* s'en tenir à des mises en forme simples pour ne pas perdre en lisibilité ;
+Some notes:
+* carriage returns are interpreted. For example, to start a bulleted list, you must skip a line.
+* the rendering may not be the same throughout (depending on the implementation);
+* use simple formatting to maintain optimal readability;
 
 
-> Astuce : cette aide en ligne est intégralement rédigée en markdown !
+> Tip: this online help has been entirely written in markdown!
 
-## Niveaux de titre
+## Title levels
 
-#### Syntaxe
-
-```no-highlight
-# Titre 1
-## Titre 2
-### Titre 3
-#### Titre 4
-```
-
-#### Rendu
-
-# Titre 1
-## Titre 2
-### Titre 3
-#### Titre 4
-
-## Style de textes
-
-#### Syntaxe
+#### Syntax
 
 ```no-highlight
-Mettre un texte en italique avec une *astérisque*
-ou un _underscores (autrement appelés tiret du 8)_ de chaque côté.
-
-Mettre un texte en gras avec deux **astérisques**
-ou deux __underscores (autrement appelés tiret du 8)__ de chaque côté.
-
-Barrer un texte avec deux ~~tildes~~ de chaque côté.
-
-Combiner les différents styles est possible avec
-un _underscore, **deux astérisques** et ~~deux tildes~~_.
+# Title 1
+## Title 2
+### Title 3
+#### Title 4
 ```
 
-#### Rendu
+#### Result
 
-Mettre un texte en italique avec une *astérisque*
-ou un _underscores (autrement appelés tiret du 8)_ de chaque côté.
+# Title 1
+## Title 2
+### Title 3
+#### Title 4
 
-Mettre un texte en gras avec deux **astérisques**
-ou deux __underscores (autrement appelés tiret du 8)__ de chaque côté.
+## Text style
 
-Barrer un texte avec deux ~~tildes~~ de chaque côté.
-
-Combiner les différents styles est possible avec
-un _underscore, **deux astérisques** et ~~deux tildes~~_.
-
-
-## Listes à puces
-
-#### Syntaxe
+#### Syntax
 
 ```no-highlight
-Liste numérotée à plusieurs niveaux :
+Put text in italics using an *asterisk*
+or an _underscore_ on either side.
 
-1. premier élément de la liste
-2. deuxième élément de la liste
-  1. indenter avec 2 espaces avan le chiffre permet de faire des sous-listes imbriquées
-  2. deuxième élement de second niveau
-3. troisième élément de la liste de 1er niveau qui contient une sous-liste non ordonnée :
-  * avec une astérisque,
-  - avec un tiret,
-  + avec un plus.
+Put text in bold using two **asterisks**
+or two __underscores__ on either side.
 
-Ou sans numéros :
+Strike through text using two ~~tildes~~ on either side.
 
-* avec une astérisque,
-- avec un tiret,
-+ avec un plus.
+You can combine different styles with
+one _underscore, **two asterisks** and ~~two tildes~~_.
 ```
 
-#### Rendu
+#### Result
 
-Liste numérotée à plusieurs niveaux :
+Put text in italics using an *asterisk*
+or an _underscore_ on either side.
 
-1. premier élément de la liste
-2. deuxième élément de la liste
-  1. indenter avec 2 espaces avan le chiffre permet de faire des sous-listes imbriquées
-  2. deuxième élement de second niveau
-3. troisième élément de la liste de 1er niveau qui contient une sous-liste non ordonnée :
-  * avec une astérisque,
-  - avec un tiret,
-  + avec un plus.
+Put text in bold using two **asterisks**
+or two __underscores__ on either side.
 
-Ou sans numéros :
+Strike through text using two ~~tildes~~ on either side.
 
-* avec une astérisque,
-- avec un tiret,
-+ avec un plus.
+You can combine different styles with
+one _underscore, **two asterisks** and ~~two tildes~~_.
 
-## Liens avec étiquettes
 
-#### Syntaxe
+## Bulleted list
+
+#### Syntax
 
 ```no-highlight
-[Lien simple vers le site Isogeo](http://www.isogeo.com)
+Multi-level numbered list:
 
-[Lien simple vers le site Isogeo avec une référence](http://www.isogeo.com "Site d'Isogeo")
+1. first element in the list
+2. second element in the list
+  1. indent using 2 spaces before the number to created nested sublists
+  2. second level 2 element
+3. third element in the level 1 list containing an unordered list:
+  * with an asterisk,
+  - with a dash,
+  + with a plus.
 
-[Chemin relatif vers un fichier par exemple](/fr/index.pdf)
+Or without numbers:
+
+* with an asterisk,
+- with a dash,
++ with a plus.
 ```
 
-#### Rendu
+#### Result
 
-[Lien simple vers le site Isogeo](http://www.isogeo.com)
+Multi-level numbered list:
 
-[Lien simple vers le site Isogeo avec une référence](http://www.isogeo.com "Site d'Isogeo")
+1. first element in the list
+2. second element in the list
+  1. indent using 2 spaces before the number to created nested sublists
+  2. second level 2 element
+3. third element in the level 1 list containing an unordered list:
+  * with an asterisk,
+  - with a dash,
+  + with a plus.
 
-[Chemin relatif vers un fichier par exemple](/fr/index.pdf)
+Or without numbers:
+
+* with an asterisk,
+- with a dash,
++ with a plus.
+
+## Links with tags
+
+#### Syntax
+
+```no-highlight
+[Simple link to the Isogeo site](http://www.isogeo.com)
+
+[Simple link to the Isogeo site with a reference](http://www.isogeo.com "Isogeo site")
+
+[Relative path to a file for example](/en/index.pdf)
+```
+
+#### Result
+
+[Simple link to the Isogeo site](http://www.isogeo.com)
+
+[Simple link to the Isogeo site with a reference](http://www.isogeo.com "Isogeo site")
+
+[Relative path to a file for example](/en/index.pdf)
 
 
 ## Images
 
-Attention il n'est pas possible de préciser les dimensions de l'image. Il faut donc lier vers une image déjà redimensionnée.
+Note that you cannot specify the dimensions of the image. You must link to an image that has already been resized.
 
-#### Syntaxe
+#### Syntax
 
 ```no-highlight
-![Texte alternatif](http://www.isogeo.com/images/logo.png "Titre de l'image")
+![Alternate text](http://www.isogeo.com/images/logo.png "Image title")
 ```
 
-#### Rendu
+#### Result
 
-![Texte alternatif](http://www.isogeo.com/images/logo.png "Titre de l'image")
+![Alternate text](http://www.isogeo.com/images/logo.png "Image title")

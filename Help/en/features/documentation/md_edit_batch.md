@@ -1,41 +1,41 @@
-# Éditer des fiches de métadonnées par lot
+# Editing metadata records by batch
 
-Toujours dans le but de faciliter la saisie, vous pouvez saisir plusieurs fiches en même temps. Par exemple, si 5 couches ont le même historique, il vous suffit de les sélectionner et de renseigner une seule fois l’historique pour ces 5 données. Cette fonctionnalité est disponible pour un certain nombre d'onglets.
+Since we're always trying to make it easier to enter data, you can complete more than one metadata record at once. For example, if 5 layers have the same history, you can select them and enter the history only once for all 5 layers. This feature is available for certain tabs.
 
-La démarche à suivre est la suivante :
+Proceed as follows:
 
-1.	Dans l’inventaire, sélectionnez par un simple clic les fiches de métadonnées à documenter
-2.	Cliquez sur le bouton « Editer »,
-3.	Renseignez les champs que vous souhaitez puis cliquez sur "Enregistrer".
+1.	In the inventory, select the metadata records to be documented.
+2.	Click on the "Edit" button.
+3.	Complete the appropriate fields, then click on "Save."
 
-![L'édition par lot](/fr/images/inv_edit_batch_demo_history_comment.gif "Démonstration de l'édition par lot")
+![Batch edition](/en/images/inv_edit_batch_demo_history_comment.gif "Batch edition demonstration")
 
-> Astuce : vérifiez bien votre sélection avant de vous lancer dans une édition par lot (voir les précisions plus bas).
+> Tip: check your selection carefully before launching a batch edition (see the additional information below).
 
-## Champs éditables par lot
+## Fields that can be edited by batch
 
-| Onglet          | Ed. / lot |
+| Tab          | Batch  edition |
 |:----------------|:---------:|
 | Identification  | X         |
-| Histoire        | X         |
-| Géographie      | X         |
-| Qualité         | X         |
-| Attributs       |           |
-| CGU             | X         |
-| Ressources      | X         |
+| History        | X         |
+| Geography      | X         |
+| Quality         | X         |
+| Attributes       |           |
+| TOS             | X         |
+| Resources      | X         |
 | Contacts        | X         |
-| Avancé          | X         |
-| Métadonnée      | X         |
+| Advanced          | X         |
+| Metadata      | X         |
 
 
-## Fonctionnement et précisions
+## Operation and additional information
 
-*  l'édition par lot n'affiche pas les informations déjà renseignées dans les fiches sélectionnées. Par exemple c'est pourquoi l'onglet géographie affiche toujours une carte vide.
+*  Batch edition does not display information already entered in the selected records. This explains why, for example, the Geography tab always displays an empty map.
 
-* l'édition par lot écrase les valeurs existantes des champs uniques et ajoute les valeurs indiquées pour les champs multiples. Par exemple, si vous indiquez un résumé et une ressource associée, il écrasera les résumés éventuellement renseignés auparavant mais ajoutera la ressource associée aux précédentes.
+* A batch edition overwrites the existing values for individual fields, and adds the values specified for multiple fields. For example, if you enter a summary and an associated resource, it will overwrite any summaries that may have been entered earlier, but will add that resource to the previous resources.
 
-* l'édition par lot ne s'appliquera qu'aux champs modifiés. Par exemple, si vous n'ajoutez que le résumé, les autres champs seront laissés en l'état.
+* A batch edition will only apply to modified fields. For example, if you add only a summary, the other fields will be left as is.
 
-* si une fiche de la sélection ne vous appartient pas, vous ne pourrez pas réaliser l'édition par lot. Pensez à filtrer sur votre groupe de travail.
+* If a record in the selection does not belong to you, you cannot perform a batch edition. Remember to filter on your workgroup.
 
-* si plusieurs types de ressources sont représentés dans la sélection (par exemple des données vecteurs avec des services), les champs disponibles pour l'édition par lot seront limités au plus petit dénominateur commun.
+* If the selection contains several resource types (such as vector data with services), the fields available for the batch edition will be limited to the smallest common denominator.

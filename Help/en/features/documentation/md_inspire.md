@@ -1,23 +1,23 @@
-# Faire une métadonnée INSPIRE
+# Creating INSPIRE metadata
 
-Répondre à la directive INSPIRE est un enjeu majeur des acteurs de l'information géographique. Au-delà de l'expertise nationale et européenne qu'apporte Isogeo dans les projets avec ses clients, l'outil permet de répondre facilement et rapidement aux exigences de la directive.
+Compliance with the INSPIRE directive represents a major challenge for those involved in geographic information. In addition to the French and European expertise brought to you by Isogeo in projects with its clients, the tool helps you comply with the directive's requirements easily and quickly.
 
-Un [tableau de correspondance des champs Isogeo avec la directive INSPIRE](https://docs.google.com/spreadsheet/ccc?key=0AgqcgCYNe0TfdGI3M1l2WEZaNExxYnpkb29YRzNNY3c&usp=sharing) est disponible :
+A [correspondence table of Isogeo fields with the INSPIRE directive](https://docs.google.com/spreadsheet/ccc?key=0AgqcgCYNe0TfdGI3M1l2WEZaNExxYnpkb29YRzNNY3c&usp=sharing) is available:
 
-[![Edition unitaire - Métadonnée](/fr/images/annex_Tableau_IsogeoINSPIRE "L'édition unitaire - onglet Métadonnée")](https://docs.google.com/spreadsheet/ccc?key=0AgqcgCYNe0TfdGI3M1l2WEZaNExxYnpkb29YRzNNY3c&usp=sharing)
+[![Single edition - Metadata](/en/images/annex_Tableau_IsogeoINSPIRE "Single edition - Metadata tab")](https://docs.google.com/spreadsheet/ccc?key=0AgqcgCYNe0TfdGI3M1l2WEZaNExxYnpkb29YRzNNY3c&usp=sharing)
 
-> Astuce : la catégorie ISO est déduite automatiquement du thème INSPIRE par Isogeo.
+> Tip: Isogeo automatically infers the ISO category from the INSPIRE theme.
 
-## Valideur
+## Validator
 
-Le valideur INSPIRE, adopté par la communauté européenne, est directement intégré dans la solution Isogeo.
+The INSPIRE validator adopted by the European Community is integrated in the Isogeo solution.
 
-Dès qu’une donnée est classée dans un thème Inspire (voir [chapitre dédié](/fr/features/documentation/md_classify.html#comment-tiqueter)), le valideur se lance et vérifie la conformité de votre fiche de métadonnée :
-* si elle est valide, le message suivant « Cette fiche est conforme Inspire » s’affiche en vert dans l’onglet `Identification` ;
-* s’il manque des informations, elles sont listées en jaune.
+When data is classified in an Inspire theme (see [the dedicated chapter](/en/features/documentation/md_classify.html#Tagging)), the validator is launched to verify the compliance of your metadata record:
+* if it is valid, the message "This dataset description is Inspire compliant." is displayed in the `Identification` tab ;
+* if any information is missing, it is listed in yellow.
 
-## INSPIRE en quelques clics
+## INSPIRE in a few clicks
 
-En mars 2015, Isogeo a animé un séminaire en ligne pour démontrer qu'il était possible de répondre à INSPIRE en quelques clics. Si votre organisme est concerné par la directive, il est utile de lire l'[article de blog](http://blog.isogeo.com/inspire-cartonne-au-webinaire-isogeo) consacré au webinaire et de visionner l'enregistrement.
+In March 2015, Isogeo presented an online seminar demonstrating how it was possible to comply with INSPIRE in just a few clicks. If your organization is concerned by the directive, see our [blog article](http://blog.isogeo.com/inspire-cartonne-au-webinaire-isogeo) for the webinar where you can view the recording.
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/D6BADFOllkU" frameborder="0" allowfullscreen></iframe>

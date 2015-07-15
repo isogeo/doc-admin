@@ -1,43 +1,43 @@
-# Identification
+# "Identification" tab
 
-Cet onglet donne les éléments de connaissance basique sur une ressource. Il est primordial puisque ce sont les informations les plus remarquables pour un utilisateur.
+This tab contains the basic information for a resource. It is essential since this is the most useful information for a user.
 
-![Edition unitaire - Identification](/fr/images/inv_edit_one_identification.png "L'édition unitaire - onglet identification")
+![[Single edition - Identification](/en/images/inv_edit_one_identification.png "Single edition - Identification tab")
 
-### Titre
+### Title
 
-| Définition       | Intitulé de la ressource, le titre doit permettre de distinguer la donnée de celles qui pourraient être similaires. |
+| Definition       | Title of the resource. The title must distinguish the data from any other similar data. |
 | :--------------- | :--------------------------------------  |
-| Indications      |  Le titre doit être unique et indiquer systématiquement : le phénomène géographique représenté,  le territoire couvert et l’année de la donnée si elle est versionnée ou millésimée. </br><br>Structure type : *Intitulé [(Ensemble)] - Territoire concerné  + emprise géographique [- date]*. |
-| Exemple          |  Communes - France Métropolitaine - 2014 |
-| Exigence INSPIRE           | Obligatoire         |
-| Edition par lot            | Oui, par écrasement |
-| Scan                       | Non                 |
-| Moteur de recherche        | Oui (+ tri)         |
+| Indications      |  The title must be unique, and must systematically indicate: the geographic phenomenon represented, the territory covered, and a year for the data if it has a version or date. </br><br>Typical structure: *Title [(Collection)] - Territory concerned + geographic bounding box [- date]*. |
+| Example          |  Towns - Metropolitan France - 2014 |
+| INSPIRE requirement   | Mandatory                   |
+| Batch edition     | Yes, by overwriting           |
+| Scan                | No        |
+| Search engine        | Yes (+ sort)                |
 
-### Résumé
+### Abstract
 
-| Définition       | Description narrative de ce que la donnée représente. |
+| Definition       | Narrative description of whatever the data represents. |
 | :--------------- | :--------------------------------------  |
-| Indications      |  La description se décompose en deux parties : <br />- l'une générique, commune au lot auquel appartient la donnée ; <br />- l'autre spécifique au jeu de données en question. |
-| Exemple          |  GEOFLA® est un produit numérique décrivant le découpage administratif de la France métropolitaine, des départements d'outre mer, ou de la collectivité départementale de Mayotte. Il est dérivé de la Base de Données Cartographiques (BD CARTO®) pour sa partie géométrique, et de la Base de Données Administratives pour sa partie descriptive.<br /><br />  Ce jeu de données en particulier contient les communes qui portent, outre la description des communes, la description des unités administratives de niveau supérieur : canton, arrondissement, département et région. En France, une commune représente la plus petite entité administrative. Elle est décrite par des faces du graphe communal. Il s'agit là des communes en polygones.|
-| Exigence INSPIRE           | Obligatoire         |
-| Edition par lot            | Oui, par écrasement |
-| Scan                       | Non                 |
-| Moteur de recherche        | Oui                 |
+| Indications      |  The description is split into two parts: <br />- A generic part, common to the batch to which the data belongs; <br />- a specific part, relating to the data set in question. |
+| Example          |  GEOFLA� is a digital product that describes the administrative boundaries for metropolitan France, overseas departments, and the departmental authority of Mayotte. It is derived from the cartographic database (BD CARTO�) for its geometric part, and the administrative database for its descriptive part.<br /><br />  This data set contains the "communes" with, in addition to their description, the description of the higher-level administrative unit: "canton," "arrondissement," "d�partement" and "r�gion." In France, a "commune" represents the smallest administrative entity. It is described by the sides of the communal planar graph. These represent communes as polygons.
+| INSPIRE requirement   | Mandatory                   |
+| Batch edition     | Yes, by overwriting           |
+| Scan                | No        |
+| Search engine        | Yes                  |
 
-### Emplacement / nom de la donnée
+### Resource location / name of the data
 
-| Définition          | L’emplacement de stockage de la donnée, qu'il s'agisse d'un fichier ou d'une base de données. |
+| Definition          | The storage location of the data, whether a file or a database. |
 | :------------------ | :--  |
-| Indications         | Rien de particulier. |
-| Exemple             | \\\datastore\SIG\DATA\Vecteur\GeoFLA\2014\Communes\Métropole\COMMUNE.SHP |
-| Exigence INSPIRE    | Obligatoire         |
-| Edition par lot     | Oui, par écrasement |
-| Scan                | Oui : <br />- Chemin absolu pour les fichiers,<br />- Nom du serveur + le nom de la base / l'instance,<br />- Nom du fichier SDE pour les cartouches Esri |
-| Moteur de recherche | X                   |
+| Indications         | Nothing in particular. |
+| Example             | \\\datastore\SIG\DATA\Vecteur\GeoFLA\2014\Communes\M�tropole\COMMUNE.SHP |
+| INSPIRE requirement   | Mandatory                |
+| Batch edition     | Yes, by overwriting      |
+| Scan                | Yes: <br />- Absolute path for the files,<br />- Server name + database/instance name,<br />- Name of the SDE file for Esri architecture|
+| Search engine | X                   |
 
 
-### Rapport de validation d'INSPIRE
+### INSPIRE validation report
 
-Pour toutes les données visées par la directive Inspire, permet également de savoir si la métadonnée est conforme ou non à la norme.
+For all data covered by the Inspire directive, the validation report tells whether the metadata is compliant with the standard.

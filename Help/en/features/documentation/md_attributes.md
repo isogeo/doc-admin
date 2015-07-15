@@ -1,18 +1,18 @@
-## Onglet "Attributs"
+## "Attributes" tab
 
-L’onglet « Attribut » liste tous les champs attributaires de la donnée et précise pour chaque champ son nom, son alias, sa description et sa langue.
+The "Attributes" tab lists all the data's attribute fields and, specifies a name, alias, description and language for each one.
 
-![Edition unitaire - Attributs](/fr/images/inv_edit_one_attributes.png "L'édition unitaire - onglet Attributs")
+![Single edition - Attributes](/en/images/inv_edit_one_attributes.png "Single edition - Attributes tab")
 
-> Astuce : chaque attribut étant une sous-ressource de la métadonnée, il faut enregistrer les modifications de chaque attribut avant d'enregistrer les modifications au niveau de la ressource, sans quoi les modifications seront perdues !
+> Tip: since each attribute is a sub-resource of the metadata, you must save changes to each attribute before saving changes at the resource level; otherwise any changes made will be lost.
 
-| Définition          | Liste des champs de la table attributaire |
+| Definition          | List of fields in the attribute table |
 | :------------------ | :---------------------------------------- |
-| Indications         | Le scan remonte le nom ainsi que le type de chaque attribut. Il s'agit donc de renseigner :<br />- l'alias,<br />- une description,<br />- la langue. |
-| Exemple             | Nom : type_epci<br />Alias : Type d'intercommunalité<br />Type : char(80)<br />Description : Type d'EPCI (source OSM) :<br />- CC = Communauté de Communes (1900)<br />- CA = Communauté d'Agglomération (222)<br />- CU = Communauté Urbaine (15)<br />- metropole = Métropole (1)<br />- SAN = Syndicat d'Agglomération Nouvelle (4)<br />- NULL = non renseigné (3)<br />Langue : Français |
-| Exigence INSPIRE    | Facultatif                    |
-| Edition par lot     | Oui, par incrémentation       |
-| Scan                | Oui                           |
-| Moteur de recherche | Non                           |
+| Indications         | The scan provides the name and type of each attribute. You must enter:<br />- the alias,<br />- a description,<br />- a language. |
+| Example             | Name: type_epci<br />Alias: Type of inter-municipality<br />Type: char(80)<br />Description: EPCI type (OSM source):<br />- CC = Communauté de Communes (1900)<br />- CA = Communauté d'Agglomération (222)<br />- CU = Communauté Urbaine (15)<br />- metropole = Métropole (1)<br />- SAN = Syndicat d'Agglomération Nouvelle (4)<br />- NULL = not entered (3)<br />Language: French |
+| INSPIRE requirement   | Optional                   |
+| Batch edition     | Yes, by incrementation           |
+| Scan                | Yes                           |
+| Search engine | No                           |
 
 

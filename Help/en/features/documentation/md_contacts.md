@@ -1,36 +1,36 @@
-## Onglet "Contacts"
+## "Contacts" tab
 
-L’onglet « Contact » permet d’affecter, depuis votre carnet d’adresse, un ou plusieurs contacts pour chacune des données ;
+The "Contacts" tab can be used to assign one or more contacts from your address book to each data item;
 
-![Edition unitaire - Contacts](/fr/images/inv_edit_one_contacts.png "L'édition unitaire - onglet Contacts")
+![Single edition - Contacts](/en/images/inv_edit_one_contacts.png "Single edition - Contacts tab")
 
-| Définition          | Coordoonnées de/s l'organisation(s) ou personne(s) liées à la vie de la donnée (production, gestion, traitement, publication...) |
+| Definition          | Contact details of the organization(s) or person(s) associated with the life of the data (production, management, processing, publishing, etc.) |
 | :------------------ | :------------------------------------------------ |
-| Indications         | Il s'agit d'indiquer les **contacts liés à la donnée et non à la métadonnée ou au catalogue** ([contact qui se paramètre au niveau du tableau de bord](/fr/settings/dashboard.html#le-point-de-contact-du-groupe-de-travail)). Choisir dans la liste des contacts et affecter l'un des rôles.<br />La liste des contacts disponibles est modifiable par l'administrateur (voir [le chapitre dédié](/fr/features/admin/contacts.html)).|
-| Exemple             | Equipe PPIGE > Point de contact<br />IGN > Fournisseur |
-| Exigence INSPIRE    | Obligatoire                   |
-| Edition par lot     | Oui, par incrémentation       |
-| Scan                | Non                           |
-| Moteur de recherche | Non                           |
+| Indications         | You must indicate the **contacts associated with the data, not with the metadata or the catalog** ([contact settings are defined in the dashboard](/en/settings/dashboard.html#the-workgroup's-point-of-contact)). In the list of contacts, choose and assign one of the roles.<br />The administrator can modify the list of available contacts (see [the dedicated chapter](/en/features/admin/contacts.html)).|
+| Example             | Team PPIGE > Point of contact<br />IGN > Supplier |
+| INSPIRE requirement   | Mandatory                   |
+| Batch edition     | Yes, by incrementation           |
+| Scan                | No                           |
+| Search engine | No                         |
 
 
-> Astuce : il est possible d'ajouter plusieurs fois le même contact avec des rôles différents mais supprimer une fois ce contact, supprime tous ses rôles.
+> Tip: you can add the same contact more than once with different roles. However, if you delete this contact, you will delete all its roles.
 
-## Matrice des rôles des contacts
+## Contact roles matrix
 
-**(X)** : valeur par défaut fortement recommandée
+**(X)** : default value, strongly recommended
 
-| Rôle                      | Description | [Recommandé](http://georezo.net/wiki/main/donnees/inspire/aide_a_la_saisie_des_metadonnees_inspire#organisations_responsables_de_l_etablissement_de_la_gestion_de_la_maintenance_et_de_la_diffusion_des_series_et_services_de_donnees_geographiques)|
+| Role                      | Description | [Recommended](http://georezo.net/wiki/main/donnees/inspire/aide_a_la_saisie_des_metadonnees_inspire#organisations_responsables_de_l_etablissement_de_la_gestion_de_la_maintenance_et_de_la_diffusion_des_series_et_services_de_donnees_geographiques)|
 |:------------------------- |:----------- | :----------: |
-| Administrateur            | Organisme ou personne responsable de la gestion et de la mise à jour de la donnée. |  X           |
-| Auteur                    | Organisme ou personne qui a complété la donnée. Il en détient les droits moraux. |  X           |
-| Analyste principal        |             |              |
-| Créateur                  |             |  X           |
-| Distributeur              |             |              |
-| Editeur (publication)     |             |              |
-| Fournisseur               | Organisme ou personne qui délivre physiquement la donnée, soit de manière directe au destinataire, soit par l’intermédiaire d’un diffuseur | X |
-| Point de contact          | Organisme ou personne que l’on peut contacter pour avoir des renseignements détaillés sur la donnée. |  **X**       |
-| Responsable du traitement |             |              |
-| Utilisateur               |             | -            |
+| Custodian            | Organization or person responsible for managing and updating data. |  X           |
+| Author                    | Organization or person that/who completed the data. It/he/she owns the data's moral rights. |  X           |
+| Principal investigator        |             |              |
+| Originator                  |             |  X           |
+| Distributor             |             |              |
+| Publisher      |             |              |
+| Resource provider               | Organization or person that/who physically delivers the data, either directly to the recipient, or via a distributor | X |
+| Point of contact          | Organization or person that/who can be contacted to obtain more details on the data. |  **X**       |
+| Processor |             |              |
+| User                  |             | -            |
 
 
