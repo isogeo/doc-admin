@@ -1,4 +1,4 @@
-# Identification
+# Onglet "Identification"
 
 Cet onglet donne les éléments de connaissance basique sur une ressource. Il est primordial puisque ce sont les informations les plus remarquables pour un utilisateur.
 
