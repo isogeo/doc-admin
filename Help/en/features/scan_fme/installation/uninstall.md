@@ -1,27 +1,27 @@
-# Désinstallation du service de scan
+# Uninstalling the scan service
 
-La suppression d'un service Isogeo s'effectue en deux étapes dépendantes dont l'ordre d’exécution n'est pas important. Cependant, si l'une des deux étapes n'est pas réalisée, cela peut amener des dysfonctionnements futurs lors de l'utilisation de l'application.
+Removing an Isogeo service takes two interdependent processes that can be done in any order. Note that failure to perform one of these two steps may lead to malfunctions when using the application.
 
-## Désinscription du service dans Isogeo
+## Deregistering from the service in Isogeo
 
-1. Sur Isogeo, rendez-vous dans l'application Scan FME (menu `Administration` → `Applications / Scan FME`) ou directement en suivant [ce lien](https://app.isogeo.com/admin/isogeo-worker) ;
+1. In Isogeo, go to the Scan FME application (menu `Administration` → `Applications / Scan FME`) or click [this link](https://app.isogeo.com/admin/isogeo-worker).
 
-2. Dans l'interface, activez le mode de suppression en cliquant sur `Supprimer` dans le menu en haut à droite ;
+2. In the interface, enable delete mode by clicking on `Delete` in the menu at the top right.
 
-3. Cliquez sur le service que vous voulez supprimer (ou sur l'icône de validation pour annuler) ;
+3. Click on the service you want to remove (or on the Validate icon to cancel).
 
-4. Une fois le service supprimé, cliquez sur valider.
+4. Once you have deleted the service, click on Validate.
 
-Si vous n'avez plus de service d'inscrit, vous serez automatiquement amené(e) à en télécharger un nouveau.
+If you no longer have a registered service, you will be automatically prompted to download a new one.
 
-## Suppression du service installé
+## Deleting an installed service
 
-Plusieurs paramètres sont potentiellement spécifiques à votre installation.
+There are potentially several settings that are specific to your installation.
 
-1. À l'aide de votre explorateur Windows, naviguez vers le répertoire du service (selon nos recommandations, ce devrait être `C:\Program Files\Isogeo`) ;
+1. Go to the folder containing the service in Windows Explorer (if you followed our recommendation, it will be `C:\Program Files\Isogeo`).
 
-2. Ouvrez le dossier daemon ;
+2. Open the "daemon" folder.
 
-3. Faites un clic droit sur le fichier uninstall.bat, puis `Exécuter en tant qu’administrateur`. Une fenêtre devrait s'ouvrir puis se fermer automatiquement.
+3. Right-click on "uninstall.bat," then choose "Run as administrator." A pop-up window opens and then closes automatically.
 
-4. Supprimez l'ensemble de répertoire du service.
+4. Delete the entre folder containing the service.

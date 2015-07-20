@@ -1,12 +1,12 @@
-# Mise à jour d'un service Isogeo
+# Updating an Isogeo service
 
-L’application Scan FME évolue régulièrement et il est donc parfois nécessaire de mettre à jour le service Isogeo installé afin qu’il soit compatible avec les dernières évolutions.
+The Scan FME application is regularly updated, so you will occasionally have to upgrade an installed Isogeo service so that it will be compatible with the latest upgrades.
 
-Si l’un de vos services n’est plus compatible, l’application vous en informera et vous empêchera de déclencher de nouveaux scans.
+The application will notify you if any of your services are no longer compatible, and will prevent you from running any new scans.
 
-Pour mettre à jour il suffit de procéder à :
+To upgrade:
 
-1. une désinstallation du service existant ;
-2. une nouvelle installation.
+1. Uninstall the existing service.
+2. Install the new service.
 
 

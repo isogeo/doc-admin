@@ -1,48 +1,48 @@
-# Déploiement du service
+# Deploying the service
 
-## Téléchargement du service
+## Downloading the service
 
-Chaque service Isogeo est généré à partir de notre plate-forme et possède ses propres identifiants.
+Each Isogeo service is generated from our platform, and has its own identifiers.
 
-Pour le récupérer, connectez-vous sur http://app.isogeo.com avec votre compte et rendez-vous dans la section Administration > Applications > Scan FME ou plus directement cliquez ici.
+To retrieve the service, log in to your account at http://app.isogeo.com, then go to Administration > Applications > Scan FME, or click here.
 
-Lors de votre première visite, vous êtes invité à créer votre premier service en lui donnant un nom simple par exemple le nom de la machine ou de son utilisateur.
+The first time, you will be prompted to create your first service and give it a simple name, such as the name of your machine or its user.
 
-Après validation, un lien de téléchargement est mis à votre disposition. Cliquez sur ce lien afin de télécharger le service à installer.
+After confirming, you are given a download link. Click this link to download the service to be installed.
 
-## Installation du service
+## Installing the service
 
-1.	Décompressez l’archive (zip) que vous venez de télécharger dans un emplacement pertinent de votre machine. Ce dernier importe peu mais vous devez vous en souvenir et ne plus y toucher, au risque de devoir recommencer la procédure. Par exemple dans un dossier C:\Program files\Isogeo (si vous avez les droits)
+1.	Unzip the downloaded (zip file) archive to a folder of your choice on your machine. You can choose any location for this folder, but make sure you remember it, and do not change it once you have completed the installation; otherwise you may need to start over. For example, choose folder C:\Program files\Isogeo (provided you have the necessary permissions).
 
-2.	Ouvrez le dossier « daemon »
+2.	Open the "daemon" folder.
 
-3.	Faites un clic droit sur « install.bat », puis « Exécuter en tant qu’administrateur »
+3.	Right-click on "install.bat," then choose "Run as administrator."
 
-Une fenêtre va alors s’ouvrir et vous indiquer que l’installation et le démarrage du service sont en cours puis se fermer automatiquement.
+A pop-up window will indicate that the service is being installed then started. This window will close automatically.
 
-Si la fenêtre ne se ferme pas et qu’un message d’erreur est apparu, contactez notre support par mail à support@isogeo.fr.
+If it does not close and you get an error message, contact our support team by emailing support@isogeo.fr.
 
-## Configuration du service
+## Setting up the service
 
-Afin d'accéder à toutes les ressources nécessaires au bon fonctionnement (données, solution FME, …), il est nécessaire de lancer le service à l'aide d'un compte utilisateur ayant les droits adéquats (cf. Compte utilisateur).
+To be able to access all the resources required for the service to run (data, FME solution, etc.), you must run the service from a user account with the necessary permissions (see User account).
 
-Ouvrez la console des services Windows (cliquez sur « Démarrer », rechercher « services »). Une fenêtre s’ouvre avec l’ensemble des services Windows. Si l’installation du Service Isogeo s’est correctement déroulée, un service nommé “Isogeo Service” avec l’état “Démarré” se trouve dans la liste.
-
-
-Si ce service n'apparaît pas, tentez de rafraîchir la liste (clic droit>rafraîchir), si il n'apparaît toujours pas, essayez de nouveau l’installation en faisant un clic droit sur le fichier “install.bat” puis “exécuter en tant qu’administrateur” (cf. Installation du service - étape 3).
-
-Allez dans les propriétés du service (clic droit>propriétés), puis dans l’onglet “connexion”. Choisissez l’option “Ce compte:” et indiquez les identifiants du compte utilisateur adéquat (voir les pré-requis). Si votre compte personnel rempli les conditions vous pouvez l’utiliser. Si vous ne savez pas quel compte utiliser, demandez de l’aide à un technicien ou un responsable des services informatiques.
+Open the Windows Management Console (click on "Start," then enter "services" in the search bar). A window containing all the Windows services is displayed. If the Isogeo service was correctly installed, the list will include the "Isogeo Service" with the "Started" status.
 
 
+If the service is not listed, refresh the list (right-click > Refresh). If it is still not listed, repeat the installation procedure by right-clicking the “install.bat” file, and then choosing “Run as administrator” (see also Installing the service - step 3).
 
-Dans cet exemple, le compte antoine.audusseau a accès au logiciel FME ainsi qu’aux ressources réseaux permettant d’accéder aux données SIG.
-Une fois le compte renseigné, cliquez sur “OK”. Une fenêtre vous demande de redémarrer le service pour prendre en compte le changement, pour suivre cette instruction, faite un clic droit sur le service puis choisissez “Redémarrer”. La dernière colonne du service devrait maintenant correspondre au compte que vous venez de renseigner.
+Go to the service properties (right-click > Properties), then click on the “Log On” tab. Choose "This account", and enter your user account credentials (see Prerequisites). You can use your personal account if it satisfies the conditions. If you do not know which user account to use, consult an IT technician or your IT Services Manager.
 
-L’installation est à présent terminée.
 
-Retour à l’application Isogeo
-Une fois l’installation effectuée, revenez sur votre navigateur et cliquez sur « Aller à l’application ». Normalement vous devez voir un point vert dans l’en-tête de l’application, cela veut dire que la communication entre le service que vous venez d’installer et la Plateforme Isogeo est établie !
 
-Si le point est rouge, utilisez la fonction « Rafraîchir » disponible via le menu sur la droite du point.
+In this example, the "antoine.audusseau" account has access to the FME tool and to the network resources used to access GIS data.
+Once you have entered the account, click “OK”. You will be prompted to restart the service to accept the change. To follow this instruction, right-click on the service and choose “Restart”. The last column in the service should now match the account credentials you just entered.
 
-Si rien ne change au bout de 5 minutes, contactez notre support.
+Installation is now complete.
+
+Return to the Isogeo application.
+Once you have completed the installation, go back to your browser and click on "Go to the application." You should see a green indicator light in the application header. This means that communication has been established between the service you just installed and the Isogeo Platform.
+
+If the indicator light is red, choose "Refresh" in the menu to the right of this indicator.
+
+If the indicator stays red for more than 5 minutes, contact our support team.

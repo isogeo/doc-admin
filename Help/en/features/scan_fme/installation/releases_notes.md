@@ -1,78 +1,78 @@
-# Versions du service Isogeo Worker (scan FME)
+# Isogeo Worker service releases (Scan FME)
 
-Indépendant de la plateforme, le service est mis à jour lorsque des anomalies sont remontées ou pour couvrir de nouveaux besoins identifiés (nouveaux formats par exemple). Attention, ne pas confondre avec les mises à jour concernant l'interface d'administration du scan à laquelle vous accédez via https://app.isogeo.com/admin/isogeo-worker.
+This platform-independent service is upgraded to correct any bugs, or to add new features (such as new formats). Note: these upgrades are not the same as upgrades to the scan's administration interface, accessed via https://app.isogeo.com/admin/isogeo-worker.
 
-Vous pouvez facilement vérifier la version du service installée chez vous en passant la souris sur le(s) voyant(s) en haut à droite de l'interface d'administration du scan :
+To check which version of the service is installed on your machine, hover the mouse over the indicator light(s) at the top right of the scan administration interface:
 
-![Scan FME - version](/fr/images/scanFME_service_version.png "Vérifier la version du service")
+![FME scan - version](/en/images/scanFME_service_version.png "Checking the service version")
 
 ### 1.3.2
 
-* Nouvelle version de [NSSM](http://nssm.cc/) (utilisé pour gérer le service Windows)
-* (Fix) Désinstallation du service sur une machine 32 bits
+* New [NSSM](http://nssm.cc/) version (used to manage the Windows service)
+* (Fix) Service uninstall on a 32-bit machine
 
 ### 1.3.1
 
-* (Fix) Lecture du format ArcSDE sous Oracle.
+* (Fix) Ability to read the ArcSDE format on Oracle.
 
 ### 1.3.0
 
-* (Fix) Remonte les couches qui ne possèdent pas d’attribut ;
-* Amélioration de la lecture du format KML/KMZ ;
-* Amélioration de la lecture du format GPx ;
-* Suppression du scan de requêtes SQL pour Créteil ;
-* Scan de tables sans géométrie pour Créteil.
+* (Fix) Retrieves layers with no attributes shown;
+* Improved support for KML/KMZ format;
+* Improved support for GPx format;
+* Deleting the SQL query scan for Cr�teil;
+* Scanning of tables that have no geometry for Créteil.
 
 ### 1.2.0
 
-* Format Apic ASC
+* Apic ASC Format
 
 ### 1.1.1
 
-* Format GPx ;
-* Format PNG.
+* GPx format;
+* PNG format.
 
 ### 1.1.0
 
-* Scan de requêtes SQL pour Créteil / Plaine Centrale.
+* SQL query scan for Créteil / Plaine Centrale.
 
 ### 1.0.24
 
-* Format KML/KMZ.
+* KML/KMZ format.
 
 ### 1.0.23
 
-* Suppression des tables remontées en doublon par FME.
+* Deleting tables shown in duplicate by FME.
 
 ### 1.0.21
 
-* Possibilité d’arrêter une requête.
+* Possibility of stopping a query.
 
 _________
 
-> Au-delà de cette ligne, les services sont considérés comme obsolètes et le voyant s'affiche en orange.
+> Services below this line are considered obsolete, and the indicator light is orange.
 
-![Scan FME - version obsolète](/fr/images/scanFME_service_version_obsolete.png "Service obsolète")
+![Scan FME - obsolete version](/en/images/scanFME_service_version_obsolete.png "Obsolete service")
 
 ### 1.0.20
 
-* Format ESRI Grid (.asc) ;
-* Format JPEG (.jpg et .jpeg).
+* ESRI Grid format (.asc);
+* JPEG format (.jpg and .jpeg).
 
 ### 1.0.19
 
-* Amélioration du temps de calcul de la signature via FME (données marquées comme modifiées la première fois) ;
-* Remontée des erreurs FME pour améliorer l’efficacité du support.
+* Improved calculation time for signature via FME (data marked as modified the first time);
+* Retrieves FME errors to improve support.
 
 ### 1.0.18
 
-* Prise en compte du reader SDE30 de FME permettant de lire les bases ArcSDE avec la licence Professionnal ;
-* Remonte des informations plus pertinentes pour les données CAO (les informations d’une seule couche étaient remontées).
+* Support for FME SDE30 reader, used to read ArcSDE databases with a Professional license;
+* Retrieves more information from CAD data (only the information for one layer was shown previously).
 
 ### 1.0.17
 
-* Ajout des bonnes versions 32 bits et 64 bits de NSSM.
+* Addition of correct 32-bit and 64-bit NSSM versions.
 
 ### 1.0.16
 
-* Version plus récente de NSSM.
+* Most recent NSSM version.

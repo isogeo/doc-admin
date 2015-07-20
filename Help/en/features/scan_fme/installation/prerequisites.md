@@ -1,48 +1,48 @@
 # Configuration
 
-Pour pouvoir utiliser le Service Isogeo Worker (scan FME) sur votre poste de travail ou votre serveur, vous devez vérifier les pré-requis suivants :
+To be able to use the Isogeo Worker Service (Scan FME) on your workstation or server, you must define the following prerequisites:
 
-## Système d’exploitation
+## Operating system
 
-À ce jour nous ne supportons que les systèmes Windows :
+We currently only support the following Windows systems:
 
-* Windows 8 et 8.1 (recommandé)
-* Windows 7 (recommandé)
+* Windows 8 and 8.1 (recommended)
+* Windows 7 (recommended)
 * Windows Vista SP2
-* Windows Server 2012 et 2012 R2 (recommandé)
-* Windows Server 2008 et 2008 R2
+* Windows Server 2012 and 2012 R2 (recommended)
+* Windows Server 2008 and 2008 R2
 * Windows Server 2003 SP2
-* Windows XP SP3 (sauf la version 64 bits)
+* Windows XP SP3 (except the 64-bit version)
 
-Même s'il est possible d’installer le service Isogeo sur un poste d'utilisateur, **il est recommandé d’utiliser un serveur** pour des questions de performances, d’accès et de disponibilité.
+Even if the Isogeo service can be installed on a user workstation, **we strongly advise using a server** in the interests performance, access and availability.
 
-## Installation de FME Desktop
+## Installing FME Desktop
 
-Votre poste de travail ou votre serveur doit avoir le logiciel FME Desktop installé et parfaitement configuré pour accéder et manipuler vos données géographiques (choix de l’édition, composants tierces parties). Pour plus d’informations, veuillez contacter votre distributeur FME.
+FME Desktop must be installed and correctly configured on your workstation or server in order to access and manage your geographic data (editing choice, third-party components). For more details, please contact your FME distributor.
 
-À ce jour le Service Isogeo supporte :
+Isogeo service currently supports:
 
-* FME Desktop 2013 ;
-* FME Desktop 2014 ;
-* FME Desktop 2015.
+* FME Desktop 2013
+* FME Desktop 2014
+* FME Desktop 2015
 
-Ainsi que les Service Pack associés (SP1, SP2, SP3, SP4).
+and their service packs (SP1, SP2, SP3, SP4).
 
-## Compte utilisateur
+## User account
 
-Vous devez créer un compte utilisateur Windows permettant :
+You must create a Windows user account that lets you:
 
-* d'exécuter FME Desktop sur le poste où est installé le service Isogeo,
-* de pouvoir écrire dans le répertoire d'installation du service Isogeo,
-* d’accéder aux ressources réseaux nécessaires pour lire vos données SIG.
+* run FME Desktop on the machine on which the Isogeo service is installed,
+* write in the Isogeo service installation directory,
+* access network resources required to read your GIS data.
 
-Par exemple, créer un nouveau compte utilisateur intitulé Isogeo ayant les droits adéquats.
+For example, you should create a new user account called Isogeo with the appropriate permissions.
 
-## Sécurité
+## Security
 
-Si votre serveur est connecté à Internet via un réseau d’entreprise soumis à des politiques de sécurité (cas le plus fréquent), vous devez vous assurer que :
+If your server is connected to the Internet via a corporate network subject to security policies (which is usually the case), you must make sure that:
 
-* votre navigateur peut accéder aux différents sites Internet gérés par Isogeo (tous nos sites ont des domaines qui se terminent par isogeo.com et utilisent le protocole sécurisé HTTPS) tel que https://app.isogeo.com
-* votre système d’exploitation peut se connecter au port **5671** du domaine **daemons-mq.isogeo.com** à l'aide du **protocole TCP sécurisé**.
+* your browser can access the various Internet sites managed by Isogeo (all our sites have domain names that end with isogeo.com, and all use HTTPS secure protocol), such as https://app.isogeo.com
+* your operating system can connect to port **5671** of the **daemons-mq.isogeo.com** domain using **secure TCP protocol**.
 
-Généralement vous obtiendrez ces informations auprès d’un technicien ou d’un responsable des services informatiques.
+You can usually obtain this information from an IT technician or your IT Services Manager.

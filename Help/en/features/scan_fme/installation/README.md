@@ -1,9 +1,9 @@
-# Guide d'installation du service Isogeo Worker
+# Isogeo Worker service installation guide
 
-## Historique
+## History
 
-Développé en 2013 par Isogeo, le service Isogeo Worker a commencé à être déployé à la fin de la même année et surtout à partir de début 2014. Basé sur l'ETL FME, édité par Safe Software, il permet de lire un très grand nombre de formats de données géographiques et d'en extraire la plupart des informations techniques que l'on s'attend à voir dans une fiche de métadonnées.
+Developed in 2013 by Isogeo, Isogeo Worker was first deployed at the end of that same year and in early 2014. Based on the FME Spatial ETL published by Safe Software, it can be used to read a very large number of geographic data formats, and to extract most of the technical information that you would expect to see in a metadata record.
 
 ## Architecture
 
-![Schéma de l'architecture vulgarisée](/fr/images/scanFME_architecture.png "Architecture globale du service de scan Isogeo")
+![Basic diagram of the architecture](/en/images/scanFME_architecture.png "General architecture of the Isogeo scan service")
