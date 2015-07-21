@@ -4,13 +4,28 @@ Dans le cadre du groupe de travail sur l'interopérabilité entre les normes de 
 
 L'objectif est de capitaliser sur le travail de documentation des métadonnées et de référencement des données réalisé par l'écosystème géomatique en permettant aux acteurs de le  valoriser facilement sur le portail de données national.
 
+## Pré-requis
+
+Afin que vos données puissent être accessibles via la passerelle, il faut qu'elles remplissent plusieurs critères :
+
+* avoir le mot-clé `données ouvertes` (voir [étiqueter](/fr/features/documentation/md_classify.html)) ;
+* avoir une licence ouverte et indiquer qu'il n'y a aucune limitation au sens INSPIRE (voir [gérer les CGUs](/fr/features/documentation/md_cgu.html#conditions)) ;
+* avoir une ressource associée de type WFS (voir [affecter un service WFS](/fr/features/publish/webservices.html#associer-un-flux-wfs)) ;
+* être dans un catalogue partagé via CSW (voir [serveur CSW](/fr/features/publish/csw_server.html)).
+
+## Pas à pas
+
 1. Créer un compte sur DataGouv.fr
 
     Pour créer un compte ou se connecter : https://www.data.gouv.fr/login. Il est recommandé de créer un compte directement sans l'interface d'un réseau social.
 
-2. Créer une organisation sur DataGouv.fr
+    ![DataGouv - Inscription/connexion](/fr/images/annex_bridge_INSPIRE_DataGouv_00a.png "Se connecter ou créer un compte sur DataGouv")
 
-    Pour cela, il faut passer par l'administration de son profil : https://www.data.gouv.fr/fr/me/organization/new. Si elle existe déjà, faites une demande pour la rejoindre.
+2. Créer / rejoindre une organisation sur DataGouv.fr
+
+    Pour cela, il faut passer par l'administration de son profil : https://www.data.gouv.fr/fr/admin/organization/new/. Si elle existe déjà, faites une demande pour la rejoindre.
+
+    ![DataGouv - Organisation](/fr/images/annex_bridge_INSPIRE_DataGouv_00b_NewOrganization.png "Créer son organisation sur DataGouv")
 
 3. Demander à ce que votre flux CSW soit référencé
 
@@ -20,7 +35,7 @@ L'objectif est de capitaliser sur le travail de documentation des métadonnées 
 
     ![Passerelle INSPIRE - Open Data (1)](/fr/images/annex_bridge_INSPIRE_DataGouv_1.png "Page d'accueil de la passerelle")
 
-5. Lier son compte datagouv à la passerelle
+5. Autoriser la passerelle à utiliser le compte DataGouv
 
     ![Passerelle INSPIRE - Open Data (2)](/fr/images/annex_bridge_INSPIRE_DataGouv_2_oauth.png "Lier son compte DataGouv")
 
