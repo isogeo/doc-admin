@@ -4,13 +4,24 @@ Le nombre de dates différentes est l'un des principaux éléments de questionne
 * celles concernant la ressource qui est documentée (donnée, service, etc.) ;
 * celles concernant la fiche de métadonnée.
 
-## Les dates concernant la donnée
+## Les dates concernant la ressource
 
+Les dates liées
+
+
+
+Parmi toutes cas dates, seules les dates de modification sont automatiquement renseignées par le scan.
+
+> Astuce : lorsqu'une fiche est créée (manuellement ou automatiquement), la date de création est ![APP - Date de création vide](/fr/images/annex_dates_data_creationDate_empty_APP.png "La date de création doit être renseignée manuellement")
 
 ce qui est auto, ce qui ne l'est pas
 2 types de dates
 
 ### Vie et évolutions de la donnée
+
+Une date de référence de la ressource est une information représentative de la vie de la ressource (création, publication, révision),
+
+![APP - Evénements d'une ressource](/fr/images/inv_edit_one_history_events_allTypes.png "Les différents types d'événements de la vie d'une ressource")
 
 * Il peut y avoir plus d’une date de publication.
 * II ne doit pas y avoir plus d’une date de dernière révision.
@@ -18,7 +29,12 @@ ce qui est auto, ce qui ne l'est pas
 
 ### Actualité / obsolescence de la donnée
 
-étendue temporelle
+
+
+’étendue temporelle fournit une indication de la période de temps couverte par la ressource, ce qui est un indicateur de l’actualité de la ressource.
+La date de dernière révision n’a de sens que si elle se distingue de la date de création.
+
+![APP - Evénements d'une ressource](/fr/images/annex_dates_data_temporalValidity_APP.png "Les différents types d'événements de la vie d'une ressource")
 
 ## Les dates concernant la métadonnée
 
