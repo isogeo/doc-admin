@@ -1,6 +1,6 @@
 # Documenting
 
-In compliance with the formalism laid down by the INSPIRE directive and the interoperability standards defined by ISO. 3 operations can be distinguished in this documentation phase: 
+In compliance with the formalism laid down by the INSPIRE directive and the interoperability standards defined by ISO. 3 operations can be distinguished in this documentation phase:
 
 * **Qualify**: describing the data (title, summary, history, geography, general terms and conditions for access and use, contracts, etc.). This operation is facilitated by 3 processes:
     - automatic retrieval of one third of the required fields by the Inspire directive;
