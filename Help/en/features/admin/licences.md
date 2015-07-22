@@ -2,7 +2,7 @@
 
 Data use and access conditions are information that is both essential and critical to enter. To understand better, refer to the [chapter that deals with national recommendations](http://georezo.net/wiki/main/donnees/inspire/aide_a_la_saisie_des_metadonnees_inspire#contraintes_en_matiere_d_acces_et_d_utilisation).
 
-To bring this critical information to your user's attention, and and to make documenting it considerably easier, Isogeo allows you to manage a license repository in which you can, for example, add your data exchange conventions.
+To bring this critical information to your user's attention, and to make documenting it considerably easier, Isogeo allows you to manage a license repository in which you can, for example, add your data exchange conventions.
 
 This means you can dispense with having to revise each record. And that means time gained and high-quality metadata!
 
@@ -29,7 +29,7 @@ To add a license to your workgroup, simply proceed as follows:
     * and a summary of conditions (free or not, paid or not, restricted or not, etc.).
 4.	Click on `Create`, `Save` or `Delete`.
 
-All licenses added are available in the `CGU` > `Conditions` tab when editing a metadata record.
+All licenses added are available in the `TOS` > `Conditions` tab when editing a metadata record.
 
 ![New license demo](/en/images/adm_licenses_add.gif "Adding a new license")
 

@@ -1,4 +1,4 @@
-# Architecture and development cycles
+﻿# Architecture and development cycles
 
 Isogeo is a SaaS (Software as a Service) platform, which means greater flexibility in terms of its installation and use. Its development adheres to agile methodology and scrum methodology cycles.
 
@@ -12,7 +12,7 @@ As shown in the diagram below, Isogeo has two main components:
 
 ## Installing and managing environments
 
-Isogeo uses the SaaS model Microsoft's Windows Azure *cloud computing*  platform. Three distinct environments are used to manage development, testing and production:
+Isogeo uses the SaaS model Microsoft's Windows Azure *cloud computing* platform. Three distinct environments are used to manage development, testing and production:
 
 * The **development** platform, reserved for Isogeo, used to manage development for the solution. Updated every night, this platform compiles all development from the previous day (see below for Isogeo's software quality process);
 
@@ -30,7 +30,7 @@ Depending on the characteristics of the data browsed, processing can become RAM 
 
 ## Backup and recovery
 
-The Isogeo platform (application and database) is backed up daily to a private storage location on Microsoft©'s Windows Azure© cloud computing  platform. The backup resources are described on the official [Microsoft Azure©] site (http://www.windowsazure.com/en-us).
+The Isogeo platform (application and database) is backed up daily to a private storage location on Microsoft©'s Windows Azure© cloud computing platform. The backup resources are described on the official [Microsoft Azure©] site (http://www.windowsazure.com/en-us).
 
 A general recovery of the platform can be performed by Isogeo.
 
@@ -68,7 +68,7 @@ Only executable updates may require action by the organization. Isogeo sends an 
 
 * However, incoming and outgoing communications must be authorized for TCP port 5671.
 
-### Controlling access to the data during  automatic inventorization
+### Controlling access to the data during automatic inventorization
 
 * The data is accessed via the [FME] tool (http://www.safe.com/fme/fme-technology/fme-desktop/overview/)
 

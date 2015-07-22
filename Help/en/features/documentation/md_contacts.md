@@ -27,7 +27,7 @@ The "Contacts" tab can be used to assign one or more contacts from your address 
 | Principal investigator        |             |              |
 | Originator                  |             |  X           |
 | Distributor             |             |              |
-| Publisher      |             |              |
+| Writer      |             |              |
 | Resource provider               | Organization or person that/who physically delivers the data, either directly to the recipient, or via a distributor | X |
 | Point of contact          | Organization or person that/who can be contacted to obtain more details on the data. |  **X**       |
 | Processor |             |              |

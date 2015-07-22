@@ -1,36 +1,36 @@
-# Ajouter une nouvelle base de données à scanner
+# Adding a new database to scan
 
-## Démarche globale
+## Overall approach
 
-Pour créer un point d’entrée « Base de données » vous devez :
+Proceed as follows to create a "Database" entry point:
 
-1.	Dans le menu « Scan FME », créer un nouveau point d’entrée en cliquant sur « + Nouveau » ;
-2.	Sélectionner le type « Base de données » ;
-3.	Nommer le point d’entrée. Exemple : Base de références ;
-4.	Sélectionner le type de base de données dans la liste déroulante. ;
-5.	Saisir les paramètres de connexion ;
-6.	Sauvegarder.
+1.	In the "Scan FME" menu, click on "+ New" to create a new entry point.
+2.	Select the "Database" type.
+3.	Name the entry point. For example: Reference database.
+4.	Select the database type from the drop-down list. 
+5.	Enter the connection settings.
+6.	Save.
 
-    ![Nouveau point d'entrée base](/fr/images/scanFME_new_DB_ready.png "Le nouveau point d'entrée est prêt à être scanné")
+    ![New database entry point](/en/images/scanFME_new_DB_ready.png "The new entry point is ready to be scanned")
 
-## Paramètres requis selon le type de base de données
+## Settings required depending on the database type
 
-Légende :
-* X = requis
-* \ = facultatif
-* \- = désactivé
+Key:
+* X = required
+* \ = optional
+* \- = disabled
 
-| Champ                       | PostGIS | Oracle | SQL Server | + Esri (SDE) |
+| Field                           | PostGIS | Oracle | SQL Server | + Esri (SDE) |
 | --------------------------- | :-----: | :----: | :--------: | :----------------------: |
-| Nom                         | X       | X      | X          | X                        |
-| Type                        | X       | X      | X          | X                        |
-| Serveur                     | X       | X      | X          |                          |
-| Port                        | X       |        |            |                          |
-| Identifiant                 | X       | X      | X          |                          |
-| Mot de passe                | X       | X      | X          |                          |
-| Nom de la base de données   | X       |        | X          |                          |
-| Fichier de connexion (.sde) | -       |        |            | X                        |
-| Nom de l'instance           | -       |        |            | X                        |
-| Version transactionnelle    | -       |        |            | X                        |
+| Name                         | X       | X      | X          | X                        |
+| Type                           | X       | X      | X          | X                        |
+| Server                        | X       | X      | X          | X                        |
+| Port                            | X       |        |            |                          |
+| Identifier                  | X       | X      | X          |                          |
+| Password                 | X       | X      | X          |                          |
+| Database name      | X       |        | X          |                          |
+| Connection file (.sde) | -       |        |            | X                        |
+| Instance name            | -       |        |            | X                        |
+| Transactional version   | -       |        |            | X                        |
 
 

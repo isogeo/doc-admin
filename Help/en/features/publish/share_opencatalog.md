@@ -1,10 +1,10 @@
-# Distributing catalogues with OpenCatalog
+﻿# Distributing catalogs with OpenCatalog
 
-Once established, your data catalogue can be published via OpenCatalog, a website hosted by Isogeo that offers simple, user-friendly viewing access to an unlimited number of users.
+Once established, your data catalog can be published via OpenCatalog, a website hosted by Isogeo that offers simple, user-friendly viewing access to an unlimited number of users.
 
 OpenCatalog includes a search engine and filters to quickly access the description records (metadata) sought.
 
-The records (of data, data sets or services) are presented in such a way as to respond to the needs of specialists and non-specialists alike. They are INSPIRE-compliant and provide access to XML ISO 19139 files.
+The records (of data, datasets or services) are presented in such a way as to respond to the needs of specialists and non-specialists alike. They are INSPIRE-compliant and provide access to XML ISO 19139 files.
 
 They also serve to highlight the associated resources, organized into 3 main actions:
 * View
@@ -14,14 +14,14 @@ They also serve to highlight the associated resources, organized into 3 main act
 
 Proceed as follows to create an OpenCatalog:
 
-1.	Menu `Administration` > `Share`, click `New`;
+1.	Menu `Administration`  > `Share`, click `New`;
 2.	Click on the cogwheel button;
 3.	Select the `OpenCatalog` application;
-4.	Select the catalogue(s) to publish;
+4.	Select the catalog(s) to publish;
 5.	Name the share;
 6.	`Save`;
 
-![OpenCatalog management](/en/images/adm_shares_OC_edit.png "Publishing catalogues as OpenCatalogs")
+![OpenCatalog management](/en/images/adm_shares_OC_edit.png "Publishing catalogs as OpenCatalogs")
 
 
 ## Integrating an OpenCatalog in iFrame
@@ -41,7 +41,7 @@ For example to integrate the demo OpenCatalog:
 <iframe src="http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0" width="850" height="600"></iframe></a>
 
 Integration examples online:
-* the [PPIGE] portal (http://www.ppige-npdc.fr/geocatalogue/)
+* the [PPIGE] portal (http://www.ppige-npdc.fr/geocatalog/)
 * the [Moselle] portal (http://www.moselleinfogeo.fr/infogeo/isogeo).
 
 ## Integrating a single record in iframe
@@ -54,7 +54,7 @@ Differences compared with "normal" integration:
 
 ### Syntax
 
-For example, to integrate the record containing metadata on France's d�partements in 2014:
+For example, to integrate the record containing metadata on France's dÃ©partements in 2014:
 
 ```no-highlight
 <iframe src="http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0/m/754209f115c040a48d43ffc262b16500?lock" height="400"></iframe></a>

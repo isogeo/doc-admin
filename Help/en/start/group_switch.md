@@ -1,17 +1,17 @@
-# Mon compte, mes groupes de travail
+# My account, my workgroups
 
-Dans Isogeo, l'unité de lecture est le patrimoine de données géographiques : à chaque patrimoine son groupe de travail !
+In Isogeo, the working unit is the geographic data asset. Each asset has its workgroup.
 
-Un groupe de travail est un ensemble d'utilisateurs (administrateurs, éditeurs ou lecteurs) travaillant sur un patrimoine (= inventaire).
+A workgroup is a set of users (administrators, writers or readers) working on a given asset (such as an inventory).
 
-Un utilisateur peut appartenir à plusieurs groupes de travail, à différents niveaux selon chaque groupe.
+A user can belong to more than one workgroups, at different levels depending on each group.
 
-# Accéder à plusieurs groupes de travail
+# Accessing multiple workgroups
 
-Votre compte Isogeo peut être lié à plusieurs groupes de travail. Le cas échéant, si vous souhaitez changer de groupe de travail, inutile de vous déconnecter, il vous suffit de :
+Your Isogeo account can be associated with more than one workgroup. You do not need to log off if you want to change workgroups; proceed as follows:
 
-1.	Cliquer sur votre nom en haut à droite de la page ;
-2.	Cliquer sur « Changer de groupe », une pop-up s’ouvre ;
-3.	Sélectionner le groupe que vous souhaitez rejoindre.
+1.	Click on your name at the top right of the page.
+2.	Click on "Change group." A pop-up window displays.
+3.	Select the group you wish to change to.
 
-![Changement de groupe](/fr/images/user_switch_group.gif "Changer de groupe")
+![Changing groups](/en/images/user_switch_group.gif "Changing groups")

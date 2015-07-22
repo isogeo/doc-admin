@@ -1,16 +1,16 @@
-# Diffuser votre catalogue en CSW (moissonnage)
+# Publishing your catalog via CSW (harvesting)
 
-Une fois constitué, votre catalogue de données peut être « moissonné » par n’importe quel « client CSW », tel que les Infrastructures de Données Géographiques (IDG) territoriales et certaines applications SIG (QGIS par exemple, GéoNetwork, GéoSource...).
+Once set up, your data catalog can be "harvested" by any "CSW client", such as national Spatial Data Infrastructures (SDIs) and certain GIS applications (for example, QGIS, GeoNetwork, GeoSource, etc.).
 
-Pour activer le moissonnage d’un catalogue, il vous suffit de :
+Proceed as follows to enable harvesting for a catalog:
 
-1.	Dans le menu `Administration`  > `Partage`, cliquer sur `Nouveau` ;
-2.	Cliquer sur le bouton en forme d'engrenages ;
-3.	Sélectionner l’application `CSW` ;
-4.	Sélectionner le ou les catalogues à publier ;
-5.	Nommer le partage ;
-6.	`Enregistrer` ;
+1.	Menu `Administration`  > `Shares`, click `New`;
+2.	Click on the gears button;
+3.	Select the `CSW` application;
+4.	Select the catalog(s) to publish;
+5.	Name the share;
+6.	`Create`.
 
-L’URL du service Web CSW fourni par Isogeo dispose d’une clef sécurisée (jeton). Vous pouvez renouveler la clef de sécurité du service. Si vous le faites, pensez à communiquer cette nouvelle URL au(x) destinataire(s) !
+The URL of the CSW web service provided by Isogeo comes with a secure key (token). You can renew the service's security key. If you do, remember to inform the recipient(s) of the new URL.
 
-![Serveur CSW](/fr/images/adm_shares_CSW_edit.png "Diffuser les catalogues via le protocole CSW")
+![CSW server](/en/images/adm_shares_CSW_edit.png "Publishing catalogs using the CSW protocol")

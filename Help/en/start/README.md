@@ -1,1 +1,1 @@
-Pour bien démarrer sur la plateforme Isogeo, il faut d'abord **créer** puis **paramétrer** votre [compte utilisateur](https://app.isogeo.com/settings/account).
+To get started on the Isogeo platform, you must first **create** then **set up** your [user account](https://app.isogeo.com/settings/account).

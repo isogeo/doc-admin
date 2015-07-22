@@ -1,16 +1,16 @@
-# Ajouter un répertoire de fichiers à scanner
+# Adding a directory of files to scan
 
-Pour créer un point d’entrée « Fichiers » vous devez :
+To create a "Files" entry point:
 
-1.	Dans le menu « Scan FME », créer un nouveau point d’entrée en cliquant sur « + Nouveau »
-2.	Sélectionnez le type « Fichier »
-3.	Nommez le point d’entrée. Exemple : « Cadastre »
-4.	Renseigner le chemin d’accès au répertoire contenant les données à scanner. Exemple : //serveur/partage/Dossier/
+1.	In the "Scan FME" menu, click on "+ New" to create a new entry point.
+2.	Select the "File" type.
+3.	Name the entry point. For example: "Cadaster"
+4.	Enter the path to the directory containing the files to scan. For example: //server/share/Folder/
 
-    ![Nouveau point d'entrée fichiers](/fr/images/scanFME_new_files.png "Créer un nouveau point d'entrée pour scanner des fichiers")
+    ![New files entry point](/en/images/scanFME_new_files.png "Creating a new entry point to scan files")
 
-5.	Sauvegarder. Le nouveau point d’entrée que vous venez de créer s’ajoute à la liste des points d’entrée. Il est prêt à être scanné.
+5.	Save. The new entry point that you created is added to the list of entry points. It is now ready to be scanned.
 
-    ![Nouveau point d'entrée fichiers](/fr/images/scanFME_new_files_ready.png "Le nouveau point d'entrée est prêt à être scanné")
+    ![New files entry point](/en/images/scanFME_new_files_ready.png "The new entry point is ready to be scanned")
 
 

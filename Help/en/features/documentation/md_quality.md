@@ -1,4 +1,4 @@
-## "Quality" tab
+﻿## "Quality" tab
 
 The "Quality" tab contains the specifications used for collecting and controlling data, and the results of tests on the data's topological consistency.
 
@@ -20,7 +20,7 @@ The "Quality" tab contains the specifications used for collecting and controllin
 | Definition          | Description of the data's quality in strictly technical terms |
 | :------------------ | :---------------------------- |
 | Indications         | Describes the measurement made and the qualitative and quantitative results obtained. Even if this information may only apply to a portion of the data, it is an indication of the cataloging quality. |
-| Example             | Simple topology.<br />The geometry taken from the unified database is simplified by deleting and allocating intermediate points.<br /><br />The properties of this "generalization" operation are as follows:<br /> - Topology and relationship between "communes," "cantons," "arrondissements" and "départements" are retained;<br /> - Peaks on the graph representing limits of "communes," "cantons," "arrondissements" and "départements" are not moved;<br /> - Maximum variance between a generalized limit within the "LIMITS" category (limits of "communes," "cantons," "arrondissements" and "départements") and its equivalent non-generalized limit in the unified database is 1,000 meters. |
+| Example             | Simple topology.<br />The geometry taken from the unified database is simplified by deleting and allocating intermediate points.<br /><br />The properties of this "generalization" operation are as follows:<br /> - Topology and relationship between "communes," "cantons," "arrondissements" and "dÃ©partements" are retained;<br /> - Peaks on the graph representing limits of "communes," "cantons," "arrondissements" and "dÃ©partements" are not moved;<br /> - Maximum variance between a generalized limit within the "LIMITS" category (limits of "communes," "cantons," "arrondissements" and "dÃ©partements") and its equivalent non-generalized limit in the unified database is 1,000 meters. |
 | INSPIRE requirement   | Mandatory only for INSPIRE data for Hydrography and Transport Network themes. |
 | Batch edition     | Yes, by overwriting           |
 | Scan                | No                           |

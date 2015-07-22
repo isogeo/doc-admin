@@ -1,44 +1,44 @@
-Isogeo est une application web qui vous permet de gérer et partager un catalogue exhaustif, à jour et documenté de vos données géographiques.
+Isogeo is a web application that allows you to manage and share a comprehensive, up-to-date and documented catalog of your GIS data.
 
-<iframe width="853" height="480" src="https://www.youtube.com/embed/EJ2Br_9lUJo?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="853" height="480" src="https://www.youtube.com/embed/JbBxxpC4hzQ?rel=0" frameborder="0" allowfullscreen></iframe>
 
-Ce document vous explique pas à pas comment l’utiliser en décrivant le fonctionnement et l'utilisation de ses différents modules et ressources. Si vous rencontrez des difficultés que vous ne parvenez pas à résoudre avec cette aide en ligne, [contactez le support](support/README.html).
+This document gives you step-by-step instructions for its use by describing how the various modules and resources work and how they are used. If you have any difficulties that you are unable to resolve using online help,  [contact our support team](support/README.html).
 
-![La plateforme](/fr/images/offer_schema_platform_modAPI.png "Modules et ressources de la plateforme Isogeo")
+![The platform](/en/images/offer_schema_platform_modAPI.png "The Isogeo platform modules and resources")
 
-## Navigateurs supportés
+## Supported browsers
 
-Pour accéder à l'application Isogeo, nous garantissons que vous pouvez utiliser l'un des navigateurs suivants :
+To access the Isogeo application, any of the following browsers can be used:
 
-* [Internet Explorer 10 et +](http://windows.microsoft.com/fr-fr/internet-explorer/download-ie) ;
-* 3 derniéres versions stables de [Mozilla Firefox](https://www.mozilla.org/fr/firefox) et [Google Chrome](https://www.google.fr/chrome/browser/desktop/).
+* [Internet Explorer 10 and higher](http://windows.microsoft.com/en-us/internet-explorer/download-ie);
+* The 3 most recent, stable versions of [Mozilla Firefox](https://www.mozilla.org/en-US/firefox) and [Google Chrome](https://www.google.com/chrome/browser/desktop/).
 
-Pour accéder à un OpenCatalog, les navigateurs supportés sont :
+To access an OpenCatalog, the following browsers are supported:
 
-* [Internet Explorer 9 et +](http://windows.microsoft.com/fr-fr/internet-explorer/download-ie) ;
-* 3 derniéres versions stables de [Mozilla Firefox](https://www.mozilla.org/fr/firefox) et [Google Chrome](https://www.google.fr/chrome/browser/desktop/).
-
-
-![Alerte navigateur](/fr/images/OC_browser_alert.png "Message qui s'affiche en cas de navigateur non supporté")
-
-> Astuce : si vous ou vos utilisateurs ne possèdent pas les droits suffisants pour mettre à jour le navigateur, vous pouvez utiliser une version portable (sans installation mais aux performances réduites) de [Mozilla Firefox](http://portableapps.com/apps/internet/firefox_portable/localization).
+* [Internet Explorer 9 and higher](http://windows.microsoft.com/en-us/internet-explorer/download-ie);
+* The 3 most recent, stable versions of [Mozilla Firefox](https://www.mozilla.org/en-US/firefox) and [Google Chrome](https://www.google.com/chrome/browser/desktop/).
 
 
-## Utilisation de l'aide en ligne
+![Browser alert](/en/images/OC_browser_alert.png "Message displayed if the browser is not supported")
 
-Cette aide en ligne est un site internet à part entière basé sur l'outil [GitBook](https://www.gitbook.com/). Voici le fonctionnement global et les possibilités offertes :
+> Tip: if you or your users do not have the necessary permissions to update the browser, you can use the portable edition (requiring no installation, but with reduced performance) of [Mozilla Firefox](http://portableapps.com/apps/internet/firefox_portable/localization).
 
-* table des matières (masquable) mémorisant les pages déjà consultées ;
-* moteur de recherche ;
-* pour avancer d'une page, cliquer sur le bord droit ;
-* pour reculer d'une page, cliquer sur le bord gauche ;
-* consultable sur tous les supports (*responsive design*) ;
-* 3 thèmes disponibles : blanc, sepia et noir ;
-* type et taille de police personnalisable ;
-* glossaire dynamique ;
-* chaque page et chaque niveau de titre a une URL spécifique permettant de partager des raccourcis précis facilement (exemple : [aller directement aux bonnes pratiques du support](/fr/support/README.html#bonnes-pratiques)) ;
-* pour voir les animations en bonne résolution faire un clic-droit et choisir *Afficher l'image [dans un nouvel onglet]* ;
-* boutons de partage sur les réseaux sociaux ;
-* [document PDF](/fr/index.pdf) généré pour impression éventuelle (non optimisé).
 
-![Interface de l'aide en ligne](/fr/images/GitBook_help.png "Utiliser GitBook")
+## Using online help
+
+Online help is a separate Internet site entirely based on the [GitBook] tool (https://www.gitbook.com/). General operation and options available:
+
+* table of contents (can be hidden) that notes pages already viewed
+* search engine
+* click on the right edge to move forward to the next page
+* click on the left edge to move back to the previous page
+* displays on all devices (*responsive design*)
+* 3 themes available: white, sepia and black
+* customizable font type and size
+* dynamic glossary
+* each page and each title level has a specific URL, making it easy to share shortcuts (for example: [go directly to the best practices section](/en/support/README.html#best-practices))
+* animations can be viewed in a higher resolution by right-clicking and choosing *View image [in a new tab]*
+* buttons for sharing content on social media
+* [PDF document](/fr/index.pdf) generated for printing (not optimized)
+
+![Online help interface](/en/images/GitBook_help.png "Using GitBook")

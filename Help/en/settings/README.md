@@ -1,11 +1,11 @@
-# La page d'accueil
+# Home page
 
-Suivant le rôle de votre compte Isogeo, la page d'accueil n'est pas la même.
+The appearance of your home page depends on the role in your Isogeo account.
 
-Si vous êtes administrateur, vous arrivez directement au tableau de bord et avez accès au menu administration.
+If you are an administrator, you will be taken directly to the dashboard, and will be able to access the administration menu.
 
-![Formats de données dans l'inventaire](/fr/images/tdb_formats.png "Page d'accueil pour les administrateurs")
+![Inventory data formats](/en/images/tdb_formats.png "Home page for administrators")
 
-Si vous êtes éditeur ou lecteur, vous arrivez directement sur l’inventaire des données.
+If you are a writer or a reader, the data inventory will be displayed.
 
-![Interface de l'inventaire](/fr/images/inv_global.png "Page d'accueil pour les éditeurs / lecteurs")
+![Inventory interface](/en/images/inv_global.png "Home page for writers/readers ")

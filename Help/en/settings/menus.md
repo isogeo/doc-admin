@@ -1,57 +1,57 @@
-# L'interface globale
+# The general interface
 
-Une barre fixe de menus et raccourcis se trouve en haut de l'interface qui est **commune à tous les écrans de la plateforme** Isogeo. Voici le détail des différents éléments qui la composent, de gauche à droite.
+At the top of the interface, there is a fixed menu and shortcuts bar (the navigation bar) which is **standard on all Isogeo platform screens**. Here are details for the various elements in this bar, from left to right.
 
-![La barre de faire](/fr/images/all_header_bar.png "Raccourcis et menus communs à tous les écrans de la plateforme")
+![Navigation bar](/en/images/tdb_metrics.gif "Shortcuts and menus standard on all platform screens")
 
-## Le logo Isogeo
+## Isogeo logo
 
-Il vous permet de revenir à la [page d'accueil](http://app.isogeo.com) à tout moment.
+Used to go back to the [home page](http://app.isogeo.com) at any time.
 
-![logo](https://app.isogeo.com/images/logo_isogeo_mini.png "Logo Isogeo")
+![logo](https://app.isogeo.com/images/logo_isogeo_mini.png "Isogeo logo")
 
-## L'icône de chargement
+## Load icon
 
-Entre le logo et la barre de recherche, une roue s'anime à chaque fois que la plateforme travaille vous indiquant qu'il vous faut patienter.
+A spinning wheel displays between the logo and the search bar when the platform is working or busy, indicating that you must wait.
 
-![Loader](/fr/images/loader.gif "L'icône de chargement")
+![Loader](/en/images/loader.gif "Load icon")
 
-> Astuce : Quand la roue tourne, il ne faut plus cliquer ! Si elle tourne à l'infini, rechargez la page. (proverbe Isogeo)
+> Tip: Don't click while the wheel is spinning! If it does not stop turning, reload the page. (Isogeo proverb)
 
-## La recherche et les filtres
+## Search and filters
 
-Où que vous soyez sur Isogeo, vous pouvez lancer une recherche simple ou avancée directement !
+You can run a simple or advanced search from anywhere in Isogeo and at any time.
 
-![Barre de recherche et filtres](/fr/images/search_bar_filters_empty.png "Faire une recherche simple ou avancée à tout moment")
+![Search bar and filters](/en/images/search_bar_filters_empty.png "Running a simple or advanced search at any time")
 
-Pour maîtriser au mieux la recherche et la navigation de l'inventaire, voir [le chapitre dédié](/fr/features/inventory/search.html).
+For more details on inventory search and navigation, see [the dedicated chapter](/en/features/inventory/search.html).
 
-## Les menus
+## Menus
 
-![Les 3 menus](/fr/images/all_header_bar_menus.png "Inventaire, Tableau de Bord ou Administration")
+![The 3 menus](/en/images/all_header_bar_menus.png "Inventory, Dashboard and Administration")
 
-Les fonctionnalités d’Isogeo sont réparties en 3 menus :
+Isogeo's functions are accessed via 3 menus:
 
-* Le menu [`Inventaire`](/fr/settings/inventory.html) permet d'accéder à vos métadonnées et aux fonctions d'édition ;
-* Le menu [`Tableau de bord`](/fr/settings/dashboard.html) donne aux administrateurs un aperçu global de votre inventaire ;
-* Le menu [`Administration`](/fr/settings/administration.html) permet aux administrateurs d'ajuster les réglages applicables à tout le groupe de travail.
+* The [`Inventory`] menu(/en/settings/inventory.html) is used to access your metadata and edit functions
+* The [`Dashboard`] menu(/en/settings/dashboard.html) gives administrators an overview of your inventory
+* The [`Administration`] menu(/en/settings/administration.html) allows administrators to adjust settings that apply to the entire workgroup
 
-Si vous utilisez Isogeo à partir d'écrans à basse résolution, il est à noter que les étiquttes disparaissent au profit d'icônes.
+If you are using Isogeo on a low-resolution screen, the tags will be replaced by icons.
 
-![Les 3 menus en basse résolution](/fr/images/all_header_bar_menus_low_resolution.png "Les icônes Inventaire, Tableau de Bord ou Administration pour les basses résolutions")
+![The 3 menus in low resolution](/en/images/all_header_bar_menus_low_resolution.png "The Inventory, Dashboard or Administration icons for low-resolution displays")
 
-## Vos options
+## Your options
 
-A tout moment vous pouvez accéder aux paramètres de votre compte Isogeo.
+You can access your Isogeo account settings at any time.
 
-> Voir les chapitres [Mes groupes de travail](/fr/start/group_switch.html), [Mon compte](/fr/start/account.html) et [Mes coordonnées](/fr/start/user_coordinates.html).
+> See chapters [My workgroups](/en/start/group_switch.html), [My account](/en/start/account.html) and [My contact details](/en/start/user_coordinates.html).
 
-![Barre de recherche et filtres](/fr/images/all_header_user_dropdown.png "Faire une recherche simple ou avancée à tout moment")
+![Search bar and filters](/en/images/all_header_user_dropdown.png "Running a simple or advanced search at any time")
 
-## L'aide en ligne
+## Online help
 
-Enfin, tout à droite, le point d'interrogation blanc dans un cercle bleu (<i class="fa fa-question-circle"></i>) permet d'accéder à l'aide en ligne.
+On the far right, you can access online help via the white question mark in a blue circle (<i class="fa fa-question-circle"></i>).
 
-## Crédits et numéro de version
+## Credits and version number
 
-En bas de l'interface, vous retrouvez les crédits de la plateforme ainsi que le numéro de version.
+At the bottom of the interface, you can see the platform's credits and the version number.

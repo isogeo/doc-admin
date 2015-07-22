@@ -1,56 +1,56 @@
-# L'inventaire
+# The inventory interface
 
-L'[inventaire](https://app.isogeo.com/inventory) est la partie dédiée à la recherche et à la documentation des métadonnées. Vous pouvez y accéder en permanence de plusieurs façons :
+The [inventory](https://app.isogeo.com/inventory) interface is used for searching and documenting metadata. It can be accessed in a number of ways:
 
-* via le bouton dans le menu horizontal ;
-* via une recherche dans la barre de recherche ;
-* via l'un des graphiques dynamiques du tableau de bord.
+* via the menu in the menu bar
+* via a search in the search bar
+* via one of the dynamic graphics on the dashboard
 
-Vous y retrouvez :
+It contains:
 
-* Les fiches créées automatiquement par un scan ;
-* Les fiches créées manuellement par un membre de votre groupe de travail ;
-* Les fiches créées par d’autres groupes Isogeo et partagées avec vous ;
-* Les fiches moissonnées à partir d'un service CSW.
+* the records created automatically by a scan
+* the records created manually by one of your workgroup's members
+* the records created by other Isogeo workgroups and subsequently shared with your workgroup
+* the records harvested via a CSW service
 
-## L'interface
+## The interface
 
-![En-tête des fiches](/fr/images/inv_global.png "Les informations affichées dans l'en-tête d'une fiche (en mode liste)")
+![Record header](/en/images/inv_global.png "Information displayed in a record's header (in list mode)")
 
-Sous la barre des menus, une barre d'actions permet (de gauche à droite) :
+Under the menu bar, the actions bar can be used to do the following (from left to right):
 
-* de créer une fiche manuelle ;
-* de gérer les sélections :
-    * sélectionner toutes les fiches de la page en cours ;
-    * retirer de la sélection les fiches de la page en cours ;
-    * vider la sélection.
-* de gérer les options de tri :
-    * par date de création de la métadonnée (par défaut) ;
-    * par date de dernière modification de la métadonnée ;
-    * par titre ;
-    * par date de création de la donnée.
-* d'aller à une page en particulier.
+* create a manual record
+* manage the selections:
+    * select all the records on the current page
+    * remove the records on the current page from the selection
+    * clear the selection
+* manage the sort options:
+    * by resource creation date (default)
+    * by resource last modification date
+    * by title
+    * by data creation date
+* go to a specific page
 
-Tout en bas à gauche, il est possible de régler la pagination :
+At the bottom left, you can select the number of items displayed per page:
 
-*  afficher 20 fiches par page (par défaut) ;
-*  afficher 30 fiches par page ;
-*  afficher 50 fiches par page.
+*  20 records per page (default)
+*  30 records per page
+*  50 records per page
 
-## L'en-tête des fiches de métadonnées
+## Metadata record header
 
-![En-tête des fiches](/fr/images/inv_ressource_header.png "Les informations affichées dans l'en-tête d'une fiche (en mode liste)")
+![Record header](/en/images/inv_ressource_header.png "The information displayed in a record's header (in list mode)")
 
-* Le propriétaire de la fiche : <span style="color:#C09E7E">en marron</span>,
-* le type de ressource (vecteur, raster, ensemble de données, autre): <span style="color:#8FB39B">en vert</span>
-* le format : <span style="color:#6480a7">en bleu</span>
-* le système de coordonnées : <span style="color:#999">en gris foncé</span>
-* le(s) catalogue(s) : <span style="color:#bed3db">en gris clair</span>
-* les thèmes Inspire précédés d’une icône en forme de feuille ;
-* les mots-clés précédés d’une icône en forme d'étiquette ;
-* sur la droite, la date de tri choisie s’affiche.
+* record owner: <span style="color:#C09E7E">in brown</span>
+* resource type (vector, raster, data series, other): <span style="color:#8FB39B">in green</span>
+* format: <span style="color:#6480a7">in blue</span>
+* coordinate system: <span style="color:#999">in dark gray</span>
+* catalog(s): <span style="color:#bed3db">in light gray</span>
+* Inspire themes, preceded by leaf icon
+* keywords, preceded by a tag icon
+* the selected sort date is displayed on the right
 
-> Astuce : Ces informations agissent également comme des filtres. Par exemple, si vous cliquez sur le tag d'un format, vous afficherez toutes les données correspondantes.
+> Tip: These items also work as filters. For example, if you click on a format tag, all the corresponding data will be displayed.
 
 
 

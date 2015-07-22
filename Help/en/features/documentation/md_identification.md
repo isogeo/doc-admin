@@ -1,4 +1,4 @@
-# "Identification" tab
+# Identification Tab
 
 This tab contains the basic information for a resource. It is essential since this is the most useful information for a user.
 
@@ -20,7 +20,7 @@ This tab contains the basic information for a resource. It is essential since th
 | Definition       | Narrative description of whatever the data represents. |
 | :--------------- | :--------------------------------------  |
 | Indications      |  The description is split into two parts: <br />- A generic part, common to the batch to which the data belongs; <br />- a specific part, relating to the data set in question. |
-| Example          |  GEOFLAï¿½ is a digital product that describes the administrative boundaries for metropolitan France, overseas departments, and the departmental authority of Mayotte. It is derived from the cartographic database (BD CARTOï¿½) for its geometric part, and the administrative database for its descriptive part.<br /><br />  This data set contains the "communes" with, in addition to their description, the description of the higher-level administrative unit: "canton," "arrondissement," "dï¿½partement" and "rï¿½gion." In France, a "commune" represents the smallest administrative entity. It is described by the sides of the communal planar graph. These represent communes as polygons.
+| Example          |  GEOFLA® is a digital product that describes the administrative boundaries for metropolitan France, overseas departments, and the departmental authority of Mayotte. It is derived from the cartographic database (BD CARTO®) for its geometric part, and the administrative database for its descriptive part.<br /><br />  This data set contains the "communes" with, in addition to their description, the description of the higher-level administrative unit: "canton," "arrondissement," "dÃ©partement" and "rÃ©gion." In France, a "commune" represents the smallest administrative entity. It is described by the sides of the communal planar graph. These represent communes as polygons.
 | INSPIRE requirement   | Mandatory                   |
 | Batch edition     | Yes, by overwriting           |
 | Scan                | No        |
@@ -31,7 +31,7 @@ This tab contains the basic information for a resource. It is essential since th
 | Definition          | The storage location of the data, whether a file or a database. |
 | :------------------ | :--  |
 | Indications         | Nothing in particular. |
-| Example             | \\\datastore\SIG\DATA\Vecteur\GeoFLA\2014\Communes\Mï¿½tropole\COMMUNE.SHP |
+| Example             | \\\datastore\SIG\DATA\Vecteur\GeoFLA\2014\Communes\MÃ©tropole\COMMUNE.SHP |
 | INSPIRE requirement   | Mandatory                |
 | Batch edition     | Yes, by overwriting      |
 | Scan                | Yes: <br />- Absolute path for the files,<br />- Server name + database/instance name,<br />- Name of the SDE file for Esri architecture|

@@ -6,15 +6,15 @@ If the *layers* parameter is not specified in the URL, an error is displayed in 
 
 ![OpenCatalog flow error](/en/images/OC_view_ErrorLayerIsMissing.png "Error reading the flow in OpenCatalog")
 
-> Tip: your web services must be specifically formatted in order to be "used" properly by external platforms such as geOrchestra or Prodige. See [the appendix on this subject](/fr/appendices/webgeoservices_in_csw.html).
+> Tip: your web services must be specifically formatted in order to be "used" properly by external platforms such as geOrchestra or Prodige. They must be formatted in a particular way. See [the appendix on this subject](/en/appendices/webgeoservices_in_csw.html).
 
 ____
 ## Associating a WMS flow
 
-The WMS [Web Map Service](http://fr.wikipedia.org/wiki/Web_Map_Service) protocol is an OGC ([*Open Geospatial Consortium*](http://fr.wikipedia.org/wiki/Open_Geospatial_Consortium)) standard that can be used to obtain an image of the geographic data required via a request.
+The WMS [Web Map Service](https://en.wikipedia.org/wiki/Web_Map_Service) protocol is an OGC ([*Open Geospatial Consortium*](https://en.wikipedia.org/wiki/Open_Geospatial_Consortium) standard that can be used to obtain an image of the geographic data required via a request.
 
 1. Add an associated resource;
-2. Choose type `WMS`;
+2. Choose type `WMS Service`;
 3. Enter the URL corresponding to the service, for example: http://clc.developpement-durable.gouv.fr/geoserver/wms;
 4. Add the name of the layer to display via the *layers* parameter: **?layers=clc:CLC06** for example.
 You can obtain the names of the layers available using the GetCapabilities action: **?request=GetCapabilities**
@@ -28,19 +28,19 @@ You can obtain the names of the layers available using the GetCapabilities actio
 
 See an online demonstration where the flow used is that provided by the MEDDE (French Ministry of Ecology, Energy and Sustainable Development): [data from 2006 Corine Land COver on mainland France](http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0/m/4643b80d5ef248588709c7367036191a).
 
-![WFS in OpenCatalog](/en/images/OC_view_WFS.png "Displaying a WFS flow in OpenCatalog")
+![WMS in OpenCatalog](/en/images/OC_view_WMS.png "Displaying a WMS flow in OpenCatalog")
 
 ____
 ## Associating a WFS flow
 
-The WFS [Web Feature Service](http://fr.wikipedia.org/wiki/Web_Feature_Service) protocol is an OGC ([*Open Geospatial Consortium*](http://fr.wikipedia.org/wiki/Open_Geospatial_Consortium)) standard that can be used to obtain the geographic entities required via a request.  It is then up to the mapping library to represent these entities.
+The WFS [Web Feature Service](http://fr.wikipedia.org/wiki/Web_Feature_Service) protocol is an OGC ([*Open Geospatial Consortium*](https://en.wikipedia.org/wiki/Open_Geospatial_Consortium) standard that can be used to obtain an image of the geographic data required via a request. It is then up to the mapping library to represent these entities.
 
-> Tip: for security reasons, OpenCatalog can only display Web Feature Services that accept the JSONP format. See [the appendix on this subject](/fr/appendices/wfs_jsonp.html).
+> Tip: for security reasons, OpenCatalog can only display Web Feature Services that accept the JSONP format. See [the appendix on this subject](/en/appendices/wfs_jsonp.html).
 
 1. Add an associated resource;
-2. Choose type `WFS`;
+2. Choose type `WFS Service`;
 3. Enter the URL corresponding to the service, for example: http://noisy.hq.isogeo.fr:6090/geoserver/Isogeo/ows;
-4. Add the name of the layer to display via the *layers* parameter: **?layers=Isogeo:DEPARTEMENT_2014** for example;
+4. Add the name of the layer to display via the *typeName* parameter: **?typeName=Isogeo:DEPARTEMENT_2014** for example;
 You can obtain the names of the layers available using the GetCapabilities action: **?request=GetCapabilities**;
 5. Click on `Validate`;
 6. In the actions of the associated resource, select the `Display` option;
@@ -57,12 +57,12 @@ Here is an online example: [mainland France departments in 2014](http://open.iso
 ____
 ## Associating a WMTS flow
 
-The WMTS [Web Map Tile Service](http://fr.wikipedia.org/wiki/Web_Map_Tile_Service) protocol is an OGC ([*Open Geospatial Consortium*](http://fr.wikipedia.org/wiki/Open_Geospatial_Consortium)) standard that can be used to obtain an image generated previously by the mapping server via a request.
+The WMTS [Web Map Tile Service](https://en.wikipedia.org/wiki/Web_Map_Tile_Service) protocol is an OGC ([*Open Geospatial Consortium*](https://en.wikipedia.org/wiki/Open_Geospatial_Consortium) standard that can be used to obtain an image generated previously by the mapping server via a request.
 
 > The WMTS must accept EPSG 900913 in order to work in OpenCatalog.
 
 1. Add an associated resource;
-2. Choose type `WMTS`;
+2. Choose type `WMTS Service`;
 3. Enter the URL corresponding to the service, for example: http://suite.opengeo.org/geoserver/gwc/service/wmts;
 4. Add the name of the layer to display via the *layers* parameter: **?layers=opengeo:countries** for example.
 You can obtain the names of the layers available using the GetCapabilities action: **?request=GetCapabilities**;
@@ -70,7 +70,7 @@ You can obtain the names of the layers available using the GetCapabilities actio
 6. In the actions of the associated resource, select the `Display` option;
 7. Click on `Validate` then `Save` in the record.
 
-![Add a WMTS flow](/en/images/inv_edit_one_resource_WFS.png "Adding a WMTS flow as an associated resource")
+![Add a WMTS flow](/en/images/inv_edit_one_resource_WMTS.png "Adding a WMTS flow as an associated resource")
 
 ### Rendering in OpenCatalog
 
@@ -85,7 +85,7 @@ ___
 An Esri Tiled Map service can be used to obtain the geographic entities required via a request. This type of service is provided by ArcGIS for Server or ArcGIS Online, i.e. tools developed by the company Esri.
 
 1. Add an associated resource;
-2. Choose type "Service ESRI Map";
+2. Choose type "Service ESRI Map Service";
 3. Enter the URL corresponding to the service, for example: http://noisy.hq.isogeo.fr:6080/arcgis/rest/services/USA_DATA/Airports/MapServer/0;
 4. Click on `Validate`;
 5. In the actions of the associated resource, select the `Display` option;
@@ -105,7 +105,7 @@ ___
 An Esri Tiled Map service can be used to obtain the geographic entities required via a request. This type of service is provided by ArcGIS for Server or ArcGIS Online, i.e. tools developed by the company Esri.
 
 1. Add an associated resource;
-2. Choose type "Service ESRI Feature";
+2. Choose type "Service ESRI Feature Service";
 3. Enter the URL corresponding to the service, for example: http://services1.arcgis.com/ApmCsFVnpW3bVGYw/arcgis/rest/services/Ports/FeatureServer/0;
 4. Click on `Validate`;
 5. In the actions of the associated resource, select the `Display` option;
@@ -125,7 +125,7 @@ ___
 An Esri Tiled Map service can be used to obtain the geographic entities required via a request. This type of service is provided by ArcGIS for Server or ArcGIS Online, i.e. tools developed by the company Esri.
 
 1. Add an associated resource;
-2. Choose type "Service ESRI Tile";
+2. Choose type "Service ESRI Tile Service";
 3. Enter the URL corresponding to the service, for example: http://tiles.arcgis.com/tiles/ApmCsFVnpW3bVGYw/arcgis/rest/services/Populated_Places/MapServer;
 4. Click on `Validate`;
 5. In the actions of the associated resource, select the `Display` option;

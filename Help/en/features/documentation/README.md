@@ -13,7 +13,7 @@ There are several possible types of metadata:
 
 ## Tabs by metadata type
 
-| Tab       | Vector | Raster  | Collection | Service | Resource | Batch  edit  |
+| Tab       | Vector | Raster  | Collection | Service | Resource | Batch  edition  |
 |:---------------:|:-------:|:-------:|:--------:|:-------:|:---------:|:---------:|
 | Identification  | X       | X       | X        | X       | X         | X         |
 | History        | X       | X       | X        | X       | X         | X         |

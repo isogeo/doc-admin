@@ -1,18 +1,18 @@
-# Cataloguing: a prerequisite for sharing
+﻿# Cataloging: a prerequisite for sharing
 
-This step is essential for sharing and adding value to your data assets. It serves to organize the metadata records into different catalogues, for example:
+This step is essential for sharing and adding value to your data assets. It serves to organize the metadata records into different catalogs, for example:
 
-* one catalogue for internal use,
-* one catalogue for partners
-* one catalogue for the general public.
+* one catalog for internal use,
+* one catalog for partners
+* one catalog for the general public.
 
-A given metadata record may belong to a number of catalogues.
+A given metadata record may belong to a number of catalogs.
 
-With its granular catalogue management, Isogeo allows you to manage the publication of your data in line with the target audience.
+With its granular catalog management, Isogeo allows you to manage the publication of your data in line with the target audience.
 
-# Adding value to your data: sharing and publishing your catalogues
+# Adding value to your data: sharing and publishing your catalogs
 
-The last step in this process consists in adding value to your catalogues with your users. With its controlled rights management system, Isogeo allows you to publish your data catalogues:
+The last step in this process consists in adding value to your catalogs with your users. With its controlled permissions management system, Isogeo allows you to publish your data catalogs:
 
 * Internally.
 * Externally:
@@ -20,12 +20,12 @@ The last step in this process consists in adding value to your catalogues with y
     * via your own media (intranet, extranet, internet);
     * within your Geographic Data Infrastructure via a CSW 2.0 standardized web service.
 
-All your users – both internal and external – thus have access to a data catalogue and to services for searching, viewing and downloading data.
+All your users – both internal and external – thus have access to a data catalog and to services for searching, viewing and downloading data.
 
 While Isogeo places metadata at the core of an innovative value chain, producers, users and administrators participate in collectively enhancing and valorizing controlled geographic data in a more global framework in which a territorial method of spatial data governance is defined.
 
-| ![OpenCatalog](/en/images/icone_OpenCatalog_140px.png "Easily publishing your catalogues using OpenCatalog") | ![Sharing](/en/images/icone_partage_140px.png "Sharing and collaborating with other workgroups on the platform") | ![CSW](/fr/images/icone_CSW_140px.png "Exchanging your data with other CSW nodes") | ![API](/fr/images/icone_API_140px.png "Creating data asset access interfaces via the API") |
+| ![OpenCatalog](/en/images/icone_OpenCatalog_140px.png "Easily publishing your catalogs using OpenCatalog") | ![Share](/en/images/icone_partage_140px.png "Sharing and collaborating with other workgroups on the platform") | ![CSW](/en/images/icone_CSW_140px.png "Exchanging your data with other CSW nodes") | ![API](/en/images/icone_API_140px.png "Creating data asset access interfaces via the API") |
 | :--: | :-- | :--: | :--: |
 
 
-**Make the most of your cataloguing!**
+**Make the most of your cataloging!**

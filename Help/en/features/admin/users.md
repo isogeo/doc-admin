@@ -1,7 +1,7 @@
 # Managing users
 
 Isogeo makes a distinction between three user profiles:
-* `The Administrator`, who has full access to all the application's functions. The Administrator manages users and their rights, elements shared at the workgroup level, data inventorying, inventory updates, catalogs, shares, publishing, and can enter metadata.
+* `The Administrator`, who has full access to all the application's functions. The Administrator manages users and their permissions, elements shared at the workgroup level, data inventorying, inventory updates, catalogs, shares, publishing, and can enter metadata.
 
 * The `Writer`, who can enter and modify metadata, and search for and use this data using the associated services and resources.
 
@@ -25,7 +25,7 @@ The user will receive an invitation email ([see the dedicated chapter](/en/start
 
 ![New user](en/images/adm_users_add.gif "Inviting a new user")
 
-## Rights for each profile
+## Permission for each profile
 
 | Functions                                       | Administrator    | Writer   | Reader   |
 | :-------------------------------------------- | :---------------: | :-------: | :-------: |

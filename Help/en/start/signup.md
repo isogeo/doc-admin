@@ -1,34 +1,34 @@
-# S'inscrire à Isogeo
+# Signing up on Isogeo
 
-Isogeo est une application web professionnelle. Chaque utilisateur y accède via un identifiant et un mot de passe sécurisé qu’il définit lors de son inscription.
+Isogeo is a professional Web application. Each user has a user name and a secure password which he or she selects when signing up.
 
-Pour s’inscrire à Isogeo il faut y être invité par un administrateur. En effet, dès lors qu’un administrateur a accès à la plateforme il peut inviter autant d’utilisateurs qu’il le souhaite à rejoindre son groupe d’utilisateurs.
+To sign up on Isogeo, you must be invited by an administrator. Once an administrator has access to the platform, he or she can invite as many users as desired to join his or her user group.
 
-Voici les étapes qui suivent l'invitation d'un utilisateur :
+Proceed as follows once you have been invited:
 
-1.	Vous venez de recevoir un mail vous invitant à rejoindre un groupe d’utilisateur sur Isogeo :
+1.	You have just received an email inviting you to join a user group on Isogeo:
 
-    ![Courrier d'invitation](/fr/images/Isogeo_invitation_mail_1.png "Vous êtes invités sur Isogeo - Checkez le courrier indésirable")
+    ![Invitation email](/en/images/Isogeo_invitation_mail_1.png "You are invited to Isogeo - Check the spam folder")
 
-2.	Cliquer sur le lien contenu dans le mail, la page ci-dessous s’ouvre dans votre navigateur :
+2.	Click on the link in the message. The page below opens in your browser:
 
-    ![Connexion / inscription](/fr/images/Isogeo_invitation_accueil_1.png "Connectez-vous ou créez votre compte")
+    ![Login/signup](/en/images/Isogeo_invitation_accueil_1.png "Log in or create your account").
 
-3.	Cliquez sur le lien « Créer un compte ! » la page suivante s’affiche :
+3.	Click on the "Create an account" link.  The following page is displayed:
 
-    ![Création de compte](/fr/images/ID_creation_compte.png "Formulaire d'inscription à Isogeo")
+    ![Creating an account](/en/images/ID_creation_compte.png "Isogeo signup form")
 
-4.	Indiquer votre Prénom et Nom ;
+4.	Enter your first and last names.
 
-5.	Indiquer votre mail ;
+5.	Enter your email address.
 
-6.	Créer votre mot de passe ;
+6.	Create your password.
 
-7.	Cliquer sur `Valider`, la page suivante s’affiche ;
+7.	Click `OK`. The following page displays.
 
-8.	Cliquer sur `Accepter`, vous êtes inscrit à Isogeo !
+8.	Click `Accept`. You are now signed up on Isogeo.
 
-    ![Rejoindre le groupe qui vous a invité](/fr/images/Isogeo_invitation_interface_1.png "Bienvenue sur le groupe qui vous a invité")
+    ![Joining the group that invited you](/en/images/Isogeo_invitation_interface_1.png "Welcome to the group that invited you")
 
 
 

@@ -1,4 +1,4 @@
-# Methods for completing metadata
+﻿# Methods for completing metadata
 
 To create and share an exhaustive, documented catalog of your GIS data, proceed as follows: simply proceed as explained below.
 
@@ -26,7 +26,7 @@ Specifically, we advise you to proceed with your cataloging by doing the followi
 
 ### Entry guides
 
-The Metadata workgroup includes members of the CNIG GéoSource Liaison group and Workgroup, led by Marc Léobet and its secretary Eliane Roos. This workgroup has created national recommendation guides for INSPIRE metadata for data series and data series collections. These guides are intended for anyone who needs to enter metadata, and serve to comply with regulatory requirements.
+The Metadata workgroup includes members of the CNIG GÃ©oSource Liaison group and Workgroup, led by Marc Léobet and its secretary Eliane Roos. This workgroup has created national recommendation guides for INSPIRE metadata for data series and data series collections. These guides are intended for anyone who needs to enter metadata, and serve to comply with regulatory requirements.
 
 * [Guide de saisie pour les données - Version complète - v1.1.1 de juillet 2014](http://cnig.gouv.fr/wp-content/uploads/2014/07/Guide-de-saisie-des-%C3%A9l%C3%A9ments-de-m%C3%A9tadonn%C3%A9es-INSPIRE-v1.1.1.pdf) (pdf de 705 Ko)
 * [Guide de saisie pour les données - Version allégée - v1.1 de décembre 2013](http://cnig.gouv.fr/wp-content/uploads/2014/01/Guide-de-saisie-des-%C3%A9l%C3%A9ments-de-m%C3%A9tadonn%C3%A9es-INSPIRE-v1.1-final-light.pdf) (pdf de 396 Ko)

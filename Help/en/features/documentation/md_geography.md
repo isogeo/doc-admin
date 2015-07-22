@@ -8,7 +8,7 @@ The "Geography" tab displays the data's bounding box on a map. It shows the data
 
 | Definition                 | Area of the resource in the geographic space, expressed as a boundary polygon |
 | :------------------------- | :--------------------------------------------------------- |
-| Indications                | The bounding box must encompass all objects contained in the data set. When editing manually, the boundary polygon must be adjusted precisely to represent the boundary for the corresponding resource as accurately as possible (do not define a rectangle that covers an entire country for data limited to a town or city). Ideally, the boundary polygon will only cover contiguous spaces, and must be multiplied for non-contiguous territories.<br />If there are multiple boundary boxes, they must not overlap. |
+| Indications                | The bounding box must encompass all objects contained in the dataset. When editing manually, the boundary polygon must be adjusted precisely to represent the boundary for the corresponding resource as accurately as possible (do not define a rectangle that covers an entire country for data limited to a town or city). Ideally, the boundary polygon will only cover contiguous spaces, and must be multiplied for non-contiguous territories.<br />If there are multiple boundary boxes, they must not overlap. |
 | Example                    | ![Geography tab - map](/en/images/inv_edit_one_geography_map_500px.png "Displays the convex envelope for a given data item on a map") |
 | INSPIRE requirement   | Mandatory                   |
 | Batch edition     | Yes, by overwriting           |

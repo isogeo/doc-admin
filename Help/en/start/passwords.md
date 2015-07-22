@@ -1,10 +1,10 @@
-# Gérer mon  mot de passe
+# Managing my password
 
-Pour [modifier votre mot de passe](https://id.isogeo.com/change-password) :
+Proceed as follows to [change your password](https://id.isogeo.com/change-password):
 
-1.	Cliquer sur votre nom en haut à droite de l’écran ;
-2.	Cliquer  sur le menu « Paramètres » pour accéder aux paramètres de votre compte utilisateur
-3.	Cliquer sur le lien « Modifiez ou réinitialisez votre mot de passe ;
-4.	Indiquer votre ancien et votre nouveau mot de passe.
+1.	Click on your name at the top right of the page.
+2.	Choose the "Settings" option to access your user account settings.
+3.	Click on the "Change or reinitialize your password" link.
+4.	Enter your old password and your new password.
 
-![Coordonnées utilisateur](../images/ID_password_change.png "Renseigner mes coordonnées")
+![User contact details](/en/images/ID_password_change.png "Entering my contact details")

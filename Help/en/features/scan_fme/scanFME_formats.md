@@ -1,49 +1,49 @@
-# Les formats de données pris en charge automatiquement
+# Data formats automatically accepted
 
-Le service est théoriquement capable de scanner l’ensemble des formats pris en compte par l’ETL  FME sur lequel il est basé. Cependant, nous ajoutons les nouveaux formats au fur et à mesure des besoins rencontrés.
+In theory, the service can scan all formats supported by the FME ETL on which it is based. However, as new needs arise, new formats are added.
 
-![Les formats scannés automatiquement](/fr/images/scanFME_Formats_WordCloud.png "Chercher les données dans Isogeo")
+![Formats scanned automatically](/en/images/scanFME_Formats_WordCloud.png "Searching for data in Isogeo")
 
-## Les formats de fichiers
+## File formats
 
-* Esri shapefiles (.shp),
-* Esri Personal Geodatabase (.mdb),
-* Esri File Geodatabase (.gdb),
-* MapInfo tables (.tab),
-* MapInfo Interchange Format (.mif / .mid),
-* Intergraph GeoMedia database (.mdb),
-* AutoCAD DWG (.dwg),
-* AutoDesk DXF (.dxf),
-* MicroStation DGN (.dgn),
-* Google Earth - seule la 1ère couche est prise en compte (.kml / .kmz) ;
-* GPS eXchange Format (.gpx),
-* ER Mapper ECW (.ecw),
-* GeoTIFF (.geotiff),
+* Esri shapefiles (.shp)
+* Esri Personal Geodatabase (.mdb)
+* Esri File Geodatabase (.gdb)
+* MapInfo tables (.tab)
+* MapInfo Interchange Format (.mif / .mid)
+* Intergraph GeoMedia database (.mdb)
+* AutoCAD DWG (.dwg)
+* AutoDesk DXF (.dxf)
+* MicroStation DGN (.dgn)
+* Google Earth - only the first layer is accepted (.kml / .kmz)
+* GPS eXchange Format (.gpx)
+* ER Mapper ECW (.ecw)
+* GeoTIFF (.geotiff)
 * JPEG (.jpg / .jpeg)
-* JPEG 2000 (.jp2),
-* Portable Network Graphics (.png),
-* TIFF (.tiff),
+* JPEG 2000 (.jp2)
+* Portable Network Graphics (.png)
+* TIFF (.tiff)
 
-## Les formats de bases de données
+## Database formats
 
-* Esri Enterprise Geodatabase (ArcSDE),
-* Microsoft SQL Server Spatial (toutes versions) ;
-* Oracle Spatial (toutes versions),
-* PostGIS (toutes versions),
+* Esri Enterprise Geodatabase (ArcSDE)
+* Microsoft SQL Server Spatial (all versions)
+* Oracle Spatial (all versions)
+* PostGIS (all versions)
 
-Tous les formats ne sont néanmoins pas pris en compte au même degré et de la même façon, compte-tenu de leurs spécificités. Le tableau 1 rappelle également que certaines licences sont nécessaires à la prise en charge de certains formats.
+Because of their implementation, not all formats are supported to the same extent or in the same way. Table 1 also includes notes as to which licenses are required to support certain formats.
 
-## Licences minimales requises
+## Minimum licenses required
 
-| Stockage | Type    | Format                       | Dépendances indispensables | Licence FME  |
+| Storage | Type    | Format                       | Required dependencies | FME license  |
 |:-------- | ------- | ---------------------------- | -------------------------- | ------------ |
-| Fichiers | Vecteur | MapInfo TAB                  | .tab, .dat, id, . map      | Professional |
-| Fichiers | Vecteur | Esri shapefile               | .shp, .dbf, .shx           | Professional |
-| Fichiers | Vecteur | MapInfo Interchange Format   | .mif, .mid                 | Professional |
-| Fichiers | Raster  | Enhanced Compression Wavelet | .ecw                       | Professional |
-| Fichiers | Raster  | GeoTIFF                      | .tiff / .tif / .geotiff    | Professional |
-| Fichiers | Raster  | JPEG 2000                    | .jp2 / .jpk                | Professional |
-| Fichiers | CAO/DAO | AutoCAD DWG                  | .dwg, .prj                 | Professional |
-| Fichiers | CAO/DAO | Autodesk Exchange Format     | .dxf, .prj                 | Professional |
-| Fichiers | CAO/DAO | Microstation DGN             | .dgn                       | Professional |
+| Files | Vector   | MapInfo TAB                  | .tab, .dat, .id, . map      | Professional |
+| Files | Vector   | Esri shapefile                 | .shp, .dbf, .shx           | Professional |
+| Files | Vector   | MapInfo Interchange Format   | .mif, .mid                 | Professional |
+| Files | Raster   | Enhanced Compression Wavelet | .ecw                       | Professional |
+| Files | Raster   | GeoTIFF                      | .tiff / .tif / .geotiff    | Professional |
+| Files | Raster   | JPEG 2000                    | .jp2 / .jpk                | Professional |
+| Files | CAD       | AutoCAD DWG                  | .dwg, .prj                 | Professional |
+| Files | CAD       | Autodesk Exchange Format     | .dxf, .prj                 | Professional |
+| Files | CAD       | Microstation DGN             | .dgn                       | Professional |
 

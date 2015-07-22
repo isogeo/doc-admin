@@ -1,81 +1,81 @@
-# Des ressources adaptées aux usages
+﻿# Resources tailored to uses
 
-Il n’est pas rare que l’administrateur de données mette en place des ressources associées aux données qui ne sont pas accessibles ou visibles par tout le monde. Le cas de figure classique est la différence d’accès entre le grand public et les services internes.
+Data administrators sometimes provide resources that are associated with data that are not accessible or visible by everyone. The classic scenario is to have different permissions for the general public and for internal departments.
 
-Comme toujours dans Isogeo :
+As always with Isogeo:
 
-* Priorité aux usages : les différents niveaux d’accès aux ressources dépendent du type d’utilisateurs, autrement dit des destinataires des partages ;
-* Tout est métadonnée : un bouquet de services géographiques peut également être documenté à minima ;
-* Documenter une fois, valoriser X fois.
+* Use take priority: the different access levels for the resources depend on the type of users, in other words on the recipients of the shares;
+* Metadata can be created for anything and everything: a package of geographic services can also be minimally documented;
+* Document one time, validate X times.
 
-## Mise en oeuvre
+## Implementation
 
-### Scénario classique
+### Standard scenario
 
-Par exemple, dans le compte de démonstration d’Isogeo, nous avons inventorié les données du [portail GéoLittoral](http://www.geolittoral.developpement-durable.gouv.fr/). Imaginons un scénario selon lequel la fiche de métadonnées de submersion marine offre 3 niveaux de ressources liés aux usages :
+For example, in the Isogeo demonstration account, we have inventorized the data on the [GéoLittoral portal](http://www.geolittoral.developpement-durable.gouv.fr/). Imagine a scenario where the marine submersion metadata record offers 3 levels of resources associated with uses:
 
-* La possibilité ouverte à **tous** (grand public) de **télécharger** la donnée brute ;
-* La possibilité pour les **utilisateurs avertis** de **visualiser** le flux WMS (rendu de la couche d’information) ;
-* La possibilité pour les **agents en interne** de **consulter les données via un flux WFS** (affichage des attributs).
+* The possibility for **everyone** (general public) to **download** the raw data;
+* The possibility for **informed users** to **view** the WMS flow (rendered from the information layer);
+* The possibility for **internal agents** to **access data via a WFS flow** (displaying attributes).
 
-### Procédure
+### Procedure
 
-Dans l’ordre, nous avons :
+In order, we did the following:
 
-1.	Créé une fiche de métadonnées de type « ressource » sur le serveur cartographique pour les utilisateurs avertis (serveur WMS donc)  et affectée au catalogue « **utilisateurs avertis (niveau 1)** » ;
+1.	Created a "resource"-type metadata record on the mapping server for informed users (WMS server) and assigned it to the "**informed users (level 1)**" catalog.
 
-2.	Créé une fiche de métadonnées de type « ressource » sur le serveur cartographique pour les agents internes (serveur WFS donc) et affectée au catalogue « **agents internes (niveau 2)** » ;
+2.	Created a "resource"-type metadata record on the mapping server for internal agents (WFS server) and assigned it to the "**internal agents (level 2)**" catalog.
 
-3.	Téléversé la donnée brute directement sur la fiche de métadonnées de submersion marine créée grâce au scan automatique et affectée au catalogue GéoLittoral ;
+3.	Uploaded the raw data directly to the marine submersion metadata record created by the automatic scan and assigned to the "GéoLittoral" catalog.
 
-4.	Associé à la fiche de submersion marine le flux WMS renseigné dans la fiche sur le serveur WMS ;
+4.	Associated the WMS flow (entered in the record on the WMS server) with the marine submersion record.
 
-5.	Associé à la fiche de submersion marine le flux WFS renseigné dans la fiche sur le serveur WFS ;
+5.	Associated the WFS flow (entered in the record on the WFS server) with the marine submersion record.
 
-6.	Crée un partage OpenCatalog pour le grand public dans lequel on a mis le catalogue GéoLittoral sans le catalogue « public » ou « interne » : [la fiche est consultable ici](http://open.isogeo.com/s/14cbb8fce4fd471ab3af9fb849d0dcd1/GbhLhG7hoNFHdkrgh8n9o9I3Sym20/m/cb71d8f42ba44788b348b5bc9f79e58c).
+6.	Created an OpenCatalog share for the general public in which we placed the "GéoLittoral" catalog without the "public" or "internal" catalog: [the record can be viewed here](http://open.isogeo.com/s/14cbb8fce4fd471ab3af9fb849d0dcd1/GbhLhG7hoNFHdkrgh8n9o9I3Sym20/m/cb71d8f42ba44788b348b5bc9f79e58c).
 
-    ![Submersion marine 0](/fr/images/adm_shares_OC_demo_Geolittoral0.png "Seul le lien de téléchargement des données est disponible")
+    ![Marine submersion 0](/en/images/adm_shares_OC_demo_Geolittoral0.png "Only the data download link is available")
 
-7.	Créé un partage OpenCatalog pour les utilisateurs avertis grand public dans lequel on a mis le catalogue GéoLittoral avec le catalogue « utilisateurs avertis » : [la fiche est consultable ici](http://open.isogeo.com/s/4e3617fa59674e8b98b4d9a62a6ad6e7/oOGYrOxAMjf11jYmo6hbbeGNG2TC0/m/cb71d8f42ba44788b348b5bc9f79e58c).
+7.	Created an OpenCatalog share for informed users in which we placed the "GéoLittoral" catalog with the "informed users" catalog: [the record can be viewed here](http://open.isogeo.com/s/4e3617fa59674e8b98b4d9a62a6ad6e7/oOGYrOxAMjf11jYmo6hbbeGNG2TC0/m/cb71d8f42ba44788b348b5bc9f79e58c).
 
-    ![Submersion marine 1](/fr/images/adm_shares_OC_demo_Geolittoral1.png "En plus du lien de téléchargement, on a accès au WMS")
+    ![Marine submersion 1](/en/images/adm_shares_OC_demo_Geolittoral1.png "WMS access is provided in addition to the download link")
 
-8.	Créé un partage OpenCatalog pour le grand public dans lequel on a mis le catalogue GéoLittoral avec le catalogue « utilisateurs avertis (niveau 1)» et le catalogue « agents internes (niveau 2)» : [la fiche est consultable ici](http://open.isogeo.com/s/d61fe9892eb345e7b6840bbfc4cf5733/zuD9LtBEXRi7ynIXyRyWIy4hC0xz0/m/cb71d8f42ba44788b348b5bc9f79e58c).
+8.	Created an OpenCatalog share for the general public in which we placed the "GéoLittoral" catalog with the "informed users (level 1)" catalog and the "internal agents (level 2)" catalog: [the record can be viewed here](http://open.isogeo.com/s/d61fe9892eb345e7b6840bbfc4cf5733/zuD9LtBEXRi7ynIXyRyWIy4hC0xz0/m/cb71d8f42ba44788b348b5bc9f79e58c).
 
-    ![Submersion marine 2](/fr/images/adm_shares_OC_demo_Geolittoral2.png "Accès aux 3 ressources : téléchargement, WMS et WFS")
+    ![Marine submersion 2](/en/images/adm_shares_OC_demo_Geolittoral2.png "Access to the 3 resources: download, WMS and WFS")
 
 
-### Résultat
+### Result
 
-3 niveaux d’accès différents à la même fiche de métadonnées :
+3 different access levels to the same metadata record:
 
-* Une interface de consultation où il n’est possible que de télécharger les données brutes ;
+* A viewing interface where users can download only the raw data;
 
-    ![Submersion marine 0](/fr/images/OC_Demo_Submersion_Niv0.png "Seul le lien de téléchargement des données est disponible")
+    ![Marine submersion 0](/en/images/OC_Demo_Submersion_Niv0.png "Only the data download link is available")
 
-* Une interface de consultation où il est possible de :
-    - télécharger les données brutes ;
-    - et afficher la couche via un flux WMS ;
+* A viewing interface where users can:
+    - download raw data;
+    - display the layer via a WMS flow;
 
-    ![Submersion marine 1](/fr/images/OC_Demo_Submersion_Niv1.png "En plus du lien de téléchargement, on a accès au WMS")
+    ![Marine submersion 1](/en/images/OC_Demo_Submersion_Niv1.png "WMS access is provided in addition to the download link")
 
-* Une interface de consultation où il est possible de :
-    - télécharger les données brutes ;
-    - afficher la couche via un flux WMS ;
-    - et afficher les données via un flux WFS
+* A viewing interface where users can:
+    - download raw data;
+    - display the layer via a WMS flow;
+    - display the layer via a WFS flow;
 
-    ![Submersion marine 2](/fr/images/OC_Demo_Submersion_Niv2.png "Accès aux 3 ressources : téléchargement, WMS et WFS")
+    ![Marine submersion 2](/en/images/OC_Demo_Submersion_Niv2.png "Access to the 3 resources: download, WMS and WFS")
 
-### Schéma
+### Outline
 
-3 étapes :
+3 steps:
 
-1.	Créer une fiche de métadonnées sur une ressource (serveur, bouquet de services, boîte à outils ensemble de traitements, etc) et renseigner les liens associés ;
+1.	Create a metadata record on a resource (server, package of services, toolbox, set of processes, etc.) and specify the associated links.
 
-2.	Associer les ressources aux fiches de métadonnées concernées ;
+2.	Associate the resources with the metadata records.
 
-3.	Créer OpenCatalog. Si la fiche sur la ressource et la fiche sur les jeux de données sont dans le même partage, les liens associés à la 1ère seront visibles ;
+3.	Create OpenCatalog. If the record on the resource and the record on the dataset are in the same share, the links associated with the former will be visible.
 
-Bonne pratique : créer un catalogue des ressources par niveau d'usage.
+Best practice: create one catalog of resources per level of use.
 
-![Schéma affichage différencié](/fr/images/resources_DifferentDisplays_schema.png "Accès aux 3 ressources : téléchargement, WMS et WFS")
+![Differentiated display schema](/en/images/resources_DifferentDisplays_schema.png "Access to the 3 resources: download, WMS and WFS")

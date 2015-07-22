@@ -32,7 +32,6 @@ Isogeo encourages users to adopt the so-called funnel approach, in line with the
 
     ![Apply filters via the form](/en/images/search_bar_filters_submersion.png "Filtering on the various criteria available")
 
-
 3.	Adjust the display using the sort and pagination options:
 
     ![Sort and pagination options](/en/images/inv_ordering_pagination_options.png "Sorting and adjusting the pagination")
@@ -51,14 +50,13 @@ When you key in an entry in the search bar, the auto-complete function proposes 
 ![Autocompletion demo](/en/images/search_bar_autocompletion.gif "The autocomplete helps to save time when searching")
 
 
-
 ### Matrix of icons per search field
 
 | Field                     | Icon                             |
 | :--                       | :-------------------------------: |
 | Formats                   | <i class="fa fa-cube"></i>        |
-| Catalogues                | <i class="fa fa-book"></i>        |
-| Keywords                 | <i class="fa fa-tag"></i>         |	
+| Catalogs                | <i class="fa fa-book"></i>        |
+| Keywords                 | <i class="fa fa-tag"></i>         |
 | Owners             | <i class="fa fa-users"></i>       |
 | INSPIRE themes            | <i class="fa fa-leaf"></i>        |
 | Coordinate systems   | <i class="fa fa-globe"></i>       |

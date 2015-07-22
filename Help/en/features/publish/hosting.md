@@ -1,34 +1,34 @@
-# Lier les données à télécharger
+# Associating data to be downloaded
 
-Toujours en vue d'enrichir l'expérience des utilisateurs de vos catalogues, par exemple pour répondre à des besoins métiers ou dans le cadre d'une démarche d'ouverture des données (Open Data), il est possible de permettre le téléchargement de données ou de documents directement depuis la fiche de métadonnées.
+To provide your catalog users with a better user experience, for example to meet business requirements or as part of an open data approach, you can allow data or documents to be downloaded directly from the metadata record.
 
-Plusieurs options s'offrent à vous :
-* héberger directement la donnée sur Isogeo ;
-* indiquer un lien direct vers la donnée hébergée par ailleurs ;
-* indiquer un lien vers un service de téléchargement.
+You have several options for this:
+* hosting the data directly on Isogeo;
+* providing a direct link to data hosted elsewhere;
+* providing a link to a download service.
 
-## Héberger les données brutes directement sur Isogeo !
-![Icone stockage](/fr/images/offer_schema_platform_resStorage.png "Hébergement et stockage de données dans le cloud d'Isogeo")
+## Hosting raw data directly on Isogeo!
+![Storage icon](/en/images/offer_schema_platform_resStorage.png "Hosting and storing data in the Isogeo cloud")
 
-Vous pouvez héberger des données brutes ou des documents sur Isogeo, via l’interface de saisie des métadonnées.
+You can host raw data or documents on Isogeo using the metadata entry interface.
 
-Les étapes à suivre :
-1. Dans l’onglet « Ressources », cliquer sur `Ajouter un lien` ;
-2. Sélectionner « Donnée brute » et l’onglet `Téléverser` ;
-3. Sélectionner le fichier ou faites le glisser depuis votre ordinateur.
+Proceed as follows:
+1. Go to the "Resources" tab and click on `Add a link`.
+2. Select "Raw data", then click on the `Upload` tab.
+3. Select the file or drag it from your computer.
 
-![Formulaire de téléversement](/fr/images/inv_edit_one_resource_download_upload.png "Glisser déposer une donnée ou un fichier")
+![Upload form](/en/images/inv_edit_one_resource_download_upload.png "Dragging & dropping data or a file")
 
-Avec le lien fort donnée / métadonnée du scan automatique et la mise à disposition des données brutes, la boucle de la donnée géographique est bouclée grâce à Isogeo !
+Isogeo completes the geographic data loop with the data–metadata link established by the automatic scan and by making raw data available.
 
-Remarques :
-* Le stockage est une ressource et dépend de votre contrat. Par défaut, Isogeo vous offre 100 Mo
-* Pour des raisons de bande passante, il n’est possible de téléverser que des fichiers inférieurs à 10 Mo
-* Pour des raisons de sécurité, les scripts et exécutables ne sont pas autorisés.
+Comments:
+* Storage is a resource and depends on your agreement. By default, Isogeo offers 100 MB of storage.
+* To save bandwidth, you may only upload files smaller than 10 MB.
+* For security reasons, scripts and executable files are not permitted.
 
 
-## Lier vers des données hébergées par ailleurs
+## Specifying links to data hosted elsewhere
 
-Si vous disposez d'un hébergement en ligne par ailleurs, vous pouvez évidemment indiquer les liens vers les données et documents concernées.
+If you use a different online hosting service, you can provide links to your data and documents.
 
-![Lien externe](/fr/images/inv_edit_one_resource_download_link.png "Lier vers un hébergement externe")
+![External link](/en/images/inv_edit_one_resource_download_link.png "Linking to an external host location")

@@ -1,5 +1,5 @@
-# L'interface d'administration
+# The administration interface
 
-Le menu administration, inaccesible aux `éditeurs` et `lecteurs`, permet de paramétrer l'environnement de travail de tout ce qui se situe à l'échelle du groupe de travail.
+The Administration menu (inaccessible to `writers` and `readers`) is used to configure the working environment of the corresponding workgroup.
 
-![L'administration](/fr/images/adm_tour_menus.gif "Les menus de l'administration d'Isogeo")
+![Administration](/en/images/adm_tour_menus.gif "Isogeo administration menus")

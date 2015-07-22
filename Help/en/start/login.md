@@ -1,19 +1,19 @@
-# Se connecter à Isogeo
+# Logging in to Isogeo
 
-Pour utiliser Isogeo, il suffit de se rendre sur https://app.isogeo.com muni(e) de vos identifiants de connexion :
+To use Isogeo, go to https://app.isogeo.com with your login credentials at hand:
 
-* Adresse e-mail : exemple@domaine.fr ;
-* Mot de passe : monmotdepasse
+* Email address: example@domain.com
+* Password: mypassword
 
-![Page d'authentification](/fr/images/ID_log_in.gif "Page de connexion à la plateforme Isogeo")
+![Authentication page](/en/images/ID_log_in.gif "Isogeo platform login page")
 
-Cliquez ensuite sur `Valider` : Isogeo vérifie vos identifiants et vous redirige vers la plateforme.
+Now click on `Login`: Isogeo verifies your credentials and redirects you to the platform.
 
-### Options supplémentaires
+### Additional options
 
-L’option `Se souvenir de moi ?` est activée par défaut. Elle vous permet d’être automatiquement identifié(e) lorsque vous vous connecterez à Isogeo lors de vos prochaines sessions. Vous pouvez bien sûr désactiver cette option.
+The `Remember me?` option is enabled by default. It allows you to be automatically authenticated when you log into Isogeo for future sessions. You can disable this option if you wish.
 
-Si vous avez perdu votre mot de passe, ce n’est pas grave ! Il vous suffit de cliquer sur le lien `Mot de passe perdu ?` et d’indiquer votre e-mail. Un courrier du support Isogeo vous communiquera la démarche à faire pour réinitialiser votre mot de passe.
+If you lose your password, don't worry; click on the `Lost password?` link and enter your e-mail address. Isogeo support will send you an email with details on how to reset your password.
 
-![Réinitialiser son mot de passe](/fr/images/ID_password_reminder_mail.png "Le mail avec le lien de réinitialistion")
+![Resetting your password](/en/images/ID_password_reminder_mail.png "Email with the reset link")
 

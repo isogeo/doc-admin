@@ -1,9 +1,9 @@
-# Les points d'entrée
+# Entry points
 
-Il existe deux types de « points d’entrée » :
+There are two types of "entry points":
 
-* Fichiers : définition des chemins d’accès aux répertoires contenant les données géographiques (sur un ou plusieurs serveurs ; sur un ou plusieurs postes informatiques ; prise en compte ou non des sous-répertoires) et sélection d’une liste des formats à scanner ;
+* File: defines paths to directories containing geographic data (on one or more servers; on one or more workstations; subdirectories included/not included), and selects a list of formats to scan;
 
-* Base de données : définition des paramètres de connexion à la base de données et choix des instances à scanner.
+* Database: defines database connection settings and selects instances to scan.
 
-L’administrateur SIG définit autant de « points d’entrée » qu’il le souhaite. Le scan génère systématiquement un inventaire exhaustif des données identifiées dans ces points d’entrée.
+The GIS administrator can define as many entry points as desired. The scan systematically generates an exhaustive inventory of the data identified for these entry points.

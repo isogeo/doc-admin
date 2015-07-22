@@ -1,43 +1,43 @@
-# Contacter le support technique
+# Contacting technical support
 
-Si vous avez une question, une suggestion ou encore si vous avez identifié une anomalie sur Isogeo, n’hésitez pas à nous contacter à l’adresse suivante : support@isogeo.fr
+If you have any questions or suggestions, or to report an error in Isogeo, please contact us at the following address: support@isogeo.fr
 
-## Bonnes pratiques
+## Best practices
 
-Si vous souhaitez que votre problème soit traité rapidement, voici quelques bonnes pratiques :
+Follow these best practices to expedite handling of your issue:
 
-- préfixer l'objet de votre mail avec le nom de la brique logicielle concernée : APP - *objet*, SCAN - *objet*, OpenCatalog - *objet* etc.
-- s'il s'agit du service de scan, s'assurer d'abord d'avoir la dernière version installée chez vous (voir chapitre concerné) ;
-- préciser s'il s'agit d'une demande d'assistance ou bien du signalement d'une anomalie ;
-- s'il s'agit d'une anomalie :
-  * s'assurer qu'elle est reproduisible ;
-  * détailler le scénario par étapes pour la reproduire ;
-  * joindre si possible une ou plusieurs captures d'écrans ;
-  * indiquer quel est le comportement attendu ;
-- mettre votre interlocuteur projet en copie ;
-- donner toute information complémentaire aidant à la compréhension du contexte (proxy, usages, configuration...)
+- Start the subject line of your e-mail with the name of the software component: APP - *subject*, SCAN - *subject*, OpenCatalog - *subject* etc.
+- If you have issues with the scan service, first make sure that the latest version is installed on your machine (see the dedicated chapter)
+- Specify whether you are requesting help, or reporting an error
+- For an error:
+  * make sure it can be reproduced
+  * note the steps for reproducing it
+  * if possible, attach one or more screenshots
+  * indicate the expected behavior
+- Copy your project contact
+- Provide any additional information that will help understand the context (proxy, uses, configuration, etc.).
 
 
-## Modèle de courriel pour signaler une anomalie
+## E-mail template to report an error
 
-**A :** [support@isogeo.fr](mailto:support@isogeo.fr?subject=[Scan / OpenCatalog / APP] sujet problème&cc=projets@isogeo.fr)
+**To:** [support@isogeo.fr](mailto:support@isogeo.fr?subject=[Scan / OpenCatalog / APP] sujet probleme&cc=projets@isogeo.fr)
 
-**Copie à :** chef_de_projet@isogeo.fr
+**Copy:** project_manager@isogeo.fr
 
-**Objet :** Scan - Le nombre de fiches remontées ne correspond pas à celui attendu (nombre de données dans le point d'entrée)
+**Subject:** Scan - The number of records returned is not the expected number (number of data items in the entry point)
 
-**Corps du message** :
-Bonjour,
+**Message body**:
+Hello,
 
-Lors du scan du point d'entrée *X*, j'obtiens *Y* fiches de métadonnées (cf. capture en PJ) alors qu'il y a *Z* jeux de données dans le schéma / dossier visé (cf. capture en PJ).
+When entry point *X* is scanned, it returns *Y* metadata records (see attached screenshot), but there are *Z* datasets in the target schema/folder (see attached screenshot).
 
-Après vérification et mise à jour, je dispose bien de la dernière version du service Isogeo.
+After checking and upgrading, I am running the latest version of the Isogeo service.
 
-Pour reproduire :
+To reproduce this error:
 
-1. aller sur l'interface de scan ;
-2. lancer le scan sur le point d'entrée *X* : 10 tables sont indiquées ;
-3. aller dans l'inventaire : seules 8 tables apparaissent.
+1. Go to the scan interface.
+2. Run the scan on entry point *X*: 10 tables are specified.
+3. Go to the inventory: only 8 tables are displayed.
 
 -----
 Signature

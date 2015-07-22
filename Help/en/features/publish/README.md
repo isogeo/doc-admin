@@ -1,32 +1,32 @@
-# Objectif : valoriser votre patrimoine de données géographiques
+# Objective: enhancing the value of your geographic data assets
 
-L'inventaire, le catalogage et la documentation sont les vecteurs d'une bonne gouvernance de données. Une fois tout ces efforts réalisés, il s'agit de les faire fructifier :
-*  en interne,
-*  avec vos partenaires,
-*  auprès du grand public (*Open Data*).
+Inventorizing, cataloging and documenting are all vectors for good data governance. Once you have taken care of these, you can reap the benefits:
+*  internally,
+*  with your partners,
+*  with the general public (*Open Data*).
 
-## De la donnée à la donnée, en passant par la métadonnée
+## From data to data, via metadata
 
-Les métadonnées sont un moyen, pas une fin.
+Metadata are a means, not an end.
 
-Pour proposer à vos utilisateurs des informations supplémentaires sur vos données, voire de les exploiter, vous pouvez associer à une fiche des services web de visualisation, de téléchargement, de flux de données (WMS, WFS, etc.) ou encore renvoyer vers une carte PDF par exemple.
+To offer your users additional information about your data, or even to allow them to use this additional information, you can associate web services with a metadata record for viewing, downloading, streaming (WMS, WFS, etc.) or even redirecting the user to a PDF map, for example.
 
-L’objectif est de renforcer l’expérience utilisateur, de valoriser les ressources mises en place (serveur cartographique par exemple) et de **faire de vos catalogues une porte d’entrée privilégiée vers votre patrimoine de données**.
+The idea is to enhance the user experience, add value to the resources deployed (such as a mapping server), and **transform your catalogs into a special gateway to your data assets**.
 
-## Associer une ressource
+## Associating a resource
 
-Pour cela, il vous suffit de :
-1.	Ouvrir une fiche de métadonnée,
-2.	Cliquer sur `Modifier`,
-3.	Aller dans l’onglet `Ressources`,
-4.	Cliquer sur `Ajouter un lien`,
-5.	Dans la liste déroulante, choisissez le type de lien que vous souhaitez associer à la donnée :
-    * données brutes (.zip, Dropbox, Google Drive…) ou hébergement Isogeo ;
-    * services web : WMS/Esri Map, WFS/Esri Feature, WMTS/Esri Tile ;
-    * lien : page internet, document (Word, PDF…)
-6.	Renseigner :
-    * L’intitulé du lien
-    * l’URL du service ou de la ressource
-    * Sélectionner le type de la ressource :
-    * Sélectionner l’action exercée (Visualiser, Télécharger, Autres)
-7.	`Valider`
+Proceed as follows:
+1.	Open a metadata record.
+2.	Click `Edit`.
+3.	Go to the `Resources` tab.
+4.	Click on `Add a link`.
+5.	In the dropdown list, choose the type of link that you wish to associate with the data:
+    * raw data (.zip, Dropbox, Google Drive, etc.) or Isogeo hosting;
+    * web services: WMS/Esri Map, WFS/Esri Feature, WMTS/Esri Tile;
+    * link: web page, document (Word, PDF, etc.).
+6.	Enter:
+    * the name of the link
+    * the URL of the service or resource
+    * Select the resource type:
+    * Select the action performed (View, Download, Other)
+7.	`Validate`.

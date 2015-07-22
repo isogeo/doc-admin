@@ -1,28 +1,28 @@
-# Paramétrer mon compte Isogeo
+# Setting up my Isogeo account
 
-En cliquant sur votre nom en haut à droite de votre écran, vous pouvez visualiser et modifier les différents paramètres de votre compte Isogeo. Par défaut vous arrivez sur la page de vos réglages.
+Click on your name at the top right of your screen to view and modify settings for your Isogeo account. By default, you are taken to your account's settings page.
 
-> Astuce : Vous pouvez aussi y accéder directement via : https://app.isogeo.com/settings/account*
+> Tip: You can reach this page directly via: https://app.isogeo.com/settings/account
 
-![Gestion compte utilisateur](/fr/images/params_MonCompte.png "Paramétrer son compte d'utilisateur Isogeo")
+![User account management](/en/images/params_MonCompte.png "Setting up your Isogeo user account")
 
 
-## Langue et fuseau horaire
+## Language and time zone
 
-Pour l'instant, Isogeo est disponible en 2 langues :
-* Anglais ;
-* Français.
+Isogeo is currently available in two languages:
+* English
+* French
 
-Vous pouvez spécifier un choix différent pour les paramètres détectés automatiquement :
+You can specify a different choice for automatically-detected settings:
 
-* La langue est celle du navigateur ;
-* Le fuseau horaire est celui du système d’exploitation.
+* The application language is that of your browser
+* The time zone is that of your operating system
 
-## Abonnements et liens utiles
+## Subscriptions and useful links
 
-Vous pouvez choisir de vous abonner ou désabonner à nos listes de diffusion dédiées à nos utilisateurs :
+You can choose to subscribe to or unsubscribe from mailing lists for our users:
 
-* La liste des nouveautés pour être prévenu des nouvelles versions ;
-* La liste des trucs et astuces pour bénéficier de petits tutoriels sur des fonctionnalités ;
+* The new features lists helps you stay informed of new versions
+* The tips and tricks list tells you about quick tutorials on certain features
 
-Vous pouvez également accéder à nos réseaux sociaux ou bien au blog, sur lequel vous pouvez gérer votre abonnement à la liste de diffusion globale d’Isogeo (indépendant des deux autres).
+You can also follow us on social networks media or our blog, where you can manage your subscription to Isogeo's global mailing list (independent of the other two).
