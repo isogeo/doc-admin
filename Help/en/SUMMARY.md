@@ -79,4 +79,5 @@
    * [Dates in Isogeo](appendices/different_dates.md)
    * [Correcting metadata with no bounding box and no SRS](appendices/scan_srsnotfound_fme_fix.md)
    * [Additional resources in external tools](appendices/webgeoservices_in_csw.md)
-   * [Configuring WFSs in JSONP](appendices/wfs_jsonp.md)
+   * [Configuring WFS in JSONP](appendices/wfs_jsonp.md)
+
