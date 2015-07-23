@@ -1,6 +1,6 @@
 Isogeo is a web application that allows you to manage and share a comprehensive, up-to-date and documented catalog of your GIS data.
 
-<iframe width="853" height="480" src="https://www.youtube.com/embed/JbBxxpC4hzQ?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="853" height="480" src="https://www.youtube.com/embed/EJ2Br_9lUJo?rel=0" frameborder="0" allowfullscreen></iframe>
 
 This document gives you step-by-step instructions for its use by describing how the various modules and resources work and how they are used. If you have any difficulties that you are unable to resolve using online help,  [contact our support team](support/README.html).
 
