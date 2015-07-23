@@ -1,4 +1,4 @@
-## "Resources" tab
+# "Resources" tab
 
 The "Resources" tab is used to create links to documents (maps, statistics, etc.) and web services associated with the data (view, download, etc.).
 

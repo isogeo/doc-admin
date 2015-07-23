@@ -4,9 +4,9 @@ In addition to the data formats for which the scan automatically completes parti
 
 You can choose from several templates:
 
-* Data (vector)
-* Data (raster)
-* Data series
+* Dataset (vector)
+* Dataset (raster)
+* Dataset series
 * Service
 * Resource
 

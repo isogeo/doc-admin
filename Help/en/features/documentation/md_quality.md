@@ -1,4 +1,4 @@
-﻿## "Quality" tab
+# "Quality" tab
 
 The "Quality" tab contains the specifications used for collecting and controlling data, and the results of tests on the data's topological consistency.
 

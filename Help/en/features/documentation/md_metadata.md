@@ -1,4 +1,4 @@
-## "Metadata" tab
+# "Metadata" tab
 
 The "Metadata" tab is used to display the metadata's creation date and language.
 

@@ -4,7 +4,7 @@ Isogeo is a web application that allows you to manage and share a comprehensive,
 
 This document gives you step-by-step instructions for its use by describing how the various modules and resources work and how they are used. If you have any difficulties that you are unable to resolve using online help,  [contact our support team](support/README.html).
 
-![The platform](/en/images/offer_schema_platform_modAPI.png "The Isogeo platform modules and resources")
+![The platform](/en/images/offer_schema_platform.jpg "The Isogeo platform modules and resources")
 
 ## Supported browsers
 

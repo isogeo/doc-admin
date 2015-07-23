@@ -1,4 +1,4 @@
-﻿# Methods for completing metadata
+# Methods for completing metadata
 
 To create and share an exhaustive, documented catalog of your GIS data, proceed as follows: simply proceed as explained below.
 

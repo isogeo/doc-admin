@@ -1,4 +1,4 @@
-## "Contacts" tab
+# "Contacts" tab
 
 The "Contacts" tab can be used to assign one or more contacts from your address book to each data item;
 

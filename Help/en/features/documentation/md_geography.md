@@ -1,4 +1,4 @@
-## "Geography" tab
+# "Geography" tab
 
 The "Geography" tab displays the data's bounding box on a map. It shows the data format, the number of entities, the geometry type, the coordinate system, the bounding box coordinates, the data scale and resolution.
 

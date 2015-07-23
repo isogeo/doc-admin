@@ -1,4 +1,4 @@
-# Configuring your mapping server for JSON-P
+# Configuring your geospatial server for JSON-P
 
 ## Issues
 

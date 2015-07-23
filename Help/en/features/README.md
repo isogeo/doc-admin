@@ -1,7 +1,7 @@
-# Fonctionnalités
+# Features
 
-Vos données SIG, de types et formats différents (fichiers Shapefiles, MapInfo, ECW, GeoTIFF, bases de données Oracle, PostGIS, etc.), sont stockées sur votre réseau à des emplacements différents (disque D:\\ ; disque K:\\, base de données).
+Your GIS data, including all types and formats (Shapefile, MapInfo, ECW, GeoTIFF, Oracle database, PostGIS, etc.), is stored in different locations on your network (drive D:\\;  drive K:\\, database).
 
-Pour recenser rapidement toutes ces données au sein d’un inventaire unique et exhaustif, Isogeo met à votre disposition un moteur de scan « Isogeo Worker ».
+To quickly inventorize all this data into a single, comprehensive inventory, Isogeo provides you with the "Isogeo Worker" scan engine.
 
-> L'ancien moteur de scan « Isogeo Daemon » a vocation a être remplacé.
+> The previous "Isogeo Daemon" scan engine will be replaced at the end of 2015.

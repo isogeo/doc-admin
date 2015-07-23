@@ -1,4 +1,4 @@
-## "Advanced" tab
+# "Advanced" tab
 
 The "Advanced" tab can be used to specify the format, version and character encoding for the data.
 
