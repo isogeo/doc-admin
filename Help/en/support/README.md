@@ -11,10 +11,10 @@ Follow these best practices to expedite handling of your issue:
 - Specify whether you are requesting help, or reporting an error
 - For an error:
   * make sure it can be reproduced
-  * note the steps for reproducing it
-  * if possible, attach one or more screenshots
-  * indicate the expected behavior
-- Copy your project contact
+;  * note the steps for reproducing it;
+  * if possible, attach one or more screenshots;
+  * indicate the expected behavior;
+- Copy your project contact;
 - Provide any additional information that will help understand the context (proxy, uses, configuration, etc.).
 
 

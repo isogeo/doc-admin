@@ -1,4 +1,4 @@
-# Data formats automatically accepted
+# Data formats automatically supported
 
 In theory, the service can scan all formats supported by the FME ETL on which it is based. However, as new needs arise, new formats are added.
 
@@ -7,29 +7,29 @@ In theory, the service can scan all formats supported by the FME ETL on which it
 ## File formats
 
 * Esri shapefiles (.shp)
-* Esri Personal Geodatabase (.mdb)
-* Esri File Geodatabase (.gdb)
-* MapInfo tables (.tab)
-* MapInfo Interchange Format (.mif / .mid)
-* Intergraph GeoMedia database (.mdb)
-* AutoCAD DWG (.dwg)
-* AutoDesk DXF (.dxf)
-* MicroStation DGN (.dgn)
+,* Esri Personal Geodatabase (.mdb),
+* Esri File Geodatabase (.gdb),
+* MapInfo tables (.tab),
+* MapInfo Interchange Format (.mif / .mid),
+* Intergraph GeoMedia database (.mdb),
+* AutoCAD DWG (.dwg),
+* AutoDesk DXF (.dxf),
+* MicroStation DGN (.dgn),
 * Google Earth - only the first layer is accepted (.kml / .kmz)
-* GPS eXchange Format (.gpx)
-* ER Mapper ECW (.ecw)
+,* GPS eXchange Format (.gpx)
+,* ER Mapper ECW (.ecw),
 * GeoTIFF (.geotiff)
-* JPEG (.jpg / .jpeg)
-* JPEG 2000 (.jp2)
+,* JPEG (.jpg / .jpeg),
+* JPEG 2000 (.jp2),
 * Portable Network Graphics (.png)
-* TIFF (.tiff)
+,* TIFF (.tiff),
 
 ## Database formats
 
 * Esri Enterprise Geodatabase (ArcSDE)
-* Microsoft SQL Server Spatial (all versions)
-* Oracle Spatial (all versions)
-* PostGIS (all versions)
+,* Microsoft SQL Server Spatial (all versions),
+* Oracle Spatial (all versions),
+* PostGIS (all versions).
 
 Because of their implementation, not all formats are supported to the same extent or in the same way. Table 1 also includes notes as to which licenses are required to support certain formats.
 

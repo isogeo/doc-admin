@@ -1,4 +1,4 @@
-# Architecture and development cycles
+﻿# Architecture and development cycles
 
 Isogeo is a SaaS (Software as a Service) platform, which means greater flexibility in terms of its installation and use. Its development adheres to agile methodology and scrum methodology cycles.
 
@@ -30,7 +30,7 @@ Depending on the characteristics of the data browsed, processing can become RAM 
 
 ## Backup and recovery
 
-The Isogeo platform (application and database) is backed up daily to a private storage location on Microsoft©'s Windows Azure© cloud computing platform. The backup resources are described on the official [Microsoft Azure©] site (http://www.windowsazure.com/en-us).
+The Isogeo platform (application and database) is backed up daily to a private storage location on Microsoft©'s Windows Azure© cloud computing platform. The backup resources are described on the official [Microsoft©](http://www.windowsazure.com/en-us) site .
 
 A general recovery of the platform can be performed by Isogeo.
 
@@ -70,7 +70,7 @@ Only executable updates may require action by the organization. Isogeo sends an 
 
 ### Controlling access to the data during automatic inventorization
 
-* The data is accessed via the [FME] tool (http://www.safe.com/fme/fme-technology/fme-desktop/overview/)
+* The data is accessed via the [FME](http://www.safe.com/fme/fme-technology/fme-desktop/overview/) tool 
 
 * This data access is entirely configurable by the organization, which can specify which databases and directories can be accessed by the executable.
 

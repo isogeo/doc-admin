@@ -1,4 +1,4 @@
-# Methods for completing metadata
+﻿# Methods for completing metadata
 
 To create and share an exhaustive, documented catalog of your GIS data, proceed as follows: simply proceed as explained below.
 
@@ -22,7 +22,7 @@ Specifically, we advise you to proceed with your cataloging by doing the followi
 
 ![Documentation cycles](/en/images/method_schema_documentation_cycles.png "Iterations in cataloging methodology")
 
-## Resources available
+## Available resources 
 
 ### Entry guides
 
@@ -38,7 +38,7 @@ As an active member of this workgroup, Isogeo supports you with this data entry 
 
 ### Examples of metadata
 
-To provide you with sample complete record templates, we have documented the data in the GeoFLA administrative repository:
+To provide you with sample complete record templates, we have documented the data in the GeoFLA administrative repository:* 
 
 [mainland France departments in 2014](http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0/m/754209f115c040a48d43ffc262b16500).
 * [mainland France "communes" in 2014](http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0/m/fa079cbb63cd4099bf249e572dbf4563).

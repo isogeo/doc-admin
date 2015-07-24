@@ -5,13 +5,13 @@ Each resource (data, data series, service, resource) in your inventory is descri
 ## Different resource types
 
 There are several possible types of metadata:
-* vector-type dataset
-* raster-type dataset
-* data series (collection)
-* service
+* vector-type dataset;
+* raster-type dataset;
+* data series (collection);
+* service;
 * resource
 
-## Tabs by metadata type
+.## Tabs by metadata type
 
 | Tab       | Vector | Raster  | Collection | Service | Resource | Batch  edition  |
 |:---------------:|:-------:|:-------:|:--------:|:-------:|:---------:|:---------:|

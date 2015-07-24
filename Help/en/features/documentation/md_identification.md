@@ -1,8 +1,8 @@
-# Identification Tab
+﻿# "Identification" Tab
 
 This tab contains the basic information for a resource. It is essential since this is the most useful information for a user.
 
-![[Single edition - Identification](/en/images/inv_edit_one_identification.png "Single edition - Identification tab")
+![Single edition - Identification](/en/images/inv_edit_one_identification.png "Single edition - Identification tab")
 
 ### Title
 
@@ -20,7 +20,7 @@ This tab contains the basic information for a resource. It is essential since th
 | Definition       | Narrative description of whatever the data represents. |
 | :--------------- | :--------------------------------------  |
 | Indications      |  The description is split into two parts: <br />- A generic part, common to the batch to which the data belongs; <br />- a specific part, relating to the data set in question. |
-| Example          |  GEOFLA is a digital product that describes the administrative boundaries for metropolitan France, overseas departments, and the departmental authority of Mayotte. It is derived from the cartographic database (BD CARTO &copy;) for its geometric part, and the administrative database for its descriptive part.<br /><br />  This data set contains the "communes" with, in addition to their description, the description of the higher-level administrative unit: "canton," "arrondissement," "département" and "région." In France, a "commune" represents the smallest administrative entity. It is described by the sides of the communal planar graph. These represent communes as polygons.
+| Example          |  GEOFLA® is a digital product that describes the administrative boundaries for metropolitan France, overseas departments, and the departmental authority of Mayotte. It is derived from the cartographic database (BD CARTO®) for its geometric part, and the administrative database for its descriptive part.<br /><br />  This data set contains the "communes" with, in addition to their description, the description of the higher-level administrative unit: "canton," "arrondissement," "département" and "région." In France, a "commune" represents the smallest administrative entity. It is described by the sides of the communal planar graph. These represent communes as polygons.
 | INSPIRE requirement   | Mandatory                   |
 | Batch edition     | Yes, by overwriting           |
 | Scan                | No        |

@@ -4,11 +4,11 @@ In addition to the data formats for which the scan automatically completes parti
 
 You can choose from several templates:
 
-* Dataset (vector)
+* Dataset (vector);
 * Dataset (raster)
-* Dataset series
-* Service
-* Resource
+;* Dataset series;
+* Service;
+* Resource.
 
 Simply click on the `+Create` button in the Inventory. There are two ways to proceed:
 

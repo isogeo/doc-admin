@@ -1,4 +1,4 @@
-# "History" tab
+﻿# "History" tab
 
 The "History" tab describes the data's creation context and method. It provides chronological information about all data events that have occurred (creation, update, publication, etc.). It also allows for entering the data's validity period and update frequency.
 
@@ -13,7 +13,7 @@ The "History" tab describes the data's creation context and method. It provides 
 | INSPIRE requirement   | Mandatory                   |
 | Batch edition     | Yes, by overwriting           |
 | Scan                | No        |
-## Search engine        | No                 |
+| Search engine        | No                 |
 
 ### Collection method
 
@@ -24,7 +24,7 @@ The "History" tab describes the data's creation context and method. It provides 
 | INSPIRE requirement   | Mandatory                   |
 | Batch edition     | Yes, by overwriting           |
 | Scan                | No        |
-## Search engine        | No                 |
+| Search engine        | No                 |
 
 ### Validity period
 
@@ -35,7 +35,7 @@ The "History" tab describes the data's creation context and method. It provides 
 | INSPIRE requirement   | Mandatory                   |
 | Batch edition     | Yes, by overwriting           |
 | Scan                | No        |
-## Search engine        | No                 |
+| Search engine        | No                 |
 
 ### Comment
 
@@ -46,7 +46,7 @@ The "History" tab describes the data's creation context and method. It provides 
 | INSPIRE requirement   | Optional        |
 | Batch edition     | Yes, by overwriting           |
 | Scan                | No        |
-## Search engine        | No                 |
+| Search engine        | No                 |
 
 ### Update frequency
 
@@ -57,7 +57,7 @@ The "History" tab describes the data's creation context and method. It provides 
 | INSPIRE requirement   | Mandatory                   |
 | Batch edition     | Yes, by overwriting           |
 | Scan                | No        |
-## Search engine        | No                 |
+| Search engine        | No                 |
 
 ### Events
 

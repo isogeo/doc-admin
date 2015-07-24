@@ -3,9 +3,9 @@
 In compliance with the formalism laid down by the INSPIRE directive and the interoperability standards defined by ISO. 3 operations can be distinguished in this documentation phase:
 
 * **Qualify**: describing the data (title, summary, history, geography, general terms and conditions for access and use, contracts, etc.). This operation is facilitated by 3 processes:
-    - [automatic retrieval of one third of the required fields] (/en/features/documentation/md_fields_autos.html) by the Inspire directive;
-    - [batch input] (/en/features/documentation/md_edit_batch.html) (possibility of entering several records at the same time);
-    - [import of existing records in XML format] (/en/features/documentation/md_import.html).
+    - [automatic retrieval of one third of the required fields](/en/features/documentation/md_fields_autos.html) by the Inspire directive;
+    - [batch input](/en/features/documentation/md_edit_batch.html) (possibility of entering several records at the same time);
+    - [import of existing records in XML format](/en/features/documentation/md_import.html).
 
 * **Classify**: assigning sets of themes and keywords using a customizable thesaurus. Essential for cataloging, this step facilitates the subsequent data search.
 

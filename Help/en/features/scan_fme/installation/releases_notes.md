@@ -20,7 +20,7 @@ To check which version of the service is installed on your machine, hover the mo
 * (Fix) Retrieves layers with no attributes shown;
 * Improved support for KML/KMZ format;
 * Improved support for GPx format;
-* Deleting the SQL query scan for Cr�teil;
+* Deleting the SQL query scan for Créteil;
 * Scanning of tables that have no geometry for Créteil.
 
 ### 1.2.0

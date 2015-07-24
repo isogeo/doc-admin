@@ -32,11 +32,11 @@ For more details on inventory search and navigation, see [the dedicated chapter]
 
 Isogeo's functions are accessed via 3 menus:
 
-* The [`Inventory`] menu(/en/settings/inventory.html) is used to access your metadata and edit functions
-* The [`Dashboard`] menu(/en/settings/dashboard.html) gives administrators an overview of your inventory
-* The [`Administration`] menu(/en/settings/administration.html) allows administrators to adjust settings that apply to the entire workgroup
+* The [`Inventory`](/en/settings/inventory.html) menu is used to access your metadata and edit functions;
+* The [`Dashboard`](/en/settings/dashboard.html) menu gives administrators an overview of your inventory;
+* The [`Administration`](/en/settings/administration.html) menu allows administrators to adjust settings that apply to the entire workgroup
 
-If you are using Isogeo on a low-resolution screen, the tags will be replaced by icons.
+.If you are using Isogeo on a low-resolution screen, the tags will be replaced by icons.
 
 ![The 3 menus in low resolution](/en/images/all_header_bar_menus_low_resolution.png "The Inventory, Dashboard or Administration icons for low-resolution displays")
 

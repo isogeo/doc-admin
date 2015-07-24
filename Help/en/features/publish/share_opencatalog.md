@@ -26,7 +26,7 @@ Proceed as follows to create an OpenCatalog:
 
 ## Integrating an OpenCatalog in iFrame
 
-OpenCatalog is developed via the Isogeo API. It can very easily be integrated in your existing websites (intranet, extranet, mapping portal, OpenData portal, spatial data infrastructure, etc.) via an [iFrame HTML tag](http://www.w3schools.com/tags/tag_iframe.asp).
+"OpenCatalog" is developed via the Isogeo API. It can very easily be integrated in your existing websites (intranet, extranet, mapping portal, OpenData portal, spatial data infrastructure, etc.) via an [iFrame HTML tag](http://www.w3schools.com/tags/tag_iframe.asp).
 
 ### Syntax
 
@@ -41,8 +41,8 @@ For example to integrate the demo OpenCatalog:
 <iframe src="http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0" width="850" height="600"></iframe></a>
 
 Integration examples online:
-* the [PPIGE] portal (http://www.ppige-npdc.fr/geocatalog/)
-* the [Moselle] portal (http://www.moselleinfogeo.fr/infogeo/isogeo).
+* the [PPIGE](http://www.ppige-npdc.fr/geocatalog/) portal 
+* the [Moselle](http://www.moselleinfogeo.fr/infogeo/isogeo) portal .
 
 ## Integrating a single record in iframe
 

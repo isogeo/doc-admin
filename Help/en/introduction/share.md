@@ -1,6 +1,4 @@
-# Cataloging: a prerequisite for sharing
-
-This step is essential for sharing and adding value to your data assets. It serves to organize the metadata records into different catalogs, for example:
+﻿# Cataloging: a prerequisite for sharingThis step is essential for sharing and adding value to your data assets. It serves to organize the metadata records into different catalogs, for example:
 
 * one catalog for internal use,
 * one catalog for partners

@@ -62,7 +62,7 @@ To manually draw the data's bounding box on the map:
 
 ### Scale
 
-| Definition                 | Geographic precision of the resource (mainly used for vector data) |
+| Definition                 | Geographic precision of the resource (mainly used for vector dataset) |
 | :------------------------- | :--------------------------------------------------------- |
 | Indications                | Numeral |
 | Example                    | 10000           |
@@ -73,10 +73,10 @@ To manually draw the data's bounding box on the map:
 
 ### Resolution
 
-| Definition                 | Geographic precision of the resource (mainly used for raster data) |
+| Definition                 | Geographic precision of the resource (mainly used for raster dataset) |
 | :------------------------- | :--------------------------------------------------------- |
 | Indications                | Numeral, in meters|
-| Example                    |                      |
+| Example                    | 5 m   |
 | INSPIRE requirement           | Mandatory if the scale is not specified |
 | Batch edition     | Yes, by overwriting           |
 | Scan                | No        |

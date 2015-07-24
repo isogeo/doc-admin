@@ -1,8 +1,8 @@
-# Single edit
+# Single edition
 
 Proceed as follows to enter a metadata record:
-1.	Open the descriptive record.
-2.	Click on the `Edit` button.
+1.	Open the descriptive record;
+2.	Click on the `Edit` button;
 3.	Enter the information requested in the various tabs:
     * Add a title (for example "Waste drop-off points installed in Bordeaux in 2012");
     * Add a summary (for example, "This data represents the position of the household waste drop-off points in the city of Bordeaux in 2012");

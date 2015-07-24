@@ -24,7 +24,7 @@ Key:
 | --------------------------- | :-----: | :----: | :--------: | :----------------------: |
 | Name                         | X       | X      | X          | X                        |
 | Type                           | X       | X      | X          | X                        |
-| Server                        | X       | X      | X          | X                        |
+| Server                        | X       | X      | X          |                         |
 | Port                            | X       |        |            |                          |
 | Identifier                  | X       | X      | X          |                          |
 | Password                 | X       | X      | X          |                          |
