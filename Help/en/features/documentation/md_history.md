@@ -1,4 +1,4 @@
-﻿# "History" tab
+# "History" tab
 
 The "History" tab describes the data's creation context and method. It provides chronological information about all data events that have occurred (creation, update, publication, etc.). It also allows for entering the data's validity period and update frequency.
 

@@ -1,4 +1,4 @@
-﻿# "Attributes" tab
+# "Attributes" tab
 
 The "Attributes" tab lists all the data's attribute fields and, specifies a name, alias, description and language for each one.
 

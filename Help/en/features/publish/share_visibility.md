@@ -1,4 +1,4 @@
-﻿# Resources tailored to uses
+# Resources tailored to uses
 
 Data administrators sometimes provide resources that are associated with data that are not accessible or visible by everyone. The classic scenario is to have different permissions for the general public and for internal departments.
 

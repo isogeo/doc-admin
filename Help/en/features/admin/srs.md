@@ -6,7 +6,7 @@ Isogeo integrates thousands of coordinate systems listed in the international re
 
 To make it easier to manage these systems, and to avoid confusing writers (who are not necessarily specialists or conversant with projection requirements), the administrator can limit the coordinate systems visible in the `Geography'` tab in a metadata record.
 
-> > Tip: go directly to [coordinate systems](https://app.isogeo.com/admin/coordinate-systems).
+> Tip: go directly to [coordinate systems](https://app.isogeo.com/admin/coordinate-systems).
 
 ## Selecting and renaming a coordinate system
 

@@ -1,4 +1,4 @@
-﻿# "Identification" Tab
+# "Identification" Tab
 
 This tab contains the basic information for a resource. It is essential since this is the most useful information for a user.
 

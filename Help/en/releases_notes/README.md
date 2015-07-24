@@ -1,4 +1,4 @@
-﻿# Architecture and development cycles
+# Architecture and development cycles
 
 Isogeo is a SaaS (Software as a Service) platform, which means greater flexibility in terms of its installation and use. Its development adheres to agile methodology and scrum methodology cycles.
 
@@ -70,7 +70,7 @@ Only executable updates may require action by the organization. Isogeo sends an 
 
 ### Controlling access to the data during automatic inventorization
 
-* The data is accessed via the [FME](http://www.safe.com/fme/fme-technology/fme-desktop/overview/) tool 
+* The data is accessed via the [FME](http://www.safe.com/fme/fme-technology/fme-desktop/overview/) tool
 
 * This data access is entirely configurable by the organization, which can specify which databases and directories can be accessed by the executable.
 

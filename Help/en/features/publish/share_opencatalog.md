@@ -1,4 +1,4 @@
-﻿# Distributing catalogs with OpenCatalog
+# Distributing catalogs with OpenCatalog
 
 Once established, your data catalog can be published via OpenCatalog, a website hosted by Isogeo that offers simple, user-friendly viewing access to an unlimited number of users.
 
@@ -41,7 +41,7 @@ For example to integrate the demo OpenCatalog:
 <iframe src="http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0" width="850" height="600"></iframe></a>
 
 Integration examples online:
-* the [PPIGE](http://www.ppige-npdc.fr/geocatalog/) portal 
+* the [PPIGE](http://www.ppige-npdc.fr/geocatalog/) portal
 * the [Moselle](http://www.moselleinfogeo.fr/infogeo/isogeo) portal .
 
 ## Integrating a single record in iframe

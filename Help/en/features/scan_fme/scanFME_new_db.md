@@ -7,7 +7,7 @@ Proceed as follows to create a "Database" entry point:
 1.	In the "Scan FME" menu, click on "+ New" to create a new entry point.
 2.	Select the "Database" type.
 3.	Name the entry point. For example: Reference database.
-4.	Select the database type from the drop-down list. 
+4.	Select the database type from the drop-down list.
 5.	Enter the connection settings.
 6.	Save.
 

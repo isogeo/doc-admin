@@ -39,6 +39,6 @@ Online help is a separate Internet site entirely based on the [GitBook](https://
 * each page and each title level has a specific URL, making it easy to share shortcuts (for example: [go directly to the best practices section](/en/support/README.html#best-practices));
 * animations can be viewed in a higher resolution by right-clicking and choosing *View image [in a new tab]*;
 * buttons for sharing content on social media;
-* [PDF document](/fr/index.pdf) generated for printing (not optimized).
+* [PDF document](/en/index.pdf) generated for printing (not optimized).
 
 ![Online help interface](/en/images/GitBook_help.png "Using GitBook")
