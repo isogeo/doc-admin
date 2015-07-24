@@ -4,7 +4,7 @@ Pour pouvoir utiliser le Service Isogeo Worker (scan FME) sur votre poste de tra
 
 ## Système d’exploitation
 
-À ce jour nous ne supportons que les systèmes Windows :
+Les systèmes supportés sont :
 
 * Windows 8 et 8.1 (recommandé)
 * Windows 7 (recommandé)
@@ -14,13 +14,13 @@ Pour pouvoir utiliser le Service Isogeo Worker (scan FME) sur votre poste de tra
 * Windows Server 2003 SP2
 * Windows XP SP3 (sauf la version 64 bits)
 
-Même s'il est possible d’installer le service Isogeo sur un poste d'utilisateur, **il est recommandé d’utiliser un serveur** pour des questions de performances, d’accès et de disponibilité.
+Même s'il est possible d’installer le service Isogeo sur un poste d'utilisateur, **il est fortement recommandé d’utiliser un serveur** pour des questions de performances, d’accès et de disponibilité.
 
-## Installation de FME Desktop
+## Installation de FME
 
-Votre poste de travail ou votre serveur doit avoir le logiciel FME Desktop installé et parfaitement configuré pour accéder et manipuler vos données géographiques (choix de l’édition, composants tierces parties). Pour plus d’informations, veuillez contacter votre distributeur FME.
+FME doit être installé et parfaitement configuré pour accéder et manipuler vos données géographiques (choix de l’édition, composants tierces parties). Pour plus d’informations, veuillez contacter votre distributeur FME.
 
-À ce jour le Service Isogeo supporte :
+À ce jour, les versions de FME supportées sont :
 
 * FME Desktop 2013 ;
 * FME Desktop 2014 ;
