@@ -6,6 +6,15 @@ Vous pouvez facilement vérifier la version du service installée chez vous en p
 
 ![Scan FME - version](/fr/images/scanFME_service_version.png "Vérifier la version du service")
 
+### 1.3.4
+
+* Format LAS
+* (Fix) Un scan continue même si le service n’a pas pu lire un dossier
+
+### 1.3.3
+
+* (Fix) Calcul des enveloppes même si le système de coordonnées n’est pas reconnu (valeur *_FME_0*)
+
 ### 1.3.2
 
 * Nouvelle version de [NSSM](http://nssm.cc/) (utilisé pour gérer le service Windows)
