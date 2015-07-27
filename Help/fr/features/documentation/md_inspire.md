@@ -2,9 +2,9 @@
 
 Répondre à la directive INSPIRE est un enjeu majeur des acteurs de l'information géographique. Au-delà de l'expertise nationale et européenne qu'apporte Isogeo dans les projets avec ses clients, l'outil permet de répondre facilement et rapidement aux exigences de la directive.
 
-Un [tableau de correspondance des champs Isogeo avec la directive INSPIRE](https://docs.google.com/spreadsheet/ccc?key=0AgqcgCYNe0TfdGI3M1l2WEZaNExxYnpkb29YRzNNY3c&usp=sharing) est disponible :
+Cliquer sur l'image pour consulter le [tableau de correspondance des champs Isogeo avec la directive INSPIRE](https://docs.google.com/spreadsheet/ccc?key=0AgqcgCYNe0TfdGI3M1l2WEZaNExxYnpkb29YRzNNY3c&usp=sharing) :
 
-[![Edition unitaire - Métadonnée](/fr/images/annex_Tableau_IsogeoINSPIRE "L'édition unitaire - onglet Métadonnée")](https://docs.google.com/spreadsheet/ccc?key=0AgqcgCYNe0TfdGI3M1l2WEZaNExxYnpkb29YRzNNY3c&usp=sharing)
+[![Edition unitaire - Métadonnée](/fr/images/annex_Tableau_IsogeoINSPIRE.png "L'édition unitaire - onglet Métadonnée")](https://docs.google.com/spreadsheet/ccc?key=0AgqcgCYNe0TfdGI3M1l2WEZaNExxYnpkb29YRzNNY3c&usp=sharing)
 
 > Astuce : la catégorie ISO est déduite automatiquement du thème INSPIRE par Isogeo.
 
