@@ -15,6 +15,8 @@ Afin que vos données puissent être accessibles via la passerelle, il faut qu'e
 
 ## Pas à pas
 
+### Compte et organisation sur DataGouv
+
 1. Créer un compte sur DataGouv.fr
 
     Pour créer un compte ou se connecter : https://www.data.gouv.fr/login. Il est recommandé de créer un compte directement sans l'interface d'un réseau social.
@@ -27,26 +29,61 @@ Afin que vos données puissent être accessibles via la passerelle, il faut qu'e
 
     ![DataGouv - Organisation](/fr/images/annex_bridge_INSPIRE_DataGouv_00b_NewOrganization.png "Créer son organisation sur DataGouv")
 
-3. Demander à ce que votre flux CSW soit référencé
+### Référencement et moissonnage du flux CSW
+
+1. Demander à ce que votre flux CSW soit référencé
 
     Une fois [votre flux CSW créé dans Isogeo](/fr/features/publish/csw_server.html), il faut écrire à [inspire@data.gouv.fr](mailto:inspire@data.gouv.fr?subject=Ajout d'un service CSW pour diffusion synchronisée sur DataGouv&cc=projets@isogeo.fr) en indiquant votre compte DataGouv.fr, votre / vos organisation(s) et bien sûr le(s) flux concerné(s).
 
-4. Aller sur https://inspire.data.gouv.fr/
+2. Lancer le moissonnage de son catalogue
+
+    Une fois votre flux CSW référencé par l'équipe de DataGouv, il faut lancer le moissonnage. Pour cela, [se rendre sur la page des flux](https://inspire.data.gouv.fr/services/by-protocol/csw) et cliquer sur `Synchroniser`en regard de votre service.
+
+    ![Passerelle INSPIRE - Open Data (1)](/fr/images/annex_bridge_INSPIRE_DataGouv_1a_syncCSW.png "Page d'accueil de la passerelle")
+
+3. Vérifier le moissonnage
+
+    Une fois la synchronisation terminée (actualiser la page au bout de quelques minutes selon le nombre de métadonnées à moissonner), ouvrir la page détaillée du service. Le nombre de données compatibles est listé par le filtre `Disponibilité = Oui`.
+
+    ![Passerelle INSPIRE - Open Data (1)](/fr/images/annex_bridge_INSPIRE_DataGouv_1b_serviceDetails.png "Page d'accueil de la passerelle")
+
+    Si une donnée semble ne pas être disponible, revérifier les [prérequis](/fr/appendices/bridge_csw2datagouvfr.html#pr-requis) puis [contacter l'équipe DataGouv](mailto:inspire@data.gouv.fr?subject=Problème de moissonnage d'un CSW (Isogeo)&cc=projets@isogeo.fr).
+
+### Association et publication
+
+1. Aller sur https://inspire.data.gouv.fr/
 
     ![Passerelle INSPIRE - Open Data (1)](/fr/images/annex_bridge_INSPIRE_DataGouv_1.png "Page d'accueil de la passerelle")
 
-5. Autoriser la passerelle à utiliser le compte DataGouv
+2. Autoriser la passerelle à utiliser le compte DataGouv
 
     ![Passerelle INSPIRE - Open Data (2)](/fr/images/annex_bridge_INSPIRE_DataGouv_2_oauth.png "Lier son compte DataGouv")
 
-6. Choisir l'organisation à configurer
+3. Choisir l'organisation à configurer
 
     ![Passerelle INSPIRE - Open Data (3)](/fr/images/annex_bridge_INSPIRE_DataGouv_3_LinkOrga.png "Choisir parmi ses organisations")
 
-7. Choisir le catalogue à moissonner
-8. Choisir les producteurs à associer à ce catalogue
+4. Associer le catalogue moissonné
 
+    Dans la liste, choisir le catalogue correspondant au flux que vous avez référencé précédemment.
 
+    ![Passerelle INSPIRE - Open Data (4)](/fr/images/annex_bridge_INSPIRE_DataGouv_4_PickCatalog.png "Choisir parmi les catalogues sources référencés")
 
+5. Choisir les producteurs à associer à ce catalogue
 
+    Il s'agit de faire correspondre les contacts renseignés dans la métadonnée et le producteur identifié de la donnée. Par exemple, l'administrateur d'une IDG pourra indiquer à quels ayant-droits correspondent quelles données.
 
+    ![Passerelle INSPIRE - Open Data (4)](/fr/images/annex_bridge_INSPIRE_DataGouv_6_producerMatched.png "Choisir parmi les producteurs à associer")
+
+6. Synchroniser le catalogue pour obtenir les données prêtes à être publiées
+
+    ![Passerelle INSPIRE - Open Data (4)](/fr/images/annex_bridge_INSPIRE_DataGouv_7b_syncRunning.png "Choisir parmi les producteurs à associer")
+
+7. Gérer la publication des données sur DataGouv
+
+    3 statuts sont possibles :
+    * `Données attente de publication`, les nouvelles données recensées qui attendent une action de votre part ;
+    * `Données en mode privé`, visibles uniquement par les membres de votre organisation ;
+    * `Données publiées`, visibles publiquement sur DataGouv.
+
+    ![Passerelle INSPIRE - Open Data (7)](/fr/images/annex_bridge_INSPIRE_DataGouv_9_dataPublishedBack.png "Régler le niveau de publication des données sur le portail DataGouv")
