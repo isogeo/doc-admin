@@ -1,6 +1,6 @@
 # Architecture et cycles de développement
 
-Isogeo est une plateforme SaaS (Software as a Service) pour une plus grande souplesse d’installation et d’utilisation et dont le développement suit la méthodologie AGILE et les cycles de la méthode Scrum.
+Isogeo est une plateforme SaaS (*Software as a Service*) pour une plus grande souplesse d’installation et d’utilisation et dont le développement suit la méthodologie AGILE et les cycles de la méthode Scrum.
 
 Comme le montre le schéma ci-dessous, Isogeo est constituée de deux composants principaux :
 
