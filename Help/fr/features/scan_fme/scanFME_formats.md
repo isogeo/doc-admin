@@ -6,23 +6,28 @@ Le service est théoriquement capable de scanner l’ensemble des formats pris e
 
 ## Les formats de fichiers
 
-* Esri shapefiles (.shp),
-* Esri Personal Geodatabase (.mdb),
-* Esri File Geodatabase (.gdb),
-* MapInfo tables (.tab),
-* MapInfo Interchange Format (.mif / .mid),
-* Intergraph GeoMedia database (.mdb),
+* Apic Exchange Format (.asc),
 * AutoCAD DWG (.dwg),
 * AutoDesk DXF (.dxf),
-* MicroStation DGN (.dgn),
-* Google Earth - seule la 1ère couche est prise en compte (.kml / .kmz) ;
-* GPS eXchange Format (.gpx),
+* AutoDesk SDF (.sdf),
 * ER Mapper ECW (.ecw),
+* Esri File Geodatabase (.gdb),
+* Esri Grid (.grd, .asc),
+* Esri Personal Geodatabase (.mdb),
+* Esri shapefiles (.shp),
+* Geography Markup Language (.gml) [seulement la 1ère couche],
 * GeoTIFF (.geotiff),
-* JPEG (.jpg / .jpeg)
+* Google Earth (.kml / .kmz) [seulement la 1ère couche],
+* GPS eXchange Format (.gpx),
+* Intergraph GeoMedia database (.mdb),
+* JPEG (.jpg / .jpeg),
 * JPEG 2000 (.jp2),
+* Lidar Data Exchange Format (.las, .laz, .lasd)
+* MapInfo tables (.tab),
+* MapInfo Interchange Format (.mif / .mid),
+* MicroStation DGN (.dgn),
 * Portable Network Graphics (.png),
-* TIFF (.tiff),
+* TIFF (.tiff).
 
 ## Les formats de bases de données
 
