@@ -2,39 +2,49 @@
 
 Le nombre de dates différentes est l'un des principaux éléments de questionnement lors des phases de documentation et de consultation. La plupart du temps, cela provient d'une confusion entre les deux types de dates
 * celles concernant la ressource qui est documentée (donnée, service, etc.) ;
-* celles concernant la fiche de métadonnée.
+* celles concernant la fiche de métadonnée portant sur cette ressours.
+
+Pour information, Isogeo utilise systématiquement le calendrier grégorien.
+
+_____
 
 ## Les dates concernant la ressource
 
-Les dates liées
+Les dates liées à la donnée sont regroupées dans l'onglet [`Histoire`](/fr/features/documentation/md_history.html) et sont réparties dans 2 sections différentes :
+* [Période de validité](/fr/features/documentation/md_history.html#priode-de-validit) et [Fréquence de mise à jour](/fr/features/documentation/md_history.html#frquence-de-mise--jour) ;
+* [Evénements](/fr/features/documentation/md_history.html#evnements).
 
-
+#### Dates automatiques et manuelles
 
 Parmi toutes cas dates, seules les dates de modification sont automatiquement renseignées par le scan.
 
-> Astuce : lorsqu'une fiche est créée (manuellement ou automatiquement), la date de création est ![APP - Date de création vide](/fr/images/annex_dates_data_creationDate_empty_APP.png "La date de création doit être renseignée manuellement")
+En effet, lorsqu'une fiche est créée (manuellement ou automatiquement), la date de création est ![APP - Date de création vide](/fr/images/annex_dates_data_creationDate_empty_APP.png "La date de création doit être renseignée manuellement") car la date remontée informatiquement est la date de création sur le disque dur et non celle correspondant à la date de création initiale de la ressource.
 
-ce qui est auto, ce qui ne l'est pas
-2 types de dates
+Par exemple, si le référentiel GéoFLA du 01/12/2013 est copié sur un ordinateur pour la première fois le 01/03/2014, c'est cette dernière date qui serait remontée. Or, celle qu'il faut renseigner est celle correspondant à la création initiale de la donnée (c'est-à-dire le 01/12/2013).
 
-### Vie et évolutions de la donnée
+### Evénements : vie et évolutions de la donnée
 
-Une date de référence de la ressource est une information représentative de la vie de la ressource (création, publication, révision),
+Une date de référence de la ressource est une information représentative de la vie de la ressource. Il en existe 3 types, distingées par des couleurs dans l'application :
+* <span style="color:#8FB39B">création (en vert)</span>,
+* <span style="color:#bed3db">publication (en gris)</span>,
+* <span style="color:#6480a7">modification ou révision (en bleu)</span>.
 
 ![APP - Evénements d'une ressource](/fr/images/inv_edit_one_history_events_allTypes.png "Les différents types d'événements de la vie d'une ressource")
 
-* Il peut y avoir plus d’une date de publication.
-* II ne doit pas y avoir plus d’une date de dernière révision.
+Quelques règles encadrent ces dates :
 * Il ne doit pas y avoir plus d’une date de création.
+* Il peut y avoir plus d’une date de publication ;
+* II ne doit pas y avoir plus d’une date de dernière révision mais il peut y avoir plusieurs dates de révision (la plus récente est évidemment prise en compte) ;
 
-### Actualité / obsolescence de la donnée
+### Validité et mise à jour : actualité et obsolescence de la donnée
 
+Les sections [Période de validité](/fr/features/documentation/md_history.html#priode-de-validit) et [Fréquence de mise à jour](/fr/features/documentation/md_history.html#frquence-de-mise--jour) définissent  une indication de la période de temps couverte par la ressource, ce qui est un indicateur de l’actualité de la ressource.
 
+Par exemple, cela définit la période de validité d’un Plan Local d’Urbanisme (PLU).
 
-’étendue temporelle fournit une indication de la période de temps couverte par la ressource, ce qui est un indicateur de l’actualité de la ressource.
-La date de dernière révision n’a de sens que si elle se distingue de la date de création.
+![APP - Validité et fréquence](/fr/images/annex_dates_data_temporalValidity_APP.png "Les dates qui définissent l'actualité et l'obsolescence d'une ressource")
 
-![APP - Evénements d'une ressource](/fr/images/annex_dates_data_temporalValidity_APP.png "Les différents types d'événements de la vie d'une ressource")
+_____
 
 ## Les dates concernant la métadonnée
 
