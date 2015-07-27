@@ -4,7 +4,7 @@ Le nombre de dates différentes est l'un des principaux éléments de questionne
 * celles concernant la ressource qui est documentée (donnée, service, etc.) ;
 * celles concernant la fiche de métadonnée portant sur cette ressours.
 
-Pour information, Isogeo utilise systématiquement le calendrier grégorien.
+Pour information, Isogeo utilise systématiquement le calendrier grégorien et les dates sont stockées sous forme de *timestamp* selon l'[ISO 8601](https://fr.wikipedia.org/wiki/ISO_8601) dans le [fuseau horaire UTC](https://fr.wikipedia.org/wiki/ISO_8601#Fuseau_horaire).
 
 _____
 
