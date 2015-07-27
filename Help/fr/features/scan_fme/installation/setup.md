@@ -61,9 +61,18 @@ Si le point est rouge, utilisez la fonction « Rafraîchir » disponible via le 
 
 Si rien ne change au bout de 5 minutes, [contacter le support](/fr/support/README.html).
 
-## Erreurs les plus fréquentes
+## Erreurs fréquentes
 
-* l'user a pas les droits : symptômes
-* FME n'accè pas au dossier ou à la base
-* le service démarre pas : vérifier si le port `TCP 5671` est bien ouvert en direction de `daemons-mq.isogeo.com`.
+### Du côté de l'installation
 
+Si le message suivant s'affiche, veuillez vérifier [les prérequis](/fr/features/scan_fme/installation/prerequisites.html), en particulier [les droits de l'utilisateur configuré](/fr/features/scan_fme/installation/prerequisites.html#compte-utilisateur) pour lancer le service.
+
+![Service non démarré](/fr/images/scanFME_install_errors_ServiceDoNotStart.png "Le service n'a pas démarré")
+
+### Du côté de l'interface
+
+Si en lançant un scan sur un point d'entrée, le message suivant s'affiche, merci de :
+* vérifier les paramètres du point d'entrée,
+* vérifier les droits de [l'utilisateur configuré](/fr/features/scan_fme/installation/prerequisites.html#compte-utilisateur)) pour lancer le service.
+
+![Echec du scan](/fr/images/scanFME_scan_errors_UnableToAccessEntryPoint.png "Impossible d'accéder au chemin spécifié")
