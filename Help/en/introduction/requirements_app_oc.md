@@ -19,6 +19,8 @@ To access an OpenCatalog, the following browsers are supported:
 
 ## Internet connection
 
-A minimum Internet download speed of **1 Megabits per second** is required for accessing Isogeo platform.
+A minimum Internet download speed of:
+* **1 Megabits per second** is required for accessing `Isogeo App`,
+* **500 Kilobits per second** is required for accessing `OpenCatalog`.
 
 > Tip: test your connection velocity with [Speed Test](http://www.speedtest.net/).

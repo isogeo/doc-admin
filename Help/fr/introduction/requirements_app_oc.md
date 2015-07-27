@@ -19,8 +19,10 @@ Pour accéder à un OpenCatalog, les navigateurs supportés sont :
 
 ## Connexion internet
 
-Pour pouvoir accéder à la plateforme Isogeo, un débit descendant **minimum de 1 Mb/s** est requis.
+Un débit descendant minimum de :
+* **1 Mb/s** est requis pour accéder à `Isogeo App`,
+* **500 Kb/s** est requis pour accéder à `OpenCatalog`.
 
-> Astuce : tester la vitese de votre connexion sur [Speed Test](http://www.speedtest.net).
+> Astuce : tester la vitesse de votre connexion sur [Speed Test](http://www.speedtest.net).
 
 
