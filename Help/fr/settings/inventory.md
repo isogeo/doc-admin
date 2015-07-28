@@ -20,15 +20,20 @@ Vous y retrouvez :
 Sous la barre des menus, une barre d'actions permet (de gauche à droite) :
 
 * de créer une fiche manuelle ;
+
 * de gérer les sélections :
     * sélectionner toutes les fiches de la page en cours ;
     * retirer de la sélection les fiches de la page en cours ;
     * vider la sélection.
+
 * de gérer les options de tri :
     * par date de création de la métadonnée (par défaut) ;
     * par date de dernière modification de la métadonnée ;
     * par titre ;
-    * par date de création de la donnée.
+    * par date de création de la donnée ;
+    * par date de dernière modification de la donnée ;
+    * par date de publication de la donnée.
+
 * d'aller à une page en particulier.
 
 Tout en bas à gauche, il est possible de régler la pagination :
