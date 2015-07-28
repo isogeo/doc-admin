@@ -27,7 +27,7 @@ The elements in the graphics act as filtered shortcuts on the inventory. Thus, f
 
 ## The workgroup's point of contact
 
-The contact details shown are those of the workgroup's global point of contact. It is assigned as the [point of contact for all metadata](http://georezo.net/wiki/main/donnees/inspire/aide_a_la_saisie_des_metadonnees_inspire#point_de_contact_des_metadonnees); this information is required by the INSPIRE directive, for example.  This point of contact must be distinguished from [contacts associated with datasets and services](http://georezo.net/wiki/main/donnees/inspire/aide_a_la_saisie_des_metadonnees_inspire#organisations_responsables_de_l_etablissement_de_la_gestion_de_la_maintenance_et_de_la_diffusion_des_series_et_services_de_donnees_geographiques), which must be specified in the corresponding records.
+The contact details shown are those of the workgroup's global point of contact. It is assigned as the [point of contact for all metadata (fr)](http://georezo.net/wiki/main/donnees/inspire/aide_a_la_saisie_des_metadonnees_inspire#point_de_contact_des_metadonnees); this information is required by the INSPIRE directive, for example.  This point of contact must be distinguished from [contacts associated with datasets and services (fr)](http://georezo.net/wiki/main/donnees/inspire/aide_a_la_saisie_des_metadonnees_inspire#organisations_responsables_de_l_etablissement_de_la_gestion_de_la_maintenance_et_de_la_diffusion_des_series_et_services_de_donnees_geographiques), which must be specified in the corresponding records.
 
 Consequently, it is most important that you enter these contact details by clicking on the edit icon shown when you hold the mouse over the top right part of this area:
 

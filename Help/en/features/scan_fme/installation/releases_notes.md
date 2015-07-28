@@ -6,6 +6,15 @@ To check which version of the service is installed on your machine, hover the mo
 
 ![FME scan - version](/en/images/scanFME_service_version.png "Checking the service version")
 
+### 1.3.4
+
+* Add LAS format
+* (Fix) a scan continue even if the service could'nt access a system folder
+
+### 1.3.3
+
+* (Fix) The convex hull are generated even if coordinates system isn't recognized (value *_FME_0*)
+
 ### 1.3.2
 
 * New [NSSM](http://nssm.cc/) version (used to manage the Windows service)

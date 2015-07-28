@@ -1,6 +1,6 @@
 # Managing my password
 
-Proceed as follows to [change your password](https://id.isogeo.com/change-password):
+Proceed as follows to [change your password](https://app.isogeo.com/new-password):
 
 1.	Click on your name at the top right of the page.
 2.	Choose the "Settings" option to access your user account settings.

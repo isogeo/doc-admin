@@ -20,7 +20,7 @@ Follow these best practices to expedite handling of your issue:
 
 ## E-mail template to report an error
 
-**To:** [support@isogeo.fr](mailto:support@isogeo.fr?subject=[Scan / OpenCatalog / APP] sujet probleme&cc=projets@isogeo.fr)
+**To:** [support@isogeo.fr](mailto:support@isogeo.fr?subject=[Scan / OpenCatalog / APP] Issue object&cc=projets@isogeo.fr)
 
 **Copy:** project_manager@isogeo.fr
 
