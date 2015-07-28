@@ -73,6 +73,6 @@ Si le message suivant s'affiche, veuillez vérifier [les prérequis](/fr/feature
 
 Si en lançant un scan sur un point d'entrée, le message suivant s'affiche, merci de :
 * vérifier les paramètres du point d'entrée,
-* vérifier les droits de [l'utilisateur configuré](/fr/features/scan_fme/installation/prerequisites.html#compte-utilisateur)) pour lancer le service.
+* vérifier les droits de [l'utilisateur configuré](/fr/features/scan_fme/installation/prerequisites.html#compte-utilisateur) pour lancer le service.
 
 ![Echec du scan](/fr/images/scanFME_scan_errors_UnableToAccessEntryPoint.png "Impossible d'accéder au chemin spécifié")
