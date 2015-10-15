@@ -10,6 +10,7 @@ Vous pouvez facilement vérifier la version du service installée chez vous en p
 
 * Format LAS
 * (Fix) Un scan continue même si le service n’a pas pu lire un dossier
+* MAJ des dépendances
 
 ### 1.3.3
 
