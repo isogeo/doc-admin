@@ -11,10 +11,10 @@ Le moteur de recherche d’Isogeo porte sur les champs suivants :
 * Les mots-clés ;
 * Les thématiques INSPIRE.
 
-Il est important de garder certaines caractéristiques à l’esprit :
+Il est important de garder certaines caractéristiques à l’esprit, notamment à propos de la recherche textuelle :
 
-* Il est insensible à la casse (minuscules / majuscules) ;
-* Il ne prend pas en compte les caractères spéciaux (points, accents…).
+* Il est insensible à la casse (minuscules / majuscules), donc 'ABC' est équivalent à 'abc' ;
+* Il ne prend pas en compte les caractères spéciaux (points, accents…), donc 'àéù' est équivalent à 'aeu'.
 
 ## Les principes d'une recherche optimale
 
@@ -43,8 +43,11 @@ Lorsque l'on tape dans la barre de recherche, l’auto-complétion propose les 3
 ### Fonctionnement détaillé
 
 * en navigant de haut en bas sur les tags proposés, la valeur sélectionnée s'affiche (en remplaçant) dynamiquement au champ de recherche ;
+
 * en cliquant sur l’une des propositions, la valeur sélectionnée est ajoutée à la recherche ;
+
 * en appuyant sur la touche *Entrée*, la recherche est lancée avec les valeurs déjà ajoutées ;
+
 * en appuyant sur la touche *Espace*, l’autocomplétion repart de zéro, l’utilisateur peut ainsi ajouter plusieurs tags au fur et à mesure.
 
 ![Démo auto-complétion](/fr/images/search_bar_autocompletion.gif "L'auto-complétion permet de gagner du temps lors de la recherche")

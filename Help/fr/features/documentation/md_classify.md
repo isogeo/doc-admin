@@ -10,7 +10,7 @@ Dans tous les cas, une donnée peut se voir affecter une ou plusieurs étiquette
 
 ## Comment étiqueter
 
-Première étape du cycle de documentation, il est très facile d'étiqueter dans Isogeo et il est possible d'affecter les 3 types d'étiquettes :
+Première étape du cycle de documentation, il est possible d'affecter 3 types d'étiquettes via un simple bouton :
 
 1.	Aller dans l'inventaire et sélectionner une ou plusieurs données ;
 2.	Cliquer sur `Etiqueter`, le widget se déroule alors ;
@@ -28,3 +28,13 @@ Vous voyez alors :
     * `Voir les mots-clés` permet d'afficher les mots-clés utilisés dans les données selectionnées et les mots-clés correspondant à la recherche saisie ;
 
 ![Affecter et enlever des mots-clés](/fr/images/inv_edit_tags_keywords.gif "Mots-clés")
+
+## Le pot commun des mots-clés sur Isogeo
+
+Les mots-clés libres sont issus d'un référentiel ouvert et partagé à tous les groupes de travail de la plateforme Isogeo. Cela permet d'assurer une certaine cohérence au niveau de la documentation des métadonnées et de guider les éditeurs au moment de choisir les étiquettes.
+
+Cependant, il faut garder quelques règles en tête :
+
+* on ne peut pas créer 2 mots-clés avec une casse différente : ce sont les mêmes ('ABC' est équivalent à 'abc') ;
+
+* on peut créer 2 mots-clés qui diffèrent par leur accentuation : ils seront tous 2 renvoyés par les mêmes critères de recherche textuelle, avec ou sans accents ('àéù' est différent de 'aeu') ;
