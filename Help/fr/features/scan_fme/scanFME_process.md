@@ -1,4 +1,8 @@
-# Fonctionnement du scan FME
+# Fonctionnement du scan
+
+## Fonctionnement
+
+Si une licence est disponible, le scan peut si besoin lancer 3 instances de FME en parallèle (avec une seule licence utilisée). Il y a ensuite un système de file d'attente, dès qu'une instance se termine un autre se lance.
 
 ## Processus
 

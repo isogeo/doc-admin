@@ -26,7 +26,7 @@ FME doit être installé et parfaitement configuré pour accéder et manipuler v
 * FME Desktop 2014 ;
 * FME Desktop 2015.
 
-Ainsi que les Service Pack associés (SP1, SP2, SP3, SP4).
+Ainsi que les Service Pack associés.
 
 ## Compte utilisateur
 

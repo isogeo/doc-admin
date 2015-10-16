@@ -1,4 +1,4 @@
-# Guide d'installation du service Isogeo Worker
+# Guide d'installation du service de scan
 
 ## Historique
 
