@@ -13,18 +13,18 @@ Il y a plusieurs types de fiches de métadonnées possibles :
 
 ## Onglets par type de fiches de métadonnées
 
-| Onglet          | Vecteur | Raster  | Ensemble | Service | Ressource | Ed. / lot |
-|:---------------:|:-------:|:-------:|:--------:|:-------:|:---------:|:---------:|
-| Identification  | X       | X       | X        | X       | X         | X         |
-| Histoire        | X       | X       | X        | X       | X         | X         |
-| Géographie      | X       | X       | X        | X       |           | X         |
-| Qualité         | X       | X       | X        |         |           | X         |
-| Attributs       | X       |         | X        |         |           | X         |
-| CGU             | X       | X       | X        | X       | X         | X         |
-| Ressources      | X       | X       | X        | X       | X         | X         |
-| Contacts        | X       | X       | X        | X       | X         | X         |
-| Avancé          | X       | X       | X        |         |           | X         |
-| Métadonnée      | X       | X       | X        | X       | X         | X         |
+| Onglet          | Vecteur | Raster  | Ensemble | Service | Ressource | Queue d'URL      |
+|:---------------:|:-------:|:-------:|:--------:|:-------:|:---------:|:----------------:|
+| Identification  | X       | X       | X        | X       | X         | /identification  |
+| Histoire        | X       | X       | X        | X       | X         | /history         |
+| Géographie      | X       | X       | X        | X       |           | /geography       |
+| Qualité         | X       | X       | X        |         |           | /quality         |
+| Attributs       | X       |         | X        |         |           | /attributes      |
+| CGU             | X       | X       | X        | X       | X         | /constraints     |
+| Ressources      | X       | X       | X        | X       | X         | /resources       |
+| Contacts        | X       | X       | X        | X       | X         | /contacts        |
+| Avancé          | X       | X       | X        |         |           | /advanced        |
+| Métadonnée      | X       | X       | X        | X       | X         | /metadata        |
 
 
 
