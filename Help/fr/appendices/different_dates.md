@@ -35,6 +35,7 @@ Quelques règles encadrent ces dates :
 * Il ne doit pas y avoir plus d’une date de création.
 * Il peut y avoir plus d’une date de publication ;
 * II ne doit pas y avoir plus d’une date de dernière révision mais il peut y avoir plusieurs dates de révision (la plus récente est évidemment prise en compte) ;
+* Pour des raisons de lisibilité, les événements sont regroupés par jour.
 
 ### Validité et mise à jour : actualité et obsolescence de la donnée
 
