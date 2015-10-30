@@ -14,6 +14,9 @@ L’onglet « Qualité » précise les spécifications utilisées pour collecter
 | Edition par lot     | Oui, par incrémentation       |
 | Scan                | Non                           |
 | Moteur de recherche | Non                           |
+| Fiche ressource     | Non                           |
+| Fiche service       | Oui                           |
+
 
 ### Cohérence topologique
 
@@ -25,3 +28,6 @@ L’onglet « Qualité » précise les spécifications utilisées pour collecter
 | Edition par lot     | Oui, par écrasement           |
 | Scan                | Non                           |
 | Moteur de recherche | Non                           |
+| Fiche ressource     | Non                           |
+| Fiche service       | Non                           |
+

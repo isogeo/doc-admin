@@ -10,7 +10,7 @@ La structure des fiches de métadonnées sur les jeux de données géographiques
 
 Pleinement interopérable, la plateforme Isogeo maintient à jour en permanence la [version 19139:2007](http://www.iso.org/iso/catalogue_detail.htm?csnumber=32557) des fiches de métadonnées, vous permettant de les récupérer à tout moment à des fins d'échanges ou d'import dans une autre fiche par exemple.
 
-Elle est accessible dans la section `Serices associés` de l'onglet Ressources d'une fiche ou sous le bouton "Télécharger" lorsque la fiche est partagée dans un OpenCatalog.
+Elle est systématiquement accessible dans la section `Services associés` de l'onglet Ressources d'une fiche ou sous le bouton `Télécharger` lorsque la fiche est partagée dans un OpenCatalog.
 
 ### Liens associés
 

@@ -14,6 +14,9 @@ L’onglet « Géographie » représente l’emprise de la donnée sur une carte
 | Edition par lot            | Oui, par écrasement    |
 | Scan                       | Oui, enveloppe convexe |
 | Moteur de recherche        | Non                    |
+| Fiche ressource            | Non                           |
+| Fiche service              | Oui                           |
+
 
 > Astuce : si l'enveloppe convexe n'est pas reconnue automatiquement par le scan, consultez [l'annexe à ce sujet](/fr/appendices/scan_srsnotfound_fme_fix.html).
 
@@ -35,6 +38,9 @@ Pour dessiner manuellement l’emprise de la donnée sur la carte :
 | Edition par lot            | Oui, par écrasement           |
 | Scan                       | Oui                           |
 | Moteur de recherche        | Non                           |
+| Fiche ressource            | Non                           |
+| Fiche service              | Non                           |
+
 
 ### Géométrie
 
@@ -46,6 +52,9 @@ Pour dessiner manuellement l’emprise de la donnée sur la carte :
 | Edition par lot            | Oui, par écrasement    |
 | Scan                       | Oui                    |
 | Moteur de recherche        | Non                    |
+| Fiche ressource            | Non                           |
+| Fiche service              | Non                           |
+
 
 ### Systèmes de coordonnées
 
@@ -57,6 +66,9 @@ Pour dessiner manuellement l’emprise de la donnée sur la carte :
 | Edition par lot            | Oui, par écrasement    |
 | Scan                       | Oui                    |
 | Moteur de recherche        | Filtre                 |
+| Fiche ressource            | Non                    |
+| Fiche service              | Non                    |
+
 
 > Astuce : si le système de coordonnées n'est pas reconnu automatiquement par le scan, consultez [l'annexe à ce sujet](/fr/appendices/scan_srsnotfound_fme_fix.html).
 
@@ -70,6 +82,9 @@ Pour dessiner manuellement l’emprise de la donnée sur la carte :
 | Edition par lot            | Oui, par écrasement                         |
 | Scan                       | Non                                         |
 | Moteur de recherche        | Non                                         |
+| Fiche ressource            | Non                                         |
+| Fiche service              | Non                                         |
+
 
 ### Résolution
 
@@ -78,7 +93,10 @@ Pour dessiner manuellement l’emprise de la donnée sur la carte :
 | Indications                | Numérique et exprimée en mètres|
 | Exemple                    |  5 m |
 | Exigence INSPIRE           | Obligatoire si l'échelle n'est pas renseignée |
-| Edition par lot            | Oui, par écrasement                         |
-| Scan                       | Non                                         |
-| Moteur de recherche        | Non                                         |
+| Edition par lot            | Oui, par écrasement                           |
+| Scan                       | Non                                           |
+| Moteur de recherche        | Non                                           |
+| Fiche ressource            | Non                                           |
+| Fiche service              | Non                                           |
+
 

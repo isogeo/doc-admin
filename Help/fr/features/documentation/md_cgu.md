@@ -14,6 +14,8 @@ L’onglet « CGU » précise les conditions d’accès et d’utilisation de la
 | Edition par lot     | Oui, par incrémentation       |
 | Scan                | Non                           |
 | Moteur de recherche | Non                           |
+| Fiche ressource     | Oui                           |
+| Fiche service       | Oui                           |
 
 ### Limitations
 
@@ -25,4 +27,7 @@ L’onglet « CGU » précise les conditions d’accès et d’utilisation de la
 | Edition par lot     | Oui, par incrémentation       |
 | Scan                | Non                           |
 | Moteur de recherche | Non                           |
+| Fiche ressource     | Oui                           |
+| Fiche service       | Oui                           |
+
 

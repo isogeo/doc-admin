@@ -14,6 +14,9 @@ Cet onglet donne les éléments de connaissance basique sur une ressource. Il es
 | Edition par lot            | Oui, par écrasement |
 | Scan                       | Non                 |
 | Moteur de recherche        | Oui (+ tri)         |
+| Fiche ressource            | Oui                           |
+| Fiche service              | Oui                           |
+
 
 ### Résumé
 
@@ -25,19 +28,26 @@ Cet onglet donne les éléments de connaissance basique sur une ressource. Il es
 | Edition par lot            | Oui, par écrasement |
 | Scan                       | Non                 |
 | Moteur de recherche        | Oui                 |
+| Fiche ressource            | Oui                           |
+| Fiche service              | Oui                           |
+
 
 ### Emplacement / nom de la donnée
 
 | Définition          | L’emplacement de stockage de la donnée, qu'il s'agisse d'un fichier ou d'une base de données. |
 | :------------------ | :--  |
-| Indications         | Rien de particulier. |
+| Indications         | En ce qui concerne les données et les ressources, le chemin absolu depuis le scan est indiqué pour les fichiers et le schéma pour les tables en base de données. Le champ reste libre pour les fiches manuelles.<br />En ce qui concerne les services, il sagit d'indiquer l'URL du GetCapabilities du sevrice concerné. |
 | Exemple             | \\\datastore\SIG\DATA\Vecteur\GeoFLA\2014\Communes\Métropole\COMMUNE.SHP |
 | Exigence INSPIRE    | Obligatoire         |
 | Edition par lot     | Oui, par écrasement |
 | Scan                | Oui : <br />- Chemin absolu pour les fichiers,<br />- Nom du serveur + le nom de la base / l'instance,<br />- Nom du fichier SDE pour les cartouches Esri |
 | Moteur de recherche | X                   |
+| Fiche ressource     | Oui                           |
+| Fiche service       | Oui, l'URL du GetCapabilities |
+
 
 
 ### Rapport de validation d'INSPIRE
 
 Pour toutes les données visées par la directive Inspire, permet également de savoir si la métadonnée est conforme ou non à la norme.
+Le valideur dynamique n'est pas actif sur les fiches de type *service* et *ressource*.

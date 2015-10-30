@@ -14,6 +14,8 @@ L’onglet « Histoire » décrit le contexte et la méthode de création de la 
 | Edition par lot            | Oui, par écrasement |
 | Scan                       | Non                 |
 | Moteur de recherche        | Non                 |
+| Fiche ressource            | Non                 |
+| Fiche service              | Non                 |
 
 ### Méthode de collecte
 
@@ -25,6 +27,8 @@ L’onglet « Histoire » décrit le contexte et la méthode de création de la 
 | Edition par lot            | Oui, par écrasement |
 | Scan                       | Non                 |
 | Moteur de recherche        | Non                 |
+| Fiche ressource            | Non                 |
+| Fiche service              | Non                 |
 
 ### Période de validité
 
@@ -36,6 +40,8 @@ L’onglet « Histoire » décrit le contexte et la méthode de création de la 
 | Edition par lot            | Oui, par écrasement |
 | Scan                       | Non                 |
 | Moteur de recherche        | Non                 |
+| Fiche ressource            | Non                 |
+| Fiche service              | Non                 |
 
 ### Commentaire
 
@@ -47,6 +53,8 @@ L’onglet « Histoire » décrit le contexte et la méthode de création de la 
 | Edition par lot            | Oui, par écrasement |
 | Scan                       | Non                 |
 | Moteur de recherche        | Non                 |
+| Fiche ressource            | Non                 |
+| Fiche service              | Non                 |
 
 ### Fréquence de mise à jour
 
@@ -58,6 +66,8 @@ L’onglet « Histoire » décrit le contexte et la méthode de création de la 
 | Edition par lot            | Oui, par écrasement |
 | Scan                       | Non                 |
 | Moteur de recherche        | Non                 |
+| Fiche ressource            | Non                 |
+| Fiche service              | Non                 |
 
 ### Evénements
 
@@ -69,5 +79,7 @@ L’onglet « Histoire » décrit le contexte et la méthode de création de la 
 | Edition par lot            | Oui par incrémentation, pour les dates de modification et de publication |
 | Scan                       | Oui, pour les dates de modification |
 | Moteur de recherche        | Tri                                 |
+| Fiche ressource            | Oui                                 |
+| Fiche service              | Oui                                 |
 
 > Astuce : chaque événement étant une sous-ressource de la métadonnée, il faut enregistrer les modifications de chaque événement avant d'enregistrer les modifications au niveau de la ressource, sans quoi les modifications seront perdues !

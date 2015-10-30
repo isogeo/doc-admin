@@ -18,12 +18,12 @@ Il y a plusieurs types de fiches de métadonnées possibles :
 | Identification  | X       | X       | X        | X       | X         | /identification  |
 | Histoire        | X       | X       | X        | X       | X         | /history         |
 | Géographie      | X       | X       | X        | X       |           | /geography       |
-| Qualité         | X       | X       | X        |         |           | /quality         |
+| Qualité         | X       | X       | X        | X       |           | /quality         |
 | Attributs       | X       |         | X        |         |           | /attributes      |
 | CGU             | X       | X       | X        | X       | X         | /constraints     |
 | Ressources      | X       | X       | X        | X       | X         | /resources       |
 | Contacts        | X       | X       | X        | X       | X         | /contacts        |
-| Avancé          | X       | X       | X        |         |           | /advanced        |
+| Avancé          | X       | X       | X        | X       | X         | /advanced        |
 | Métadonnée      | X       | X       | X        | X       | X         | /metadata        |
 
 

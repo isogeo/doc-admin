@@ -12,6 +12,8 @@ L’onglet « Contact » permet d’affecter, depuis votre carnet d’adresse, u
 | Edition par lot     | Oui, par incrémentation       |
 | Scan                | Non                           |
 | Moteur de recherche | Non                           |
+| Fiche ressource     | Oui                           |
+| Fiche service       | Oui                           |
 
 
 > Astuce : il est possible d'ajouter plusieurs fois le même contact avec des rôles différents mais supprimer une fois ce contact, supprime tous ses rôles.

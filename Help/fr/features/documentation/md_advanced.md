@@ -13,17 +13,21 @@ L’onglet « Avancé » permet de spécifier le format, la version du format et
 | Edition par lot     | Oui, par écrasement           |
 | Scan                | Oui                           |
 | Moteur de recherche | Filtres                       |
+| Fiche ressource     | Non                           |
+| Fiche service       | Non                           |
 
 ### Format
 
 | Définition          | Format informatique                               |
 | :------------------ | :------------------------------------------------ |
-| Indications         | Cette liste est restreinte aux formats reconnus automatiquement par Isogeo. |
-| Exemple             | Shapefile<br />Version 1.0|
-| Exigence INSPIRE    | Obligatoire                   |
-| Edition par lot     | Oui, par écrasement           |
-| Scan                | Oui                           |
-| Moteur de recherche | Filtres                       |
+| Indications         | Cette liste est restreinte aux formats reconnus automatiquement par Isogeo.<br />En ce qui concerne les métadonnées de service, la liste est celle des 6 protocles reconnus (WMS, WFS, WMTS, Esri Feature, Esri Map, Esri Tiled Map).<br />En ce qui concerne les métadonnées de ressource, la liste est libre. |
+| Exemple             | Shapefile<br />Version 1.0<br /><br />WMS<br />1.3.0<br /><br />Microsoft Word<br />2013 |
+| Exigence INSPIRE    | Obligatoire                                |
+| Edition par lot     | Oui, par écrasement                        |
+| Scan                | Oui (pas la version)                       |
+| Moteur de recherche | Filtres (sauf pour les formats libres des fiches ressources qui sont seulement il s'agit d'indiquerpris en compte dans la recherche textuelle) |
+| Fiche ressource     | Oui, liste libre                              |
+| Fiche service       | Oui, liste spécifique des formats OGC et Esri reconnus |
 
 ### Encodage
 
@@ -35,3 +39,5 @@ L’onglet « Avancé » permet de spécifier le format, la version du format et
 | Edition par lot     | Oui, par écrasement           |
 | Scan                | Non                           |
 | Moteur de recherche | Non                           |
+| Fiche ressource     | Non                           |
+| Fiche service       | Non                           |

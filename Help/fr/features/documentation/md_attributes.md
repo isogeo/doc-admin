@@ -15,6 +15,9 @@ L’onglet « Attribut » liste tous les champs attributaires de la donnée et p
 | Edition par lot     | Oui, par incrémentation       |
 | Scan                | Oui                           |
 | Moteur de recherche | Non                           |
+| Fiche ressource     | Non                           |
+| Fiche service       | Non                           |
+
 
 
 ### Edition par lot de la langue des attributs
