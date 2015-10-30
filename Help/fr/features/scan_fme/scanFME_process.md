@@ -2,7 +2,11 @@
 
 ## Fonctionnement
 
-Si une licence est disponible, le scan peut si besoin lancer 3 instances de FME en parallèle (avec une seule licence utilisée). Il y a ensuite un système de file d'attente, dès qu'une instance se termine un autre se lance.
+Le scan se sert de FME pour parcourir les données et nécessite donc qu'une licence soit disponible durant le processus. Par défaut, le scan lance jusqu'à 3 instances de FME en parallèle, avec une seule licence utilisée. Chaque instance s'occupe d'une action associée à une donnée : par exemple *signer GEOFLA.DEPARTEMENTS* ou *documenter GEOFLA.COMMUNES*. Un système de file d'attente (indépendante des points d'entrée) démarre une nouvelle instance dès qu'une se termine.
+
+La licence de FME utilisée est de nouveau disponible pour d'autres usages une fois le scan terminé.
+
+> Astuce : le service de scan permet d'utiliser jusqu'à 5 instances de FME à partir de la même licence. Si le serveur est suffisamment dimensionné pour supporter cette charge, il suffit d'éditer le fichier *worker.bat* dans le dossier *daemon* de l'installation du scan et de modifier le paramètre `MAX_FME_CONCURRENCY_LIMIT`, avant enfin de redémarrer le service.
 
 ## Processus
 
