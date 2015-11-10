@@ -19,12 +19,18 @@ L’onglet « Attribut » liste tous les champs attributaires de la donnée et p
 | Fiche service       | Non                           |
 
 
-
 ### Edition par lot de la langue des attributs
 
 De façon à faciliter la saisie de la langue des attributs, il est possible de l'affecter en une seule fois **uniquement aux champs textuels qui contiennent du texte traduisible**. De façon à respecter les bonnes pratiques de modélisation d'une base de données relationnelle, les types suivants sont éligibles :
-* Oracle : *VARCHAR2* et *NVARCHAR2*, de taille variable ;
-* SQL Server : *VARCHAR* ou *NVARCHAR*.
+
+* clob
+* nvarchar
+* nvarchar2
+* string
+* text
+* texte
+* varchar
+* varchar2
 
 En revanche les attributs de type *CHAR* ou *NCHAR*, de taille fixe, sont destinés à recevoir des listes de valeur, des énumérations, qui s'apparentent à des codes informatiques. Ils ne sont donc pas concernés par cette fonctionnalité.
 
