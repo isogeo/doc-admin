@@ -13,6 +13,8 @@
 ::                 /?        - Gets the usage for this script
 ::--------------------------------------------------------------------
 
+COLOR 07
+
 
 
 :: Reset ERRORLEVEL
@@ -37,34 +39,30 @@ GOTO ARGS
 :: -------------------------------------------------------------------
 :BUILD
 ::Yeah, really: https://github.com/isaacs/npm/issues/3697
-ECHO.
-CALL npm.cmd install rimraf -g
-node.exe %APPDATA%\npm\node_modules\rimraf\bin.js node_modules
+"%NodeJsHomePath%node.exe" "%APPDATA%\npm\node_modules\rimraf\bin.js" node_modules
 
 ECHO.
 .nuget\NuGet.exe install ".nuget\packages.config" -o packages -source "https://nuget.org/api/v2/" -source "http://nuget.hq.isogeo.fr/nuget/" -source "%LocalAppData%\NuGet\Cache"
+ECHO.
 msbuild.exe %PROJECT% /nologo /t:%TARGET% /m:%NUMBER_OF_PROCESSORS% /p:GenerateDocumentation="%GENERATE_DOCUMENTATION%" /fl /flp:logfile=build.log;verbosity=%VERBOSITY%;encoding=UTF-8 /nr:False
+IF ERRORLEVEL 1 GOTO END_ERROR
 
-IF ERRORLEVEL 1 (
-    COLOR 4E
-)
 GOTO END
 
 :BUILD_DEV
-::Yeah, really: https://github.com/isaacs/npm/issues/3697
-ECHO.
-CALL npm.cmd install rimraf -g
-node.exe %APPDATA%\npm\node_modules\rimraf\bin.js node_modules
+IF "%TARGET%"=="Clean" (
+    ::Yeah, really: https://github.com/isaacs/npm/issues/3697
+    CALL rimraf.cmd node_modules
+)
 
 ECHO.
-CALL npm.cmd install
+CALL npm.cmd install --no-bin-link --loglevel info
+IF ERRORLEVEL 1 GOTO END_ERROR
 ECHO.
 SET DEBUG=true
 CALL grunt.cmd build
+IF ERRORLEVEL 1 GOTO END_ERROR
 
-IF ERRORLEVEL 1 (
-    COLOR 4E
-)
 GOTO END
 
 
@@ -101,6 +99,10 @@ IF "%DEV_BUILD%"=="True" GOTO SETENV_DEV ELSE GOTO SETENV
 CALL :SetMSBuildToolsPathHelper > nul 2>&1
 IF ERRORLEVEL 1 GOTO ERROR_MSBUILD
 ECHO SET MSBuildToolsPath=%MSBuildToolsPath%
+
+CALL :SetNodeJsHomePathHelper > nul 2>&1
+IF ERRORLEVEL 1 GOTO ERROR_NODEJS
+ECHO SET NodeJsHomePath=%NodeJsHomePath%
 
 SET PATH=%MSBuildToolsPath%;%PATH%
 GOTO BUILD
@@ -259,6 +261,9 @@ GOTO END
 :: -------------------------------------------------------------------
 :: End
 :: -------------------------------------------------------------------
+:END_ERROR
+COLOR 4E
+
 :END
 @IF NOT "%NO_PAUSE%"=="1" PAUSE
 ENDLOCAL

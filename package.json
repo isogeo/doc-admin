@@ -14,10 +14,10 @@
     "url": "https://bitbucket.org/isogeo/isogeo-help"
   },
   "dependencies": {
-    "gitbook": "^1.5.0",
-    "gitbook-plugin-anchors": "^0.4.0",
+    "gitbook": "^2.6.6",
+    "gitbook-plugin-anchors": "^0.5.0",
     "gitbook-plugin-customtheme": "^0.2.0",
-    "gitbook-plugin-ga": "^0.2.1",
+    "gitbook-plugin-ga": "^1.0.1",
     "gitbook-plugin-infinitescroll": "^0.1.0"
   },
   "devDependencies": {

@@ -74,7 +74,7 @@ module.exports = function (grunt) {
                     cwd: '<%= help.build %>/book',
                     src: ['**/*.pdf'],
                     rename: function(dest, src) {
-                        return dest + '/Isogeo.Help.' + src.substring(0, src.indexOf('/')) + '.<%= help.version %>.pdf';
+                        return dest + '/Isogeo.Help.' + src.substring(src.indexOf('_')+1, 2) + '.<%= help.version %>.pdf';
                     }
                 }]
             }
@@ -83,33 +83,17 @@ module.exports = function (grunt) {
     });
 
     /**
-    * Serve the book
-    */
-    grunt.registerTask('serveSite', 'Serve the book', function() {
-        var done = this.async();
-        gitbook.generate.folder({
-            input: 'Help',
-            output: 'tmp/obj/bin/site',
-            verbose: true
-        }).then(function(error) {
-            done(error);
-        }, done);
-        //TODO: host the book
-    });
-
-    /**
     * Build the book
     */
     grunt.registerTask('buildBook', 'Build the book', function() {
         var done = this.async();
-        gitbook.generate.folder({
-            input: 'Help',
-            output: 'tmp/obj/bin/book',
-            generator: 'ebook',
-            extension: 'pdf',
-            verbose: true
-        }).then(function(error) {
-            done(error);
+        var book = new gitbook.Book('./Help', {
+            logLevel: 'warn'
+        });
+        book.parse().then(function() {
+            return book.generateFile('tmp/obj/bin/book/Isogeo.Help.pdf', { ebookFormat: 'pdf' });
+        }, done).done(function() {
+            done();
         }, done);
     });
 
@@ -117,13 +101,18 @@ module.exports = function (grunt) {
      * Build the site
      */
     grunt.registerTask('buildSite', 'Build the site', function() {
-         var done = this.async();
-         gitbook.generate.folder({
-             input: 'Help',
-             output: 'tmp/obj/bin/site'
-         }).then(function(error) {
-         done(error);
-         }, done);
+        var done = this.async();
+        var book = new gitbook.Book('./Help', {
+            config: {
+                output: 'tmp/obj/bin/site'
+            },
+            logLevel: 'warn'
+        });
+        book.parse().then(function() {
+            return book.generate('website');
+        }, done).done(function() {
+            done();
+        }, done);
     });
 
     /**

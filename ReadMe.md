@@ -13,11 +13,11 @@ Isogeo.Help is the project used to generate the online help for the Isogeo platf
 
 - Run the following command from this directory: `build.bat`
 - Prerequisites:
-  * Microsoft Windows SDK 7.1
-  * Microsoft .NET Framework 4.5
-  * [node.js](http://nodejs.org/) 10.35
+  * [NodeJS](http://nodejs.org/) 4.2.x + [NPM](https://npmjs.org/) 3.5.x
+  * [Git for Windows](https://git-for-windows.github.io/)
+  * Microsoft Windows SDK 10.0
+  * Microsoft Visual Studio 2015
   * [MSBuild.Community.Tasks](http://msbuildtasks.tigris.org/) 1.3
-  * [Git for Windows](http://msysgit.github.io/)
   * [Calibre](http://calibre-ebook.com/download_windows64) 64bit 2.16.0
 
 
