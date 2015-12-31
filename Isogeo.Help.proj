@@ -1,7 +1,7 @@
 <Project
   DefaultTargets="Rebuild"
   xmlns="http://schemas.microsoft.com/developer/msbuild/2003"
-  ToolsVersion="14.0"
+  ToolsVersion="4.0"
 >
 
   <PropertyGroup>
@@ -32,5 +32,18 @@
 
   <!-- Import external targets -->
   <Import Project="$(MSBuildProjectDirectory)\packages\Isogeo.Build.*\tools\build\Isogeo.Common.targets" />
+
+  <!-- Custom targets -->
+  <Target
+    Name="UpdateBookVersion"
+    AfterTargets="UpdateVersion"
+  >
+    <FileUpdate
+      Files="Help\book.json"
+      Encoding="Windows-1252"
+      Regex="(?&lt;=&quot;version&quot;\W\s+&quot;)\d+\.\d+\.\d+\W\d+(?=&quot;)"
+      ReplacementText="$(VersionMajor).$(VersionMinor).$(VersionBuild)-$(VersionRevision)"
+    />
+  </Target>
 
 </Project>

@@ -38,6 +38,7 @@ GOTO ARGS
 :: Builds the project
 :: -------------------------------------------------------------------
 :BUILD
+"%NodeJsHomePath%node.exe" "%APPDATA%\npm\node_modules\rimraf\bin.js" tmp
 ::Yeah, really: https://github.com/isaacs/npm/issues/3697
 "%NodeJsHomePath%node.exe" "%APPDATA%\npm\node_modules\rimraf\bin.js" node_modules
 
@@ -56,10 +57,10 @@ IF "%TARGET%"=="Clean" (
 )
 
 ECHO.
-CALL npm.cmd install --no-bin-link --loglevel info
+CALL npm.cmd install --only=production --no-bin-link --loglevel info
+CALL npm.cmd install --only=development --no-bin-link --loglevel info
 IF ERRORLEVEL 1 GOTO END_ERROR
 ECHO.
-SET DEBUG=true
 CALL grunt.cmd build
 IF ERRORLEVEL 1 GOTO END_ERROR
 

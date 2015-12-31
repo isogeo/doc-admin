@@ -24,10 +24,7 @@ module.exports = function (grunt) {
         clean: {
 
             // Remove only build components
-            build: '<%= help.build %>/*',
-
-            // Remove tmp directory
-            complete: '<%= help.tmp %>/*'
+            build: '<%= help.build %>/*'
 
         },
 

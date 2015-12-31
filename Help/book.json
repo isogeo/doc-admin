@@ -49,5 +49,8 @@
     },
     "styles": {
         "custom": "styles/custom.css"
+    },
+    "variables": {
+        "version": "2.13.0-88"
     }
 }
