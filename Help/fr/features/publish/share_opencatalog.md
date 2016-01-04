@@ -36,7 +36,15 @@ Par exemple, pour intégrer l'OpenCatalog de démonstration :
 <iframe src="http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0" width="980" height="650"></iframe>
 ```
 
-Même si le site est responsive, une largeur minimum de 800 est très fortement recommandée. 980 est plus agréable. L'idéal étant 1280.
+Même si le site est responsive, il faut considérer le paramètre  `width` avec attention de façon à ne pas nuire  l'expérience utilisateur :
+* 800 est la largeur minimum très fortement recommandée ;
+* 980 pour une consultation agréable ;
+* 1280 pour une consultation optimale.
+
+#### Intégrer dans Microsoft SharePoint
+
+
+
 
 ### Rendu
 
