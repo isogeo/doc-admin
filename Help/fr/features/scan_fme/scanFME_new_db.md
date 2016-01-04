@@ -33,4 +33,3 @@ Légende :
 | Nom de l'instance           | -       |        |            | X                        |
 | Version transactionnelle    | -       |        |            | X                        |
 
-
