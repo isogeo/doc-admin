@@ -1,6 +1,6 @@
 $config = @{
     destination=@{
-        server="GW.hq.isogeo.fr"
+        server="PORCHEFONTAINE.hq.isogeo.fr"
         restart=$TRUE
         application="help.int.isogeo.com"
         path="C:\inetpub\help.int.isogeo.com"
