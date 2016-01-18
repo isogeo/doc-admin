@@ -6,6 +6,14 @@ Vous pouvez facilement vérifier la version du service installée chez vous en p
 
 ![Scan FME - version](/fr/images/scanFME_service_version.png "Vérifier la version du service")
 
+### 2.0.1
+
+* Nouvelle signature permettant de détecter le renommage et le déplacement d’une donnée.
+* Prise en compte du SRS pour tous les formats
+* Nouvelle option permettant de forcer l’utilisation du script Esri Edition pour le format ArcSDE
+* (Fix) Scan des formats raster (script lookup-raster.fmw défaillant)
+* (Fix) non prise en compte de certaines géométries CAO/DAO
+
 ### 1.3.4
 
 * Format LAS
