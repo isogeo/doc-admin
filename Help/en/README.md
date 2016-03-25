@@ -4,7 +4,7 @@ Isogeo is a web application that allows you to manage and share a comprehensive,
 
 This document gives you step-by-step instructions for its use by describing how the various modules and resources work and how they are used. If you have any difficulties that you are unable to resolve using online help,  [contact our support team](support/README.html).
 
-![The platform](/en/images/offer_schema_platform.jpg "The Isogeo platform modules and resources")
+![The platform](/images/offer_schema_platform.jpg "The Isogeo platform modules and resources")
 
 ## Using online help
 
@@ -23,4 +23,4 @@ Online help is a separate Internet site entirely based on the [GitBook](https://
 * buttons for sharing content on social media;
 * [PDF document](/en/index.pdf) generated for printing (not optimized).
 
-![Online help interface](/en/images/GitBook_help.png "Using GitBook")
+![Online help interface](/images/GitBook_help.png "Using GitBook")

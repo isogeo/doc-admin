@@ -4,7 +4,7 @@ En cliquant sur votre nom en haut à droite de votre écran, vous pouvez visuali
 
 > Astuce : Vous pouvez aussi y accéder directement via : https://app.isogeo.com/settings/account
 
-![Gestion compte utilisateur](/fr/images/params_MonCompte.png "Paramétrer son compte d'utilisateur Isogeo")
+![Gestion compte utilisateur](/images/params_MonCompte.png "Paramétrer son compte d'utilisateur Isogeo")
 
 
 ## Langue et fuseau horaire

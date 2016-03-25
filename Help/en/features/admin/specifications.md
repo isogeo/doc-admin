@@ -29,6 +29,6 @@ To add a specification to your workgroup, simply proceed as follows:
 
 All the specifications added are available in the `Quality` > `Specifications` tab.
 
-![New specification demo](/en/images/adm_specs_add.gif "Adding a new specification")
+![New specification demo](/images/adm_specs_add.gif "Adding a new specification")
 
 

@@ -15,6 +15,6 @@ To create a contact, simply proceed as follows:
 
 All contacts created can be assigned to metadata records using a metadata record's "Contact" tab.
 
-![New contact demo](/en/images/adm_contacts_add.gif "Creating a new contact")
+![New contact demo](/images/adm_contacts_add.gif "Creating a new contact")
 
 > Tip: none of the contact fields are required to create a contact. This means that you can create all your contacts at once and come back later to complete or modify them, once you have their contact details or have decided on a method or wording.

@@ -13,7 +13,7 @@ Pour activer le moissonnage d’un catalogue, il vous suffit de :
 
 L’URL du service Web CSW fourni par Isogeo dispose d’une clef sécurisée (jeton). Vous pouvez renouveler la clef de sécurité du service. Si vous le faites, pensez à communiquer cette nouvelle URL au(x) destinataire(s) !
 
-![Serveur CSW](/fr/images/adm_shares_CSW_edit.png "Diffuser les catalogues via le protocole CSW")
+![Serveur CSW](/images/adm_shares_CSW_edit.png "Diffuser les catalogues via le protocole CSW")
 
 ## Un service, des catalogues
 

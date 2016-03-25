@@ -18,7 +18,7 @@ Les dates liées à la donnée sont regroupées dans l'onglet [`Histoire`](/fr/f
 
 Parmi toutes cas dates, seules les dates de modification sont automatiquement renseignées par le scan.
 
-En effet, lorsqu'une fiche est créée (manuellement ou automatiquement), la date de création est ![APP - Date de création vide](/fr/images/annex_dates_data_creationDate_empty_APP.png "La date de création doit être renseignée manuellement") car la date remontée informatiquement est la date de création sur le disque dur et non celle correspondant à la date de création initiale de la ressource.
+En effet, lorsqu'une fiche est créée (manuellement ou automatiquement), la date de création est ![APP - Date de création vide](/images/annex_dates_data_creationDate_empty_APP.png "La date de création doit être renseignée manuellement") car la date remontée informatiquement est la date de création sur le disque dur et non celle correspondant à la date de création initiale de la ressource.
 
 Par exemple, si le référentiel GéoFLA du 01/12/2013 est copié sur un ordinateur pour la première fois le 01/03/2014, c'est cette dernière date qui serait remontée. Or, celle qu'il faut renseigner est celle correspondant à la création initiale de la donnée (c'est-à-dire le 01/12/2013).
 
@@ -29,7 +29,7 @@ Une date de référence de la ressource est une information représentative de l
 * <span style="color:#bed3db">publication (en gris)</span>,
 * <span style="color:#6480a7">modification ou révision (en bleu)</span>.
 
-![APP - Evénements d'une ressource](/fr/images/inv_edit_one_history_events_allTypes.png "Les différents types d'événements de la vie d'une ressource")
+![APP - Evénements d'une ressource](/images/inv_edit_one_history_events_allTypes.png "Les différents types d'événements de la vie d'une ressource")
 
 Quelques règles encadrent ces dates :
 * Il ne doit pas y avoir plus d’une date de création.
@@ -43,7 +43,7 @@ Les sections [Période de validité](/fr/features/documentation/md_history.html#
 
 Par exemple, cela définit la période de validité d’un Plan Local d’Urbanisme (PLU).
 
-![APP - Validité et fréquence](/fr/images/annex_dates_data_temporalValidity_APP.png "Les dates qui définissent l'actualité et l'obsolescence d'une ressource")
+![APP - Validité et fréquence](/images/annex_dates_data_temporalValidity_APP.png "Les dates qui définissent l'actualité et l'obsolescence d'une ressource")
 
 _____
 
@@ -71,5 +71,5 @@ Où la trouver :
 
 | APP       | OpenCatalog |
 | :-------: | :---------: |
-| ![APP - Date de dernière modification de la métadonnée](/fr/images/annex_dates_metadata_LastUpdate_APP.png "La date de dernière modification de la métadonnée dans APP") | ![OC - Date de dernière modification de la métadonnée](/fr/images/annex_dates_metadata_LastUpdate_OC.png "La date de dernière modification de la métadonnée dans OpenCatalog") |
+| ![APP - Date de dernière modification de la métadonnée](/images/annex_dates_metadata_LastUpdate_APP.png "La date de dernière modification de la métadonnée dans APP") | ![OC - Date de dernière modification de la métadonnée](/images/annex_dates_metadata_LastUpdate_OC.png "La date de dernière modification de la métadonnée dans OpenCatalog") |
 

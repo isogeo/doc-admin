@@ -8,7 +8,7 @@ La démarche à suivre est la suivante :
 2.	Cliquez sur le bouton « Editer »,
 3.	Renseignez les champs que vous souhaitez puis cliquez sur "Enregistrer".
 
-![L'édition par lot](/fr/images/inv_edit_batch_demo_history_comment.gif "Démonstration de l'édition par lot")
+![L'édition par lot](/images/inv_edit_batch_demo_history_comment.gif "Démonstration de l'édition par lot")
 
 > Astuce : vérifiez bien votre sélection avant de vous lancer dans une édition par lot (voir les précisions plus bas).
 

@@ -2,7 +2,7 @@
 
 The "Advanced" tab can be used to specify the format, version and character encoding for the data.
 
-![Single edition - Advanced](/en/images/inv_edit_one_advanced.png "Single edition - Advanced tab")
+![Single edition - Advanced](/images/inv_edit_one_advanced.png "Single edition - Advanced tab")
 
 ### Resource type
 

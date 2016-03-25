@@ -13,7 +13,7 @@ Toutes les fonctionnalités de la solution Isogeo s’inscrivent dans un process
 
 Le schéma ci-dessous illustre ce processus métier :
 
-![Brochure du process](/fr/images/brochure_FR.png "Un processus orienté métier")
+![Brochure du process](/images/brochure_FR.png "Un processus orienté métier")
 
 Avant de prendre en main chacune des fonctionnalités offertes par la solution Isogeo, il est important de bien comprendre ce processus métier.
 

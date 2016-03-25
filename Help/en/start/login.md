@@ -5,7 +5,7 @@ To use Isogeo, go to https://app.isogeo.com with your login credentials at hand:
 * Email address: example@domain.com
 * Password: mypassword
 
-![Authentication page](/en/images/ID_log_in.gif "Isogeo platform login page")
+![Authentication page](/images/ID_log_in.gif "Isogeo platform login page")
 
 Now click on `Login`: Isogeo verifies your credentials and redirects you to the platform.
 
@@ -15,5 +15,5 @@ The `Remember me?` option is enabled by default. It allows you to be automatical
 
 If you lose your password, don't worry; click on the `Lost password?` link and enter your e-mail address. Isogeo support will send you an email with details on how to reset your password.
 
-![Resetting your password](/en/images/ID_password_reminder_mail.png "Email with the reset link")
+![Resetting your password](/images/ID_password_reminder_mail.png "Email with the reset link")
 

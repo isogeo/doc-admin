@@ -23,7 +23,7 @@ Proceed as follows to create a "CSW service" entry point:
 5.  Save;
 6.  Scan.
 
-![New CSW entry point](/en/images/adm_client_csw_new.png "Harvesting a CSW server")
+![New CSW entry point](/images/adm_client_csw_new.png "Harvesting a CSW server")
 
 Once the scan has finished, all the metadata records gathered can be viewed in the inventory.
 

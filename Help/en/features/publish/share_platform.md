@@ -1,6 +1,6 @@
 # Sharing catalogs between Isogeo workgroups
 
-![Share icon](/en/images/offer_schema_platform_modShare.png "Sharing catalogs between Isogeo workgroups")
+![Share icon](/images/offer_schema_platform_modShare.png "Sharing catalogs between Isogeo workgroups")
 
 Once you have created your data catalog, you can share it with one or more organizations/bodies that have Isogeo.
 
@@ -21,4 +21,4 @@ The recipient(s) of your share will be able to view your catalog in their Invent
 
 By enabling the option `I allow any of the recipients to reshare these catalogs`, you allow the other organization to publish your catalogs via its own CSW and OpenCatalog shares.
 
-![Sharing on the platform](/en/images/adm_shares_platform_edit.png "Sharing catalogs between Isogeo workgroups")
+![Sharing on the platform](/images/adm_shares_platform_edit.png "Sharing catalogs between Isogeo workgroups")

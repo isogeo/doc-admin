@@ -8,7 +8,7 @@ You have several options for this:
 * providing a link to a download service.
 
 ## Hosting raw data directly on Isogeo!
-![Storage icon](/en/images/offer_schema_platform_resStorage.png "Hosting and storing data in the Isogeo cloud")
+![Storage icon](/images/offer_schema_platform_resStorage.png "Hosting and storing data in the Isogeo cloud")
 
 You can host raw data or documents on Isogeo using the metadata entry interface.
 
@@ -17,7 +17,7 @@ Proceed as follows:
 2. Select "Raw data", then click on the `Upload` tab.
 3. Select the file or drag it from your computer.
 
-![Upload form](/en/images/inv_edit_one_resource_download_upload.png "Dragging & dropping data or a file")
+![Upload form](/images/inv_edit_one_resource_download_upload.png "Dragging & dropping data or a file")
 
 Isogeo completes the geographic data loop with the data–metadata link established by the automatic scan and by making raw data available.
 
@@ -31,4 +31,4 @@ Comments:
 
 If you use a different online hosting service, you can provide links to your data and documents.
 
-![External link](/en/images/inv_edit_one_resource_download_link.png "Linking to an external host location")
+![External link](/images/inv_edit_one_resource_download_link.png "Linking to an external host location")

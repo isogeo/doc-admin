@@ -4,7 +4,7 @@ Indépendant de la plateforme, le service est mis à jour lorsque des anomalies 
 
 Vous pouvez facilement vérifier la version du service installée chez vous en passant la souris sur le(s) voyant(s) en haut à droite de l'interface d'administration du scan :
 
-![Scan FME - version](/fr/images/scanFME_service_version.png "Vérifier la version du service")
+![Scan FME - version](/images/scanFME_service_version.png "Vérifier la version du service")
 
 ### 2.0.1
 
@@ -70,7 +70,7 @@ _________
 
 > Au-delà de cette ligne, les services sont considérés comme obsolètes et le voyant s'affiche en orange.
 
-![Scan FME - version obsolète](/fr/images/scanFME_service_version_obsolete.png "Service obsolète")
+![Scan FME - version obsolète](/images/scanFME_service_version_obsolete.png "Service obsolète")
 
 ### 1.0.20
 

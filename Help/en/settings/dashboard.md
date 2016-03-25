@@ -1,6 +1,6 @@
 # Dashboard
 
-![Dashboard](/en/images/tdb_formats.png "The Isogeo dashboard")
+![Dashboard](/images/tdb_formats.png "The Isogeo dashboard")
 
 ## A monitoring tool
 
@@ -19,7 +19,7 @@ Representing a home page for administrators, the dashboard shows a summary of yo
 
 Each category shown in orange displays a different graphic corresponding to the selected metric:
 
-![Inventory metrics](/en/images/tdb_metrics.gif "Shortcuts and menus common to all the platform's screens")
+![Inventory metrics](/images/tdb_metrics.gif "Shortcuts and menus common to all the platform's screens")
 
 The elements in the graphics act as filtered shortcuts on the inventory. Thus, for example, in the formats pie chart, if you click on one of the formats shown, you will go directly to the list of corresponding data in that format.
 
@@ -31,4 +31,4 @@ The contact details shown are those of the workgroup's global point of contact. 
 
 Consequently, it is most important that you enter these contact details by clicking on the edit icon shown when you hold the mouse over the top right part of this area:
 
-![Edit the point of contact](/en/images/tdb_edit_contact_workgroup.gif "Editing the Isogeo workgroup's global point of contact")
+![Edit the point of contact](/images/tdb_edit_contact_workgroup.gif "Editing the Isogeo workgroup's global point of contact")

@@ -4,7 +4,7 @@ This platform-independent service is upgraded to correct any bugs, or to add new
 
 To check which version of the service is installed on your machine, hover the mouse over the indicator light(s) at the top right of the scan administration interface:
 
-![FME scan - version](/en/images/scanFME_service_version.png "Checking the service version")
+![FME scan - version](/images/scanFME_service_version.png "Checking the service version")
 
 ### 1.3.4
 
@@ -61,7 +61,7 @@ _________
 
 > Services below this line are considered obsolete, and the indicator light is orange.
 
-![Scan FME - obsolete version](/en/images/scanFME_service_version_obsolete.png "Obsolete service")
+![Scan FME - obsolete version](/images/scanFME_service_version_obsolete.png "Obsolete service")
 
 ### 1.0.20
 

@@ -2,7 +2,7 @@
 
 The "TOS" tab specifies the conditions for accessing and using data. Use it to directly reference a given license, deed of commitment, or any other type of legal document concerning data usage.
 
-![Single edition - TOS](/en/images/inv_edit_one_cgu.png "Single edition - TOS tab")
+![Single edition - TOS](/images/inv_edit_one_cgu.png "Single edition - TOS tab")
 
 ### Conditions
 

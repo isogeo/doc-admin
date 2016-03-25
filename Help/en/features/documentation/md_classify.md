@@ -15,7 +15,7 @@ This is the first step in the documentation cycle. Tagging is very straightforwa
 1.	Go to the inventory and select one or more data items;
 2.	Click on `Tag`. The widget starts;
 
-![Tag](/en/images/inv_edit_tags_widget.png "Tagging widget")
+![Tag](/images/inv_edit_tags_widget.png "Tagging widget")
 
 You should now see:
 * A list of tags already assigned to the data selected, by type and in alphabetical order;
@@ -27,4 +27,4 @@ You should now see:
     * `View all Inspire themes` to display all the directive's themes;
     * `View keywords` to display keywords used in the selected data, and keywords that match the search string entered;
 
-![Assigning and removing keywords](/en/images/inv_edit_tags_keywords.gif "Keywords")
+![Assigning and removing keywords](/images/inv_edit_tags_keywords.gif "Keywords")

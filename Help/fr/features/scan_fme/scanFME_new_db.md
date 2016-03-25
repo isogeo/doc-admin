@@ -11,7 +11,7 @@ Pour créer un point d’entrée « Base de données » vous devez :
 5.	Saisir les paramètres de connexion ;
 6.	Sauvegarder.
 
-    ![Nouveau point d'entrée base](/fr/images/scanFME_new_DB_ready.png "Le nouveau point d'entrée est prêt à être scanné")
+    ![Nouveau point d'entrée base](/images/scanFME_new_DB_ready.png "Le nouveau point d'entrée est prêt à être scanné")
 
 ## Paramètres requis selon le type de base de données
 

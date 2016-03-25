@@ -18,7 +18,7 @@ Pour cela il est recommandé d'utiliser [la commande SETX](https://technet.micro
 SETX /u myuser [/p [<Password>]] ENABLE_JSONP true
 ```
 
-![GeoServer JSONP](/fr/images/annex_GeoServer_WFS_JSONP_UserEnv.png "Créer une variable utilisateur ENABLE_JSONP = true")
+![GeoServer JSONP](/images/annex_GeoServer_WFS_JSONP_UserEnv.png "Créer une variable utilisateur ENABLE_JSONP = true")
 
 Une fois cette manipulation effectuée, lors d’une requête `GetCapabilities` sur l’un de vos services WFS provenant de GeoServer, le format JSONP est présent.
 

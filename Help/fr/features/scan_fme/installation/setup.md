@@ -12,18 +12,18 @@ Pour le récupérer, connectez-vous sur https://app.isogeo.com avec votre compte
 
 Si aucun service n'est actif, vous êtes invité à générer votre service en lui donnant un nom simple. Par exemple, celui de la machine ou de son utilisateur. Une fois nommé, vous pouvez télécharger le service.
 
-![Nouveau service](/fr/images/scanFME_install_new_service_download.png "Nommer le nouveau service et cliquer sur télécharger")
+![Nouveau service](/images/scanFME_install_new_service_download.png "Nommer le nouveau service et cliquer sur télécharger")
 
 ## Installation du service
 
 1.	Décompresser l’archive (zip) téléchargée dans le dossier `C:\Program files\Isogeo`. S'il n'existe pas, il faut le créer.
 
-    ![Contenu de l'archive du service](/fr/images/scanFME_install_content.png "Décompresser l'archive zip du service dans le dossier Isogeo")
+    ![Contenu de l'archive du service](/images/scanFME_install_content.png "Décompresser l'archive zip du service dans le dossier Isogeo")
 
 2.	Ouvrir le dossier`daemon`;
 3.	Faire un clic droit sur `install.bat`, puis `Exécuter en tant qu’administrateur`
 
-    ![Installer avec des droits d'administrateur](/fr/images/scanFME_install_RunAsAdmin.png "Installer le service avec les droits d'administration")
+    ![Installer avec des droits d'administrateur](/images/scanFME_install_RunAsAdmin.png "Installer le service avec les droits d'administration")
 
 Une console Windows s’ouvre alors, indiquant que l’installation et le démarrage du service sont en cours puis se ferme automatiquement. Si la fenêtre ne se ferme pas et qu’un message d’erreur apparaît, revérifier les prérequis. Si le problème persiste, [contacter le support](/fr/support/README.html).
 
@@ -31,11 +31,11 @@ Une console Windows s’ouvre alors, indiquant que l’installation et le démar
 
 1. Ouvrir la console des services Windows (cliquez sur « Démarrer », rechercher « services »).
 
-    ![Ouvrir les services](/fr/images/scanFME_install_servicesWindows.png "Accéder au gestionnaire de services de Windows")
+    ![Ouvrir les services](/images/scanFME_install_servicesWindows.png "Accéder au gestionnaire de services de Windows")
 
 2. Si l’installation du Service Isogeo s’est correctement déroulée, un service nommé `Isogeo Worker` avec l’état `En cours d'exécution` (ou "Démarré" sous W7) se trouve dans la liste.
 
-    ![Service Isogeo Worker démarré](/fr/images/scanFME_install_ServiceRunning.png "Le service Isogeo Worker est bien démarré")
+    ![Service Isogeo Worker démarré](/images/scanFME_install_ServiceRunning.png "Le service Isogeo Worker est bien démarré")
 
 Si ce service n'apparaît pas, tenter de rafraîchir la liste (F5).<br />S'il n'apparaît toujours pas, essayer de nouveau l’installation.
 
@@ -46,7 +46,7 @@ Le service **doit être lancé par l'utilisateur Windows dédié isogeo** ([voir
 1. Ouvrir les propriétés du service (clic droit>propriétés),
 2. Dans l’onglet `Connexion`, choisir l’option `Ce compte` et indiquer les identifiants du compte utilisateur `isogeo`.
 
-    ![Ouvrir les services](/fr/images/scanFME_install_service_RunAs.png "Accéder au gestionnaire de services de Windows")
+    ![Ouvrir les services](/images/scanFME_install_service_RunAs.png "Accéder au gestionnaire de services de Windows")
 
 3. Cliquer sur `OK`, une fenêtre indique qu'il est nécessaire de redémarrer le service pour prendre en compte le changement,
 4. Clic droit sur le service > `Redémarrer`
@@ -67,7 +67,7 @@ Si rien ne change au bout de 5 minutes, [contacter le support](/fr/support/READM
 
 Si le message suivant s'affiche, veuillez vérifier [les prérequis](/fr/features/scan_fme/installation/prerequisites.html), en particulier [les droits de l'utilisateur configuré](/fr/features/scan_fme/installation/prerequisites.html#compte-utilisateur) pour lancer le service.
 
-![Service non démarré](/fr/images/scanFME_install_errors_ServiceDoNotStart.png "Le service n'a pas démarré")
+![Service non démarré](/images/scanFME_install_errors_ServiceDoNotStart.png "Le service n'a pas démarré")
 
 ### Du côté de l'interface
 
@@ -75,4 +75,4 @@ Si en lançant un scan sur un point d'entrée, le message suivant s'affiche, mer
 * vérifier les paramètres du point d'entrée,
 * vérifier les droits de [l'utilisateur configuré](/fr/features/scan_fme/installation/prerequisites.html#compte-utilisateur) pour lancer le service.
 
-![Echec du scan](/fr/images/scanFME_scan_errors_UnableToAccessEntryPoint.png "Impossible d'accéder au chemin spécifié")
+![Echec du scan](/images/scanFME_scan_errors_UnableToAccessEntryPoint.png "Impossible d'accéder au chemin spécifié")

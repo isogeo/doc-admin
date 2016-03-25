@@ -2,7 +2,7 @@
 
 This tab contains the basic information for a resource. It is essential since this is the most useful information for a user.
 
-![Single edition - Identification](/en/images/inv_edit_one_identification.png "Single edition - Identification tab")
+![Single edition - Identification](/images/inv_edit_one_identification.png "Single edition - Identification tab")
 
 ### Title
 

@@ -2,7 +2,7 @@
 
 The "Attributes" tab lists all the data's attribute fields and, specifies a name, alias, description and language for each one.
 
-![Single edition - Attributes](/en/images/inv_edit_one_attributes.png "Single edition - Attributes tab")
+![Single edition - Attributes](/images/inv_edit_one_attributes.png "Single edition - Attributes tab")
 
 > Tip: since each attribute is a sub-resource of the metadata, you must save changes to each attribute before saving changes at the resource level; otherwise any changes made will be lost.
 

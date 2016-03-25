@@ -20,21 +20,21 @@ Certain characteristics must be kept in mind when using the search engine:
 
 Isogeo encourages users to adopt the so-called funnel approach, in line with the logic adopted by the main search systems.
 
-![Funnel search diagram](/en/images/all_search_schema.png "Searching for data in Isogeo")
+![Funnel search diagram](/images/all_search_schema.png "Searching for data in Isogeo")
 
 ## Search steps
 
 1.	Start to enter the terms in the search bar by choosing from among the auto-completed entries:
 
-    ![First step, the search bar](/en/images/search_bar_submersion.png "Starting to enter the search terms")
+    ![First step, the search bar](/images/search_bar_submersion.png "Starting to enter the search terms")
 
 2.	Apply the filters: the drop-down menu to the right of the search bar shows the filters available depending on the search results:
 
-    ![Apply filters via the form](/en/images/search_bar_filters_submersion.png "Filtering on the various criteria available")
+    ![Apply filters via the form](/images/search_bar_filters_submersion.png "Filtering on the various criteria available")
 
 3.	Adjust the display using the sort and pagination options:
 
-    ![Sort and pagination options](/en/images/inv_ordering_pagination_options.png "Sorting and adjusting the pagination")
+    ![Sort and pagination options](/images/inv_ordering_pagination_options.png "Sorting and adjusting the pagination")
 
 ## Auto-completion
 
@@ -47,7 +47,7 @@ When you key in an entry in the search bar, the auto-complete function proposes 
 * By pressing *Enter*, the search is run with the values already added;
 * By pressing *Space*, the autocomplete starts over; several tags can thus be added, as necessary.
 
-![Autocompletion demo](/en/images/search_bar_autocompletion.gif "The autocomplete helps to save time when searching")
+![Autocompletion demo](/images/search_bar_autocompletion.gif "The autocomplete helps to save time when searching")
 
 
 ### Matrix of icons per search field

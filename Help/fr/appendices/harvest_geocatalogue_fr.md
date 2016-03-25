@@ -14,7 +14,7 @@ Chaque organisme adhérent peut ajouter ses services CSW à moissonner via l’a
 
 1. tout d'abord, il faut disposer d'un compte adhérent. Si ce n'est pas le cas, la demande se fait sur le GéoCatalogue via [le formulaire dédié](http://www.geocatalogue.fr/#!CreateAccountTileForward) (menu "Cataloguer" > "Mon compte" > en bas : "Créer en ligne votre compte") ;
 
-    ![Création de compte sur le GéoCatalogue](/fr/images/annex_GeoCatalogueFR_signInForm.png "Remplir le formulaire de demande de création de compte pour le GéoCatalogue")
+    ![Création de compte sur le GéoCatalogue](/images/annex_GeoCatalogueFR_signInForm.png "Remplir le formulaire de demande de création de compte pour le GéoCatalogue")
 
 2. Vous recevez alors un email (cf. ci-dessous) qui vous demande de confirmer votre qualité d’organisme public par retour de mail ;
 
@@ -81,7 +81,7 @@ Chaque organisme adhérent peut ajouter ses services CSW à moissonner via l’a
     ```
 
 Voici le processus suivi :
-![Ajout d'un point d'entrée CSW](/fr/images/annex_GeoCatalogueFR_entryPointsAddConfig.gif "Configurer son point d'entrée CSW")
+![Ajout d'un point d'entrée CSW](/images/annex_GeoCatalogueFR_entryPointsAddConfig.gif "Configurer son point d'entrée CSW")
 
 
 ### Précisions

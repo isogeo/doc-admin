@@ -1,6 +1,6 @@
 # Partager les catalogues entre groupes de travail Isogeo
 
-![Icone partage](/fr/images/offer_schema_platform_modShare.png "Partager les catalogues entre groupes de travail Isogeo")
+![Icone partage](/images/offer_schema_platform_modShare.png "Partager les catalogues entre groupes de travail Isogeo")
 
 Une fois constitué votre catalogue de données peut être partagé avec un ou plusieurs organismes équipés d’Isogeo.
 
@@ -21,4 +21,4 @@ Le(s) destinataire(s) de votre partage pourront alors consulter votre catalogue 
 
 En activant l’option `J'autorise les destinataires de ce partage à diffuser ces catalogues`, vous permettez à l’organisme destinataire de diffuser vos catalogues à travers ses propre partages CSW et OpenCatalog.
 
-![Partager sur la plateforme](/fr/images/adm_shares_platform_edit.png "Partager les catalogues entre groupes de travail Isogeo")
+![Partager sur la plateforme](/images/adm_shares_platform_edit.png "Partager les catalogues entre groupes de travail Isogeo")

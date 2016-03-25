@@ -8,15 +8,15 @@ Proceed as follows once you have been invited:
 
 1.	You have just received an email inviting you to join a user group on Isogeo:
 
-    ![Invitation email](/en/images/Isogeo_invitation_mail_1.png "You are invited to Isogeo - Check the spam folder")
+    ![Invitation email](/images/Isogeo_invitation_mail_1.png "You are invited to Isogeo - Check the spam folder")
 
 2.	Click on the link in the message. The page below opens in your browser:
 
-    ![Login/signup](/en/images/Isogeo_invitation_accueil_1.png "Log in or create your account").
+    ![Login/signup](/images/Isogeo_invitation_accueil_1.png "Log in or create your account").
 
 3.	Click on the "Create an account" link.  The following page is displayed:
 
-    ![Creating an account](/en/images/ID_creation_compte.png "Isogeo signup form")
+    ![Creating an account](/images/ID_creation_compte.png "Isogeo signup form")
 
 4.	Enter your first and last names.
 
@@ -28,7 +28,7 @@ Proceed as follows once you have been invited:
 
 8.	Click `Accept`. You are now signed up on Isogeo.
 
-    ![Joining the group that invited you](/en/images/Isogeo_invitation_interface_1.png "Welcome to the group that invited you")
+    ![Joining the group that invited you](/images/Isogeo_invitation_interface_1.png "Welcome to the group that invited you")
 
 
 

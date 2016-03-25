@@ -2,7 +2,7 @@
 
 The "Quality" tab contains the specifications used for collecting and controlling data, and the results of tests on the data's topological consistency.
 
-![Single edition - Quality](/en/images/inv_edit_one_quality.png "Single edition - Quality tab")
+![Single edition - Quality](/images/inv_edit_one_quality.png "Single edition - Quality tab")
 
 ### Specifications conformity
 

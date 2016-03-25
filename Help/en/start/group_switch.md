@@ -14,4 +14,4 @@ Your Isogeo account can be associated with more than one workgroup. You do not n
 2.	Click on "Change group." A pop-up window displays.
 3.	Select the group you wish to change to.
 
-![Changing groups](/en/images/user_switch_group.gif "Changing groups")
+![Changing groups](/images/user_switch_group.gif "Changing groups")

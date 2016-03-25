@@ -2,7 +2,7 @@
 
 The "History" tab describes the data's creation context and method. It provides chronological information about all data events that have occurred (creation, update, publication, etc.). It also allows for entering the data's validity period and update frequency.
 
-![Single edition - History](/en/images/inv_edit_one_history.png "Single edition - History tab")
+![Single edition - History](/images/inv_edit_one_history.png "Single edition - History tab")
 
 ### Collection context
 
@@ -64,7 +64,7 @@ The "History" tab describes the data's creation context and method. It provides 
 | Definition                 | History of key dates in the life of the data |
 | :------------------------- | :------------------------------------------------ |
 | Indications                | These dates report on the life of the data. There are 3 types of indications (corresponding to 3 colors): <br /><br />- creation (green, unique, manual): the very first time the data was created. This is not the reference date for the phenomenon described. If a data series is a photograph taken on 15 May 2000 of a historical monument dating back to 1920, the resource creation date is 15 May 2000, not 1920;<br /><br />- modification (blue, multiple, automatic and manual): indicates data revision. The scan automatically creates an event if modifications are detected in the geometry, attributes or projection;<br /><br />- publication (gray, multiple, manual):  date when the resource is available, or the date of its entry into force.|
-| Example                    | ![History tab - Events](/en/images/inv_edit_one_history_events_900px.png "Managing events in the life of a data item") |
+| Example                    | ![History tab - Events](/images/inv_edit_one_history_events_900px.png "Managing events in the life of a data item") |
 | INSPIRE requirement           | Mandatory if the validity period is not specified and strongly recommended |
 | Batch edition            | Yes, by incrementation, for modification and publication dates |
 | Scan                       | Yes, for modification dates |

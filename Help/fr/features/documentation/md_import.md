@@ -7,7 +7,7 @@ Pour cela, il suffit de :
 2.	Cliquer sur `Modifier` ;
 3.	Cliquer sur `Importer` la fenêtre pop-up ci-dessous s’ouvre :
 
-    ![Import XML](/fr/images/inv_edit_one_importXML.png "Formulaire d'import XML")
+    ![Import XML](/images/inv_edit_one_importXML.png "Formulaire d'import XML")
 
 4.	Cliquer sur « Sélectionner le fichier », l’explorateur Windows s’ouvre ;
 5.	Sélectionner le XML à importer ;

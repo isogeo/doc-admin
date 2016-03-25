@@ -4,7 +4,7 @@ To create and share an exhaustive, documented catalog of your GIS data, proceed 
 
 ## General process for a cataloging project
 
-![Key steps of the methodology](/en/images/method_schema_cataloging_micro.png "Steps in a cataloging project")
+![Key steps of the methodology](/images/method_schema_cataloging_micro.png "Steps in a cataloging project")
 
 This work process must be part of an iterative approach with an underlying objective of managing data assets progressively: it begins by completing the process on a data sample, then building on it to adjust cataloging rules by repeating the process.
 
@@ -20,7 +20,7 @@ Specifically, we advise you to proceed with your cataloging by doing the followi
 
 3.	Specify the specific information for each record (attributes, associated resources, etc.).
 
-![Documentation cycles](/en/images/method_schema_documentation_cycles.png "Iterations in cataloging methodology")
+![Documentation cycles](/images/method_schema_documentation_cycles.png "Iterations in cataloging methodology")
 
 ## Available resources
 

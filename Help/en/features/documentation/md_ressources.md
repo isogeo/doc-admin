@@ -3,7 +3,7 @@
 The "Resources" tab is used to create links to documents (maps, statistics, etc.) and web services associated with the data (view, download, etc.).
 
 
-![Single edition - Resources](/en/images/inv_edit_one_linkedResources.png "Single edition - Resources tab")
+![Single edition - Resources](/images/inv_edit_one_linkedResources.png "Single edition - Resources tab")
 
 ### Records in XML format (ISO 19139)
 

@@ -14,7 +14,7 @@ Voici quelques caractéristiques :
 * le catalogue est l'unité de partage, que ce soit [à un autre groupe de travail de la plateforme](/fr/features/publish/share_platform.html), [CSW](/fr/features/publish/csw_server.html) ou [OpenCatalog](/fr/features/publish/share_opencatalog.html) ;
 * une fiche n'appartenant à aucun catalogue n'est visible que par les utilisateurs disposant d'un niveau d'accès `Administrateur` (voir [la matrice des droits](/fr/features/admin/users.html#droits-de-chaque-profil)) et ne peut être partagée.
 
-![Concept de catalogue dans Isogeo](/fr/images/adm_catalog_principles.png "Une donnée peut appartenir à un ou plusieurs catalogues")
+![Concept de catalogue dans Isogeo](/images/adm_catalog_principles.png "Une donnée peut appartenir à un ou plusieurs catalogues")
 
 ## Gérer les catalogues
 

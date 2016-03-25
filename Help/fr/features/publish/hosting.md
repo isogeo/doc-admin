@@ -8,7 +8,7 @@ Plusieurs options s'offrent à vous :
 * indiquer un lien vers un service de téléchargement.
 
 ## Héberger les données brutes directement sur Isogeo !
-![Icone stockage](/fr/images/offer_schema_platform_resStorage.png "Hébergement et stockage de données dans le cloud d'Isogeo")
+![Icone stockage](/images/offer_schema_platform_resStorage.png "Hébergement et stockage de données dans le cloud d'Isogeo")
 
 Vous pouvez héberger des données brutes ou des documents sur Isogeo, via l’interface de saisie des métadonnées.
 
@@ -17,7 +17,7 @@ Les étapes à suivre :
 2. Sélectionner « Donnée brute » et l’onglet `Téléverser` ;
 3. Sélectionner le fichier ou faites le glisser depuis votre ordinateur.
 
-![Formulaire de téléversement](/fr/images/inv_edit_one_resource_download_upload.png "Glisser déposer une donnée ou un fichier")
+![Formulaire de téléversement](/images/inv_edit_one_resource_download_upload.png "Glisser déposer une donnée ou un fichier")
 
 Avec le lien fort donnée / métadonnée du scan automatique et la mise à disposition des données brutes, la boucle de la donnée géographique est bouclée grâce à Isogeo !
 
@@ -31,4 +31,4 @@ Remarques :
 
 Si vous disposez d'un hébergement en ligne par ailleurs, vous pouvez évidemment indiquer les liens vers les données et documents concernées.
 
-![Lien externe](/fr/images/inv_edit_one_resource_download_link.png "Lier vers un hébergement externe")
+![Lien externe](/images/inv_edit_one_resource_download_link.png "Lier vers un hébergement externe")

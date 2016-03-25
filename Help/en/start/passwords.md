@@ -7,4 +7,4 @@ Proceed as follows to [change your password](https://app.isogeo.com/new-password
 3.	Click on the "Change or reinitialize your password" link.
 4.	Enter your old password and your new password.
 
-![User contact details](/en/images/ID_password_change.png "Entering my contact details")
+![User contact details](/images/ID_password_change.png "Entering my contact details")

@@ -2,7 +2,7 @@
 
 The "Metadata" tab is used to display the metadata's creation date and language.
 
-![Single edition - Metadata](/en/images/inv_edit_one_metadata.png "Single edition - Metadata tab")
+![Single edition - Metadata](/images/inv_edit_one_metadata.png "Single edition - Metadata tab")
 
 ### Creation date
 

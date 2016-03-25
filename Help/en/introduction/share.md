@@ -24,7 +24,7 @@ All your users – both internal and external – thus have access to a data cat
 
 While Isogeo places metadata at the core of an innovative value chain, producers, users and administrators participate in collectively enhancing and valorizing controlled geographic data in a more global framework in which a territorial method of spatial data governance is defined.
 
-| ![OpenCatalog](/en/images/icone_OpenCatalog_140px.png "Easily publishing your catalogs using OpenCatalog") | ![Share](/en/images/icone_partage_140px.png "Sharing and collaborating with other workgroups on the platform") | ![CSW](/en/images/icone_CSW_140px.png "Exchanging your data with other CSW nodes") | ![API](/en/images/icone_API_140px.png "Creating data asset access interfaces via the API") |
+| ![OpenCatalog](/images/icone_OpenCatalog_140px.png "Easily publishing your catalogs using OpenCatalog") | ![Share](/images/icone_partage_140px.png "Sharing and collaborating with other workgroups on the platform") | ![CSW](/images/icone_CSW_140px.png "Exchanging your data with other CSW nodes") | ![API](/images/icone_API_140px.png "Creating data asset access interfaces via the API") |
 | :--: | :-- | :--: | :--: |
 
 

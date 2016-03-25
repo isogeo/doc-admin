@@ -8,7 +8,7 @@ As shown in the diagram below, Isogeo has two main components:
 
 * An agent: a Windows service deployed on a server or workstation within the client organization.
 
-![Isogeo architecture](/en/images/architecture_Isogeo.png "General diagram of the Isogeo platform architecture")
+![Isogeo architecture](/images/architecture_Isogeo.png "General diagram of the Isogeo platform architecture")
 
 ## Installing and managing environments
 
@@ -110,7 +110,7 @@ The Continuous Build checks that, for every commit:
 
 Every developer must monitor the state of the build at all times, and a broken build must be fixed immediately.
 
-![Continuous Build](/en/images/architecture_ContinuousBuild.png "Continuous build process")
+![Continuous Build](/images/architecture_ContinuousBuild.png "Continuous build process")
 
 The build server configuration can be kept fairly simply simple thanks to the use of:
 
@@ -130,7 +130,7 @@ We also have a QualityAssurance platform that is hosted on Windows Azure (as is 
 
 Most of our components can be deployed on Windows Azure using the same Web Deploy technology, but our API requires to be packaged in a [specific Azure package format](https://msdn.microsoft.com/en-us/library/azure/gg433055.aspx). We use another set of scripts to manually create such packages from the build server packages.
 
-![Nighlty build](/en/images/architecture_NightlyBuild.png "The nightly build process")
+![Nighlty build](/images/architecture_NightlyBuild.png "The nightly build process")
 
 The tests that are carried out on these platforms are manual at the moment.
 

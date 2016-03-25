@@ -6,7 +6,7 @@ Il existe deux types de `Points d’entrée`.
 
 ## Fichiers <i class="fa fa-folder-open"></i>
 
-![Point d'entrée Fichiers](/fr/images/scanFME_new_files_btn.png "Sélecteur de type de point d'entrée - Arborescence de fichiers")
+![Point d'entrée Fichiers](/images/scanFME_new_files_btn.png "Sélecteur de type de point d'entrée - Arborescence de fichiers")
 
 Indiquer le chemin d'accès à une  arborescence de répertoires contenant les données géographiques.
 
@@ -18,7 +18,7 @@ Caractéristiques et précisions :
 
 ## Système de Gestion de Base de Données (SGBD) <i class="fa fa-database"></i>
 
-![Point d'entrée SGBD](/fr/images/scanFME_new_DB_btn.png "Sélecteur de type de point d'entrée - Base de données")
+![Point d'entrée SGBD](/images/scanFME_new_DB_btn.png "Sélecteur de type de point d'entrée - Base de données")
 
 Indiquer les paramètres de connexion à la base de données et les instances / schémas à scanner.
 

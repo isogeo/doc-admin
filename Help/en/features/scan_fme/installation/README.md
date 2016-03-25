@@ -6,4 +6,4 @@ Developed in 2013 by Isogeo, Isogeo Worker was first deployed at the end of that
 
 ## Architecture
 
-![Basic diagram of the architecture](/en/images/scanFME_architecture.png "General architecture of the Isogeo scan service")
+![Basic diagram of the architecture](/images/scanFME_architecture.png "General architecture of the Isogeo scan service")

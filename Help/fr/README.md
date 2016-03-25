@@ -4,7 +4,7 @@ Isogeo est une application web qui vous permet de gérer et partager un catalogu
 
 Ce document vous explique pas à pas comment l’utiliser en décrivant le fonctionnement et l'utilisation de ses différents modules et ressources. Si vous rencontrez des difficultés que vous ne parvenez pas à résoudre avec cette aide en ligne, [contactez le support](support/README.html).
 
-![La plateforme](/fr/images/offer_schema_platform_modAPI.png "Modules et ressources de la plateforme Isogeo")
+![La plateforme](/images/offer_schema_platform_modAPI.png "Modules et ressources de la plateforme Isogeo")
 
 ## Utilisation de l'aide en ligne
 
@@ -23,4 +23,4 @@ Cette aide en ligne est un site internet à part entière basé sur l'outil [Git
 * boutons de partage sur les réseaux sociaux ;
 * [document PDF](/fr/index.pdf) généré pour impression éventuelle (non optimisé).
 
-![Interface de l'aide en ligne](/fr/images/GitBook_help.png "Utiliser GitBook")
+![Interface de l'aide en ligne](/images/GitBook_help.png "Utiliser GitBook")

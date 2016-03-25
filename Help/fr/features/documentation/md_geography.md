@@ -2,14 +2,14 @@
 
 L’onglet « Géographie » représente l’emprise de la donnée sur une carte et indique le format de la donnée, le nombre d’entités, le type de géométrie, le système de coordonnées, les coordonnées de l’emprise, l’échelle et la résolution de la donnée ;
 
-![Edition unitaire - Géographie](/fr/images/inv_edit_one_geography.png "L'édition unitaire - onglet Géographie")
+![Edition unitaire - Géographie](/images/inv_edit_one_geography.png "L'édition unitaire - onglet Géographie")
 
 ### Carte
 
 | Définition                 | Étendue de la ressource dans l’espace géographique, exprimée sous la forme d'un polygone de délimitation |
 | :------------------------- | :--------------------------------------------------------- |
 | Indications                | L’emprise doit englober l’ensemble des objets contenus dans le jeu de données. En cas d'édition manuelle, le polygone de délimitation doit être le plus ajusté possible, afin de délimiter le plus fidèlement possible la ressource décrite (ne pas donner un rectangle couvrant la France entière pour des données limitées à une commune). Dans l'idéal, le polygone de délimitation couvre seulement des espaces contigus et doit être multiple en cas de territoires éparpillés.<br />Si plusieurs emprises sont indiquées, elles ne doivent pas se superposer. |
-| Exemple                    | ![Onglet géographie - carte](/fr/images/inv_edit_one_geography_map_500px.png "La représentation de l'enveloppe convexe d'une donnée sur la carte") |
+| Exemple                    | ![Onglet géographie - carte](/images/inv_edit_one_geography_map_500px.png "La représentation de l'enveloppe convexe d'une donnée sur la carte") |
 | Exigence INSPIRE           | Obligatoire            |
 | Edition par lot            | Oui, par écrasement    |
 | Scan                       | Oui, enveloppe convexe |

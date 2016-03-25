@@ -2,7 +2,7 @@
 
 The "Contacts" tab can be used to assign one or more contacts from your address book to each data item;
 
-![Single edition - Contacts](/en/images/inv_edit_one_contacts.png "Single edition - Contacts tab")
+![Single edition - Contacts](/images/inv_edit_one_contacts.png "Single edition - Contacts tab")
 
 | Definition          | Contact details of the organization(s) or person(s) associated with the life of the data (production, management, processing, publishing, etc.) |
 | :------------------ | :------------------------------------------------ |

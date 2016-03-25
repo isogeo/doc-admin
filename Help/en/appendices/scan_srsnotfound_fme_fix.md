@@ -6,7 +6,7 @@ There may be times when the scan does not enter the coordinate system or the con
 
 In most cases, the problem stems from the fact that FME does not recognize the coordinate system. This does not mean that the system could not be read and used by FME. In short, FME uses the system definition, but does not recognize it.
 
-![A bounding box, no SRS](/en/images/annex_srsNotFound_case1_NoSRS_ButMap.png "Problem configuring FME projections - Case 1")
+![A bounding box, no SRS](/images/annex_srsNotFound_case1_NoSRS_ButMap.png "Problem configuring FME projections - Case 1")
 
 To fix this problem, you must "tell" FME how to recognize this system. There are two possible solutions:
 
@@ -14,7 +14,7 @@ To fix this problem, you must "tell" FME how to recognize this system. There are
 
 If you are looking to configure a single FME solution, go to the `Reproject/Exceptions` folder (in the FME installation directory), and edit the file corresponding to the format used. You must then find the paragraph for the country of the coordinate system. You must then add a new line for the system that you want to add, just like for the systems already present in this file.
 
-![Modifying the esriwkt.db file](/en/images/annex_srsNotFound_EditWKT.png "Adding a projection recognition to FME")
+![Modifying the esriwkt.db file](/images/annex_srsNotFound_EditWKT.png "Adding a projection recognition to FME")
 
 #### Examples
 
@@ -39,7 +39,7 @@ recognized:
 
 If the record does not contain a bounding box, this infers that the reprojection could not be performed, which means that FME does not have the source system.
 
-![No SRS, no bounding box](/en/images/annex_srsNotFound_case2_NoSRS_NoMap.png "Problem configuring FME projections - Case 2")
+![No SRS, no bounding box](/images/annex_srsNotFound_case2_NoSRS_NoMap.png "Problem configuring FME projections - Case 2")
 
 This may occur for data formats that do not correctly manage the coordinate systems, as is the case with CAD files, for example.
 

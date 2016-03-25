@@ -9,4 +9,4 @@ It includes a number of sections:
 *  `Configuration` for configuring available resources at the workgroup level;
 *  `Applications` for accessing interfaces that are application-independent, such as FME scans.
 
-![Administration menu demo](/en/images/adm_tour_menus.gif "Administration guided tour")
+![Administration menu demo](/images/adm_tour_menus.gif "Administration guided tour")

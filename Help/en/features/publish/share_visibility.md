@@ -34,15 +34,15 @@ In order, we did the following:
 
 6.	Created an OpenCatalog share for the general public in which we placed the "GéoLittoral" catalog without the "public" or "internal" catalog: [the record can be viewed here](http://open.isogeo.com/s/14cbb8fce4fd471ab3af9fb849d0dcd1/GbhLhG7hoNFHdkrgh8n9o9I3Sym20/m/cb71d8f42ba44788b348b5bc9f79e58c).
 
-    ![Marine submersion 0](/en/images/adm_shares_OC_demo_Geolittoral0.png "Only the data download link is available")
+    ![Marine submersion 0](/images/adm_shares_OC_demo_Geolittoral0.png "Only the data download link is available")
 
 7.	Created an OpenCatalog share for informed users in which we placed the "GéoLittoral" catalog with the "informed users" catalog: [the record can be viewed here](http://open.isogeo.com/s/4e3617fa59674e8b98b4d9a62a6ad6e7/oOGYrOxAMjf11jYmo6hbbeGNG2TC0/m/cb71d8f42ba44788b348b5bc9f79e58c).
 
-    ![Marine submersion 1](/en/images/adm_shares_OC_demo_Geolittoral1.png "WMS access is provided in addition to the download link")
+    ![Marine submersion 1](/images/adm_shares_OC_demo_Geolittoral1.png "WMS access is provided in addition to the download link")
 
 8.	Created an OpenCatalog share for the general public in which we placed the "GéoLittoral" catalog with the "informed users (level 1)" catalog and the "internal agents (level 2)" catalog: [the record can be viewed here](http://open.isogeo.com/s/d61fe9892eb345e7b6840bbfc4cf5733/zuD9LtBEXRi7ynIXyRyWIy4hC0xz0/m/cb71d8f42ba44788b348b5bc9f79e58c).
 
-    ![Marine submersion 2](/en/images/adm_shares_OC_demo_Geolittoral2.png "Access to the 3 resources: download, WMS and WFS")
+    ![Marine submersion 2](/images/adm_shares_OC_demo_Geolittoral2.png "Access to the 3 resources: download, WMS and WFS")
 
 
 ### Result
@@ -51,20 +51,20 @@ In order, we did the following:
 
 * A viewing interface where users can download only the raw data;
 
-    ![Marine submersion 0](/en/images/OC_Demo_Submersion_Niv0.png "Only the data download link is available")
+    ![Marine submersion 0](/images/OC_Demo_Submersion_Niv0.png "Only the data download link is available")
 
 * A viewing interface where users can:
     - download raw data;
     - display the layer via a WMS flow;
 
-    ![Marine submersion 1](/en/images/OC_Demo_Submersion_Niv1.png "WMS access is provided in addition to the download link")
+    ![Marine submersion 1](/images/OC_Demo_Submersion_Niv1.png "WMS access is provided in addition to the download link")
 
 * A viewing interface where users can:
     - download raw data;
     - display the layer via a WMS flow;
     - display the layer via a WFS flow;
 
-    ![Marine submersion 2](/en/images/OC_Demo_Submersion_Niv2.png "Access to the 3 resources: download, WMS and WFS")
+    ![Marine submersion 2](/images/OC_Demo_Submersion_Niv2.png "Access to the 3 resources: download, WMS and WFS")
 
 ### Outline
 
@@ -78,4 +78,4 @@ In order, we did the following:
 
 Best practice: create one catalog of resources per level of use.
 
-![Differentiated display schema](/en/images/resources_DifferentDisplays_schema.png "Access to the 3 resources: download, WMS and WFS")
+![Differentiated display schema](/images/resources_DifferentDisplays_schema.png "Access to the 3 resources: download, WMS and WFS")

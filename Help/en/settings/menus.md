@@ -2,7 +2,7 @@
 
 At the top of the interface, there is a fixed menu and shortcuts bar (the navigation bar) which is **standard on all Isogeo platform screens**. Here are details for the various elements in this bar, from left to right.
 
-![Navigation bar](/en/images/tdb_metrics.gif "Shortcuts and menus standard on all platform screens")
+![Navigation bar](/images/tdb_metrics.gif "Shortcuts and menus standard on all platform screens")
 
 ## Isogeo logo
 
@@ -14,7 +14,7 @@ Used to go back to the [home page](http://app.isogeo.com) at any time.
 
 A spinning wheel displays between the logo and the search bar when the platform is working or busy, indicating that you must wait.
 
-![Loader](/en/images/loader.gif "Load icon")
+![Loader](/images/loader.gif "Load icon")
 
 > Tip: Don't click while the wheel is spinning! If it does not stop turning, reload the page. (Isogeo proverb)
 
@@ -22,13 +22,13 @@ A spinning wheel displays between the logo and the search bar when the platform 
 
 You can run a simple or advanced search from anywhere in Isogeo and at any time.
 
-![Search bar and filters](/en/images/search_bar_filters_empty.png "Running a simple or advanced search at any time")
+![Search bar and filters](/images/search_bar_filters_empty.png "Running a simple or advanced search at any time")
 
 For more details on inventory search and navigation, see [the dedicated chapter](/en/features/inventory/search.html).
 
 ## Menus
 
-![The 3 menus](/en/images/all_header_bar_menus.png "Inventory, Dashboard and Administration")
+![The 3 menus](/images/all_header_bar_menus.png "Inventory, Dashboard and Administration")
 
 Isogeo's functions are accessed via 3 menus:
 
@@ -38,7 +38,7 @@ Isogeo's functions are accessed via 3 menus:
 
 .If you are using Isogeo on a low-resolution screen, the tags will be replaced by icons.
 
-![The 3 menus in low resolution](/en/images/all_header_bar_menus_low_resolution.png "The Inventory, Dashboard or Administration icons for low-resolution displays")
+![The 3 menus in low resolution](/images/all_header_bar_menus_low_resolution.png "The Inventory, Dashboard or Administration icons for low-resolution displays")
 
 ## Your options
 
@@ -46,7 +46,7 @@ You can access your Isogeo account settings at any time.
 
 > See chapters [My workgroups](/en/start/group_switch.html), [My account](/en/start/account.html) and [My contact details](/en/start/user_coordinates.html).
 
-![Search bar and filters](/en/images/all_header_user_dropdown.png "Running a simple or advanced search at any time")
+![Search bar and filters](/images/all_header_user_dropdown.png "Running a simple or advanced search at any time")
 
 ## Online help
 

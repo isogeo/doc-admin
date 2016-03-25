@@ -15,7 +15,7 @@ Vous y retrouvez :
 
 ## L'interface
 
-![En-tête des fiches](/fr/images/inv_global.png "Les informations affichées dans l'en-tête d'une fiche (en mode liste)")
+![En-tête des fiches](/images/inv_global.png "Les informations affichées dans l'en-tête d'une fiche (en mode liste)")
 
 Sous la barre des menus, une barre d'actions permet (de gauche à droite) :
 
@@ -44,7 +44,7 @@ Tout en bas à gauche, il est possible de régler la pagination :
 
 ## L'en-tête des fiches de métadonnées
 
-![En-tête des fiches](/fr/images/inv_ressource_header.png "Les informations affichées dans l'en-tête d'une fiche (en mode liste)")
+![En-tête des fiches](/images/inv_ressource_header.png "Les informations affichées dans l'en-tête d'une fiche (en mode liste)")
 
 * Le propriétaire de la fiche : <span style="color:#C09E7E">en marron</span>,
 * le type de ressource (vecteur, raster, ensemble de données, autre): <span style="color:#8FB39B">en vert</span>

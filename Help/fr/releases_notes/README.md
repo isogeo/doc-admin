@@ -8,7 +8,7 @@ Comme le montre le schéma ci-dessous, Isogeo est constituée de deux composants
 
 * Un agent : un service Windows déployé sur un serveur ou une station de travail au sein de l’organisme client.
 
-![Architecture Isogeo](/fr/images/architecture_Isogeo.png "Schéma global de l'architecture de la plateforme Isogeo")
+![Architecture Isogeo](/images/architecture_Isogeo.png "Schéma global de l'architecture de la plateforme Isogeo")
 
 ## Installation et gestion des environnements
 
@@ -97,7 +97,7 @@ Pour chacune des modifications de code (commits), l'intégration continue contr�
 
 Tous les développeurs sont chargés de surveiller l'état de l'intégration continue et corriger immédiatement le moindre problème.
 
-![Intégration continue](/fr/images/architecture_ContinuousBuild.png "Le processus d'intégration continue")
+![Intégration continue](/images/architecture_ContinuousBuild.png "Le processus d'intégration continue")
 
 La configuration du serveur de compilation peut être simple en observant quelques bonnes pratiques :
 
@@ -115,7 +115,7 @@ La compilation quotidienne (*Nightly Build*) est la suite logique de l'intégrat
 
 Nous avons également une plateforme de recette hébergée sur Windows Azure (tout comme la plateforme de production). Elle est utilisée pour tester la plateforme en conditions réelles avant la sortie d'une nouvelle version, tous les 3 mois. La plupart des composants déployés sur Windows Azure utilise également la technologie *Microsoft Web Deploy*, mais notre API requiert d'être packagée dans un [format Azure spécifique](https://msdn.microsoft.com/fr-fr/library/azure/gg433055.aspx). Nous utilisons donc un autre ensemble de scripts pour générer manuellement ces paquets à partir du serveur de compilation.
 
-![Compilation quotidienne](/fr/images/architecture_NightlyBuild.png "Le processus de compilation quotidienne")
+![Compilation quotidienne](/images/architecture_NightlyBuild.png "Le processus de compilation quotidienne")
 
 Pour le moment, les tests exécutés sur ces plateformes sont manuels. Mais une fois déployées, les plateformes sont automatiquement surveillées :
 

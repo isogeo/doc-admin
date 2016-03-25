@@ -20,21 +20,21 @@ Il est important de garder certaines caractéristiques à l’esprit, notamment 
 
 Suivant les logiques des principaux systèmes de recherche, Isogeo encourage les utilisateurs à adopter la démarche dite de l’entonnoir.
 
-![Schéma de la recherche en entonnoir](/fr/images/all_search_schema.png "Chercher les données dans Isogeo")
+![Schéma de la recherche en entonnoir](/images/all_search_schema.png "Chercher les données dans Isogeo")
 
 ## Les étapes d'une recherche
 
 1.	Commencer à formuler les termes dans la barre recherche, choisir parmi les propositions de l'auto-complétion :
 
-    ![Première étape, la barre de recherche](/fr/images/search_bar_submersion.png "Commencer par taper les termes de la recherche")
+    ![Première étape, la barre de recherche](/images/search_bar_submersion.png "Commencer par taper les termes de la recherche")
 
 2.	Appliquer les filtres : le menu déroulant à droite de la barre de recherche affiche les filtres disponibles selon les résultats de la recherche :
 
-    ![Appliquer les filtres via le formulaire](/fr/images/search_bar_filters_submersion.png "Filtrer sur les différents critères disponibles")
+    ![Appliquer les filtres via le formulaire](/images/search_bar_filters_submersion.png "Filtrer sur les différents critères disponibles")
 
 3.	Régler l’affichage avec les options de tri et de pagination :
 
-    ![Options de tri et de pagination](/fr/images/inv_ordering_pagination_options.png "Trier et régler la pagination")
+    ![Options de tri et de pagination](/images/inv_ordering_pagination_options.png "Trier et régler la pagination")
 
 ## L'auto-complétion
 
@@ -50,7 +50,7 @@ Lorsque l'on tape dans la barre de recherche, l’auto-complétion propose les 3
 
 * en appuyant sur la touche *Espace*, l’autocomplétion repart de zéro, l’utilisateur peut ainsi ajouter plusieurs tags au fur et à mesure.
 
-![Démo auto-complétion](/fr/images/search_bar_autocompletion.gif "L'auto-complétion permet de gagner du temps lors de la recherche")
+![Démo auto-complétion](/images/search_bar_autocompletion.gif "L'auto-complétion permet de gagner du temps lors de la recherche")
 
 
 ### Matrice des icônes par champ de recherche

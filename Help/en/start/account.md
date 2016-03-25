@@ -4,7 +4,7 @@ Click on your name at the top right of your screen to view and modify settings f
 
 > Tip: You can reach this page directly via: https://app.isogeo.com/settings/account
 
-![User account management](/en/images/user_profile_options.png "Setting up your Isogeo user account")
+![User account management](/images/user_profile_options.png "Setting up your Isogeo user account")
 
 ## Language and time zone
 

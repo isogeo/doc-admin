@@ -19,4 +19,4 @@ Proceed as follows to configure the list of coordinate systems:
 
 To remove a coordinate system from the list of selected systems, simply click on the trash can icon next to the corresponding projection (the alias is also deleted).
 
-![New user](/en/images/adm_srs_add.gif "Inviting a new user")
+![New user](/images/adm_srs_add.gif "Inviting a new user")

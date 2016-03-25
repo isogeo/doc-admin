@@ -13,7 +13,7 @@ All the functions available in the Isogeo solution are part of a clear, innovati
 
 The diagram below illustrates this value chain:
 
-![Process brochure](/en/images/brochure_EN.png "A business-oriented process")
+![Process brochure](/images/brochure_EN.png "A business-oriented process")
 
 Before dealing with each function available in the Isogeo solution, it is important to have a clear understanding of this value chain.
 

@@ -21,7 +21,7 @@ Pour créer un OpenCatalog, il suffit de :
 5.	Nommer le partage ;
 6.	`Enregistrer` ;
 
-![Gérer les OpenCatalogs](/fr/images/adm_shares_OC_edit.png "Diffuser les catalogues via les OpenCatalogs")
+![Gérer les OpenCatalogs](/images/adm_shares_OC_edit.png "Diffuser les catalogues via les OpenCatalogs")
 
 
 ## Intégrer un OpenCatalog en iFrame

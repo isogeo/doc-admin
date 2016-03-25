@@ -2,13 +2,13 @@
 
 La plateforme Isogeo repose sur la puissance de son API qui permet à chacun de développer des applicatifs adaptés à ses besoins spécifiques.
 
-![API REST](/fr/images/api_rest.png "Une API REST déployée dans le cloud Azure")
+![API REST](/images/api_rest.png "Une API REST déployée dans le cloud Azure")
 
 ## Les principes
 
 L'API publique est dédiée à la lecture et ouverte à quiconque souhaite développer et possède un accès à Isogeo. Elle permet d'exécuter des requêtes et d'en retranscrire les résultats dans une interface originale.
 
-![Cartographie de l'offre usages](/fr/images/schema_CartoOffre.png "Une plateforme orientée usages")
+![Cartographie de l'offre usages](/images/schema_CartoOffre.png "Une plateforme orientée usages")
 
 ## Les plugins pour les SIG
 

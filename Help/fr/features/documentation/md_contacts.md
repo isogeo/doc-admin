@@ -2,7 +2,7 @@
 
 L’onglet « Contact » permet d’affecter, depuis votre carnet d’adresse, un ou plusieurs contacts pour chacune des données ;
 
-![Edition unitaire - Contacts](/fr/images/inv_edit_one_contacts.png "L'édition unitaire - onglet Contacts")
+![Edition unitaire - Contacts](/images/inv_edit_one_contacts.png "L'édition unitaire - onglet Contacts")
 
 | Définition          | Coordoonnées de/s l'organisation(s) ou personne(s) liées à la vie de la donnée (production, gestion, traitement, publication...) |
 | :------------------ | :------------------------------------------------ |

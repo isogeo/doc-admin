@@ -8,7 +8,7 @@ Proceed as follows:
 2.	Click on the "Edit" button.
 3.	Complete the appropriate fields, then click on "Save."
 
-![Batch edition](/en/images/inv_edit_batch_demo_history_comment.gif "Batch edition demonstration")
+![Batch edition](/images/inv_edit_batch_demo_history_comment.gif "Batch edition demonstration")
 
 > Tip: check your selection carefully before launching a batch edition (see the additional information below).
 

@@ -2,7 +2,7 @@
 
 L’onglet « Ressources » regroupe les liens vers les documents (cartes, statistiques, etc.) et les services web associés à la donnée (visualiser, télécharger, etc.).
 
-![Edition unitaire - Ressources](/fr/images/inv_edit_one_linkedResources.png "L'édition unitaire - onglet Ressources")
+![Edition unitaire - Ressources](/images/inv_edit_one_linkedResources.png "L'édition unitaire - onglet Ressources")
 
 ### La fiche au format XML (ISO 19139)
 

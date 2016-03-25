@@ -31,7 +31,7 @@ To add a license to your workgroup, simply proceed as follows:
 
 All licenses added are available in the `TOS` > `Conditions` tab when editing a metadata record.
 
-![New license demo](/en/images/adm_licenses_add.gif "Adding a new license")
+![New license demo](/images/adm_licenses_add.gif "Adding a new license")
 
 ## Advanced use
 

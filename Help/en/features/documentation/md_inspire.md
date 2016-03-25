@@ -4,7 +4,7 @@ Compliance with the INSPIRE directive represents a major challenge for those inv
 
 A [correspondence table of Isogeo fields with the INSPIRE directive](https://docs.google.com/spreadsheet/ccc?key=0AgqcgCYNe0TfdGI3M1l2WEZaNExxYnpkb29YRzNNY3c&usp=sharing) is available:
 
-[![Single edition - Metadata](/en/images/annex_Tableau_IsogeoINSPIRE "Single edition - Metadata tab")](https://docs.google.com/spreadsheet/ccc?key=0AgqcgCYNe0TfdGI3M1l2WEZaNExxYnpkb29YRzNNY3c&usp=sharing)
+[![Single edition - Metadata](/images/annex_Tableau_IsogeoINSPIRE "Single edition - Metadata tab")](https://docs.google.com/spreadsheet/ccc?key=0AgqcgCYNe0TfdGI3M1l2WEZaNExxYnpkb29YRzNNY3c&usp=sharing)
 
 > Tip: Isogeo automatically infers the ISO category from the INSPIRE theme.
 

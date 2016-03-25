@@ -8,4 +8,4 @@ Développé en 2013 par Isogeo, le service Isogeo Worker a commencé à être d�
 
 ## Architecture
 
-![Schéma de l'architecture vulgarisée](/fr/images/scanFME_architecture.png "Architecture globale du service de scan Isogeo")
+![Schéma de l'architecture vulgarisée](/images/scanFME_architecture.png "Architecture globale du service de scan Isogeo")

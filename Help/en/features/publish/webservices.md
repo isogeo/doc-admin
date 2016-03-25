@@ -4,7 +4,7 @@ The web services must be entered as resources associated with a record. Third pa
 
 If the *layers* parameter is not specified in the URL, an error is displayed in the OpenCatalog interface:
 
-![OpenCatalog flow error](/en/images/OC_view_ErrorLayerIsMissing.png "Error reading the flow in OpenCatalog")
+![OpenCatalog flow error](/images/OC_view_ErrorLayerIsMissing.png "Error reading the flow in OpenCatalog")
 
 > Tip: your web services must be specifically formatted in order to be "used" properly by external platforms such as geOrchestra or Prodige. They must be formatted in a particular way. See [the appendix on this subject](/en/appendices/webgeoservices_in_csw.html).
 
@@ -22,13 +22,13 @@ You can obtain the names of the layers available using the GetCapabilities actio
 6. In the actions of the associated resource, select the `Display` option;
 7. Click on `Validate` then `Save` in the record.
 
-![Add a WMS flow](/en/images/inv_edit_one_resource_WMS.png "Adding a WMS flow as an associated resource")
+![Add a WMS flow](/images/inv_edit_one_resource_WMS.png "Adding a WMS flow as an associated resource")
 
 ### Rendering in OpenCatalog
 
 See an online demonstration where the flow used is that provided by the MEDDE (French Ministry of Ecology, Energy and Sustainable Development): [data from 2006 Corine Land COver on mainland France](http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0/m/4643b80d5ef248588709c7367036191a).
 
-![WMS in OpenCatalog](/en/images/OC_view_WMS.png "Displaying a WMS flow in OpenCatalog")
+![WMS in OpenCatalog](/images/OC_view_WMS.png "Displaying a WMS flow in OpenCatalog")
 
 ____
 ## Associating a WFS flow
@@ -46,13 +46,13 @@ You can obtain the names of the layers available using the GetCapabilities actio
 6. In the actions of the associated resource, select the `Display` option;
 7. Click on `Validate` then `Save` in the record.
 
-![Add a WFS flow](/en/images/inv_edit_one_resource_WFS.png "Adding a WFS flow as an associated resource")
+![Add a WFS flow](/images/inv_edit_one_resource_WFS.png "Adding a WFS flow as an associated resource")
 
 ### Rendering in OpenCatalog
 
 Here is an online example: [mainland France departments in 2014](http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0/m/754209f115c040a48d43ffc262b16500).
 
-![WFS in OpenCatalog](/en/images/OC_view_WFS.png "Viewing a WFS flow in OpenCatalog")
+![WFS in OpenCatalog](/images/OC_view_WFS.png "Viewing a WFS flow in OpenCatalog")
 
 ____
 ## Associating a WMTS flow
@@ -70,13 +70,13 @@ You can obtain the names of the layers available using the GetCapabilities actio
 6. In the actions of the associated resource, select the `Display` option;
 7. Click on `Validate` then `Save` in the record.
 
-![Add a WMTS flow](/en/images/inv_edit_one_resource_WMTS.png "Adding a WMTS flow as an associated resource")
+![Add a WMTS flow](/images/inv_edit_one_resource_WMTS.png "Adding a WMTS flow as an associated resource")
 
 ### Rendering in OpenCatalog
 
 Here is an online example: [tiled layer of the countries attached to data corresponding to the stadiums of the 2014 FIFA World Cup](http://open.isogeo.com/s/c502e8f7c9da4c3aacdf3d905672d54c/Q4SvPfiIIslbdwkbWRFJLk7XWo4G0/m/56ed291af72f46dc9835fc9ae29fe938).
 
-![WMTS dans OpenCatalog](/en/images/OC_view_WMTS.png "Displaying a WMTS flow in OpenCatalog")
+![WMTS dans OpenCatalog](/images/OC_view_WMTS.png "Displaying a WMTS flow in OpenCatalog")
 
 
 ___
@@ -91,13 +91,13 @@ An Esri Tiled Map service can be used to obtain the geographic entities required
 5. In the actions of the associated resource, select the `Display` option;
 6. Click on `Validate` then `Save` in the record.
 
-![Add an Esri Map flow](/en/images/inv_edit_one_resource_EsriMap.png "Adding an Esri Map flow as an associated resource")
+![Add an Esri Map flow](/images/inv_edit_one_resource_EsriMap.png "Adding an Esri Map flow as an associated resource")
 
 ### Rendering in OpenCatalog
 
 Here is an online example: [EPCI (Public Establishment for Intermunicipal Cooperation) data in 2014 taken from OpenStreetMap](http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0/m/78e4a2ce9a7d4b09a80eecd131130166).
 
-![Esri Map in OpenCatalog](/en/images/OC_view_EsriMap.png "Viewing an Esri Map flow in OpenCatalog")
+![Esri Map in OpenCatalog](/images/OC_view_EsriMap.png "Viewing an Esri Map flow in OpenCatalog")
 
 ___
 ## Associating an Esri Feature flow
@@ -111,13 +111,13 @@ An Esri Tiled Map service can be used to obtain the geographic entities required
 5. In the actions of the associated resource, select the `Display` option;
 6. Click on `Validate` then `Save` in the record.
 
-![Add an Esri Feature flow](/en/images/inv_edit_one_resource_EsriFeature.png "Adding an Esri Feature flow as an associated resource")
+![Add an Esri Feature flow](/images/inv_edit_one_resource_EsriFeature.png "Adding an Esri Feature flow as an associated resource")
 
 ### Rendering in OpenCatalog
 
 Here is an online example: [data corresponding to the stadiums of the 2014 FIFA world cup](http://open.isogeo.com/s/c502e8f7c9da4c3aacdf3d905672d54c/Q4SvPfiIIslbdwkbWRFJLk7XWo4G0/m/56ed291af72f46dc9835fc9ae29fe938).
 
-![Esri Feature in OpenCatalog](/en/images/OC_view_EsriFeatures.png "Viewing an Esri Feature flow in OpenCatalog")
+![Esri Feature in OpenCatalog](/images/OC_view_EsriFeatures.png "Viewing an Esri Feature flow in OpenCatalog")
 
 ___
 ## Associating an Esri Tiled Map flow
@@ -131,10 +131,10 @@ An Esri Tiled Map service can be used to obtain the geographic entities required
 5. In the actions of the associated resource, select the `Display` option;
 6. Click on `Validate` then `Save` in the record.
 
-![Add an Esri Tiled Map flow](/en/images/inv_edit_one_resource_EsriTiledMap.png "Adding an Esri Tiled Map flow as an associated resource")
+![Add an Esri Tiled Map flow](/images/inv_edit_one_resource_EsriTiledMap.png "Adding an Esri Tiled Map flow as an associated resource")
 
 ### Rendering in OpenCatalog
 
 Here is an online example: [data corresponding to the stadiums of the 2014 FIFA world cup](http://open.isogeo.com/s/c502e8f7c9da4c3aacdf3d905672d54c/Q4SvPfiIIslbdwkbWRFJLk7XWo4G0/m/56ed291af72f46dc9835fc9ae29fe938).
 
-![Esri Tiled Map in OpenCatalog](/en/images/OC_view_EsriTiledMap.png "Viewing an Esri Tiled Map flow in OpenCatalog")
+![Esri Tiled Map in OpenCatalog](/images/OC_view_EsriTiledMap.png "Viewing an Esri Tiled Map flow in OpenCatalog")

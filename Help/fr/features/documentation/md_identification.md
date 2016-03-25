@@ -2,7 +2,7 @@
 
 Cet onglet donne les éléments de connaissance basique sur une ressource. Il est primordial puisque ce sont les informations les plus remarquables pour un utilisateur.
 
-![Edition unitaire - Identification](/fr/images/inv_edit_one_identification.png "L'édition unitaire - onglet identification")
+![Edition unitaire - Identification](/images/inv_edit_one_identification.png "L'édition unitaire - onglet identification")
 
 ### Titre
 
