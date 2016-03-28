@@ -1,8 +1,8 @@
 # Comprendre les différentes dates
 
-Le nombre de dates différentes est l'un des principaux éléments de questionnement lors des phases de documentation et de consultation. La plupart du temps, cela provient d'une confusion entre les deux types de dates
+Le nombre de dates différentes est l'un des principaux éléments de questionnement lors des phases de documentation et de consultation. La plupart du temps, cela provient d'une confusion entre les deux types de dates :
 * celles concernant la ressource qui est documentée (donnée, service, etc.) ;
-* celles concernant la fiche de métadonnée portant sur cette ressours.
+* celles concernant la fiche de métadonnée portant sur cette ressource.
 
 Pour information, Isogeo utilise systématiquement le calendrier grégorien et les dates sont stockées sous forme de *timestamp* selon l'[ISO 8601](https://fr.wikipedia.org/wiki/ISO_8601) dans le [fuseau horaire UTC](https://fr.wikipedia.org/wiki/ISO_8601#Fuseau_horaire).
 

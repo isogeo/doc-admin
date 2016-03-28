@@ -22,7 +22,7 @@ Le service est théoriquement capable de scanner l’ensemble des formats pris e
 * Intergraph GeoMedia database (.mdb),
 * JPEG (.jpg / .jpeg),
 * JPEG 2000 (.jp2),
-* Lidar Data Exchange Format (.las, .laz, .lasd)
+* Lidar Data Exchange Format (.las, .laz, .lasd),
 * MapInfo tables (.tab),
 * MapInfo Interchange Format (.mif / .mid),
 * MicroStation DGN (.dgn),
@@ -36,7 +36,7 @@ Le service est théoriquement capable de scanner l’ensemble des formats pris e
 * Oracle Spatial (toutes versions),
 * PostGIS (toutes versions),
 
-Tous les formats ne sont néanmoins pas pris en compte au même degré et de la même façon, compte-tenu de leurs spécificités. Le tableau 1 rappelle également que certaines licences sont nécessaires à la prise en charge de certains formats.
+Tous les formats ne sont néanmoins pas pris en compte au même degré et de la même façon, compte-tenu de leurs spécificités. Le tableau suivant rappelle également que certaines licences sont nécessaires à la prise en charge de certains formats.
 
 ## Licences minimales requises
 

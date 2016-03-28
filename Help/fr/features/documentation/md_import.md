@@ -2,7 +2,8 @@
 
 Si votre fournisseur de données vous a livré des métadonnées ou bien que vous disposiez déjà de métadonnées auparavant, Isogeo vous permet de les importer au format XML ISO19139 ou Dublin-Core.
 
-Pour cela, il suffit de :
+## Pas à pas
+
 1.	Ouvrir une fiche de métadonnées, manuelle ou créée par le scan ;
 2.	Cliquer sur `Modifier` ;
 3.	Cliquer sur `Importer` la fenêtre pop-up ci-dessous s’ouvre :
@@ -14,7 +15,7 @@ Pour cela, il suffit de :
 6.	Activer ou désactiver l’option `écraser les données existantes` ;
 7.	Cliquer sur `Importer`. Les informations contenues dans le XML sont importées dans la fiche de métadonnées.
 
-Les champs importés sont les suivants :
+## Champs importés
 
 * le titre,
 * le résumé,

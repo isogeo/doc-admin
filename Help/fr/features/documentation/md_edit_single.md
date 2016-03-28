@@ -1,6 +1,7 @@
 # L'édition unitaire
 
-Pour saisir une fiche de métadonnées, voici la démarche à suivre :
+## Pas à pas
+
 1.	Ouvrir la fiche descriptive ;
 2.	Cliquer sur le bouton `Modifier` ;
 3.	Saisir les informations demandées dans les différents onglets :
