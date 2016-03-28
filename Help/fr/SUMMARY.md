@@ -83,6 +83,7 @@
 * [Annexes](appendices/README.md)
    * [Les dates dans Isogeo](appendices/different_dates.md)
    * [Corriger les métadonnées sans emprise ni SRS](appendices/scan_srsnotfound_fme_fix.md)
+   * [Scan - Configuration de PostGIS](appendices/scan_postgis_schemas.md)
    * [Les ressources associées dans les outils externes](appendices/webgeoservices_in_csw.md)
    * [Configurer les WFS en JSONP](appendices/wfs_jsonp.md)
    * [Se faire moissonner par le Géocatalogue national](appendices/harvest_geocatalogue_fr.md)
