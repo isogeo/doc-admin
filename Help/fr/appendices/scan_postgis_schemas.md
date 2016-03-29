@@ -4,7 +4,7 @@ Lors du scan d'un point d'entrée de type base de données, c'est l'utilisateur 
 
 Par défaut dans PostgreSQL et donc dans PostGIS, le schéma public est créé dans chaque nouvelle base de données et tout utilisateur pouvant s'y connecter voit ce schéma. Les bonnes pratiques incitent à ne pas stocker de données dans ce schéma, mais de créer plusieurs schémas sur lesquels sont affinés les droits des utilisateurs ou groupes d'utilisateurs, garantissant une meilleure granularité des usages et une isolation de la sécurité.
 
-FME s'appuie sur les droits et le chemin de parcours* (search_path*) pour établir sa connexion à une base PostGIS. Parfois, la base n'est pas correctement configurée.
+FME s'appuie sur les droits et le chemin de parcours (*search_path*) pour établir sa connexion à une base PostGIS. Parfois, la base n'est pas correctement configurée.
 
 Pour que le Scan FME puisse analyser les tables d'un schéma, il faut donc que :
 * l'utilisateur configuré ait les droit en lecture sur les tables ;
@@ -12,7 +12,7 @@ Pour que le Scan FME puisse analyser les tables d'un schéma, il faut donc que :
 
 ## Démonstration et commandes
 
-Prenons l'exemple d'une base de données PostgreSQL 9.3 avec une base PostGIS 2.1.3 intitulée *geofla* dont laquelle sont stockées les limites administratives du [produit idoine de l'IGN France](http://professionnels.ign.fr/geofla) et structurée en 9 schémas dont 6 correspondant à la métropole et chaque DOM, l'un la fusion de l'ensemble et les 2 derniers étant les schémas inhérents *public* et *topology*.
+Prenons l'exemple d'une base de données PostgreSQL 9.3 avec une base PostGIS 2.1.3 intitulée *geofla* dont laquelle sont stockées les limites administratives du [produit idoine de l'IGN France](http://professionnels.ign.fr/geofla) et structurée en 9 schémas dont 6 correspondant à la métropole et chaque DOM, l'un (*global*)la fusion de l'ensemble et les 2 derniers étant les schémas inhérents au SGBD et ses extensions (*public* et *topology*).
 
 L'objectif est de scanner les tables des 6 schémas de données avec l'utilisateur *isogeo_demo* appartenant au groupe *isogeo_editor*.
 
@@ -26,9 +26,9 @@ Suivre [les indications données ici](/features/scan_fme/scanFME_new_db.html), a
 
 ### 2. Constater que rien ne s'affiche
 
-Si on lance le scan, on s'aperçoit que la seule table remontée est *public.raster_columns* qui est une table système de l'extension PostGIS. Elle est en reeur car ne contenant aucune entité géographique.
+Si on lance le scan, on s'aperçoit que la seule table remontée est *public.raster_columns* qui est une table système de l'extension PostGIS. Elle est en erreur car ne contenant aucune entité géographique.
 
-![APP - Point d'entrée PostGIS](/images/annex_scanPostGIS_scan0.png "Point d'entrée configuré dans Isogeo")
+![APP - 1er scan du point d'entrée](/images/annex_scanPostGIS_scan0.png "Premier scan : aucune table ne semble accessible")
 
 ### 3. Vérifier que l'utilisateur accède bien aux tables
 
@@ -50,7 +50,7 @@ ALTER ROLE isogeo_demo IN DATABASE geofla SET search_path TO '$user', 'public', 
 ```
 En lançant à nouveau le scan, on constate alors que les tables du schéma *guadeloupe*, **et seulement de celui-ci**, sont bien scannées :
 
-![APP - Point d'entrée PostGIS](/images/annex_scanPostGIS_scan1_guadeloupe.png "Point d'entrée configuré dans Isogeo")
+![APP - 2ème scan du point d'entrée](/images/annex_scanPostGIS_scan1_guadeloupe.png "Le schéma guadeloupe est bien scanné")
 
 ### 5. Tirer parti de cette fonctionnalité
 
@@ -62,21 +62,21 @@ Uniquement le schéma *guyane* :
 ALTER ROLE isogeo_demo IN DATABASE geofla SET search_path TO '$user', 'public', 'guyane';
 ```
 
-![APP - Point d'entrée PostGIS](/images/annex_scanPostGIS_scan2_guyane.png "Point d'entrée configuré dans Isogeo")
+![APP - 3ème scan du point d'entrée](/images/annex_scanPostGIS_scan2_guyane.png "Le schéma guyane est bien scanné")
 
 Uniquement le schéma *lareunion* :
 ```sql
 ALTER ROLE isogeo_demo IN DATABASE geofla SET search_path TO '$user', 'public', 'lareunion';
 ```
 
-![APP - Point d'entrée PostGIS](/images/annex_scanPostGIS_scan3_lareunion.png "Point d'entrée configuré dans Isogeo")
+![APP - 4ème scan du point d'entrée](/images/annex_scanPostGIS_scan3_lareunion.png "Le schéma lareunion est bien scanné")
 
 Les 3 schémas :
 ```sql
 ALTER ROLE isogeo_demo IN DATABASE geofla SET search_path TO '$user', 'public', 'guadeloupe', 'guyane', 'lareunion';
 ```
 
-![APP - Point d'entrée PostGIS](/images/annex_scanPostGIS_scan4_all.png "Point d'entrée configuré dans Isogeo")
+![APP - 5ème scan du point d'entrée](/images/annex_scanPostGIS_scan4_all.png "Les 3 schémas sont bien scannés")
 
 ## Résumé des commandes
 
