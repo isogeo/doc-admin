@@ -30,3 +30,5 @@ En mars 2015, Isogeo a animé un séminaire en ligne pour démontrer qu'il étai
 ## Respire, Isogeo t'accompagne pour INSPIRE
 
 En novembre 2015, Isogeo a animé un séminaire en ligne pour démontrer qu'il était possible de répondre à INSPIRE en quelques clics. Consulter le [support de présentation et le compte-rendu en ligne sur le blog](http://blog.isogeo.com/2015/12/02/compte-rendu-du-webinaire-inspire-et-geomayenne-fr/o) consacré au webinaire et de visionner l'enregistrement.
+
+<iframe width="560" height="315" src="https://www.youtube.com/embed/fwZnHORANCY?list=PLouu1QiHcsHSDGdvysTn1KRhr3JQUDol4" frameborder="0" allowfullscreen></iframe>
