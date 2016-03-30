@@ -21,6 +21,6 @@ Cette aide en ligne est un site internet à part entière basé sur l'outil [Git
 * chaque page et chaque niveau de titre a une URL spécifique permettant de partager des raccourcis précis facilement (exemple : [aller directement aux bonnes pratiques du support](/fr/support/README.html#bonnes-pratiques)) ;
 * pour voir les animations en bonne résolution faire un clic-droit et choisir *Afficher l'image [dans un nouvel onglet]* ;
 * boutons de partage sur les réseaux sociaux ;
-* [document PDF](/Isogeo.Help_fr.pdf) généré pour impression éventuelle (non optimisé).
+* [document PDF](Isogeo.Help_fr.pdf) généré pour impression éventuelle (non optimisé).
 
 ![Interface de l'aide en ligne](/images/GitBook_help.png "Utiliser GitBook")
