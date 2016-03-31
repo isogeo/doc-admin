@@ -7,20 +7,22 @@ Vous pouvez choisir parmi les différents modèles disponibles :
 * Données (vecteur) ;
 * Données (raster) ;
 * Ensemble de données ;
-* Service ;
-* Ressource.
+* Ressource ;
+* Service.
 
-Pour cela il suffit de cliquer sur le bouton `+ Créer`de l'inventaire. Vous avez alors 2 façons de procéder :
+Pour cela il suffit de cliquer sur le bouton `+ Créer`, situé en haut à gauche de l'inventaire (sauf si l'administrateur l'a désactivé dans [les paramètres du groupe de travail](/features/admin/group.html)).
 
-* soit en créant une fiche vierge en indiquant seulement son titre ;
-* soit en créant une fiche à partir de l'import d'une fiche au format XML 19139.
+Il y a alors deux 2 façons de procéder :
+
+* créer une fiche vierge en indiquant seulement son titre ;
+* créer une fiche à partir de l'import d'un fichier XML standardisé ISO 19139.
 
 Cette fonctionnalité est utile dans différents cas de figure :
 * si votre groupe de travail ne dispose pas du scan ;
-* si vous souhaitez créer des fiches de métadonnées dont les formats ne sont pas pris en compte (carte PDF, fichier statistique Excel, etc.), par exemple pour créer une cartothèque ;
+* si vous souhaitez créer des fiches de métadonnées dont les formats ne sont pas pris en compte par le scan (carte PDF, fichier statistique Excel, etc.), par exemple pour créer une cartothèque ;
 * pour documenter un service web standardisé.
 
-> Astuce : l'administrateur d'un groupe de travail peut désactiver cette possibilité via les paramètres dans le menu `Administration`.
+> Astuce : l'administrateur d'un groupe de travail peut désactiver cette possibilité via les [paramètres](/features/admin/group.html) dans le menu `Administration`.
 
 ## Documenter un service
 
