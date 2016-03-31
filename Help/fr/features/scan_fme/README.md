@@ -1,3 +1,6 @@
-# Recenser avec le scan automatique
+# Recenser vos données géographiques
 
-Pour installer et déployer le scan automatique basé sur FME, reportez-vous à la [section dédiée](/fr/features/scan_fme/installation/README.html).
+Première pahse d'un projet de catalogage, le recensement des données et de leurs ressources associées est facilité par différents outils Isogeo :
+* l'inventaire automatique et exhaustif des données géographiques avec le scan FME ;
+* le client CSW pour moissonner ;
+* les fiches manuelles pour les ressources non géographiques ou non standardisées.
