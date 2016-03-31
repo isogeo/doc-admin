@@ -1,12 +1,16 @@
-# Fonctionnement du scan
+# Inventaire automatique et exhaustif avec le Scan FME
+
+Pour installer et déployer le scan automatique basé sur FME, reportez-vous à la [section dédiée](/fr/features/scan_fme/installation/README.html).
 
 ## Fonctionnement
 
-Le scan se sert de FME pour parcourir les données et nécessite donc qu'une licence soit disponible durant le processus. Par défaut, le scan lance jusqu'à 3 instances de FME en parallèle, avec une seule licence utilisée. Chaque instance s'occupe d'une action associée à une donnée : par exemple *signer GEOFLA.DEPARTEMENTS* ou *documenter GEOFLA.COMMUNES*. Un système de file d'attente (indépendante des points d'entrée) démarre une nouvelle instance dès qu'une se termine.
+Le scan se sert de FME pour parcourir les données et nécessite donc qu'une licence soit disponible durant le processus. Par défaut, le scan lance jusqu'à 3 instances de FME en parallèle, avec une seule licence utilisée.
+
+Chaque instance s'occupe d'une action associée à une donnée : par exemple *signer GEOFLA.DEPARTEMENTS* ou *documenter GEOFLA.COMMUNES*. Une file d'attente (indépendante des points d'entrée) démarre une nouvelle instance dès qu'une se termine.
 
 La licence de FME utilisée est de nouveau disponible pour d'autres usages une fois le scan terminé.
 
-> Astuce : le service de scan permet d'utiliser jusqu'à 5 instances de FME à partir de la même licence. Si le serveur est suffisamment dimensionné pour supporter cette charge, il suffit d'éditer le fichier *worker.bat* dans le dossier *daemon* de l'installation du scan et de modifier le paramètre `MAX_FME_CONCURRENCY_LIMIT`, avant enfin de redémarrer le service.
+> Astuce : le service de scan permet d'utiliser jusqu'à 5 instances de FME à partir de la même licence. Si le serveur est suffisamment dimensionné pour supporter cette charge, il suffit d'éditer le fichier *worker.bat* dans le dossier *daemon* de l'installation du scan et de modifier le paramètre `MAX_FME_CONCURRENCY_LIMIT` puis de redémarrer le service.
 
 ## Processus
 
@@ -33,15 +37,18 @@ La licence de FME utilisée est de nouveau disponible pour d'autres usages une f
 La liste des données sans entités géographiques et la liste des doublons sont informatives. Elles vous permettent d’agir au sein de votre base de données.
 
 La liste complète des données recensées pendant le scan vous permet d’identifier :
-* Les nouvelles données ajoutées à votre inventaire
-* Les données inchangées depuis le dernier scan
-* Les données modifiées depuis le dernier scan
-* Les données supprimées depuis le dernier scan
+* Les nouvelles données ajoutées à votre inventaire ;
+* Les données inchangées depuis le dernier scan ;
+* Les données modifiées depuis le dernier scan ;
+* Les données supprimées depuis le dernier scan ;
+* Les données déplacées depuis le dernier scan.
 
 Allez dans l’inventaire pour découvrir ces données et parcourir leurs métadonnées.
 
 ## Cas particuliers
 
-- Si vous copiez une donnée sans changer le nom de fichier, le scan indiquera qu'il a détecté un doublon mais créera quand même une nouvelle fiche ;
-- Le renommage un point d'entrée n'est pas possible aujourd'hui. Il faut nécessairement le supprimer et en re-créer un ;
-- Une table visible à partir de plusieurs points d'entrée (chaînes de connexion différentes) ne sera pas dupliquée.
+* Le renommage un point d'entrée n'est pas possible aujourd'hui. Il faut nécessairement le supprimer et en re-créer un ;
+
+* Pour les bases de données, FME s'appuie sur l'utilisateur que vous configurez. Une table visible à partir de plusieurs points d'entrée par plusieurs utilisateurs (chaînes de connexion différentes) ne sera pas dupliquée.
+
+* Si vous copiez une donnée sans changer le nom de fichier, le scan indiquera qu'il a détecté un doublon mais créera quand même une nouvelle fiche ;

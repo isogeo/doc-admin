@@ -1,8 +1,63 @@
-# Ajouter une nouvelle base de données à scanner
+# Ajouter un nouveau point d'entrée à scanner
 
-## Démarche globale
+Un point d'entrée correspond à l'emplacement des données sources. Un administrateur peut créer autant de `Points d’entrée` qu’il le souhaite.
 
-Pour créer un point d’entrée « Base de données » vous devez :
+Le scan génère systématiquement un inventaire exhaustif des données identifiées dans ces points d’entrée. Il n'est pas possible de renommer un point d'entrée.
+
+Il existe deux types de points d’entrée :
+* arborescence de fichiers ;
+* base de données.
+
+## Arborescence de fichiers <i class="fa fa-folder-open"></i>
+
+![Point d'entrée Fichiers](/images/scanFME_new_files_btn.png "Sélecteur de type de point d'entrée - Arborescence de fichiers")
+
+Indiquer le chemin absolu d'accès à une  arborescence de répertoires contenant les données géographiques.
+
+### Caractéristiques et précisions
+
+* les fichiers doivent être accessibles via un partage de type Windows (protocole [SMB](https://fr.wikipedia.org/wiki/Server_Message_Block)) ;
+
+* il est préférable qu'ils soient hébergés sur un serveur ;
+
+* tous les sous-répertoires sont explorés et il est donc recommandé d'indiquer une granularité assez fine (1 300 fichiers maximum par point d'entrée) ;
+
+* il n'est pas possible de filtrer sur un format en particulier.
+
+### Ajouter un répertoire de fichiers à scanner
+
+Pour créer un point d’entrée « Fichiers » :
+
+1.	Dans le menu « Scan FME », créer un nouveau point d’entrée en cliquant sur « + Nouveau »
+2.	Sélectionnez le type « Fichier »
+3.	Nommez le point d’entrée. Exemple : « Cadastre »
+4.	Renseigner le chemin d’accès au répertoire contenant les données à scanner. Exemple : //serveur/partage/Dossier/
+
+    ![Nouveau point d'entrée fichiers](/images/scanFME_new_files.png "Créer un nouveau point d'entrée pour scanner des fichiers")
+
+5.	Sauvegarder. Le nouveau point d’entrée créé s’ajoute à la liste des points d’entrée. Il est prêt à être scanné.
+
+    ![Nouveau point d'entrée fichiers](/images/scanFME_new_files_ready.png "Le nouveau point d'entrée est prêt à être scanné")
+
+____
+
+## Système de Gestion de Base de Données (SGBD) <i class="fa fa-database"></i>
+
+![Point d'entrée SGBD](/images/scanFME_new_DB_btn.png "Sélecteur de type de point d'entrée - Base de données")
+
+Indiquer les paramètres de connexion à la base de données et les instances / schémas à scanner.
+
+### Caractéristiques et précisions
+
+* les SGBD sont indépendants du système d'exploitation ;
+* les bases de données dites "plates" ou "fichiers" sont considérées comme telles (Esri FileGDB par exemple) ;
+* les tables sans géométrie ne sont pas prises en compte ;
+* une table visible depuis plusieurs chaînes de connexion n'est pas dupliquée.
+
+
+### Démarche globale
+
+Pour créer un point d’entrée « Base de données » :
 
 1.	Dans le menu « Scan FME », créer un nouveau point d’entrée en cliquant sur « + Nouveau » ;
 2.	Sélectionner le type « Base de données » ;
@@ -13,7 +68,7 @@ Pour créer un point d’entrée « Base de données » vous devez :
 
     ![Nouveau point d'entrée base](/images/scanFME_new_DB_ready.png "Le nouveau point d'entrée est prêt à être scanné")
 
-## Paramètres requis selon le type de base de données
+### Paramètres requis selon le type de base de données
 
 Légende :
 * X = requis
