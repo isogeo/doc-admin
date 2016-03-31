@@ -7,6 +7,9 @@
 
 ### Via l'administration
 
+#### Fontionnement du filtre et du tri
+* quand aucune recherche n'est active, les mots-clés sont triés par nombre d'occurrences
+* quand une recherche est lancée, les mots-clés sont triés selon leur score de correspondance avec les caractères entrés.
 
 > Astuce : accéder directement aux [mots-clés](https://app.isogeo.com/admin/keywords).
 
@@ -20,26 +23,31 @@ Un administrateur ou un éditeur de métadonnée pourra au moment d’étiqueter
 restreindre la liste des mots-clés disponibles pour les éditeurs
 
 ### Si l’administrateur a restreint la liste des mots-clés disponibles :
-seuls ces mots-clés sont disponibles à l’affectation pour un administrateur ou un éditeur.
-seul un administrateur peut créer un nouveau mot-clé (automatiquement ajouté à la liste des mots-clés restreints du groupe de travail).
 
+Quand la liste est active :
+* seuls les mots-clés présents dans la liste sont disponibles à l’affectation pour un administrateur ou un éditeur ;
+* seul un administrateur peut créer un nouveau mot-clé via l'interface d'administration.
+
+![Changement de la casse des mots-clés à l'affichage](/images/adm_specs_add.gif "Ajouter une nouvelle spécification")
 
 ### Si la liste des mots-clés n’est pas restreinte :
-tous les mots-clés sont disponibles à l’affectation pour un administrateur ou un éditeur.
-un administrateur ou un éditeur peut créer un nouveau mot-clé.
 
+Quand la liste n'est pas active :
+* tous les mots-clés sont disponibles à l’affectation pour un administrateur ou un éditeur.
+* un administrateur ou un éditeur peut créer un nouveau mot-clé.
 
+![Mots-clés - liste non restreinte](/images/adm_specs_add.gif "Créer un nouveau mot-clé quand la liste n'est pas restreinte")
 
 ## Harmoniser l'affichage des mots-clés
 
 il peut choisir le mode d’affichage des mots-clés :
-* en minuscules.
-en MAJUSCULES.
-en Capitalisation Sur La Première Lettre.
-en Capitalisation sur la première lettre du premier mot.
+* en minuscules ;
+* EN MAJUSCULES ;
+* En Capitalisation Sur La Première Lettre ;
+* En capitalisation sur la première lettre du premier mot.
 
 
-
+![Changement de la casse des mots-clés à l'affichage](/images/adm_specs_add.gif "Ajouter une nouvelle spécification")
 
 
 ### Dans les partages
