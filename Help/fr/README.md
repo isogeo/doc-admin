@@ -8,7 +8,11 @@ Ce document vous explique pas à pas comment l’utiliser en décrivant le fonct
 
 ## Utilisation de l'aide en ligne
 
-Cette aide en ligne est un site internet à part entière basé sur l'outil [GitBook](https://www.gitbook.com/). Voici le fonctionnement global et les possibilités offertes :
+Cette aide en ligne est un site internet à part entière basé sur l'outil [GitBook](https://www.gitbook.com/).
+
+Il s'agit de la version {{ book.version }}. Dernière mise à jour le {{ file.mtime }}.
+
+Voici le fonctionnement global et les possibilités offertes :
 
 * table des matières (masquable) mémorisant les pages déjà consultées ;
 * moteur de recherche ;
