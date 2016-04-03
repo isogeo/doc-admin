@@ -34,13 +34,35 @@ Petite compilation à l'usage des power-users !
 | Mots-clés   | [/admin/keywords](https://app.isogeo.com/admin/keywords) |
 | Carnet d'adresses - Liste   | [/admin/address-book](https://app.isogeo.com/admin/address-book) |
 | Carnet d'adresses - Nouveau   | [/admin/address-book/new](https://app.isogeo.com/admin/address-book/new) |
+| Licences - Liste globale  | [/admin/licenses](https://app.isogeo.com/admin/licenses) |
+| Licences - Référentiel  | [/admin/licenses/shared](https://app.isogeo.com/admin/licenses/shared) |
+| Licences - De mon groupe  | [/admin/licenses/owned](https://app.isogeo.com/admin/licenses/owned) |
+| Licences - Nouvelle  | [/admin/licenses/new](https://app.isogeo.com/admin/licenses/new) |
 | Spécifications - Liste globale  | [/admin/specifications](https://app.isogeo.com/admin/specifications) |
 | Spécifications - Référentiel  | [/admin/specifications/shared](https://app.isogeo.com/admin/specifications/shared) |
 | Spécifications - De mon groupe  | [/admin/specifications/owned](https://app.isogeo.com/admin/specifications/owned) |
-| Licences - Liste globale  | [/admin/licenses](https://app.isogeo.com/admin/licenses) |
+| Spécifications - Nouvelle  | [/admin/specifications/new](https://app.isogeo.com/admin/specifications/new) |
+| Scan FME  | [/admin/isogeo-worker](https://app.isogeo.com/admin/isogeo-worker) |
 
 ## Inventaire
 
+La plupart de ces exemples correspondent aux filtres et tris de la recherche dont le fonctionnement est détaillé [ici](/features/inventory/search.html). Il ne s'agit que d'exemples de base et toutes les combinaisons ne sont pas démontrables de façon générique. A vous de trouver celles qui correspondent le plus à votre usage de l'inventaire.
+
+| Description                        | Raccourci |
+| :--------------------------------- | :-------- |
+| Métadonnées sans mot-clé | [/inventory/search?q=has-no:keyword](https://app.isogeo.com/inventory/search?q=has-no:keyword) |
+| Métadonnées sans catalogue (seulement pour les admins) | [/inventory/search?q=has-no:catalog](https://app.isogeo.com/inventory/search?q=has-no:catalog) |
+| Métadonnées sans mot-clé | [/inventory/search?q=has-no:keyword](https://app.isogeo.com/inventory/search?q=has-no:keyword) |
+| Vecteurs | [/inventory/search?q=type:vector-dataset](https://app.isogeo.com/inventory/search?q=type:vector-dataset) |
+| Vecteurs sans mot-clé | [/inventory/search?q=type:vector-dataset has-no:keyword](https://app.isogeo.com/inventory/search?q=type:vector-dataset has-no:keyword) |
+| Vecteurs sans SRS | [/inventory/search?q=type:vector-dataset has-no:coordinate-system](https://app.isogeo.com/inventory/search?q=type:vector-dataset has-no:coordinate-system) |
+| Vecteurs sans thème INSPIRE | [/inventory/search?q=type:vector-dataset has-no:keyword:inspire-theme](https://app.isogeo.com/inventory/search?q=type:vector-dataset has-no:keyword:inspire-theme) |
+| Rasters | [/inventory/search?q=type:raster-dataset](https://app.isogeo.com/inventory/search?q=type:raster-dataset) |
+| Rasters sans mot-clé | [/inventory/search?q=type:raster-dataset has-no:keyword](https://app.isogeo.com/inventory/search?q=type:raster-dataset has-no:keyword) |
+| Rasters sans SRS | [/inventory/search?q=type:raster-dataset has-no:coordinate-system](https://app.isogeo.com/inventory/search?q=type:raster-dataset has-no:coordinate-system) |
+| Rasters sans thème INSPIRE | [/inventory/search?q=type:raster-dataset has-no:keyword:inspire-theme](https://app.isogeo.com/inventory/search?q=type:raster-dataset has-no:keyword:inspire-theme) |
+| Service visualisable | [/inventory/search?q=type:service action:view](https://app.isogeo.com/inventory/search?q=type:service action:view) |
+| Service sans aucun lien | [/inventory/search?q=type:service has-no:action](https://app.isogeo.com/inventory/search?q=type:service has-no:action) |
 
 
 
