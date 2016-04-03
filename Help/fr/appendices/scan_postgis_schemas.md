@@ -52,7 +52,7 @@ En lançant à nouveau le scan, on constate alors que les tables du schéma *gua
 
 ![APP - 2ème scan du point d'entrée](/images/annex_scanPostGIS_scan1_guadeloupe.png "Le schéma guadeloupe est bien scanné")
 
-### 5. Tirer parti de cette fonctionnalité
+### 5. Conséquences et illustrations
 
 La prise en compte de cette finesse de configuration de la base de données permet en fait d'affiner la démarche de catalogage en choisissant de scanner certains schémas seulement à un moment donnée, de façon totalement indépendant de la gestion des droits de la base de données et sans créer  / recréer de trop nombreux points d'entrée.<br \><br \>
 Par exemple, en jouant sur le search_path  il est possible que le même point d'entrée renvoie différentes tables tout en n'en perdant pas la mémoire :
