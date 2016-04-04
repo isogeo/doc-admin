@@ -27,8 +27,8 @@ FME doit être installé et parfaitement configuré pour accéder et manipuler v
 Ainsi que les Service Pack associés.
 
 Pour télécharger FME :
-* la dernière version ;
-* une ancienne version spécifique.
+* la dernière version compatible [en 32 bits](https://s3.amazonaws.com/downloads.safe.com/fme/2015/fme-desktop-2015.1.3-win-x86.msi) ou [en 64 bits](https://s3.amazonaws.com/downloads.safe.com/fme/2015/fme-desktop-2015.1.3-win-x64.msi) ;
+* une [ancienne version spécifique](https://www.safe.com/support/support-resources/fme-downloads/archived/).
 
 Pour plus d’informations, veuillez contacter votre distributeur FME.
 
