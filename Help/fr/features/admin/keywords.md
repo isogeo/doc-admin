@@ -1,6 +1,6 @@
 # Les mots-clés
 
-Dans Isogeo, les mots-clés sont gérés de façon centralisé dans ce que l'on pourrait appeler le thésaurus Isogeo, dans lequel chaque groupe de travail vient piocher ou contribuer (si le mot-clé n'existe pas déjà).
+Dans Isogeo, les mots-clés sont gérés de façon centralisée dans ce que l'on appelle le thésaurus Isogeo. Au moment d'étiqueter, chaque groupe de travail vient piocher dans ce thésaurus ou y contribuer en ajoutant un mot-clé s'il n'existe pas déjà, constituant ainsi son propre thésaurus. Celui-ci n'étant qu'une "vue" sur le thésaurus global de la plateforme.
 
 ## Avoir une vision globale du thésaurus Isogeo et du groupe de travail
 
@@ -17,6 +17,11 @@ L'objectif est :
 A l'instar de la page des systèmes de coordonnées, cette interface permet aux administrateurs de chaque groupe de travail de parcourir le thésaurus Isogeo et l'ensemble des mots-clés présents dans son groupe de travail.
 
 > Astuce : accéder directement aux [mots-clés](https://app.isogeo.com/admin/keywords).
+
+![Administrer les mots-clés](/images/adm_keywords_occurs.png "Administrer les mots-clés")
+
+Fonctionnement détaillé :
+
 
 #### Fontionnement du filtre et du tri
 * quand aucune recherche n'est active, les mots-clés sont triés par nombre d'occurrences
@@ -50,7 +55,7 @@ Quand la liste n'est pas active :
 * tous les mots-clés sont disponibles à l’affectation pour un administrateur ou un éditeur.
 * un administrateur ou un éditeur peut créer un nouveau mot-clé.
 
-![Mots-clés - liste non restreinte](/images/adm_specs_add.gif "Créer un nouveau mot-clé quand la liste n'est pas restreinte")
+![Mots-clés - liste non restreinte](/images/inv_edit_tags_keywords.gif "Créer un nouveau mot-clé quand la liste n'est pas restreinte")
 
 ____
 
