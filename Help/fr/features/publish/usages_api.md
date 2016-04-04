@@ -16,6 +16,8 @@ ____
 
 ## Exemples d'applications basées sur l'API
 
+![Une API pour différents usages](/images/api_usages.png "Une API pour des usages")
+
 ### Les plugins pour les SIG
 
 L'un des usages les plus demandés est de pouvoir consulter les catalogues directement dans les logiciels SIG. Aujourd'hui, des plugins ont été développés pour ArcMap, ArcCatalog et ArcGIS WebAppBuilder for Developer. D'autres sont en cours et attendent une contribution financière pour être finalisés. Ces extensions sont librement téléchargeables et utilisables.
