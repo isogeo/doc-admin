@@ -64,7 +64,7 @@ Un WMTS pour [Web Map Tile Service](http://fr.wikipedia.org/wiki/Web_Map_Tile_Se
 1. Ajouter une ressource associée ;
 2. Choisir le type `WMTS` ;
 3. Renseigner l’URL du service : http://suite.opengeo.org/geoserver/gwc/service/wmts par exemple ;
-4. Ajouter le nom de la couche à afficher via le paramètre layers : **?layers=opengeo:countries** par exemple.
+4. Ajouter le nom de la couche à afficher via le paramètre layer : **?layer=opengeo:countries** par exemple.
 Le nom des couches disponibles peut être retrouvé grâce à l’action GetCapabilities : **?request=GetCapabilities** ;
 5. Cliquer sur `Valider` ;
 6. Dans les actions de la ressource associé, cocher l’option `Visualisation` ;
