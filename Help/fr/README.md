@@ -10,7 +10,7 @@ Ce document vous explique pas à pas comment l’utiliser en décrivant le fonct
 
 Cette aide en ligne est un site internet à part entière basé sur l'outil [GitBook](https://www.gitbook.com/).
 
-Il s'agit de la version {{ book.version }}. Dernière mise à jour le {{ file.mtime }}.
+Il s'agit de la version {{ book.version }}, mise à jour le {{ file.mtime.year }}.
 
 Voici le fonctionnement global et les possibilités offertes :
 
