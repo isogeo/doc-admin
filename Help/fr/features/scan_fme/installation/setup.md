@@ -71,8 +71,9 @@ Si le message suivant s'affiche, veuillez vérifier [les prérequis](/fr/feature
 
 ### Du côté de l'interface
 
-Si en lançant un scan sur un point d'entrée, le message suivant s'affiche, merci de :
-* vérifier les paramètres du point d'entrée,
-* vérifier les droits de [l'utilisateur configuré](/fr/features/scan_fme/installation/prerequisites.html#compte-utilisateur) pour lancer le service.
+Si en lançant un scan sur un point d'entrée, un message d'erreur s'affiche, merci de :
+* vérifier les paramètres du point d'entrée (le chemin/schéma existe t'il ?),
+* vérifier les droits de [l'utilisateur configuré](/fr/features/scan_fme/installation/prerequisites.html#compte-utilisateur) pour lancer le service,
+* vérifier la disponibilité de la licence FME et des licences tierces éventuelles (1Spatial, ArcGIS).
 
 ![Echec du scan](/images/scanFME_scan_errors_UnableToAccessEntryPoint.png "Impossible d'accéder au chemin spécifié")

@@ -12,7 +12,7 @@ Pour que le Scan FME puisse analyser les tables d'un schéma, il faut donc que :
 
 ## Démonstration et commandes
 
-Prenons l'exemple d'une base de données PostgreSQL 9.3 avec une base PostGIS 2.1.3 intitulée *geofla* dont laquelle sont stockées les limites administratives du [produit idoine de l'IGN France](http://professionnels.ign.fr/geofla) et structurée en 9 schémas dont 6 correspondant à la métropole et chaque DOM, l'un (*global*)la fusion de l'ensemble et les 2 derniers étant les schémas inhérents au SGBD et ses extensions (*public* et *topology*).
+Prenons l'exemple d'une base de données PostgreSQL 9.3 avec une base PostGIS 2.1.3 intitulée *geofla* dont laquelle sont stockées les limites administratives du [produit idoine de l'IGN France](http://professionnels.ign.fr/geofla) et structurée en 9 schémas dont 6 correspondant à la métropole et chaque DOM, l'un (*global*) la fusion de l'ensemble et les 2 derniers étant les schémas inhérents au SGBD et ses extensions (*public* et *topology*).
 
 L'objectif est de scanner les tables des 6 schémas de données avec l'utilisateur *isogeo_demo* appartenant au groupe *isogeo_editor*.
 
@@ -54,8 +54,8 @@ En lançant à nouveau le scan, on constate alors que les tables du schéma *gua
 
 ### 5. Conséquences et illustrations
 
-La prise en compte de cette finesse de configuration de la base de données permet en fait d'affiner la démarche de catalogage en choisissant de scanner certains schémas seulement à un moment donnée, de façon totalement indépendant de la gestion des droits de la base de données et sans créer  / recréer de trop nombreux points d'entrée.<br \><br \>
-Par exemple, en jouant sur le search_path  il est possible que le même point d'entrée renvoie différentes tables tout en n'en perdant pas la mémoire :
+La prise en compte de cette finesse de configuration de la base de données permet en fait d'affiner la démarche de catalogage en choisissant une bonne granularité sur les points d'entrée au moment de scanner.<br \>
+Par ailleurs on peut voir que les variations sur le *search_path*  sur un même point d'entrée ne changent rien à la "mémoire" du Scan FME :
 
 Uniquement le schéma *guyane* :
 ```sql

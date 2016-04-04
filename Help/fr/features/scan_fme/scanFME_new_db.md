@@ -84,7 +84,7 @@ Légende :
 | Identifiant                 | X       | X      | X          |                          |
 | Mot de passe                | X       | X      | X          |                          |
 | Nom de la base de données   | X       |        | X          |                          |
-| Fichier de connexion (.sde) | -       |        |            | X                        |
+| Fichier de connexion (.sde) | -       |        |            | \                        |
 | Nom de l'instance           | -       |        |            | X                        |
 | Version transactionnelle    | -       |        |            | X                        |
 
