@@ -41,7 +41,7 @@ Si l'OpenCatalog permet de couvrir l'essentiel des besoins de consultation, il e
 
 #### Générique ou spécifique
 
-| [![portail générique](/images/portal_demo_carto.png =400x "Portail de données générique de PixUp")](http://demo.isogeo.net) | [![geomayenne](/images/portal_geomayenne_carto.png =400x "Portail de données geomayenne d'arx iT")](https://www.geomayenne.fr) |
+| [![portail générique](/images/portal_demo_carto.png  "Portail de données générique de PixUp" =400x)](http://demo.isogeo.net) | [![geomayenne](/images/portal_geomayenne_carto.png "Portail de données geomayenne d'arx iT")](https://www.geomayenne.fr) |
 | :--: | :--: |
 | Portail générique<br \>Isogeo & PixUp | geomayenne<br \>Isogeo & arx iT |
 
@@ -99,7 +99,7 @@ Une [liste de diffusion](http://eepurl.com/bfJYu9) pour informer et prévenir de
 
 Des exemples de code dans différents langages sont librement disponibles en ligne, issus d'Isogeo ou de ses partenaires :
 
-| [![nodeJS](/images/logos/nodejs.png =100x "Inventaire automatique")](https://bitbucket.org/snippets/isogeo/L8rKz) | [![Python](/images/logos/python.png "Interopérabilité des formats")](https://github.com/Guts/isogeo-api-py-minsdk) | [![PHP](/images/logos/php.png "Mises à jour automatiques")](https://github.com/pixup/isogeo-api-PHP-samples) |
+| [![nodeJS](/images/logos/nodejs.png "Inventaire automatique")](https://bitbucket.org/snippets/isogeo/L8rKz) | [![Python](/images/logos/python.png "Interopérabilité des formats")](https://github.com/Guts/isogeo-api-py-minsdk) | [![PHP](/images/logos/php.png "Mises à jour automatiques")](https://github.com/pixup/isogeo-api-PHP-samples) |
 | :--: | :--: | :--: |
 | JavaScript<br \>(nodeJS) | Python | PHP |
 
