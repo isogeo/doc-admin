@@ -1,12 +1,6 @@
 # Plateforme
 Une plate-forme Web est un ensemble de briques logicielles cohérentes qui assurent un service directement accessible via une connexion Internet.
 
-# AGILE
-Philosophie d'ogranisation du travail pour les projets de développement en informatique mais pouvant s'appliquer à d'autres domaines. Voir la [fiche Wikipédia](http://fr.wikipedia.org/wiki/M%C3%A9thode_agile).
-
-# Scrum
-Cadre de méthodes de travail pour l'organisation de développement de produits complexes, considéré comme une méthode AGILE. Voir la [fiche Wikipédia](http://fr.wikipedia.org/wiki/Scrum_%28m%C3%A9thode%29).
-
 # APP
 Solution d’administration d'Isogeo. Elle permet aux gestionnaires de données géographiques de gérer et de valoriser leurs catalogues de données géographiques sur le web.
 
@@ -33,9 +27,10 @@ Un ensemble de donnée est un regroupement cohérent de donnée conçues et util
 # Service de données
 Un service en réseau ou « web service » est un programme informatique permettant la communication et l’échange de données entre applications et systèmes hétérogènes dans des environnements distribués. Il s’agit donc d’un ensemble de fonctionnalités exposées sur Internet ou sur un Intranet, par et pour des applications ou machines, sans intervention humaine et en temps réel. En géomatique, un web service propose un service qui va permettre la prise en charge distante de données.
 
-On peut identifier plusieurs types de services couvrant différents domaine fonctionnels : 
+On peut identifier plusieurs types de services couvrant différents domaine fonctionnels :
+ 
 * Service de recherche : CSW (Catalog Service Web)
-* Service de consultation, c’est-à-dire l’affichage simple de carte : WMS (Web map Service), WFS (Web feature Service), ESRI Map Service, etc.
+* Service de consultation : WMS (Web map Service), WFS (Web feature Service), ESRI Map Service, etc.
 * Service de téléchargement : WFS (Web Feature Service)
 * Service de transformation : WPS (Web Processing Service)
 
