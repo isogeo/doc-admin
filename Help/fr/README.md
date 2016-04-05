@@ -1,6 +1,6 @@
 Isogeo est une application web qui vous permet de gérer et partager un catalogue exhaustif, à jour et documenté de vos données géographiques.
 
-<iframe width="700" height="380" src="https://www.youtube.com/embed/JbBxxpC4hzQ?rel=0" frameborder="0" allowfullscreen></iframe>
+<iframe width="560" height="315" src="https://www.youtube.com/embed/JbBxxpC4hzQ" frameborder="0" allowfullscreen></iframe>
 
 Ce document vous explique pas à pas comment l’utiliser en décrivant le fonctionnement et l'utilisation de ses différents modules et ressources. Si vous rencontrez des difficultés que vous ne parvenez pas à résoudre avec cette aide en ligne, [contactez le support](support/README.html).
 
@@ -8,9 +8,9 @@ Ce document vous explique pas à pas comment l’utiliser en décrivant le fonct
 
 ## Utilisation de l'aide en ligne
 
-Cette aide en ligne est un site internet à part entière basé sur l'outil [GitBook](https://www.gitbook.com/).
+Cette aide en ligne est un site internet à part entière basé sur l'outil [GitBook version {{ gitbook.version }}](https://www.gitbook.com/).
 
-Il s'agit de la version {{ book.version }}, mise à jour le {{ file.mtime.year }}.
+Il s'agit de la version {{ book.version }}, mise à jour le {{ file.mtime }}.
 
 Voici le fonctionnement global et les possibilités offertes :
 
@@ -19,12 +19,12 @@ Voici le fonctionnement global et les possibilités offertes :
 * pour avancer d'une page, cliquer sur le bord droit ;
 * pour reculer d'une page, cliquer sur le bord gauche ;
 * consultable sur tous les supports (*responsive design*) ;
-* 3 thèmes disponibles : blanc, sepia et noir ;
-* type et taille de police personnalisable ;
 * glossaire dynamique ;
 * chaque page et chaque niveau de titre a une URL spécifique permettant de partager des raccourcis précis facilement (exemple : [aller directement aux bonnes pratiques du support](/fr/support/README.html#bonnes-pratiques)) ;
 * pour voir les animations en bonne résolution faire un clic-droit et choisir *Afficher l'image [dans un nouvel onglet]* ;
 * boutons de partage sur les réseaux sociaux ;
-* [document PDF](../Isogeo.Help_fr.pdf) généré pour impression éventuelle (non optimisé).
+* [document PDF](../Isogeo.Help_fr.pdf) généré pour impression éventuelle ;
+* 3 thèmes disponibles : blanc, sepia et noir ;
+* type et taille de police personnalisables ;
 
 ![Interface de l'aide en ligne](/images/GitBook_help.png "Utiliser GitBook")
