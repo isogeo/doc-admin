@@ -6,11 +6,6 @@ Dans Isogeo, les mots-clés sont gérés de façon centralisée dans ce que l'on
 
 Chaque mot-clé, qu'il soit affecté à une donnée du groupe de travail ou pas, est qualifié par son nombre d'occurrences dans tout Isogeo et dans le groupe de travail.
 
-L'objectif est :
-
-* de donner à l'administrateur une vision de la répartition des mots-clés dans l'ensemble de son groupe de travail ;
-
-* de guider l'éditeur au moment de l'affectation d'un mot-clé à une/plusieurs données (étiquetage) en apportant une information de
 
 ### Via l'administration
 
@@ -22,8 +17,13 @@ A l'instar de la page des systèmes de coordonnées, cette interface permet aux 
 
 Fonctionnement détaillé :
 
+* à gauche, la liste des mots-clés et leurs nombre d'occurrences dans le thésaurus Isogeo. Il est possible de chercher dedans et d'ajouter des mots-clés à la liste de son groupe de travail quand la liste est restreinte.
+* à droite, la liste de smots-clés affectés à au moins une métadonnée appartenant au groupe de travail.
+
+![Ajouter un mot-clé](/images/adm_keywords_restricted_addToIsogeo.gif "Ajouter un mot-clé à son groupe de travail à partir du thésaurus Isogeo") 
 
 #### Fontionnement du filtre et du tri
+
 * quand aucune recherche n'est active, les mots-clés sont triés par nombre d'occurrences
 * quand une recherche est lancée, les mots-clés sont triés selon leur score de correspondance avec les caractères entrés.
 
@@ -31,7 +31,9 @@ Fonctionnement détaillé :
 
 ### Au moment d'étiqueter
 
-Un administrateur ou un éditeur de métadonnée pourra au moment d’étiqueter, savoir combien de fois le mot-clé est utilisé dans son groupe de travail et dans l’ensemble de la plateforme Isogeo pour être guidé dans son choix.
+L'éditeur a une informaiton sur la représentativité des mots-clés au moment de l'étiquetage d'une/plusieurs données.
+
+Un administrateur ou un éditeur de métadonnées peut au moment d’étiqueter, savoir combien de fois le mot-clé est utilisé dans son groupe de travail et dans l’ensemble de la plateforme Isogeo pour être guidé dans son choix.
 
 > Astuce : consulter la page dédiée à l'étiquetage.
 
@@ -52,8 +54,8 @@ Quand la liste est active :
 ### Si la liste des mots-clés n’est pas restreinte :
 
 Quand la liste n'est pas active :
-* tous les mots-clés sont disponibles à l’affectation pour un administrateur ou un éditeur.
-* un administrateur ou un éditeur peut créer un nouveau mot-clé.
+* tous les mots-clés sont disponibles à l’affectation pour un administrateur ou un éditeur ;
+* un administrateur ou un éditeur peut créer un nouveau mot-clé qui est ajouté au thésaurus Isogeo et au groupe de travail.
 
 ![Mots-clés - liste non restreinte](/images/inv_edit_tags_keywords.gif "Créer un nouveau mot-clé quand la liste n'est pas restreinte")
 

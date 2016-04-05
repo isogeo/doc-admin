@@ -66,6 +66,8 @@ Avec Isogeo, vous valorisez déjà votre ETL FME en capitalisant sur son intéro
 * transformation en différents formats et projections en sortie (choix personnalisble) ;
 * découpage des données selon des emprises géographiques définies et personnalisables par l'administrateur ;
 
+<iframe src="//fr.slideshare.net/slideshow/embed_code/key/4Gc2nND2iDRxWY" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
+
 Consulter le [résumé du webinaire consacré à cette extension de février 2016](http://blog.isogeo.com/2016/03/16/retour-sur-le-webinaire-automatiser-lextraction-de-vos-donnees-sig-avec-lapi-isogeo/).
 
 
@@ -106,7 +108,7 @@ Une [liste de diffusion](http://eepurl.com/bfJYu9) pour informer et prévenir de
 
 Des exemples de code dans différents langages sont librement disponibles en ligne, issus d'Isogeo ou de ses partenaires :
 
-| [![nodeJS](/images/logos/nodejs.png "Snippet en JavaScript")](https://bitbucket.org/snippets/isogeo/L8rKz) | [![Python](/images/logos/python.png "Classe d'abastraction sur l'API en Python")](https://github.com/Guts/isogeo-api-py-minsdk) | [![PHP](/images/logos/php.png "Différents exemples en PHP")](https://github.com/pixup/isogeo-api-PHP-samples) |
+| [![nodeJS](/images/logos/nodejs.png "Snippet en JajaScript")](https://bitbucket.org/snippets/isogeo/L8rKz) | [![Python](/images/logos/python.png "Classe d'abastraction sur l'API en Phyton")](https://github.com/Guts/isogeo-api-py-minsdk) | [![PHP](/images/logos/php.png "Différents exemples en PHP")](https://github.com/pixup/isogeo-api-PHP-samples) |
 | :--: | :--: | :--: |
 | [JavaScript<br \>(nodeJS)](https://bitbucket.org/snippets/isogeo/L8rKz) | [Python](https://github.com/Guts/isogeo-api-py-minsdk) | [PHP](https://github.com/pixup/isogeo-api-PHP-samples) |
 
