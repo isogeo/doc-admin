@@ -6,15 +6,17 @@ La plateforme Isogeo repose sur la puissance de son API qui permet de développe
 
 ## Les principes
 
-Respectant le standard REST,  l'API publique est dédiée à la lecture et ouverte à quiconque souhaite développer et possède un accès à Isogeo. Elle permet d'exécuter des requêtes et d'en retranscrire les résultats dans une interface originale. L'idée est d'élargir les horizons des usages des catalogues de données constitués dans Isogeo.
+Respectant l'architecture [REST](https://fr.wikipedia.org/wiki/Representational_State_Transfer),  l'API publique est dédiée à la lecture des catalogues et ouverte à quiconque souhaite développer et possède un accès à Isogeo. Elle permet d'exécuter des requêtes et d'en retranscrire les résultats dans une interface originale. L'idée est d'élargir les horizons des usages des catalogues de données constitués dans Isogeo.
 
-Une application tierce peut être développée par Isogeo, un intégrateur, un partenaire ou un développeur. indépendant
+Les premières applications à utiliser l'API Isogeo ne sont autres que APP et OpenCatalog !
 
-![API REST](/images/api_rest.png "Une API REST déployée dans le cloud Azure")
+Une application tierce peut être développée par Isogeo, un intégrateur, un partenaire ou un développeur indépendant.
 
 ____
 
 ## Exemples d'applications basées sur l'API
+
+Il est possible d'utiliser l'API dans autant d'applications qu'il y a de développeurs pour les faire. Voici quelques exemples d'applications développées aujourd'hui et disponibles en tant qu'extensions de la plateforme.
 
 ![Une API pour différents usages](/images/api_usages.png "Une API pour des usages")
 
@@ -39,17 +41,17 @@ Si l'OpenCatalog permet de couvrir l'essentiel des besoins de consultation, il e
 * interfaces *responsive design* ;
 * des fonctionnalités qu'il tient à chacun de contribuer à développer ! :)
 
-
-
 #### Générique ou spécifique
 
-| [![portail générique](/images/portal_demo_carto.png  "Portail de données générique de PixUp" =400x)](http://demo.isogeo.net) | [![geomayenne](/images/portal_geomayenne_carto.png "Portail de données geomayenne d'arx iT")](https://www.geomayenne.fr) |
+Selon votre projet et vos besoins, il ets possible d'envisager la mise en place d'un portail au socle générique ou bien d'un développement spécifique complet.
+
+| [![portail générique](/images/portal_demo_carto.png  "Portail de données générique de PixUp")](http://demo.isogeo.net) | [![geomayenne](/images/portal_geomayenne_carto.png "Portail de données geomayenne d'arx iT")](https://www.geomayenne.fr) |
 | :--: | :--: |
-| Portail générique<br \>Isogeo & PixUp | geomayenne<br \>Isogeo & arx iT |
+| [Portail générique<br \>Isogeo & PixUp](http://demo.isogeo.net) | [geomayenne<br \>Isogeo & arx iT](https://www.geomayenne.fr) |
 
 > Astuce : [consulter et se créer un compte sur le portail générique de démonstration](http://demo.isogeo.net/) (attention, il sert parfois à des tests et peut être indisponible ou personnalisé pour une démo en particulier).
 
-#### Réalisations intéressantes
+#### Réalisations intéressantes supplémentaires
 
 Voici une sélection de portails utilisant l'API Isogeo pour apporter des fonctionnalités d'interaction via le catalogue :
 * 2 portails motorisés par un seul groupe de travail Isogeo :  [Créteil](http://geodata.ville-creteil.fr/) et [Plaine Centrale](http://geodata.agglo-plainecentrale94.fr/) ;
@@ -62,15 +64,18 @@ Avec Isogeo, vous valorisez déjà votre ETL FME en capitalisant sur son intéro
 
 * extraction déclenchée automatiquement à une périodicité personnalisable par jeu de données ;
 * transformation en différents formats et projections en sortie (choix personnalisble) ;
-*
-
+* découpage des données selon des emprises géographiques définies et personnalisables par l'administrateur ;
 
 Consulter le [résumé du webinaire consacré à cette extension de février 2016](http://blog.isogeo.com/2016/03/16/retour-sur-le-webinaire-automatiser-lextraction-de-vos-donnees-sig-avec-lapi-isogeo/).
 
 
 ### L'export vers les formats bureautiques
 
-Pour les besoins d'une consultation hors-ligne, une sauvegarde ou une impression dans un modèle graphique propre à un organismeous avons développé une
+Pour les besoins d'une consultation hors-ligne, une sauvegarde ou une impression dans un modèle graphique propre à un organisme, un petit programme a été développé permettant d'exporter les métadonnées dans des formats bureautiques :
+* Microsoft Word (.docx) à partir d'un ou plusieurs modèles personnalisables par l'utilisateur ;
+* Microsoft Excel (.xls/x).
+
+Au-delà de ces formats existants, il est possible d'envisager d'autres formats : XML 19139, CSV, base locale, etc.
 
 ![isogeo2office](/images/isogeo2office_all.png "Exporter vos métadonnées dans des formats bureautiques")
 
@@ -80,30 +85,30 @@ ____
 
 ### Notions
 
-Si vous avez des compétences en développement, voici les notions prérequises :
+Si vous avez des compétences en développement, voici les notions techniques utiles pour démarrer :
 * l'API respecte le protocole REST pour les requêtes ;
 * oAuth2 pour l'authentification des applications tierces ;
-* l'accès aux fichiers hébergés via les métadonnées (données brutes, fiches XML...) est soumis à la mise en place d'un proxy
+* l'accès aux fichiers hébergés via les métadonnées (données brutes, fiches XML...) est soumis à la mise en place d'un proxy.
+
+![API REST](/images/api_rest.png "Une API REST déployée dans le cloud Azure")
 
 ### Présentation technique de l'API
 
-EN janvier 2016, un webinaire a été consacré à une présentation de l'architecture de l'API et des bases de développement. Consulter le résumé sur notre blog
+En janvier 2016, un webinaire a été consacré à une présentation de l'architecture de l'API et des bases de développement. Consulter le résumé sur notre blog
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/sOv9LeMycbo" frameborder="0" allowfullscreen></iframe>
 
-### Documentation
+### Documentation et ressources
 
-Une documentation est [disponible en ligne](https://docs.google.com/document/d/11dayY1FH1NETn6mn9Pt2y3n8ywVUD0DoKbCi9ct9ZRo/edit?usp=sharing).
+Une documentation technique est [disponible en ligne](https://docs.google.com/document/d/11dayY1FH1NETn6mn9Pt2y3n8ywVUD0DoKbCi9ct9ZRo/edit?usp=sharing).
 
 Une [liste de diffusion](http://eepurl.com/bfJYu9) pour informer et prévenir des évolutions, à laquelle il est fortement recommandé de s'inscrire.
 
-### Exemples
-
 Des exemples de code dans différents langages sont librement disponibles en ligne, issus d'Isogeo ou de ses partenaires :
 
-| [![nodeJS](/images/logos/nodejs.png "Inventaire automatique")](https://bitbucket.org/snippets/isogeo/L8rKz) | [![Python](/images/logos/python.png "Interopérabilité des formats")](https://github.com/Guts/isogeo-api-py-minsdk) | [![PHP](/images/logos/php.png "Mises à jour automatiques")](https://github.com/pixup/isogeo-api-PHP-samples) |
+| [![nodeJS](/images/logos/nodejs.png "Snippet en JavaScript")](https://bitbucket.org/snippets/isogeo/L8rKz) | [![Python](/images/logos/python.png "Classe d'abastraction sur l'API en Python")](https://github.com/Guts/isogeo-api-py-minsdk) | [![PHP](/images/logos/php.png "Différents exemples en PHP")](https://github.com/pixup/isogeo-api-PHP-samples) |
 | :--: | :--: | :--: |
-| JavaScript<br \>(nodeJS) | Python | PHP |
+| [JavaScript<br \>(nodeJS)](https://bitbucket.org/snippets/isogeo/L8rKz) | [Python](https://github.com/Guts/isogeo-api-py-minsdk) | [PHP](https://github.com/pixup/isogeo-api-PHP-samples) |
 
 
 
