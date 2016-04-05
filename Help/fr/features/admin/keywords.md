@@ -39,7 +39,7 @@ ____
 
 ## Harmoniser l'étiquetage
 
-restreindre la liste des mots-clés disponibles pour les éditeurs
+En tant qu'administrateur, il est possible de restreindre la liste des mots-clés disponible lors de l'étiquetage pour guider les éditeurs dans le choix de leurs mots-clés. Cela permet d'assurer une certaine cohérence et homogénéité dans le thésaurus du groupe de travail.
 
 ### Si l’administrateur a restreint la liste des mots-clés disponibles :
 
@@ -71,12 +71,12 @@ il peut choisir le mode d’affichage des mots-clés :
 
 ![Changement de la casse des mots-clés à l'affichage](/images/adm_keywords_case_switch.gif "Différentes options de la casse de l'affichage des mots-clés")
 
-
 ### Dans les partages
 
 Ce choix d'affichage ne se limite pas à APP et se répercute également dans les interfaces de partage. OpenCatalog et le serveur CSW utiliseront le **choix du groupe de travail qui a créé le partage**.
 
 En ce qui concerne les [applications tierces (plugins SIG, portails webs..)](/features/publish/usages_api.html), l'option choisie par l'administrateur du groupe de travail est transmise via l'API et il faut alors distinguer 3 cas de figure :
+
 * dans le cas où l'application n'est alimentée que par un seul groupe de travail : l'équipe en charge du développement de l'application pourra appliquer automatiquement le paramètre.
 
 * dans le cas où l'application est alimentée par plusieurs groupes de travail et que tous les groupes de travail participant ont la même option : comportement identique.
