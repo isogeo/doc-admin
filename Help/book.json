@@ -39,8 +39,8 @@
         "fontSize": 12,
         "paperSize": "a4",
         "margin": {
-            "right": 62,
-            "left": 62,
+            "right": 45,
+            "left": 45,
             "top": 36,
             "bottom": 36
         },
@@ -51,6 +51,7 @@
         "custom": "styles/custom.css"
     },
     "variables": {
-        "version": "2.13.0-88"
+        "version": "2.13.0-88",
+        "author": "Isogeo"
     }
 }
