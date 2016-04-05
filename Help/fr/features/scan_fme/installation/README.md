@@ -17,3 +17,8 @@ Basé sur l'ETL FME, édité par Safe Software, il permet de lire un très grand
 * un groupe de travail peut installer plusieurs services.
 * un service ne peut être lié qu'à un seul groupe de travail.
 * une licence FME peut être utilisée par plusieurs services.
+
+
+## Guide vidéo
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/gLCSeQZMqvs" frameborder="0" allowfullscreen></iframe>

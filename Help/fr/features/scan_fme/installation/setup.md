@@ -1,7 +1,5 @@
 # Déploiement du service
 
-Il est possible d'installer plusieurs services pas groupe de travail mais un même service ne peut être lié à plusieurs groupes de travail.
-
 ## Téléchargement du service
 
 Le service Isogeo est généré à partir de notre plate-forme pour chaque groupe de travail et possède ses propres identifiants.
