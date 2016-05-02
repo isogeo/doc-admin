@@ -4,7 +4,7 @@
 
 To access the Isogeo application, any of the following browsers can be used:
 
-* [Internet Explorer 10 and higher](http://windows.microsoft.com/en-us/internet-explorer/download-ie);
+* [Internet Explorer 11 and higher](http://windows.microsoft.com/en-us/internet-explorer/download-ie);
 * The 3 most recent, stable versions of [Mozilla Firefox](https://www.mozilla.org/en-US/firefox) and [Google Chrome](https://www.google.com/chrome/browser/desktop/).
 
 To access an OpenCatalog, the following browsers are supported:
