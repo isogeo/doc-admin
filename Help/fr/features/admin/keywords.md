@@ -20,7 +20,7 @@ Fonctionnement détaillé :
 * à gauche, la liste des mots-clés et leurs nombre d'occurrences dans le thésaurus Isogeo. Il est possible de chercher dedans et d'ajouter des mots-clés à la liste de son groupe de travail quand la liste est restreinte.
 * à droite, la liste de smots-clés affectés à au moins une métadonnée appartenant au groupe de travail.
 
-![Ajouter un mot-clé](/images/adm_keywords_restricted_addToIsogeo.gif "Ajouter un mot-clé à son groupe de travail à partir du thésaurus Isogeo") 
+![Ajouter un mot-clé](/images/adm_keywords_restricted_addToIsogeo.gif "Ajouter un mot-clé à son groupe de travail à partir du thésaurus Isogeo")
 
 #### Fontionnement du filtre et du tri
 

@@ -4,13 +4,15 @@ Vous gérez un catalogue de données moissonnable en CSW, vous souhaitez récup�
 
 ## Principes des noeuds CSW
 
-Le GéoCatalogue national est le nœud privilégié pour la France de l’Infrastructure de Données Géographiques (IDG) nationale pour la recherche et la consultation des métadonnées. Sa base de métadonnées sert au rapportage de la France sur la mise en œuvre de la directive INSPIRE.
+Lorsque l'on parle d'un noeud CSW ([*Catalog Service Web*](http://www.opengeospatial.org/standards/cat)), on entend l'implémentation du standard de l'OGC qui a 2 volets :
+* le serveur qui génère des flux selon les profils définis par le standard, interrogeables par les clients CSW ;
+* le client qui envoie les requêtes formatées selon le standard à n'importe quel serveur CSW et en récupère les métadonnées.
 
-Ainsi, les autorités publiques détenant des données et services géographiques entrant dans le cadre d’INSPIRE sont incitées à alimenter le Géocatalogue. Trois méthodes sont possibles :
+On parle de noeud car l'ensemble peut former un réseau d'échanges des catalogues de données.
 
-* en référençant leur propre catalogue de données, qui sera automatiquement moissonné pour alimenter le Géocatalogue.
-* en déposant les fichiers de métadonnées sur le GéoCatalogue.
-* en saisissant directement les métadonnées dans le GéoCatalogue (la méthode est expliquée plus loin dans l’article).
+Il s'agit ici de moissonner les serveurs CSW grâce au client CSW intégré dans le module idoine d'Isogeo, qui implémente le profil CSW de la version 2.0.2 standard (voir [OGC 07-006r1](http://portal.opengeospatial.org/files/?artifact_id=20555) et [OGC 07-045](http://portal.opengeospatial.org/files/?artifact_id=21460)).
+
+> Astuce : pour la partie serveur, voir [le chapitre dédié](/fr/features/publish/csw_server.html).
 
 ## Créer un point d'entrée "Service CSW"
 

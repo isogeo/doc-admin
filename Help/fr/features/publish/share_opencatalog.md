@@ -11,7 +11,6 @@ Elles permettent également de mettre en valeur les ressources associées regrou
 * Télécharger
 * Plus
 
-
 Pour créer un OpenCatalog, il suffit de :
 
 1.	Dans le menu `Administration`  > `Partage`, cliquer sur `Nouveau` ;
@@ -28,12 +27,14 @@ Pour créer un OpenCatalog, il suffit de :
 
 « OpenCatalog » est développé via l’API Isogeo. Il est très facilement intégrable dans vos sites web existants (intranet, extranet, portail carto, portail OpenData, IDG, etc.) via une [balise HTML iFrame](http://www.w3schools.com/tags/tag_iframe.asp).
 
+Ajouter `?lock` à la fin de l'adresse permet d'enlever le bandeau de haut de page.
+
 ### Syntaxe
 
 Par exemple, pour intégrer l'OpenCatalog de démonstration :
 
 ```no-higlight
-<iframe src="http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0" width="980" height="650"></iframe>
+<iframe src="http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0?lock" width="980" height="650"></iframe>
 ```
 
 Même si le site est responsive, il faut considérer le paramètre  `width` avec attention de façon à ne pas nuire  l'expérience utilisateur :
@@ -41,14 +42,9 @@ Même si le site est responsive, il faut considérer le paramètre  `width` avec
 * 980 pour une consultation agréable ;
 * 1280 pour une consultation optimale.
 
-#### Intégrer dans Microsoft SharePoint
-
-
-
-
 ### Rendu
 
-<iframe src="http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0" width="850" height="600"></iframe></a>
+<iframe src="http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0?lock" width=100% height="600"></iframe>
 
 Des exemples d’intégration en ligne :
 * le portail de la [PPIGE](http://www.ppige-npdc.fr/geocatalogue/)
@@ -56,7 +52,7 @@ Des exemples d’intégration en ligne :
 
 ## Intégrer une seule fiche en iFrame
 
-Si vous ne souhaitez intégrer qu'une seule fiche par exemple dans une fenêtre de type pop-up, il suffit d'ajouter `?lock` à la fin de l'adresse de la fiche souhaitée et de placer le tout dans une balise iFrame.
+Si vous ne souhaitez intégrer qu'une seule fiche par exemple dans une fenêtre de type pop-up, c'est également possible en mettant l'URL complète vers la fiche souhaitée.
 
 Différences par rapport à l'intégration normale :
 * la barre du haut ;
@@ -64,12 +60,12 @@ Différences par rapport à l'intégration normale :
 
 ### Syntaxe
 
-Par exemple, pour intégrer la fiche de métadonnées sur les départements 2014 :
+Par exemple, pour intégrer [la fiche de métadonnées de démonstration sur les départements 2014](http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0/m/754209f115c040a48d43ffc262b16500) :
 
 ```no-higlight
-<iframe src="http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0/m/754209f115c040a48d43ffc262b16500?lock" height="400"></iframe></a>
+<iframe src="http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0/m/754209f115c040a48d43ffc262b16500?lock" height="400"></iframe>
 ```
 
 ### Rendu
 
-<iframe src="http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0/m/754209f115c040a48d43ffc262b16500?lock" width="850" height="600"></iframe></a>
+<iframe src="http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0/m/754209f115c040a48d43ffc262b16500?lock" width="850" height="600"></iframe>

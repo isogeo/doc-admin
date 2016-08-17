@@ -32,7 +32,7 @@ Dans l’ordre, nous avons :
 
 5.	Associé à la fiche de submersion marine le flux WFS renseigné dans la fiche sur le serveur WFS ;
 
-6.	Crée un partage OpenCatalog pour le grand public dans lequel on a mis le catalogue GéoLittoral sans le catalogue « public » ou « interne » : [la fiche est consultable ici](http://open.isogeo.com/s/14cbb8fce4fd471ab3af9fb849d0dcd1/GbhLhG7hoNFHdkrgh8n9o9I3Sym20/m/cb71d8f42ba44788b348b5bc9f79e58c).
+6.	Crée un partage OpenCatalog pour le grand public dans lequel on a mis le catalogue GéoLittoral sans le catalogue « averti » ou « interne » : [la fiche est consultable ici](http://open.isogeo.com/s/14cbb8fce4fd471ab3af9fb849d0dcd1/GbhLhG7hoNFHdkrgh8n9o9I3Sym20/m/cb71d8f42ba44788b348b5bc9f79e58c).
 
     ![Submersion marine 0](/images/adm_shares_OC_demo_Geolittoral0.png "Seul le lien de téléchargement des données est disponible")
 
@@ -40,7 +40,7 @@ Dans l’ordre, nous avons :
 
     ![Submersion marine 1](/images/adm_shares_OC_demo_Geolittoral1.png "En plus du lien de téléchargement, on a accès au WMS")
 
-8.	Créé un partage OpenCatalog pour le grand public dans lequel on a mis le catalogue GéoLittoral avec le catalogue « utilisateurs avertis (niveau 1)» et le catalogue « agents internes (niveau 2)» : [la fiche est consultable ici](http://open.isogeo.com/s/d61fe9892eb345e7b6840bbfc4cf5733/zuD9LtBEXRi7ynIXyRyWIy4hC0xz0/m/cb71d8f42ba44788b348b5bc9f79e58c).
+8.	Créé un partage OpenCatalog pour l'interne dans lequel on a mis le catalogue GéoLittoral avec le catalogue « utilisateurs avertis (niveau 1)» et le catalogue « agents internes (niveau 2)» : [la fiche est consultable ici](http://open.isogeo.com/s/d61fe9892eb345e7b6840bbfc4cf5733/zuD9LtBEXRi7ynIXyRyWIy4hC0xz0/m/cb71d8f42ba44788b348b5bc9f79e58c).
 
     ![Submersion marine 2](/images/adm_shares_OC_demo_Geolittoral2.png "Accès aux 3 ressources : téléchargement, WMS et WFS")
 

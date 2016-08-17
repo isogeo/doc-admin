@@ -40,7 +40,6 @@ La liste complète des données recensées pendant le scan vous permet d’ident
 * Les nouvelles données ajoutées à votre inventaire ;
 * Les données inchangées depuis le dernier scan ;
 * Les données modifiées depuis le dernier scan ;
-* Les données supprimées depuis le dernier scan ;
 * Les données déplacées depuis le dernier scan.
 
 Allez dans l’inventaire pour découvrir ces données et parcourir leurs métadonnées.
