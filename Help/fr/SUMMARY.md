@@ -70,6 +70,7 @@
    * [Notes de version du service](features/scan_fme/installation/releases_notes.md)
 * [Support](support/README.md)
 * [Architecture technique et politique de développement](releases_notes/README.md)
+   * [Version 2.16.0](releases_notes/2_16_0.md)
    * [Version 2.15.0](releases_notes/2_15_0.md)
    * [Version 2.14.0](releases_notes/2_14_0.md)
    * [Version 2.13.0](releases_notes/2_13_0.md)
