@@ -109,12 +109,9 @@ Voici la marche à suivre pour 2 groupes de travail, l'un nommé CA (le principa
     | :----------------------: | :------------------------: |
     | ![Editer les fichiers](/images/scanFME_install_muli_edited_files_gt01.png "Edition des fichiers dans un éditeur de texte") | ![Editer les fichiers](/images/scanFME_install_muli_edited_files_gt02.png "Edition des fichiers dans un éditeur de texte") |
 
+4. Lancer les fichiers `install.bat` et vérifier que les services sont bien enregistrés et fonctionnels :
 
-
-
-
-
-
+    ![2 services installés sur le même serveur](/images/scanFME_install_muli_services.png "vérifier l'installation des 2 services")
 
 
 
