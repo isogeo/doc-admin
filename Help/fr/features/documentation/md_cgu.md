@@ -13,7 +13,7 @@ L’onglet « CGU » précise les conditions d’accès et d’utilisation de la
 | Exigence INSPIRE    | Obligatoire                   |
 | Edition par lot     | Oui, par incrémentation       |
 | Scan                | Non                           |
-| Moteur de recherche | Non                           |
+| Moteur de recherche | Oui                           |
 | Fiche ressource     | Oui                           |
 | Fiche service       | Oui                           |
 

@@ -18,7 +18,7 @@ Première étape du cycle de documentation, il est possible d'affecter 3 types d
 ![Etiqueter](/images/inv_edit_tags_widget.png "Widget étiquetage")
 
 Vous voyez alors :
-* la liste des étiquettes déjà affectées aux données sélectionnées, par types et par ordre alphabétique ;
+* la liste des étiquettes déjà affectées aux données sélectionnées, par types et par ordre alphabétique, avec le nombre d'occurrence pour les mots-clés ;
 * un champ de saisie vous permettant de :
     * rechercher dans les étiquettes déjà affectées ;
     * rechercher parmi les mots-clés existant dans tous les groupes de travail Isogeo (y compris le vôtre) ;

@@ -11,7 +11,7 @@ L’onglet « Contact » permet d’affecter, depuis votre carnet d’adresse, u
 | Exigence INSPIRE    | Obligatoire                   |
 | Edition par lot     | Oui, par incrémentation       |
 | Scan                | Non                           |
-| Moteur de recherche | Non                           |
+| Moteur de recherche | Oui                           |
 | Fiche ressource     | Oui                           |
 | Fiche service       | Oui                           |
 

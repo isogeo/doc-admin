@@ -61,9 +61,8 @@ La plupart de ces exemples correspondent aux filtres et tris de la recherche don
 | Rasters sans mot-clé | [/inventory/search?q=type:raster-dataset has-no:keyword](https://app.isogeo.com/inventory/search?q=type:raster-dataset has-no:keyword) |
 | Rasters sans SRS | [/inventory/search?q=type:raster-dataset has-no:coordinate-system](https://app.isogeo.com/inventory/search?q=type:raster-dataset has-no:coordinate-system) |
 | Rasters sans thème INSPIRE | [/inventory/search?q=type:raster-dataset has-no:keyword:inspire-theme](https://app.isogeo.com/inventory/search?q=type:raster-dataset has-no:keyword:inspire-theme) |
-| Service visualisable | [/inventory/search?q=type:service action:view](https://app.isogeo.com/inventory/search?q=type:service action:view) |
-| Service sans aucun lien | [/inventory/search?q=type:service has-no:action](https://app.isogeo.com/inventory/search?q=type:service has-no:action) |
-
+| Services visualisables | [/inventory/search?q=type:service action:view](https://app.isogeo.com/inventory/search?q=type:service action:view) |
+| Services sans aucun lien | [/inventory/search?q=type:service has-no:action](https://app.isogeo.com/inventory/search?q=type:service has-no:action) |
 
 
 *Ces paramètres fonctionnent aussi sur OpenCatalog en remplaçant l'URL de base par celle de l'OpenCatalog en question.
