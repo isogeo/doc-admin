@@ -8,7 +8,11 @@ Pour le récupérer, connectez-vous sur https://app.isogeo.com avec votre compte
 
 > Astuce : pour accéder directement à l'interface d'administration du scan : https://app.isogeo.com/admin/isogeo-worker
 
-Si aucun service n'est actif, vous êtes invité à générer votre service en lui donnant un nom simple. Par exemple, celui de la machine ou de son utilisateur. Une fois nommé, vous pouvez télécharger le service.
+Si aucun service n'est actif, vous êtes invité à générer votre service en lui donnant un nom simple. Par exemple, celui de la machine ou de son utilisateur.
+
+Vous pouvez également installer plusieurs services en sélectionnant `Ajouter` dans le menu <i class="fa fa-bars"></i>.
+
+Une fois nommé, vous pouvez télécharger le service.
 
 ![Nouveau service](/images/scanFME_install_new_service_download.png "Nommer le nouveau service et cliquer sur télécharger")
 
@@ -51,8 +55,6 @@ Le service **doit être lancé par l'utilisateur Windows dédié isogeo** ([voir
 
 L’installation est à présent terminée :) !
 
-> Astuce : le service de scan permet d'utiliser jusqu'à 5 instances de FME à partir de la même licence. Si le serveur est suffisamment dimensionné pour supporter cette charge, il suffit d'éditer le fichier *worker.bat* dans le dossier *daemon* de l'installation du scan et de modifier le paramètre `MAX_FME_CONCURRENCY_LIMIT` puis de redémarrer le service.
-
 ## Retour à l’application Isogeo
 
 Une fois l’installation effectuée, revenez sur votre navigateur et cliquez sur « Aller à l’application ». Normalement vous devez voir un point vert dans l’en-tête de l’application, cela veut dire que la communication entre le service que vous venez d’installer et la Plateforme Isogeo est établie !
@@ -77,5 +79,42 @@ Si en lançant un scan sur un point d'entrée, un message d'erreur s'affiche, me
 * vérifier la disponibilité de la licence FME et des licences tierces éventuelles (1Spatial, ArcGIS).
 
 ![Echec du scan](/images/scanFME_scan_errors_UnableToAccessEntryPoint.png "Impossible d'accéder au chemin spécifié")
+
+## Usages avancés
+
+### Accélérer le Scan
+
+Le service de scan permet d'utiliser jusqu'à 5 instances de FME à partir de la même licence.
+
+**Si** le serveur est suffisamment dimensionné pour supporter cette charge, il suffit d'éditer le fichier *worker.bat* dans le dossier *daemon* de l'installation du scan et de modifier le paramètre `MAX_FME_CONCURRENCY_LIMIT` puis de redémarrer le service.
+
+### Installer plusieurs services et les lier à un même FME
+
+Pour les besoins de sprojets partenariaux où le Scan est mutualisé ou pour des besoins de cloisonnement des groupes de travail créant les fiches automatiquement, il ets possible de lier plusieurs services du Scan à une seule installation de FME, sur un ou plusieurs serveurs.
+
+Voici la marche à suivre pour 2 groupes de travail, l'un nommé CA (le principal) et l'autre CC ((le subsidiaire) :
+
+1. Télécharger le service de Scan à partir de chaque groupe de travail :
+
+    | Dans le groupe principal | Dans le groupe subsidiaire |
+    | :----------------------: | :----------------------: |
+    | ![Télécharger le service](/images/scanFME_install_muli_gt01.png "Télécharger le service depuis le groupe de travail n°1") | ![Télécharger le service](/images/scanFME_install_muli_gt02.png "Télécharger le service depuis le groupe de travail n°2") |
+
+2. Organiser correctement les installations pour éviter les confusions. Arbosrescence type attendue :
+    ![Arborescence type](/images/scanFME_install_muli_arborescence.png "Bien ranger les différents services")
+
+3. Renommer les services dans les fichiers `install.bat` et `uninstall.bat` (sous-dossier *daemon*), en remplaçant les 3 occurrences de `Isogeo Worker` par un nom spécifique à chacun :
+
+    | Pour le groupe principal | Pour le groupe subsidiaire |
+    | :----------------------: | :------------------------: |
+    | ![Editer les fichiers](/images/scanFME_install_muli_edited_files_gt01.png "Edition des fichiers dans un éditeur de texte") | ![Editer les fichiers](/images/scanFME_install_muli_edited_files_gt02.png "Edition des fichiers dans un éditeur de texte") |
+
+
+
+
+
+
+
+
 
 

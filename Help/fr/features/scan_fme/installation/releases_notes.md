@@ -6,6 +6,13 @@ Vous pouvez facilement vérifier la version du service installée chez vous en p
 
 ![Scan FME - version](/images/scanFME_service_version.png "Vérifier la version du service")
 
+### 2.1.0
+
+* Format XYZ
+* Format SpatiaLite
+* Format GML
+* Scripts compatibles avec FME 2016 (toutes les données déjà scannées avec une version antérieure de FME sont considérées comme modifiées)
+
 ### 2.0.1
 
 * Nouvelle signature permettant de détecter le renommage et le déplacement d’une donnée.
