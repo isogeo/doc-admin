@@ -22,9 +22,26 @@ Il est possible d'utiliser l'API dans autant d'applications qu'il y a de dévelo
 
 ### Les plugins pour les SIG
 
-L'un des usages les plus demandés est de pouvoir consulter les catalogues directement dans les logiciels SIG. Aujourd'hui, des plugins ont été développés pour ArcMap, ArcCatalog et ArcGIS WebAppBuilder for Developer. D'autres sont en cours et attendent une contribution financière pour être finalisés. Ces extensions sont librement téléchargeables et utilisables.
+[![Moteur de recherche Isogeo dans SIG](/images/api_plugins_hearder.png "Chercher et afficher des données via le moteur de rcheecrhe Isogeo directement intégré aux logiciels SIG")](http://www.isogeo.com/applications)
+
+L'un des usages les plus demandés est de pouvoir consulter les catalogues directement dans les logiciels SIG. Aujourd'hui, des plugins ont été développés pour :
+* [ArcMap](http://www.isogeo.com/_medias/files/applications/zip/Plugin_ArcMap.zip) (10.2/10.3/10.4),
+* ArcCatalog,
+* [ArcGIS WebAppBuilder for Developer](http://www.isogeo.com/_medias/files/applications/zip/Widget_WebAppBuilder.zip),
+* [QGIS LTR](https://github.com/isogeo/isogeo-plugin-qgis/blob/master/README.md).
+
+D'autres sont en cours et attendent une contribution financière pour être développés ou finalisés :
+* AutoCAD,
+* AutoCAD Map
+* WordPress,
+* Drupal,
+* etc.
+
+Ces extensions sont librement téléchargeables et utilisables dans leur version en l'état.
 
 > Astuce : consulter [le site dédié aux extensions](http://www.isogeo.com/applications/).
+
+![Démonstration plugin QGIS](https://github.com/isogeo/isogeo-plugin-qgis/blob/master/img/demo_fr.gif?raw=true "Démonstration du fonctionnement du plugin Isogeo dans QGIS")
 
 ![Captures plugins Esri](http://www.isogeo.com/_medias/images/applications/portfolio/2widget-plugin.png "Captures d'écran du plugin pour ArcMap et du widget pour ArcGIS WebAppBuilder")
 
@@ -75,11 +92,11 @@ Consulter le [résumé du webinaire consacré à cette extension de février 201
 
 Pour les besoins d'une consultation hors-ligne, une sauvegarde ou une impression dans un modèle graphique propre à un organisme, un petit programme a été développé permettant d'exporter les métadonnées dans des formats bureautiques :
 * Microsoft Word (.docx) à partir d'un ou plusieurs modèles personnalisables par l'utilisateur ;
-* Microsoft Excel (.xls/x).
+* Microsoft Excel (.xlsx).
 
 Au-delà de ces formats existants, il est possible d'envisager d'autres formats : XML 19139, CSV, base locale, etc.
 
-![isogeo2office](/images/isogeo2office_all.png "Exporter vos métadonnées dans des formats bureautiques")
+![isogeo2office - démo gif](https://bytebucket.org/isogeo/isogeo-2-office/raw/555ebfae8f1cd0258009b519c083952398fef1ae/img/demo_fr.gif "Exporter vos métadonnées dans des formats bureautiques")
 
 ____
 

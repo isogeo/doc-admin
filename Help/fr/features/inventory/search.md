@@ -59,6 +59,8 @@ Lorsque l'on tape dans la barre de recherche, l’auto-complétion propose les 3
 | :--                       | :-------------------------------: |
 | Formats                   | <i class="fa fa-cube"></i>        |
 | Catalogues                | <i class="fa fa-book"></i>        |
+| Contacts                  | <i class="fa fa-phone"></i>       |
+| Licences                  | <i class="fa fa-gavel"></i>        |
 | Mots-clés                 | <i class="fa fa-tag"></i>         |
 | Propriétaires             | <i class="fa fa-users"></i>       |
 | Thèmes INSPIRE            | <i class="fa fa-leaf"></i>        |

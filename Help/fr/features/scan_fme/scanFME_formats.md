@@ -11,13 +11,13 @@ Le service est théoriquement capable de scanner l’ensemble des formats pris e
 * AutoDesk DXF (.dxf),
 * AutoDesk SDF (.sdf),
 * ER Mapper ECW (.ecw),
+* Esri ASCII Grid (.grd, .asc),
 * Esri File Geodatabase (.gdb),
-* Esri Grid (.grd, .asc),
 * Esri Personal Geodatabase (.mdb),
 * Esri shapefiles (.shp),
-* Geography Markup Language (.gml) [seulement la 1ère couche],
+* Geography Markup Language (.gml) [*seulement la 1ère couche dans l'ordre alphabétique*],
 * GeoTIFF (.geotiff),
-* Google Earth (.kml / .kmz) [seulement la 1ère couche],
+* Google Earth (.kml / .kmz) [*seulement la 1ère couche dans l'ordre alphabétique*],
 * GPS eXchange Format (.gpx),
 * Intergraph GeoMedia database (.mdb),
 * JPEG (.jpg / .jpeg),
@@ -27,11 +27,13 @@ Le service est théoriquement capable de scanner l’ensemble des formats pris e
 * MapInfo Interchange Format (.mif / .mid),
 * MicroStation DGN (.dgn),
 * Portable Network Graphics (.png),
-* TIFF (.tiff).
+* SpatiaLite (.sqlite),
+* TIFF (.tiff),
+* XYZ (.xyz) [*seulement pour les fichiers contenant 3 colonnes attributaires (X Y et Z) séparées par des espaces*].
 
 ## Les formats de bases de données
 
-* Esri Enterprise Geodatabase (ArcSDE) *- licence FME Esri Edition nécessaire*,
+* Esri Enterprise Geodatabase (ArcSDE) [*licence FME Esri Edition nécessaire*]
 * Microsoft SQL Server Spatial (toutes versions) ;
 * Oracle Spatial (toutes versions),
 * PostGIS (toutes versions),

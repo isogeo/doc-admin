@@ -10,7 +10,7 @@ Chaque instance s'occupe d'une action associée à une donnée : par exemple *si
 
 La licence de FME utilisée est de nouveau disponible pour d'autres usages une fois le scan terminé.
 
-> Astuce : le service de scan permet d'utiliser jusqu'à 5 instances de FME à partir de la même licence. Si le serveur est suffisamment dimensionné pour supporter cette charge, il suffit d'éditer le fichier *worker.bat* dans le dossier *daemon* de l'installation du scan et de modifier le paramètre `MAX_FME_CONCURRENCY_LIMIT` puis de redémarrer le service.
+![Tour d'horizon de l'interface du Scan](/images/ScanFME_tour_GeoFLA_2016-07-15.gif "Tour d'horizon de l'interface de gestion du Scan")
 
 ## Processus
 

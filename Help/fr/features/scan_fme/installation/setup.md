@@ -51,6 +51,8 @@ Le service **doit être lancé par l'utilisateur Windows dédié isogeo** ([voir
 
 L’installation est à présent terminée :) !
 
+> Astuce : le service de scan permet d'utiliser jusqu'à 5 instances de FME à partir de la même licence. Si le serveur est suffisamment dimensionné pour supporter cette charge, il suffit d'éditer le fichier *worker.bat* dans le dossier *daemon* de l'installation du scan et de modifier le paramètre `MAX_FME_CONCURRENCY_LIMIT` puis de redémarrer le service.
+
 ## Retour à l’application Isogeo
 
 Une fois l’installation effectuée, revenez sur votre navigateur et cliquez sur « Aller à l’application ». Normalement vous devez voir un point vert dans l’en-tête de l’application, cela veut dire que la communication entre le service que vous venez d’installer et la Plateforme Isogeo est établie !
@@ -75,3 +77,5 @@ Si en lançant un scan sur un point d'entrée, un message d'erreur s'affiche, me
 * vérifier la disponibilité de la licence FME et des licences tierces éventuelles (1Spatial, ArcGIS).
 
 ![Echec du scan](/images/scanFME_scan_errors_UnableToAccessEntryPoint.png "Impossible d'accéder au chemin spécifié")
+
+
