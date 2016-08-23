@@ -41,8 +41,11 @@ Ces extensions sont librement téléchargeables et utilisables dans leur version
 
 > Astuce : consulter [le site dédié aux extensions](http://www.isogeo.com/applications/).
 
-![Démonstration plugin QGIS](https://github.com/isogeo/isogeo-plugin-qgis/blob/master/img/demo_fr.gif?raw=true "Démonstration du fonctionnement du plugin Isogeo dans QGIS")
+#### Vidéo de l'installation et l'utilisation du plugin pour QGIS :
 
+[![Démonstration plugin QGIS](https://github.com/isogeo/isogeo-plugin-qgis/blob/master/img/demo_fr.gif?raw=true "Démonstration du fonctionnement du plugin Isogeo dans QGIS")](https://github.com/isogeo/isogeo-plugin-qgis/blob/master/img/demo_fr.gif?raw=true)
+
+#### Captures d'écrans du plugin pour ArcMap et du widget pour ArcGIS WebAppBuilder :
 ![Captures plugins Esri](http://www.isogeo.com/_medias/images/applications/portfolio/2widget-plugin.png "Captures d'écran du plugin pour ArcMap et du widget pour ArcGIS WebAppBuilder")
 
 ### Les portails de données
@@ -60,7 +63,7 @@ Si l'OpenCatalog permet de couvrir l'essentiel des besoins de consultation, il e
 
 #### Générique ou spécifique
 
-Selon votre projet et vos besoins, il ets possible d'envisager la mise en place d'un portail au socle générique ou bien d'un développement spécifique complet.
+Selon votre projet et vos besoins, il est possible d'envisager la mise en place d'un portail au socle générique ou bien d'un développement spécifique complet.
 
 | [![portail générique](/images/portal_demo_carto.png  "Portail de données générique de PixUp")](http://demo.isogeo.net) | [![geomayenne](/images/portal_geomayenne_carto.png "Portail de données geomayenne d'arx iT")](https://www.geomayenne.fr) |
 | :--: | :--: |
@@ -74,6 +77,7 @@ Voici une sélection de portails utilisant l'API Isogeo pour apporter des foncti
 * 2 portails motorisés par un seul groupe de travail Isogeo :  [Créteil](http://geodata.ville-creteil.fr/) et [Plaine Centrale](http://geodata.agglo-plainecentrale94.fr/) ;
 * [Lorient Agglomération](http://geolorient.isogeo.com/) ;
 
+D'autres existent mais sont réservés à un accès en intranet (Syndicat Mixte d'Aménagement de la Vallée de la Durance, Grand Port Maritime de Nantes Saint-Nazaire, Département de la Moselle...).
 
 ### L'extracteur de données
 
