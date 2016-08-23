@@ -33,8 +33,8 @@ Ajouter `?lock` à la fin de l'adresse permet d'enlever le bandeau de haut de pa
 
 Par exemple, pour intégrer l'OpenCatalog de démonstration :
 
-```no-higlight
-<iframe src="http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0?lock" width="980" height="650"></iframe>
+```html
+<iframe src="http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0?lock" width="980" height="600"></iframe>
 ```
 
 Même si le site est responsive, il faut considérer le paramètre  `width` avec attention de façon à ne pas nuire  l'expérience utilisateur :
@@ -44,7 +44,7 @@ Même si le site est responsive, il faut considérer le paramètre  `width` avec
 
 ### Rendu
 
-<iframe src="http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0?lock" width=100% height="600"></iframe>
+<iframe src="http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0?lock" width=850 height="600"></iframe>
 
 Des exemples d’intégration en ligne :
 * le portail de la [PPIGE](http://www.ppige-npdc.fr/geocatalogue/)
@@ -62,8 +62,8 @@ Différences par rapport à l'intégration normale :
 
 Par exemple, pour intégrer [la fiche de métadonnées de démonstration sur les départements 2014](http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0/m/754209f115c040a48d43ffc262b16500) :
 
-```no-higlight
-<iframe src="http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0/m/754209f115c040a48d43ffc262b16500?lock" height="400"></iframe>
+```html
+<iframe src="http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0/m/754209f115c040a48d43ffc262b16500?lock" width="980" height="400"></iframe>
 ```
 
 ### Rendu
