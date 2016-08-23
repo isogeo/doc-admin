@@ -67,6 +67,8 @@
    * [Déploiement d'un service](features/scan_fme/installation/setup.md)
    * [Désinstaller](features/scan_fme/installation/uninstall.md)
    * [Mettre à jour](features/scan_fme/installation/update.md)
+   * [Questions et erreurs fréquentes](features/scan_fme/installation/faq.md)
+   * [Configuration avancée](features/scan_fme/installation/advanced.md)
    * [Notes de version du service](features/scan_fme/installation/releases_notes.md)
 * [Support](support/README.md)
 * [Architecture technique et politique de développement](releases_notes/README.md)
