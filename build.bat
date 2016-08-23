@@ -38,12 +38,13 @@ GOTO ARGS
 :: Builds the project
 :: -------------------------------------------------------------------
 :BUILD
-"%NodeJsHomePath%node.exe" "%APPDATA%\npm\node_modules\rimraf\bin.js" tmp
 ::Yeah, really: https://github.com/isaacs/npm/issues/3697
 "%NodeJsHomePath%node.exe" "%APPDATA%\npm\node_modules\rimraf\bin.js" node_modules
 
 ECHO.
-.nuget\NuGet.exe install ".nuget\packages.config" -o packages -source "https://nuget.org/api/v2/" -source "http://nuget.hq.isogeo.fr/nuget/" -source "%LocalAppData%\NuGet\Cache"
+PUSHD .nuget
+NuGet.exe restore "packages.config" -PackagesDirectory ..\packages
+POPD
 ECHO.
 msbuild.exe %PROJECT% /nologo /t:%TARGET% /m:%NUMBER_OF_PROCESSORS% /p:GenerateDocumentation="%GENERATE_DOCUMENTATION%" /fl /flp:logfile=build.log;verbosity=%VERBOSITY%;encoding=UTF-8 /nr:False
 IF ERRORLEVEL 1 GOTO END_ERROR
@@ -57,11 +58,10 @@ IF "%TARGET%"=="Clean" (
 )
 
 ECHO.
-CALL npm.cmd install --only=production --no-bin-link --loglevel info
-CALL npm.cmd install --only=development --no-bin-link --loglevel info
+CALL npm.cmd install --no-bin-link --loglevel info  --cache tmp\npm-cache
 IF ERRORLEVEL 1 GOTO END_ERROR
 ECHO.
-CALL grunt.cmd build
+CALL grunt.cmd %TARGET%
 IF ERRORLEVEL 1 GOTO END_ERROR
 
 GOTO END
@@ -73,13 +73,19 @@ GOTO END
 :: Note: Currently, last one on the command line wins (ex: /rebuild /clean == /clean)
 :: -------------------------------------------------------------------
 :ARGS
+IF "%PROCESSOR_ARCHITECTURE%"=="x86" (
+    "C:\Windows\Sysnative\cmd.exe" /C "%0 %*"
+
+    IF ERRORLEVEL 1 EXIT /B 1
+    EXIT /B 0
+)
 ::IF NOT "x%~5"=="x" GOTO ERROR_USAGE
 
 :ARGS_PARSE
 IF /I "%~1"=="/clean"      SET TARGET=Clean& SHIFT & GOTO ARGS_PARSE
 IF /I "%~1"=="/rebuild"    SET TARGET=Rebuild& SHIFT & GOTO ARGS_PARSE
 IF /I "%~1"=="/release"    SET TARGET=UpdateVersion;Release& SET BuildType=Nightly& SHIFT & GOTO ARGS_PARSE
-IF /I "%~1"=="/dev"        SET DEV_BUILD=True& SHIFT & GOTO ARGS_PARSE
+IF /I "%~1"=="/dev"        SET DEV_BUILD=True& SET TARGET=default& SHIFT & GOTO ARGS_PARSE
 IF /I "%~1"=="/doc"        SET GENERATE_DOCUMENTATION=True& SHIFT & GOTO ARGS_PARSE
 IF /I "%~1"=="/log"        SET VERBOSITY=diagnostic& SHIFT & GOTO ARGS_PARSE
 IF /I "%~1"=="/NoPause"    SET NO_PAUSE=1& SHIFT & GOTO ARGS_PARSE

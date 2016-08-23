@@ -6,7 +6,7 @@
 
   <PropertyGroup>
     <ProjectName Condition="'$(ProjectName)'==''">$(MSBuildProjectName)</ProjectName>
-    <WindowsSdkVersion>v10.0</WindowsSdkVersion>
+    <WindowsSdkVersion>v10.0A</WindowsSdkVersion>
     <GitPath>$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Windows\CurrentVersion\Uninstall\Git_is1', 'InstallLocation', null, RegistryView.Registry64, RegistryView.Registry32))bin</GitPath>
     <CalibrePath>$([MSBuild]::GetRegistryValueFromView('HKEY_LOCAL_MACHINE\SOFTWARE\calibre 64bit\Installer', 'InstallPath', null, RegistryView.Registry64))</CalibrePath>
   </PropertyGroup>
@@ -26,7 +26,7 @@
 
   <ItemGroup>
     <Projects Include="Gruntfile.js">
-      <Properties>AppName=$(ProjectName);PathAdditions=$([MSBuild]::Escape("$(GitPath);$(CalibrePath)"))</Properties>
+      <Properties>AppName="$(ProjectName)";PathAdditions="$([MSBuild]::Escape("$(GitPath);$(CalibrePath)\."))"</Properties>
     </Projects>
   </ItemGroup>
 

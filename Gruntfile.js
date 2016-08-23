@@ -113,18 +113,18 @@ module.exports = function (grunt) {
     });
 
     /**
-    * Incremental build, starts the application
+    * Incremental build
     */
-    grunt.registerTask('start', [
-        'serveSite'
+    grunt.registerTask('default', [
+        'buildBook',
+        'buildSite'
     ]);
 
     /**
     * Continuous build
     */
     grunt.registerTask('build', [
-        'buildBook',
-        'buildSite'
+        'default'
     ]);
 
     /**
