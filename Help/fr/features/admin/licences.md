@@ -49,6 +49,6 @@ Par exemple, pour indiquer une licence de type libre, impliquant la citation de 
 
 ### Rendu
 
-![Icône attribution](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3c/Cc-by_new.svg/32px-Cc-by_new.svg.png "Attribution")
-![Icône Pas d’Utilisation Commerciale](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Cc-nc-euro.svg/32px-Cc-nc-euro.svg.png "Pas d’Utilisation Commerciale")
-![Icône Pas de Modification](https://upload.wikimedia.org/wikipedia/commons/thumb/c/c7/Cc-nd.svg/32px-Cc-nd.svg.png "Pas de Modification")
+![Icône attribution](http://mirrors.creativecommons.org/presskit/icons/by.png "Attribution")
+![Icône Pas d’Utilisation Commerciale](http://mirrors.creativecommons.org/presskit/icons/nc-eu.png "Pas d’Utilisation Commerciale")
+![Icône Pas de Modification](http://mirrors.creativecommons.org/presskit/icons/nd.png "Pas de Modification")
