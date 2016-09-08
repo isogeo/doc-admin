@@ -42,9 +42,9 @@ Par exemple, pour indiquer une licence de type libre, impliquant la citation de 
 ### Syntaxe
 
 ```no-highlight
-![Icône attribution](http://creativecommons.fr/wordpress/wp-content/uploads/2011/05/by6.gif "Attribution")
-![Icône Pas d’Utilisation Commerciale](http://creativecommons.fr/wordpress/wp-content/uploads/2011/05/nc2.gif "Pas d’Utilisation Commerciale")
-![Icône Pas de Modification](http://creativecommons.fr/wordpress/wp-content/uploads/2011/05/nd1.gif "Pas de Modification")
+![Icône attribution](http://mirrors.creativecommons.org/presskit/icons/by.png "Attribution")
+![Icône Pas d’Utilisation Commerciale](http://mirrors.creativecommons.org/presskit/icons/nc-eu.png "Pas d’Utilisation Commerciale")
+![Icône Pas de Modification](http://mirrors.creativecommons.org/presskit/icons/nd.png "Pas de Modification")
 ```
 
 ### Rendu
