@@ -42,13 +42,13 @@ For example, to indicate a free license that requires quoting the source but pre
 ### Syntax
 
 ```no-highlight
-![Attribution icon](http://creativecommons.fr/wordpress/wp-content/uploads/2011/05/by6.gif "Attribution")
-![No Commercial Use icon](http://creativecommons.fr/wordpress/wp-content/uploads/2011/05/nc2.gif "No Commercial Use")
-![No Modification icon](http://creativecommons.fr/wordpress/wp-content/uploads/2011/05/nd1.gif "No Modification")
+![Attribution icon](http://mirrors.creativecommons.org/presskit/icons/by.png "Attribution")
+![No Commercial Use icon](http://mirrors.creativecommons.org/presskit/icons/nc-eu.png "No Commercial Use")
+![No Modification icon](http://mirrors.creativecommons.org/presskit/icons/nd.png "No Modification")
 ```
 
 ### Result
 
-![Attribution icon](http://creativecommons.fr/wordpress/wp-content/uploads/2011/05/by6.gif "Attribution")
-![No Commercial Use icon](http://creativecommons.fr/wordpress/wp-content/uploads/2011/05/nc2.gif "No Commercial Use")
-![No Modification icon](http://creativecommons.fr/wordpress/wp-content/uploads/2011/05/nd1.gif "No Modification")
+![Attribution icon](http://mirrors.creativecommons.org/presskit/icons/by.png "Attribution")
+![No Commercial Use icon](http://mirrors.creativecommons.org/presskit/icons/nc-eu.png "No Commercial Use")
+![No Modification icon](http://mirrors.creativecommons.org/presskit/icons/nd.png "No Modification")
