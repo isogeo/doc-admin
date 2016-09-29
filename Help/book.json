@@ -18,7 +18,9 @@
     "plugins": [
         "ga",
         "anchors",
-        "customtheme"
+        "customtheme",
+        "language-picker",
+        "collapsible-menu"
     ],
     "pluginsConfig": {
         "fontSettings": {
