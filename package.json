@@ -1,12 +1,13 @@
 {
   "name": "isogeo-help",
-  "version": "2.15.0-23",
+  "version": "2.17.0",
   "description": "",
   "keywords": [
     "isogeo",
     "help",
     "userguide",
-    "documentation"
+    "documentation",
+    "aide en ligne"
   ],
   "private": true,
   "repository": {
@@ -17,8 +18,14 @@
     "gitbook": "^2.6.6",
     "gitbook-plugin-anchors": "^0.5.0",
     "gitbook-plugin-customtheme": "^0.2.0",
+    "gitbook-plugin-expandable-chapters-small": "^0.1.0",
     "gitbook-plugin-ga": "^1.0.1",
-    "gitbook-plugin-infinitescroll": "^0.1.0"
+    "gitbook-plugin-infinitescroll": "^0.1.0",
+    "gitbook-plugin-language-picker": "^0.0.7",
+    "gitbook-plugin-navigator": "^1.1.1",
+    "gitbook-plugin-sitemap": "^1.2.0",
+    "gitbook-plugin-splitter": "^0.0.7",
+    "gitbook-plugin-tags": "^1.4.1",
   },
   "devDependencies": {
     "grunt": "^0.4.5",
