@@ -19,10 +19,10 @@ FME doit être installé et parfaitement configuré pour accéder et manipuler v
 * plugins spécifiques.
 
 À ce jour, les versions de FME supportées sont :
-* FME Desktop 2013 ;
+* FME Desktop 2013 SP4 ;
 * FME Desktop 2014 ;
 * FME Desktop 2015 ;
-* FME Desktop 2016.
+* FME Desktop 2016 SP1.
 
 Ainsi que les Service Pack associés.
 

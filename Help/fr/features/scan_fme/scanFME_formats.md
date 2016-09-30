@@ -31,7 +31,7 @@ Le service est théoriquement capable de scanner l’ensemble des formats pris e
 * TIFF (.tiff),
 * XYZ (.xyz) [*seulement pour les fichiers contenant 3 colonnes attributaires (X Y et Z) séparées par des espaces*].
 
-## Les formats de bases de données
+## Les systèmes de gestion de bases de données (SGBD)
 
 * Esri Enterprise Geodatabase (ArcSDE) [*licence FME Esri Edition nécessaire*]
 * Microsoft SQL Server Spatial (toutes versions) ;
