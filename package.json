@@ -25,7 +25,7 @@
     "gitbook-plugin-navigator": "^1.1.1",
     "gitbook-plugin-sitemap": "^1.2.0",
     "gitbook-plugin-splitter": "^0.0.7",
-    "gitbook-plugin-tags": "^1.4.1",
+    "gitbook-plugin-tags": "^1.4.1"
   },
   "devDependencies": {
     "grunt": "^0.4.5",
