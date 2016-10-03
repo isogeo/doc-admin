@@ -24,7 +24,7 @@
     "gitbook-plugin-language-picker": "0.0.7-0",
     "gitbook-plugin-navigator": "^1.1.1",
     "gitbook-plugin-sitemap": "1.1.0",
-    "gitbook-plugin-splitter": "0.0.5",
+    "gitbook-plugin-splitter": "0.0.7",
     "gitbook-plugin-tags": "^1.4.1"
   },
   "devDependencies": {
