@@ -18,6 +18,7 @@
     "gitbook": "^2.6.6",
     "gitbook-plugin-anchors": "^0.5.0",
     "gitbook-plugin-customtheme": "^0.2.0",
+    "gitbook-plugin-expandable-chapters-small": "^0.1.7",
     "gitbook-plugin-ga": "^1.0.1",
     "gitbook-plugin-infinitescroll": "^0.1.0"
   },
