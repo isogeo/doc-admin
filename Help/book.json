@@ -1,7 +1,7 @@
 {
-    "title": "Isogeo Online Documentation",
-    "description": "Online help for Isogeo platform",
-    "isbn": "",
+    "title": null,
+    "description": null,
+    "isbn": null,
     "links": {
         "sidebar": {
             "Site Isogeo": "http://www.isogeo.com/",
@@ -16,18 +16,11 @@
         }
     },
     "plugins": [
-        "anchors",
-        "customtheme",
         "ga",
-        "navigator",
-        "tags"
+        "anchors",
+        "customtheme"
     ],
     "pluginsConfig": {
-        "customtheme": {
-            "css": [
-                "_styles/custom.css"
-            ]
-        },
         "fontSettings": {
             "theme": "white",
             "family": "sans"
@@ -35,16 +28,11 @@
         "ga": {
             "token": "UA-22345848-2"
         },
-         "language-picker": {
-            "grid-columns": 3
-        },
-        "sitemap": {
-            "hostname": "http://help.isogeo.com/"
-        },
-        "tags": {
-            "placement": "bottom"
+        "customtheme": {
+            "css": [
+                "_styles/custom.css"
+            ]
         }
-
     },
     "pdf": {
         "pageNumbers": true,
