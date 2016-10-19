@@ -18,12 +18,8 @@
     "plugins": [
         "anchors",
         "customtheme",
-        "expandable-chapters-small",
         "ga",
-        "language-picker",
         "navigator",
-        "sitemap",
-        "splitter",
         "tags"
     ],
     "pluginsConfig": {
