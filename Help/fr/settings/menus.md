@@ -24,7 +24,7 @@ Où que vous soyez sur Isogeo, vous pouvez lancer une recherche simple ou avanc�
 
 ![Barre de recherche et filtres](/images/search_bar_filters_empty.png "Faire une recherche simple ou avancée à tout moment")
 
-Pour maîtriser au mieux la recherche et la navigation de l'inventaire, voir [le chapitre dédié](/fr/features/inventory/search.html).
+Pour maîtriser au mieux la recherche et la navigation de l'inventaire, voir [le chapitre dédié](/features/inventory/search.html).
 
 ## Les menus
 
@@ -32,9 +32,9 @@ Pour maîtriser au mieux la recherche et la navigation de l'inventaire, voir [le
 
 Les fonctionnalités d’Isogeo sont réparties en 3 menus :
 
-* Le menu [`Inventaire`](/fr/settings/inventory.html) permet d'accéder à vos métadonnées et aux fonctions d'édition ;
-* Le menu [`Tableau de bord`](/fr/settings/dashboard.html) donne aux administrateurs un aperçu global de votre inventaire ;
-* Le menu [`Administration`](/fr/settings/administration.html) permet aux administrateurs d'ajuster les réglages applicables à tout le groupe de travail.
+* Le menu [`Inventaire`](/settings/inventory.html) permet d'accéder à vos métadonnées et aux fonctions d'édition ;
+* Le menu [`Tableau de bord`](/settings/dashboard.html) donne aux administrateurs un aperçu global de votre inventaire ;
+* Le menu [`Administration`](/settings/administration.html) permet aux administrateurs d'ajuster les réglages applicables à tout le groupe de travail.
 
 Si vous utilisez Isogeo à partir d'écrans à basse résolution, il est à noter que les étiquettes disparaissent au profit d'icônes.
 
@@ -44,7 +44,7 @@ Si vous utilisez Isogeo à partir d'écrans à basse résolution, il est à note
 
 A tout moment vous pouvez accéder aux paramètres de votre compte Isogeo.
 
-> Voir les chapitres [Mes groupes de travail](/fr/start/group_switch.html), [Mon compte](/fr/start/account.html) et [Mes coordonnées](/fr/start/user_coordinates.html).
+> Voir les chapitres [Mes groupes de travail](/start/group_switch.html), [Mon compte](/start/account.html) et [Mes coordonnées](/start/user_coordinates.html).
 
 ![Barre de recherche et filtres](/images/all_header_user_dropdown.png "Faire une recherche simple ou avancée à tout moment")
 

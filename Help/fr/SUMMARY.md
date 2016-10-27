@@ -58,6 +58,7 @@
        * [Le groupe de travail](features/admin/group.md)
        * [Les utilisateurs](features/admin/users.md)
        * [Les catalogues](features/admin/catalogs.md)
+       * [Les partages](features/admin/shares.md)
        * [Le carnet d'adresses](features/admin/contacts.md)
        * [Les licences](features/admin/licences.md)
        * [Les mots-clés](features/admin/keywords.md)

@@ -6,13 +6,14 @@
 
 Page d'accueil des administrateurs, il synthètise votre patrimoine de données sous forme de graphiques dynamiques et de métriques interactives :
 
-* nombre total de données inventoriées,
+* nombre total de données inventoriées et créées par votre groupe de travail,
 * part des données dans des catalogues et répartition par catalogues,
 * répartition par types de données (vecteur ou raster),
 * répartition par formats,
 * répartition par systèmes de projection,
 * répartition par mots-clés,
 * répartition par thématiques INSPIRE,
+* répartition par groupes de travail Isogeo (propriétaires),
 * nombre total d'attributs répertoriés,
 * nombre total d'objets géométriques,
 * nombre total de contacts.
