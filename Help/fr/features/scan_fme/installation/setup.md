@@ -10,7 +10,9 @@ Pour le récupérer, connectez-vous sur https://app.isogeo.com avec votre compte
 
 Si aucun service n'est actif, vous êtes invité à générer votre service en lui donnant un nom simple. Par exemple, celui de la machine ou de son utilisateur.
 
-Vous pouvez également installer plusieurs services en sélectionnant `Ajouter` dans le menu <i class="fa fa-bars"></i>.
+Vous pouvez également installer un nouveau service en sélectionnant `Ajouter` dans le menu <i class="fa fa-reorder"></i>.
+
+![Scan - Menu](/images/scanFME_menu.png "Menu de l'interface web du Scan FME")
 
 Une fois nommé, vous pouvez télécharger le service.
 
@@ -59,7 +61,6 @@ L’installation est à présent terminée :) !
 
 Une fois l’installation effectuée, revenez sur votre navigateur et cliquez sur « Aller à l’application ». Normalement vous devez voir un point vert dans l’en-tête de l’application, cela veut dire que la communication entre le service que vous venez d’installer et la Plateforme Isogeo est établie !
 
-Si le point est rouge, utilisez la fonction « Rafraîchir » disponible via le menu sur la droite du point.
+Si le point est rouge, utilisez la fonction « Rafraîchir » disponible via le menu en haut à droite <i class="fa fa-reorder"></i>.
 
 Si rien ne change au bout de 5 minutes, [contacter le support](/fr/support/README.html).
-

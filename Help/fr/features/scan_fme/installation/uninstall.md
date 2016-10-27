@@ -2,7 +2,7 @@
 
 La suppression d'un service Isogeo s'effectue en deux étapes dépendantes dont l'ordre d’exécution n'est pas important. Cependant, si l'une des deux étapes n'est pas réalisée, cela peut amener des dysfonctionnements futurs lors de l'utilisation de l'application.
 
-## Désinscription du service dans Isogeo
+## 1. Désinscription du service dans Isogeo
 
 1. Sur Isogeo, rendez-vous dans l'application Scan FME (menu `Administration` → `Applications / Scan FME`) ou directement en suivant [ce lien](https://app.isogeo.com/admin/isogeo-worker) ;
 
@@ -14,7 +14,7 @@ La suppression d'un service Isogeo s'effectue en deux étapes dépendantes dont 
 
 Si vous n'avez plus de service d'inscrit, vous serez automatiquement amené(e) à en télécharger un nouveau.
 
-## Suppression du service installé
+## 2. Suppression du service installé
 
 Plusieurs paramètres sont potentiellement spécifiques à votre installation.
 
