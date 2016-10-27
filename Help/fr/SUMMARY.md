@@ -47,7 +47,7 @@
        * [Ressources](features/documentation/md_ressources.md)
        * [Contacts](features/documentation/md_contacts.md)
        * [Avancé](features/documentation/md_advanced.md)
-       * [Métadonnée](features/documentation/md_metadata.md)
+       * [Propriétés](features/documentation/md_metadata.md)
        * [Mettre en forme les textes](features/documentation/syntax_markdown.md)
        * [Faire une métadonnée INSPIRE](features/documentation/md_inspire.md)
    * [Valoriser](features/publish/README.md)
