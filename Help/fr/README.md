@@ -14,16 +14,16 @@ Il s'agit de la version {{ book.version }}, mise à jour le {{ file.mtime }}.
 
 Voici le fonctionnement global et les possibilités offertes :
 
-* table des matières (masquable) mémorisant les pages déjà consultées ;
-* moteur de recherche ;
-* pour avancer d'une page, cliquer sur le bord droit ;
-* pour reculer d'une page, cliquer sur le bord gauche ;
+* table des matières (masquable) mémorisant les pages déjà consultées <i class="fa fa-align-justify"></i> ;
+* moteur de recherche <i class="fa fa-search"></i> ;
+* pour avancer d'une page, cliquer sur le bord droit <i class="fa fa-angle-right"></i> ;
+* pour reculer d'une page, cliquer sur le bord gauche <i class="fa fa-angle-left"></i> ;
 * consultable sur tous les supports (*responsive design*) ;
 * glossaire dynamique ;
 * chaque page et chaque niveau de titre a une URL spécifique permettant de partager des raccourcis précis facilement (exemple : [aller directement aux bonnes pratiques du support](/fr/support/README.html#bonnes-pratiques)) ;
 * pour voir les animations en bonne résolution faire un clic-droit et choisir *Afficher l'image [dans un nouvel onglet]* ;
 * boutons de partage sur les réseaux sociaux ;
-* [document PDF](../Isogeo.Help_fr.pdf) généré pour impression éventuelle ;
+* [document PDF](../Isogeo.Help_fr.pdf) généré pour impression éventuelle <i class="fa fa-file-pdf-o"></i> ;
 * 3 thèmes disponibles : blanc, sepia et noir ;
 * type et taille de police personnalisables ;
 

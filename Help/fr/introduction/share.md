@@ -10,7 +10,7 @@ Une fiche de métadonnées peut appartenir à plusieurs catalogues.
 
 Grâce à une gestion fine des catalogues, Isogeo vous permet de maîtriser la diffusion de vos données en fonction du public visé.
 
-# Valoriser vos données : partager et diffuser vos catalogues
+## Valoriser vos données : partager et diffuser vos catalogues
 
 La dernière étape de ce processus consiste à valoriser vos catalogues auprès de vos utilisateurs. Grâce à une gestion des droits maîtrisée, Isogeo vous permet de diffuser vos catalogues de  données :
 
@@ -19,6 +19,7 @@ La dernière étape de ce processus consiste à valoriser vos catalogues auprès
     * auprès de vos partenaires équipés Isogeo ;
     * dans vos propres médias (intranet, extranet, internet) ;
     * au sein de votre Infrastructure de Données Géographiques, via un service web normalisé CSW 2.0 ;
+* dans d'autres interfaces logicielles via notre API REST ;
 
 Ainsi tous vos utilisateurs - internes et externes – ont accès à un catalogue de données et aux services de recherche, de consultation et de téléchargement à leur disposition.
 

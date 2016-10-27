@@ -7,4 +7,4 @@ Pour [modifier votre mot de passe](https://app.isogeo.com/new-password) :
 3.	Cliquer sur le lien « Modifiez ou réinitialisez votre mot de passe ;
 4.	Indiquer votre ancien et votre nouveau mot de passe.
 
-![Coordonnées utilisateur](../images/ID_password_change.png "Renseigner mes coordonnées")
+![Coordonnées utilisateur](/images/ID_password_change.png "Renseigner mes coordonnées")
