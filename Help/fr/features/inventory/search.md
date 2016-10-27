@@ -1,20 +1,44 @@
 # Naviguer dans son inventaire
 
-## Le moteur de recherche
+La meilleure façon de naviguer et son inventaire et l'un des atouts de la plateforme est son moteur de recherche, basé sur la recherche libre et des filtres contextuels dynamiques.
 
-Le moteur de recherche d’Isogeo porte sur les champs suivants :
+## La recherche textuelle
+
+Lorsque l'utilisateur entre une recherche libre (champ `contient`), le moteur recherche dans les champs suivants :
 
 * Le titre ;
-* Le nom du fichier (sans son extension) ou de la table ;
+* Le nomde la table ou du fichier (sans son extension) ;
 * Le résumé ;
 * Le format ;
 * Les mots-clés ;
 * Les thématiques INSPIRE.
 
-Il est important de garder certaines caractéristiques à l’esprit, notamment à propos de la recherche textuelle :
+### Pertinence <i class="fa fa-star fa-fw"></i>
 
-* Il est insensible à la casse (minuscules / majuscules), donc 'ABC' est équivalent à 'abc' ;
-* Il ne prend pas en compte les caractères spéciaux (points, accents…), donc 'àéù' est équivalent à 'aeu'.
+Le moteur calcule un score de pertinence qui impacte l'ordre d'affichage par défaut des résultats. Cela est mis en évidence à l'aide d'un léger surlignage en jaune de la recherche dans les résultats.
+
+![Pertinence](/images/search_relevance_prescription.png "Mise en évidence des mots recherchés dans l'affichage des résultats")
+
+La pertinence est définie comme le nombre de fois où un mot de la recherche textuelle apparaît exactement dans les champs concernés. Le tri par pertinence est un tri basé sur cette valeur, calculée pour chaque recherche sur chaque métadonnée renvoyée. En cas d’égalité, les métadonnées sont triées selon la date de création des fiches de métadonnées (ordre stable).
+
+Le score de pertinence est la somme des pertinences pondérées de chaque champ :
+
+| Champ métadonnée | Pondération |
+| :--------------- | :---------: |
+| Titre            | 100%        |
+| Nom technique    | 83%         |
+| Résumé           | 10%         |
+| Format           | 20%         |
+| Mots-clés        | 50%         |
+
+### Caractères spéciaux et casse
+
+Il est important de garder certaines caractéristiques à l’esprit quand on utilise la recherche textuelle :
+
+* le moteur  est insensible à la casse (minuscules / majuscules), donc 'ABC' est équivalent à 'abc' ;
+* il ne prend pas en compte les caractères spéciaux (points, accents…), donc 'àéù' est équivalent à 'aeu'.
+
+___________
 
 ## Les principes d'une recherche optimale
 
@@ -22,7 +46,7 @@ Suivant les logiques des principaux systèmes de recherche, Isogeo encourage les
 
 ![Schéma de la recherche en entonnoir](/images/all_search_schema.png "Chercher les données dans Isogeo")
 
-## Les étapes d'une recherche
+### Les étapes d'une recherche
 
 1.	Commencer à formuler les termes dans la barre recherche, choisir parmi les propositions de l'auto-complétion :
 
@@ -32,15 +56,15 @@ Suivant les logiques des principaux systèmes de recherche, Isogeo encourage les
 
     ![Appliquer les filtres via le formulaire](/images/search_bar_filters_submersion.png "Filtrer sur les différents critères disponibles")
 
-3.	Régler l’affichage avec les options de tri et de pagination :
+3.	Régler l’affichage avec les options de [tri et de pagination](/settings/inventory.html#linterface) :
 
     ![Options de tri et de pagination](/images/inv_ordering_pagination_options.png "Trier et régler la pagination")
 
-## L'auto-complétion
+### L'auto-complétion
 
-Lorsque l'on tape dans la barre de recherche, l’auto-complétion propose les 3 valeurs de filtres les plus proches en prenant en compte l'intitulé et l’identifiant.
+Lorsque l'on tape dans la barre de recherche, l’auto-complétion propose les **3** valeurs de filtres les plus proches en prenant en compte l'intitulé et l’identifiant.
 
-### Fonctionnement détaillé
+#### Fonctionnement détaillé
 
 * en navigant de haut en bas sur les tags proposés, la valeur sélectionnée s'affiche (en remplaçant) dynamiquement au champ de recherche ;
 
@@ -53,7 +77,7 @@ Lorsque l'on tape dans la barre de recherche, l’auto-complétion propose les 3
 ![Démo auto-complétion](/images/search_bar_autocompletion.gif "L'auto-complétion permet de gagner du temps lors de la recherche")
 
 
-### Matrice des icônes par champ de recherche
+#### Matrice des icônes par champ de recherche
 
 | Champ                     | Icône                             |
 | :--                       | :-------------------------------: |
