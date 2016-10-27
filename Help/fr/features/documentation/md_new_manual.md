@@ -49,8 +49,7 @@ Dans l'inventaire :
 5. Dans l'onglet `Avancé`, indiquer le format et la version la plus élevée que votre service peut fournir.
 
 Ressources :
-* le [fonctionnement d'une URL WMS sur Wikipédia](https://fr.wikipedia.org/wiki/Web_Map_Service) ;
-* le [paramètre GetCapabilities sur le wiki de GeoRezo](http://georezo.net/wiki/main/standards/wms#les_operations_du_wms).
+
 
 ## Documenter une ressource
 
