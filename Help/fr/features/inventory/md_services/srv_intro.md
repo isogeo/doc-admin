@@ -1,33 +1,35 @@
-# Métadonnées de services géographiques
+# Documenter automatiquement les métadonnées de services géographiques
 
-Depuis la version 2.14 vous pouvez gérer vos métadonnées de services conformément aux préconisations de la Directive Inspire. Avec cette nouvelle version, nous vous permettons :
-    automatiser le remplissage des métadonnées de services à partir de l'URL GetCapabilities (OGC et ESRI). Ce qui permet de diminuer le temps de saisie et de mise à jour des métadonnées et d'en améliorer la qualité
-    permettre la mise en relation des métadonnées de données et de services via le concept de couches. Ce qui permet de faciliter la saisie des ressources associées de type "Service" et d'augmenter les possibilités et la puissance de leur exploitation dans vos applications géographiques (Open Catalog, Géoportail, etc.)
-        saisie = mise en relation
-        exploitation
-        l'application cliente à toutes les infos pour générer les URL's dont elle a besoin pour permettre la visualisation et le téléchargement des données
-        recherche
-                retrouver des données à partir d'un service et inversement
-                rechercher des couches dans un service
+En plus d'être indispensables pour être en conformité avec la directive INSPIRE, les services web géographiques sont une valeur ajoutée indiscutable dans la démarche de valorisation et du développement des usages autour de l'information géographique.
 
+Isogeo permet d'automatiser le remplissage des métadonnées de services à partir de la simple adresse URL d'un service :
+* d'une part, le temps de saisie et de mise à jour des métadonnées est grandement diminué ;
+* d'autre part, la qualité de documentation est améliorée ainsi que l'expérience utilisateur des applications de consultation, au premier rang desquelles OpenCatalog.
 
-## Principes
+Enfin, les informations saisies viennent enrichir la recherche :
+* retrouver des données à partir d'un service et vice-versa ;
+* rechercher des couches dans un service.
 
+Cette brique fonctionnelle prend bien sûr en compte les services standardisés de l'OGC (*Open Geospatial Consortium*) mais aussi avec les formats spécifiques d'ESRI.
 
-gain de temps
+![OGC](/images/logos/ogc.png "Open Geospatial Consortium") ![ESRI](/images/logos/esri.jpg "Environmental Systems Research Institute")
 
+## Principe général
+
+Globalement, la marche à suivre se décompose en 2 étapes, détaillées dans les sous-chapitres :
+1. Recenser automatiquement les couches d'un service géographique en se basant sur son adresse de base ;
+2. Associer chaque couche à une donnée inventoriée dans Isogeo.
 
 ## Services et versions gérés
 
-
 | Type de service      | Versions    | Exemples d'outils compatibles |
 | :------------------- | :---------: | :-- |
-| WFS                  | 1.1.0 ; 2.0 | deegree, GeoServer, MapServer, ArcGIS Server >= 10.3 |
-| WMS                  | 1.1 ; 1.3.0 | deegree, GeoServer, MapServer, QGIS Server, Rok4, ArcGIS Server >= 10.3 |
-| WMTS                 | 1.0.0       | deegree, GeoServer, MapServer, Rok4, ArcGIS Server >= 10.3     |
-| Esri Feature Service | >= 10.2     | ArcGIS Server >= 10.2, ArcGIS Online |
-| Esri Map Service     | >= 10.2     | ArcGIS Server >= 10.2, ArcGIS Online |
-| Esri Tile Service    | >= 10.2     | ArcGIS Server >= 10.2, ArcGIS Online |
+| WFS                  | 1.1.0 ; 2.0 | deegree, GeoServer, ArcGIS Server >= 10.3 |
+| WMS                  | 1.1 ; 1.3.0 | deegree, GeoServer, QGIS Server, Rok4, ArcGIS Server >= 10.3 |
+| WMTS                 | 1.0.0       | deegree, GeoServer, Rok4, ArcGIS Server >= 10.3     |
+| ESRI Feature Service | >= 10.2     | ArcGIS Server >= 10.2, ArcGIS Online |
+| ESRI Map Service     | >= 10.2     | ArcGIS Server >= 10.2, ArcGIS Online |
+| ESRI Tile Service    | >= 10.2     | ArcGIS Server >= 10.2, ArcGIS Online |
 
 
 
