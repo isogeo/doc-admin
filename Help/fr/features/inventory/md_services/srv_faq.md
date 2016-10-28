@@ -24,9 +24,9 @@ ______________
 ![Services erreur](/images/inv_edit_srv_unreachable.png "Une erreur est survenue durant le scan du service. Impossible de pré-remplir les métadonnées.")
 
 Dans ce cas-là, plusieurs raisons sont possibles :
-* le service ne correspond pas aux prérequis : écrire au support en détaillant la configuration du serveur géographique. Nous pourrions décider de le prendre en charge dans une prochaine version.
+* le service ne correspond pas aux prérequis : écrire au support en détaillant la configuration du serveur géographique. Nous pourrions décider de le prendre en charge dans une prochaine version. En attendant, vous pouvez recenser chaque couche manuellement.
 
-* le service n'est pas accessible publiquement : Isogeo étant une solution *SaaS*, il nous sera difficile de scanner vos services s'ils sont uniquement internes. La meilleure solution reste d'ouvrir l'accès à votre serveur au moins temporairement vos services, le temps du recensement.
+* le service n'est pas accessible publiquement : Isogeo étant une solution *SaaS*, il nous sera difficile de scanner vos services s'ils sont uniquement internes. La solution peut être d'ouvrir l'accès à votre serveur au moins temporairement vos services, le temps du recensement. Vous pouvez également recenser chaque couche manuellement.
 
 * le service est indisponible au moment de la création de la fiche : le scan des services est tributaire de l'état des serveurs. Il s'agit alors d'attendre un moment de répit serveur et de cliquer sur `Actualiser`.
 

@@ -2,7 +2,7 @@
 
 La première étape de la démarche de documentation des services consiste à les recenser.
 
-## Fonctionnement
+## Fonctionnement de la pré-documentation automatique des services
 
 Les capacités des services géographiques sont automatiquement analysées pour documenter la fiche de métadonnées. Il s'agit donc seulement de soumettre l'URL *GetCapabilities* à Isogeo.
 
@@ -50,3 +50,9 @@ Le service est désormais documenté. Il est désormais temps d'[associer les co
 | ESRI Map Service     | ***[url_server:port]***/arcgis/rest/services/***[folder]***/MapServer |
 | ESRI Feature Service | ***[url_server:port]***/arcgis/rest/services/***[folder]***/FeatureServer |
 | ESRI Tile Service    | ***[url_server:port]***/tiles/***[token]***/arcgis/rest/services/***[folder]***/MapServer |
+
+## Recensement manuel
+
+Si vous souhaitez documenter un service ne correspondant pas aux prérequis, il est possible de renseigner la fiche manuellement. Après avoir crée la fiche, il suffit de cliquer sur `+ Ajouter une couche` et d'entrer son identifiant (obligatoire) et un titre (facultatif).
+
+![Service manuel](/images/inv_edit_srv_manual.png "Ajouter chaque couche manuellement")
