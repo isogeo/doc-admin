@@ -44,7 +44,7 @@ Si vous utilisez Isogeo à partir d'écrans à basse résolution, il est à note
 
 A tout moment vous pouvez accéder aux paramètres de votre compte Isogeo.
 
-> Voir les chapitres [Mes groupes de travail](/start/group_switch.html), [Mon compte](/start/account.html) et [Mes coordonnées](/start/user_coordinates.html).
+> Voir les chapitres [Mes groupes de travail](../start/group_switch.html), [Mon compte](../start/account.html) et [Mes coordonnées](../start/user_coordinates.html).
 
 ![Barre de recherche et filtres](/images/all_header_user_dropdown.png "Faire une recherche simple ou avancée à tout moment")
 

@@ -13,7 +13,7 @@ Représentation d'un objet où d'un phénomène réel ou imaginaire, présent, p
 # Métadonnées
 Donnée définissant et/ou décrivant une autre donnée. Nous pouvons considérer que c’est la carte d’identité de la donnée, elle précise par exemple à quelle date a été créée la donnée, par qui et comment. La métadonnée est une information indispensable pour la recherche des données et les échanges avec des collègues, partenaires, clients ou le grand public.
 
-Dans Isogeo, nous distinguons 5 types de métadonnées. Les métadonnées relatives aux données vecteur, aux données raster, aux ensembles de données, au services de données et aux ressources. 
+Dans Isogeo, nous distinguons 5 types de métadonnées. Les métadonnées relatives aux données vecteur, aux données raster, aux ensembles de données, au services de données et aux ressources.
 
 # Donnée vecteur
 Représentation géométrique (point, ligne, polygone) d'un objet où d'un phénomène réel ou imaginaire, présent, passé ou futur, localisé dans un espace à un moment donné et quelles qu'en soient la dimension et l'échelle de représentation.
@@ -22,13 +22,13 @@ Représentation géométrique (point, ligne, polygone) d'un objet où d'un phén
 Représentation matricielle (plans scannés, photographies aériennes, images satellitaires) d'un objet où d'un phénomène réel ou imaginaire, présent, passé ou futur, localisé dans un espace à un moment donné et quelles qu'en soient la dimension et l'échelle de représentation.
 
 # Ensemble de données
-Un ensemble de donnée est un regroupement cohérent de donnée conçues et utilisées selon un théme dominant. Par exemple le PLU, la BD Topo ou encore le Cadastre sont considérés comme des ensembles de données. 
+Un ensemble de donnée est un regroupement cohérent de donnée conçues et utilisées selon un théme dominant. Par exemple le PLU, la BD Topo ou encore le Cadastre sont considérés comme des ensembles de données.
 
 # Service de données
 Un service en réseau ou « web service » est un programme informatique permettant la communication et l’échange de données entre applications et systèmes hétérogènes dans des environnements distribués. Il s’agit donc d’un ensemble de fonctionnalités exposées sur Internet ou sur un Intranet, par et pour des applications ou machines, sans intervention humaine et en temps réel. En géomatique, un web service propose un service qui va permettre la prise en charge distante de données.
 
 On peut identifier plusieurs types de services couvrant différents domaine fonctionnels :
- 
+
 * Service de recherche : CSW (Catalog Service Web)
 * Service de consultation : WMS (Web map Service), WFS (Web feature Service), ESRI Map Service, etc.
 * Service de téléchargement : WFS (Web Feature Service)

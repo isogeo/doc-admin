@@ -21,13 +21,13 @@ Sous la barre des menus, une barre d'actions permet d'interagir avec l'inventair
 
 ### Créer une fiche manuelle
 
-Quand l'option est activée dans [les paramètres du groupe de travail](/features/admin/group.html)).
+Quand l'option est activée dans [les paramètres du groupe de travail](../features/admin/group.html)).
 
-> Astuce : voir [le chapitre dédié à la création de fiches manuelles](/features/documentation/md_new_manual.html).
+> Astuce : voir [le chapitre dédié à la création de fiches manuelles](../features/documentation/md_new_manual.html).
 
 ### Gérer la sélection
 
-![Sélection](/images/inv_selection.png "Gérer la sélection")
+![Sélection](images/inv_selection.png "Gérer la sélection")
 
 * sélectionner toutes les fiches de la page en cours ;
 * retirer de la sélection les fiches de la page en cours (quand une sélection est active) ;
@@ -50,7 +50,7 @@ Et de choisir la direction du tri :
 * <i class="fa fa-sort-alpha-asc"></i> ascendant : ordre alphabétique, du plus petit au plus grand, du plus ancien au  plus récent ;
 * <i class="fa fa-sort-alpha-desc"></i> descendant (valeur par défaut)
 
-> Astuce : pour en savoir plus sur le moteur de recherche, consulter [le chapitre dédié](/features/inventory/search.html).
+> Astuce : pour en savoir plus sur le moteur de recherche, consulter [le chapitre dédié](../features/inventory/search.html).
 
 ### Pagination
 En haut à droite, il est possible de sélectionner une page en particulier :
@@ -80,4 +80,4 @@ Tout en bas à gauche, il est possible de régler la pagination :
 * sur la droite, la date de tri choisie s’affiche ;
 * la couleur tout à droite est calculée automatiquement sur la base du nom du groupe de travail.
 
-> Astuce : la pluCart de ces informations agissent également comme des filtres. Par exemple, si vous cliquez sur le tag d'un format, vous afficherez toutes les données correspondantes.
+> Astuce : la plupart de ces informations agissent également comme des filtres. Par exemple, si vous cliquez sur le tag d'un format, vous afficherez toutes les données correspondantes.

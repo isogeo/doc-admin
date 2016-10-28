@@ -4,12 +4,12 @@ La première étape de la démarche de documentation des services consiste à le
 
 ## Fonctionnement
 
-Les capacités des services géographiques  sont automatiquement analysés pour documenter la fiche de métadonnées. Il s'agit donc seulement de soumettre l'URL *GetCapabilities* à Isogeo.
+Les capacités des services géographiques sont automatiquement analysées pour documenter la fiche de métadonnées. Il s'agit donc seulement de soumettre l'URL *GetCapabilities* à Isogeo.
 
 ### Prérequis
 
 * [l'option "Autoriser la création manuelle de fiches de métadonnées"](/fr/features/admin/group.html#autoriser-la-création-de-fiches-manuelles) doit être activée ;
-* disposer des URLs *GetCapabilities* (ou équivalents ESRI) de services compatibles et accessibles publiquement.
+* disposer des URLs *GetCapabilities* (ou équivalents ESRI) de services compatibles, accessibles publiquement et disponibles.
 
 ### Marche à suivre illustrée pour recenser un service
 
@@ -53,11 +53,11 @@ Pour l'exemple, les services [WMS](http://clc.developpement-durable.gouv.fr/geos
 
 ### Syntaxe des URL de services
 
-| Type de service      | URL à soumettre | Exemples |
-| :------------------- | :-------------- | -------- |
-| WFS                  | [url_server:port]?REQUEST=GetCapabilities&SERVICE=WFS | 2:2 |
-| WMS                  | [url_server:port]?REQUEST=GetCapabilities&SERVICE=WMS | 2:3 |
-| WMTS                 | [url_server:port]?REQUEST=GetCapabilities&SERVICE=WMTS | 2:4 |
-| ESRI Map Service     | [url_server:port]/arcgis/rest/services/[folder]/MapServer | 2:5 |
-| ESRI Feature Service | [url_server:port]/arcgis/rest/services/[folder]/FeatureServer | 2:6 |
-| ESRI Tile Service    | https://tiles.arcgis.com/tiles/[token]/arcgis/rest/services/[folder]/MapServer | 2:7 |
+| Type de service      | URL à soumettre |
+| :------------------- | :-------------- |
+| WFS                  | [url_server:port]?REQUEST=GetCapabilities&SERVICE=WFS&VERSION=[1.1.0 / 2.0.0] |
+| WMS                  | [url_server:port]?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=[1.1.1 / 1.3.0] |
+| WMTS                 | [url_server:port]?REQUEST=GetCapabilities&SERVICE=WMTS&VERSION=1.0.0 |
+| ESRI Map Service     | [url_server:port]/arcgis/rest/services/[folder]/MapServer |
+| ESRI Feature Service | [url_server:port]/arcgis/rest/services/[folder]/FeatureServer |
+| ESRI Tile Service    | https://tiles.arcgis.com/tiles/[token]/arcgis/rest/services/[folder]/MapServer |

@@ -12,7 +12,7 @@ Enfin, les informations saisies viennent enrichir la recherche :
 
 Cette brique fonctionnelle prend bien sûr en compte les services standardisés de l'OGC (*Open Geospatial Consortium*) mais aussi avec les formats spécifiques d'ESRI.
 
-![OGC](/images/logos/ogc.png "Open Geospatial Consortium") ![ESRI](/images/logos/esri.jpg "Environmental Systems Research Institute")
+![OGC](/images/logos/ogc.png "Open Geospatial Consortium") ![ESRI](/images/logos/arcgis.jpg "Environmental Systems Research Institute - ArcGIS")
 
 ## Principe général
 
@@ -20,16 +20,16 @@ Globalement, la marche à suivre se décompose en 2 étapes, détaillées dans l
 1. Recenser automatiquement les couches d'un service géographique en se basant sur son URL de base ;
 2. Associer chaque couche servie à une donnée inventoriée dans Isogeo.
 
-Voici un aperçu de la démarche complète ([cliquer ici pour voir en grand](/images/inv_edit_services.gif)) :
+Voici un aperçu de la démarche complète ([cliquer ici pour voir en grand](/images/inv_edit_services.gif target="_blank")) :
 
 ![Services](/images/inv_edit_services.gif "Documentation automatisée de services géographiques")
 
 ## Services et versions gérés
 
 | Type de service      | Versions    | Exemples d'outils compatibles |
-| :------------------- | :---------: | :-- |
+| :------------------- | :---------- | :---------------------------- |
 | WFS                  | 1.1.0 ; 2.0 | deegree, GeoServer, ArcGIS Server >= 10.3 |
-| WMS                  | 1.1 ; 1.3.0 | deegree, GeoServer, QGIS Server, Rok4, ArcGIS Server >= 10.3 |
+| WMS                  | 1.1.1 ; 1.3.0 | deegree, GeoServer, QGIS Server, Rok4, ArcGIS Server >= 10.3 |
 | WMTS                 | 1.0.0       | deegree, GeoServer, Rok4, ArcGIS Server >= 10.3     |
 | ESRI Feature Service | >= 10.2     | ArcGIS Server >= 10.2, ArcGIS Online |
 | ESRI Map Service     | >= 10.2     | ArcGIS Server >= 10.2, ArcGIS Online |
