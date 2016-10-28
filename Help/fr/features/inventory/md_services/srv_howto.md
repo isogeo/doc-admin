@@ -33,31 +33,20 @@ Pour l'exemple, les services [WMS](http://clc.developpement-durable.gouv.fr/geos
 | ![WMS identification](/images/inv_edit_srv_CLC_WMS_identification.png "Open Geospatial Consortium") |
 | Contact (si adresse email présente) |
 | ![WMS contact](/images/inv_edit_srv_CLC_WMS_contacts.png "Open Geospatial Consortium") |
-| Opérations disponibles |
+| Format, version et opérations disponibles (onglet `Avancé`) |
 | ![WMS operations](/images/inv_edit_srv_CLC_WMS_operations.png "Open Geospatial Consortium") |
-| Couches disponibles |
+| Couches disponibles (onglet `Ressources`) |
 | ![WMS layers](/images/inv_edit_srv_CLC_WMS_layers.png "Open Geospatial Consortium") |
 
-* le titre et le résumé ;
-* le contact ;
-* les mots-clés ;
-* le format et sa plus haute version disponible (onglet `Avancé`) ;
-* les opérations possibles (onglet `Avancé`) ;
-* les couches servies (onglet `Ressources`).
-
-
-
-
-
-
+Le service est désormais documenté. Il est désormais temps d'[associer les couches listées avec les jeux de données inventoriés](srv_association.html).
 
 ### Syntaxe des URL de services
 
-| Type de service      | URL à soumettre |
-| :------------------- | :-------------- |
-| WFS                  | [url_server:port]?REQUEST=GetCapabilities&SERVICE=WFS&VERSION=[1.1.0 / 2.0.0] |
-| WMS                  | [url_server:port]?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=[1.1.1 / 1.3.0] |
-| WMTS                 | [url_server:port]?REQUEST=GetCapabilities&SERVICE=WMTS&VERSION=1.0.0 |
-| ESRI Map Service     | [url_server:port]/arcgis/rest/services/[folder]/MapServer |
-| ESRI Feature Service | [url_server:port]/arcgis/rest/services/[folder]/FeatureServer |
-| ESRI Tile Service    | https://tiles.arcgis.com/tiles/[token]/arcgis/rest/services/[folder]/MapServer |
+| Type de service      | URL à soumettre                              |
+| :------------------- | :------------------------------------------- |
+| WFS                  | ***[url_server:port]***?REQUEST=GetCapabilities&SERVICE=WFS&VERSION=***[1.1.0 / 2.0.0]*** |
+| WMS                  | ***[url_server:port]***?REQUEST=GetCapabilities&SERVICE=WMS&VERSION=[1.1.1 / 1.3.0] |
+| WMTS                 | ***[url_server:port]***?REQUEST=GetCapabilities&SERVICE=WMTS&VERSION=1.0.0 |
+| ESRI Map Service     | ***[url_server:port]***/arcgis/rest/services/***[folder]***/MapServer |
+| ESRI Feature Service | ***[url_server:port]***/arcgis/rest/services/***[folder]***/FeatureServer |
+| ESRI Tile Service    | ***[url_server:port]***/tiles/***[token]***/arcgis/rest/services/***[folder]***/MapServer |
