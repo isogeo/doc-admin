@@ -23,7 +23,7 @@ Pour l'exemple, les services [WMS](http://clc.developpement-durable.gouv.fr/geos
 2. Dans le formulaire, choisir `d'une fiche relative à un service`;
 3. Coller l'URL GetCapabilities du service à scanner : si l'URL est correctement formatée et le service joignable, son format est automatiquement proposé ;
 
-![WMS creation](/images/inv_edit_srv_CLC_WMS_creation.png "Création de la fiche service WMS")
+	![WMS creation](/images/inv_edit_srv_CLC_WMS_creation.png "Création de la fiche service WMS")
 
 4. En cliquant sur `Créer`, le service est donc "scanné" :
 

@@ -39,6 +39,6 @@ _____________
 
 _____________
 
-## Que se passe t'il si je supprime la fcihe de métadonnées de service ?
+## Que se passe t'il si je supprime la fiche de métadonnées de service ?
 
 
