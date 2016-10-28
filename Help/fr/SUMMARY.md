@@ -26,7 +26,7 @@
            * [Formats pris en compte](features/scan_fme/scanFME_formats.md)
        * [Scanner les services géographiques](features/inventory/md_services/srv_intro.md)
            * [Recenser les services](features/inventory/md_services/srv_howto.md)
-           * [Associer données et services](features/inventory/md_services/srv_association.md)
+           * [Associer couches de services et données](features/inventory/md_services/srv_association.md)
            * [Questions fréquentes et cas particuliers](features/inventory/md_services/srv_faq.md)
            * [Ressources sur les métadonnées de services](features/inventory/md_services/srv_resources.md)
        * [Moissonner un noeud CSW](features/csw_client/csw_harvest.md)
