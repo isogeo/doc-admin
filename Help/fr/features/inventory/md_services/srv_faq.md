@@ -36,9 +36,10 @@ _____________
 
 ## Que se passe t'il si une des couches déjà associées est supprimée de mon serveur géographique ?
 
+Isogeo ne vérifie pas régulièrement la validité ni la disponibilité des services. L'association reste donc en pklace jusqu'à ce qu'une actualisation soit déclenchée manuellement.
 
 _____________
 
 ## Que se passe t'il si je supprime la fiche de métadonnées de service ?
 
-
+Toutes les associations entre les couches du service et les données sont automatiquement supprimées.
