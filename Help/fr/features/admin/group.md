@@ -1,4 +1,4 @@
-# Paramètres du groupe de travail
+# Paramètres du groupe de travail <i class="fa fa-cogs"></i>
 
 Cette partie permet de personnaliser le groupe de travail.
 

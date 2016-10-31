@@ -1,4 +1,4 @@
-# Configurer les spécifications
+# Configurer les spécifications <i class="fa fa-flask"></i>
 
 Une donnée SIG est souvent créée et vérifiée à partir d'un certain nombre de spécifications techniques regroupées dans différents types de documents : standards officiels, cahiers des charges, descriptif de livraison, feuille de route technique, etc.
 

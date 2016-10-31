@@ -1,4 +1,4 @@
-# Gestion des utilisateurs
+# Gestion des utilisateurs <i class="fa fa-users"></i>
 
 Isogeo distingue trois profils utilisateurs :
 * L’`administrateur` accède à toutes les fonctionnalités de l’application. Il gère les utilisateurs et leurs droits, les éléments communs à l'échelle du groupe de travail, le recensement des données, la mise à jour de l’inventaire, les catalogues, les partages, la diffusion et peut saisir des métadonnées.

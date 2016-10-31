@@ -36,7 +36,7 @@ _____________
 
 ## Que se passe t'il si une des couches déjà associées est supprimée de mon serveur géographique ?
 
-Isogeo ne vérifie pas régulièrement la validité ni la disponibilité des services. L'association reste donc en pklace jusqu'à ce qu'une actualisation soit déclenchée manuellement.
+Isogeo ne vérifie pas régulièrement la validité ni la disponibilité des services. L'association reste donc en place jusqu'à ce qu'une actualisation soit déclenchée manuellement.
 
 _____________
 

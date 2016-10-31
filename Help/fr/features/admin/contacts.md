@@ -1,4 +1,4 @@
-# Gérer les contacts
+# Gérer les contacts <i class="fa fa-phone"></i>
 
 Une donnée a toujours un service ou une personne à contacter en cas de besoin (voir le [guide de saisie national](http://georezo.net/wiki/main/donnees/inspire/aide_a_la_saisie_des_metadonnees_inspire#organisations_responsables_de_l_etablissement_de_la_gestion_de_la_maintenance_et_de_la_diffusion_des_series_et_services_de_donnees_geographiques)). Cette information doit être indiquée dans la fiche de métadonnées. Pour en faciliter la saisie et la mise à jour, le carnet d’adresses permet de centraliser ces contacts.
 

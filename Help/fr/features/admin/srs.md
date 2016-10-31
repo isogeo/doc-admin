@@ -1,4 +1,4 @@
-# Gérer les systèmes de coordonnées
+# Gérer les systèmes de coordonnées <i class="fa fa-globe"></i>
 
 Une donnée géographique a généralement un système de coordonnées qu’il faut indiquer dans sa fiche de métadonnées. Le scan Isogeo l'identifie automatiquement ce système mais dans le cas de fiches manuelles ou de certains formats mal reconnus, il revient à l'éditeur de renseigner ou corriger le système de coordonnées.
 

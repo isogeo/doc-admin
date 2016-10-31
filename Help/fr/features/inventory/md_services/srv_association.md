@@ -54,7 +54,6 @@ Le principe est d'associer une couche à une donnée. L'association est bidirect
 
 * une couche d'un service ne peut être associée qu'à une seule fiche de jeux de données et une fiche de jeu de données ne peut être associée qu'à une seule couche par service (relation 1-1).  Il n'est donc pas possible d'associer toutes les couches d'un même service WMS à la même fiche d'un ensemble de données par exemple.
 
-
-éditer le titre et l'identifiant d'une fiche : <i class="fa fa-pencil fa-lg"></i>
+* il est possible d'éditer le titre et l'identifiant d'une fiche via l'icône <i class="fa fa-pencil fa-lg"></i>
 
 > Astuce : pour dissocier une couche d'une donnée, il suffit de cliquer sur l'icône <i class="fa fa-chain-broken fa-lg"></i> en bas de la couche.

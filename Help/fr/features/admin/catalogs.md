@@ -1,4 +1,4 @@
-# Les catalogues
+# Les catalogues <i class="fa fa-book"></i>
 
 Isogeo permettant de disposer d'une connaissance exhaustive de son patrimoine de données, les catalogues sont le moyen d'organiser cette connaissance de façon indépendante de la structuration des données en base ou en fichiers.
 

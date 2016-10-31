@@ -1,4 +1,4 @@
-# Gérer les licences
+# Gérer les licences <i class="fa fa-legal"></i>
 
 Les conditions d'accès et d'utilisation d'une donnée constituent une information aussi essentielle que délicate à renseigner. Pour s'en convaincre, on peut renvoyer vers le [chapitre dédié des recommandations nationales](http://georezo.net/wiki/main/donnees/inspire/aide_a_la_saisie_des_metadonnees_inspire#contraintes_en_matiere_d_acces_et_d_utilisation).
 

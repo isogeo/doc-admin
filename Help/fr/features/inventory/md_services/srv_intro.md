@@ -20,9 +20,9 @@ Globalement, la marche à suivre se décompose en 2 étapes, détaillées dans l
 1. Recenser automatiquement les couches d'un service géographique en se basant sur son URL de base ;
 2. Associer chaque couche servie à une donnée inventoriée dans Isogeo.
 
-Voici un aperçu de la démarche complète ([cliquer ici pour voir en grand](/images/inv_edit_services.gif target="_blank")) :
+Voici un aperçu de la démarche complète ([cliquer ici pour voir en grand](/images/inv_edit_services.gif)) :
 
-![Services](/images/inv_edit_services.gif "Documentation automatisée de services géographiques")
+![Services](fr/images/inv_edit_services.gif "Documentation automatisée de services géographiques")
 
 ## Services et versions gérés
 

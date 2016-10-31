@@ -1,4 +1,4 @@
-# Les partages
+# Les partages <i class="fa fa-share-alt"></i>
 
 Une fois les données inventoriées, cataloguées, documentées ou en cours de documentation, il est alors temps de les diffuser. Que ce soit sur Isogeo, sur un catalogue wb interne, sur un portail SIG public, sur un logiciel métier, un site web public, etc. : tout se passe par l'interface d'administration des partages.
 
@@ -6,15 +6,39 @@ Une fois les données inventoriées, cataloguées, documentées ou en cours de d
 
 ## Définition
 
-Un partag
+Un partage est la configuration de la diffusion des catalogues de données. Il permet d'ajuster ce qu'un groupe de travail choisit de montrer (tel ou tel catalogue), comment (moissonnage, site web...) et à qui (destinataires).
 
 ### Relations logiques
 
+* un groupe de travail peut créer autant de partages qu'il le souhaite ;
 * un partage peut être de 2 types différents :
-	+ 
-* un service ne peut être lié qu'à un seul groupe de travail.
-* une licence FME peut être utilisée par plusieurs services.
+	+ <button type="button" class="btn btn-lg btn-default  type-switch" data-type="group"><i class="fa fa-users"></i></button> intraplateforme : à d'autre(s) groupe(s) de travail isogeo ;
+	+ <button type="button" class="btn btn-lg btn-default type-switch" data-type="group"><i class="fa fa-cogs"></i></button> applicatif : à des applications tierces consommatrices de l'API Isogeo.
+* un partage peut se faire vers :
+    + aucun, un ou plusieurs groupes de travail ;
+    + aucune, une ou plusieurs applications.
+* un partage peut contenir 0, un ou plusieurs catalogues ;
+* un partage peut contenir des catalogues appartenant à d'autres groupes de travail que celui qui crée le partage ;
+* deux partages peuvent diffuser les mêmes catalogues à des applications différentes.
+
+### Utiliser  les différents partages
+
+Consulter les pages dédiées dans la rubrique **Valoriser** :
+* le [partage à d'autres groupes de travail Isogeo](../publish/share_platform.html) ;
+* le [partage au serveur CSW](../publish/csw_server.html) ;
+* le [partage en OpenCatalog](../publish/share_opencatalog.html) ;
+* le [partage à une application tierce](../publish/usages_api.html).
 
 ## Administrer les partages
 
+1. Dans le menu `Administration` > `Partages` ;
+2. Cliquer sur le bouton [`+ Nouveau`](https://app.isogeo.com/admin/shares/new) ;
+3. Choisir le type de partage ;
+4. Sélectionner le/s groupe/s de travail ou l'/les application/s destinataire/s
+5. Sélectionner le/s catalogues à partager ;
+6. Donner un nom ;
+7. Cliquer sur `Créer`.
 
+| Editer un partage à un/plusieurs groupe/s de travail Isogeo | Editer un partage à une/plusieurs application/s |
+| :--: | :--: |
+| ![Partage plateforme ](fr/images/adm_shares_platform_edit.png "") | ![Partage plateforme](fr/images/adm_shares_apps_multiApps_multiCatalogs.png "") |

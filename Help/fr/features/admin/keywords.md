@@ -1,4 +1,4 @@
-# Les mots-clés
+# Les mots-clés <i class="fa fa-tags"></i>
 
 Dans Isogeo, les mots-clés sont gérés de façon centralisée dans ce que l'on appelle le thésaurus Isogeo. Au moment d'étiqueter, chaque groupe de travail vient piocher dans ce thésaurus ou y contribuer en ajoutant un mot-clé s'il n'existe pas déjà, constituant ainsi son propre thésaurus. Celui-ci n'étant qu'une "vue" sur le thésaurus global de la plateforme.
 
