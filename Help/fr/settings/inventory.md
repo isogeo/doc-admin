@@ -27,7 +27,7 @@ Quand l'option est activée dans [les paramètres du groupe de travail](../featu
 
 ### Gérer la sélection
 
-![Sélection](images/inv_selection.png "Gérer la sélection")
+![Sélection](/images/inv_selection.png "Gérer la sélection")
 
 * sélectionner toutes les fiches de la page en cours ;
 * retirer de la sélection les fiches de la page en cours (quand une sélection est active) ;

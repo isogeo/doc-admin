@@ -24,12 +24,12 @@ Par exemple, si le référentiel GéoFLA du 01/12/2013 est copié sur un ordinat
 
 ### Evénements : vie et évolutions de la donnée
 
-Une date de référence de la ressource est une information représentative de la vie de la ressource. Il en existe 3 types, distingées par des couleurs dans l'application :
-* <span style="color:#8FB39B">création (en vert)</span>,
-* <span style="color:#bed3db">publication (en gris)</span>,
-* <span style="color:#6480a7">modification ou révision (en bleu)</span>.
+Une date de référence de la ressource est une information représentative de la vie de la ressource. Il en existe 3 types, distingées par des badges de couleur dans l'application :
+* <div class="timeline-badge success"><i class="fa fa-plus"></i> : <span style="color:#8FB39B">création (en vert)</span>,</div>
+* <div class="timeline-badge warning"><i class="fa fa-bullhorn"></i> : <span style="color:#F29800"> publication (en orange)</span>,</div>
+* <div class="timeline-badge info"><i class="fa fa-pencil"></i> : <span style="color:#5bc0de">modification ou révision (en bleu)</span>.</div>
 
-![APP - Evénements d'une ressource](/images/inv_edit_one_history_events_allTypes.png "Les différents types d'événements de la vie d'une ressource")
+![APP - Evénements d'une ressource](/images/inv_edit_one_history_events.png "Les différents types d'événements de la vie d'une ressource")
 
 Quelques règles encadrent ces dates :
 * Il ne doit pas y avoir plus d’une date de création.

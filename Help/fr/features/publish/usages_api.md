@@ -22,13 +22,13 @@ Il est possible d'utiliser l'API dans autant d'applications qu'il y a de dévelo
 
 ### Les plugins pour les SIG
 
-[![Moteur de recherche Isogeo dans SIG](/images/api_plugins_hearder.png "Chercher et afficher des données via le moteur de rcheecrhe Isogeo directement intégré aux logiciels SIG")](http://www.isogeo.com/applications)
+[![Moteur de recherche Isogeo dans SIG](/images/api_plugins_header.png "Chercher et afficher des données via le moteur de recherche Isogeo directement intégré aux logiciels SIG")](http://www.isogeo.com/applications)
 
 L'un des usages les plus demandés est de pouvoir consulter les catalogues directement dans les logiciels SIG. Aujourd'hui, des plugins ont été développés pour :
 * [ArcMap](http://www.isogeo.com/_medias/files/applications/zip/Plugin_ArcMap.zip) (10.2/10.3/10.4),
 * ArcCatalog,
 * [ArcGIS WebAppBuilder for Developer](http://www.isogeo.com/_medias/files/applications/zip/Widget_WebAppBuilder.zip),
-* [QGIS LTR](https://github.com/isogeo/isogeo-plugin-qgis/blob/master/README.md).
+* [QGIS 2.x LTR](https://github.com/isogeo/isogeo-plugin-qgis/blob/master/README.md).
 
 D'autres sont en cours et attendent une contribution financière pour être développés ou finalisés :
 * AutoCAD,

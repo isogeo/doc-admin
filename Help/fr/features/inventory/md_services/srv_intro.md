@@ -22,7 +22,7 @@ Globalement, la marche à suivre se décompose en 2 étapes, détaillées dans l
 
 Voici un aperçu de la démarche complète ([cliquer ici pour voir en grand](/images/inv_edit_services.gif)) :
 
-![Services](fr/images/inv_edit_services.gif "Documentation automatisée de services géographiques")
+![Services](/images/inv_edit_services.gif "Documentation automatisée de services géographiques")
 
 ## Services et versions gérés
 

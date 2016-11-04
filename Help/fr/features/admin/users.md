@@ -23,7 +23,7 @@ L'utilisateur reçoit alors un courriel d'invitation ([voir le chapitre dédié]
 
 > L’invitation est valable 7 jours et un administrateur peut la révoquer à tout moment.
 
-![Nouvel utilisateur](fr/images/adm_users_add.gif "Inviter un nouvel utilisateur")
+![Nouvel utilisateur](/images/adm_users_add.gif "Inviter un nouvel utilisateur")
 
 ## Droits de chaque profil
 
