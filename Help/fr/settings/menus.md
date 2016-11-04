@@ -24,7 +24,7 @@ Où que vous soyez sur Isogeo, vous pouvez lancer une recherche simple ou avanc�
 
 ![Barre de recherche et filtres](/images/search_bar_filters_empty.png "Faire une recherche simple ou avancée à tout moment")
 
-Pour maîtriser au mieux la recherche et la navigation de l'inventaire, voir [le chapitre dédié](/features/inventory/search.html).
+Pour maîtriser au mieux la recherche et la navigation de l'inventaire, voir [le chapitre dédié](../features/inventory/search.html).
 
 ## Les menus
 

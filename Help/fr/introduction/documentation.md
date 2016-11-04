@@ -3,10 +3,10 @@
 En respectant le formalisme imposé par la directive INSPIRE et les normes d’interopérabilité définies par ISO. Dans cette phase de documentation, on distingue 3 opérations :
 
 * **Qualifier** : décrire les données (titre, résumé, historique, géographie, conditions générales d’accès et d’utilisation, contacts, etc...). Cette opération est facilitée par 3 processus :
-    - la [récupération automatique d’un tiers des champs](/fr/features/documentation/md_fields_autos.html) requis par la directive Inspire ;
-    - [l'édition par lot](/fr/features/documentation/md_edit_batch.html) (possibilité de saisir plusieurs fiches en même temps) ;
-    - le [scan des services web géographiques](/fr/features/inventory/md_services/srv_intro.html) pour associer facilement données et services et ajouter facilement de la valeur ajoutée aux catalogues ;
-    - l’[import des fiches existantes au format XML](/fr/features/documentation/md_import.html).
+    - la [récupération automatique d’un tiers des champs](../features/documentation/md_fields_autos.html) requis par la directive Inspire ;
+    - [l'édition par lot](../features/documentation/md_edit_batch.html) (possibilité de saisir plusieurs fiches en même temps) ;
+    - le [scan des services web géographiques](../features/inventory/md_services/srv_intro.html) pour associer facilement données et services et ajouter facilement de la valeur ajoutée aux catalogues ;
+    - l’[import des fiches existantes au format XML](../features/documentation/md_import.html).
 
 * **Classer** : affecter des thématiques et des mots-clés grâce à la gestion d’un thésaurus personnalisable. Cette étape indispensable au catalogage facilite la recherche des données.
 

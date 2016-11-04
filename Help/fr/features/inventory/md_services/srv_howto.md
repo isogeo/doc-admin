@@ -8,7 +8,7 @@ Les capacités des services géographiques sont automatiquement analysées pour 
 
 ### Prérequis
 
-* [l'option "Autoriser la création manuelle de fiches de métadonnées"](/fr/features/admin/group.html#autoriser-la-création-de-fiches-manuelles) doit être activée ;
+* [l'option "Autoriser la création manuelle de fiches de métadonnées"](../../admin/group.html#autoriser-la-création-de-fiches-manuelles) doit être activée ;
 * disposer des URLs *GetCapabilities* (ou équivalents ESRI) de services compatibles, accessibles publiquement et disponibles.
 
 ### Marche à suivre illustrée pour recenser un service

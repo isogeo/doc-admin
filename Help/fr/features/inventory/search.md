@@ -56,7 +56,7 @@ Suivant les logiques des principaux systèmes de recherche, Isogeo encourage les
 
     ![Appliquer les filtres via le formulaire](/images/search_bar_filters_submersion.png "Filtrer sur les différents critères disponibles")
 
-3.	Régler l’affichage avec les options de [tri et de pagination](/settings/inventory.html#linterface) :
+3.	Régler l’affichage avec les options de [tri et de pagination](../../settings/inventory.html#linterface) :
 
     ![Options de tri et de pagination](/images/inv_ordering_pagination_options.png "Trier et régler la pagination")
 
@@ -81,13 +81,13 @@ Lorsque l'on tape dans la barre de recherche, l’auto-complétion propose les *
 
 | Champ                     | Icône                             |
 | :--                       | :-------------------------------: |
-| Formats                   | <i class="fa fa-cube"></i>        |
 | Catalogues                | <i class="fa fa-book"></i>        |
 | Contacts                  | <i class="fa fa-phone"></i>       |
-| Licences                  | <i class="fa fa-gavel"></i>        |
+| Formats                   | <i class="fa fa-cube"></i>        |
+| Licences                  | <i class="fa fa-gavel"></i>       |
 | Mots-clés                 | <i class="fa fa-tag"></i>         |
 | Propriétaires             | <i class="fa fa-users"></i>       |
-| Thèmes INSPIRE            | <i class="fa fa-leaf"></i>        |
 | Systèmes de coordonnées   | <i class="fa fa-globe"></i>       |
+| Thèmes INSPIRE            | <i class="fa fa-leaf"></i>        |
 | Types de ressource        | <i class="fa fa-asterisk"></i>    |
 | Types d'actions associées | <i class="fa fa-play"></i>        |
