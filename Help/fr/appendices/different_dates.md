@@ -10,9 +10,9 @@ _____
 
 ## Les dates concernant la ressource
 
-Les dates liées à la donnée sont regroupées dans l'onglet [`Histoire`](/fr/features/documentation/md_history.html) et sont réparties dans 2 sections différentes :
-* [Période de validité](/fr/features/documentation/md_history.html#priode-de-validit) et [Fréquence de mise à jour](/fr/features/documentation/md_history.html#frquence-de-mise--jour) ;
-* [Evénements](/fr/features/documentation/md_history.html#evnements).
+Les dates liées à la donnée sont regroupées dans l'onglet [`Histoire`](../features/documentation/md_history.html) et sont réparties dans 2 sections différentes :
+* [Période de validité](../features/documentation/md_history.html#priode-de-validit) et [Fréquence de mise à jour](../features/documentation/md_history.html#frquence-de-mise--jour) ;
+* [Evénements](../features/documentation/md_history.html#evnements).
 
 #### Dates automatiques et manuelles
 
@@ -39,7 +39,7 @@ Quelques règles encadrent ces dates :
 
 ### Validité et mise à jour : actualité et obsolescence de la donnée
 
-Les sections [Période de validité](/fr/features/documentation/md_history.html#priode-de-validit) et [Fréquence de mise à jour](/fr/features/documentation/md_history.html#frquence-de-mise--jour) définissent  une indication de la période de temps couverte par la ressource, ce qui est un indicateur de l’actualité de la ressource.
+Les sections [Période de validité](../features/documentation/md_history.html#priode-de-validit) et [Fréquence de mise à jour](../features/documentation/md_history.html#frquence-de-mise--jour) définissent  une indication de la période de temps couverte par la ressource, ce qui est un indicateur de l’actualité de la ressource.
 
 Par exemple, cela définit la période de validité d’un Plan Local d’Urbanisme (PLU).
 
@@ -59,7 +59,7 @@ Elle est générée automatiquement :
 * ou bien récupérée lors d'un import CSW (via le client ou via un import manuel).
 
 Où la trouver :
-* dans APP, elle se situe dans l'onglet `Métadonnée` de la fiche (voir [la page dédiée](/fr/features/documentation/md_metadata.html#date-de-cration)).
+* dans APP, elle se situe dans l'onglet `Métadonnée` de la fiche (voir [la page dédiée](../features/documentation/md_metadata.html#date-de-cration)).
 * dans OpenCatalog, elle n'est pas représentée,
 * c'est cette date qui fait référence dans le champ *dateStamp* lors du moissonnage CSW (pour le GéoCatalogue national par exemple).
 

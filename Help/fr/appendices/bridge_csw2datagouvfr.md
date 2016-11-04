@@ -12,15 +12,15 @@ L'objectif est de capitaliser sur le travail de documentation des métadonnées 
 
 Afin que vos données puissent être accessibles via la passerelle, il faut qu'elles remplissent plusieurs critères :
 
-* avoir le mot-clé `données ouvertes` (voir [étiqueter](/fr/features/documentation/md_classify.html)) ;
-* avoir une licence ouverte et indiquer qu'il n'y a aucune limitation au sens INSPIRE (voir [gérer les CGUs](/fr/features/documentation/md_cgu.html#conditions)) ;
-* être dans un catalogue partagé via CSW (voir [serveur CSW](/fr/features/publish/csw_server.html)).
+* avoir le mot-clé `données ouvertes` (voir [étiqueter](../features/documentation/md_classify.html)) ;
+* avoir une licence ouverte et indiquer qu'il n'y a aucune limitation au sens INSPIRE (voir [gérer les CGUs](../features/documentation/md_cgu.html#conditions)) ;
+* être dans un catalogue partagé via CSW (voir [serveur CSW](../features/publish/csw_server.html)).
 * contenir au moins un lien de téléchargement opérationnel ( ou ).
 
 Les liens de téléchargement reconnus par la passerelle sont :
 
-* lien vers un service WFS : voir [affecter un service WFS](/fr/features/publish/webservices.html#associer-un-flux-wfs) ;
-* lien vers des fichiers de données vecteur (GeoJSON, Shapefile, MapInfo MIF/MID, MapInfo TAB et GML) ou raster (ECW, JPEG2000 et GeoTIFF) : voir [affecter un lien de téléchargement](/fr/features/publish/hosting.html)
+* lien vers un service WFS : voir [affecter un service WFS](../features/publish/webservices.html#associer-un-flux-wfs) ;
+* lien vers des fichiers de données vecteur (GeoJSON, Shapefile, MapInfo MIF/MID, MapInfo TAB et GML) ou raster (ECW, JPEG2000 et GeoTIFF) : voir [affecter un lien de téléchargement](../features/publish/hosting.html)
 
 Les liens vers des fichiers PDF ne sont pas reconnus comme des liens vers des données.
 
@@ -57,7 +57,7 @@ _______
 
 1. Demander à ce que votre flux CSW soit référencé
 
-    Une fois [votre flux CSW créé dans Isogeo](/fr/features/publish/csw_server.html), il faut écrire à [inspire@data.gouv.fr](mailto:inspire@data.gouv.fr?subject=Ajout d'un service CSW pour diffusion synchronisée sur DataGouv&cc=projets@isogeo.fr) en indiquant votre compte DataGouv.fr, votre / vos organisation(s) et bien sûr le(s) flux concerné(s).
+    Une fois [votre flux CSW créé dans Isogeo](../features/publish/csw_server.html), il faut écrire à [inspire@data.gouv.fr](mailto:inspire@data.gouv.fr?subject=Ajout d'un service CSW pour diffusion synchronisée sur DataGouv&cc=projets@isogeo.fr) en indiquant votre compte DataGouv.fr, votre / vos organisation(s) et bien sûr le(s) flux concerné(s).
 
 2. Lancer le moissonnage de son catalogue
 
@@ -73,14 +73,14 @@ _______
     Une fois la synchronisation terminée (actualiser la page au bout de quelques minutes selon le nombre de métadonnées à moissonner), ouvrir la page détaillée du service.
 
     Plusieurs filtres facilitent la consultation des métadonnées moissonnées :
-    * `Disponibilité = Oui` : limite l'affichage aux métadonnées dont les données sont accessibles (cf. [prérequis](#pre-requis))
+    * `Disponibilité = Oui` : limite l'affichage aux métadonnées dont les données sont accessibles (cf. [prérequis](#prérequis))
     * `Type de résultat = Jeu de données ou Jeu de données (non géographiques)` : en choisissant 'Jeu de données', seules les métadonnées publiées à l'origine en ISO 19139 sont affichées ; en choisissant 'Jeu de données (non géographiques)', seules les métadonnées publiées à l'origine en Dublin Core sont affichées
     * `Donnée ouverte = Oui` : limite l'affichage aux données ouvertes dont la licence est reconnue par data.gouv.fr. Exemples de licences non reconnues par data.gouv.fr : la licence engagée et la licence associée du Grand-Lyon
     * `Publié sur data.gouv.fr = Oui` : identifie les métadonnées moissonnées par la passerelle et déjà publiées sur data.gouv.fr
 
     ![Passerelle INSPIRE - Open Data (1)](/images/annex_bridge_INSPIRE_DataGouv_1b_serviceDetails.png "Page d'accueil de la passerelle")
 
-    Si une donnée semble ne pas être disponible, revérifier les [prérequis](/fr/appendices/bridge_csw2datagouvfr.html#pr-requis) puis [contacter l'équipe DataGouv](mailto:inspire@data.gouv.fr?subject=Problème de moissonnage d'un CSW (Isogeo)&cc=projets@isogeo.fr).
+    Si une donnée semble ne pas être disponible, revérifier les [prérequis](#pr-requis) puis [contacter l'équipe DataGouv](mailto:inspire@data.gouv.fr?subject=Problème de moissonnage d'un CSW (Isogeo)&cc=projets@isogeo.fr).
 
 ______
 

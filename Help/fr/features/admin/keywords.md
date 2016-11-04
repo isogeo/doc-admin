@@ -77,7 +77,7 @@ il peut choisir le mode d’affichage des mots-clés :
 
 Ce choix d'affichage ne se limite pas à APP et se répercute également dans les interfaces de partage. OpenCatalog et le serveur CSW utiliseront le **choix du groupe de travail qui a créé le partage**.
 
-En ce qui concerne les [applications tierces (plugins SIG, portails webs..)](/features/publish/usages_api.html), l'option choisie par l'administrateur du groupe de travail est transmise via l'API et il faut alors distinguer 3 cas de figure :
+En ce qui concerne les [applications tierces (plugins SIG, portails webs..)](../publish/usages_api.html), l'option choisie par l'administrateur du groupe de travail est transmise via l'API et il faut alors distinguer 3 cas de figure :
 
 * dans le cas où l'application n'est alimentée que par un seul groupe de travail : l'équipe en charge du développement de l'application pourra appliquer automatiquement le paramètre.
 

@@ -19,7 +19,7 @@ Pour inviter un nouvel utilisateur :
 4. Choisir le niveau d'accès ;
 5. Cliquer sur `Inviter`.
 
-L'utilisateur reçoit alors un courriel d'invitation ([voir le chapitre dédié](/fr/start/signup.html)).
+L'utilisateur reçoit alors un courriel d'invitation ([voir le chapitre dédié](../../start/signup.html)).
 
 > L’invitation est valable 7 jours et un administrateur peut la révoquer à tout moment.
 

@@ -46,7 +46,7 @@ Petite compilation à l'usage des power-users !
 
 ## Inventaire
 
-La plupart de ces exemples correspondent aux filtres et tris de la recherche dont le fonctionnement est détaillé [ici](/features/inventory/search.html). Il ne s'agit que d'exemples de base et toutes les combinaisons ne sont pas démontrables de façon générique. A vous de trouver celles qui correspondent le plus à votre usage de l'inventaire.
+La plupart de ces exemples correspondent aux filtres et tris de la recherche dont le fonctionnement est détaillé [ici](../features/inventory/search.html). Il ne s'agit que d'exemples de base et toutes les combinaisons ne sont pas démontrables de façon générique. A vous de trouver celles qui correspondent le plus à votre usage de l'inventaire.
 
 | Description                        | Raccourci |
 | :--------------------------------- | :-------- |

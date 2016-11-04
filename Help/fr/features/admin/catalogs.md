@@ -11,8 +11,8 @@ A la différence des mots-clés qui sont des éléments descriptifs, les catalog
 Voici quelques caractéristiques :
 * les catalogues sont visibles uniquement par les utilisateurs d'APP, ils n'apparaissent pas dans les OpenCatalogs par exemple ;
 * une fiche peut appartenir à un ou plusieurs catalogues (voir schéma ci-dessous) ;
-* le catalogue est l'unité de partage, que ce soit [à un autre groupe de travail de la plateforme](/fr/features/publish/share_platform.html), [CSW](/fr/features/publish/csw_server.html) ou [OpenCatalog](/fr/features/publish/share_opencatalog.html) ;
-* une fiche n'appartenant à aucun catalogue n'est visible que par les utilisateurs disposant d'un niveau d'accès `Administrateur` (voir [la matrice des droits](/fr/features/admin/users.html#droits-de-chaque-profil)) et ne peut être partagée.
+* le catalogue est l'unité de partage, que ce soit [à un autre groupe de travail de la plateforme](../publish/share_platform.html), [CSW](../publish/csw_server.html) ou [OpenCatalog](../publish/share_opencatalog.html) ;
+* une fiche n'appartenant à aucun catalogue n'est visible que par les utilisateurs disposant d'un niveau d'accès `Administrateur` (voir [la matrice des droits](../admin/users.html#droits-de-chaque-profil)) et ne peut être partagée.
 
 ![Concept de catalogue dans Isogeo](/images/adm_catalog_principles.png "Une donnée peut appartenir à un ou plusieurs catalogues")
 
@@ -27,7 +27,7 @@ Dans la liste des catalogues, vous retrouvez :
 
 ### Créer, éditer un catalogue
 
-![Editer un catalogue](/fr/images/adm_catalog_new.png "Ajouter, éditer un catalogue dans Isogeo")
+![Editer un catalogue](/images/adm_catalog_new.png "Ajouter, éditer un catalogue dans Isogeo")
 
 1.	Dans le menu `Administration` > `Catalogues` ;
 2.	Cliquer sur le bouton [`+ Ajouter`](https://app.isogeo.com/admin/catalogs/new) ;

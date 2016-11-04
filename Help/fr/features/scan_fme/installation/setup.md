@@ -10,7 +10,7 @@ Pour le récupérer, connectez-vous sur https://app.isogeo.com avec votre compte
 
 Si aucun service n'est actif, vous êtes invité à générer votre service en lui donnant un nom simple. Par exemple, celui de la machine ou de son utilisateur.
 
-Vous pouvez également installer un nouveau service en sélectionnant `Ajouter` dans le menu <i class="fa fa-reorder"></i>.
+Vous pouvez également installer un nouveau service en sélectionnant <i class="fa fa-plus"></i> `Ajouter` dans le menu <i class="fa fa-reorder"></i>.
 
 ![Scan - Menu](/images/scanFME_menu.png "Menu de l'interface web du Scan FME")
 
@@ -29,7 +29,7 @@ Une fois nommé, vous pouvez télécharger le service.
 
     ![Installer avec des droits d'administrateur](/images/scanFME_install_RunAsAdmin.png "Installer le service avec les droits d'administration")
 
-Une console Windows s’ouvre alors, indiquant que l’installation et le démarrage du service sont en cours puis se ferme automatiquement. Si la fenêtre ne se ferme pas et qu’un message d’erreur apparaît, revérifier les prérequis. Si le problème persiste, [contacter le support](/fr/support/README.html).
+Une console Windows s’ouvre alors, indiquant que l’installation et le démarrage du service sont en cours puis se ferme automatiquement. Si la fenêtre ne se ferme pas et qu’un message d’erreur apparaît, revérifier les prérequis. Si le problème persiste, [contacter le support](../../../support/index.html).
 
 ## Vérifier l'installation du service
 
@@ -61,6 +61,6 @@ L’installation est à présent terminée :) !
 
 Une fois l’installation effectuée, revenez sur votre navigateur et cliquez sur « Aller à l’application ». Normalement vous devez voir un point vert dans l’en-tête de l’application, cela veut dire que la communication entre le service que vous venez d’installer et la Plateforme Isogeo est établie !
 
-Si le point est rouge, utilisez la fonction « Rafraîchir » disponible via le menu en haut à droite <i class="fa fa-reorder"></i>.
+Si le point est rouge, utilisez la fonction « <i class="fa fa-refresh"></i> Rafraîchir » disponible via le menu en haut à droite <i class="fa fa-reorder"></i>.
 
-Si rien ne change au bout de 5 minutes, [contacter le support](/fr/support/README.html).
+Si rien ne change au bout de 5 minutes, [contacter le support](../../../support/index.html).

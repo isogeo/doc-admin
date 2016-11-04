@@ -16,9 +16,9 @@ Pour activer le moissonnage d’un catalogue, il vous suffit de :
 L’URL du service Web CSW fourni par Isogeo dispose d’une clef sécurisée (jeton). Vous pouvez renouveler la clef de sécurité du service. Si vous le faites, pensez à communiquer cette nouvelle URL au(x) destinataire(s) !
 
 Usages possibles :
-* [se faire moissonner par le géocatalogue](/fr/appendices/harvest_geocatalogue_fr.html) ;
+* [se faire moissonner par le géocatalogue](../../pendices/harvest_geocatalogue_fr.html) ;
 * se faire moissonner par un autre noeud INSPIRE en envoyant l'URL générée au responsable du client tiers ;
-* [diffuser ses données sur DataGouv.fr](/fr/appendices/bridge_csw2datagouvfr.html) ;
+* [diffuser ses données sur DataGouv.fr](../../appendices/bridge_csw2datagouvfr.html) ;
 * consulter les catalogues dans les logiciels disposant d'un bon client CSW (QGIS par exemple).
 
 ![Serveur CSW](/images/adm_shares_CSW_edit.png "Diffuser les catalogues via le protocole CSW")
@@ -33,8 +33,6 @@ http:// services.api.isogeo.com/ows/ s/77c4ab4d358d47e9aff30b550df007f9/<span st
 
 ## Caractéristiques techniques du serveur CSW
 
-Le serveur CSW (tout comme [le client](/fr/features/csw_client/csw_harvest.html)), s'appuie sur [GeoSIK](http://geosik.codeplex.com/), bibliothèque .NET libre et gratuite développée au sein d'Isogeo facilitant l'implémentation des services standardisés de l'OGC.
+Le serveur CSW (tout comme [le client](../csw_client/csw_harvest.html)), s'appuie sur [GeoSIK](http://geosik.codeplex.com/), bibliothèque .NET libre et gratuite développée au sein d'Isogeo facilitant l'implémentation des services standardisés de l'OGC.
 
 Il respecte la version 1.0 du profil ISO de la version 2.0.2 du standard CSW.
-
-
