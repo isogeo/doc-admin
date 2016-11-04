@@ -64,7 +64,7 @@
        * [Les catalogues](features/admin/catalogs.md)
        * [Les partages](features/admin/shares.md)
        * [Le carnet d'adresses](features/admin/contacts.md)
-       * [Les licences](features/admin/licences.md)
+       * [Les licences](features/admin/licenses.md)
        * [Les mots-clés](features/admin/keywords.md)
        * [Les spécifications](features/admin/specifications.md)
        * [Les systèmes de coordonnées](features/admin/srs.md)
