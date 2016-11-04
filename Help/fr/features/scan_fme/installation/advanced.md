@@ -8,7 +8,7 @@ Le service de scan permet d'utiliser jusqu'à 5 instances de FME à partir de la
 
 ## Installer plusieurs services et les lier à un même FME
 
-Pour les besoins de sprojets partenariaux où le Scan est mutualisé ou pour des besoins de cloisonnement des groupes de travail créant les fiches automatiquement, il ets possible de lier plusieurs services du Scan à une seule installation de FME, sur un ou plusieurs serveurs.
+Pour les besoins des projets partenariaux où le Scan est mutualisé ou pour des besoins de cloisonnement des groupes de travail créant les fiches automatiquement, il est possible de lier plusieurs services du Scan à une seule installation de FME, sur un ou plusieurs serveurs.
 
 Voici la marche à suivre pour 2 groupes de travail, l'un nommé CA (le principal) et l'autre CC ((le subsidiaire) :
 
@@ -18,7 +18,7 @@ Voici la marche à suivre pour 2 groupes de travail, l'un nommé CA (le principa
 | :----------------------: | :----------------------: |
 | ![Télécharger le service](/images/scanFME_install_muli_gt01.png "Télécharger le service depuis le groupe de travail n°1") | ![Télécharger le service](/images/scanFME_install_muli_gt02.png "Télécharger le service depuis le groupe de travail n°2") |
 
-2- Organiser correctement les installations pour éviter les confusions. Arbosrescence type attendue :
+2- Organiser correctement les installations pour éviter les confusions. Arborescence type attendue :
 
 ![Arborescence type](/images/scanFME_install_muli_arborescence.png "Bien ranger les différents services")
 
