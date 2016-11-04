@@ -10,7 +10,7 @@ Vous pouvez choisir parmi les différents modèles disponibles :
 * Ressource ;
 * Service.
 
-Pour cela il suffit de cliquer sur le bouton `+ Créer`, situé en haut à gauche de l'inventaire (sauf si l'administrateur l'a désactivé dans [les paramètres du groupe de travail](/features/admin/group.html)).
+Pour cela il suffit de cliquer sur le bouton `+ Créer`, situé en haut à gauche de l'inventaire (sauf si l'administrateur l'a désactivé dans [les paramètres du groupe de travail](../admin/group.html)).
 
 Il y a alors deux 2 façons de procéder :
 
@@ -22,7 +22,7 @@ Cette fonctionnalité est utile dans différents cas de figure :
 * si vous souhaitez créer des fiches de métadonnées dont les formats ne sont pas pris en compte par le scan (carte PDF, fichier statistique Excel, etc.), par exemple pour créer une cartothèque ;
 * pour documenter un service web standardisé.
 
-> Astuce : l'administrateur d'un groupe de travail peut désactiver cette possibilité via les [paramètres](/features/admin/group.html) dans le menu `Administration`.
+> Astuce : l'administrateur d'un groupe de travail peut désactiver cette possibilité via les [paramètres](../admin/group.html) dans le menu `Administration`.
 
 ## Documenter un service
 
@@ -68,5 +68,5 @@ L'objectif de ces fiches ressources est de centraliser les ressources associées
 3. Dans le champ `Titre`renseigner le type de ressource  et le territoire concerné. Par exemple : *Serveur de visualisation des données du Département de Belfort* ;
 4. Dans l'onglet `Ressources`, indiquer les différents liens pouvant être associés.
 
-[Voir le chapitre Valoriser](fr/features/publish/README.html).
+[Voir le chapitre Valoriser](../publish/index.html).
 

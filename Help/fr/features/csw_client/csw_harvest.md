@@ -12,7 +12,7 @@ On parle de noeud car l'ensemble peut former un réseau d'échanges des catalogu
 
 Il s'agit ici de moissonner les serveurs CSW grâce au client CSW intégré dans le module idoine d'Isogeo, qui implémente le profil CSW de la version 2.0.2 standard (voir [OGC 07-006r1](http://portal.opengeospatial.org/files/?artifact_id=20555) et [OGC 07-045](http://portal.opengeospatial.org/files/?artifact_id=21460)).
 
-> Astuce : pour la partie serveur, voir [le chapitre dédié](/fr/features/publish/csw_server.html).
+> Astuce : pour la partie serveur, voir [le chapitre dédié](../publish/csw_server.html).
 
 ## Créer un point d'entrée "Service CSW"
 

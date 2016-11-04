@@ -1,6 +1,6 @@
-## Onglet "Métadonnée"
+## Onglet "Propriétés"
 
-L’onglet « Métadonnées » permet d’indiquer la date de création et la langue de la fiche de métadonnée.
+L’onglet « Propriétés » permet d’indiquer la date de création et la langue de la fiche de métadonnée. C'est aussi dans cet onglet que se trouve le lien de téléchargement de la fiche au format XML ISO19139.
 
 ![Edition unitaire - Propriétés](/images/inv_edit_one_properties.png "L'édition unitaire - onglet Propriétés")
 
@@ -18,8 +18,8 @@ L’onglet « Métadonnées » permet d’indiquer la date de création et la la
 | Fiche service       | Oui                           |
 
 > Astuce : si vous importez un fichier XML depuis une fiche existante (automatique ou manuelle) et que vous choisissez d'écraser les données, la date de création sera remplacée par celle contenue dans le XML. Pour plus d'informations, consulter :
-* l'[import XML](/fr/features/documentation/md_import.html) et le [moissonnage CSW](/fr/features/csw_client/csw_harvest.html),
-* les [dates dans Isogeo](/fr/appendices/different_dates.html).
+* l'[import XML](../../features/documentation/md_import.html) et le [moissonnage CSW](../../features/csw_client/csw_harvest.html),
+* les [dates dans Isogeo](../../appendices/different_dates.html).
 
 ### Langue
 
@@ -34,7 +34,7 @@ L’onglet « Métadonnées » permet d’indiquer la date de création et la la
 | Fiche ressource     | Oui                           |
 | Fiche service       | Oui                           |
 
-> Astuce : il est possible de définir la langue des métadonnées par défaut dans les paramètres du groupe de travail (voir [chapitre dédié](/fr/features/admin/group.html#dfinir-la-langue-des-mtadonnes-par-dfaut)). Elle n'apparaîtra pas ici mais sera celle de référence dans vos partages CSW.
+> Astuce : il est possible de définir la langue des métadonnées par défaut dans les paramètres du groupe de travail (voir [chapitre dédié](../../features/admin/group.html#dfinir-la-langue-des-mtadonnes-par-dfaut)). Elle n'apparaîtra pas ici mais sera celle de référence dans vos partages CSW.
 
 ### La fiche au format XML (ISO 19139)
 

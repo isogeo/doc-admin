@@ -6,7 +6,7 @@ L’onglet « Contact » permet d’affecter, depuis votre carnet d’adresse, u
 
 | Définition          | Coordoonnées de/s l'organisation(s) ou personne(s) liées à la vie de la donnée (production, gestion, traitement, publication...) |
 | :------------------ | :------------------------------------------------ |
-| Indications         | Il s'agit d'indiquer les **contacts liés à la donnée et non à la métadonnée ou au catalogue** ([contact qui se paramètre au niveau du tableau de bord](/fr/settings/dashboard.html#le-point-de-contact-du-groupe-de-travail)). Choisir dans la liste des contacts et affecter l'un des rôles.<br />La liste des contacts disponibles est modifiable par l'administrateur (voir [le chapitre dédié](/fr/features/admin/contacts.html)).|
+| Indications         | Il s'agit d'indiquer les **contacts liés à la donnée et non à la métadonnée ou au catalogue** ([contact qui se paramètre au niveau du tableau de bord](../../settings/dashboard.html#le-point-de-contact-du-groupe-de-travail)). Choisir dans la liste des contacts et affecter l'un des rôles.<br />La liste des contacts disponibles est modifiable par l'administrateur (voir [le chapitre dédié](../../features/admin/contacts.html)).|
 | Exemple             | Equipe PPIGE > Point de contact<br />IGN > Fournisseur |
 | Exigence INSPIRE    | Obligatoire                   |
 | Edition par lot     | Oui, par incrémentation       |

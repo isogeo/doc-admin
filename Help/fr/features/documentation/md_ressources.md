@@ -15,9 +15,9 @@ Il est possible d'associer tout type de lien, chacun correspondant à des action
 * soit vers un téléchargement de la donnée (par exemple en la téléversant sur Isogeo).
 
 Pour explorer toutes les possibilités de ces liens, consulter les pages dédiées à la valorisation :
-* des [services géographiques](/fr/features/publish/webservices.html),
-* du [téléversement/téléchargement des données](/fr/features/publish/hosting.html),
-* de la [finesse d'affichage des liens selon les destinataires et les usages](/fr/features/publish/share_visibility.html).
+* des [services géographiques](../publish/webservices.html),
+* du [téléversement/téléchargement des données](../publish/hosting.html),
+* de la [finesse d'affichage des liens selon les destinataires et les usages](../publish/share_visibility.html).
 
 #### Actions possibles par type de lien
 
@@ -33,6 +33,6 @@ Légende :
 | WMTS           |                | (X)           | X     |
 | Esri Feature   | (X)            | (X)           | X     |
 | Esri Map       |                | (X)           | X     |
-| Esri Tiled Map |                | (X)           | X     |
+| Esri Tile      |                | (X)           | X     |
 | Donnée brute   | (X)            |               | X     |
 

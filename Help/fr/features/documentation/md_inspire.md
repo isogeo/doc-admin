@@ -12,7 +12,7 @@ Cliquer sur l'image pour consulter le [tableau de correspondance des champs Isog
 
 Le valideur INSPIRE, adopté par la communauté européenne, est directement intégré dans la solution Isogeo.
 
-Dès qu’une donnée est classée dans un thème Inspire (voir [chapitre dédié](/fr/features/documentation/md_classify.html#comment-tiqueter)), le valideur se lance et vérifie la conformité de votre fiche de métadonnée :
+Dès qu’une donnée est classée dans un thème Inspire (voir [chapitre dédié](../../features/documentation/md_classify.html#comment-tiqueter)), le valideur se lance et vérifie la conformité de votre fiche de métadonnée :
 * si elle est valide, le message suivant « Cette fiche est conforme Inspire » s’affiche en vert dans l’onglet `Identification` ;
 * s’il manque des informations, elles sont listées en jaune.
 
