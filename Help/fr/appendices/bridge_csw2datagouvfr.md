@@ -33,7 +33,7 @@ Pour publier des métadonnées via la passerelle Inspire vous devez suivre les �
 3. Associez des producteurs référencés dans les métadonnées de votre flux CSW à votre organisation ;
 4. Publier les métadonnées pertinentes sur data.gouv.fr
 
-Ces étapes sont détaillées dans les chapitres suivants.
+Ces étapes sont détaillées dans les parties suivantes.
 
 ________
 
@@ -110,7 +110,7 @@ ______
 
     - dans la liste des organisations associées à votre compte, cliquez sur le nom de l'organisation à configurer ;
     - vérifiez que votre organisation est associée au bon catalogue. Si ce n'est pas le cas, cliquez sur le bouton "Modifier" et sélectionner le catalogue que vous avez demandé de référencer précédemment ;
-    - cliquez sur le bouton "Associer des producteurs" et sélectionner les producteurs pour lesquels vous assumerez la publication des métadonnées. 
+    - cliquez sur le bouton "Associer des producteurs" et sélectionner les producteurs pour lesquels vous assumerez la publication des métadonnées.
 
     ![Passerelle INSPIRE - Open Data (4)](/images/annex_bridge_INSPIRE_DataGouv_6_producerMatched.png "Choisir parmi les producteurs à associer")
 
@@ -134,7 +134,7 @@ ______
 
     Les données qui ne vérifient pas les prérequis et qui ne sont pas issues de producteurs associés à votre organisme n'apparaissent pas dans cette page.
 
-    ![Passerelle INSPIRE - Open Data (4)](/images/annex_bridge_INSPIRE_DataGouv_7b_syncDone.png "Choisir parmi les producteurs à associer")
+    ![Passerelle INSPIRE - Open Data (4)](/images/annex_bridge_INSPIRE_DataGouv_7c_syncDone.png "Choisir parmi les producteurs à associer")
 
 7. Publier des données sur data.gouv.fr
 

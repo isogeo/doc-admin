@@ -27,7 +27,7 @@ Dans la liste des catalogues, vous retrouvez :
 
 ### Créer, éditer un catalogue
 
-![Editer un catalogue](fr/images/adm_catalog_new.png "Ajouter, éditer un catalogue dans Isogeo")
+![Editer un catalogue](/fr/images/adm_catalog_new.png "Ajouter, éditer un catalogue dans Isogeo")
 
 1.	Dans le menu `Administration` > `Catalogues` ;
 2.	Cliquer sur le bouton [`+ Ajouter`](https://app.isogeo.com/admin/catalogs/new) ;
