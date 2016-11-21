@@ -33,7 +33,7 @@ Ajouter `?lock` à la fin de l'adresse permet d'enlever le bandeau de haut de pa
 
 Par exemple, pour intégrer l'OpenCatalog de démonstration :
 
-```html
+```xhtml
 <iframe src="http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0?lock" width="980" height="600"></iframe>
 ```
 
@@ -62,7 +62,7 @@ Différences par rapport à l'intégration normale :
 
 Par exemple, pour intégrer [la fiche de métadonnées de démonstration sur les départements 2014](http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0/m/754209f115c040a48d43ffc262b16500) :
 
-```html
+```xhtml
 <iframe src="http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0/m/754209f115c040a48d43ffc262b16500?lock" width="980" height="400"></iframe>
 ```
 

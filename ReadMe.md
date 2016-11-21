@@ -11,8 +11,8 @@ Isogeo.Help is the project used to generate the online help for the Isogeo platf
 For a lightweight build, run the following command from this directory: `build.bat /dev /nopause`. In case of success the resulting documentation artefacts can be found in the `tmp\obj\bin` folder. 
 
 - Prerequisites:
-  * [NodeJS](http://nodejs.org/) 4.2.x
-  * [npm 3.8.6]+(https://npmjs.org/)
+  * [NodeJS](http://nodejs.org/) 4.6.x
+  * [npm](https://npmjs.org/) 4.0.x
     + [Upgrading on Windows](https://github.com/npm/npm/wiki/Troubleshooting#upgrading-on-windows)
   * [Grunt CLI 1.2.0](http://gruntjs.com/):
     + `npm install -g grunt-cli`
