@@ -83,7 +83,7 @@
    * [Les dates dans Isogeo](appendices/different_dates.md)
    * [Scan - Métadonnées sans emprise ni SRS](appendices/scan_srsnotfound_fme_fix.md)
    * [Scan - Configuration de PostGIS](appendices/scan_postgis_schemas.md)
-   * [Les ressources associées dans les outils externes](appendices/webgeoservices_in_csw.md)
+   * [Services - Les liens manuels pour les scénarios A et B](appendices/webgeoservices_in_csw.md)
    * [Services - Configurer les WFS en JSONP](appendices/wfs_jsonp.md)
    * [Se faire moissonner par le Géocatalogue national](appendices/harvest_geocatalogue_fr.md)
    * [Diffuser ses données sur DataGouv.fr](appendices/bridge_csw2datagouvfr.md)
