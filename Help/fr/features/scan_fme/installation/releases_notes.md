@@ -8,6 +8,8 @@ Vous pouvez facilement vérifier la version du service installée chez vous en p
 
 ### 2.1.0
 
+Voir [la lettre d'informations](http://eepurl.com/b8uYqb).
+
 * Format XYZ
 * Format SpatiaLite
 * Format GML
