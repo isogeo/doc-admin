@@ -34,7 +34,18 @@ Pour plus d’informations, veuillez contacter votre distributeur FME.
 
 ### Cas spécifique pour les connexions Esri ArcSDE
 
+Pour des questions d'interopérabilité entre FME et Esri (), il faut être particulièrement vigilant sur les prérequis à installer pour pouvoir scanner correctement les schémas ArcSDE.
 
+1. Tout d'abord, il faut **la version 32 bits de FME**.
+2. Ensuite :
+    * soit ArcGIS Desktop 32 bits sur la même machine avec une licence disponible pendant toute la durée du Scan ;
+    * soit installer les librairies SDE sur la machine où est installée votre FME ([voir cet article](https://knowledge.safe.com/articles/358/arcsde-libraries-required-for-the-esri-arcsde-sde3.html)).
+
+Pour aller plus loin :
+* consulter la [matrice des formats et versions de FME](http://www.safe.com/fme/formats-matrix/#search=arcsde) ;
+* consulter [l'article dédié [en]](https://knowledge.safe.com/articles/1517/notes-on-fme-and-esri-versions-and-compatibility.html) à ces questions d'interopérabilité sur le site de Safe, éditeur de FME.
+* si vous utilisez une [version d'ArcGIS qui n'est plus supportée](http://support.esri.com/other-resources/product-life-cycle) par Esri, [consulter l'article dédié](https://knowledge.safe.com/articles/22886/fme-compatibility-for-retired-esri-software.html) ;
+* si vous utilisez Direct Connect, [consulter cet article](https://knowledge.safe.com/articles/227/how-do-i-connect-to-my-arcsde-geodatabase-using-di.html).
 
 ## Compte utilisateur
 
