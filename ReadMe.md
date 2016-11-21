@@ -19,7 +19,7 @@ For a lightweight build, run the following command from this directory: `build.b
   * [rimraf 2.5.0](https://www.npmjs.com/package/rimraf):
     + `npm install -g rimraf`
   * [Git for Windows](https://git-for-windows.github.io/)
-  * [Calibre](http://calibre-ebook.com/download_windows64) 64bit 2.16.0
+  * [Calibre](http://calibre-ebook.com/download_windows64) 64bit 2.72.0
 
 ## CI build
 
