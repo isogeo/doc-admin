@@ -41,11 +41,15 @@ Ces extensions sont librement téléchargeables et utilisables dans leur version
 
 > Astuce : consulter [le site dédié aux extensions](http://www.isogeo.com/applications/).
 
-#### Vidéo de l'installation et l'utilisation du plugin pour QGIS :
+#### Plugin pour QGIS
 
-[![Démonstration plugin QGIS](https://github.com/isogeo/isogeo-plugin-qgis/blob/master/img/demo_fr.gif?raw=true "Démonstration du fonctionnement du plugin Isogeo dans QGIS")](https://github.com/isogeo/isogeo-plugin-qgis/blob/master/img/demo_fr.gif?raw=true)
+* Consulter [l'aide en ligne dédiée au plugin QGIS](https://github.com/isogeo/isogeo-plugin-qgis/wiki#fran%C3%A7ais) ;
+* Consulter [le GIF de démonstration de l'installation et du fonctionnement basique du plugin.](https://github.com/isogeo/isogeo-plugin-qgis/blob/master/img/demo_fr.gif?raw=true)
+
+![Capture plugin Isogeo for QGIS](/images/pluginQGIS_ui_tabs_main_search_empty_fr.png "Capture d'écran de l'interface principale du plugin Isogeo for QGIS")
 
 #### Captures d'écrans du plugin pour ArcMap et du widget pour ArcGIS WebAppBuilder :
+
 ![Captures plugins Esri](http://www.isogeo.com/_medias/images/applications/portfolio/2widget-plugin.png "Captures d'écran du plugin pour ArcMap et du widget pour ArcGIS WebAppBuilder")
 
 ### Les portails de données
@@ -95,12 +99,15 @@ Consulter le [résumé du webinaire consacré à cette extension de février 201
 ### L'export vers les formats bureautiques
 
 Pour les besoins d'une consultation hors-ligne, une sauvegarde ou une impression dans un modèle graphique propre à un organisme, un petit programme a été développé permettant d'exporter les métadonnées dans des formats bureautiques :
+
 * Microsoft Word (.docx) à partir d'un ou plusieurs modèles personnalisables par l'utilisateur ;
 * Microsoft Excel (.xlsx).
 
 Au-delà de ces formats existants, il est possible d'envisager d'autres formats : XML 19139, CSV, base locale, etc.
 
-![isogeo2office - démo gif](https://bytebucket.org/isogeo/isogeo-2-office/raw/555ebfae8f1cd0258009b519c083952398fef1ae/img/demo_fr.gif "Exporter vos métadonnées dans des formats bureautiques")
+Capture d'écran de l'interface d'isogeo2office (cliquer sur l'image pour voir le GIF de démonstration) :
+
+[![isogeo2office - démo](/images/isogeo2office_UI_French_English.png "Interface d'isogeo2office")](https://bytebucket.org/isogeo/isogeo-2-office/raw/555ebfae8f1cd0258009b519c083952398fef1ae/img/demo_fr.gif)
 
 ____
 
