@@ -16,6 +16,7 @@ Pour activer le moissonnage d’un catalogue, il vous suffit de :
 L’URL du service Web CSW fourni par Isogeo dispose d’une clef sécurisée (jeton). Vous pouvez renouveler la clef de sécurité du service. Si vous le faites, pensez à communiquer cette nouvelle URL au(x) destinataire(s) !
 
 Usages possibles :
+
 * [se faire moissonner par le géocatalogue](../../pendices/harvest_geocatalogue_fr.html) ;
 * se faire moissonner par un autre noeud INSPIRE en envoyant l'URL générée au responsable du client tiers ;
 * [diffuser ses données sur DataGouv.fr](../../appendices/bridge_csw2datagouvfr.html) ;

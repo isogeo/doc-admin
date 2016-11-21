@@ -2,19 +2,23 @@
 
 ## Navigateurs supportés
 
-Pour accéder à l'application Isogeo, nous garantissons que vous pouvez utiliser l'un des navigateurs suivants :
+Pour accéder à Isogeo, nous garantissons que vous pouvez utiliser l'un des navigateurs suivants :
 
-* [Mozilla Firefox (ESR)](https://www.mozilla.org/en-US/firefox/organizations/faq/) 45 et + ;
+* [Mozilla Firefox ESR](https://www.mozilla.org/en-US/firefox/organizations/faq/) 45 et + ;
 * [Google Chrome](https://www.google.fr/chrome/browser/desktop/) 48 et + ;
 * [Internet Explorer 11](http://windows.microsoft.com/fr-fr/internet-explorer/download-ie)  et + ;
 
 Pour accéder à un OpenCatalog, les navigateurs supportés sont :
 
-* [Mozilla Firefox (ESR)](https://www.mozilla.org/en-US/firefox/organizations/faq/) 45 et + ;
+* [Mozilla Firefox ESR](https://www.mozilla.org/en-US/firefox/organizations/faq/) 45 et + ;
 * [Google Chrome](https://www.google.fr/chrome/browser/desktop/) 48 et + ;
 * [Internet Explorer 9](http://windows.microsoft.com/fr-fr/internet-explorer/download-ie)  et + ;
 
+Si votre navigateur n'est pas supporté, voici le message qui s'affiche alors :
+
 ![Alerte navigateur](/images/OC_browser_alert.png "Message qui s'affiche en cas de navigateur non supporté")
+
+Il n'est pas bloquant mais demeure visible en bas à droite sous la forme d'un poijnt d'exclamation pour rappeler que les conditions de navigation ne sont pas optimales.
 
 > Astuce : si vous ou vos utilisateurs ne possèdent pas les droits suffisants pour mettre à jour le navigateur, vous pouvez utiliser une version portable (sans installation mais aux performances réduites) de [Mozilla Firefox](http://portableapps.com/apps/internet/firefox_portable/localization).
 
@@ -25,5 +29,3 @@ Un débit descendant minimum de :
 * **500 Kb/s** est requis pour accéder à `OpenCatalog`.
 
 > Astuce : tester la vitesse de votre connexion sur [Speed Test](http://www.speedtest.net).
-
-
