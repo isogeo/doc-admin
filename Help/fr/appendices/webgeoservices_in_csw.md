@@ -1,6 +1,10 @@
 # Les ressources associées dans d'autres plateformes
 
-Pour afficher correctement une couche dans un visualiseur type geOrchestra ou Prodige, il faut respecter le scénario B recommandé par le CNIG dans [le guide des services de recherche au chapitre 6.1](http://cnig.gouv.fr/wp-content/uploads/2015/Guide-recherche-INSPIRE1.htm) .
+Pour afficher correctement une couche dans un visualiseur type geOrchestra ou Prodige, il faut respecter le scénario B recommandé par le CNIG dans [le guide des services de recherche au chapitre 6.1](http://cnig.gouv.fr/wp-content/uploads/2015/Guide-recherche-INSPIRE1.htm).
+
+Avec la nouvelle gestion des ressources associées de types services, les liens correspondant au scénario A et B sont automatiquement générés dans le XML ISO19139 transmis par CSW.
+
+## Dans le cadre d'une documentation manuelle des services
 
 Donc dans Isogeo, il faut [ajouter une ressource associée de type WMS](/fr/features/documentation/md_ressources.html) en indiquant :
 * le nom de la couche dans le service comme intitulé du lien (exemple : `capl_adresses_points`)
