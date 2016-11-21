@@ -85,7 +85,7 @@ module.exports = function (grunt) {
     grunt.registerTask('buildBook', 'Build the book', function() {
         var done = this.async();
         var book = new gitbook.Book('./Help', {
-            logLevel: 'warn'
+            logLevel: 'debug'
         });
         book.parse().then(function() {
             return book.generateFile('tmp/obj/bin/book/Isogeo.Help.pdf', { ebookFormat: 'pdf' });
@@ -103,7 +103,7 @@ module.exports = function (grunt) {
             config: {
                 output: 'tmp/obj/bin/site'
             },
-            logLevel: 'warn'
+            logLevel: 'debug'
         });
         book.parse().then(function() {
             return book.generate('website');
