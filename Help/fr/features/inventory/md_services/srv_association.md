@@ -1,6 +1,6 @@
 # Associer une fiche de donnée avec une couche d'un service
 
-Une fois une fiche de service documentée et ses couches recensées (automatiquement ou manueullement), il faut les lier aux fiches de données.
+Une fois une fiche de service documentée et ses couches recensées (automatiquement ou manuellement), il faut les lier aux fiches de données.
 
 ## Fonctionnement
 

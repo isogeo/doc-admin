@@ -34,7 +34,7 @@ Dans ce cas-là, plusieurs raisons sont possibles :
 
 _____________
 
-## Que se passe t'il si une des couches déjà associées est supprimée de mon serveur géographique ?
+## Que se passe-t-il si une des couches déjà associées est supprimée de mon serveur géographique ?
 
 Isogeo ne vérifie pas régulièrement la validité ni la disponibilité des services. L'association reste donc en place jusqu'à ce qu'une actualisation soit déclenchée manuellement.
 
