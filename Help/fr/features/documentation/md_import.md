@@ -17,20 +17,25 @@ Si votre fournisseur de données vous a livré des métadonnées ou bien que vou
 
 ## Champs importés
 
-* le titre,
-* le résumé,
-* les thématiques INSPIRE,
-* les mots-clés,
-* la date de création de la métadonnée,
-* la langue de la métadonnée,
-* la période de validité,
-* le contexte de collecte,
-* l’emprise,
-* l’échelle équivalente,
-* la résolution,
-* les contraintes d’accès et d’utilisation,
-* le type de la ressource,
-* le format
-* et l’encodage des caractères de la donnée.
+* titre,
+* résumé,
+* thématiques INSPIRE,
+* mots-clés,
+* date de création de la métadonnée,
+* période de validité,
+* contexte de collecte,
+* emprise,
+* échelle équivalente,
+* résolution,
+* contraintes d’accès et d’utilisation,
+* contact (si adresse email présente),
+* type de la ressource,
+* format
+* l’encodage des caractères de la donnée,
+* langue de la métadonnée.
 
+### Précisions et cas particuliers
 
+#### Multi-emprises
+
+L'import réalise l'union de toutes les emprises géographiques présentes dans la fiche importée. Si l'une des emprises contient toutes les autres, seule celle-ci est récupérée.
