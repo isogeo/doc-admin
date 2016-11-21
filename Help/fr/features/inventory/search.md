@@ -36,7 +36,8 @@ Le score de pertinence est la somme des pertinences pondérées de chaque champ 
 Il est important de garder certaines caractéristiques à l’esprit quand on utilise la recherche textuelle :
 
 * le moteur  est insensible à la casse (minuscules / majuscules), donc 'ABC' est équivalent à 'abc' ;
-* il ne prend pas en compte les caractères spéciaux (points, accents…), donc 'àéù' est équivalent à 'aeu'.
+* il ne prend pas en compte les caractères spéciaux (points, accents…), donc 'àéù' est équivalent à 'aeu' ;
+* il est en revanche sensible à la casse singulier - pluriel. Il faut donc privilégier le pluriel dans la mesure du possible.
 
 ___________
 
