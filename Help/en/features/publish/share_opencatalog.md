@@ -32,13 +32,9 @@ Proceed as follows to create an OpenCatalog:
 
 For example to integrate the demo OpenCatalog:
 
-```
+```xhtml
 <iframe src="http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0" height="400"></iframe></a>
 ```
-
-### Result
-
-<iframe src="http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0" width="850" height="600"></iframe></a>
 
 Integration examples online:
 * the [PPIGE](http://www.ppige-npdc.fr/geocatalog/) portal
@@ -56,10 +52,6 @@ Differences compared with "normal" integration:
 
 For example, to integrate the record containing metadata on France's dÃ©partements in 2014:
 
-```
+```xhtml
 <iframe src="http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0/m/754209f115c040a48d43ffc262b16500?lock" height="400"></iframe></a>
 ```
-
-### Result
-
-<iframe src="http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0/m/754209f115c040a48d43ffc262b16500?lock" width="850" height="600"></iframe></a>
