@@ -51,7 +51,7 @@
         "custom": "styles/custom.css"
     },
     "variables": {
-        "version": "2.15.0-23",
+        "version": "2.17.0-52",
         "author": "Isogeo"
     }
 }
