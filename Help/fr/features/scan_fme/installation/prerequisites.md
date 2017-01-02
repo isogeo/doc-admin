@@ -57,7 +57,7 @@ Vous devez créer un compte utilisateur Windows permettant :
 
 Par exemple, créer un nouveau compte utilisateur intitulé Isogeo ayant les droits adéquats.
 
-## Sécurité
+## Configuration réseau et sécurité
 
 Si votre serveur est connecté à Internet via un réseau d’entreprise soumis à des politiques de sécurité (cas le plus fréquent), vous devez vous assurer que :
 
