@@ -41,4 +41,4 @@ Consulter les pages dédiées dans la rubrique **Valoriser** :
 
 | Editer un partage à un/plusieurs groupe/s de travail Isogeo | Editer un partage à une/plusieurs application/s |
 | :--: | :--: |
-| ![Partage plateforme ](/fr/images/adm_shares_platform_edit.png "") | ![Partage plateforme](/fr/images/adm_shares_apps_multiApps_multiCatalogs.png "") |
+| ![Partage plateforme ](/images/adm_shares_platform_edit.png "") | ![Partage plateforme](/images/adm_shares_apps_multiApps_multiCatalogs.png "") |
