@@ -8,8 +8,8 @@ Tout serveur géographique implémentant les standards doit décrire ses capacit
 
 Pour les services Esri, cela se passe au niveau du menu "Description de l'élément" dans le gestionnaire des services ArcGIS Server Manager et directement dans les propriétés du documentfichier MXD :
 
-| Service          | URL type |
-| :--------------- | :------- |
+| Type d'informations | Interface de saisie |
+| :------------------ | :------------------ |
 | Informations générales sur le service | ![ArcGIS Server Manager](/images/inv_edit_srv_GetCapSource_ArcgisServer.png "Interface de documentation du GetCapabilities dans ArcGIS Server") |
 | Informations dans le MXD |![ArcGIS Server Manager](/images/inv_edit_srv_GetCapSource_arcmap.png "Interface de documentation du GetCapabilities dans ArcMap") |
 
