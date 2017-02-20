@@ -90,8 +90,8 @@ Liste numérotée à plusieurs niveaux :
 
 1. premier élément de la liste
 2. deuxième élément de la liste
-  1. indenter avec 2 espaces avan le chiffre permet de faire des sous-listes imbriquées
-  2. deuxième élement de second niveau
+  1. indenter avec 2 espaces avant le chiffre permet de faire des sous-listes imbriquées
+  2. deuxième élément de second niveau
 3. troisième élément de la liste de 1er niveau qui contient une sous-liste non ordonnée :
   * avec une astérisque,
   - avec un tiret,
@@ -112,7 +112,7 @@ Ou sans numéros :
 
 [Lien simple vers le site Isogeo avec une référence](http://www.isogeo.com "Site d'Isogeo")
 
-[Chemin relatif vers un fichier par exemple](/fr/index.pdf)
+[Chemin relatif vers un fichier par exemple](../Isogeo.Help_fr.pdf)
 ```
 
 #### Rendu
@@ -121,8 +121,7 @@ Ou sans numéros :
 
 [Lien simple vers le site Isogeo avec une référence](http://www.isogeo.com "Site d'Isogeo")
 
-[Chemin relatif vers un fichier par exemple](/fr/index.pdf)
-
+[Chemin relatif vers un fichier par exemple](../Isogeo.Help_fr.pdf)
 
 ## Images
 
