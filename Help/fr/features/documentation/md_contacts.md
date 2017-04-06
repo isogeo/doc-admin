@@ -18,7 +18,7 @@ L’onglet « Contact » permet d’affecter, depuis votre carnet d’adresse, u
 
 > Astuce : il est possible d'ajouter plusieurs fois le même contact avec des rôles différents mais supprimer une fois ce contact, supprime tous ses rôles.
 
-## Matrice des rôles des contacts
+### Matrice des rôles des contacts
 
 **(X)** : valeur par défaut fortement recommandée
 
@@ -29,7 +29,7 @@ L’onglet « Contact » permet d’affecter, depuis votre carnet d’adresse, u
 | Analyste principal        |             |              |
 | Créateur                  |             |  X           |
 | Distributeur              |             |              |
-| Editeur (publication)     |             |              |
+| Editeur (publication)     | Partie qui a publié la ressource.            |              |
 | Fournisseur               | Organisme ou personne qui délivre physiquement la donnée, soit de manière directe au destinataire, soit par l’intermédiaire d’un diffuseur | X |
 | Point de contact          | Organisme ou personne que l’on peut contacter pour avoir des renseignements détaillés sur la donnée. |  **(X)**       |
 | Responsable du traitement |             |              |

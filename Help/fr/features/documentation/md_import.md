@@ -1,6 +1,6 @@
 # Importer des métadonnées standardisées
 
-Si votre fournisseur de données vous a livré des métadonnées ou bien que vous disposiez déjà de métadonnées auparavant, Isogeo vous permet de les importer au format XML ISO19139 ou Dublin-Core.
+Si votre fournisseur de données vous a livré des métadonnées ou bien que vous disposiez déjà de métadonnées auparavant, Isogeo vous permet de les importer au format XML ISO 19139 ou Dublin-Core.
 
 ## Pas à pas
 
@@ -34,8 +34,12 @@ Si votre fournisseur de données vous a livré des métadonnées ou bien que vou
 * l’encodage des caractères de la donnée,
 * langue de la métadonnée.
 
-### Précisions et cas particuliers
+## Précisions et cas particuliers
 
-#### Multi-emprises
+### Multi-emprises
 
 L'import réalise l'union de toutes les emprises géographiques présentes dans la fiche importée. Si l'une des emprises contient toutes les autres, seule celle-ci est récupérée.
+
+### Créer la métadonnée en important un XML ou après avoir créé la métadonnée ?
+
+Comme dit dans l'introduction

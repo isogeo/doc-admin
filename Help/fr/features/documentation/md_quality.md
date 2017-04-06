@@ -4,7 +4,9 @@ L’onglet « Qualité » précise les spécifications utilisées pour collecter
 
 ![Edition unitaire - Qualité](/images/inv_edit_one_quality.png "L'édition unitaire - onglet Qualité")
 
-### Conformité aux spécifications
+_________
+
+## Conformité aux spécifications
 
 | Définition          | Indique si le jeu de données respecte les prescriptions techniques qui ont encadré sa production |
 | :------------------ | :---------------------------- |
@@ -17,8 +19,9 @@ L’onglet « Qualité » précise les spécifications utilisées pour collecter
 | Fiche ressource     | Non                           |
 | Fiche service       | Oui                           |
 
+_________
 
-### Cohérence topologique
+## Cohérence topologique
 
 | Définition          | Descriptif de la qualité strictement technique de la donnée |
 | :------------------ | :---------------------------- |

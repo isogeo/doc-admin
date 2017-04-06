@@ -6,7 +6,7 @@ L’onglet « Géographie » représente l’emprise de la donnée sur une carte
 
 ________
 
-### <i class="fa fa-map-marker fa-lg fa-fw"></i> Carte
+## <i class="fa fa-map-marker fa-lg fa-fw"></i> Carte
 
 | Définition                 | Étendue de la ressource dans l’espace géographique, exprimée sous la forme d'un polygone de délimitation |
 | :------------------------- | :--------------------------------------------------------- |
@@ -22,7 +22,7 @@ ________
 
 > Astuce : si l'enveloppe convexe n'est pas reconnue automatiquement par le scan, consultez [l'annexe à ce sujet](/fr/appendices/scan_srsnotfound_fme_fix.html).
 
-#### Saisie manuelle d'une emprise géographique
+### Saisie manuelle d'une emprise géographique
 
 Pour dessiner manuellement l’emprise de la donnée sur la carte :
 
@@ -42,7 +42,7 @@ Plus d'infos dans [cet article de blog technique](http://www.scalefocus.com/blog
 
 ______
 
-### Nombre d'entités
+## Nombre d'entités
 
 | Définition                 | Nombre d'objets géographiques |
 | :------------------------- | :---------------------------- |
@@ -58,7 +58,7 @@ ______
 
 _____
 
-### Géométrie
+## Géométrie
 
 | Définition                 | Type de géométrie des objets géographiques |
 | :------------------------- | :--------------------------------------------------------- |
@@ -73,7 +73,7 @@ _____
 
 ________
 
-### Systèmes de coordonnées
+## Systèmes de coordonnées
 
 | Définition                 | Nom et code EPSG du système de coordonnées géographique ou projeté |
 | :------------------------- | :--------------------------------------------------------- |
@@ -91,7 +91,7 @@ ________
 
 ________
 
-### Echelle
+## Echelle
 
 | Définition                 | Précision géographique de la ressource (surtout utilisée pour les données vecteur) |
 | :------------------------- | :--------------------------------------------------------- |
@@ -106,7 +106,7 @@ ________
 
 ________
 
-### Résolution
+## Résolution
 
 | Définition                 | Précision géographique de la ressource (surtout utilisée pour les données raster) |
 | :------------------------- | :--------------------------------------------------------- |

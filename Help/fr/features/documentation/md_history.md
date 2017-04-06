@@ -4,7 +4,9 @@ L’onglet « Histoire » décrit le contexte et la méthode de création de la 
 
 ![Edition unitaire - Histoire](/images/inv_edit_one_history.png "L'édition unitaire - onglet Histoire")
 
-### Contexte de collecte
+_________
+
+## Contexte de collecte
 
 | Définition                 | Objectif de la collecte |
 | :------------------------- | :---------------------- |
@@ -17,7 +19,9 @@ L’onglet « Histoire » décrit le contexte et la méthode de création de la 
 | Fiche ressource            | Non                 |
 | Fiche service              | Non                 |
 
-### Méthode de collecte
+_________
+
+## Méthode de collecte
 
 | Définition                 | Moyens et méthodologie employés pour créer et mettre à jour la donnée |
 | :------------------------- | :------------------------------------- |
@@ -30,7 +34,9 @@ L’onglet « Histoire » décrit le contexte et la méthode de création de la 
 | Fiche ressource            | Non                 |
 | Fiche service              | Non                 |
 
-### Période de validité
+_________
+
+## Période de validité
 
 | Définition                 | Période de temps couverte par le contenu de la donnée |
 | :------------------------- | :---------------------------------------------------- |
@@ -43,7 +49,9 @@ L’onglet « Histoire » décrit le contexte et la méthode de création de la 
 | Fiche ressource            | Non                 |
 | Fiche service              | Non                 |
 
-### Commentaire
+_________
+
+## Commentaire
 
 | Définition                 | Précisions complémentaires |
 | :------------------------- | :------------------------- |
@@ -56,7 +64,9 @@ L’onglet « Histoire » décrit le contexte et la méthode de création de la 
 | Fiche ressource            | Non                 |
 | Fiche service              | Non                 |
 
-### Fréquence de mise à jour
+_________
+
+## Fréquence de mise à jour
 
 | Définition                 | Intervalle de temps entre les mises à jour de la donnée |
 | :------------------------- | :------------------------------------------------------ |
@@ -69,7 +79,9 @@ L’onglet « Histoire » décrit le contexte et la méthode de création de la 
 | Fiche ressource            | Non                 |
 | Fiche service              | Non                 |
 
-### Evénements
+_________
+
+## Evénements
 
 | Définition                 | Historique des dates clés sur la vie de la donnée |
 | :------------------------- | :------------------------------------------------ |

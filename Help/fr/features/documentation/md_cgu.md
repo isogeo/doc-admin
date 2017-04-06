@@ -4,7 +4,9 @@ L’onglet « CGU » précise les conditions d’accès et d’utilisation de la
 
 ![Edition unitaire - CGU](/images/inv_edit_one_cgu.png "L'édition unitaire - onglet CGU")
 
-### Conditions
+_________
+
+## Conditions
 
 | Définition          | Règles encadrant l'accès et l'usage des ressources |
 | :------------------ | :------------------------------------------------ |
@@ -17,7 +19,7 @@ L’onglet « CGU » précise les conditions d’accès et d’utilisation de la
 | Fiche ressource     | Oui                           |
 | Fiche service       | Oui                           |
 
-### Limitations
+## Limitations
 
 | Définition          | Restrictions à une diffusion ouverte      |
 | :------------------ | :---------------------------------------- |

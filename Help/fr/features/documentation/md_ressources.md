@@ -4,7 +4,9 @@ L’onglet « Ressources » regroupe les liens vers les documents (cartes, stati
 
 ![Edition unitaire - Ressources](/images/inv_edit_one_linkedResources.png "L'édition unitaire - onglet Ressources")
 
-### Liens associés
+_________
+
+## Liens associés
 
 Dans Isogeo, on recense et documente les données sources, mais il est également possible de renseigner  les services (géographiques par exemple), documents ou téléchargements liés à chaque donnée. Cela permet d'**enrichir énormément l'expérience de consultation** des fiches et donc la valorisation du patrimoine.
 
@@ -19,7 +21,7 @@ Pour explorer toutes les possibilités de ces liens, consulter les pages dédié
 * du [téléversement/téléchargement des données](../publish/hosting.html),
 * de la [finesse d'affichage des liens selon les destinataires et les usages](../publish/share_visibility.html).
 
-#### Actions possibles par type de lien
+### Actions possibles par type de lien
 
 Légende :
 * X = possible

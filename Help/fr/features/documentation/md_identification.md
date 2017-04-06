@@ -4,7 +4,9 @@ Cet onglet donne les éléments de connaissance basique sur une ressource. Il es
 
 ![Edition unitaire - Identification](/images/inv_edit_one_identification.png "L'édition unitaire - onglet identification")
 
-### Titre
+_________
+
+## Titre
 
 | Définition       | Intitulé de la ressource, le titre doit permettre de distinguer la donnée de celles qui pourraient être similaires. |
 | :--------------- | :--------------------------------------  |
@@ -18,7 +20,9 @@ Cet onglet donne les éléments de connaissance basique sur une ressource. Il es
 | Fiche service              | Oui                           |
 
 
-### Résumé
+_________
+
+## Résumé
 
 | Définition       | Description narrative de ce que la donnée représente. |
 | :--------------- | :--------------------------------------  |
@@ -31,8 +35,9 @@ Cet onglet donne les éléments de connaissance basique sur une ressource. Il es
 | Fiche ressource            | Oui                           |
 | Fiche service              | Oui                           |
 
+_________
 
-### Emplacement / nom de la donnée
+## Emplacement / nom de la donnée
 
 | Définition          | L’emplacement de stockage de la donnée, qu'il s'agisse d'un fichier ou d'une base de données. |
 | :------------------ | :--  |
@@ -45,9 +50,11 @@ Cet onglet donne les éléments de connaissance basique sur une ressource. Il es
 | Fiche ressource     | Oui                           |
 | Fiche service       | Oui, l'URL du GetCapabilities |
 
+_________
 
-
-### Rapport de validation d'INSPIRE
+## Rapport de validation d'INSPIRE
 
 Pour toutes les données visées par la directive Inspire, permet également de savoir si la métadonnée est conforme ou non à la norme.
 Le valideur dynamique n'est pas actif sur les fiches de type *service* et *ressource*.
+
+> Astuce : consulter la page [Faire une métadonnée INSPIRE](md_inspire.html).
