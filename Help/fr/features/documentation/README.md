@@ -24,7 +24,7 @@ Il y a plusieurs types de fiches de métadonnées possibles :
 | Ressources      | X       | X       | X        | X       | X         | /resources       |
 | Contacts        | X       | X       | X        | X       | X         | /contacts        |
 | Avancé          | X       | X       | X        | X       | X         | /advanced        |
-| Métadonnée      | X       | X       | X        | X       | X         | /metadata        |
+| Propriétés      | X       | X       | X        | X       | X         | /metadata        |
 
 
 
