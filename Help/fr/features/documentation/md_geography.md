@@ -4,7 +4,9 @@ L’onglet « Géographie » représente l’emprise de la donnée sur une carte
 
 ![Edition unitaire - Géographie](/images/inv_edit_one_geography.png "L'édition unitaire - onglet Géographie")
 
-### Carte
+________
+
+### <i class="fa fa-map-marker fa-lg fa-fw"></i> Carte
 
 | Définition                 | Étendue de la ressource dans l’espace géographique, exprimée sous la forme d'un polygone de délimitation |
 | :------------------------- | :--------------------------------------------------------- |
@@ -20,13 +22,25 @@ L’onglet « Géographie » représente l’emprise de la donnée sur une carte
 
 > Astuce : si l'enveloppe convexe n'est pas reconnue automatiquement par le scan, consultez [l'annexe à ce sujet](/fr/appendices/scan_srsnotfound_fme_fix.html).
 
+#### Saisie manuelle d'une emprise géographique
+
 Pour dessiner manuellement l’emprise de la donnée sur la carte :
 
 1.	Cliquer sur « Modifier » ;
 2.	Dans la carte, choisir l’outil « dessiner un polygone » ou « dessiner un rectangle » ;
-3.	Tracer l’emprise sur la carte ;
+3.	Tracer l’emprise sur la carte **en respectant le sens anti-horaire (voir plus bas)** ;
 4.	Terminer votre saisie en double-cliquant sur la carte ou en recliquant sur le premier sommet du polygone ;
 5.	Enregistrer.
+
+**De l'importance du sens de saisie :**
+
+En traçant un polygone, il est essentiel de se préoccuper de l'ordre de saisie, en respectant la règle du sens anti-horaire (dite [Left Hand Rule](https://docs.microsoft.com/en-us/sql/relational-databases/spatial/spatial-data-types-overview)).
+
+En fait, saisir les dans le sens horaire revient à saisir une emprise qui correspond à toute la Terre, à l'exception du polygone lui-même.
+
+Plus d'infos dans [cet article de blog technique](http://www.scalefocus.com/blog/using-spatial-data-in-sql-server-the-left-hand-rule/) (en angais).
+
+______
 
 ### Nombre d'entités
 
@@ -42,6 +56,8 @@ Pour dessiner manuellement l’emprise de la donnée sur la carte :
 | Fiche service              | Non                           |
 
 
+_____
+
 ### Géométrie
 
 | Définition                 | Type de géométrie des objets géographiques |
@@ -55,6 +71,7 @@ Pour dessiner manuellement l’emprise de la donnée sur la carte :
 | Fiche ressource            | Non                           |
 | Fiche service              | Non                           |
 
+________
 
 ### Systèmes de coordonnées
 
@@ -72,6 +89,8 @@ Pour dessiner manuellement l’emprise de la donnée sur la carte :
 
 > Astuce : si le système de coordonnées n'est pas reconnu automatiquement par le scan, consultez [l'annexe à ce sujet](/fr/appendices/scan_srsnotfound_fme_fix.html).
 
+________
+
 ### Echelle
 
 | Définition                 | Précision géographique de la ressource (surtout utilisée pour les données vecteur) |
@@ -85,6 +104,7 @@ Pour dessiner manuellement l’emprise de la donnée sur la carte :
 | Fiche ressource            | Non                                         |
 | Fiche service              | Non                                         |
 
+________
 
 ### Résolution
 
@@ -98,5 +118,4 @@ Pour dessiner manuellement l’emprise de la donnée sur la carte :
 | Moteur de recherche        | Non                                           |
 | Fiche ressource            | Non                                           |
 | Fiche service              | Non                                           |
-
 
