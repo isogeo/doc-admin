@@ -44,7 +44,7 @@ Même si le site est responsive, il faut considérer le paramètre  `width` avec
 
 Des exemples d’intégration en ligne :
 * le portail de la [PPIGE](http://www.ppige-npdc.fr/geocatalogue/)
-* celui de la [Moselle](http://www.moselleinfogeo.fr/infogeo/isogeo).
+* celui de la [Moselle](http://www.moselleinfogeo.fr/infogeo/index.php/isogeo).
 
 ## Intégrer une seule fiche en iFrame
 
