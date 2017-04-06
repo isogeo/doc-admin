@@ -48,9 +48,6 @@ Dans l'inventaire :
 4. Dans le champ `Emplacement`, indiquer l'URL du GetCapabilities (*?request=GetCapabilities*)
 5. Dans l'onglet `Avancé`, indiquer le format et la version la plus élevée que votre service peut fournir.
 
-Ressources :
-
-
 ## Documenter une ressource
 
 > Astuce : pour retrouver toutes les fiches de type ressource de votre inventaire, [cliquer-ici](https://app.isogeo.com/inventory/search?p=1&ob=_created&od=des&q=type%3Aresource).
