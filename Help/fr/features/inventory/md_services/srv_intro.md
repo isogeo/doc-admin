@@ -26,25 +26,11 @@ Voici un aperçu de la démarche complète ([cliquer ici pour voir en grand](/fr
 
 ## Services et versions gérés
 
-| Type de service      | Versions    | Exemples d'outils compatibles |
-| :------------------- | :---------- | :---------------------------- |
-| WFS                  | 1.1.0 ; 2.0 | deegree, GeoServer, ArcGIS Server >= 10.3 |
-| WMS                  | 1.1.1 ; 1.3.0 | deegree, GeoServer, QGIS Server, Rok4, ArcGIS Server >= 10.3 |
-| WMTS                 | 1.0.0       | deegree, GeoServer, Rok4, ArcGIS Server >= 10.3     |
-| ESRI Feature Service | >= 10.2     | ArcGIS Server >= 10.2, ArcGIS Online |
-| ESRI Map Service     | >= 10.2     | ArcGIS Server >= 10.2, ArcGIS Online |
-| ESRI Tile Service    | >= 10.2     | ArcGIS Server >= 10.2, ArcGIS Online |
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+| Type de service      | Version    s          | Exemples d'outils compatibles             |
+| :------------------- | :-------------------- | :---------------------------------------- |
+| WFS                  | 1.0 ; 1.1.0 ; 2.0     | deegree, GeoServer, ArcGIS Server >= 10.3 |
+| WMS                  | 1.1.0 ; 1.1.1 ; 1.3.0 | deegree, GeoServer, QGIS Server, Rok4, ArcGIS Server >= 10.3 |
+| WMTS                 | 1.0.0                 | deegree, GeoServer, Rok4, ArcGIS Server >= 10.3     |
+| ESRI Feature Service | >= 10.2               | ArcGIS Server >= 10.2, ArcGIS Online |
+| ESRI Map Service     | >= 10.2               | ArcGIS Server >= 10.2, ArcGIS Online |
+| ESRI Tile Service    | >= 10.2               | ArcGIS Server >= 10.2, ArcGIS Online |
