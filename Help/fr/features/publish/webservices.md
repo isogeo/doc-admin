@@ -16,10 +16,8 @@ Depuis la version 2.17 (septembre 2016) et la documentation dynamique des servic
 Des liens de visualisation sont générés pour les services :
 * WFS
 * WMS
-* WMTS
 * Esri Feature Service
-* Esri Map Service
-* Esri Tiled Map Service
+* Esri (Tiled) Map Service
 
 Exemple :
 
