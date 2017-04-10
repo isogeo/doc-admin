@@ -26,27 +26,9 @@ Cette fonctionnalité est utile dans différents cas de figure :
 
 ## Documenter un service
 
+Depuis la version 2.17 d'Isogeo (septembre 2016), la documentation des services géographiques est automatisée et dynamique : [consulter la section dédiée](../inventory/md_services/srv_howto.html).
+
 > Astuce : pour retrouver toutes les fiches de type service de votre inventaire, [cliquer-ici](https://app.isogeo.com/inventory/search?p=1&ob=_created&od=des&q=type%3Aservice).
-
-### Pourquoi
-
-Dans le cadre de la directive INSPIRE, il s'agit de documenter les services web mis en place pour donner accès aux données. Cela passe par les fiches de métadonnées de service.
-
-Ces fiches sont à créer en supplément des ressources associées aux données. Il s'agit d'une différence de granularité :
-
-* la métadonnée de service documente l'infrastructure technique mise en place et permet à des outils tiers d'accéder à ses caractéristiques et à l'ensemble des données concernées ;
-
-* la ressource associée à une donnée doit la concerner spécifiquement et pointer sur l'objet correspondant dans le service (par exemple, le paramètre *layers* dans un WMS ou encore *featureType* dans un WFS).
-
-### Comment
-
-Dans l'inventaire :
-
-1. Cliquer sur le bouton `Créer` en haut à gauche ;
-2. Choisir `d'une fiche relative à un service` ;
-3. Dans le champ `Titre`renseigner le type de service et le territoire concerné. Par exemple : *Service de consultation des données du Département de Belfort* ;
-4. Dans le champ `Emplacement`, indiquer l'URL du GetCapabilities (*?request=GetCapabilities*)
-5. Dans l'onglet `Avancé`, indiquer le format et la version la plus élevée que votre service peut fournir.
 
 ## Documenter une ressource
 
