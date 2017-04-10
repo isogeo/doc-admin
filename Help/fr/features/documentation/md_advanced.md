@@ -16,7 +16,7 @@ L’onglet « Avancé » permet de spécifier le format, la version du format et
 | Fiche ressource     | Non                           |
 | Fiche service       | Non                           |
 
-### Format
+### <i class="fa fa-file"></i> Format
 
 | Définition          | Format informatique                               |
 | :------------------ | :------------------------------------------------ |
@@ -29,7 +29,7 @@ L’onglet « Avancé » permet de spécifier le format, la version du format et
 | Fiche ressource     | Oui, liste libre                              |
 | Fiche service       | Oui, liste spécifique des formats OGC et Esri reconnus |
 
-### Encodage
+### <i class="fa fa-code"></i> Encodage
 
 | Définition          | Codage des caractères du jeu de données           |
 | :------------------ | :------------------------------------------------ |

@@ -22,7 +22,7 @@ _________
 
 _________
 
-## Résumé
+## <i class="fa fa-bookmark"></i> Résumé
 
 | Définition       | Description narrative de ce que la donnée représente. |
 | :--------------- | :--------------------------------------  |
@@ -37,7 +37,7 @@ _________
 
 _________
 
-## Emplacement / nom de la donnée
+## <i class="fa fa-hdd-o"></i> Emplacement / nom de la donnée
 
 | Définition          | L’emplacement de stockage de la donnée, qu'il s'agisse d'un fichier ou d'une base de données. |
 | :------------------ | :--  |
@@ -52,7 +52,7 @@ _________
 
 _________
 
-## Rapport de validation d'INSPIRE
+## <i class="fa fa-flask"></i> Rapport de validation d'INSPIRE
 
 Pour toutes les données visées par la directive Inspire, permet également de savoir si la métadonnée est conforme ou non à la norme.
 Le valideur dynamique n'est pas actif sur les fiches de type *service* et *ressource*.

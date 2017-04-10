@@ -6,7 +6,7 @@ L’onglet « CGU » précise les conditions d’accès et d’utilisation de la
 
 _________
 
-## Conditions
+## <i class="fa fa-gavel"></i> Conditions
 
 | Définition          | Règles encadrant l'accès et l'usage des ressources |
 | :------------------ | :------------------------------------------------ |
@@ -19,7 +19,7 @@ _________
 | Fiche ressource     | Oui                           |
 | Fiche service       | Oui                           |
 
-## Limitations
+## <i class="fa fa-lock"></i> Limitations
 
 | Définition          | Restrictions à une diffusion ouverte      |
 | :------------------ | :---------------------------------------- |

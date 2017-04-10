@@ -6,7 +6,7 @@ L’onglet « Histoire » décrit le contexte et la méthode de création de la 
 
 _________
 
-## Contexte de collecte
+## <i class="fa fa-file"></i> Contexte de collecte
 
 | Définition                 | Objectif de la collecte |
 | :------------------------- | :---------------------- |
@@ -36,7 +36,7 @@ _________
 
 _________
 
-## Période de validité
+## <i class="fa fa-clock-o"></i> Période de validité
 
 | Définition                 | Période de temps couverte par le contenu de la donnée |
 | :------------------------- | :---------------------------------------------------- |
@@ -66,7 +66,7 @@ _________
 
 _________
 
-## Fréquence de mise à jour
+## <i class="fa fa-refresh"></i> Fréquence de mise à jour
 
 | Définition                 | Intervalle de temps entre les mises à jour de la donnée |
 | :------------------------- | :------------------------------------------------------ |
@@ -81,7 +81,7 @@ _________
 
 _________
 
-## Evénements
+## <i class="fa fa-calendar"></i> Evénements
 
 | Définition                 | Historique des dates clés sur la vie de la donnée |
 | :------------------------- | :------------------------------------------------ |

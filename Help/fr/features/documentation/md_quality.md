@@ -6,7 +6,7 @@ L’onglet « Qualité » précise les spécifications utilisées pour collecter
 
 _________
 
-## Conformité aux spécifications
+## <i class="fa fa-trophy"></i> Conformité aux spécifications
 
 | Définition          | Indique si le jeu de données respecte les prescriptions techniques qui ont encadré sa production |
 | :------------------ | :---------------------------- |
@@ -21,7 +21,7 @@ _________
 
 _________
 
-## Cohérence topologique
+## <i class="fa fa-puzzle-piece"></i> Cohérence topologique
 
 | Définition          | Descriptif de la qualité strictement technique de la donnée |
 | :------------------ | :---------------------------- |

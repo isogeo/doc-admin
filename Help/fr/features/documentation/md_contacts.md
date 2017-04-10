@@ -1,4 +1,4 @@
-## Onglet "Contacts"
+## <i class="fa fa-phone"></i> Onglet "Contacts"
 
 L’onglet « Contact » permet d’affecter, depuis votre carnet d’adresse, un ou plusieurs contacts pour chacune des données ;
 

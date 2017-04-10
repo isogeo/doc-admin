@@ -4,7 +4,7 @@ L’onglet « Propriétés » permet d’indiquer la date de création et la lan
 
 ![Edition unitaire - Propriétés](/images/inv_edit_one_properties.png "L'édition unitaire - onglet Propriétés")
 
-### Date de création
+### <i class="fa fa-file-o"></i> Date de création
 
 | Définition          | Date de création de la métadonnée |
 | :------------------ | :------------------------------------------------ |
@@ -36,7 +36,7 @@ L’onglet « Propriétés » permet d’indiquer la date de création et la lan
 
 > Astuce : il est possible de définir la langue des métadonnées par défaut dans les paramètres du groupe de travail (voir [chapitre dédié](../../features/admin/group.html#dfinir-la-langue-des-mtadonnes-par-dfaut)). Elle n'apparaîtra pas ici mais sera celle de référence dans vos partages CSW.
 
-### La fiche au format XML (ISO 19139)
+### <i class="fa fa-download"></i> La fiche au format XML (ISO 19139)
 
 La structure des fiches de métadonnées sur les jeux de données géographiques sont standardisées par l'ISO (International Organization for Standardization) sous la référence 19139, qui est l'implémentation XML du modèle 19115, elle-même définie par le [comité ISO /TC 211](https://en.wikipedia.org/wiki/ISO/TC_211), en charge des questions géograhiques au sein de l'organisme de standardisation.
 

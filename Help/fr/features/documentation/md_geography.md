@@ -6,7 +6,7 @@ L’onglet « Géographie » représente l’emprise de la donnée sur une carte
 
 ________
 
-## <i class="fa fa-map-marker fa-lg fa-fw"></i> Carte
+## <i class="fa fa-map-marker"></i> Carte
 
 | Définition                 | Étendue de la ressource dans l’espace géographique, exprimée sous la forme d'un polygone de délimitation |
 | :------------------------- | :--------------------------------------------------------- |
@@ -36,13 +36,13 @@ Pour dessiner manuellement l’emprise de la donnée sur la carte :
 
 En traçant un polygone, il est essentiel de se préoccuper de l'ordre de saisie, en respectant la règle du sens anti-horaire (dite [Left Hand Rule](https://docs.microsoft.com/en-us/sql/relational-databases/spatial/spatial-data-types-overview)).
 
-En fait, saisir les dans le sens horaire revient à saisir une emprise qui correspond à toute la Terre, à l'exception du polygone lui-même.
+En fait, saisir les points dans le sens horaire revient à saisir une emprise qui correspond à toute la Terre, à l'exception du polygone lui-même.
 
 Plus d'infos dans [cet article de blog technique](http://www.scalefocus.com/blog/using-spatial-data-in-sql-server-the-left-hand-rule/) (en angais).
 
 ______
 
-## Nombre d'entités
+## <i class="fa fa-wrench"></i> Nombre d'entités
 
 | Définition                 | Nombre d'objets géographiques |
 | :------------------------- | :---------------------------- |
@@ -73,7 +73,7 @@ _____
 
 ________
 
-## Systèmes de coordonnées
+## <i class="fa fa-globe"></i>  Systèmes de coordonnées
 
 | Définition                 | Nom et code EPSG du système de coordonnées géographique ou projeté |
 | :------------------------- | :--------------------------------------------------------- |
@@ -91,7 +91,7 @@ ________
 
 ________
 
-## Echelle
+## <i class="fa fa-search"></i> Echelle
 
 | Définition                 | Précision géographique de la ressource (surtout utilisée pour les données vecteur) |
 | :------------------------- | :--------------------------------------------------------- |

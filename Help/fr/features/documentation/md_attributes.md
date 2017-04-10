@@ -1,4 +1,4 @@
-## Onglet "Attributs"
+## <i class="fa fa-list-alt"></i>  Onglet "Attributs"
 
 L’onglet « Attribut » liste tous les champs attributaires de la donnée et précise pour chaque champ son nom, son alias, sa description et sa langue.
 
