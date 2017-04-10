@@ -1,6 +1,6 @@
 # Lier des services géographiques
 
-## Associer manuellement des services géographiques
+## Associer des services géographiques
 
 Depuis la version 2.17 (septembre 2016) et la documentation dynamique des services, l'association dynamique permet de générer automatiquement les bons liens pour les applications supportées par Isogeo :
 
@@ -9,27 +9,26 @@ Depuis la version 2.17 (septembre 2016) et la documentation dynamique des servic
 
 > Consulter [le chapitre dédiée à la documentation automatisée](../inventory/md_services/srv_howto.html) et [celui à l'association dynamique des services](../inventory/md_services/srv_association.html).
 
-### Résultats de la documentation automatisée des services géographiques
-
-#### Dans OpenCatalog
+### Résultats dans OpenCatalog
 
 Des liens de visualisation sont générés pour les services :
-* WFS
+
+* WFS si le serveur supporte le JSON (ce qui n'est pas le cas des service générés par ArcGIS Server notamment) ;
 * WMS
 * Esri Feature Service
-* Esri (Tiled) Map Service
+* Esri (Tiled) Map Service : si les opérations *Map* et *Tile* sont activées, le service tuilé sera utilisé.
 
 Exemple :
 
 ![OpenCatalog - Liens visualisation](/images/OC_dynamicServices_view_departements2014.png "Liens de visualisation générés automatiquement")
 
-Si le serveur géographique le permet, un lien de téléchargement est également automatiquement généré sur la base du WFS.
+Si le serveur géographique le permet, un lien de téléchargement est également automatiquement généré pour les services WFS.
 
 ![OpenCatalog - Lien téléchargement](/images/OC_dynamicServices_download_wfs_departements2014.png "Lien de téléchargement généré automatiquement à partir des capacités du WFS")
 
-#### Dans le XML ISO 19139 (et donc le CSW)
+### Résultats dans le XML ISO 19139 (et donc le CSW)
 
-Les liens des scénarios A et B sont générés dynamiquement. Par exemple, pour un service WFS :
+Pour les organismes tenus à conformité Lvec la directive INSPIRE, les liens des scénarios A et B sont générés dynamiquement. Par exemple, pour un service WFS :
 
 ```xml
 <MD_DigitalTransferOptions>
@@ -91,9 +90,8 @@ Si jamais le paramètre *layers* n’est pas renseigné dans l’URL, une erreur
 
 ![Erreur flux OpenCatalog](/images/OC_view_ErrorLayerIsMissing.png "Erreur de lecture de flux dans l'OpenCatalog")
 
-> Astuce : si vous souhaitez que vos services géographiques soient correctement "consommés" par des plateformes externes, comme geOrchestra ou Prodige, elles doivent être formatées d'une certain façon. Voir [l'annexe à ce sujet](../../appendices/webgeoservices_in_csw.html).
-
 ____
+
 ### Associer un flux WMS
 
 Un WMS pour [Web Map Service](http://fr.wikipedia.org/wiki/Web_Map_Service) est un protocole standardisé OGC ([*Open Geospatial Consortium*](http://fr.wikipedia.org/wiki/Open_Geospatial_Consortium)) qui permet d’obtenir à partir d’une requête une image des données géographiques voulues.
@@ -138,31 +136,6 @@ Le nom des couches disponibles peut être retrouvé grâce à l’action GetCapa
 Voir un exemple en ligne : [départements de France métropolitaine en 2014](http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0/m/754209f115c040a48d43ffc262b16500).
 
 ![WFS dans OpenCatalog](/images/OC_view_WFS.png "Consultation d'un flux WFS dans l'OpenCatalog")
-
-____
-### Associer un flux WMTS
-
-Un WMTS pour [Web Map Tile Service](http://fr.wikipedia.org/wiki/Web_Map_Tile_Service) est un protocole standardisé OGC ([*Open Geospatial Consortium*](http://fr.wikipedia.org/wiki/Open_Geospatial_Consortium)) qui permet d’obtenir à partir d’une requête une image préalablement générée par le serveur cartographique.
-
-> Il est nécessaire que le WMTS accepte l’EPSG 900913 pour fonctionner dans l’OpenCatalog
-
-1. Ajouter une ressource associée ;
-2. Choisir le type `WMTS` ;
-3. Renseigner l’URL du service : http://suite.opengeo.org/geoserver/gwc/service/wmts par exemple ;
-4. Ajouter le nom de la couche à afficher via le paramètre layer : **?layer=opengeo:countries** par exemple.
-Le nom des couches disponibles peut être retrouvé grâce à l’action GetCapabilities : **?request=GetCapabilities** ;
-5. Cliquer sur `Valider` ;
-6. Dans les actions de la ressource associé, cocher l’option `Visualisation` ;
-7. `Valider` puis `Enregistrer` au niveau de l'édition de la fiche.
-
-![Ajout flux WMTS](/images/inv_edit_one_resource_WMTS.png "Ajouter un flux WMTS en ressource associée")
-
-#### Rendu dans l'OpenCatalog
-
-Voir un exemple en ligne : [couche tuilée des pays du monde attahée à la donnée des stades de la coupe du monde de football 2014](http://open.isogeo.com/s/c502e8f7c9da4c3aacdf3d905672d54c/Q4SvPfiIIslbdwkbWRFJLk7XWo4G0/m/56ed291af72f46dc9835fc9ae29fe938).
-
-![WMTS dans OpenCatalog](/images/OC_view_WMTS.png "Visualisation d'un flux WMTS dans l'OpenCatalog")
-
 
 ___
 ### Associer un flux Esri Map
