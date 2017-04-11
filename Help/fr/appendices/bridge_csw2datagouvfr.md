@@ -62,9 +62,8 @@ _______
 2. Lancer le moissonnage de son catalogue
 
     Une fois votre flux CSW référencé par l'équipe de data.gouv.fr, il faut lancer le moissonnage. Pour cela :
-    * [se rendre sur la page des flux](https://inspire.data.gouv.fr/services/by-protocol/csw)
-    * cliquez sur le bouton [Consulter les catalogues](https://inspire.data.gouv.fr/services/by-protocol/csw) ;
-    * puis cliquez sur `Synchroniser` en regard de votre service.
+    1. cliquer sur votre organisme dans la page listant [tous les catalogues](https://inspire.data.gouv.fr/catalogs) ;
+    2. puis cliquez sur `Synchroniser`
 
     ![Passerelle INSPIRE - Open Data (1)](/images/annex_bridge_INSPIRE_DataGouv_1a_syncCSW.png "Page d'accueil de la passerelle")
 
@@ -80,7 +79,7 @@ _______
 
     ![Passerelle INSPIRE - Open Data (1)](/images/annex_bridge_INSPIRE_DataGouv_1b_serviceDetails.png "Page d'accueil de la passerelle")
 
-    Si une donnée semble ne pas être disponible, revérifier les [prérequis](#pr-requis) puis [contacter l'équipe DataGouv](mailto:inspire@data.gouv.fr?subject=Problème de moissonnage d'un CSW (Isogeo)&cc=projets@isogeo.fr).
+    Si une donnée semble ne pas être disponible, revérifier les [prérequis](#pr-requis) puis [contacter l'équipe DataGouv](mailto:inspire@data.gouv.fr?subject=Problème de moissonnage d'un CSW Isogeo&cc=projets@isogeo.fr).
 
 ______
 
