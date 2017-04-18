@@ -107,7 +107,7 @@ Au-delà de ces formats existants, il est possible d'envisager d'autres formats 
 
 Capture d'écran de l'interface d'isogeo2office (cliquer sur l'image pour voir le GIF de démonstration) :
 
-[![isogeo2office - démo](/images/isogeo2office_UI_French_English.png "Interface d'isogeo2office")](https://bytebucket.org/isogeo/isogeo-2-office/raw/555ebfae8f1cd0258009b519c083952398fef1ae/img/demo_fr.gif)
+[![isogeo2office - démo](/images/isogeo2office_UI_French_English.png "Interface d'isogeo2office")](https://bytebucket.org/isogeo/isogeo-2-office/raw/5e6b1e771fba92a207b7dedf204cb0a9886c7610/img/demo_fr.gif)
 
 ____
 
