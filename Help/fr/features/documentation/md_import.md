@@ -55,6 +55,15 @@ _____
 
 Si, à la fin de l'import, le rapport indique une erreur du format comme ci-dessous, c'est qu'Isogeo n'a pas trouvé de correspondance avec sa base de formats. On ne peut donc qu'importer les données dont la syntaxe du nom de format est connue par la plateforme.
 
+Voici les règles appliquées par Isogeo afin de déterminer le type d'une fiche :
+
+* Raster : le format doit être renseigné à ECW ou GEOTIFF (majuscules ou minuscules).
+* Vecteur (au choix) :
+    * Le format doit être renseigné à tout autre format supporté par Isogeo. Par exemple SHP, ORACLE ou TAB (majuscules ou minuscules).
+    * Ou il existe un élément `gmd:spatialRepresentationInfo/*/gmd:MD_VectorSpatialRepresentation` (syntaxe pseudo XPath).
+    * Ou il existe un élément `gmd:spatialRepresentationType/*/gmd:MD_SpatialRepresentationTypeCode`  avec l'attribut codeListValue renseigné à la valeur vector (syntaxe pseudo XPath).
+
+
 ![Import XML - erreur type](/images/inv_edit_batch_import_xml_error_type.png "Erreur de type lors d'un import XML")
 
 Exemple d'extrait de XML compatible :
