@@ -1,5 +1,11 @@
 # Ressources documentaires sur les services géographiques
 
+## 30 minutes pour comprendre le fonctionnement
+
+Après un cycle de versions dédiées, nous avons organisé un webinaire pour faire un point sur les nouvelles fonctionnalités liées au catalogage et à la valorisation de vos services.
+
+<iframe width="640" height="360" src="https://www.youtube.com/embed/QvVlitVdKUU" frameborder="0" allowfullscreen></iframe>
+
 ## Les services géographiques standardisés OGC
 
 * le [fonctionnement d'une URL WMS sur Wikipédia](https://fr.wikipedia.org/wiki/Web_Map_Service) ;
