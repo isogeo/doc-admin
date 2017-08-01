@@ -230,23 +230,23 @@ EXIT /B 0
 :: Errors
 :: -------------------------------------------------------------------
 :ERROR_EXT
-ECHO Could not activate command extensions
+ECHO [31mCould not activate command extensions[0m
 GOTO END
 
 :ERROR_CALIBRE
-ECHO Could not find Calibre
+ECHO [31mCould not find Calibre[0m
 GOTO END
 
 :ERROR_MSBUILD
-ECHO Could not find MSBuild 4.0
+ECHO [31mCould not find MSBuild 4.0[0m
 GOTO END
 
 :ERROR_GIT
-ECHO Could not find Git
+ECHO [31mCould not find Git[0m
 GOTO END
 
 :ERROR_NODEJS
-ECHO Could not find node.js
+ECHO [31mCould not find node.js[0m
 GOTO END
 
 :ERROR_USAGE

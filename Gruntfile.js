@@ -3,6 +3,7 @@ module.exports = function (grunt) {
     
     require('matchdep').filterDev('grunt-*').forEach(grunt.loadNpmTasks);
     var gitbook = require('gitbook');
+    var path = require('path');
 
     var helpConfig = {
         build: 'tmp/obj/bin',
@@ -16,7 +17,7 @@ module.exports = function (grunt) {
     grunt.initConfig({
 
         // Paths
-        help: helpConfig,
+        config: helpConfig,
 
         /**
         * Clean tasks to remove temporary files
@@ -24,8 +25,8 @@ module.exports = function (grunt) {
         clean: {
 
             // Remove only build components
-            build: '<%= help.build %>/*',
-            complete: '<%= help.build %>/*'
+            build: '<%= config.build %>/*',
+            complete: '<%= config.build %>/*'
         },
 
         /**
@@ -38,28 +39,28 @@ module.exports = function (grunt) {
                     dot: true,
                     cwd: 'dist',
                     src: ['**/*.*'],
-                    dest: '<%= help.build %>/site'
+                    dest: '<%= config.build %>/site'
                 }]
             },
             bin: {
                 files: [{
                     expand: true,
                     dot: true,
-                    dest: '<%= help.dest %>',
+                    dest: '<%= config.dest %>',
                     src: [
                         'bin/**/*.*'
                     ]
                 }, {
                     expand: true,
                     dot: true,
-                    dest: '<%= help.dest %>',
-                    cwd: '<%= help.build %>/site',
+                    dest: '<%= config.dest %>',
+                    cwd: '<%= config.build %>/site',
                     src: ['**/*.*']
                 }, {
                     expand: true,
                     dot: true,
-                    dest: '<%= help.dest %>',
-                    cwd: '<%= help.build %>/book',
+                    dest: '<%= config.dest %>',
+                    cwd: '<%= config.build %>/book',
                     src: ['**/*.pdf']
                 }]
             },
@@ -67,11 +68,11 @@ module.exports = function (grunt) {
                 files: [{
                     expand: true,
                     dot: true,
-                    dest: '<%= help.out %>',
-                    cwd: '<%= help.build %>/book',
+                    dest: '<%= config.out %>',
+                    cwd: '<%= config.build %>/book',
                     src: ['**/*.pdf'],
                     rename: function(dest, src) {
-                        return dest + '/Isogeo.Help.' + src.substring(src.indexOf('_')+1, 2) + '.<%= help.version %>.pdf';
+                        return dest + '/Isogeo.Help.' + src.substring(src.indexOf('_') + 1, 2) + '.<%= config.version %>.pdf';
                     }
                 }]
             }
@@ -81,35 +82,65 @@ module.exports = function (grunt) {
 
     /**
     * Build the book
+    * cf. https://github.com/GitbookIO/gitbook/blob/3.2.2/lib/cli/buildEbook.js
     */
     grunt.registerTask('buildBook', 'Build the book', function() {
         var done = this.async();
-        var book = new gitbook.Book('./Help', {
-            logLevel: 'debug'
-        });
-        book.parse().then(function() {
-            return book.generateFile('tmp/obj/bin/book/Isogeo.Help.pdf', { ebookFormat: 'pdf' });
-        }, done).done(function() {
-            done();
-        }, done);
+        var tmpOutput = path.resolve('tmp/obj/bin/tmp-book/');
+        var book = gitbook.Book.createForFS(gitbook.createNodeFS('./Help'));
+        book.setLogLevel('debug');
+
+        gitbook.Parse.parseBook(book)
+            .then(function(b) {
+                var generator = gitbook.Output.getGenerator('ebook');
+                return gitbook.Output.generate(generator, b, {
+                    root: tmpOutput,
+                    format: 'pdf'
+                });
+            }).then(function(output) {
+                var book = output.getBook();
+                if (book.isMultilingual()) {
+                    var languages = book.getLanguages();
+                    languages.getList().forEach(function(l) {
+                        var lid = l.getID();
+                        grunt.file.copy(
+                            path.resolve(tmpOutput, lid, 'index.pdf'),
+                            'tmp/obj/bin/book/Isogeo.Help_' + lid + '.pdf'
+                        );
+                    });
+                } else {
+                    grunt.file.copy(
+                        path.resolve(tmpOutput, 'index.pdf'),
+                        'tmp/obj/bin/book/Isogeo.Help.pdf'
+                    );
+                }
+            }).catch(function(err) {
+                console.error(err);
+            }).fin(function() {
+                done();
+            });
     });
 
     /**
      * Build the site
+     * cf. https://github.com/GitbookIO/gitbook/blob/3.2.2/lib/cli/build.js
      */
     grunt.registerTask('buildSite', 'Build the site', function() {
         var done = this.async();
-        var book = new gitbook.Book('./Help', {
-            config: {
-                output: 'tmp/obj/bin/site'
-            },
-            logLevel: 'debug'
-        });
-        book.parse().then(function() {
-            return book.generate('website');
-        }, done).done(function() {
-            done();
-        }, done);
+        var book = gitbook.Book.createForFS(gitbook.createNodeFS('./Help'));
+        book.setLogLevel('debug');
+
+        gitbook.Parse.parseBook(book)
+            .then(function (b) {
+                var generator = gitbook.Output.getGenerator('website');
+                return gitbook.Output.generate(generator, b, {
+                    root: path.resolve('tmp/obj/bin/site/')
+                });
+            }).catch(function (err) {
+                console.error(err);
+            }).fin(function () {
+                done();
+            });
     });
 
     /**
@@ -143,5 +174,4 @@ module.exports = function (grunt) {
         'build',
         'copy'
     ]);
-
 };

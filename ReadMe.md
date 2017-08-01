@@ -11,15 +11,15 @@ Isogeo.Help is the project used to generate the online help for the Isogeo platf
 For a lightweight build, run the following command from this directory: `build.bat /dev /nopause`. In case of success the resulting documentation artefacts can be found in the `tmp\obj\bin` folder. 
 
 - Prerequisites:
-  * [NodeJS](http://nodejs.org/) 4.6.x
-  * [npm](https://npmjs.org/) 4.0.x
+  * [Git for Windows](https://git-for-windows.github.io/) 2.x
+  * [node.js](http://nodejs.org/) 4.x
+  * [npm](https://npmjs.org/) 4.x
     + [Upgrading on Windows](https://github.com/npm/npm/wiki/Troubleshooting#upgrading-on-windows)
-  * [Grunt CLI 1.2.0](http://gruntjs.com/):
+  * [Grunt CLI](http://gruntjs.com/):
     + `npm install -g grunt-cli`
-  * [rimraf 2.5.0](https://www.npmjs.com/package/rimraf):
+  * [rimraf](https://www.npmjs.com/package/rimraf):
     + `npm install -g rimraf`
-  * [Git for Windows](https://git-for-windows.github.io/)
-  * [Calibre](http://calibre-ebook.com/download_windows64) 64bit 2.72.0
+  * [Calibre](http://calibre-ebook.com/download_windows64) 64bit 3.5.0
 
 ## CI build
 
