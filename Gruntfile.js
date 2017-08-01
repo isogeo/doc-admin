@@ -72,7 +72,7 @@ module.exports = function (grunt) {
                     cwd: '<%= config.build %>/book',
                     src: ['**/*.pdf'],
                     rename: function(dest, src) {
-                        return dest + '/Isogeo.Help.' + src.substring(src.indexOf('_') + 1, 2) + '.<%= config.version %>.pdf';
+                        return dest + '/' + path.basename(src, '.pdf') + '.<%= config.version %>.pdf';
                     }
                 }]
             }
