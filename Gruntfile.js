@@ -87,7 +87,7 @@ module.exports = function (grunt) {
     grunt.registerTask('buildBook', 'Build the book', function() {
         var done = this.async();
         var tmpOutput = path.resolve('tmp/obj/bin/tmp-book/');
-        var book = gitbook.Book.createForFS(gitbook.createNodeFS('./Help'));
+        var book = gitbook.Book.createForFS(gitbook.createNodeFS(path.resolve('.')));
         book.setLogLevel('debug');
 
         gitbook.Parse.parseBook(book)
@@ -115,7 +115,7 @@ module.exports = function (grunt) {
                     );
                 }
             }).catch(function(err) {
-                console.error(err);
+                grunt.fail.fatal(err);
             }).fin(function() {
                 done();
             });
@@ -127,7 +127,7 @@ module.exports = function (grunt) {
      */
     grunt.registerTask('buildSite', 'Build the site', function() {
         var done = this.async();
-        var book = gitbook.Book.createForFS(gitbook.createNodeFS('./Help'));
+        var book = gitbook.Book.createForFS(gitbook.createNodeFS(path.resolve('.')));
         book.setLogLevel('debug');
 
         gitbook.Parse.parseBook(book)
@@ -137,7 +137,7 @@ module.exports = function (grunt) {
                     root: path.resolve('tmp/obj/bin/site/')
                 });
             }).catch(function (err) {
-                console.error(err);
+                grunt.fail.fatal(err);
             }).fin(function () {
                 done();
             });
