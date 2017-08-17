@@ -17,9 +17,13 @@ module.exports = {
         }
     },
     plugins: [
-        'ga',
-        'anchors',
-        'customtheme'
+        "ga",
+        "anchors",
+        "customtheme",
+        "image-captions",
+        "page-nav-configurable",
+        "toggle-headers",
+        "youtube"
     ],
     pluginsConfig: {
         fontSettings: {
