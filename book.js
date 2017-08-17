@@ -10,10 +10,10 @@ module.exports = {
         },
         sharing: {
             'google': true,
-            'facebook': false,
+            'facebook': true,
             'twitter': true,
             'weibo': false,
-            'all': false
+            'all': true
         }
     },
     plugins: [
@@ -37,6 +37,10 @@ module.exports = {
             css: [
                 '_styles/custom.css'
             ]
+        },
+        "image-captions": {
+            "variable_name": "pictures",
+            "caption": "Fig. _BOOK_IMAGE_NUMBER_ : _CAPTION_"
         }
     },
     pdf: {
@@ -57,6 +61,7 @@ module.exports = {
     },
     variables: {
         version: pkg.version,
-        author: 'Isogeo'
+        author: 'Isogeo',
+        pictures: "pictures"
     }
 }
