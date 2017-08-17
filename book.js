@@ -38,7 +38,7 @@ module.exports = {
                 '_styles/custom.css'
             ]
         },
-        "image-captions": {
+        image-captions: {
             "variable_name": "pictures",
             "caption": "Fig. _BOOK_IMAGE_NUMBER_ : _CAPTION_"
         }
@@ -62,6 +62,6 @@ module.exports = {
     variables: {
         version: pkg.version,
         author: 'Isogeo',
-        pictures: "pictures"
+        pictures: []
     }
 }
