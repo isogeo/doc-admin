@@ -18,10 +18,9 @@ module.exports = {
     },
     plugins: [
         "ga",
-        "anchors",
         "customtheme",
         "image-captions",
-        "page-nav-configurable",
+        "page-toc",
         "toggle-headers",
         "youtube"
     ],
@@ -38,7 +37,7 @@ module.exports = {
                 '_styles/custom.css'
             ]
         },
-        image-captions: {
+        "image-captions": {
             "variable_name": "pictures",
             "caption": "Fig. _BOOK_IMAGE_NUMBER_ : _CAPTION_"
         }
