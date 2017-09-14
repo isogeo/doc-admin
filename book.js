@@ -6,6 +6,7 @@ module.exports = {
     links: {
         sidebar: {
             'Site Isogeo': 'http://www.isogeo.com/',
+            'Blog': 'http://blog.isogeo.com',
             'Application': 'https://app.isogeo.com/'
         },
         sharing: {
