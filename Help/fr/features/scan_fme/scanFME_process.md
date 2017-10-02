@@ -51,3 +51,5 @@ Allez dans l’inventaire pour découvrir ces données et parcourir leurs métad
 * Pour les bases de données, FME s'appuie sur l'utilisateur que vous configurez. Une table visible à partir de plusieurs points d'entrée par plusieurs utilisateurs (chaînes de connexion différentes) ne sera pas dupliquée.
 
 * Si vous copiez une donnée sans changer le nom de fichier, le scan indiquera qu'il a détecté un doublon mais créera quand même une nouvelle fiche ;
+
+* Les attributs dont les noms commencent par `fme_`, `apic_` et `gml_` sont considérés comme des champs techniques spécifiques à des outils (comme FME) et ne sont pas remontés.
