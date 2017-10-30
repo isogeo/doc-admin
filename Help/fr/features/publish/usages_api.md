@@ -25,10 +25,10 @@ Il est possible d'utiliser l'API dans autant d'applications qu'il y a de dévelo
 [![Moteur de recherche Isogeo dans SIG](/images/api_plugins_header.png "Chercher et afficher des données via le moteur de recherche Isogeo directement intégré aux logiciels SIG")](http://www.isogeo.com/applications)
 
 L'un des usages les plus demandés est de pouvoir consulter les catalogues directement dans les logiciels SIG. Aujourd'hui, des plugins ont été développés pour :
-* [ArcMap](http://www.isogeo.com/_medias/files/applications/zip/Plugin_ArcMap.zip) (10.2/10.3/10.4),
+* ArcMap(10.2/10.3/10.4),
 * ArcCatalog,
-* [ArcGIS WebAppBuilder for Developer](http://www.isogeo.com/_medias/files/applications/zip/Widget_WebAppBuilder.zip),
-* [QGIS 2.x LTR](https://github.com/isogeo/isogeo-plugin-qgis/blob/master/README.md).
+* ArcGIS WebAppBuilder for Developer,
+* [QGIS 2.x LTR](https://isogeo.gitbooks.io/app-plugin-qgis/content/fr/).
 
 D'autres sont en cours et attendent une contribution financière pour être développés ou finalisés :
 * AutoCAD,
@@ -37,13 +37,13 @@ D'autres sont en cours et attendent une contribution financière pour être dév
 * Drupal,
 * etc.
 
-Ces extensions sont librement téléchargeables et utilisables dans leur version en l'état.
-
 > Astuce : consulter [le site dédié aux extensions](http://www.isogeo.com/applications/).
+
+___
 
 #### Plugin pour QGIS
 
-* Consulter [l'aide en ligne dédiée au plugin QGIS](https://github.com/isogeo/isogeo-plugin-qgis/wiki#fran%C3%A7ais) ;
+* Consulter [l'aide en ligne dédiée au plugin QGIS](https://isogeo.gitbooks.io/app-plugin-qgis/content/fr/) ;
 * Consulter [le GIF de démonstration de l'installation et du fonctionnement basique du plugin.](https://github.com/isogeo/isogeo-plugin-qgis/blob/master/img/demo_fr.gif?raw=true)
 
 ![Capture plugin Isogeo for QGIS](/images/pluginQGIS_ui_tabs_main_search_empty_fr.png "Capture d'écran de l'interface principale du plugin Isogeo for QGIS")
@@ -51,6 +51,8 @@ Ces extensions sont librement téléchargeables et utilisables dans leur version
 #### Captures d'écrans du plugin pour ArcMap et du widget pour ArcGIS WebAppBuilder :
 
 ![Captures plugins Esri](http://www.isogeo.com/_medias/images/applications/portfolio/2widget-plugin.png "Captures d'écran du plugin pour ArcMap et du widget pour ArcGIS WebAppBuilder")
+
+___
 
 ### Les portails de données
 
@@ -65,6 +67,8 @@ Si l'OpenCatalog permet de couvrir l'essentiel des besoins de consultation, il e
 * interfaces *responsive design* ;
 * des fonctionnalités qu'il tient à chacun de contribuer à développer ! :)
 
+> Astuce : Consulter [la documentation du portail](https://isogeo.gitbooks.io/app-portal-pixup-admin/content/).
+
 #### Générique ou spécifique
 
 Selon votre projet et vos besoins, il est possible d'envisager la mise en place d'un portail au socle générique ou bien d'un développement spécifique complet.
@@ -78,10 +82,15 @@ Selon votre projet et vos besoins, il est possible d'envisager la mise en place 
 #### Réalisations intéressantes supplémentaires
 
 Voici une sélection de portails utilisant l'API Isogeo pour apporter des fonctionnalités d'interaction via le catalogue :
-* 2 portails motorisés par un seul groupe de travail Isogeo :  [Créteil](http://geodata.ville-creteil.fr/) et [Plaine Centrale](http://geodata.agglo-plainecentrale94.fr/) ;
-* [Lorient Agglomération](http://geolorient.isogeo.com/) ;
+* [Syndicat Mixte d'Aménagement de la Vallée de la Durance (SMAVD)](http://geocatalogue.smavd.org/) ;
+* [Lorient Agglomération](http://geocatalogue.lorient-agglo.bzh/) ;
+* [Département d'Indre-et-Loire (Touraine - 37)](http://data.touraine.fr) ;
+* [Créteil](http://geodata.ville-creteil.fr/)
+* [Plaine Centrale](http://geodata.agglo-plainecentrale94.fr/) ;
 
-D'autres existent mais sont réservés à un accès en intranet (Syndicat Mixte d'Aménagement de la Vallée de la Durance, Grand Port Maritime de Nantes Saint-Nazaire, Département de la Moselle...).
+D'autres existent mais sont réservés à un accès en intranet (intranet du SMAVD, Grand Port Maritime de Nantes Saint-Nazaire, Département de la Moselle...).
+
+____
 
 ### L'extracteur de données
 
@@ -95,15 +104,19 @@ Avec Isogeo, vous valorisez déjà votre ETL FME en capitalisant sur son intéro
 
 Consulter le [résumé du webinaire consacré à cette extension de février 2016](http://blog.isogeo.com/2016/03/16/retour-sur-le-webinaire-automatiser-lextraction-de-vos-donnees-sig-avec-lapi-isogeo/).
 
+___
 
 ### L'export vers les formats bureautiques
 
-Pour les besoins d'une consultation hors-ligne, une sauvegarde ou une impression dans un modèle graphique propre à un organisme, un petit programme a été développé permettant d'exporter les métadonnées dans des formats bureautiques :
+Pour les besoins d'une consultation hors-ligne, une sauvegarde ou une impression dans un modèle graphique propre à un organisme, un petit programme a été développé permettant d'exporter par lot les métadonnées dans des formats bureautiques :
 
 * Microsoft Word (.docx) à partir d'un ou plusieurs modèles personnalisables par l'utilisateur ;
-* Microsoft Excel (.xlsx).
+* Microsoft Excel (.xlsx) ;
+* XML ISO 19139.
 
-Au-delà de ces formats existants, il est possible d'envisager d'autres formats : XML 19139, CSV, base locale, etc.
+Au-delà de ces formats existants, il est possible d'envisager d'autres formats : CSV, base locale, etc.
+
+> Astuce : Consulter [la documentation de l'application Isogeo to Office](https://isogeo.gitbooks.io/app-isogeo2office/content/fr/).
 
 Capture d'écran de l'interface d'isogeo2office (cliquer sur l'image pour voir le GIF de démonstration) :
 
@@ -136,10 +149,6 @@ Une [liste de diffusion](http://eepurl.com/bfJYu9) pour informer et prévenir de
 
 Des exemples de code dans différents langages sont librement disponibles en ligne, issus d'Isogeo ou de ses partenaires :
 
-| [![nodeJS](/images/logos/nodejs.png "Snippet en JajaScript")](https://bitbucket.org/snippets/isogeo/L8rKz) | [![Python](/images/logos/python.png "Classe d'abastraction sur l'API en Phyton")](https://github.com/Guts/isogeo-api-py-minsdk) | [![PHP](/images/logos/php.png "Différents exemples en PHP")](https://github.com/pixup/isogeo-api-PHP-samples) |
+| [![nodeJS](/images/logos/nodejs.png "Snippet en JajaScript")](https://bitbucket.org/snippets/isogeo/L8rKz) | [![Python](/images/logos/python.png "Classe d'abastraction sur l'API en Phyton")](https://pypi.python.org/pypi/isogeo-pysdk) | [![PHP](/images/logos/php.png "Différents exemples en PHP")](https://github.com/pixup/isogeo-api-PHP-samples) |
 | :--: | :--: | :--: |
-| [JavaScript<br \>(nodeJS)](https://bitbucket.org/snippets/isogeo/L8rKz) | [Python](https://github.com/Guts/isogeo-api-py-minsdk) | [PHP](https://github.com/pixup/isogeo-api-PHP-samples) |
-
-
-
-
+| [JavaScript<br \>(nodeJS)](https://bitbucket.org/snippets/isogeo/L8rKz) | [Python](https://pypi.python.org/pypi/isogeo-pysdk) | [PHP](https://github.com/pixup/isogeo-api-PHP-samples) |

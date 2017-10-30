@@ -1,6 +1,6 @@
 # Naviguer dans son inventaire
 
-La meilleure façon de naviguer et son inventaire et l'un des atouts de la plateforme est son moteur de recherche, basé sur la recherche libre et des filtres contextuels dynamiques.
+La meilleure façon de naviguer dans l'inventaire des données est le moteur de recherche, basé sur la recherche libre et des filtres contextuels dynamiques.
 
 ## La recherche textuelle
 
@@ -68,11 +68,8 @@ Lorsque l'on tape dans la barre de recherche, l’auto-complétion propose les *
 #### Fonctionnement détaillé
 
 * en navigant de haut en bas sur les tags proposés, la valeur sélectionnée s'affiche (en remplaçant) dynamiquement au champ de recherche ;
-
 * en cliquant sur l’une des propositions, la valeur sélectionnée est ajoutée à la recherche ;
-
 * en appuyant sur la touche *Entrée*, la recherche est lancée avec les valeurs déjà ajoutées ;
-
 * en appuyant sur la touche *Espace*, l’autocomplétion repart de zéro, l’utilisateur peut ainsi ajouter plusieurs tags au fur et à mesure.
 
 ![Démo auto-complétion](/images/search_bar_autocompletion.gif "L'auto-complétion permet de gagner du temps lors de la recherche")
@@ -81,7 +78,7 @@ Lorsque l'on tape dans la barre de recherche, l’auto-complétion propose les *
 #### Matrice des icônes par champ de recherche
 
 | Champ                     | Icône                             |
-| :--                       | :-------------------------------: |
+| :------------------------ | :-------------------------------: |
 | Catalogues                | <i class="fa fa-book"></i>        |
 | Contacts                  | <i class="fa fa-phone"></i>       |
 | Formats                   | <i class="fa fa-cube"></i>        |

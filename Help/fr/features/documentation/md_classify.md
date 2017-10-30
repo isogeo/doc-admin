@@ -6,7 +6,7 @@ Dans Isogeo, il est possible d'affecter 3 types d'étiquettes aux fiches de mét
 * les thématiques INSPIRE pour les données destinées à être en conformité avec la directive européenne ;
 * les mots-clés descriptifs.
 
-Dans tous les cas, une donnée peut se voir affecter une ou plusieurs étiquettes de chaque type, même si dans la cas d'INSPIRE, il est recommandé de n'en choisir qu'un.
+Dans tous les cas, une donnée peut se voir affecter une ou plusieurs étiquettes de chaque type, même si dans le cas d'INSPIRE, il est recommandé de ne choisir qu'une seule thématique.
 
 ## Comment étiqueter
 

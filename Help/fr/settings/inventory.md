@@ -53,6 +53,7 @@ Et de choisir la direction du tri :
 > Astuce : pour en savoir plus sur le moteur de recherche, consulter [le chapitre dédié](../features/inventory/search.html).
 
 ### Pagination
+
 En haut à droite, il est possible de sélectionner une page en particulier :
 
 ![Pagination](/images/inv_pagination_browse.png "Aller à une page")
@@ -69,7 +70,7 @@ Tout en bas à gauche, il est possible de régler la pagination :
 ![En-tête des fiches](/images/inv_ressource_header.png "Les informations affichées dans l'en-tête d'une fiche dans l'inventaire")
 
 * la vignette avec l'enveloppe convexe de la donnée sur un fond en niveaux de gris ;
-* le titre et entre parenthèses le nom technique de la donnée : c'est la partie cliquable pour
+* le titre et entre parenthèses le nom technique de la donnée : c'est la partie cliquable pour ouvrir une fiche en particulier ;
 * le propriétaire de la fiche : <span style="color:#C09E7E">en marron</span>,
 * le type de ressource (vecteur, raster, ensemble de données, service, ressource): <span style="color:#8FB39B">en vert</span>
 * le format : <span style="color:#6480a7">en bleu</span>

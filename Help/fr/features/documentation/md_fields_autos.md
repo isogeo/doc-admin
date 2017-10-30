@@ -29,7 +29,7 @@ Pour vous faciliter la saisie des métadonnées, le scan remplit et maintient à
     * le type de ressource (données, ensemble de données) ;
     * le format de la donnée.
 
-* Dans l'onglet **Métadonnées** :
+* Dans l'onglet **Propriétés** :
 
     * la date de création de la fiche de métadonnée ;
 

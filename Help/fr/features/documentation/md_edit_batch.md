@@ -16,19 +16,11 @@ La démarche à suivre est la suivante :
 
 ### Champs éditables par lot
 
-| Onglet          | Ed. / lot |
-|:----------------|:---------:|
-| Identification  | X         |
-| Histoire        | X         |
-| Géographie      | X         |
-| Qualité         | X         |
-| Attributs       |           |
-| CGU             | X         |
-| Ressources      | X         |
-| Contacts        | X         |
-| Avancé          | X         |
-| Métadonnée      | X         |
+Tous les champs sont éditables par lot, à l'exception de :
 
+* l'emplacement ;
+* la date de création de la donnée ;
+* les attributs.
 
 ### Fonctionnement et précisions
 
