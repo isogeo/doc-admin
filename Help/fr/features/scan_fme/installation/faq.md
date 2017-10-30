@@ -1,5 +1,33 @@
 # Erreurs fréquentes
 
+De  notre expérience d'années de support, dans la plupart des cas les soucis sont résolus en vérifiant de nouveau [les prérequis](prerequisites.html) puis en redémarrant le service.
+
+## Eléments pour faciliter le diagnostic du support
+
+
+
+
+### Récupérer les logs du service de Scan
+
+Le service Isogeo Worker produit 2 sortes de fichiers de log :
+
+
+2. Préciser 
+
+
+### Récupérer les informations sur le contexte FME (FMEReport.html)
+
+Safe Software, l'éditeur de FME, met un petit outil à disposition pour générer un rapport de diagnostic complet et lisible sur l'environnement logiciel autour de l'ETL (système d'exploitation, version de FME installée, présence de logiciels tiers comme Esri, Oracle...). Il est présenté dans [cet article de la base de connaissance partagée de FME](https://knowledge.safe.com/articles/714/general-troubleshooting-gathering-system-informati.html) et [détaillé dans celui-ci](https://knowledge.safe.com/articles/692/a-guide-to-interpreting-the-system-information-bat.html).
+
+Pour l'utiliser, les **droits d'administrateur** sur la machine où FME est installé sont requis :
+
+1. [Télécharger le fichier `system_information.bat`](https://cdn.rawgit.com/safesoftware/system-information-batch/master/system_information.bat) ;
+2. Clic droit > "Exécuter en tant qu'administrateur" ;
+
+Le fichier `FMEReport.html` est généré à côté du fichier `system_information.bat` ainsi que sur le bureau.
+
+____
+
 ## Du côté de l'installation
 
 Si le message suivant s'affiche, veuillez vérifier [les prérequis](prerequisites.html), en particulier [les droits de l'utilisateur configuré](prerequisites.html#compte-utilisateur) pour lancer le service.

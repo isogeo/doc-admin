@@ -14,6 +14,7 @@ Voir [la lettre d'informations](http://eepurl.com/b8uYqb).
 * Format SpatiaLite
 * Format GML
 * Scripts compatibles avec FME 2016 (toutes les données déjà scannées avec une version antérieure de FME sont considérées comme modifiées)
+* Changement des adresses IP de destination
 
 ### 2.0.1
 

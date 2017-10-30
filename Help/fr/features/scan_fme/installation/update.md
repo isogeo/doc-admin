@@ -6,7 +6,5 @@ Si l’un de vos services n’est plus compatible, l’application vous en infor
 
 Pour mettre à jour il suffit de procéder à :
 
-1. une désinstallation du service existant ;
-2. une nouvelle installation.
-
-
+1. une [désinstallation du service existant](uninstall.html) ;
+2. une [nouvelle installation](setup.html).

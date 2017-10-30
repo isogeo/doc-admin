@@ -1,10 +1,13 @@
 # Configuration et usages avancés
 
-## Accélérer le Scan
+## Utiliser une version spécifique de FME
 
-Le service de scan permet d'utiliser jusqu'à 5 instances de FME à partir de la même licence.
+Plusieurs versions de FME pouvant être installées sur une même machine, il est possible d'indiquer au service de Scan FME (Isogeo Worker) d'en utiliser une en particulier :
 
-**Si** le serveur est suffisamment dimensionné pour supporter cette charge, il suffit d'éditer le fichier *worker.bat* dans le dossier *daemon* de l'installation du scan et de modifier le paramètre `MAX_FME_CONCURRENCY_LIMIT` puis de redémarrer le service.
+1. Arrêter le service Isogeo Worker via le gestionnaire de services de Windows ;
+2. Dans le dossier `daemon` du dossier d'installation, ouvrir le fichier 
+
+
 
 ## Installer plusieurs services et les lier à un même FME
 
@@ -32,4 +35,8 @@ Voici la marche à suivre pour 2 groupes de travail, l'un nommé CA (le principa
 
 ![2 services installés sur le même serveur](/images/scanFME_install_muli_services.png "vérifier l'installation des 2 services")
 
+## Accélérer le Scan
 
+Le service de scan permet d'utiliser jusqu'à 5 instances de FME à partir de la même licence. Par défaut, l'installation en utilise 3.
+
+**Si** le serveur est suffisamment dimensionné pour supporter cette charge, il suffit d'éditer le fichier *worker.bat* dans le dossier *daemon* de l'installation du scan et de modifier le paramètre `MAX_FME_CONCURRENCY_LIMIT` puis de redémarrer le service.
