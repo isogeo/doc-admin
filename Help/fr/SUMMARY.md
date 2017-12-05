@@ -46,7 +46,7 @@
 
 ## Documenter
 
-* [Introducion](features/documentation/README.md)
+* [Introduction](features/documentation/README.md)
 * [Eléments méthodologiques](features/documentation/methodology.md)
 * [Les champs complétés automatiquement](features/documentation/md_fields_autos.md)
 * [Importer l'existant](features/documentation/md_import.md)

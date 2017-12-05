@@ -53,6 +53,10 @@ Pour aller plus loin :
 * si vous utilisez une [version d'ArcGIS qui n'est plus supportée](http://support.esri.com/other-resources/product-life-cycle) par Esri, [consulter l'article dédié](https://knowledge.safe.com/articles/22886/fme-compatibility-for-retired-esri-software.html) ;
 * si vous utilisez Direct Connect, [consulter cet article](https://knowledge.safe.com/articles/227/how-do-i-connect-to-my-arcsde-geodatabase-using-di.html).
 
+### Oracle
+
+Pour les bases de données Oracle, penser à installer le client sur la même machine que FME.
+
 ___
 
 ## Compte utilisateur
