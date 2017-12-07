@@ -11,6 +11,9 @@ Elles permettent également de mettre en valeur les ressources associées regrou
 * Télécharger
 * Plus
 
+
+## Générer un catalogue de consultation avec OpenCatalog
+
 Pour créer un OpenCatalog, il suffit de :
 
 1.	Dans le menu `Administration`  > `Partage`, cliquer sur `Nouveau` ;
@@ -20,44 +23,60 @@ Pour créer un OpenCatalog, il suffit de :
 5.	Nommer le partage ;
 6.	`Enregistrer` ;
 
-![Gérer les OpenCatalogs](/images/adm_shares_OC_edit.png "Diffuser les catalogues via les OpenCatalogs")
 
+L'URL de consultation de l'openCatalog apparaît alors.
 
-## Intégrer un OpenCatalog en iFrame
+![Gérer les OpenCatalog](/images/adm_shares_OC_edit.png "Diffuser les catalogues via  OpenCatalog")
 
-« OpenCatalog » est développé via l’API Isogeo. Il est très facilement intégrable dans vos sites web existants (intranet, extranet, portail carto, portail OpenData, IDG, etc.) via une [balise HTML iFrame](http://www.w3schools.com/tags/tag_iframe.asp).
+## Intégrer Opencatalog
 
-Ajouter `?lock` à la fin de l'adresse permet d'enlever le bandeau de haut de page.
+OpenCatalog est développé via l’API Isogeo. Il est designé pour être facilement intégrable dans vos sites web existants (intranet, extranet, portail carto, portail OpenData, IDG, etc.) via une [balise HTML iFrame](https://www.w3schools.com/tags/tag_iframe.asp).
 
-### Syntaxe
+### Retirer la barre de titre
 
-Par exemple, pour intégrer l'OpenCatalog de démonstration :
+Ajouter `no-header` en paramètre à l'URL permet ainsi d'enlever le bandeau de haut de page.
+
+#### Syntaxe
+
+Par exemple, pour intégrer l'[OpenCatalog de démonstration](https://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0) :
 
 ```xhtml
-<iframe src="http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0?lock" width="980" height="600"></iframe>
+<iframe src="https://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0?no-header" width=100% height="800"></iframe>
 ```
 
 Même si le site est responsive, il faut considérer le paramètre  `width` avec attention de façon à ne pas nuire  l'expérience utilisateur :
+
 * 800 est la largeur minimum très fortement recommandée ;
 * 980 pour une consultation agréable ;
 * 1280 pour une consultation optimale.
 
 Des exemples d’intégration en ligne :
+
 * le portail de la [PPIGE](http://www.ppige-npdc.fr/geocatalogue/)
 * celui de la [Moselle](http://www.moselleinfogeo.fr/infogeo/index.php/isogeo).
 
-## Intégrer une seule fiche en iFrame
 
-Si vous ne souhaitez intégrer qu'une seule fiche par exemple dans une fenêtre de type pop-up, c'est également possible en mettant l'URL complète vers la fiche souhaitée.
+#### Rendu
+
+
+
+### Intégrer une seule fiche en iFrame
+
+Si vous ne souhaitez intégrer qu'une seule fiche par exemple dans une fenêtre de type pop-up, c'est également possible en mettant l'URL complète vers la fiche souhaitée et en y ajoutant le paramètre `lock`.
 
 Différences par rapport à l'intégration normale :
-* la barre du haut ;
-* les filtres ne sont pas cliquables.
+* la barre de titre de la page est masqué ;
+* la navigation est désactivée (les filtres ne sont pas cliquables par exemple et il est impossible de revenir vers l'opencatalog en entier)
 
 ### Syntaxe
 
-Par exemple, pour intégrer [la fiche de métadonnées de démonstration sur les départements 2014](http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0/m/754209f115c040a48d43ffc262b16500) :
+Par exemple, pour intégrer [la fiche de métadonnées de démonstration sur les départements 2014](https://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0/r/754209f115c040a48d43ffc262b16500) :
 
 ```xhtml
-<iframe src="http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0/m/754209f115c040a48d43ffc262b16500?lock" width="980" height="400"></iframe>
+<iframe src="https://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0/r/754209f115c040a48d43ffc262b16500?lock" width=100% height="400"></iframe>
 ```
+
+
+#### Rendu
+
+
