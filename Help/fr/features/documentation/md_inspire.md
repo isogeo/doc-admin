@@ -8,16 +8,34 @@ Cliquer sur l'image pour consulter le [tableau de correspondance des champs Isog
 
 > Astuce : la catégorie ISO est déduite automatiquement du thème INSPIRE par Isogeo.
 
-## Valideur
+## Validateur
 
-Le valideur INSPIRE, adopté par la communauté européenne, est directement intégré dans la solution Isogeo.
+Le validateur INSPIRE, adopté par la communauté européenne, est directement intégré dans la solution Isogeo.
 
-Dès qu’une donnée est classée dans un thème Inspire (voir [chapitre dédié](../../features/documentation/md_classify.html#comment-tiqueter)), le valideur se lance et vérifie la conformité de votre fiche de métadonnée :
+Dès qu’une donnée est classée dans un thème Inspire (voir [chapitre dédié](../../features/documentation/md_classify.html#comment-tiqueter)), le validateur se lance et vérifie la conformité de votre fiche de métadonnée :
 * si elle est valide, le message suivant « Cette fiche est conforme Inspire » s’affiche en vert dans l’onglet `Identification` ;
 * s’il manque des informations, elles sont listées en jaune.
 
-| ![INSPIRE - Non valide](/images/inv_edit_one_identification_INSPIRE_NotConform.png "Le valideur indique que la métaodnnée n'est pas conforme ") | ![INSPIRE - Valide](/images/inv_edit_one_identification_INSPIRE_conform.png "Le valideur indique que la métadonnée est conforme") |
+| ![INSPIRE - Non valide](/images/inv_edit_one_identification_INSPIRE_NotConform.png "Le validateur indique que la métaodnnée n'est pas conforme ") | ![INSPIRE - Valide](/images/inv_edit_one_identification_INSPIRE_conform.png "Le validateur indique que la métadonnée est conforme") |
 | :--: | :--: |
+
+
+> Astuce : ls validateur ne s'active que pour les méatdonnées de jeux de données vectorielles ou raster
+
+### Champs requis par le validateur INSPIRE intégré
+
+Pour que le validateur indique que la fiche est conforme à la diretcive, voici les champs à remplir :
+
+* Titre
+* Résumé
+* Emprise géographique
+* Contexte de collecte
+* Résolution ou échelle
+* Contact
+* Encodage
+* Format et version
+* Date de création de la donnée
+
 
 ## INSPIRE en quelques clics
 
