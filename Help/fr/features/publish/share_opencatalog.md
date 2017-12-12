@@ -55,10 +55,7 @@ Des exemples d’intégration en ligne :
 * le portail de la [PPIGE](http://www.ppige-npdc.fr/geocatalogue/)
 * celui de la [Moselle](http://www.moselleinfogeo.fr/infogeo/index.php/isogeo).
 
-
-#### Rendu
-
-
+________
 
 ### Intégrer une seule fiche en iFrame
 
@@ -76,7 +73,23 @@ Par exemple, pour intégrer [la fiche de métadonnées de démonstration sur les
 <iframe src="https://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0/r/754209f115c040a48d43ffc262b16500?lock" width=100% height="400"></iframe>
 ```
 
+________
 
-#### Rendu
 
+### Ne pas utiliser les proxies OpenCatalog pour les services géographiques
 
+Pour permettre facilement la consommation de services "internes" dans un OpenCatalog accessible via le réseau intranet de votre organisme, il suffit d'ajouter le paramètre `no-proxy`.
+
+Conséquences :
+    
+* au client de bien s'assurer qu'il déclare et utilise bien des services accessibles en HTTPS si OpenCatalog est en HTTPS.
+
+* au client de bien configurer ses serveurs pour accepter les appels [Cross Origin](https://enable-cors.org/) ([GeoServer pour WFS](https://gis.stackexchange.com/questions/210316/access-control-allow-origin-openlayers-wfs) par exemple).
+
+### Syntaxe
+
+Par exemple, pour intégrer l'[OpenCatalog de démonstration](https://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0) :
+
+```xhtml
+<iframe src="https://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0?no-proxy" width=100% height="400"></iframe>
+```
