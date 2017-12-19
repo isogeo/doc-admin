@@ -16,7 +16,8 @@ Dès qu’une donnée est classée dans un thème Inspire (voir [chapitre dédi�
 * si elle est valide, le message suivant « Cette fiche est conforme Inspire » s’affiche en vert dans l’onglet `Identification` ;
 * s’il manque des informations, elles sont listées en jaune.
 
-| ![INSPIRE - Non valide](/images/inv_edit_one_identification_INSPIRE_NotConform.png "Le validateur indique que la métaodnnée n'est pas conforme ") | ![INSPIRE - Valide](/images/inv_edit_one_identification_INSPIRE_conform.png "Le validateur indique que la métadonnée est conforme") |
+
+| ![INSPIRE - Non valide](/images/inv_edit_one_identification_INSPIRE_NotConform.png "Le validateur indique que la métadonnée n'est pas conforme ") | ![INSPIRE - Valide](/images/inv_edit_one_identification_INSPIRE_conform.png "Le validateur indique que la métadonnée est conforme") |
 | :--: | :--: |
 
 

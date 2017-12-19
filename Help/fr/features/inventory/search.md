@@ -7,7 +7,7 @@ La meilleure façon de naviguer dans l'inventaire des données est le moteur de 
 Lorsque l'utilisateur entre une recherche libre (champ `contient`), le moteur recherche dans les champs suivants :
 
 * Le titre ;
-* Le nomde la table ou du fichier (sans son extension) ;
+* Le nom de la table ou du fichier (sans son extension) ;
 * Le résumé ;
 * Le format ;
 * Les mots-clés ;
