@@ -135,5 +135,5 @@
 
 ## Applications tierces
 
-* [Plugin QGIS](/qgis/fr/README.md)
+* [Plugin QGIS](../qgis/fr/README.md)
 
