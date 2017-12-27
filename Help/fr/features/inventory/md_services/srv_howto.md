@@ -51,6 +51,7 @@ Le service est désormais documenté. Il est désormais temps d'[associer les co
 | ESRI Feature Service | ***[url_server:port]***/arcgis/rest/services/***[folder]***/FeatureServer |
 | ESRI Tile Service    | ***[url_server:port]***/tiles/***[token]***/arcgis/rest/services/***[folder]***/MapServer |
 
+
 ## Recensement manuel
 
 Si vous souhaitez documenter un service ne correspondant pas aux prérequis, il est possible de renseigner la fiche manuellement. Après avoir crée la fiche, il suffit de cliquer sur `+ Ajouter une couche` et d'entrer son identifiant (obligatoire) et un titre (facultatif).

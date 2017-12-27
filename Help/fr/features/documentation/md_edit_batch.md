@@ -24,7 +24,7 @@ Tous les champs sont éditables par lot, à l'exception de :
 
 ### Fonctionnement et précisions
 
-*  l'édition par lot n'affiche pas les informations déjà renseignées dans les fiches sélectionnées. Par exemple c'est pourquoi l'onglet géographie affiche toujours une carte vide, même si les enveloppes convexes (emprises) existent déjà dans les fiches sélectionnées.
+*  l'édition par lot n'affiche pas les informations déjà renseignées dans les fiches sélectionnées. C'est pourquoi l'onglet géographie affiche toujours une carte vide, même si les enveloppes convexes (emprises) existent déjà dans les fiches sélectionnées.
 
 * l'édition par lot écrase les valeurs existantes des champs uniques et ajoute les valeurs indiquées pour les champs multiples. Par exemple, si vous indiquez un résumé et une ressource associée, il écrasera les résumés éventuellement renseignés auparavant mais ajoutera la ressource associée aux précédentes.
 

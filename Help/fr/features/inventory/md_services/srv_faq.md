@@ -6,7 +6,7 @@ Tout serveur géographique implémentant les standards doit décrire ses capacit
 
 #### Exemple dans ArcGIS Server
 
-Pour les services Esri, cela se passe au niveau du menu "Description de l'élément" dans le gestionnaire des services ArcGIS Server Manager et directement dans les propriétés du documentfichier MXD :
+Pour les services Esri, cela se passe au niveau du menu "Description de l'élément" dans le gestionnaire des services ArcGIS Server Manager et directement dans les propriétés du document fichier MXD :
 
 | Type d'informations | Interface de saisie |
 | :------------------ | :------------------ |
@@ -43,7 +43,7 @@ Dans ce cas-là, plusieurs raisons sont possibles :
 		* domaine v1.api.isogeo.com
 	- recenser chaque couche manuellement.
 
-* le service est indisponible au moment de la création de la fiche : le scan des services est tributaire de l'état des serveurs. Il s'agit alors d'attendre un moment de répit serveur et de cliquer sur `Actualiser`.
+* le service est indisponible au moment de la création de la fiche : le scan des services est tributaire de l'état des serveurs. Il s'agit alors d'attendre un moment de répit du serveur et de cliquer sur `Actualiser`.
 
 ![Services update](/images/inv_edit_srv_update.png "Cliquer sur Actualiser pour mettre à jour les informations des fiches de type service.")
 

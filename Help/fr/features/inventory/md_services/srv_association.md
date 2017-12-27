@@ -12,7 +12,7 @@ Le principe est d'associer une couche à une donnée. L'association est bidirect
 ### Prérequis
 
 * avoir documenté une fiche de service (voir chapitre précédent) ;
-* avoir des fiches de données à associer aux couches de service (soit scannée, soit créées manuellement).
+* avoir des fiches de données à associer aux couches de service (soit scannées, soit créées manuellement).
 
 ### Marche à suivre illustrée pour associer les couches
 
