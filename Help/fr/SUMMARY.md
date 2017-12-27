@@ -118,18 +118,3 @@
 * [Glossaire](GLOSSARY.md)
 * [Notes des versions](releases_notes/README.md)
 * [Table des figures](pictures.md)
-
-## Notes de version
-
-* [Version 2.18.0](releases_notes/2_18_0.md)
-* [Version 2.17.0](releases_notes/2_17_0.md)
-* [Version 2.16.0](releases_notes/2_16_0.md)
-* [Version 2.15.0](releases_notes/2_15_0.md)
-* [Version 2.14.0](releases_notes/2_14_0.md)
-* [Version 2.13.0](releases_notes/2_13_0.md)
-* [Version 2.12.0](releases_notes/2_12_0.md)
-* [Version 2.11.0](releases_notes/2_11_0.md)
-* [Version 2.10.0](releases_notes/2_10_0.md)
-* [Version 2.9.0](releases_notes/2_09_0.md)
-* [Version 2.8.0](releases_notes/2_08_0.md)
-* [Version 2.7.1](releases_notes/2_07_1.md)
