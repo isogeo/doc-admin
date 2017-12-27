@@ -116,6 +116,7 @@
 * [Se faire moissonner par le Géocatalogue national](appendices/harvest_geocatalogue_fr.md)
 * [Diffuser ses données sur DataGouv.fr](appendices/bridge_csw2datagouvfr.md)
 * [Glossaire](GLOSSARY.md)
+* [Notes des versions](releases_notes/README.md)
 * [Table des figures](pictures.md)
 
 ## Notes de version
@@ -132,8 +133,3 @@
 * [Version 2.9.0](releases_notes/2_09_0.md)
 * [Version 2.8.0](releases_notes/2_08_0.md)
 * [Version 2.7.1](releases_notes/2_07_1.md)
-
-## Applications tierces
-
-* [Plugin QGIS](../qgis/fr/README.md)
-

@@ -22,6 +22,7 @@ module.exports = {
         "customtheme",
         "image-captions",
         "page-toc",
+        "timeline",
         "toggle-headers",
         "youtube"
     ],
