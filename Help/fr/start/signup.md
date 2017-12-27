@@ -22,7 +22,7 @@ Voici les étapes qui suivent l'invitation d'un utilisateur :
 
 5.	Indiquer votre mail ;
 
-6.	Créer votre mot de passe ;
+6.	Créer votre mot de passe. La seule contrainte à respecter est la longueur minimale de 6 caractères. ;
 
 7.	Cliquer sur `Valider`, la page suivante s’affiche ;
 
