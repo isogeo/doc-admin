@@ -149,6 +149,6 @@ Une [liste de diffusion](http://eepurl.com/bfJYu9) pour informer et prévenir de
 
 Des exemples de code dans différents langages sont librement disponibles en ligne, issus d'Isogeo ou de ses partenaires :
 
-| [![nodeJS](/images/logos/nodejs.png "Snippet en JajaScript")](https://bitbucket.org/snippets/isogeo/L8rKz) | [![Python](/images/logos/python.png "Classe d'abastraction sur l'API en Phyton")](https://pypi.python.org/pypi/isogeo-pysdk) | [![PHP](/images/logos/php.png "Différents exemples en PHP")](https://github.com/pixup/isogeo-api-PHP-samples) |
+| [![](/images/logos/nodejs.png)](https://bitbucket.org/snippets/isogeo/L8rKz) | [![](/images/logos/python.png)](https://pypi.python.org/pypi/isogeo-pysdk) | [![](/images/logos/php.png)](https://github.com/pixup/isogeo-api-PHP-samples) |
 | :--: | :--: | :--: |
 | [JavaScript<br \>(nodeJS)](https://bitbucket.org/snippets/isogeo/L8rKz) | [Python](https://pypi.python.org/pypi/isogeo-pysdk) | [PHP](https://github.com/pixup/isogeo-api-PHP-samples) |
