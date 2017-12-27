@@ -132,3 +132,8 @@
 * [Version 2.9.0](releases_notes/2_09_0.md)
 * [Version 2.8.0](releases_notes/2_08_0.md)
 * [Version 2.7.1](releases_notes/2_07_1.md)
+
+## Applications tierces
+
+* [Plugin QGIS](/qgis/fr/README.md)
+
