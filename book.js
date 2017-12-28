@@ -30,20 +30,24 @@ module.exports = {
         fontSettings: {
             theme: 'white',
             family: 'sans'
-        },
+            },
         ga: {
             token: 'UA-22345848-2'
-        },
+            },
         customtheme: {
             css: [
                 '_styles/custom.css'
-            ]
-        },
+                ]
+            },
         "image-captions": {
             "variable_name": "pictures",
             "caption": "Fig. _BOOK_IMAGE_NUMBER_ : _CAPTION_"
-        }
-    },
+            },
+        "page-toc": {
+            "position": "top",
+            "selector": ".markdown-section h2, .markdown-section h3,"
+                    }
+        },
     pdf: {
         pageNumbers: true,
         fontSize: 12,
@@ -58,7 +62,7 @@ module.exports = {
         footerTemplate: '_SECTION_'
     },
     styles: {
-        custom: 'styles/custom.css'
+        custom: '_styles/custom.css'
     },
     variables: {
         version: pkg.version,
