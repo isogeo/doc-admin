@@ -5,7 +5,7 @@
 
 ## 2.19 {#v219}
 
-Publiée en décembre 2017 :
+<br>Publiée en décembre 2017 :
 
 Consulter :
 * le [mail envoyé aux utilisateurs](https://mailchi.mp/isogeo/isogeo-version-2_19) ;
@@ -37,7 +37,7 @@ Consulter :
 
 ## 2.18.5 {#v2185}
 
-Publiée fin juillet 2017.
+<br>Publiée fin juillet 2017.
 
 Cette version correspond à la version 2.3 d'OpenCatalog, module exclusivement concerné par cette mise à jour.
 
@@ -65,7 +65,7 @@ Consulter :
 
 ## 2.18 {#v218}
 
-Publiée fin mars 2017.
+<br>Publiée fin mars 2017.
 
 Consulter :
 * le [mail envoyé aux utilisateurs](http://us4.campaign-archive1.com/?u=256352d96aabf0dec0ee32d84&id=b57277a32c) ;
@@ -103,7 +103,7 @@ Consulter :
 
 ## 2.17 {#v217} 
 
-Publiée en septembre 2016.
+<br>Publiée en septembre 2016.
 
 Consulter :
 * le [mail envoyé aux utilisateurs](http://us4.campaign-archive1.com/?u=256352d96aabf0dec0ee32d84&id=1a0a2c1231) ;
@@ -137,7 +137,7 @@ Consulter :
 
 ## 2.16 {#v216}
 
-Publiée en juillet 2016.
+<br>Publiée en juillet 2016.
 
 Consulter :
 * [l'article de blog](http://blog.isogeo.com/2016/07/13/isogeo-version-2-16/) ;
@@ -243,7 +243,7 @@ Consulter :
 
 ## 2.15 {#v215}
 
-Publiée en avril 2016.
+<br>Publiée en avril 2016.
 
 Consulter :
 * [l'article de blog](http://wp.me/p3AlZA-U0) ;
@@ -288,7 +288,7 @@ Consulter :
 
 ## 2.14 {#v214}
 
-Publiée le 18 décembre 2015.
+<br>Publiée le 18 décembre 2015.
 
 Consulter :
 * [l'article de blog](http://blog.isogeo.com/2016/01/18/isogeo-version-2-14/) ;
@@ -319,7 +319,7 @@ https://www.youtube.com/watch?v=8f0FcliMd1M
 
 ## 2.13 {#v213}
 
-Publiée le 16 octobre 2015.
+<br>Publiée le 16 octobre 2015.
 
 Consulter :
 * [l'article de blog](http://wp.me/p3AlZA-Rg) ;
@@ -384,94 +384,80 @@ Nota bene : si le format, sa version, le type et la catégorie de service sont d
 
 ## 2.12 {#v212}
 
-Publiée le 10 juillet 2015.
+<br>Publiée le 10 juillet 2015.
 
 Consulter :
+
 * [l'article de blog](http://wp.me/p3AlZA-ON) ;
 * le [mail envoyé aux utilisateurs](http://eepurl.com/brcEPr).
 
-## Nouveautés
+#### API
 
-* APP :
+* refonte totale de l'authentification :
+    * meilleure maîtrise du composant en interne
+    * amélioration du partage aux applications tierces (GéoMayenne, portails Open Data, connecteurs pour SIG bureautiques, etc.)
+    * nouvelle interface d'inscription et de connexion
+    * nouveaux mails liés à l'authentification (inscription, rappel du mot de passe, etc.)
 
-	* édition par lot :
-		* possibilité de saisir les contacts par lot.
-		* possibilité de renseigner la langue des attributs par lot
-		* possibilité de renseigner les spécifications par lot
-		* possibilité de renseigner la cohérence topologique par lot
-	* affichage de l'emprise de la donnée comme vignette
-	* possibilité de trier l'inventaire par date de modification de la donnée
-	* mise en place d'une alerte navigateur
-	* refonte totale de l'authentification :
-	    * meilleure maîtrise du composant en interne
-	    * amélioration du partage aux applications tierces (GéoMayenne, portails Open Data, connecteurs pour SIG bureautiques, etc.)
-        * nouvelle interface d'inscription et de connexion
-        * nouveaux mails liés à l'authentification (inscription, rappel du mot de passe, etc.)
-
-
-* OpenCatalog :
-    * possibilité de changer le fond de plan
-	    * Bing Maps Road (par défaut) vue classique
-	    * Bing Maps Aerial vue satellite
-	    * OpenStreetMap.BlackAndWhite vue noir et blanc
-	    * OpenMapSurfer.road
-	    * vide
-
-* Applications partenaires
-	* Portails de données :
-	    * possibilité de réaliser son portail de données SIG personnalisé et personnalisable basé sur un CMS du type WordPress,
-	    * mécanismes de suivi des modifications des données (notifications par mail),
-	    * fonctionnalités liés à l'animation du réseau d'acteurs SIG,
-    * geomayenne.fr :
-        * possibilité d'intégrer OpenCatalog dans WordPress,
-        * rechercher et accéder à une carte ArcGIS Server depuis le catalogue Isogeo,
-		* consulter la fiche de métadonnées directement dans la carte
-	* Connecteur ArcGIS :
-		* rechercher des données cataloguées dans Isogeo directement dans votre interface ArcCatalog,
-		* ajouter les données trouvées à votre document de travail ArcMap (mxd)
-
-
-## Améliorations
-
-* APP :
-	* amélioration continue de l'ergonomie :
-		* focus automatique sur le premier champ à saisir,
-		* mise en évidence du bouton "Consulter" dans le menu Administration > Catalogues > Propriété,
-		* mise en place d'un bouton "Consulter" dans les menus Administration > Licences > Propriété et Administration > Sépcifications> Propriété,
-		* toutes les listes sont triées par ordre alphabétique (point d'entrée, carnet d'adresse, licences, etc.),
-
-	* suppression de l'option "être référencé comme contact"
-	* mise à jour de l'aide en ligne :
-		* ajout de conseils de documentation liés à chaque champ de métadonnée,
-		* ajout d'annexes sur des cas d'usage,
-		* documentation de l'architecture,
-		* structuration en vue de l'arrivée de l'aide contextuelle,
-		* version anglaise,
-		* corrections multiples,
-
-* OpenCatalog :
-	* mise en place d'une page "ressource introuvable"
-
-* API :
-	* implémentation de la couche d'abstraction View Model ouvrant la voie à des modèles plus fins et moins liés au modèle de la base de données
-	* les requêtes du scan sont désormais passées en série
-
+* implémentation de la couche d'abstraction View Model ouvrant la voie à des modèles plus fins et moins liés au modèle de la base de données
 * Optimisations et améliorations diverses
-	* mise à jour de la bibliothèque node.js,
-	* mise en série de l'édition par lot,
-	* optimisation de la gestion des droits pour de meilleures performances,
-	* paramétrage des URLs de l'API,
-	* mise en place de tests fonctionnels automatisés : recherche et partage
+* mise en série de l'édition par lot,
+* optimisation de la gestion des droits pour de meilleures performances,
+* paramétrage des URLs de l'API,
+* mise en place de tests fonctionnels automatisés : recherche et partage
 
-## Correctifs
+#### APP
 
-* APP :
-	* préchargement des contacts lors de l'affichage d'une métadonnées pour éviter les bugs d'affichage du valideur INSPIRE
+* édition par lot :
+	* possibilité de saisir les contacts par lot.
+	* possibilité de renseigner la langue des attributs par lot
+	* possibilité de renseigner les spécifications par lot
+	* possibilité de renseigner la cohérence topologique par lot
+* affichage de l'emprise de la donnée comme vignette
+* possibilité de trier l'inventaire par date de modification de la donnée
+* préchargement des contacts lors de l'affichage d'une métadonnées pour éviter les bugs d'affichage du valideur INSPIRE
+* mise en place d'une alerte non bloquante pour les navigateurs non supportés officiellement
+* suppression de l'option "être référencé comme contact" pour un compte utilisateur
 
-## Anomalies connues
+#### OpenCatalog
 
-* APP :
-	* Contacts : si un même contact est déclaré plusieurs fois dans une fiche, le fait d'en supprimer un, les supprime tous (ils ont le même identifiant).
+* choix du fond de plan parmi :
+    * Bing Maps Road (par défaut) vue classique
+    * Bing Maps Aerial vue satellite
+    * OpenStreetMap.BlackAndWhite vue noir et blanc
+    * OpenMapSurfer.road
+    * vide (utile pour les services de carte sans transparence)
+* mise en place d'une page "ressource introuvable"
+
+#### Scan FME
+
+* les requêtes à l'API sont désormais passées en série
+
+#### Applications tierces
+
+* Portails de données :
+    * possibilité de réaliser son portail de données SIG personnalisé et personnalisable basé sur un CMS du type WordPress,
+    * mécanismes de suivi des modifications des données (notifications par mail),
+    * fonctionnalités liés à l'animation du réseau d'acteurs SIG,
+
+* geomayenne.fr :
+    * possibilité d'intégrer OpenCatalog dans WordPress,
+    * rechercher et accéder à une carte ArcGIS Server depuis le catalogue Isogeo,
+	* consulter la fiche de métadonnées directement dans la carte
+
+* Connecteur ArcGIS :
+	* rechercher des données cataloguées dans Isogeo directement dans votre interface ArcCatalog,
+	* ajouter les données trouvées à votre document de travail ArcMap (mxd)
+
+#### Aide en ligne
+
+* mise à jour de l'aide en ligne :
+	* ajout de conseils de documentation liés à chaque champ de métadonnée,
+	* ajout d'annexes sur des cas d'usage,
+	* documentation de l'architecture,
+	* structuration en vue de l'arrivée de l'aide contextuelle,
+	* version anglaise,
+	* corrections multiples,
 
 <!-- /timeline -->
 
@@ -479,69 +465,62 @@ Consulter :
 
 ## 2.11 {#v211}
 
-Publiée le 27 mars 2015.
+<br>Publiée le 27 mars 2015.
 
 Consulter :
 * [l'article de blog](http://blog.isogeo.com/isogeo-v2-11-plateforme-user-friendly) ;
 * le [mail envoyé aux utilisateurs](http://eepurl.com/bhQtIn).
 
-## Nouveautés
+#### API
 
-* APP :
-	- possibilité de filtrer par types de ressources associées ;
-	- possibilité de filtrer sur les champs non renseignés ;
-	- refonte de l'aide en ligne pour un site autonome et interactif ;
-	- possibilité de trier les attributs ;
-	- les listes du menu Administration ("Utilisateurs" "Catalogues" "Partage" etc.) sont triées par ordre alphabétique ;
-	- auto-complétion dans la recherche : suggestions contextuelles de tags (propriétaire, catalogues, mots-clés, type de ressource, formats, systèmes de coordonnées, thèmes INSPIRE, actions)
+- optimisation des appels à l'API
+- gestion des sous ressources dans l'API (voir [le mailing associé](http://eepurl.com/bfJQsn)) :
+    + la sous-ressource *keyword* n'est plus remontée
+    + nouveau paramétre *global_include*
 
-* OpenCatalog :
-	- mise en production de la version 2 : voir [le mailing associé](http://eepurl.com/bfpoQb).
+#### APP
 
-## Améliorations
+- possibilité de filtrer par types de ressources associées ;
+- possibilité de filtrer sur les champs non renseignés ;
+- possibilité de trier les attributs ;
+- les listes du menu Administration ("Utilisateurs" "Catalogues" "Partage" etc.) sont triées par ordre alphabétique ;
+- auto-complétion dans la recherche : suggestions contextuelles de tags (propriétaire, catalogues, mots-clés, type de ressource, formats, systèmes de coordonnées, thèmes INSPIRE, actions)
+- la barre de faire se redimensionne automatiquement pour s'adapter aux petites résolutions : les textes deviennent des icônes.
+- affichage de la pop-up limite de téléversement dépassée ;
+- métadonnée de service : suppression des champs  "Contexte de collecte", "Méthode de collecte", Période de validité", "Commentaire" et "Fréquence de mise à jour". Seul les événements sont conservés
+- édition par lot stable ;
+- outil "étiqueter" optimisé (temps d'ouverture correct, possible de retrouver tous les mots-clés)
+- le valideur INSPIRE est pleinement fonctionnel ;
+- retour du système de coordonnées EPSG:4326 ;
+- suppression d'une ressource ;
+- les thématiques INSPIRE ne sont plus en double ;
+- droits :
+	- un éditeur ne peut plus modifier le point de contact du groupe de travail
+	- un éditeur ne peux pas téléverser une donnée brute comme ressource associée
+	- impossible de créer un mot-clé si il existe déjà
+	- possible d'affecter une fiche issue d'un point d'entrée CSW dans un ou plusieurs catalogues
 
-* APP :
-	- la barre de faire se redimensionne automatiquement pour s'adapter aux petites résolutions : les textes deviennent des icônes.
-	- mise à jour des dépendances : Bootstrap, JavaScript, CSS, MarionetteJS, NodeJS. Objectif : bénéficier d'un mise au propre des du design et des bibliothèques utilisées.
-	- affichage de la pop-up limite de téléversement dépassée ;
-	- métadonnée de service : suppression des champs  "Contexte de collecte", "Méthode de collecte", Période de validité", "Commentaire" et "Fréquence de mise à jour". Seul les événements sont conservés
 
-* API : optimiser les appels à l'API
-	- gestion des sous ressources dans l'API (voir [le mailing associé](http://eepurl.com/bfJQsn)) :
-	    + la sous-ressource *keyword* n'est plus remontée
-	    + nouveau paramétre *global_include*
+#### CSW 
 
-* Optimisations et amélorations diverses
-	- refactoring divers
-	- optimisation des performances
-	- mise à jour des dépendances
+- import et client XML :
+	+ meilleure conformité de la spécification
+	+ contacts, informations correctement reprises dans le carnet d'adresses
+	+ la fiche apparaît dans l'inventaire, plus besoin de rafraichir l'inventaire
+	+ si la géométrie n'est pas renseignée, l'import est tout de même effectué
+	+ optimisation et stabilisation du client CSW
 
-## Correctifs
 
-* OC :
-	- Utilisation des filtres présents dans les fiches de métadonnées
-	- Affichage des services cartographiques issus de Business Geographic
+#### OpenCatalog
 
-* APP :
-	- édition par lot stable ;
-	- outil "étiquetter" optimisé (temps d'ouverture correct, possible de retrouver tous les mots-clés)
-	- le valideur INSPIRE est pleinement fonctionnel ;
-	- retour du système de coordonnées EPSG:4326 ;
-	- suppression d'une ressource ;
-	- les thématiques INSPIRE ne sont plus en double ;
-	- import et client XML :
-		+ meilleure conformité de la spécification
-		+ contacts, informations correctement reprises dans le carnet d'adresses
-		+ la fiche apparaît dans l'inventaire, plus besoin de rafraichir l'inventaire
-		+ si la géométrie n'est pas renseignée, l'import est tout de même effectué
-		+ optimisation et stabilisation du client CSW
+- mise en production de la version 2 : voir [le mailing associé](http://eepurl.com/bfpoQb).
+- utilisation des filtres présents dans les fiches de métadonnées
+- affichage des services cartographiques issus de Business Geographic
 
-	* droits :
-		- un éditeur ne peut plus modifier le point de contact du groupe de travail
-		- un éditeur ne peux pas téléverser une donnée brute comme ressource associée
-		- impossible de créer un mot-clé si il existe déjà
-		- possible d'affecter une fiche issue d'un point d'entrée CSW dans un ou plusieurs catalogues
 
+#### Aide en ligne
+
+- refonte de l'aide en ligne pour un site autonome et interactif, basé sur GitBook
 
 <!-- /timeline -->
 
@@ -549,7 +528,7 @@ Consulter :
 
 ## 2.10 {#v210}
 
-Publiée fin décembre 2014.
+<br>Publiée fin décembre 2014.
 
 Consulter :
 * [l'article de blog](http://blog.isogeo.com/avec-isogeo-2-10-la-fin-du-cache-cache-des-donnees) ;
@@ -558,47 +537,35 @@ Consulter :
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1BTwZqii0EY" frameborder="0" allowfullscreen></iframe>
 
-## Nouveautés
+#### APP
 
-* APP :
-	* mise à jour du référentiel des systèmes de coordonnées
-	* ajout de la spécification "Géostandard Schéma Régional de Cohérence Ecologique"
-	* refonte du système de filtres, ajout d'un widget de recherche avancée
-	* sauvegarde du contexte de recherche = possibilité de revenir à sa recherche depuis une fiche de métadonnée
-	* amélioration du système de pagination : ajout de la fonctionnalité aller à la page X et possibilité de choisir le nombre de fiches à afficher par page 20, 30 ou 50 ;
-	* gestion des mots-clés dans un thésaurus global ;
-	* refonte de la gestion des dates et des événements :
-		* 3 types de dates : une date de création, plusieurs dates de modification et plusieurs dates de révision
-		* possibilités de choisir le type de date lors de la création manuelle d'événements
-		* le scan FME crée des événements de type "modification" !!! Wouhou
-
-* Scan FME :
-	* version 1.0.24 ;
-	* correction de bugs ;
-	* prise en charge des formats PNG, GPx  et APIC ASC.
-
-* OpenCatalog :
-	* Possible de visualiser les flux WMTS.
-
-## Améliorations
-
-* la documentation,
+* mise à jour du référentiel des systèmes de coordonnées
+* ajout de la spécification "Géostandard Schéma Régional de Cohérence Ecologique"
+* refonte du système de filtres, ajout d'un widget de recherche avancée
+* sauvegarde du contexte de recherche = possibilité de revenir à sa recherche depuis une fiche de métadonnée
+* amélioration du système de pagination : ajout de la fonctionnalité aller à la page X et possibilité de choisir le nombre de fiches à afficher par page 20, 30 ou 50 ;
+* gestion des mots-clés dans un thésaurus global ;
+* refonte de la gestion des dates et des événements :
+	* 3 types de dates : une date de création, plusieurs dates de modification et plusieurs dates de révision
+	* possibilités de choisir le type de date lors de la création manuelle d'événements
+	* le scan FME crée des événements de type "modification"
 * harmonisation de l'interface d'administration. Les boutons "Enregistrer" et "Supprimer" ont été ajouté sur toutes les pages concernées
+* Tous les éléments de l'onglet "Géographie" sont chargés en même temps ce qui évite de rafraîchir plusieurs fois la carte.
 
-## Correctifs
+#### Scan FME
 
-* OpenCatalog :
-	* Page de résultats : les traits entre les fiches de métadonnées s'affichent
-	* Les couleurs des boutons "Actions" sont bien gérées
-	* Les flux WFS s'affichent sur la carte si au format JSONP
-	* Le bouton "Plein écran" s'affiche dans la carte
-	* Les liens associés s'affichent dans les actions
+* version 1.0.24 ;
+* correction de bugs ;
+* prise en charge des formats PNG, GPx  et APIC ASC.
 
-* APP :
-	* Tous les éléments de l'onglet "Géographie" sont chargés en même temps ce qui évite de rafraîchir plusieurs fois la carte.
-	* Client CSW et import XML
+#### OpenCatalog
 
-
+* Possible de visualiser les flux WMTS.
+* Page de résultats : les traits entre les fiches de métadonnées s'affichent
+* Les couleurs des boutons "Actions" sont bien gérées
+* Les flux WFS s'affichent sur la carte si au format JSONP
+* Le bouton "Plein écran" s'affiche dans la carte
+* Les liens associés s'affichent dans les actions
 
 <!-- /timeline -->
 
@@ -606,7 +573,7 @@ Consulter :
 
 ## 2.9 {#v209}
 
-Publiée fin septembre 2014.
+<br>Publiée fin septembre 2014.
 
 Consulter :
 * [l'article de blog](http://blog.isogeo.com/version-2-9) ;
@@ -615,36 +582,29 @@ Consulter :
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/l6vmlYwUHDM" frameborder="0" allowfullscreen></iframe>
 
-## Nouveautés
+#### APP
 
-* APP :
-	* possibilité de téléverser une donnée en ressource associée,
-	* distinction entre format DXF et DWG,
-	* de nouveaux types de fiches de métadonnées sont possibles (non géométriques, ressources)
-
-* Scan :
-	* format KML / KMZ (seulement la 1ère couche),
-	* spécifique à Créteil / Plaine Centrale : nouveau type de point d'entrée : prise en charge de requêtes SQL sur une base Oracle
-
-* OpenCatalog :
-	* il est désormais possible de gérer l'affichage des ressources selon les usages,
-
-## Améliorations
-
-* la documentation est à jour,
-* performances globales,
-* stabilité générale,
-* le scan FME prise en compte par le scan FME du renommage d'un champ attributaire ainsi que de l'ajout d'un champ attributaire sans valeur.
-
-## Correctifs
-
+* possibilité de téléverser une donnée en ressource associée,
+* distinction entre format DXF et DWG,
+* de nouveaux types de fiches de métadonnées sont possibles (non géométriques, ressources)
+* documentation à jour,
 * les filtres s'affichent de nouveau dans l'ordre alphabétique (APP et OpenCatalog),
 * le format DGN ne s'affichait pas correctement,
-* corrections mineures
 
-## Dans la prochaine version
 
-* Etudes : édition par lot et planification
+#### OpenCatalog
+
+* il est désormais possible de gérer l'affichage des ressources selon les usages,
+
+
+#### Scan FME
+
+* format KML / KMZ (seulement la 1ère couche),
+* spécifique à Créteil / Plaine Centrale : nouveau type de point d'entrée : prise en charge de requêtes SQL sur une base Oracle
+* le scan FME prise en compte par le scan FME du renommage d'un champ attributaire ainsi que de l'ajout d'un champ attributaire sans valeur.
+
+
+> A l'étude : édition par lot et planification
 
 
 <!-- /timeline -->
@@ -653,59 +613,34 @@ Consulter :
 
 ## 2.8 {#v208}
 
-Publiée en juillet 2014.
+<br>Publiée en juillet 2014.
 
 Consulter :
 * [l'article de blog](http://blog.isogeo.com/une-ergonomie-revisitee-une-valorisation-facilitee-isogeo-v2-8) ;
 * le [mail envoyé aux utilisateurs](http://us4.campaign-archive1.com/?u=256352d96aabf0dec0ee32d84&id=6dc56a2972) ;
 
-## Nouveautés
+####  APP
 
-* APP :
-	* abonnements newsletter,
-	* champ adresse postale pour l'utilisateur,
-	* ergonomie générale harmonisée (listes déroulantes et gestion administration)
-
-* Scan :
-	* affecter automatiquement les nouvelles fiches à des catalogues,
-
-* OpenCatalog :
-	* mise en valeur des ressources associées via des boutons de visualisation des flux, téléchargement et autres,
-	* possiblité de personnaliser la couleur du thème,
-	* le nom du bandeau est celui du partage,
-
-## Améliorations
-
-* la documentation,
-* performances globales,
-* de nombreuses optimisations ont été réalisés sous le capot.
-
-## Correctifs
-
+* abonnements newsletter,
+* champ adresse postale pour l'utilisateur,
+* ergonomie générale harmonisée (listes déroulantes et gestion administration)
 * les formats s'affichent de nouveau,
 * enlever une thématique INSPIRE,
-* le scan FME évite les "pseudo-doublons" des bases Oracle (voir procédure de mise à jour),
 * corrections mineures.
-
-## Dans la prochaine version
-
-* [SCAN] Nouveaux formats de données : KML/KMZ
-* [Partage] Gestion de l'affichage des ressources associées
-* fonctionnalités liées à l'ouverture des données (Open Data)
-
-## Divers
-
-* questionnaire utilisateurs
 * fin de la vignette = fin coupe du monde
+
+
+####  OpenCatalog
+
+* mise en valeur des ressources associées via des boutons de visualisation, téléchargement et autres,
+* possiblité de personnaliser la couleur du thème,
+* le nom du bandeau est celui du partage,
+
+
+####  Scan FME
+
+* affecter automatiquement les nouvelles fiches à des catalogues,
+* le scan FME évite les "pseudo-doublons" des bases Oracle (voir procédure de mise à jour),
 * planification : désactivée avant refonte
 
-
-
 <!-- /timeline -->
-
-<!-- timeline -->
-
-## 2.7 {#v207}
-
-<!-- /timeline -->
-
