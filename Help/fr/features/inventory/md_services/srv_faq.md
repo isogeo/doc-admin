@@ -56,6 +56,8 @@ Pour permettre le recensement et la consultation automatiques des services géog
 * v1.api.isogeo.com
 * open.isogeo.com
 
+> Astuce : consulter [la section dédiée à la configuration d'OpenCatalog pour visualiser les services internes](../../publish/share_opencatalog.html#oc_proxy)
+
 #### 2. Importer les capacités du service sous forme de fichier
 
 Les capacités des services géographiques ne sont ni plus ni moins des fichiers normalisés (XML pour les service OGC, JSON pour ceux d'Esri). Il est donc possible de les importer depuis l'interface pour renseigner les métadonnées automatiquement.
@@ -67,7 +69,7 @@ Les capacités des services géographiques ne sont ni plus ni moins des fichiers
 
 Dans tous les cas, il est toujours possible de documenter la fiche de service manuellement.
 
-> Astuce : consulter la section dédiée à la documentation manuelle.
+> Astuce : consulter [la section dédiée à la documentation manuelle](srv_howto.html#srv_manual_doc).
 
 
 ### Services injoignables

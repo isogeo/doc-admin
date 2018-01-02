@@ -62,7 +62,7 @@ Voici la procédure en images :
 
 ![Services manual import](/images/inv_edit_srv_manual_import.gif "Importer les capacités d'un service interne ou authentifié")
 
-> Astuce : [paramètrer OpenCatalog pour visualiser les services internes]()
+> Astuce : [paramètrer OpenCatalog pour visualiser les services internes](../../publish/share_opencatalog.html#oc_proxy)
 
 ____
 

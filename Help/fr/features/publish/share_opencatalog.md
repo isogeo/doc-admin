@@ -32,7 +32,7 @@ L'URL de consultation de l'openCatalog apparaît alors.
 
 OpenCatalog est développé via l’API Isogeo. Il est designé pour être facilement intégrable dans vos sites web existants (intranet, extranet, portail carto, portail OpenData, IDG, etc.) via une [balise HTML iFrame](https://www.w3schools.com/tags/tag_iframe.asp).
 
-### Retirer la barre de titre
+### Retirer la barre de titre {#oc_header}
 
 Ajouter `no-header` en paramètre à l'URL permet ainsi d'enlever le bandeau de haut de page.
 
@@ -57,7 +57,7 @@ Des exemples d’intégration en ligne :
 
 ________
 
-### Intégrer une seule fiche en iFrame
+### Intégrer une seule fiche en iFrame {#oc_lock}
 
 Si vous ne souhaitez intégrer qu'une seule fiche par exemple dans une fenêtre de type pop-up, c'est également possible en mettant l'URL complète vers la fiche souhaitée et en y ajoutant le paramètre `lock`.
 
@@ -76,7 +76,7 @@ Par exemple, pour intégrer [la fiche de métadonnées de démonstration sur les
 ________
 
 
-### Ne pas utiliser les proxies OpenCatalog pour les services géographiques
+### Ne pas utiliser les proxies OpenCatalog pour les services géographiques {#oc_proxy}
 
 Pour permettre facilement la consommation de services "internes" dans un OpenCatalog accessible via le réseau intranet de votre organisme, il suffit d'ajouter le paramètre `no-proxy`.
 
