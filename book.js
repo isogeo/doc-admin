@@ -5,9 +5,9 @@ module.exports = {
 
     links: {
         sharing: {
-            'all': true
-                }
-    },
+            'all': true,
+                },
+        },
     plugins: [
         "ga",
         "image-captions",
@@ -15,12 +15,12 @@ module.exports = {
         "timeline",
         "toggle-headers",
         "youtube"
-    ],
+        ],
     pluginsConfig: {
         fontSettings: {
             theme: 'white',
             family: 'sans'
-            },
+                },
         ga: {
             token: 'UA-22345848-2'
             },
@@ -31,7 +31,7 @@ module.exports = {
         "page-toc": {
             "position": "top",
             "selector": ".markdown-section h2, .markdown-section h3",
-                    }
+                    },
         },
     pdf: {
         pageNumbers: true,

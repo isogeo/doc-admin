@@ -1,6 +1,6 @@
 module.exports = {
     root: '.',
-    "language": "fr"
+    "language": "fr",
     links: {
         sidebar: {
             'Site Isogeo': 'http://www.isogeo.com/fr',
