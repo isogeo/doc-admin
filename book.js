@@ -45,7 +45,7 @@ module.exports = {
             },
         "page-toc": {
             "position": "top",
-            "selector": ".markdown-section h2, .markdown-section h3,"
+            "selector": ".markdown-section h2, .markdown-section h3"
                     }
         },
     pdf: {
