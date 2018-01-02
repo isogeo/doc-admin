@@ -6,7 +6,7 @@ Cette partie permet de personnaliser le groupe de travail.
 
 Attention pour renommer un groupe de travail, cela se passe via [le tableau de bord (voir section dédiée)](../../settings/dashboard.html#le-point-de-contact-du-groupe-de-travail).
 
-## Autoriser la création de fiches manuelles
+## Autoriser la création de fiches manuelles {#settings_manual_creation}
 
 Si vous souhaitez autoriser la création de fiches de métadonnées manuelles, c'est-à-dire indépendantes d'une source de données et non créées par le scan.
 

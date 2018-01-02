@@ -19,11 +19,10 @@ Des pages dédiées existent dans l'interface de GeoServer (version de référen
 
 | Service          | URL type |
 | :--------------- | :------- |
-| Point de contact | ***[url_server:port]***/geoserver/web/wicket/bookmarkable/org.geoserver.web.admin.ContactPage |
-| WFS              | ***[url_server:port]***/geoserver/web/wicket/bookmarkable/org.geoserver.wfs.web.WFSAdminPage |
-| WMS              | ***[url_server:port]***/geoserver/web/wicket/bookmarkable/org.geoserver.wms.web.WMSAdminPage |
-| WMTS             | ***[url_server:port]***/geoserver/web/wicket/bookmarkable/org.geoserver.gwc.web.wmts.WMTSAdminPage |
-
+| Point de contact | **[url_server:port]**/geoserver/web/wicket/bookmarkable/org.geoserver.web.admin.ContactPage |
+| WFS              | **[url_server:port]**/geoserver/web/wicket/bookmarkable/org.geoserver.wfs.web.WFSAdminPage |
+| WMS              | **[url_server:port]**/geoserver/web/wicket/bookmarkable/org.geoserver.wms.web.WMSAdminPage |
+| WMTS             | **[url_server:port]**/geoserver/web/wicket/bookmarkable/org.geoserver.gwc.web.wmts.WMTSAdminPage |
 
 ![WMS GeoServer](/images/inv_edit_srv_CLC_WFS_GetCapSource_geoserver.png "Interface de documentation du GetCapabilities du WMS dans GeoServer")
 
@@ -35,17 +34,52 @@ ______________
 
 Dans ce cas-là, plusieurs raisons sont possibles :
 
-* le service ne correspond pas aux prérequis : écrire au support en détaillant la configuration du serveur géographique. Nous pourrions décider de le prendre en charge dans une prochaine version. En attendant, vous pouvez recenser chaque couche manuellement.
+### Noms de couches en double {#srv_error_duplicatedLayers}
 
-* le service n'est pas accessible publiquement : Isogeo étant une solution *SaaS*, il nous sera difficile de scanner vos services s'ils sont uniquement internes. Deux solutions :
-	- configurer votre infrastructure réseau pour autoriser Isogeo à accéder à vos services :
-		* domaine app.isogeo.com
-		* domaine v1.api.isogeo.com
-	- recenser chaque couche manuellement.
+Les noms des couches d'un service servant d'identifiant unique, l'adminstrateur d'un service géographique doit s'assurer qu'ils soient uniques de façon à éviter les ambigüités. Dans l'idéal, ils évitent les écueils classiques des caractères spéciaux, 
 
-* le service est indisponible au moment de la création de la fiche : le scan des services est tributaire de l'état des serveurs. Il s'agit alors d'attendre un moment de répit du serveur et de cliquer sur `Actualiser`.
+![Services error: duplicated layers](/images/inv_edit_srv_geoserver_duplicatedLayers "Doublons dans les noms des couches d'un service")
+
+
+### Services non accessibles par les domaines \*.isogeo.com
+
+Un service (ou plus précisément ses capacités) peut être inaccessible à la plateforme pour plusieurs raisons (cumulables) :
+* il n'est accessible qu'en interne (intranet)
+* il est protégé par une authentification (login/mot de passe, etc.).
+
+Isogeo étant une solution *SaaS*, il n'est alors pas possible de scanner le service automatiquement à partir de son URL. Deux solutions sont à envisager.
+
+#### 1. Configurer votre infrastructure réseau pour autoriser les domaines Isogeo
+
+Pour permettre le recensement et la consultation automatiques des services géographiques internes, l'administrateur réseau peut autoriser les requêtes des domaines :
+* app.isogeo.com
+* v1.api.isogeo.com
+* open.isogeo.com
+
+#### 2. Importer les capacités du service sous forme de fichier
+
+Les capacités des services géographiques ne sont ni plus ni moins des fichiers normalisés (XML pour les service OGC, JSON pour ceux d'Esri). Il est donc possible de les importer depuis l'interface pour renseigner les métadonnées automatiquement.
+
+> Astuce : [consulter la section dédiée à l'import manuel des capacités](srv_howto.html#srv_auto_private).
+
+
+#### 3. Recenser le service et ses couches manuellement
+
+Dans tous les cas, il est toujours possible de documenter la fiche de service manuellement.
+
+> Astuce : consulter la section dédiée à la documentation manuelle.
+
+
+### Services injoignables
+
+Il peut tout simplement arriver que le service soit injoignable au moment de la création de la fiche. Le scan des services étant tributaire de l'état des serveurs, il s'agit alors d'attendre un moment de répit du serveur et de cliquer sur `Actualiser`.
 
 ![Services update](/images/inv_edit_srv_update.png "Cliquer sur Actualiser pour mettre à jour les informations des fiches de type service.")
+
+
+### Prérequis non remplis
+
+Le service ne correspond pas aux prérequis (format, version...) : écrire au support en détaillant la configuration du serveur géographique. Nous pourrions décider de le prendre en charge dans une prochaine version. En attendant, vous pouvez [recenser chaque couche manuellement](srv_howto.html#srv_manual_doc).
 
 _____________
 
