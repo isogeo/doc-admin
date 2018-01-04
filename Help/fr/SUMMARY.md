@@ -116,6 +116,7 @@
 * [Services - Configurer les WFS en JSONP](appendices/wfs_jsonp.md)
 * [Se faire moissonner par le Géocatalogue national](appendices/harvest_geocatalogue_fr.md)
 * [Diffuser ses données sur DataGouv.fr](appendices/bridge_csw2datagouvfr.md)
+* [Autres aides](appendices/others.html)
 * [Glossaire](GLOSSARY.md)
 * [Notes des versions](releases_notes/README.md)
 * [Table des figures](pictures.md)
