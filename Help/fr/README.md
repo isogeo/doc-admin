@@ -2,7 +2,15 @@ Isogeo est une application web qui vous permet de gérer et partager un catalogu
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/JbBxxpC4hzQ" frameborder="0" allowfullscreen></iframe>
 
-Ce document vous explique pas à pas comment l’utiliser en décrivant le fonctionnement et l'utilisation de ses différents modules et ressources. Si vous rencontrez des difficultés que vous ne parvenez pas à résoudre avec cette aide en ligne, [contactez le support](support/README.html).
+Ce site web est la principale base de connaissances sur les interfaces d'administration d'Isogeo : fonctionnement, architecture, installation... Si vous rencontrez des difficultés que vous ne parvenez pas à résoudre avec cette aide en ligne, [contactez le support](support/README.html).
+
+
+## Plateforme, modules et applications tierces
+
+Isogeo désigne la plateforme _SaaS_ construite autour de son API REST et composée :
+* de modules standards, indispensable pour l'utiliser, au premier rang desquels l'application d'administration https://app.isogeo.com.
+* de modules optionnels mais fortement intégrés au coeur de la plateforme. C'est le cas d'OpenCatalog, du CSW (client et serveur), du Scan FME ou encore du Partage.
+* d'applications tierces,  utilisant l'API Isogeo dans des interfaces logicielles indépendantes pour apporter de la valeur ajoutée complémentaire aux fonctions natives.
 
 ![La plateforme](/images/offer_schema_platform_modAPI.png "Modules et ressources de la plateforme Isogeo")
 
@@ -10,7 +18,7 @@ Ce document vous explique pas à pas comment l’utiliser en décrivant le fonct
 
 Cette aide en ligne est un site internet à part entière basé sur l'outil [GitBook version {{ gitbook.version }}](https://www.gitbook.com/).
 
-Il s'agit de la version {{ book.version }}, mise à jour le {{ file.mtime }}.
+Il s'agit de la version {{ book.version }}, mise à jour le {{ gitbook.time }}.
 
 Voici le fonctionnement global et les possibilités offertes :
 
