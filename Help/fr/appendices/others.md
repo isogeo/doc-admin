@@ -1,4 +1,3 @@
-<!DOCTYPE html>
 <html>
 <head>
   <title>Autres aides en ligne</title>
@@ -8,10 +7,58 @@
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
 </head>
 <body>
-
-<p><img src="stickman.gif" width="24" height="39" alt="Stickman"> - Notice that we have only specified a relative address for the image. Since we have specified a base URL in the head section, the browser will look for the image at "https://www.w3schools.com/images/stickman.gif".</p>
-
-<p><a href="https://www.w3schools.com">W3Schools</a> - Notice that the link opens in a new window, even if it has no target="_blank" attribute. This is because the target attribute of the base element is set to "_blank".</p>
+	<div id= "main_content" class="container">
+		<div class="clearfix">
+		  <div class="col-md-3 col-sm-6">
+		    <a href="https://isogeo.gitbooks.io/app-plugin-arcmap/content/fr/" class="btn btn-lg btn-block btn-default">
+		      <p><i class="fa fa-2x fa-calendar"></p>
+		      <p><b>Plugin QGIS</b></p>
+		    </a>
+		  </div>
+		  <div class="col-md-3 col-sm-6">
+		    <a href="https://isogeo.gitbooks.io/app-plugin-arcmap/content/fr/" class="btn btn-lg btn-block btn-default">
+		      <p><i class="fa fa-2x fa-briefcase"></p>
+		      <p><b>Plugin ArcMap</b></p>
+		    </a>
+		  </div>
+		  <div class="col-md-3 col-sm-6">
+		    <a href="https://isogeo.gitbooks.io/app-widget-esri-webappbuilder/content/fr/" class="btn btn-lg btn-block btn-default">
+		      <p><i class="fa fa-2x fa-paste"></p>
+		      <p><b>Widget Web AppBuilder for ArcGIS</b></p>
+		    </a>
+		  </div>
+		  <div class="col-md-3 col-sm-6">
+		    <a href="https://isogeo.gitbooks.io/api/content/fr/" class="btn btn-lg btn-block btn-default">
+		      <p><i class="fa fa-2x fa-dashboard"></p>
+		      <p><b>API</b></p>
+		    </a>
+		  </div>
+		  <div class="col-md-3 col-sm-6">
+		    <a href="https://isogeo.gitbooks.io/app-portal-pixup-admin/content/" class="btn btn-lg btn-block btn-default">
+		      <p><i class="fa fa-2x fa-map"></p>
+		      <p><b>Portail de données - Administration</b></p>
+		    </a>
+		  </div>
+		  <div class="col-md-3 col-sm-6">
+		    <a href="https://isogeo.gitbooks.io/app-portal-pixup-user/content/" class="btn btn-lg btn-block btn-default">
+		      <p><i class="fa fa-2x fa-calendar-check-o"></p>
+		      <p><b>Portail de données - Utilisation</b></p>
+		    </a>
+		  </div>
+		  <div class="col-md-3 col-sm-6">
+		    <a href="https://isogeo.gitbooks.io/app-isogeo2office/content/fr/" class="btn btn-lg btn-block btn-default">
+		      <p><i class="fa fa-2x fa-cloud-upload"></p>
+		      <p><b>Isogeo to Office</b></p>
+		    </a>
+		  </div>
+		  <div class="col-md-3 col-sm-6">
+		    <a href="https://isogeo.gitbooks.io/app-extractor/content/" class="btn btn-lg btn-block btn-default">
+		      <p><i class="fa fa-2x fa-send"></p>
+		      <p><b>Extracteur</b></p>
+		    </a>
+		  </div>
+		</div>
+	<div class="container">
 
 	<!-- jQuery -->
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
