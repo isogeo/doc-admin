@@ -1,6 +1,12 @@
 # Contacter le support technique
 
-Si vous avez une question, une suggestion ou encore si vous avez identifié une anomalie sur Isogeo, n’hésitez pas à nous contacter à l’adresse suivante : support@isogeo.fr
+Question ? Souci ? Suggestion ? Angoisse ? Anomalie ? Dites-le nous sur le mail support... après avoir lu les quelques lignes ci-dessous ;)
+Cela évitera les mails "ping-pong" car, comme dit l'adage : mieux vaut 1 bon mail que 10 incomplets !
+
+!["Support - A good mail is better than 10 useless"](http://ljdchost.com/iREPuffTNOthP.gif "Support - Eviter les échanges ping-pong")
+
+> **Astuce** : pour les problèmes liés au Scan FME, [consulter la section dédié en cliquant ici](..\features\scan_fme\installation\support.html).
+
 
 ## Bonnes pratiques
 
@@ -41,3 +47,5 @@ Pour reproduire :
 
 -----
 Signature
+
+
