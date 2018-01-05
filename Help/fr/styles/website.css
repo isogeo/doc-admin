@@ -32,3 +32,6 @@ table {
 .page-toc li {
 			list-style: circle;
 			}
+
+/* BS row margins - links to others gitbooks */
+.top-buffer { margin-top:20px; }
