@@ -15,9 +15,6 @@ Isogeo désigne la plateforme _SaaS_ construite autour de son API REST et compos
 ![La plateforme](/images/offer_schema_platform_modAPI.png "Modules et ressources de la plateforme Isogeo")
 
 
-{% include "appendices/others.md" %}
-
-
 ## Utilisation de l'aide en ligne
 
 Cette aide en ligne est un site internet à part entière basé sur l'outil [GitBook version {{ gitbook.version }}](https://www.gitbook.com/).
