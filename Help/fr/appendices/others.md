@@ -48,8 +48,7 @@
 		</div>
 		<div class="col-md-3 col-sm-6">
 			<a href="https://isogeo.gitbooks.io/api/content/fr/" class="btn btn-lg btn-block btn-default">
-				<p><img src="https://www.gitbook.com/assets/images/templates/api-icon.svg" alt="Isogeo <3 QGIS" height="50"></p>
-				<p><b>API REST</b></p>
+			<p><b>API REST</b></p>
 			</a>
 		</div>
 	</body>
