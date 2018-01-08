@@ -18,7 +18,7 @@ Après s'être authentifié sur l'interface du Scan FME, il arrive que le messag
 
 Pour résoudre le problème, cliquer sur https://daemons.isogeo.com/logout puis réessayez.
 
-![Scan FME - Oups forbidden](/images/scanFME_error_forbidden.png.png "Scan FME - Problème d'authentification \(Oups! Forbidden\)")
+![Scan FME - Oups forbidden](/images/scanFME_error_forbidden.png "Scan FME - Problème d'authentification \(Oups! Forbidden\)")
 
 ### Impossible d'accéder au chemin spécifié {#scan_err_ui_unreachable}
 
