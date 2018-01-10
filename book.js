@@ -49,6 +49,6 @@ module.exports = {
     variables: {
         version: pkg.version,
         author: 'Isogeo',
-        pictures: []
+        pictures: "[]"
     }
 }
