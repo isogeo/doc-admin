@@ -7,5 +7,8 @@ module.exports = {
             'Blog': 'http://blog.isogeo.com',
             'Application': 'https://app.isogeo.com/'
         	},
-        }
+        },
+    variables: {
+        pictures: []
+    			}
 }
