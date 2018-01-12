@@ -38,7 +38,7 @@ Dans ce cas-là, plusieurs raisons sont possibles :
 
 Les noms des couches d'un service servant d'identifiant unique, l'adminstrateur d'un service géographique doit s'assurer qu'ils soient uniques de façon à éviter les ambigüités. Dans l'idéal, ils évitent les écueils classiques des caractères spéciaux, 
 
-![Services error: duplicated layers](/images/inv_edit_srv_geoserver_duplicatedLayers "Doublons dans les noms des couches d'un service")
+![Services error: duplicated layers](/images/inv_edit_srv_geoserver_duplicatedLayers.png "Doublons dans les noms des couches d'un service")
 
 
 ### Services non accessibles par les domaines \*.isogeo.com
