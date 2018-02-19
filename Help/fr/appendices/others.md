@@ -19,7 +19,7 @@
 			</div>
 			<div class="col-md-4 col-sm-6">
 				<a href="https://isogeo.gitbooks.io/app-plugin-arcmap/content/fr/" class="btn btn-lg btn-block btn-default">
-					<p><img src="https://isogeo.gitbooks.io/app-plugin-arcmap/content/fr/assets/logo_isogeo_arcmap.png" height="50"></p>
+					<p><img src="https://isogeo.gitbooks.io/app-plugin-arcmap/content/assets/logo_isogeo_arcmap.png" height="50"></p>
 					<p><b>Plugin ArcMap</b></p>
 				</a>
 			</div>
