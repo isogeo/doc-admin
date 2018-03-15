@@ -5,9 +5,15 @@
 Plusieurs versions de FME pouvant être installées sur une même machine, il est possible d'indiquer au service de Scan FME (Isogeo Worker) d'en utiliser une en particulier :
 
 1. Arrêter le service Isogeo Worker via le gestionnaire de services de Windows ;
-2. Dans le dossier `daemon` du dossier d'installation, ouvrir le fichier 
+2. Dans le dossier `daemon` du dossier d'installation, ouvrir le fichier `worker.bat` dans un éditeur de texte (Notepad++, Sublime Text...)
+3. En ligne **37**, indiquer entre guillemets le chemin vers le dossier d'installation de la version de FME souhaitée :
 
+	```batch
+	:SetFmeHomePathHelper
+	SET FME_HOME="C:\Program Files\FME\2016.1\"
+	```
 
+4. Redémarrer le service `Isogeo Worker`.
 
 ## Installer plusieurs services et les lier à un même FME
 
