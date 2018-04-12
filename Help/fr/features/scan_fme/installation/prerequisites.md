@@ -39,13 +39,15 @@ Pour plus d’informations, veuillez contacter votre distributeur FME.
 
 ### Cas spécifique pour les connexions Esri ArcSDE
 
-Pour des questions d'interopérabilité entre FME et Esri (), il faut être particulièrement vigilant sur les prérequis à installer pour pouvoir scanner correctement les schémas ArcSDE.
+Pour des questions d'interopérabilité entre FME et Esri, il faut être particulièrement vigilant sur les prérequis à installer pour pouvoir scanner correctement les schémas ArcSDE.
 
-1. Tout d'abord, il faut **la version 32 bits de FME**.
+1. Tout d'abord, il faut **la version 32 bits de FME** et si possible l'édition Esri
 2. Ensuite :
     * soit ArcGIS Desktop 32 bits sur la même machine avec une licence disponible pendant toute la durée du Scan - méthode recommandée ;
     * soit installer les librairies SDE sur la machine où est installée votre FME ([voir cet article](https://knowledge.safe.com/articles/358/arcsde-libraries-required-for-the-esri-arcsde-sde3.html)) - méthode plus complexe.
-3. Si ArcGIS est en licence flottante liée à un serveur de licences distant, ajouter la variable d'environnement `ARCGIS_LICENCE_FILE` (voir [la doc Esri](http://resources.arcgis.com/en/help/install-guides/license-manager/10.1/index.html#/Defining_port_host_to_one_or_more_license_servers/00790000000t000000/)).
+3. Si ArcGIS est en licence flottante liée à un serveur de licences distant, ajouter la variable d'environnement `ARCGIS_LICENCE_FILE` (voir [la doc Esri](http://resources.arcgis.com/en/help/install-guides/license-manager/10.1/index.html#/Defining_port_host_to_one_or_more_license_servers/00790000000t000000/)) avec pour valeur le port et l'adresse de votre serveur de licence (information située dans ArcGIS Administrator) :
+
+	![Scan - ArcGIS SDE license](/images/scanFME_install_SDE_env_var_arcgis_licensing.png "Variable d'environnement pour le serveur de licence d'ArcGIS")
 
 Pour aller plus loin :
 * consulter la [matrice des formats et versions de FME](http://www.safe.com/fme/formats-matrix/#search=arcsde) ;
