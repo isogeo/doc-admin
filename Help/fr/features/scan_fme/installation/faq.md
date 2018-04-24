@@ -30,7 +30,7 @@ ____
 
 ## Cas particuliers connus
 
-### Shapefile supérieur à 2 Go
+### Shapefile supérieur à 2 Go {#scan_err_shp_too_big}
 
 FME ne lit pas les shapefiles dont la taille de chaque composant (.shp / .dbf / .shx ...) dépasse les 2 Go, comme indiqué dans [la base de connaissance officielle](https://knowledge.safe.com/articles/772/fme-and-esri-arcgis-troubleshooting-guide.html) :
 
@@ -38,7 +38,7 @@ FME ne lit pas les shapefiles dont la taille de chaque composant (.shp / .dbf / 
 
 Il s'agit d'ailleurs d'une limite inhérente au format, qu'Esri précise dans http://support.esri.com/technical-article/000010813[](http://support.esri.com/technical-article/000010813).
 
-### Donnée géographique corrompue ou incohérente
+### Donnée géographique corrompue ou incohérente {#scan_err_corrupted_data}
 
 Si un jeu de données contient un objet sans géomtrie, la donnée ne peut être lue jusqu'au bout par le Scan FME. Elle est donc indiquée dans la colonne erreur du détail de la requête du Scan avec la mantion "Impossible de lire la donnée".
 

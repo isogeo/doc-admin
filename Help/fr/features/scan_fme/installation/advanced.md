@@ -1,6 +1,6 @@
 # Configuration et usages avancés
 
-## Utiliser une version spécifique de FME
+## Utiliser une version spécifique de FME {#scan_specific_version}
 
 Plusieurs versions de FME pouvant être installées sur une même machine, il est possible d'indiquer au service de Scan FME (Isogeo Worker) d'en utiliser une en particulier :
 
@@ -8,14 +8,23 @@ Plusieurs versions de FME pouvant être installées sur une même machine, il es
 2. Dans le dossier `daemon` du dossier d'installation, ouvrir le fichier `worker.bat` dans un éditeur de texte (Notepad++, Sublime Text...)
 3. En ligne **37**, indiquer entre guillemets le chemin vers le dossier d'installation de la version de FME souhaitée :
 
-	```batch
+	```dos
 	:SetFmeHomePathHelper
 	SET FME_HOME="C:\Program Files\FME\2016.1\"
 	```
 
+	![Scan FME - Chemin vers FME](/images/scanFME_install_fmePath_worker_set.png "Scan FME - Forcer la version de FME à utiliser")
+
+
 4. Redémarrer le service `Isogeo Worker`.
 
-## Installer plusieurs services et les lier à un même FME
+Il est également possible de forcer la version par défaut de FME dans le système via la base de registre de Windows :
+
+![Scan FME - Version par défaut système](/images/scanFME_install_fmePath_registry.png "Scan FME - Forcer la version de FME dans la base de registre")
+
+---
+
+## Installer plusieurs services et les lier à un même FME {#scan_multiple_workers}
 
 Pour les besoins des projets partenariaux où le Scan est mutualisé ou pour des besoins de cloisonnement des groupes de travail créant les fiches automatiquement, il est possible de lier plusieurs services du Scan à une seule installation de FME, sur un ou plusieurs serveurs.
 
@@ -41,7 +50,9 @@ Voici la marche à suivre pour 2 groupes de travail, l'un nommé CA (le principa
 
 ![2 services installés sur le même serveur](/images/scanFME_install_muli_services.png "vérifier l'installation des 2 services")
 
-## Accélérer le Scan
+---
+
+## Accélérer le Scan {#scan_concurrency}
 
 Le service de scan permet d'utiliser jusqu'à 5 instances de FME à partir de la même licence. Par défaut, l'installation en utilise 3.
 
