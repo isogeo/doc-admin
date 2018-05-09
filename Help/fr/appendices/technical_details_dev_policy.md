@@ -6,7 +6,7 @@ Comme le montre le schéma ci-dessous, Isogeo est constituée de deux composants
 
 * Un site internet « outil » : un environnement de travail hébergé par la société Isogeo.
 
-* Un agent : un service Windows déployé sur un serveur ou une station de travail au sein de l’organisme client.
+* Un agent : un service Windows déployé sur un serveur (ou une station de travail) au sein de l’organisme client.
 
 ![Architecture Isogeo](/images/architecture_Isogeo.png "Schéma global de l'architecture de la plateforme Isogeo")
 
