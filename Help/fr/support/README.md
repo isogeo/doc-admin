@@ -5,7 +5,7 @@ Cela évitera les mails "ping-pong" car, comme dit l'adage : mieux vaut 1 bon ma
 
 !["Support - A good mail is better than 10 useless"](http://ljdchost.com/iREPuffTNOthP.gif "Support - Eviter les échanges ping-pong")
 
-> **Astuce** : pour les problèmes liés au Scan FME, [consulter la section dédié en cliquant ici](..\features\scan_fme\installation\support.html).
+> **Astuce** : pour les problèmes liés au Scan FME, [consulter la section dédiée en cliquant ici](..\features\scan_fme\installation\support.html).
 
 
 ## Bonnes pratiques
