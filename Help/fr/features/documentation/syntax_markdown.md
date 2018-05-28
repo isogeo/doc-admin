@@ -70,7 +70,7 @@ Liste numérotée à plusieurs niveaux :
 
 1. premier élément de la liste
 2. deuxième élément de la liste
-  1. indenter avec 2 espaces avan le chiffre permet de faire des sous-listes imbriquées
+  1. indenter avec 2 espaces avant le chiffre permet de faire des sous-listes imbriquées
   2. deuxième élement de second niveau
 3. troisième élément de la liste de 1er niveau qui contient une sous-liste non ordonnée :
   * avec une astérisque,
