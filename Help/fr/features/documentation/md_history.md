@@ -6,7 +6,7 @@ L’onglet « Histoire » décrit le contexte et la méthode de création de la 
 
 _________
 
-## <i class="fa fa-file"></i> Contexte de collecte
+## <i class="fa fa-file"></i> Contexte de collecte {#collectionContext}
 
 | Définition                 | Objectif de la collecte |
 | :------------------------- | :---------------------- |
@@ -21,7 +21,7 @@ _________
 
 _________
 
-## Méthode de collecte
+## Méthode de collecte {#collectionMethod}
 
 | Définition                 | Moyens et méthodologie employés pour créer et mettre à jour la donnée |
 | :------------------------- | :------------------------------------- |
@@ -36,7 +36,7 @@ _________
 
 _________
 
-## <i class="fa fa-clock-o"></i> Période de validité
+## <i class="fa fa-clock-o"></i> Période de validité {#validity_period}
 
 | Définition                 | Période de temps couverte par le contenu de la donnée |
 | :------------------------- | :---------------------------------------------------- |
@@ -51,7 +51,7 @@ _________
 
 _________
 
-## Commentaire
+## Commentaire {#validity_comment}
 
 | Définition                 | Précisions complémentaires |
 | :------------------------- | :------------------------- |
@@ -66,7 +66,7 @@ _________
 
 _________
 
-## <i class="fa fa-refresh"></i> Fréquence de mise à jour
+## <i class="fa fa-refresh"></i> Fréquence de mise à jour {#updateFrequency}
 
 | Définition                 | Intervalle de temps entre les mises à jour de la donnée |
 | :------------------------- | :------------------------------------------------------ |
@@ -81,7 +81,9 @@ _________
 
 _________
 
-## <i class="fa fa-calendar"></i> Evénements
+## <i class="fa fa-calendar"></i> Evénements {#dataset_events}
+
+> Astuce : pour bien différencier les différentes dates des données et métadonnées, consulter [l'annexe **Les dates dans Isogeo**](../../appendices/different_dates.html).
 
 | Définition                 | Historique des dates clés sur la vie de la donnée |
 | :------------------------- | :------------------------------------------------ |
