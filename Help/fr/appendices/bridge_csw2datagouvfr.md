@@ -4,11 +4,14 @@ Dans le cadre du groupe de travail sur l'interopérabilité entre les normes de 
 
 L'objectif est de capitaliser sur le travail de documentation des métadonnées et de référencement des données réalisé par l'écosystème géomatique en permettant aux acteurs de le  valoriser facilement sur le portail de données national.
 
-> * Pour une présentation globale de la plateforme, consulter [le README principal](https://github.com/sgmap/inspire#quest-ce-que-la-passerelle-inspire-).
+**Ressources intéressantes dans le cadre de la démarche d'ouverture des données :**
 
-> * Une [foire aux questions](https://github.com/sgmap/inspire/wiki/FAQ) est également disponible dans [le wiki du dépôt](https://github.com/sgmap/inspire/wiki).
+* [Guide pratique de l&apos;AFIGéo "L&apos;Information géographique et l&apos;Open Data](http://www.afigeo.asso.fr/pole-entreprise/groupe-dinteret-ogc/1672-info-geo-et-open-data-2018.html)
+* [Documentation officielle de la passerelle](https://geo.data.gouv.fr/fr/doc/publish-your-data) (dérivée de celle-ci)
+* Pour une présentation globale de la passerelle INSPIRE, consulter [le Wiki](https://github.com/etalab/geo.data.gouv.fr/wiki/Qu'est-ce-que-la-passerelle-Inspire)
+* Une [foire aux questions](https://github.com/etalab/geo.data.gouv.fr/wiki/FAQ) est également disponible dans [le wiki du projet](https://github.com/etalab/geo.data.gouv.fr/wiki)
 
-## Pré-requis
+## Pré-requis {#prerequisites}
 
 Afin que vos données puissent être accessibles via la passerelle, il faut qu'elles remplissent plusieurs critères :
 
@@ -24,7 +27,7 @@ Les liens de téléchargement reconnus par la passerelle sont :
 
 Les liens vers des fichiers PDF ne sont pas reconnus comme des liens vers des données.
 
-## Utilisation pas à pas
+## Utilisation pas à pas {#stepByStep}
 
 Pour publier des métadonnées via la passerelle Inspire vous devez suivre les étapes suivantes :
 
@@ -37,7 +40,7 @@ Ces étapes sont détaillées dans les parties suivantes.
 
 ________
 
-### Compte et organisation sur DataGouv
+### Compte et organisation sur DataGouv {#dataGouvAccount}
 
 1. Créer un compte sur DataGouv.fr
 
@@ -53,19 +56,19 @@ ________
 
 _______
 
-### Référencement et moissonnage du flux CSW
+### Référencement et moissonnage du flux CSW {#submitCSW}
 
 1. Demander à ce que votre flux CSW soit référencé
 
-    Une fois [votre flux CSW créé dans Isogeo](../features/publish/csw_server.html), il faut écrire à [inspire@data.gouv.fr](mailto:inspire@data.gouv.fr?subject=Ajout d'un service CSW pour diffusion synchronisée sur DataGouv&cc=projets@isogeo.fr) en indiquant votre compte DataGouv.fr, votre / vos organisation(s) et bien sûr le(s) flux concerné(s).
+    Une fois [votre flux CSW créé dans Isogeo](../features/publish/csw_server.html), il faut écrire à [contact@geo.data.gouv.fr](mailto:contact@geo.data.gouv.fr?subject=Ajout d'un service CSW pour diffusion synchronisée sur DataGouv&cc=projets@isogeo.fr) en indiquant votre compte DataGouv.fr, votre / vos organisation(s) et bien sûr le(s) flux concerné(s).
 
 2. Lancer le moissonnage de son catalogue
 
     Une fois votre flux CSW référencé par l'équipe de data.gouv.fr, il faut lancer le moissonnage. Pour cela :
-    1. cliquer sur votre organisme dans la page listant [tous les catalogues](https://inspire.data.gouv.fr/catalogs) ;
+    1. cliquer sur votre organisme dans la page listant [tous les catalogues](https://geo.data.gouv.fr/catalogs) ;
     2. puis cliquez sur `Synchroniser`
 
-    ![Passerelle INSPIRE - Open Data (1)](/images/annex_bridge_INSPIRE_DataGouv_1a_syncCSW.png "Page d'accueil de la passerelle")
+    ![Passerelle INSPIRE - Open Data (1)](/images/datagouv/annex_bridge_INSPIRE_DataGouv_1a_syncCSW.png "Page d'accueil de la passerelle")
 
 3. Vérifier le moissonnage
 
@@ -79,13 +82,13 @@ _______
 
     ![Passerelle INSPIRE - Open Data (1)](/images/annex_bridge_INSPIRE_DataGouv_1b_serviceDetails.png "Page d'accueil de la passerelle")
 
-    Si une donnée semble ne pas être disponible, revérifier les [prérequis](#pr-requis) puis [contacter l'équipe DataGouv](mailto:inspire@data.gouv.fr?subject=Problème de moissonnage d'un CSW Isogeo&cc=projets@isogeo.fr).
+    Si une donnée semble ne pas être disponible, revérifier les [prérequis](#pr-requis) puis [contacter l'équipe DataGouv](mailto:contact@geo.data.gouv.fr?subject=Problème de moissonnage d'un CSW Isogeo&cc=projets@isogeo.fr).
 
 ______
 
-### Associer des producteurs à votre organisation
+### Associer des producteurs à votre organisation {#associate}
 
-1. Aller sur https://inspire.data.gouv.fr/
+1. Aller sur https://geo.data.gouv.fr/
 
     ![Passerelle INSPIRE - Open Data (1)](/images/annex_bridge_INSPIRE_DataGouv_1.png "Page d'accueil de la passerelle")
 
@@ -119,11 +122,11 @@ ______
 
 ______
 
-### Publier sur data.gouv.fr
+### Publier sur data.gouv.fr {#publish}
 
 6. Synchroniser le catalogue pour obtenir les données prêtes à être publiées
 
-    * rendez vous sur la page de votre organisation dans la passerelle : [Sélection de l'organisation](https://inspire.data.gouv.fr/account/organizations) ;
+    * rendez vous sur la page de votre organisation dans la passerelle : [Sélection de l'organisation](https://geo.data.gouv.fr/account/organizations) ;
     * dans la liste des organisations associées à votre compte, cliquez sur le nom de l'organisation associée au catalogue dont vous voulez publier des données.
 
     Le premier cadre au haut de la page dresse un état des lieux des données publiables au sens de data.gouv.fr :
