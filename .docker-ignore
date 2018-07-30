@@ -1,0 +1,9 @@
+.git
+.nuget
+.vscode
+dist
+tmp
+app/bower_components
+install
+node_modules
+Help
