@@ -35,12 +35,15 @@ To simulate the CI continuous build, run the following command from this directo
 First of all: build it.
 
 ```powershell
-docker build --rm -f Dockerfile -t gitbook-builder:latest .
+docker build --rm -f Dockerfile -t isogeo/gitbook-builder:latest .
 ```
 
 ### Serve as a website
+
 ```powershell
-docker run --name isogeo-help -v $PWD\Help:/srv/gitbook --rm -it -d -p 4567:4567 gitbook-builder:latest
+docker run --name isogeo-help -v $PWD/Help:/srv/gitbook --rm -it -d -p 4567:4567 isogeo/gitbook-builder:latest
+# alternativately, you can use the live reload server
+docker run --name isogeo-help -v $PWD/Help:/srv/gitbook --rm -it -d -p 4567:4567 -p 35729:35729 isogeo/gitbook-builder:latest
 ```
 
 Then, open your favorite browser to http://localhost:4567.
@@ -50,7 +53,7 @@ To stop it : ```docker stop isogeo-help```
 ### Build static website
 
 ```powershell
-docker run --rm -v $PWD/Help:/srv/gitbook -v $PWD\dist:/srv/html gitbook-builder gitbook build . /srv/html
+docker run --rm -v $PWD/Help:/srv/gitbook -v $PWD/dist:/srv/html isogeo/gitbook-builder gitbook build . /srv/html
 ```
 
 ----
