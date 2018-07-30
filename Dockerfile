@@ -4,10 +4,9 @@ ENV GITBOOK_CLI_VERSION 2.3.2
 ENV GITBOOK_VERSION 3.2.3
 
 WORKDIR /srv/gitbook
-COPY book.js ./
 
-RUN apk update\
-    && apk upgrade \
+RUN apk --no-cache update\
+    && apk --no-cache upgrade \
     && npm install --global --production gitbook-cli@$GITBOOK_CLI_VERSION \
     && gitbook fetch $GITBOOK_VERSION \
     && gitbook install \
