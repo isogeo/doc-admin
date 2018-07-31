@@ -113,7 +113,7 @@ workflows:
             - install
           filters: *default_filters
 
-      - deloy:
+      - deploy:
           requires:
             - build
           filters: *default_filters
