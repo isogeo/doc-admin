@@ -10,6 +10,7 @@
 *.epub
 
 # dependencies for build & serve commands
+dist/
 tmp/
 node_modules/
 packages/
