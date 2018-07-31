@@ -87,7 +87,7 @@ jobs:
           paths:
             - dist/
 
-  deploy:
+  deploy-qa:
     <<: *golang_container
     steps:
       - *attach_workspace
@@ -98,7 +98,21 @@ jobs:
 
       - deploy:
           name: Upload to Azure Blob Storage
-          command: rclone sync dist/ azure:\$web --delete-after
+          command: rclone sync dist/ qa:\$web --delete-after
+
+  deploy-prod:
+    <<: *golang_container
+    steps:
+      - *attach_workspace
+
+      - run:
+          name: Install rclone
+          command: go get github.com/ncw/rclone
+
+      - deploy:
+          name: Upload to Azure Blob Storage
+          command: rclone sync dist/ prod:\$web --delete-after
+
 
 workflows:
   version: 2
@@ -118,10 +132,14 @@ workflows:
             - install
           filters: *default_filters
 
-      - deploy:
+      - deploy-qa:
           requires:
             - build
-          filters: *default_filters
-            # <<: *default_filters
-            # branches:
-            #   ignore: /.*/
+
+      - deploy-prod:
+          requires:
+            - build
+          filters:
+            <<: *default_filters
+            branches:
+              ignore: /.*/
