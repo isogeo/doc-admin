@@ -89,7 +89,7 @@ jobs:
 
       - run:
           name: Install rclone
-          command: curl https://rclone.org/install.sh | sudo bash
+          command: sudo apt-get install rclone
 
       - deploy:
           name: Upload to Azure Blob Storage
