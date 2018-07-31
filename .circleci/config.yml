@@ -9,6 +9,11 @@ defaults:
     docker:
       - image: circleci/node:8-stretch
 
+  golang_container: &golang_container
+    working_directory: *workspace_root
+    docker:
+      - image: circleci/golang:1-stretch
+
   filters: &default_filters
     tags:
       only: '/v[0-9]+(\.[0-9]+)*/'
@@ -83,13 +88,13 @@ jobs:
             - dist/
 
   deploy:
-    <<: *nodejs_container
+    <<: *golang_container
     steps:
       - *attach_workspace
 
       - run:
           name: Install rclone
-          command: sudo apt-get install rclone
+          command: go get github.com/ncw/rclone
 
       - deploy:
           name: Upload to Azure Blob Storage
