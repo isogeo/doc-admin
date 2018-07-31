@@ -75,7 +75,7 @@ jobs:
 
       - run:
           name: Build output bundles
-          command: yarn gitbook build Help/
+          command: yarn gitbook build Help/ dist/
 
       - persist_to_workspace:
           root: *workspace_root
