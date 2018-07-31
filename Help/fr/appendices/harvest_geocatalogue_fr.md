@@ -10,9 +10,9 @@ Chaque organisme adhérent peut ajouter ses services CSW à moissonner via l’a
 
 ### Créer son compte
 
-> Attention, le site du géocatalogue ne semble pas gérer correctement les liens directs. Il est donc possible que vous soyez systématiquement redirigé sur la page d'accueil.
+> Attention, le site du géocatalogue ne semble pas gérer correctement les liens directs. Il est donc possible que vous soyez systématiquement redirigé sur la page d&apos;accueil.
 
-1. tout d'abord, il faut disposer d'un compte adhérent. Si ce n'est pas le cas, la demande se fait sur le GéoCatalogue via [le formulaire dédié](http://www.geocatalogue.fr/#!CreateAccountTileForward) (menu "Cataloguer" > "Mon compte" > en bas : "Créer en ligne votre compte") ;
+1. tout d&apos;abord, il faut disposer d&apos;un compte adhérent. Si ce n&apos;est pas le cas, la demande se fait sur le GéoCatalogue via [le formulaire dédié](http://www.geocatalogue.fr/#!CreateAccountTileForward) (menu "Cataloguer" > "Mon compte" > en bas : "Créer en ligne votre compte") ;
 
     ![Création de compte sur le GéoCatalogue](/images/annex_GeoCatalogueFR_signInForm.png "Remplir le formulaire de demande de création de compte pour le GéoCatalogue")
 
@@ -20,9 +20,9 @@ Chaque organisme adhérent peut ajouter ses services CSW à moissonner via l’a
 
     ```
     Nous avons bien reçu votre demande de création de compte et nous vous remercions de votre intérêt pour le Géocatalogue.
-    Nous tenons à préciser que le Géocatalogue permet de rechercher et consulter les métadonnées sans qu'il soit nécessaire de s'inscrire en ligne.
+    Nous tenons à préciser que le Géocatalogue permet de rechercher et consulter les métadonnées sans qu&apos;il soit nécessaire de s&apos;inscrire en ligne.
 
-    L'inscription en ligne est adressée aux autorités publiques qui souhaitent publier leurs métadonnées géographiques, en accord avec la Directive européenne INSPIRE (voir les conditions d'utilisation du Géocatalogue).
+    L&apos;inscription en ligne est adressée aux autorités publiques qui souhaitent publier leurs métadonnées géographiques, en accord avec la Directive européenne INSPIRE (voir les conditions d&apos;utilisation du Géocatalogue).
     Si vous êtes dans cette configuration nous vous remercions de nous le confirmer en réponse à ce mail. Nous vous ferons alors parvenir un identifiant et un mot de passe vous permettant de cataloguer vos métadonnées.
     ```
 
@@ -44,11 +44,11 @@ Chaque organisme adhérent peut ajouter ses services CSW à moissonner via l’a
 
 1. Une fois authentifié, se rendre dans le menu ["Gérer mes points de moissonnage"](http://geocatalogue.fr/geocatadmin/admin/ListHarvestPoint.do) ;
 
-2. Ajouter son point d'entrée. Sous la deuxième section `Liste des points de moissonnage de type CSW`, cliquer sur `Ajouter`,
+2. Ajouter son point d&apos;entrée. Sous la deuxième section `Liste des points de moissonnage de type CSW`, cliquer sur `Ajouter`,
 
-3. Nommer son point d'entrée,
+3. Nommer son point d&apos;entrée,
 
-4. Dans le champ adresse, ajouter l'URL fournie par Isogeo, en enlevant les paramètres d'URLs, c'est-à-dire tout ce qui se trouve à droite du caractère `?` ; tout ce qui est en rouge dans cet exemple :
+4. Dans le champ adresse, ajouter l&apos;URL fournie par Isogeo, en enlevant les paramètres d&apos;URLs, c&apos;est-à-dire tout ce qui se trouve à droite du caractère `?` ; tout ce qui est en rouge dans cet exemple :
 
     http://api.isogeo.com/services/ows/s/77c4ab4d358d47e9aff30b550df007f9/c/27fb10c606ed40d89673130bb12b44ed/_O0ZrGFaAOC2XImyQb5UneFcyXLD0?<span style="color:#FF0000">service=CSW&version=2.0.2&request=GetCapabilities</span>
 
@@ -58,7 +58,7 @@ Chaque organisme adhérent peut ajouter ses services CSW à moissonner via l’a
 
 7. Indiquer le nombre de métadonnées à moissonner, en sachant que :
     * 0 est une valeur valide : aucune fiche ne sera moissonnée ; **Non recommandé**
-    * si ce nombre est inférieur à celui des fiches présentes dans le CSW, seul le nombre de fiches indiqué sera moissonné, sans garantie de l'ordre (pas de tri) ; **Non recommandé**
+    * si ce nombre est inférieur à celui des fiches présentes dans le CSW, seul le nombre de fiches indiqué sera moissonné, sans garantie de l&apos;ordre (pas de tri) ; **Non recommandé**
     * si ce nombre est supérieur à celui des fiches, toutes les fiches seront moissonnées. **Recommandé**
 
 8. Choisir le protocole `CSW FILTER`,
@@ -81,11 +81,11 @@ Chaque organisme adhérent peut ajouter ses services CSW à moissonner via l’a
     ```
 
 Voici le processus suivi :
-![Ajout d'un point d'entrée CSW](/images/annex_GeoCatalogueFR_entryPointsAddConfig.gif "Configurer son point d'entrée CSW")
+![Ajout d&apos;un point d&apos;entrée CSW](/images/annex_GeoCatalogueFR_entryPointsAddConfig.gif "Configurer son point d&apos;entrée CSW")
 
 
 ### Précisions
 
-Le GéoCatalogue national est géré par le BRGM avec qui nous travaillons pour nous assurer de la bonne interopérabilité entre nos plateformes. Isogeo s'assure de générer des CSW respectant les standards. Nous ne pouvons cependant pas répondre pour les anomalies liées au GéoCatalogue (ou à d'autres plateformes).
+Le GéoCatalogue national est géré par le BRGM avec qui nous travaillons pour nous assurer de la bonne interopérabilité entre nos plateformes. Isogeo s&apos;assure de générer des CSW respectant les standards. Nous ne pouvons cependant pas répondre pour les anomalies liées au GéoCatalogue (ou à d&apos;autres plateformes).
 
-N'hésitez pas à contacter l'équipe du GéoCatalogue national en cas de problème.
+N&apos;hésitez pas à contacter l&apos;équipe du GéoCatalogue national en cas de problème.

@@ -1,14 +1,14 @@
 # Lier les données à télécharger
 
-Toujours en vue d'enrichir l'expérience des utilisateurs de vos catalogues, par exemple pour répondre à des besoins métiers ou dans le cadre d'une démarche d'ouverture des données (Open Data), il est possible de permettre le téléchargement de données ou de documents directement depuis la fiche de métadonnées.
+Toujours en vue d&apos;enrichir l&apos;expérience des utilisateurs de vos catalogues, par exemple pour répondre à des besoins métiers ou dans le cadre d&apos;une démarche d&apos;ouverture des données (Open Data), il est possible de permettre le téléchargement de données ou de documents directement depuis la fiche de métadonnées.
 
-Plusieurs options s'offrent à vous :
+Plusieurs options s&apos;offrent à vous :
 * héberger directement la donnée sur Isogeo ;
 * indiquer un lien direct vers la donnée hébergée par ailleurs ;
 * indiquer un lien vers un service de téléchargement.
 
 ## Héberger les données brutes directement sur Isogeo !
-![Icone stockage](/images/offer_schema_platform_resStorage.png "Hébergement et stockage de données dans le cloud d'Isogeo")
+![Icone stockage](/images/offer_schema_platform_resStorage.png "Hébergement et stockage de données dans le cloud d&apos;Isogeo")
 
 Vous pouvez héberger des données brutes ou des documents sur Isogeo, via l’interface de saisie des métadonnées.
 
@@ -29,6 +29,6 @@ Remarques :
 
 ## Lier vers des données hébergées par ailleurs
 
-Si vous disposez d'un hébergement en ligne par ailleurs, vous pouvez évidemment indiquer les liens vers les données et documents concernées.
+Si vous disposez d&apos;un hébergement en ligne par ailleurs, vous pouvez évidemment indiquer les liens vers les données et documents concernées.
 
 ![Lien externe](/images/inv_edit_one_resource_download_link.png "Lier vers un hébergement externe")

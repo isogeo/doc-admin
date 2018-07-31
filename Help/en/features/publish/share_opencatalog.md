@@ -42,7 +42,7 @@ Integration examples online:
 
 ## Integrating a single record in iframe
 
-If you want to integrate a single record, for example in a pop-up window, simply add `?lock` at the end of the corresponding record's address and place the entire address in an iframe tag.
+If you want to integrate a single record, for example in a pop-up window, simply add `?lock` at the end of the corresponding record&apos;s address and place the entire address in an iframe tag.
 
 Differences compared with "normal" integration:
 * the upper bar;
@@ -50,7 +50,7 @@ Differences compared with "normal" integration:
 
 ### Syntax
 
-For example, to integrate the record containing metadata on France's dÃ©partements in 2014:
+For example, to integrate the record containing metadata on France&apos;s dÃ©partements in 2014:
 
 ```xhtml
 <iframe src="http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0/m/754209f115c040a48d43ffc262b16500?lock" height="400"></iframe></a>

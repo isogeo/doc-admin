@@ -8,7 +8,7 @@ Attention pour renommer un groupe de travail, cela se passe via [le tableau de b
 
 ## Autoriser la création de fiches manuelles {#settings_manual_creation}
 
-Si vous souhaitez autoriser la création de fiches de métadonnées manuelles, c'est-à-dire indépendantes d'une source de données et non créées par le scan.
+Si vous souhaitez autoriser la création de fiches de métadonnées manuelles, c&apos;est-à-dire indépendantes d&apos;une source de données et non créées par le scan.
 
 ## Autoriser le groupe à être référencé en tant que contact
 

@@ -1,14 +1,14 @@
 # Versions du service Isogeo Worker (scan FME)
 
-Indépendant de la plateforme, le service est mis à jour lorsque des anomalies sont remontées ou pour couvrir de nouveaux besoins identifiés (nouveaux formats par exemple). Attention, ne pas confondre avec les mises à jour concernant l'interface d'administration du scan à laquelle vous accédez via https://app.isogeo.com/admin/isogeo-worker.
+Indépendant de la plateforme, le service est mis à jour lorsque des anomalies sont remontées ou pour couvrir de nouveaux besoins identifiés (nouveaux formats par exemple). Attention, ne pas confondre avec les mises à jour concernant l&apos;interface d&apos;administration du scan à laquelle vous accédez via https://app.isogeo.com/admin/isogeo-worker.
 
-Vous pouvez facilement vérifier la version du service installée chez vous en passant la souris sur le(s) voyant(s) en haut à droite de l'interface d'administration du scan :
+Vous pouvez facilement vérifier la version du service installée chez vous en passant la souris sur le(s) voyant(s) en haut à droite de l&apos;interface d&apos;administration du scan :
 
 ![Scan FME - version](/images/scanFME_service_version.png "Vérifier la version du service")
 
 ### 2.1.0
 
-Voir [la lettre d'informations](http://eepurl.com/b8uYqb).
+Voir [la lettre d&apos;informations](http://eepurl.com/b8uYqb).
 
 * Format XYZ
 * Format SpatiaLite
@@ -78,7 +78,7 @@ Voir [la lettre d'informations](http://eepurl.com/b8uYqb).
 
 _________
 
-> Au-delà de cette ligne, les services sont considérés comme obsolètes et le voyant s'affiche en orange.
+> Au-delà de cette ligne, les services sont considérés comme obsolètes et le voyant s&apos;affiche en orange.
 
 ![Scan FME - version obsolète](/images/scanFME_service_version_obsolete.png "Service obsolète")
 

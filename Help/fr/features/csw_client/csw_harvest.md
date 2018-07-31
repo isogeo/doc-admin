@@ -4,17 +4,17 @@ Vous gérez un catalogue de données moissonnable en CSW, vous souhaitez récup�
 
 ## Principes des noeuds CSW
 
-Lorsque l'on parle d'un noeud CSW ([*Catalog Service Web*](http://www.opengeospatial.org/standards/cat)), on entend l'implémentation du standard de l'OGC qui a 2 volets :
+Lorsque l&apos;on parle d&apos;un noeud CSW ([*Catalog Service Web*](http://www.opengeospatial.org/standards/cat)), on entend l&apos;implémentation du standard de l&apos;OGC qui a 2 volets :
 * le serveur qui génère des flux selon les profils définis par le standard, interrogeables par les clients CSW ;
-* le client qui envoie les requêtes formatées selon le standard à n'importe quel serveur CSW et en récupère les métadonnées.
+* le client qui envoie les requêtes formatées selon le standard à n&apos;importe quel serveur CSW et en récupère les métadonnées.
 
-On parle de noeud car l'ensemble peut former un réseau d'échanges des catalogues de données.
+On parle de noeud car l&apos;ensemble peut former un réseau d&apos;échanges des catalogues de données.
 
-Il s'agit ici de moissonner les serveurs CSW grâce au client CSW intégré dans le module idoine d'Isogeo, qui implémente le profil CSW de la version 2.0.2 standard (voir [OGC 07-006r1](http://portal.opengeospatial.org/files/?artifact_id=20555) et [OGC 07-045](http://portal.opengeospatial.org/files/?artifact_id=21460)).
+Il s&apos;agit ici de moissonner les serveurs CSW grâce au client CSW intégré dans le module idoine d&apos;Isogeo, qui implémente le profil CSW de la version 2.0.2 standard (voir [OGC 07-006r1](http://portal.opengeospatial.org/files/?artifact_id=20555) et [OGC 07-045](http://portal.opengeospatial.org/files/?artifact_id=21460)).
 
 > Astuce : pour la partie serveur, voir [le chapitre dédié](../publish/csw_server.html).
 
-## Créer un point d'entrée "Service CSW"
+## Créer un point d&apos;entrée "Service CSW"
 
 Pour créer un point d’entrée « Service CSW », vous devez :
 
@@ -25,7 +25,7 @@ Pour créer un point d’entrée « Service CSW », vous devez :
 5.  Enregistrer ;
 6.  Scanner.
 
-![Nouveau point d'entrée CSW](/images/adm_client_csw_new.png "Moissonner un serveur CSW")
+![Nouveau point d&apos;entrée CSW](/images/adm_client_csw_new.png "Moissonner un serveur CSW")
 
 Une fois le scan terminé, toutes les fiches de métadonnées récoltées sont consultables dans l’inventaire.
 
@@ -33,5 +33,5 @@ Ces fiches ne sont pas modifiables car nous considérons qu’elles sont encore 
 
 Remarques :
 
-* Le moissonnage CSW respecte les même règles de fonctionnement que l’import XML ISO 19139 décrit dans le chapitre "Importer l'existant" ;
-* le XML ISO 19139 disponible dans l’onglet « ressources » de la fiche est absolument identique à l'original (même s'il est invalide).
+* Le moissonnage CSW respecte les même règles de fonctionnement que l’import XML ISO 19139 décrit dans le chapitre "Importer l&apos;existant" ;
+* le XML ISO 19139 disponible dans l’onglet « ressources » de la fiche est absolument identique à l&apos;original (même s&apos;il est invalide).

@@ -4,7 +4,7 @@ Geodata is generally associated with a coordinate system that must be specified 
 
 Isogeo integrates thousands of coordinate systems listed in the international registry [`EPSG Registry`](http://www.epsg-registry.org/) (see [here to view the registry using a more recent interface](http://epsg.io/)).
 
-To make it easier to manage these systems, and to avoid confusing writers (who are not necessarily specialists or conversant with projection requirements), the administrator can limit the coordinate systems visible in the `Geography'` tab in a metadata record.
+To make it easier to manage these systems, and to avoid confusing writers (who are not necessarily specialists or conversant with projection requirements), the administrator can limit the coordinate systems visible in the `Geography&apos;` tab in a metadata record.
 
 > Tip: go directly to [coordinate systems](https://app.isogeo.com/admin/coordinate-systems).
 

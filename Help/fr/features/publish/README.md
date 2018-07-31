@@ -1,6 +1,6 @@
 # Objectif : valoriser votre patrimoine de données géographiques
 
-L'inventaire, le catalogage et la documentation sont les vecteurs d'une bonne gouvernance de données. Une fois tout ces efforts réalisés, il s'agit de les faire fructifier :
+L&apos;inventaire, le catalogage et la documentation sont les vecteurs d&apos;une bonne gouvernance de données. Une fois tout ces efforts réalisés, il s&apos;agit de les faire fructifier :
 *  en interne,
 *  avec vos partenaires,
 *  auprès du grand public (*Open Data*).

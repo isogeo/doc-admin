@@ -6,7 +6,7 @@ The "Contacts" tab can be used to assign one or more contacts from your address 
 
 | Definition          | Contact details of the organization(s) or person(s) associated with the life of the data (production, management, processing, publishing, etc.) |
 | :------------------ | :------------------------------------------------ |
-| Indications         | You must indicate the **contacts associated with the data, not with the metadata or the catalog** ([contact settings are defined in the dashboard](/en/settings/dashboard.html#the-workgroup's-point-of-contact)). In the list of contacts, choose and assign one of the roles.<br />The administrator can modify the list of available contacts (see [the dedicated chapter](/en/features/admin/contacts.html)).|
+| Indications         | You must indicate the **contacts associated with the data, not with the metadata or the catalog** ([contact settings are defined in the dashboard](/en/settings/dashboard.html#the-workgroup&apos;s-point-of-contact)). In the list of contacts, choose and assign one of the roles.<br />The administrator can modify the list of available contacts (see [the dedicated chapter](/en/features/admin/contacts.html)).|
 | Example             | Team PPIGE > Point of contact<br />IGN > Supplier |
 | INSPIRE requirement   | Mandatory                   |
 | Batch edition     | Yes, by incrementation           |
@@ -23,7 +23,7 @@ The "Contacts" tab can be used to assign one or more contacts from your address 
 | Role                      | Description | [Recommended](http://georezo.net/wiki/main/donnees/inspire/aide_a_la_saisie_des_metadonnees_inspire#organisations_responsables_de_l_etablissement_de_la_gestion_de_la_maintenance_et_de_la_diffusion_des_series_et_services_de_donnees_geographiques)|
 |:------------------------- |:----------- | :----------: |
 | Custodian            | Organization or person responsible for managing and updating data. |  X           |
-| Author                    | Organization or person that/who completed the data. It/he/she owns the data's moral rights. |  X           |
+| Author                    | Organization or person that/who completed the data. It/he/she owns the data&apos;s moral rights. |  X           |
 | Principal investigator        |             |              |
 | Originator                  |             |  X           |
 | Distributor             |             |              |

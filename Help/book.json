@@ -1,7 +1,7 @@
 {
     "plugins": [
         "ga",
-        "image-captions",   
+        "image-captions",
         "page-toc",
         "timeline",
         "toggle-headers",
@@ -18,7 +18,11 @@
         "image-captions": {
             "variable_name": "pictures",
             "caption": "Fig. _BOOK_IMAGE_NUMBER_ : _CAPTION_",
-            "images": {"1.1.1": {"skip": true}}
+            "images": {
+                "1.1.1": {
+                    "skip": true
+                }
+            }
         },
         "page-toc": {
             "position": "top",
@@ -29,4 +33,4 @@
         "author": "Isogeo",
         "pictures": []
     }
- }
+}

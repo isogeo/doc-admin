@@ -1,6 +1,6 @@
 # Configurer les spécifications <i class="fa fa-flask"></i>
 
-Une donnée SIG est souvent créée et vérifiée à partir d'un certain nombre de spécifications techniques regroupées dans différents types de documents : standards officiels, cahiers des charges, descriptif de livraison, feuille de route technique, etc.
+Une donnée SIG est souvent créée et vérifiée à partir d&apos;un certain nombre de spécifications techniques regroupées dans différents types de documents : standards officiels, cahiers des charges, descriptif de livraison, feuille de route technique, etc.
 
 Pour porter à connaissance de vos utilisateurs cette précieuse information, Isogeo vous permet de gérer un référentiel centralisé de spécifications dans lequel il suffit de piocher lors de la saisie des métadonnées. Les modifications apportées à une spécification du référentiel sont dynamiquement reportées sur toutes les fiches auxquelles elle a été appliquée.
 
@@ -8,12 +8,12 @@ Pour porter à connaissance de vos utilisateurs cette précieuse information, Is
 
 ## Les différentes spécifications
 
-Par défaut, Isogeo propose un certain nombre de standards de référence (INSPIRE, Covadis...). Elles sont identifiables facilement grâce à l'icône de cadenas en regard du titre dans la liste.
+Par défaut, Isogeo propose un certain nombre de standards de référence (INSPIRE, Covadis...). Elles sont identifiables facilement grâce à l&apos;icône de cadenas en regard du titre dans la liste.
 
 Grâce aux onglets, vous pouvez filtrer :
 * [`Mes spécifications`](https://app.isogeo.com/admin/specifications/owned) : seulement les spécifications de votre groupe de travail ;
 * [`Autres`](https://app.isogeo.com/admin/specifications/shared) : les spécifications disponibles par défaut par Isogeo ;
-* `Toutes` : l'ensemble des spécifications.
+* `Toutes` : l&apos;ensemble des spécifications.
 
 ## Ajouter une spécification
 

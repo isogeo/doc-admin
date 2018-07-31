@@ -2,18 +2,18 @@
 
 ## Associer des services géographiques
 
-Depuis la version 2.17 (septembre 2016) et la documentation dynamique des services, l'association dynamique permet de générer automatiquement les bons liens pour les applications supportées par Isogeo :
+Depuis la version 2.17 (septembre 2016) et la documentation dynamique des services, l&apos;association dynamique permet de générer automatiquement les bons liens pour les applications supportées par Isogeo :
 
-* les liens de visualisation pour l'OpenCatalog
+* les liens de visualisation pour l&apos;OpenCatalog
 * les liens de services conformes aux scénarios A et B du CNIG
 
-> Consulter [le chapitre dédiée à la documentation automatisée](../inventory/md_services/srv_howto.html) et [celui à l'association dynamique des services](../inventory/md_services/srv_association.html).
+> Consulter [le chapitre dédiée à la documentation automatisée](../inventory/md_services/srv_howto.html) et [celui à l&apos;association dynamique des services](../inventory/md_services/srv_association.html).
 
 ### Résultats dans OpenCatalog
 
 Des liens de visualisation sont générés pour les services :
 
-* WFS si le serveur supporte le JSON (ce qui n'est pas le cas des service générés par ArcGIS Server notamment) ;
+* WFS si le serveur supporte le JSON (ce qui n&apos;est pas le cas des service générés par ArcGIS Server notamment) ;
 * WMS
 * Esri Feature Service
 * Esri (Tiled) Map Service : si les opérations *Map* et *Tile* sont activées, le service tuilé sera utilisé.
@@ -88,7 +88,7 @@ Les services cartographiques doivent être renseignés en tant que ressources as
 
 Si jamais le paramètre *layers* n’est pas renseigné dans l’URL, une erreur s’affiche dans l’interface de l’OpenCatalog :
 
-![Erreur flux OpenCatalog](/images/OC_view_ErrorLayerIsMissing.png "Erreur de lecture de flux dans l'OpenCatalog")
+![Erreur flux OpenCatalog](/images/OC_view_ErrorLayerIsMissing.png "Erreur de lecture de flux dans l&apos;OpenCatalog")
 
 ____
 
@@ -103,22 +103,22 @@ Un WMS pour [Web Map Service](http://fr.wikipedia.org/wiki/Web_Map_Service) est 
 Le nom des couches disponibles peut être retrouvé grâce à l’action GetCapabilities : **?request=GetCapabilities**
 5. Cliquer sur `Valider` ;
 6. Dans les actions de la ressource associée, cocher l’option `Visualisation` ;
-7. `Valider` puis `Enregistrer` au niveau de l'édition de la fiche.
+7. `Valider` puis `Enregistrer` au niveau de l&apos;édition de la fiche.
 
 ![Ajout flux WMS](/images/inv_edit_one_resource_WMS.png "Ajouter un flux WMS en ressource associée")
 
-#### Rendu dans l'OpenCatalog
+#### Rendu dans l&apos;OpenCatalog
 
 Voir un exemple en ligne où le flux consommé est celui mis à disposition par le MEDDE : [données de 2006 Corine Land COver sur la France métropolitaine](http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0/m/4643b80d5ef248588709c7367036191a).
 
-![WMS dans OpenCatalog](/images/OC_view_WMS.png "Visualisation d'un flux WMS dans l'OpenCatalog")
+![WMS dans OpenCatalog](/images/OC_view_WMS.png "Visualisation d&apos;un flux WMS dans l&apos;OpenCatalog")
 
 ____
 ### Associer un flux WFS
 
 Un WFS pour [Web Feature Service](http://fr.wikipedia.org/wiki/Web_Feature_Service) est un protocole standardisé OGC ([*Open Geospatial Consortium*](http://fr.wikipedia.org/wiki/Open_Geospatial_Consortium)) qui permet d’obtenir à partir d’une requête les entités géographiques voulues. C’est donc ensuite à la librairie cartographique de les représenter.
 
-> Astuce : pour des raisons de sécurité, seuls les WFS acceptant le format JSONP sont visualisables par l’OpenCatalog. Voir [l'annexe à ce sujet](../../appendices/wfs_jsonp.html).
+> Astuce : pour des raisons de sécurité, seuls les WFS acceptant le format JSONP sont visualisables par l’OpenCatalog. Voir [l&apos;annexe à ce sujet](../../appendices/wfs_jsonp.html).
 
 1. Ajouter une ressource associée ;
 2. Choisir le type `WFS` ;
@@ -127,15 +127,15 @@ Un WFS pour [Web Feature Service](http://fr.wikipedia.org/wiki/Web_Feature_Servi
 Le nom des couches disponibles peut être retrouvé grâce à l’action GetCapabilities : **?request=GetCapabilities** ;
 5. Cliquer sur `Valider` ;
 6. Dans les actions de la ressource associée, cocher l’option `Visualisation` ;
-7. `Valider` puis `Enregistrer` au niveau de l'édition de la fiche.
+7. `Valider` puis `Enregistrer` au niveau de l&apos;édition de la fiche.
 
 ![Ajout flux WFS](/images/inv_edit_one_resource_WFS.png "Ajouter un flux WFS en ressource associée")
 
-#### Rendu dans l'OpenCatalog
+#### Rendu dans l&apos;OpenCatalog
 
 Voir un exemple en ligne : [départements de France métropolitaine en 2014](http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0/m/754209f115c040a48d43ffc262b16500).
 
-![WFS dans OpenCatalog](/images/OC_view_WFS.png "Consultation d'un flux WFS dans l'OpenCatalog")
+![WFS dans OpenCatalog](/images/OC_view_WFS.png "Consultation d&apos;un flux WFS dans l&apos;OpenCatalog")
 
 ___
 ### Associer un flux Esri Map
@@ -147,15 +147,15 @@ Un service Esri Feature permet d’obtenir à partir d’une requête les entit�
 3. Renseigner l’URL du service ; http://noisy.hq.isogeo.fr:6080/arcgis/rest/services/USA_DATA/Airports/MapServer/0 par exemple ;
 4. Cliquer sur `Valider`
 5. Dans les actions de la ressource associée, cocher l’option `Visualisation` ;
-6. `Valider` puis `Enregistrer` au niveau de l'édition de la fiche.
+6. `Valider` puis `Enregistrer` au niveau de l&apos;édition de la fiche.
 
 ![Ajout flux Esri Map](/images/inv_edit_one_resource_EsriMap.png "Ajouter un flux Esri Map en ressource associée")
 
-#### Rendu dans l'OpenCatalog
+#### Rendu dans l&apos;OpenCatalog
 
-Voir un exemple en ligne : [données des EPCI  en 2014 issues d'OpenStreetMap](http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0/m/78e4a2ce9a7d4b09a80eecd131130166).
+Voir un exemple en ligne : [données des EPCI  en 2014 issues d&apos;OpenStreetMap](http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0/m/78e4a2ce9a7d4b09a80eecd131130166).
 
-![Esri Map dans OpenCatalog](/images/OC_view_EsriMap.png "Consultation d'un flux Esri Map dans l'OpenCatalog")
+![Esri Map dans OpenCatalog](/images/OC_view_EsriMap.png "Consultation d&apos;un flux Esri Map dans l&apos;OpenCatalog")
 
 ___
 ### Associer un flux Esri Feature
@@ -167,15 +167,15 @@ Un service Esri Feature permet d’obtenir à partir d’une requête les entit�
 3. Renseigner l’URL du service http://services1.arcgis.com/ApmCsFVnpW3bVGYw/arcgis/rest/services/Ports/FeatureServer/0 par exemple
 4. Cliquer sur `Valider`
 5. Dans les actions de la ressource associée, cocher l’option `Visualisation`
-6. `Valider` puis `Enregistrer` au niveau de l'édition de la fiche.
+6. `Valider` puis `Enregistrer` au niveau de l&apos;édition de la fiche.
 
 ![Ajout flux Esri Feature](/images/inv_edit_one_resource_EsriFeature.png "Ajouter un flux Esri Feature en ressource associée")
 
-#### Rendu dans l'OpenCatalog
+#### Rendu dans l&apos;OpenCatalog
 
 Voir un exemple en ligne : [données des stades de la coupe du monde de football 2014](http://open.isogeo.com/s/c502e8f7c9da4c3aacdf3d905672d54c/Q4SvPfiIIslbdwkbWRFJLk7XWo4G0/m/56ed291af72f46dc9835fc9ae29fe938).
 
-![Esri Feature dans OpenCatalog](/images/OC_view_EsriFeatures.png "Consultation d'un flux Esri Feature dans l'OpenCatalog")
+![Esri Feature dans OpenCatalog](/images/OC_view_EsriFeatures.png "Consultation d&apos;un flux Esri Feature dans l&apos;OpenCatalog")
 
 ___
 ### Associer un flux Esri Tiled Map
@@ -187,12 +187,12 @@ Un service Esri Feature permet d’obtenir à partir d’une requête les entit�
 3. Renseigner l’URL du service : http://tiles.arcgis.com/tiles/ApmCsFVnpW3bVGYw/arcgis/rest/services/Populated_Places/MapServer par exemple ;
 4. Cliquer sur `Valider` ;
 5. Dans les actions de la ressource associée, cocher l’option `Visualisation` ;
-6. `Valider` puis `Enregistrer` au niveau de l'édition de la fiche.
+6. `Valider` puis `Enregistrer` au niveau de l&apos;édition de la fiche.
 
 ![Ajout flux Esri Tiled Map](/images/inv_edit_one_resource_EsriTiledMap.png "Ajouter un flux Esri Tiled Map en ressource associée")
 
-#### Rendu dans l'OpenCatalog
+#### Rendu dans l&apos;OpenCatalog
 
 Voir un exemple en ligne : [données des stades de la coupe du monde de football 2014](http://open.isogeo.com/s/c502e8f7c9da4c3aacdf3d905672d54c/Q4SvPfiIIslbdwkbWRFJLk7XWo4G0/m/56ed291af72f46dc9835fc9ae29fe938).
 
-![Esri Tiled Map dans OpenCatalog](/images/OC_view_EsriTiledMap.png "Consultation d'un flux Esri Tiled Map dans l'OpenCatalog")
+![Esri Tiled Map dans OpenCatalog](/images/OC_view_EsriTiledMap.png "Consultation d&apos;un flux Esri Tiled Map dans l&apos;OpenCatalog")

@@ -19,13 +19,13 @@ La dernière étape de ce processus consiste à valoriser vos catalogues auprès
     * auprès de vos partenaires équipés Isogeo ;
     * dans vos propres médias (intranet, extranet, internet) ;
     * au sein de votre Infrastructure de Données Géographiques, via un service web normalisé CSW 2.0 ;
-* dans d'autres interfaces logicielles via notre API REST ;
+* dans d&apos;autres interfaces logicielles via notre API REST ;
 
 Ainsi tous vos utilisateurs - internes et externes – ont accès à un catalogue de données et aux services de recherche, de consultation et de téléchargement à leur disposition.
 
 Si Isogeo place les métadonnées au cœur d’un processus métier innovant, c’est dans un cadre plus global de définition d’une gouvernance territoriale des données géographiques dans laquelle producteurs, utilisateurs et administrateurs participent à l’enrichissement et à la valorisation collective de données géographiques maitrisées.
 
-| ![OpenCatalog](/images/icone_OpenCatalog_140px.png "Diffuser facilement ses catalogues grâce à OpenCatalog") | ![Partage](/images/icone_partage_140px.png "Partager et collaborer avec entre groupes de travail de la plateforme") | ![CSW](/images/icone_CSW_140px.png "Echanger ses données avec d'autres noeuds CSW") | ![API](/images/icone_API_140px.png "Créer des interfaces d'accès au patrimoine via l'API") |
+| ![OpenCatalog](/images/icone_OpenCatalog_140px.png "Diffuser facilement ses catalogues grâce à OpenCatalog") | ![Partage](/images/icone_partage_140px.png "Partager et collaborer avec entre groupes de travail de la plateforme") | ![CSW](/images/icone_CSW_140px.png "Echanger ses données avec d&apos;autres noeuds CSW") | ![API](/images/icone_API_140px.png "Créer des interfaces d&apos;accès au patrimoine via l&apos;API") |
 | :--: | :-- | :--: | :--: |
 
 

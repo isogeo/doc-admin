@@ -2,11 +2,11 @@
 
 L’onglet « Ressources » regroupe les liens vers les documents (cartes, statistiques, etc.) et les services web associés à la donnée (visualiser, télécharger, etc.).
 
-![Edition unitaire - Ressources](/images/inv_edit_one_linkedResources.png "L'édition unitaire - onglet Ressources")
+![Edition unitaire - Ressources](/images/inv_edit_one_linkedResources.png "L&apos;édition unitaire - onglet Ressources")
 
-Dans Isogeo, on recense et documente les données sources, mais il est également possible de renseigner  les services (géographiques par exemple), documents ou téléchargements liés à chaque donnée. Cela permet d'**enrichir énormément l'expérience de consultation** des fiches et donc la valorisation du patrimoine.
+Dans Isogeo, on recense et documente les données sources, mais il est également possible de renseigner  les services (géographiques par exemple), documents ou téléchargements liés à chaque donnée. Cela permet d&apos;**enrichir énormément l&apos;expérience de consultation** des fiches et donc la valorisation du patrimoine.
 
-Il est possible d'associer tout type de lien, chacun correspondant à des actions (voir plus bas) :
+Il est possible d&apos;associer tout type de lien, chacun correspondant à des actions (voir plus bas) :
 
 * soit canonique (par exemple un site web),
 * soit vers un service web géographique (par exemple un flux WMS),
@@ -22,9 +22,9 @@ Pour voir comment associer des couches de services à une donnée, [consulter la
 
 ## <i class="fa fa-globe"></i> Services cartographiques
 
-Dans cette colonne, sont listés les liens directs vers des couches de services géographiques **documentés manuellement** (c'est-à-dire avec l'identifiant de la couche).
+Dans cette colonne, sont listés les liens directs vers des couches de services géographiques **documentés manuellement** (c&apos;est-à-dire avec l&apos;identifiant de la couche).
 
-Cette méthode n'est conseillée que dans le cas de la documentation de services géographiques inaccessibles publiquement (serveur géographique intranet par exemple).
+Cette méthode n&apos;est conseillée que dans le cas de la documentation de services géographiques inaccessibles publiquement (serveur géographique intranet par exemple).
 
 ## <i class="fa fa-archive"></i> Données
 
@@ -34,13 +34,13 @@ Dans cette colonne, sont listés les liens donnant accès au téléchargement de
 * soit en référençant un lien vers une interface de téléchargement (formulaire par exemple) ;
 * soit en téléversant directement les données compressées sur Isogeo.
 
-Pour plus d'informations, consulter la page du [téléversement/téléchargement des données](../publish/hosting.html).
+Pour plus d&apos;informations, consulter la page du [téléversement/téléchargement des données](../publish/hosting.html).
 
 ## <i class="fa fa-external-link"></i> Liens associés
 
 Dans cette colonne, sont listés deux types de liens :
-* les liens externes, pointant vers d'autres sites web ou applications liés à la donnée documentée ;
-* les liens internes, pointant vers des ressources secondaires à associer. C'est le mécanisme permettant la [finesse d'affichage des liens selon les destinataires et les usages](../publish/share_visibility.html). ;
+* les liens externes, pointant vers d&apos;autres sites web ou applications liés à la donnée documentée ;
+* les liens internes, pointant vers des ressources secondaires à associer. C&apos;est le mécanisme permettant la [finesse d&apos;affichage des liens selon les destinataires et les usages](../publish/share_visibility.html). ;
 
 ### Actions possibles par type de lien
 

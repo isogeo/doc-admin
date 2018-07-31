@@ -1,8 +1,8 @@
 # Mon compte, mes groupes de travail
 
-Dans Isogeo, l'unité de lecture est le patrimoine de données géographiques : à chaque patrimoine son groupe de travail !
+Dans Isogeo, l&apos;unité de lecture est le patrimoine de données géographiques : à chaque patrimoine son groupe de travail !
 
-Un groupe de travail est un ensemble d'utilisateurs (administrateurs, éditeurs ou lecteurs) travaillant sur un patrimoine (= inventaire).
+Un groupe de travail est un ensemble d&apos;utilisateurs (administrateurs, éditeurs ou lecteurs) travaillant sur un patrimoine (= inventaire).
 
 Un utilisateur peut appartenir à plusieurs groupes de travail, à différents niveaux selon chaque groupe.
 

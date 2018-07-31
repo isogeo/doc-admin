@@ -4,7 +4,7 @@ To properly display a layer in a viewer such as geOrchestra or Prodige, you must
 
 In Isogeo, you must [add a WMS associated resource](/en/features/documentation/md_ressources.html) specifying:
 * the name of the layer in the service as the title of the link (for example: `capl_points_addresses`)
-* the URL of the service's link with the `GetCapabilities` parameter (for example: http://geoservices.lorient-agglo.fr/wms?service=WMS&request=GetCapabilities
+* the URL of the service&apos;s link with the `GetCapabilities` parameter (for example: http://geoservices.lorient-agglo.fr/wms?service=WMS&request=GetCapabilities
 
 The WMS link is then sent to the CSW:
 

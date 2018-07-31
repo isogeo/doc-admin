@@ -12,9 +12,9 @@ As shown in the diagram below, Isogeo has two main components:
 
 ## Installing and managing environments
 
-Isogeo uses the SaaS model Microsoft's Windows Azure *cloud computing* platform. Three distinct environments are used to manage development, testing and production:
+Isogeo uses the SaaS model Microsoft&apos;s Windows Azure *cloud computing* platform. Three distinct environments are used to manage development, testing and production:
 
-* The **development** platform, reserved for Isogeo, used to manage development for the solution. Updated every night, this platform compiles all development from the previous day (see below for Isogeo's software quality process);
+* The **development** platform, reserved for Isogeo, used to manage development for the solution. Updated every night, this platform compiles all development from the previous day (see below for Isogeo&apos;s software quality process);
 
 * The **acceptance-testing** platform, also reserved for Isogeo, used to manage solution testing before release. New versions are delivered to the test platform every two weeks. Once validated, this new version can be released; any bugs detected are added to the Redmine tracking tool;
 
@@ -30,7 +30,7 @@ Depending on the characteristics of the data browsed, processing can become RAM 
 
 ## Backup and recovery
 
-The Isogeo platform (application and database) is backed up daily to a private storage location on Microsoft©'s Windows Azure© cloud computing platform. The backup resources are described on the official [Microsoft©](http://www.windowsazure.com/en-us) site .
+The Isogeo platform (application and database) is backed up daily to a private storage location on Microsoft©&apos;s Windows Azure© cloud computing platform. The backup resources are described on the official [Microsoft©](http://www.windowsazure.com/en-us) site .
 
 A general recovery of the platform can be performed by Isogeo.
 
@@ -40,7 +40,7 @@ The recovery of the environment specific to the organization can be performed by
 
 Isogeo deploys the resources needed to ensure maximum availability (close to 24/7) and to make data accessible at all times. Details of the resources deployed can be found on the Microsoft© Windows Azure© site: http://azure.microsoft.com/en-us/support/faq/
 
-Given the state of the art, Isogeo cannot guarantee the service's fault-free, uninterrupted operation. However, Isogeo aims to ensure an availability rate in accordance with the following table:
+Given the state of the art, Isogeo cannot guarantee the service&apos;s fault-free, uninterrupted operation. However, Isogeo aims to ensure an availability rate in accordance with the following table:
 
 | Service            | Availability | Unavailability/year        | Unavailability/quarter |
 | :----------------- | :-----------: | :-------------------------: | :-------------------------: |
@@ -48,13 +48,13 @@ Given the state of the art, Isogeo cannot guarantee the service's fault-free, un
 | Isogeo deployment | 99.45%        | 48 hrs. (24 2-hour deployments) | 12hrs.                         |
 | Isogeo unforeseen   | 99.60%        | 35 hrs.                         | 8.75 hrs.                       |
 
-The service's overall availability rate is currently 99%.
+The service&apos;s overall availability rate is currently 99%.
 
 Organizations are notified beforehand of all unscheduled maintenance operations at least one day in advance.
 
 Maintenance operations are scheduled for updating the "tool" website and updating the executable installed by the organization.
 
-The "tool" site update is invisible to the solution's users. It does not require any action by the organization.
+The "tool" site update is invisible to the solution&apos;s users. It does not require any action by the organization.
 
 Only executable updates may require action by the organization. Isogeo sends an e-mail one week prior to the scheduled maintenance operation if any manual intervention will be required.
 

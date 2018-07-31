@@ -20,7 +20,7 @@ The "TOS" tab specifies the conditions for accessing and using data. Use it to d
 | Definition          | Restrictions for open publication      |
 | :------------------ | :---------------------------------------- |
 | Indications         | Under the INSPIRE directive, all geographic data may be published unless there is an exemption associated with a known restriction. You must specify what type of restriction applies to the data, **but also if no restrictions apply** (see example below). |
-| Example             | Type: Legal<br />Restriction: License<br />Directive: No public access restriction under INSPIRE<br />None of the law's acts apply or justify a public access restriction. |
+| Example             | Type: Legal<br />Restriction: License<br />Directive: No public access restriction under INSPIRE<br />None of the law&apos;s acts apply or justify a public access restriction. |
 | INSPIRE requirement   | Mandatory                   |
 | Batch edition     | Yes, by incrementation           |
 | Scan                | No                           |

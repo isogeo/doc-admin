@@ -1,6 +1,6 @@
 # Creating INSPIRE metadata
 
-Compliance with the INSPIRE directive represents a major challenge for those involved in geographic information. In addition to the French and European expertise brought to you by Isogeo in projects with its clients, the tool helps you comply with the directive's requirements easily and quickly.
+Compliance with the INSPIRE directive represents a major challenge for those involved in geographic information. In addition to the French and European expertise brought to you by Isogeo in projects with its clients, the tool helps you comply with the directive&apos;s requirements easily and quickly.
 
 A [correspondence table of Isogeo fields with the INSPIRE directive](https://docs.google.com/spreadsheet/ccc?key=0AgqcgCYNe0TfdGI3M1l2WEZaNExxYnpkb29YRzNNY3c&usp=sharing) is available:
 

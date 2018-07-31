@@ -10,7 +10,7 @@ Not all commonly used mapping servers allow for generating *JSONP* using the `OU
 
 ## GeoServer
 
-GeoServer can be used to return *JSONP* if the feature has been enabled (it is disabled by default). To enable this parameter, you must create an environment variable dependent on the user who runs the GeoServer service named 'ENABLE_JSONP' with the value 'true' then restart the GeoServer service.
+GeoServer can be used to return *JSONP* if the feature has been enabled (it is disabled by default). To enable this parameter, you must create an environment variable dependent on the user who runs the GeoServer service named `ENABLE_JSONP` with the value `true` then restart the GeoServer service.
 
 To do this, we recommend using [the SETX command](https://technet.microsoft.com/en-us/library/cc755104.aspx):
 

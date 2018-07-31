@@ -8,12 +8,12 @@ Comme le montre le schéma ci-dessous, Isogeo est constituée de deux composants
 
 * Un agent : un service Windows déployé sur un serveur (ou une station de travail) au sein de l’organisme client.
 
-![Architecture Isogeo](/images/architecture_Isogeo.png "Schéma global de l'architecture de la plateforme Isogeo")
+![Architecture Isogeo](/images/architecture_Isogeo.png "Schéma global de l&apos;architecture de la plateforme Isogeo")
 
 ## Installation et gestion des environnements
 
 La solution Isogeo fonctionne en mode SaaS sur la plateforme de *Cloud Computing* de Microsoft : Windows Azure.
-Windows Azure possède des centres dans le monde entier (cf. [chapitre Emplacements](https://azure.microsoft.com/fr-fr/regions/)). La plateforme Isogeo est entièrement hébergée dans le centre des Pays-Bas à l'exception de la base du Scan FME qui est sur [Amazon, en Irlande](https://aws.amazon.com/fr/about-aws/global-infrastructure/#Europe/Moyen-Orient/Afrique).
+Windows Azure possède des centres dans le monde entier (cf. [chapitre Emplacements](https://azure.microsoft.com/fr-fr/regions/)). La plateforme Isogeo est entièrement hébergée dans le centre des Pays-Bas à l&apos;exception de la base du Scan FME qui est sur [Amazon, en Irlande](https://aws.amazon.com/fr/about-aws/global-infrastructure/#Europe/Moyen-Orient/Afrique).
 
 Trois environnements distincts permettent de gérer les développements, les tests et la production :
 
@@ -78,45 +78,45 @@ Seules les mises à jour de l’exécutable peuvent requérir l’intervention d
 * L’accès aux données est entièrement configurable par l’organisme. Il suffit d’indiquer à l’exécutable les bases de données et les répertoires auquel il peut accéder.
 
 * L’accès aux données dépend du type de stockage des données :
-    * Système de Gestion de Base de Données (SGBD) : tous systèmes d'exploitation.
-    * Fichiers : il faut pouvoir mettre à disposition du service un partage de type Windows (protocole SMB). De plus, il est préférable qu'ils soient hébergés sur un OS de type serveur.
+    * Système de Gestion de Base de Données (SGBD) : tous systèmes d&apos;exploitation.
+    * Fichiers : il faut pouvoir mettre à disposition du service un partage de type Windows (protocole SMB). De plus, il est préférable qu&apos;ils soient hébergés sur un OS de type serveur.
 
-* L'accès aux données est en lecture seule, mais certains fournisseurs d’accès aux données requièrent un accès en lecture/écriture. La donnée géographique n’est pas modifiée, mais des mises à jour de fichiers d’index ou d’informations techniques peuvent demander des accès en écriture.
+* L&apos;accès aux données est en lecture seule, mais certains fournisseurs d’accès aux données requièrent un accès en lecture/écriture. La donnée géographique n’est pas modifiée, mais des mises à jour de fichiers d’index ou d’informations techniques peuvent demander des accès en écriture.
 
 * L’agent ne stocke pas d’informations pour lui-même. Cependant il peut être amené à générer des fichiers temporaires potentiellement volumineux dont il assure le nettoyage de façon automatique.
 
 ## Démarche de qualité logicielle
 
-La qualité est l'un des axes majeurs de développement d'Isogeo. A ce sujet, nous recommandons la lecture de [l'article (en anglais) du directeur technique sur les processus à l'oeuvre pour garantir la qualité du développement](http://blog.isogeo.com/software-quality-assurance-the-road-to-zero-defects), dont il est proposé une traduction partielle ci-après.
+La qualité est l&apos;un des axes majeurs de développement d&apos;Isogeo. A ce sujet, nous recommandons la lecture de [l&apos;article (en anglais) du directeur technique sur les processus à l&apos;oeuvre pour garantir la qualité du développement](http://blog.isogeo.com/software-quality-assurance-the-road-to-zero-defects), dont il est proposé une traduction partielle ci-après.
 
 ### Intégration continue
-Pour chacune des modifications de code (commits), l'intégration continue contrôle :
+Pour chacune des modifications de code (commits), l&apos;intégration continue contrôle :
 
-* le code source se doit d'être cohérent, c'est-à-dire qu'il ne doit pas casser le processus de compilation de l'application. Cela permet d'assurer que les versions de l'application synchronisées en local ne posent pas de problème aux autres développeurs.
+* le code source se doit d&apos;être cohérent, c&apos;est-à-dire qu&apos;il ne doit pas casser le processus de compilation de l&apos;application. Cela permet d&apos;assurer que les versions de l&apos;application synchronisées en local ne posent pas de problème aux autres développeurs.
 
-* l'application en sortie correspond à des critères de qualité basiques :
+* l&apos;application en sortie correspond à des critères de qualité basiques :
     + elle doit passer tous les [tests unitaires](http://www.extremeprogramming.org/rules/unittests.html) ;
-    + elle doit répondre aux chartes internes, qui s'appuient sur un ensemble d'outils dédiés ([FxCop](https://msdn.microsoft.com/en-us/library/bb429476%28v=vs.80%29.aspx) or [JSHint](http://jshint.com/)).
+    + elle doit répondre aux chartes internes, qui s&apos;appuient sur un ensemble d&apos;outils dédiés ([FxCop](https://msdn.microsoft.com/en-us/library/bb429476%28v=vs.80%29.aspx) or [JSHint](http://jshint.com/)).
 
-Tous les développeurs sont chargés de surveiller l'état de l'intégration continue et corriger immédiatement le moindre problème.
+Tous les développeurs sont chargés de surveiller l&apos;état de l&apos;intégration continue et corriger immédiatement le moindre problème.
 
-![Intégration continue](/images/architecture_ContinuousBuild.png "Le processus d'intégration continue")
+![Intégration continue](/images/architecture_ContinuousBuild.png "Le processus d&apos;intégration continue")
 
 La configuration du serveur de compilation peut être simple en observant quelques bonnes pratiques :
 
-* des conventions qui définissent comment sont organisés les dossiers des projets (certains dossiers de fichiers sont là dans un certain but). C'est également très important pour les développeurs qui peuvent ainsi passer d'un projet à un autre sans perdre leurs repères.
+* des conventions qui définissent comment sont organisés les dossiers des projets (certains dossiers de fichiers sont là dans un certain but). C&apos;est également très important pour les développeurs qui peuvent ainsi passer d&apos;un projet à un autre sans perdre leurs repères.
 
-* les gestionnaires de paquets permettent de gérer facilement les dépendances ([NuGet](http://www.nuget.org/) ou [npm](https://www.npmjs.com/)). L'une d'entre elles est un ensemble de scripts commun à tous les projets qui assure la cohérence globale et le respect des conventions sus-mentionnées. Le code source de ces scripts est librement accessible sur [GitHub](https://github.com/isogeo/Isogeo.Build).
+* les gestionnaires de paquets permettent de gérer facilement les dépendances ([NuGet](http://www.nuget.org/) ou [npm](https://www.npmjs.com/)). L&apos;une d&apos;entre elles est un ensemble de scripts commun à tous les projets qui assure la cohérence globale et le respect des conventions sus-mentionnées. Le code source de ces scripts est librement accessible sur [GitHub](https://github.com/isogeo/Isogeo.Build).
 
 ### Compilation quotidienne
 
-La compilation quotidienne (*Nightly Build*) est la suite logique de l'intégration continue. Déclenchée toutes les nuit, elle repasse par les mêmes étapes et en plus :
+La compilation quotidienne (*Nightly Build*) est la suite logique de l&apos;intégration continue. Déclenchée toutes les nuit, elle repasse par les mêmes étapes et en plus :
 
-* elle crée un paquet déployable pour le projet, c'est-à-dire à même d'être déployé sur l'ensemble de nos plateformes (*Integration*, *QualityAssurance* et *Production*) en adaptant seulement la configuration a technologie utilisée pour générer ces paquets est [*Microsoft Web Deploy*](http://www.iis.net/downloads/microsoft/web-deploy) qui est tout à fait adaptée à ce genre d'usage.
+* elle crée un paquet déployable pour le projet, c&apos;est-à-dire à même d&apos;être déployé sur l&apos;ensemble de nos plateformes (*Integration*, *QualityAssurance* et *Production*) en adaptant seulement la configuration a technologie utilisée pour générer ces paquets est [*Microsoft Web Deploy*](http://www.iis.net/downloads/microsoft/web-deploy) qui est tout à fait adaptée à ce genre d&apos;usage.
 
-* elle déploie ensuite automatiquement la paquet sur la plateforme d'intégration. Auto-hébergée à Isogeo, cette plateforme peut être utilisée par les développeurs et les testeurs notamment pour s'assurer que les différents composants assemblés forment toujours une plateforme cohérente.
+* elle déploie ensuite automatiquement la paquet sur la plateforme d&apos;intégration. Auto-hébergée à Isogeo, cette plateforme peut être utilisée par les développeurs et les testeurs notamment pour s&apos;assurer que les différents composants assemblés forment toujours une plateforme cohérente.
 
-Nous avons également une plateforme de recette hébergée sur Windows Azure (tout comme la plateforme de production). Elle est utilisée pour tester la plateforme en conditions réelles avant la sortie d'une nouvelle version, tous les 3 mois. La plupart des composants déployés sur Windows Azure utilise également la technologie *Microsoft Web Deploy*, mais notre API requiert d'être packagée dans un [format Azure spécifique](https://msdn.microsoft.com/fr-fr/library/azure/gg433055.aspx). Nous utilisons donc un autre ensemble de scripts pour générer manuellement ces paquets à partir du serveur de compilation.
+Nous avons également une plateforme de recette hébergée sur Windows Azure (tout comme la plateforme de production). Elle est utilisée pour tester la plateforme en conditions réelles avant la sortie d&apos;une nouvelle version, tous les 3 mois. La plupart des composants déployés sur Windows Azure utilise également la technologie *Microsoft Web Deploy*, mais notre API requiert d&apos;être packagée dans un [format Azure spécifique](https://msdn.microsoft.com/fr-fr/library/azure/gg433055.aspx). Nous utilisons donc un autre ensemble de scripts pour générer manuellement ces paquets à partir du serveur de compilation.
 
 ![Compilation quotidienne](/images/architecture_NightlyBuild.png "Le processus de compilation quotidienne")
 

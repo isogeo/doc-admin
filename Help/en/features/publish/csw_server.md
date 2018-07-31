@@ -11,6 +11,6 @@ Proceed as follows to enable harvesting for a catalog:
 5.	Name the share;
 6.	`Create`.
 
-The URL of the CSW web service provided by Isogeo comes with a secure key (token). You can renew the service's security key. If you do, remember to inform the recipient(s) of the new URL.
+The URL of the CSW web service provided by Isogeo comes with a secure key (token). You can renew the service&apos;s security key. If you do, remember to inform the recipient(s) of the new URL.
 
 ![CSW server](/images/adm_shares_CSW_edit.png "Publishing catalogs using the CSW protocol")

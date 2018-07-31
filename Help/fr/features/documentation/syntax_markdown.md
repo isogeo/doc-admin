@@ -1,13 +1,13 @@
 # Mettre en forme les textes
 
-Toujours dans l'optique de faciliter la saisie et la consultation des catalogues de données, Isogeo permet de mettre en forme les zones de texte en utilisant la syntaxe markdown, reprise dans l'application mais aussi dans les OpenCatalogs.
+Toujours dans l&apos;optique de faciliter la saisie et la consultation des catalogues de données, Isogeo permet de mettre en forme les zones de texte en utilisant la syntaxe markdown, reprise dans l&apos;application mais aussi dans les OpenCatalogs.
 
-Un mémo est disponible sous forme de lien en regard de chaque zone de texte éditable dans l'application, mais voici une liste exhaustive de ce qu'il est possible de faire.
+Un mémo est disponible sous forme de lien en regard de chaque zone de texte éditable dans l&apos;application, mais voici une liste exhaustive de ce qu&apos;il est possible de faire.
 
 Quelques recommandations :
 * les retours à la ligne sont interprétés. Par exemple, pour ouvrir une liste à puces, il faut sauter une ligne.
 * le rendu peut ne pas être le même partout (cela dépend des implémentations) ;
-* s'en tenir à des mises en forme simples pour ne pas perdre en lisibilité ;
+* s&apos;en tenir à des mises en forme simples pour ne pas perdre en lisibilité ;
 
 
 > Astuce : cette aide en ligne est intégralement rédigée en markdown !
@@ -110,7 +110,7 @@ Ou sans numéros :
 ```no-highlight
 [Lien simple vers le site Isogeo](http://www.isogeo.com)
 
-[Lien simple vers le site Isogeo avec une référence](http://www.isogeo.com "Site d'Isogeo")
+[Lien simple vers le site Isogeo avec une référence](http://www.isogeo.com "Site d&apos;Isogeo")
 
 [Chemin relatif vers un fichier par exemple](../Isogeo.Help_fr.pdf)
 ```
@@ -119,20 +119,20 @@ Ou sans numéros :
 
 [Lien simple vers le site Isogeo](http://www.isogeo.com)
 
-[Lien simple vers le site Isogeo avec une référence](http://www.isogeo.com "Site d'Isogeo")
+[Lien simple vers le site Isogeo avec une référence](http://www.isogeo.com "Site d&apos;Isogeo")
 
 [Chemin relatif vers un fichier par exemple](../Isogeo.Help_fr.pdf)
 
 ## Images
 
-Attention il n'est pas possible de préciser les dimensions de l'image. Il faut donc lier vers une image déjà redimensionnée.
+Attention il n&apos;est pas possible de préciser les dimensions de l&apos;image. Il faut donc lier vers une image déjà redimensionnée.
 
 #### Syntaxe
 
 ```no-highlight
-![Texte alternatif](https://www.isogeo.com/images/logo.png "Titre de l'image")
+![Texte alternatif](https://www.isogeo.com/images/logo.png "Titre de l&apos;image")
 ```
 
 #### Rendu
 
-![Texte alternatif](https://www.isogeo.com/images/logo.png "Titre de l'image")
+![Texte alternatif](https://www.isogeo.com/images/logo.png "Titre de l&apos;image")

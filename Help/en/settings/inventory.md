@@ -9,13 +9,13 @@ The [inventory](https://app.isogeo.com/inventory) interface is used for searchin
 It contains:
 
 * the records created automatically by a scan;
-* the records created manually by one of your workgroup's members
+* the records created manually by one of your workgroup&apos;s members
 ;* the records created by other Isogeo workgroups and subsequently shared with your workgroup;
 * the records harvested via a CSW service.
 
 ## The interface
 
-![Record header](/images/inv_global.png "Information displayed in a record's header (in list mode)")
+![Record header](/images/inv_global.png "Information displayed in a record&apos;s header (in list mode)")
 
 Under the menu bar, the actions bar can be used to do the following (from left to right):
 
@@ -39,7 +39,7 @@ At the bottom left, you can select the number of items displayed per page:
 
 ## Metadata record header
 
-![Record header](/images/inv_ressource_header.png "The information displayed in a record's header (in list mode)")
+![Record header](/images/inv_ressource_header.png "The information displayed in a record&apos;s header (in list mode)")
 
 * record owner: <span style="color:#C09E7E">in brown,</span>
 * resource type (vector, raster, data series, other): <span style="color:#8FB39B">in green</span>

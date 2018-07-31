@@ -16,13 +16,13 @@ After confirming, you are given a download link. Click this link to download the
 
 1.	Unzip the downloaded (zip file) archive to a folder of your choice on your machine. You can choose any location for this folder, but make sure you remember it, and do not change it once you have completed the installation; otherwise you may need to start over. For example, choose folder C:\Program files\Isogeo (provided you have the necessary permissions).
 
-    ![Contenu de l'archive du service](/images/scanFME_install_content.png "Décompresser l'archive zip du service dans le dossier Isogeo")
+    ![Contenu de l&apos;archive du service](/images/scanFME_install_content.png "Décompresser l&apos;archive zip du service dans le dossier Isogeo")
 
 2.	Open the "daemon" folder.
 
 3.	Right-click on "install.bat," then choose "Run as administrator."
 
-    ![Installer avec des droits d'administrateur](/images/scanFME_install_RunAsAdmin.png "Installer le service avec les droits d'administration")
+    ![Installer avec des droits d&apos;administrateur](/images/scanFME_install_RunAsAdmin.png "Installer le service avec les droits d&apos;administration")
 
 A pop-up window will indicate that the service is being installed then started. This window will close automatically.
 

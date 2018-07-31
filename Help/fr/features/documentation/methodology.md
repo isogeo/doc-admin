@@ -4,13 +4,13 @@ Pour créer et partager un catalogue exhaustif et documenté de vos données SIG
 
 ## Processus global d’un projet de catalogage
 
-![Les grandes étapes de la méthodologie](/images/method_schema_cataloging_micro.png "Les étapes d'un projet de catalogage")
+![Les grandes étapes de la méthodologie](/images/method_schema_cataloging_micro.png "Les étapes d&apos;un projet de catalogage")
 
 Ce processus de travail doit être compris avec une dimension itérative. L’objectif est d’aborder la gestion du patrimoine de données de façon progressive : commencer par boucler le processus sur un échantillon de données puis capitaliser dessus pour adapter les règles de catalogage en rebouclant sur le processus.
 
 Petit à petit, vous gagnerez en automatisme et le temps imparti au catalogage sera réduit au maximum.
 
-## Les cycles d'une documentation efficace
+## Les cycles d&apos;une documentation efficace
 
 Plus concrètement, voici comment nous vous conseillons de procéder pour avancer facilement dans le catalogage :
 

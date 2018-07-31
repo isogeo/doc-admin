@@ -13,7 +13,7 @@ To create a contact, simply proceed as follows:
 3.	Enter or edit the appropriate contact details;
 4.	Click on `Create`, `Save` or `Delete`.
 
-All contacts created can be assigned to metadata records using a metadata record's "Contact" tab.
+All contacts created can be assigned to metadata records using a metadata record&apos;s "Contact" tab.
 
 ![New contact demo](/images/adm_contacts_add.gif "Creating a new contact")
 

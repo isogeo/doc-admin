@@ -1,8 +1,8 @@
 # Gérer les licences <i class="fa fa-legal"></i>
 
-Les conditions d'accès et d'utilisation d'une donnée constituent une information aussi essentielle que délicate à renseigner. Pour s'en convaincre, on peut renvoyer vers le [chapitre dédié des recommandations nationales](http://georezo.net/wiki/main/donnees/inspire/aide_a_la_saisie_des_metadonnees_inspire#contraintes_en_matiere_d_acces_et_d_utilisation).
+Les conditions d&apos;accès et d&apos;utilisation d&apos;une donnée constituent une information aussi essentielle que délicate à renseigner. Pour s&apos;en convaincre, on peut renvoyer vers le [chapitre dédié des recommandations nationales](http://georezo.net/wiki/main/donnees/inspire/aide_a_la_saisie_des_metadonnees_inspire#contraintes_en_matiere_d_acces_et_d_utilisation).
 
-Pour porter à connaissance de vos utilisateurs cette précieuse information et faciliter énormément le travail de documentation, Isogeo vous permet de gérer un référentiel de licences dans lequel vous pouvez par exemple ajouter vos conventions d'échanges de données.
+Pour porter à connaissance de vos utilisateurs cette précieuse information et faciliter énormément le travail de documentation, Isogeo vous permet de gérer un référentiel de licences dans lequel vous pouvez par exemple ajouter vos conventions d&apos;échanges de données.
 
 Plus besoin de réviser chacune de vos fiches. Du temps de gagné, des métadonnées de qualité !
 
@@ -10,12 +10,12 @@ Plus besoin de réviser chacune de vos fiches. Du temps de gagné, des métadonn
 
 ## Les différentes licences
 
-Par défaut, Isogeo propose un certain nombre de licences de référence. Elles sont identifiables facilement grâce à l'icône de cadenas en regard du titre dans la liste.
+Par défaut, Isogeo propose un certain nombre de licences de référence. Elles sont identifiables facilement grâce à l&apos;icône de cadenas en regard du titre dans la liste.
 
 Grâce aux onglets, vous pouvez filtrer :
 * [`Mes licences`](https://app.isogeo.com/admin/licenses/owned) : seulement les licences de votre groupe de travail ;
 * [`Autres`](https://app.isogeo.com/admin/licenses/shared) : les licences disponibles par défaut par Isogeo ;
-* `Toutes` : l'ensemble des licences.
+* `Toutes` : l&apos;ensemble des licences.
 
 ## Ajouter une licence
 
@@ -29,7 +29,7 @@ Pour ajouter une licence au sein de votre groupe de travail, il vous suffit de :
     * et un résumé des conditions (libre ou pas, payant ou pas, restreint ou pas, etc.).
 4.	Cliquer sur `Créer`, `Enregistrer` ou `Supprimer`.
 
-Toutes les licences ajoutées sont disponibles dans l’onglet `CGU` > `Conditions` lors de l'édition d'une fiche de métadonnées.
+Toutes les licences ajoutées sont disponibles dans l’onglet `CGU` > `Conditions` lors de l&apos;édition d&apos;une fiche de métadonnées.
 
 ![Démo nouvelle licence](/images/adm_licenses_add.gif "Ajouter une nouvelle licence")
 

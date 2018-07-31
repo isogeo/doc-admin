@@ -1,6 +1,6 @@
 # "History" tab
 
-The "History" tab describes the data's creation context and method. It provides chronological information about all data events that have occurred (creation, update, publication, etc.). It also allows for entering the data's validity period and update frequency.
+The "History" tab describes the data&apos;s creation context and method. It provides chronological information about all data events that have occurred (creation, update, publication, etc.). It also allows for entering the data&apos;s validity period and update frequency.
 
 ![Single edition - History](/images/inv_edit_one_history.png "Single edition - History tab")
 
@@ -9,7 +9,7 @@ The "History" tab describes the data's creation context and method. It provides 
 | Definition                 | Purpose of collection |
 | :------------------------- | :---------------------- |
 | Indications                | Indicate why and in what context this data was produced |
-| Example                    | The CARTO® database is one of the major databases produced by France's National Geographic Institute. It first saw the light of day in the 1980s with the development of powerful data processing tools that opened up new avenues for the computerized management and analysis of localized data.<br /><br />It lends itself particularly well to thematic mapping as well as to studies for design, infrastructure management and land-use planning, both at France's departmental and regional levels. |
+| Example                    | The CARTO® database is one of the major databases produced by France&apos;s National Geographic Institute. It first saw the light of day in the 1980s with the development of powerful data processing tools that opened up new avenues for the computerized management and analysis of localized data.<br /><br />It lends itself particularly well to thematic mapping as well as to studies for design, infrastructure management and land-use planning, both at France&apos;s departmental and regional levels. |
 | INSPIRE requirement   | Mandatory                   |
 | Batch edition     | Yes, by overwriting           |
 | Scan                | No        |
@@ -20,7 +20,7 @@ The "History" tab describes the data's creation context and method. It provides 
 | Definition                 | Method and means used to create and update the data |
 | :------------------------- | :------------------------------------- |
 | Indications                | Indicate how the data was created, based on which data (aerial orthophotography, CAD, etc.), using which technologies (GPS, LiDAR, digitization, etc.) and which tools. |
-| Example                    | The CARTO® database was established based on:<br />- the digitization of the IGN's 1:50,000 maps,<br />- SPOT satellite imaging. |
+| Example                    | The CARTO® database was established based on:<br />- the digitization of the IGN&apos;s 1:50,000 maps,<br />- SPOT satellite imaging. |
 | INSPIRE requirement   | Mandatory                   |
 | Batch edition     | Yes, by overwriting           |
 | Scan                | No        |

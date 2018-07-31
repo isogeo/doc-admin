@@ -2,13 +2,13 @@
 
 En cliquant sur votre nom en haut à droite de votre écran, vous pouvez visualiser et modifier les différents paramètres de votre compte Isogeo. Par défaut vous arrivez sur la page de vos réglages.
 
-> Astuce : il est aussi possible d'y accéder directement via : https://app.isogeo.com/settings/account
+> Astuce : il est aussi possible d&apos;y accéder directement via : https://app.isogeo.com/settings/account
 
-![Gestion compte utilisateur](/images/user_profile_options.png "Paramétrer son compte d'utilisateur Isogeo")
+![Gestion compte utilisateur](/images/user_profile_options.png "Paramétrer son compte d&apos;utilisateur Isogeo")
 
 ## Langue et fuseau horaire
 
-Pour l'instant, Isogeo est disponible en 2 langues :
+Pour l&apos;instant, Isogeo est disponible en 2 langues :
 * Anglais ;
 * Français.
 

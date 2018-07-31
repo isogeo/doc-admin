@@ -2,7 +2,7 @@
 
 ## Navigateurs supportés
 
-Pour accéder à Isogeo, nous garantissons que vous pouvez utiliser l'un des navigateurs suivants :
+Pour accéder à Isogeo, nous garantissons que vous pouvez utiliser l&apos;un des navigateurs suivants :
 
 * [Mozilla Firefox ESR](https://www.mozilla.org/en-US/firefox/organizations/faq/) 45 et + ;
 * [Google Chrome](https://www.google.fr/chrome/browser/desktop/) 48 et + ;
@@ -14,11 +14,11 @@ Pour accéder à un OpenCatalog, les navigateurs supportés sont :
 * [Google Chrome](https://www.google.fr/chrome/browser/desktop/) 48 et + ;
 * [Internet Explorer 9](http://windows.microsoft.com/fr-fr/internet-explorer/download-ie)  et + ;
 
-Si votre navigateur n'est pas supporté, voici le message qui s'affiche alors :
+Si votre navigateur n&apos;est pas supporté, voici le message qui s&apos;affiche alors :
 
-![Alerte navigateur](/images/OC_browser_alert.png "Message qui s'affiche en cas de navigateur non supporté")
+![Alerte navigateur](/images/OC_browser_alert.png "Message qui s&apos;affiche en cas de navigateur non supporté")
 
-Il n'est pas bloquant mais demeure visible en bas à droite sous la forme d'un poijnt d'exclamation pour rappeler que les conditions de navigation ne sont pas optimales.
+Il n&apos;est pas bloquant mais demeure visible en bas à droite sous la forme d&apos;un poijnt d&apos;exclamation pour rappeler que les conditions de navigation ne sont pas optimales.
 
 > Astuce : si vous ou vos utilisateurs ne possèdent pas les droits suffisants pour mettre à jour le navigateur, vous pouvez utiliser une version portable (sans installation mais aux performances réduites) de [Mozilla Firefox](http://portableapps.com/apps/internet/firefox_portable/localization).
 

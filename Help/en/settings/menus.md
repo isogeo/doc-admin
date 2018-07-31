@@ -16,7 +16,7 @@ A spinning wheel displays between the logo and the search bar when the platform 
 
 ![Loader](/images/loader.gif "Load icon")
 
-> Tip: Don't click while the wheel is spinning! If it does not stop turning, reload the page. (Isogeo proverb)
+> Tip: Don&apos;t click while the wheel is spinning! If it does not stop turning, reload the page. (Isogeo proverb)
 
 ## Search and filters
 
@@ -30,7 +30,7 @@ For more details on inventory search and navigation, see [the dedicated chapter]
 
 ![The 3 menus](/images/all_header_bar_menus.png "Inventory, Dashboard and Administration")
 
-Isogeo's functions are accessed via 3 menus:
+Isogeo&apos;s functions are accessed via 3 menus:
 
 * The [`Inventory`](/en/settings/inventory.html) menu is used to access your metadata and edit functions;
 * The [`Dashboard`](/en/settings/dashboard.html) menu gives administrators an overview of your inventory;
@@ -54,4 +54,4 @@ On the far right, you can access online help via the white question mark in a bl
 
 ## Credits and version number
 
-At the bottom of the interface, you can see the platform's credits and the version number.
+At the bottom of the interface, you can see the platform&apos;s credits and the version number.

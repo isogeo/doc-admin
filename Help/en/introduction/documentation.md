@@ -9,7 +9,7 @@ In compliance with the formalism laid down by the INSPIRE directive and the inte
 
 * **Classify**: assigning sets of themes and keywords using a customizable thesaurus. Essential for cataloging, this step facilitates the subsequent data search.
 
-* **Associate**: associating services with the data (PDF map, interactive map, download link, website, etc.). This operation transforms the metadata into a veritable 'resource concentrator' and allows your users to easily access the data.
+* **Associate**: associating services with the data (PDF map, interactive map, download link, website, etc.). This operation transforms the metadata into a veritable &apos;resource concentrator&apos; and allows your users to easily access the data.
 
 | ![Easy-to-use](/images/icone_simple_bleu_140px.png "User-friendly and easy-to-use") | ![Multi-user](/images/icone_multiuser_bleu_140px.png "Multi-account management") | ![Dashboard](/images/icone_tdb_bleu_140px.png "Dashboard") | ![INSPIRE-compatible](/images/icone_inspire_bleu_140px.png "Interoperability with standards") |
 | :--: | :-- | :--: | :--: |

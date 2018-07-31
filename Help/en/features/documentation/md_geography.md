@@ -1,6 +1,6 @@
 # "Geography" tab
 
-The "Geography" tab displays the data's bounding box on a map. It shows the data format, the number of entities, the geometry type, the coordinate system, the bounding box coordinates, the data scale and resolution.
+The "Geography" tab displays the data&apos;s bounding box on a map. It shows the data format, the number of entities, the geometry type, the coordinate system, the bounding box coordinates, the data scale and resolution.
 
 ![Single edition - Geography](/images/inv_edit_one_geography.png "Single edition - Geography tab")
 
@@ -17,7 +17,7 @@ The "Geography" tab displays the data's bounding box on a map. It shows the data
 
 > Tip: if the scan does not automatically recognize the convex envelope, refer to [the corresponding appendix](/en/appendices/scan_srsnotfound_fme_fix.html).
 
-To manually draw the data's bounding box on the map:
+To manually draw the data&apos;s bounding box on the map:
 
 1.	Click on "Edit."
 2.	On the map, choose the "Draw a polygon" or "Draw a rectangle" tool.

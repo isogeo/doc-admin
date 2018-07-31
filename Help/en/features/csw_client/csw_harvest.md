@@ -4,7 +4,7 @@ If you manage a data catalog that can be harvested using CSW and you want to ret
 
 ## About CSW nodes
 
-For the purpose of researching and viewing metadata, France's national GeoCatalog is the preferred node of the national Spatial Data Infrastructure (SDI). Its metadatabase is used for reports by France on the implementation of the INSPIRE directive.
+For the purpose of researching and viewing metadata, France&apos;s national GeoCatalog is the preferred node of the national Spatial Data Infrastructure (SDI). Its metadatabase is used for reports by France on the implementation of the INSPIRE directive.
 
 Public authorities that possess geographical data and services within the scope of the INSPIRE initiative are encouraged to populate the GeoCatalog. Three methods are available for this purpose:
 
@@ -32,4 +32,4 @@ These records cannot be modified since we assume that they are still managed in 
 Comments:
 
 * CSW harvesting follows the same operating rules as XML ISO 19139 import described in the chapter "Importing existing metadata";
-* The XML ISO 19139 available in the record's "Resources" tab is identical to the original (even if it is invalid).
+* The XML ISO 19139 available in the record&apos;s "Resources" tab is identical to the original (even if it is invalid).

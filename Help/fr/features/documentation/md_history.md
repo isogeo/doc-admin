@@ -2,7 +2,7 @@
 
 L’onglet « Histoire » décrit le contexte et la méthode de création de la donnée et retrace chronologiquement tous les évènements survenus sur la donnée (création, mise à jour, publication, etc.). Il permet également d’indiquer la période de validité de la donnée et la fréquence de mise à jour
 
-![Edition unitaire - Histoire](/images/inv_edit_one_history.png "L'édition unitaire - onglet Histoire")
+![Edition unitaire - Histoire](/images/inv_edit_one_history.png "L&apos;édition unitaire - onglet Histoire")
 
 _________
 
@@ -11,7 +11,7 @@ _________
 | Définition                 | Objectif de la collecte |
 | :------------------------- | :---------------------- |
 | Indications                | Indiquer pourquoi et dans quel cadre cette donnée a été produite |
-| Exemple                    | La BD CARTO® est l'une des grandes bases de données produites par l'Institut Géographique National. Elle est née au milieu des années 80 avec le développement d’outils informatiques puissants qui ouvraient de nouvelles perspectives de gestion et d’analyse informatisées des données localisées.<br /><br />Elle est particulièrement adaptée à la cartographie de synthèse et aux applications d’études de projet, de gestion d’infrastructures et d’aménagement du territoire, au niveau départemental et régional. |
+| Exemple                    | La BD CARTO® est l&apos;une des grandes bases de données produites par l&apos;Institut Géographique National. Elle est née au milieu des années 80 avec le développement d’outils informatiques puissants qui ouvraient de nouvelles perspectives de gestion et d’analyse informatisées des données localisées.<br /><br />Elle est particulièrement adaptée à la cartographie de synthèse et aux applications d’études de projet, de gestion d’infrastructures et d’aménagement du territoire, au niveau départemental et régional. |
 | Exigence INSPIRE           | Obligatoire         |
 | Edition par lot            | Oui, par écrasement |
 | Scan                       | Non                 |
@@ -55,7 +55,7 @@ _________
 
 | Définition                 | Précisions complémentaires |
 | :------------------------- | :------------------------- |
-| Indications                | Champ libre pour apporter des précisions sur l'étendue temporelle ou tout autre information. |
+| Indications                | Champ libre pour apporter des précisions sur l&apos;étendue temporelle ou tout autre information. |
 | Exemple                    | La mise à jour des données est réalisée de façon irrégulière, au gré des demandes de révision du PLU  |
 | Exigence INSPIRE           | Facultatif          |
 | Edition par lot            | Oui, par écrasement |
@@ -70,7 +70,7 @@ _________
 
 | Définition                 | Intervalle de temps entre les mises à jour de la donnée |
 | :------------------------- | :------------------------------------------------------ |
-| Indications                | Rythme d'actualisation de la donnée. L'objectif est de fournir une information sur la stabilité des versions de la donnée, si elle est millésimée (livraisons régulières) ou mise à jour en continu avec un intervalle moyen ou inconnu. |
+| Indications                | Rythme d&apos;actualisation de la donnée. L&apos;objectif est de fournir une information sur la stabilité des versions de la donnée, si elle est millésimée (livraisons régulières) ou mise à jour en continu avec un intervalle moyen ou inconnu. |
 | Exemple                    | Tous les 1 an(s)    |
 | Exigence INSPIRE           | Obligatoire         |
 | Edition par lot            | Oui, par écrasement |
@@ -83,12 +83,12 @@ _________
 
 ## <i class="fa fa-calendar"></i> Evénements {#dataset_events}
 
-> Astuce : pour bien différencier les différentes dates des données et métadonnées, consulter [l'annexe **Les dates dans Isogeo**](../../appendices/different_dates.html).
+> Astuce : pour bien différencier les différentes dates des données et métadonnées, consulter [l&apos;annexe **Les dates dans Isogeo**](../../appendices/different_dates.html).
 
 | Définition                 | Historique des dates clés sur la vie de la donnée |
 | :------------------------- | :------------------------------------------------ |
-| Indications                | Ces dates rendent compte de la vie de la donnée. Elles peuvent être de 3 types (correspondant à 3 couleurs) : <br /><br />- création (vert, unique, manuelle) : quand la donnée a été créée la toute première fois. Il ne s'agit pas de la date de référence du phénomène décrit. Typiquement, si la série de données est une photographie prise le 15 mai 2000 d’un monument historique datant de 1920, la date de création de la ressource est le 15 mai 2000, pas 1920 ;<br /><br />- modification (bleu, multiple, auto et manuelle) : indique une révision de la donnée. Le scan crée automatiquement l'événement si des modifications sont détectées sur la géométrie, les attributs ou la projection ;<br /><br />- publication (gris, multiple, manuelle) :  date à laquelle la ressource est disponible ou la date d’entrée en vigueur.|
-| Exemple                    | ![Onglet histoire - événements](/images/inv_edit_one_history_events_512px.png "La gestion des événements de la vie d'une donnée") |
+| Indications                | Ces dates rendent compte de la vie de la donnée. Elles peuvent être de 3 types (correspondant à 3 couleurs) : <br /><br />- création (vert, unique, manuelle) : quand la donnée a été créée la toute première fois. Il ne s&apos;agit pas de la date de référence du phénomène décrit. Typiquement, si la série de données est une photographie prise le 15 mai 2000 d’un monument historique datant de 1920, la date de création de la ressource est le 15 mai 2000, pas 1920 ;<br /><br />- modification (bleu, multiple, auto et manuelle) : indique une révision de la donnée. Le scan crée automatiquement l&apos;événement si des modifications sont détectées sur la géométrie, les attributs ou la projection ;<br /><br />- publication (gris, multiple, manuelle) :  date à laquelle la ressource est disponible ou la date d’entrée en vigueur.|
+| Exemple                    | ![Onglet histoire - événements](/images/inv_edit_one_history_events_512px.png "La gestion des événements de la vie d&apos;une donnée") |
 | Exigence INSPIRE           | Obligatoire si la période de validité n’est pas renseignée et fortement recommandé |
 | Edition par lot            | Oui par incrémentation, pour les dates de modification et de publication |
 | Scan                       | Oui, pour les dates de modification |
@@ -96,4 +96,4 @@ _________
 | Fiche ressource            | Oui                                 |
 | Fiche service              | Oui                                 |
 
-> Astuce : chaque événement étant une sous-ressource de la métadonnée, il faut enregistrer les modifications de chaque événement avant d'enregistrer les modifications au niveau de la ressource, sans quoi les modifications seront perdues !
+> Astuce : chaque événement étant une sous-ressource de la métadonnée, il faut enregistrer les modifications de chaque événement avant d&apos;enregistrer les modifications au niveau de la ressource, sans quoi les modifications seront perdues !

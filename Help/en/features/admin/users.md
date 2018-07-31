@@ -1,7 +1,7 @@
 # Managing users
 
 Isogeo makes a distinction between three user profiles:
-* `The Administrator`, who has full access to all the application's functions. The Administrator manages users and their permissions, elements shared at the workgroup level, data inventorying, inventory updates, catalogs, shares, publishing, and can enter metadata.
+* `The Administrator`, who has full access to all the application&apos;s functions. The Administrator manages users and their permissions, elements shared at the workgroup level, data inventorying, inventory updates, catalogs, shares, publishing, and can enter metadata.
 
 * The `Writer`, who can enter and modify metadata, and search for and use this data using the associated services and resources.
 
@@ -15,7 +15,7 @@ Proceed as follows to invite a new user:
 
 1. Go to [the dedicated menu](https://app.isogeo.com/admin/users);
 2. Click on [the `+ Invite` tab](https://app.isogeo.com/admin/users/invitations/new);
-3. Enter the user's Email address;
+3. Enter the user&apos;s Email address;
 4. Choose the access level (Role);
 5. Click on `Invite`.
 

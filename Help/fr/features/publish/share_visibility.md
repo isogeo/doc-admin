@@ -40,7 +40,7 @@ Dans l’ordre, nous avons :
 
     ![Submersion marine 1](/images/adm_shares_OC_demo_Geolittoral1.png "En plus du lien de téléchargement, on a accès au WMS")
 
-8.	Créé un partage OpenCatalog pour l'interne dans lequel on a mis le catalogue GéoLittoral avec le catalogue « utilisateurs avertis (niveau 1)» et le catalogue « agents internes (niveau 2)» : [la fiche est consultable ici](http://open.isogeo.com/s/d61fe9892eb345e7b6840bbfc4cf5733/zuD9LtBEXRi7ynIXyRyWIy4hC0xz0/m/cb71d8f42ba44788b348b5bc9f79e58c).
+8.	Créé un partage OpenCatalog pour l&apos;interne dans lequel on a mis le catalogue GéoLittoral avec le catalogue « utilisateurs avertis (niveau 1)» et le catalogue « agents internes (niveau 2)» : [la fiche est consultable ici](http://open.isogeo.com/s/d61fe9892eb345e7b6840bbfc4cf5733/zuD9LtBEXRi7ynIXyRyWIy4hC0xz0/m/cb71d8f42ba44788b348b5bc9f79e58c).
 
     ![Submersion marine 2](/images/adm_shares_OC_demo_Geolittoral2.png "Accès aux 3 ressources : téléchargement, WMS et WFS")
 
@@ -76,6 +76,6 @@ Dans l’ordre, nous avons :
 
 3.	Créer OpenCatalog. Si la fiche sur la ressource et la fiche sur les jeux de données sont dans le même partage, les liens associés à la 1ère seront visibles ;
 
-Bonne pratique : créer un catalogue des ressources par niveau d'usage.
+Bonne pratique : créer un catalogue des ressources par niveau d&apos;usage.
 
 ![Schéma affichage différencié](/images/resources_DifferentDisplays_schema.png "Accès aux 3 ressources : téléchargement, WMS et WFS")

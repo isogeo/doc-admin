@@ -23,14 +23,14 @@ ____
 
 ## Les services géographiques standardisés OGC
 
-* le [fonctionnement d'une URL WMS sur Wikipédia](https://fr.wikipedia.org/wiki/Web_Map_Service) ;
+* le [fonctionnement d&apos;une URL WMS sur Wikipédia](https://fr.wikipedia.org/wiki/Web_Map_Service) ;
 * le [paramètre GetCapabilities sur le wiki de GeoRezo](http://georezo.net/wiki/main/standards/wms#les_operations_du_wms).
 
 ____
 
 ## Standards et références
 
-Pour savoir dans le détail sur quelles bases sont basées l'implémentation des métadonnées de services dans Isogeo, les standards et guides de référence sont listés ci-dessous :
+Pour savoir dans le détail sur quelles bases sont basées l&apos;implémentation des métadonnées de services dans Isogeo, les standards et guides de référence sont listés ci-dessous :
 
 | Standard  | Référence et lien 								|
 | :-------- | :------------------------------------------------ |

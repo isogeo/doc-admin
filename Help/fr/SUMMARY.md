@@ -12,7 +12,7 @@
 ## Accès, compte et groupes
 
 * [Mon compte Isogeo](start/README.md)
-* [S'inscrire](start/signup.md)
+* [S&apos;inscrire](start/signup.md)
 * [Se connecter](start/login.md)
 * [Mes groupes de travail](start/group_switch.md)
 * [Mes options](start/account.md)
@@ -24,8 +24,8 @@
 * [Prise en main](settings/README.md)
 * [Interface globale](settings/menus.md)
 * [Le tableau de bord](settings/dashboard.md)
-* [L'administration](settings/administration.md)
-* [L'inventaire](settings/inventory.md)
+* [L&apos;administration](settings/administration.md)
+* [L&apos;inventaire](settings/inventory.md)
 * [La recherche](features/inventory/search.md)
 
 ## Recenser
@@ -34,7 +34,7 @@
 
 * [Recenser](features/scan_fme/README.md)
 * [Scanner les données géographiques](features/scan_fme/scanFME_process.md)
-    * [Points d'entrée](features/scan_fme/scanFME_new_db.md)
+    * [Points d&apos;entrée](features/scan_fme/scanFME_new_db.md)
     * [Formats pris en compte](features/scan_fme/scanFME_formats.md)
 * [Scanner les services géographiques](features/inventory/md_services/srv_intro.md)
     * [Recenser les services](features/inventory/md_services/srv_howto.md)
@@ -49,7 +49,7 @@
 * [Introduction](features/documentation/README.md)
 * [Eléments méthodologiques](features/documentation/methodology.md)
 * [Les champs complétés automatiquement](features/documentation/md_fields_autos.md)
-* [Importer l'existant](features/documentation/md_import.md)
+* [Importer l&apos;existant](features/documentation/md_import.md)
 * [Etiqueter - classer les données](features/documentation/md_classify.md)
 * [Editer (et supprimer) par lot](features/documentation/md_edit_batch.md)
 * [Identification](features/documentation/md_identification.md)
@@ -70,11 +70,11 @@
 * [Introduction](features/publish/README.md)
 * [Lier des services géographiques](features/publish/webservices.md)
 * [Lier les données à télécharger](features/publish/hosting.md)
-* [Partager avec d'autres groupes](features/publish/share_platform.md)
+* [Partager avec d&apos;autres groupes](features/publish/share_platform.md)
 * [Diffuser en CSW](features/publish/csw_server.md)
 * [Diffuser avec OpenCatalog](features/publish/share_opencatalog.md)
-* [Régler l'affichage des liens selon les usages](features/publish/share_visibility.md)
-* [Utiliser vos catalogues dans d'autres interfaces](features/publish/usages_api.md)
+* [Régler l&apos;affichage des liens selon les usages](features/publish/share_visibility.md)
+* [Utiliser vos catalogues dans d&apos;autres interfaces](features/publish/usages_api.md)
 
 ## Administrer
 
@@ -83,7 +83,7 @@
 * [Les utilisateurs](features/admin/users.md)
 * [Les catalogues](features/admin/catalogs.md)
 * [Les partages](features/admin/shares.md)
-* [Le carnet d'adresses](features/admin/contacts.md)
+* [Le carnet d&apos;adresses](features/admin/contacts.md)
 * [Les licences](features/admin/licenses.md)
 * [Les mots-clés](features/admin/keywords.md)
 * [Les spécifications](features/admin/specifications.md)
@@ -93,7 +93,7 @@
 
 * [Installation du service Isogeo Worker (FME)](features/scan_fme/installation/README.md)
    * [Prérequis](features/scan_fme/installation/prerequisites.md)
-   * [Déploiement d'un service](features/scan_fme/installation/setup.md)
+   * [Déploiement d&apos;un service](features/scan_fme/installation/setup.md)
    * [Désinstaller](features/scan_fme/installation/uninstall.md)
    * [Mettre à jour](features/scan_fme/installation/update.md)
    * [Questions et erreurs fréquentes](features/scan_fme/installation/faq.md)

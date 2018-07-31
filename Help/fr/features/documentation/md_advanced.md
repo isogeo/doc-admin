@@ -2,13 +2,13 @@
 
 L’onglet « Avancé » permet de spécifier le format, la version du format et l’encodage des caractères de la donnée.
 
-![Edition unitaire - Avancé](/images/inv_edit_one_advanced.png "L'édition unitaire - onglet Avancé")
+![Edition unitaire - Avancé](/images/inv_edit_one_advanced.png "L&apos;édition unitaire - onglet Avancé")
 
 ### Type de ressource
 
 | Définition          | Type de ressource renseigné                       |
 | :------------------ | :------------------------------------------------ |
-| Indications         | Il s'agit d'indiquer s'il s'agit d'un jeu de données ou d'un ensemble de données. Dans Isogeo, les modèles sont clairement différenciés au moment de la création de la fiche de métadonnée (manuelle ou automatique). |
+| Indications         | Il s&apos;agit d&apos;indiquer s&apos;il s&apos;agit d&apos;un jeu de données ou d&apos;un ensemble de données. Dans Isogeo, les modèles sont clairement différenciés au moment de la création de la fiche de métadonnée (manuelle ou automatique). |
 | Exigence INSPIRE    | Obligatoire                   |
 | Edition par lot     | Oui, par écrasement           |
 | Scan                | Oui                           |
@@ -25,7 +25,7 @@ L’onglet « Avancé » permet de spécifier le format, la version du format et
 | Exigence INSPIRE    | Obligatoire                                |
 | Edition par lot     | Oui, par écrasement                        |
 | Scan                | Oui (pas la version)                       |
-| Moteur de recherche | Filtres (sauf pour les formats libres des fiches ressources qui sont seulement il s'agit d'indiquerpris en compte dans la recherche textuelle) |
+| Moteur de recherche | Filtres (sauf pour les formats libres des fiches ressources qui sont seulement il s&apos;agit d&apos;indiquerpris en compte dans la recherche textuelle) |
 | Fiche ressource     | Oui, liste libre                              |
 | Fiche service       | Oui, liste spécifique des formats OGC et Esri reconnus |
 
@@ -33,7 +33,7 @@ L’onglet « Avancé » permet de spécifier le format, la version du format et
 
 | Définition          | Codage des caractères du jeu de données           |
 | :------------------ | :------------------------------------------------ |
-| Indications         | L'encodage définit la façon dont sont codés les caractères et il est souvent lié au système d'exploitation et aux logiciels utilisés. Par exemple, si vous créez vos données avec ArcGIS sur Windows, l'encodage a (très) grandes chances d'être *Windows-1252* qui est une déclinaison de l'*[ISO 8859-1](https://fr.wikipedia.org/wiki/ISO_8859-1)*. |
+| Indications         | L&apos;encodage définit la façon dont sont codés les caractères et il est souvent lié au système d&apos;exploitation et aux logiciels utilisés. Par exemple, si vous créez vos données avec ArcGIS sur Windows, l&apos;encodage a (très) grandes chances d&apos;être *Windows-1252* qui est une déclinaison de l&apos;*[ISO 8859-1](https://fr.wikipedia.org/wiki/ISO_8859-1)*. |
 | Exemple             | UTF-8 |
 | Exigence INSPIRE    | Obligatoire                   |
 | Edition par lot     | Oui, par écrasement           |

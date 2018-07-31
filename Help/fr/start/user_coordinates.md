@@ -6,8 +6,8 @@ En cliquant sur votre nom en haut à droite de votre écran, vous pouvez visuali
 
 ![Coordonnées utilisateur](/images/user_profile_coordinates.png "Renseigner mes coordonnées")
 
- Afin que les données sur lesquelles vous êtes ou serez référencé(e) comme contact soient bien complètes, nous vous recommandons de renseigner précisément vos coordonnées. Dans l'idée d'assurer une cohérence d'ensemble sur la plateforme, voici quelques recommandations :
+ Afin que les données sur lesquelles vous êtes ou serez référencé(e) comme contact soient bien complètes, nous vous recommandons de renseigner précisément vos coordonnées. Dans l&apos;idée d&apos;assurer une cohérence d&apos;ensemble sur la plateforme, voici quelques recommandations :
 
- * votre Prénom avec uniquement l'initiale ;
+ * votre Prénom avec uniquement l&apos;initiale ;
  * votre NOM tout en majuscules. Exemple : Robert MARTIN ;
  * les numéros de téléphone et de télécopie au format international ;

@@ -4,9 +4,9 @@
 
 Vos données SIG, de types et formats différents (fichiers Shapefiles, MapInfo, ECW, GeoTIFF, bases de données Oracle, PostGIS, etc.), sont stockées sur votre réseau à des emplacements différents (disque D:\\ ; disque K:\\ ; base de données) ?
 
-Pour recenser rapidement toutes ces données au sein d’un inventaire unique et exhaustif, Isogeo met à votre disposition le Scan FME. L'ancien moteur de scan « Isogeo Daemon » est déprécié depuis l'automne 2015.
+Pour recenser rapidement toutes ces données au sein d’un inventaire unique et exhaustif, Isogeo met à votre disposition le Scan FME. L&apos;ancien moteur de scan « Isogeo Daemon » est déprécié depuis l&apos;automne 2015.
 
-D'autres fonctionnalités de recensement sont documentées :
+D&apos;autres fonctionnalités de recensement sont documentées :
 * les métadonnées automatiques de services ;
 * le moissonnage CSW ;
 * les fiches manuelles.
@@ -15,7 +15,7 @@ D'autres fonctionnalités de recensement sont documentées :
 
 ## Documenter
 
-Dans cette partie dédiée à l'étape la plus longue d'un projet de catalogage, on trouve des éléments méthodologiques ainsi que le détail de chaque champ de métadonnées et la façon de le renseigner.
+Dans cette partie dédiée à l&apos;étape la plus longue d&apos;un projet de catalogage, on trouve des éléments méthodologiques ainsi que le détail de chaque champ de métadonnées et la façon de le renseigner.
 
 > Astuce : accéder directement à [la partie Documenter](documentation/index.html).
 

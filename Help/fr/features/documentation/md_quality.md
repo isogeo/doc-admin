@@ -2,7 +2,7 @@
 
 L’onglet « Qualité » précise les spécifications utilisées pour collecter et contrôler la donnée, ainsi que les résultats des tests relatifs à la cohérence topologique ;
 
-![Edition unitaire - Qualité](/images/inv_edit_one_quality.png "L'édition unitaire - onglet Qualité")
+![Edition unitaire - Qualité](/images/inv_edit_one_quality.png "L&apos;édition unitaire - onglet Qualité")
 
 _________
 
@@ -10,7 +10,7 @@ _________
 
 | Définition          | Indique si le jeu de données respecte les prescriptions techniques qui ont encadré sa production |
 | :------------------ | :---------------------------- |
-| Indications         | Les spécifications peuvent être l'un des standards officiels (Covadis, CNIG, INSPIRE...) ou un ensemble d'exigences techniques spécifiques (CCTP, CCAP...). Il faut donc indiquer à quelle spécification est liée la donnée et si elle y est conforme ou pas.<br />La conformité est une déclaration de la seule responsabilité du producteur et il n’est pas prévu de contrôler, en France, cette déclaration.<br />Une donne peut répondre à une ou plusieurs spécifications (INSPIRE et CNIG par exemple). |
+| Indications         | Les spécifications peuvent être l&apos;un des standards officiels (Covadis, CNIG, INSPIRE...) ou un ensemble d&apos;exigences techniques spécifiques (CCTP, CCAP...). Il faut donc indiquer à quelle spécification est liée la donnée et si elle y est conforme ou pas.<br />La conformité est une déclaration de la seule responsabilité du producteur et il n’est pas prévu de contrôler, en France, cette déclaration.<br />Une donne peut répondre à une ou plusieurs spécifications (INSPIRE et CNIG par exemple). |
 | Exemple             | Guide INSPIRE sur les systèmes de maillage géographique - Conforme |
 | Exigence INSPIRE    | Obligatoire                   |
 | Edition par lot     | Oui, par incrémentation       |

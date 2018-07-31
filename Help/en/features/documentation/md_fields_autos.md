@@ -5,7 +5,7 @@ To make entering metadata easier, the scan operation automatically enters the fo
 * In the "Identification" tab:
 
     * the title of the file or table;
-    * the data's storage location.
+    * the data&apos;s storage location.
 
 * In the "History" tab:
 
@@ -33,4 +33,4 @@ To make entering metadata easier, the scan operation automatically enters the fo
 
     * the metadata character encoding;
     * the unique identifier;
-    * the metadata record's point of contact.
+    * the metadata record&apos;s point of contact.

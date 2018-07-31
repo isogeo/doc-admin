@@ -1,4 +1,4 @@
-# Les services géographiques associés dans d'autres plateformes
+# Les services géographiques associés dans d&apos;autres plateformes
 
 Pour afficher correctement une couche dans un visualiseur type geOrchestra ou Prodige, il faut respecter le scénario B recommandé par le CNIG dans [le guide des services de recherche au chapitre 6.1](http://cnig.gouv.fr/wp-content/uploads/2015/Guide-recherche-INSPIRE1.htm).
 
@@ -46,7 +46,7 @@ Exemple du rendu pour un service WMS :
 
 ____
 
-## Dans le cadre d'une documentation manuelle des services
+## Dans le cadre d&apos;une documentation manuelle des services
 
 Il faut [ajouter une ressource associée de type WMS](../features/documentation/md_ressources.html) en indiquant :
 

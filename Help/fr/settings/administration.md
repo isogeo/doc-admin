@@ -1,8 +1,8 @@
-# L'interface d'administration
+# L&apos;interface d&apos;administration
 
-Le menu administration, inaccesible aux `éditeurs` et `lecteurs`, permet de paramétrer l'environnement de travail de tout ce qui se situe à l'échelle du groupe de travail.
+Le menu administration, inaccesible aux `éditeurs` et `lecteurs`, permet de paramétrer l&apos;environnement de travail de tout ce qui se situe à l&apos;échelle du groupe de travail.
 
-![L'administration](/images/adm_tour_menus.gif "Les menus de l'administration d'Isogeo")
+![L&apos;administration](/images/adm_tour_menus.gif "Les menus de l&apos;administration d&apos;Isogeo")
 
 ## Menus et chapitres liés
 
@@ -13,9 +13,9 @@ Le menu administration, inaccesible aux `éditeurs` et `lecteurs`, permet de par
     * [Catalogues](../features/admin/catalogs.html)
     * [Partages](../features/admin/shares.html)
 * Synchronisation
-    * [Points d'entrée (client CSW)](../features/csw_client/csw_harvest.html)
+    * [Points d&apos;entrée (client CSW)](../features/csw_client/csw_harvest.html)
 * Configuration
-    * [Carnet d'adresses](../features/admin/contacts.html)
+    * [Carnet d&apos;adresses](../features/admin/contacts.html)
     * [Licences](../features/admin/licenses.html)
     * [Mots-clés](../features/admin/keywords.html)
     * [Spécifications](../features/admin/specifications.html)

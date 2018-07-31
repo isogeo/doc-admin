@@ -1,6 +1,6 @@
 # "Metadata" tab
 
-The "Metadata" tab is used to display the metadata's creation date and language.
+The "Metadata" tab is used to display the metadata&apos;s creation date and language.
 
 ![Single edition - Metadata](/images/inv_edit_one_metadata.png "Single edition - Metadata tab")
 
@@ -8,7 +8,7 @@ The "Metadata" tab is used to display the metadata's creation date and language.
 
 | Definition          | Metadata creation date |
 | :------------------ | :------------------------------------------------ |
-| Indications         | It is automatically saved, whether from a scan, a CSW harvest, an XML import or manual creation. This is the date transmitted in the CSW profile's *dateStamp* tag in ISO 19115.<br />This field cannot be edited. |
+| Indications         | It is automatically saved, whether from a scan, a CSW harvest, an XML import or manual creation. This is the date transmitted in the CSW profile&apos;s *dateStamp* tag in ISO 19115.<br />This field cannot be edited. |
 | Example             | 06/23/2015                    |
 | INSPIRE requirement   | Mandatory                   |
 | Batch edition     | No                           |

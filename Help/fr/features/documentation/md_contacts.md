@@ -2,11 +2,11 @@
 
 L’onglet « Contact » permet d’affecter, depuis votre carnet d’adresse, un ou plusieurs contacts pour chacune des données ;
 
-![Edition unitaire - Contacts](/images/inv_edit_one_contacts.png "L'édition unitaire - onglet Contacts")
+![Edition unitaire - Contacts](/images/inv_edit_one_contacts.png "L&apos;édition unitaire - onglet Contacts")
 
-| Définition          | Coordoonnées de/s l'organisation(s) ou personne(s) liées à la vie de la donnée (production, gestion, traitement, publication...) |
+| Définition          | Coordoonnées de/s l&apos;organisation(s) ou personne(s) liées à la vie de la donnée (production, gestion, traitement, publication...) |
 | :------------------ | :------------------------------------------------ |
-| Indications         | Il s'agit d'indiquer les **contacts liés à la donnée et non à la métadonnée ou au catalogue** ([contact qui se paramètre au niveau du tableau de bord](../../settings/dashboard.html#le-point-de-contact-du-groupe-de-travail)). Choisir dans la liste des contacts et affecter l'un des rôles.<br />La liste des contacts disponibles est modifiable par l'administrateur (voir [le chapitre dédié](../../features/admin/contacts.html)).|
+| Indications         | Il s&apos;agit d&apos;indiquer les **contacts liés à la donnée et non à la métadonnée ou au catalogue** ([contact qui se paramètre au niveau du tableau de bord](../../settings/dashboard.html#le-point-de-contact-du-groupe-de-travail)). Choisir dans la liste des contacts et affecter l&apos;un des rôles.<br />La liste des contacts disponibles est modifiable par l&apos;administrateur (voir [le chapitre dédié](../../features/admin/contacts.html)).|
 | Exemple             | Equipe PPIGE > Point de contact<br />IGN > Fournisseur |
 | Exigence INSPIRE    | Obligatoire                   |
 | Edition par lot     | Oui, par incrémentation       |
@@ -16,7 +16,7 @@ L’onglet « Contact » permet d’affecter, depuis votre carnet d’adresse, u
 | Fiche service       | Oui                           |
 
 
-> Astuce : il est possible d'ajouter plusieurs fois le même contact avec des rôles différents mais supprimer une fois ce contact, supprime tous ses rôles.
+> Astuce : il est possible d&apos;ajouter plusieurs fois le même contact avec des rôles différents mais supprimer une fois ce contact, supprime tous ses rôles.
 
 ### Matrice des rôles des contacts
 

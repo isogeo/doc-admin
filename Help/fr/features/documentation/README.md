@@ -13,7 +13,7 @@ Il y a plusieurs types de fiches de métadonnées possibles :
 
 ## Onglets par type de fiches de métadonnées
 
-| Onglet          | Vecteur | Raster  | Ensemble | Service | Ressource | Queue d'URL      |
+| Onglet          | Vecteur | Raster  | Ensemble | Service | Ressource | Queue d&apos;URL      |
 |:---------------:|:-------:|:-------:|:--------:|:-------:|:---------:|:----------------:|
 | Identification  | X       | X       | X        | X       | X         | /identification  |
 | Histoire        | X       | X       | X        | X       | X         | /history         |

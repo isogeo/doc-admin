@@ -1,6 +1,6 @@
 # Setting up my Isogeo account
 
-Click on your name at the top right of your screen to view and modify settings for your Isogeo account. By default, you are taken to your account's settings page.
+Click on your name at the top right of your screen to view and modify settings for your Isogeo account. By default, you are taken to your account&apos;s settings page.
 
 > Tip: You can reach this page directly via: https://app.isogeo.com/settings/account
 
@@ -24,4 +24,4 @@ You can choose to subscribe to or unsubscribe from mailing lists for our users:
 * The new features lists helps you stay informed of new versions;
 * The tips and tricks list tells you about quick tutorials on certain features;
 
-You can also follow us on social networks media or our blog, where you can manage your subscription to Isogeo's global mailing list (independent of the other two).
+You can also follow us on social networks media or our blog, where you can manage your subscription to Isogeo&apos;s global mailing list (independent of the other two).

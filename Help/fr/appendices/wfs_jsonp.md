@@ -10,9 +10,9 @@ Parmi les serveurs cartographiques les plus répandus, tous ne permettent pas de
 
 ## GeoServer
 
-GeoServer permet de renvoyer du *JSONP* si la fonctionnalité a été activée (elle est désactivée par défaut). Pour activer ce paramètre, il faut créer une variable d’environnement dépendant de l'utilisateur exécutant le service GeoServer nommée `ENABLE_JSONP` avec pour valeur `true` puis redémarrer le service GeoServer.
+GeoServer permet de renvoyer du *JSONP* si la fonctionnalité a été activée (elle est désactivée par défaut). Pour activer ce paramètre, il faut créer une variable d’environnement dépendant de l&apos;utilisateur exécutant le service GeoServer nommée `ENABLE_JSONP` avec pour valeur `true` puis redémarrer le service GeoServer.
 
-Pour cela il est recommandé d'utiliser [la commande SETX](https://technet.microsoft.com/en-us/library/cc755104.aspx) :
+Pour cela il est recommandé d&apos;utiliser [la commande SETX](https://technet.microsoft.com/en-us/library/cc755104.aspx) :
 
 ```bash
 SETX /u myuser [/p [<Password>]] ENABLE_JSONP true

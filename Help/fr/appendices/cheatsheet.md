@@ -1,10 +1,10 @@
 # Raccourcis
 
-L'une des caractéristiques d'Isogeo est que toute page, ressource, sous-ressource ou paramètre a un identifiant unique, assurant d'une part un socle fonctionnel cohérent et sécurisé mais ouvrant aussi la voie à des favoris bien pratiques.
+L&apos;une des caractéristiques d&apos;Isogeo est que toute page, ressource, sous-ressource ou paramètre a un identifiant unique, assurant d&apos;une part un socle fonctionnel cohérent et sécurisé mais ouvrant aussi la voie à des favoris bien pratiques.
 
-Il suffit pour cela de connaître la façon de construire les URLs à partir de l'URL de base https://app.isogeo.com.
+Il suffit pour cela de connaître la façon de construire les URLs à partir de l&apos;URL de base https://app.isogeo.com.
 
-Petite compilation à l'usage des power-users !
+Petite compilation à l&apos;usage des power-users !
 
 ## Tableau de bord
 
@@ -32,8 +32,8 @@ Petite compilation à l'usage des power-users !
 | Partages - Nouveau | [/admin/shares/new](https://app.isogeo.com/admin/shares/new) |
 | Client CSW | [/admin/entry-points](https://app.isogeo.com/admin/entry-points) |
 | Mots-clés   | [/admin/keywords](https://app.isogeo.com/admin/keywords) |
-| Carnet d'adresses - Liste   | [/admin/address-book](https://app.isogeo.com/admin/address-book) |
-| Carnet d'adresses - Nouveau   | [/admin/address-book/new](https://app.isogeo.com/admin/address-book/new) |
+| Carnet d&apos;adresses - Liste   | [/admin/address-book](https://app.isogeo.com/admin/address-book) |
+| Carnet d&apos;adresses - Nouveau   | [/admin/address-book/new](https://app.isogeo.com/admin/address-book/new) |
 | Licences - Liste globale  | [/admin/licenses](https://app.isogeo.com/admin/licenses) |
 | Licences - Référentiel  | [/admin/licenses/shared](https://app.isogeo.com/admin/licenses/shared) |
 | Licences - De mon groupe  | [/admin/licenses/owned](https://app.isogeo.com/admin/licenses/owned) |
@@ -46,7 +46,7 @@ Petite compilation à l'usage des power-users !
 
 ## Inventaire
 
-La plupart de ces exemples correspondent aux filtres et tris de la recherche dont le fonctionnement est détaillé [ici](../features/inventory/search.html). Il ne s'agit que d'exemples de base et toutes les combinaisons ne sont pas démontrables de façon générique. A vous de trouver celles qui correspondent le plus à votre usage de l'inventaire.
+La plupart de ces exemples correspondent aux filtres et tris de la recherche dont le fonctionnement est détaillé [ici](../features/inventory/search.html). Il ne s&apos;agit que d&apos;exemples de base et toutes les combinaisons ne sont pas démontrables de façon générique. A vous de trouver celles qui correspondent le plus à votre usage de l&apos;inventaire.
 
 | Description                        | Raccourci |
 | :--------------------------------- | :-------- |
@@ -69,5 +69,5 @@ La plupart de ces exemples correspondent aux filtres et tris de la recherche don
 | Services sans aucun lien | [/inventory/search?q=type:service has-no:action](https://app.isogeo.com/inventory/search?q=type:service has-no:action) |
 
 
-*Ces paramètres fonctionnent aussi sur OpenCatalog en remplaçant l'URL de base par celle de l'OpenCatalog en question.
+*Ces paramètres fonctionnent aussi sur OpenCatalog en remplaçant l&apos;URL de base par celle de l&apos;OpenCatalog en question.
 

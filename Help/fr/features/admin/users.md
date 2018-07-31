@@ -1,7 +1,7 @@
 # Gestion des utilisateurs <i class="fa fa-users"></i>
 
 Isogeo distingue trois profils utilisateurs :
-* L’`administrateur` accède à toutes les fonctionnalités de l’application. Il gère les utilisateurs et leurs droits, les éléments communs à l'échelle du groupe de travail, le recensement des données, la mise à jour de l’inventaire, les catalogues, les partages, la diffusion et peut saisir des métadonnées.
+* L’`administrateur` accède à toutes les fonctionnalités de l’application. Il gère les utilisateurs et leurs droits, les éléments communs à l&apos;échelle du groupe de travail, le recensement des données, la mise à jour de l’inventaire, les catalogues, les partages, la diffusion et peut saisir des métadonnées.
 
 * L’`éditeur` peut saisir et modifier des métadonnées, rechercher des données et exploiter ces données grâce aux services et ressources associés.
 
@@ -14,12 +14,12 @@ Isogeo distingue trois profils utilisateurs :
 Pour inviter un nouvel utilisateur :
 
 1. Aller dans [le menu dédié](https://app.isogeo.com/admin/users) ;
-2. Cliquer sur [l'onglet `+ Inviter`](https://app.isogeo.com/admin/users/invitations/new) ;
-3. Entrer l'adresse électronique de l'utilisateur ;
-4. Choisir le niveau d'accès ;
+2. Cliquer sur [l&apos;onglet `+ Inviter`](https://app.isogeo.com/admin/users/invitations/new) ;
+3. Entrer l&apos;adresse électronique de l&apos;utilisateur ;
+4. Choisir le niveau d&apos;accès ;
 5. Cliquer sur `Inviter`.
 
-L'utilisateur reçoit alors un courriel d'invitation ([voir le chapitre dédié](../../start/signup.html)).
+L&apos;utilisateur reçoit alors un courriel d&apos;invitation ([voir le chapitre dédié](../../start/signup.html)).
 
 > L’invitation est valable 7 jours et un administrateur peut la révoquer à tout moment.
 
@@ -30,8 +30,8 @@ L'utilisateur reçoit alors un courriel d'invitation ([voir le chapitre dédié]
 | Fonctionnalités                               | Administrateur    | Éditeur   | Lecteur   |
 | :-------------------------------------------- | :---------------: | :-------: | :-------: |
 | Gérer les utilisateurs                        | X                 |           |           |
-| Gérer le carnet d'adresses                    | X                 |           |           |
-| Gérer les points d'entrée                     | X                 |           |           |
+| Gérer le carnet d&apos;adresses                    | X                 |           |           |
+| Gérer les points d&apos;entrée                     | X                 |           |           |
 | Gérer le scan                                 | X                 |           |           |
 | Créer, affecter ou désaffecter un catalogue   | X                 |           |           |
 | Gérer les partages                            | X                 |           |           |
@@ -41,7 +41,7 @@ L'utilisateur reçoit alors un courriel d'invitation ([voir le chapitre dédié]
 | Gérer les spécifications                      | X                 |           |           |
 | Gérer les paramètres du groupe                | X                 |           |           |
 | Créer une métadonnée                          | X                 |           |           |
-| Accéder à l'inventaire complet                | X                 |           |           |
+| Accéder à l&apos;inventaire complet                | X                 |           |           |
 | Accéder au tableau de bord                    | X                 | X         |           |
 | Modifier les métadonnées                      | X                 | X         |           |
 | Créer / affecter / désaffecter un mot-clé     | X                 | X         |           |

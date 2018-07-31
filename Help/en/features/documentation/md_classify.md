@@ -24,7 +24,7 @@ You should now see:
     * search existing keywords in all Isogeo workgroups (including your own);
 * Three filter buttons:
     * `View all catalogs` to display all the catalogs available in your workgroup;
-    * `View all Inspire themes` to display all the directive's themes;
+    * `View all Inspire themes` to display all the directive&apos;s themes;
     * `View keywords` to display keywords used in the selected data, and keywords that match the search string entered;
 
 ![Assigning and removing keywords](/images/inv_edit_tags_keywords.gif "Keywords")

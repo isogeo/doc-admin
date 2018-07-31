@@ -4,7 +4,7 @@ Pour pouvoir utiliser le Scan FME, il faut installer un service Windows nommé I
 
 ## Système d’exploitation
 
-Même s'il est possible d’installer le service Isogeo sur un poste d'utilisateur, **il est fortement recommandé d’utiliser un serveur** pour des questions de performances, d’accès et de disponibilité.
+Même s&apos;il est possible d’installer le service Isogeo sur un poste d&apos;utilisateur, **il est fortement recommandé d’utiliser un serveur** pour des questions de performances, d’accès et de disponibilité.
 
 Les versions de Windows supportées sont (les versions  en **gras** sont recommandées) :
 * Windows Server 2003 SP2, 2008, **2008 R2**, **2012** et **2012 R2** ;
@@ -39,20 +39,20 @@ Pour plus d’informations, veuillez contacter votre distributeur FME.
 
 ### Cas spécifique pour les connexions Esri ArcSDE
 
-Pour des questions d'interopérabilité entre FME et Esri, il faut être particulièrement vigilant sur les prérequis à installer pour pouvoir scanner correctement les schémas ArcSDE.
+Pour des questions d&apos;interopérabilité entre FME et Esri, il faut être particulièrement vigilant sur les prérequis à installer pour pouvoir scanner correctement les schémas ArcSDE.
 
-1. Tout d'abord, il faut **la version 32 bits de FME** et si possible l'édition Esri
+1. Tout d&apos;abord, il faut **la version 32 bits de FME** et si possible l&apos;édition Esri
 2. Ensuite :
     * soit ArcGIS Desktop 32 bits sur la même machine avec une licence disponible pendant toute la durée du Scan - méthode recommandée ;
     * soit installer les librairies SDE sur la machine où est installée votre FME ([voir cet article](https://knowledge.safe.com/articles/358/arcsde-libraries-required-for-the-esri-arcsde-sde3.html)) - méthode plus complexe.
-3. Si ArcGIS est en licence flottante liée à un serveur de licences distant, ajouter la variable d'environnement `ARCGIS_LICENCE_FILE` (voir [la doc Esri](http://resources.arcgis.com/fr/help/install-guides/license-manager/10.1/index.html#/Defining_port_host_to_one_or_more_license_servers/00790000000t000000/)) avec pour valeur le port et l'adresse de votre serveur de licence (information située dans ArcGIS Administrator) :
+3. Si ArcGIS est en licence flottante liée à un serveur de licences distant, ajouter la variable d&apos;environnement `ARCGIS_LICENCE_FILE` (voir [la doc Esri](http://resources.arcgis.com/fr/help/install-guides/license-manager/10.1/index.html#/Defining_port_host_to_one_or_more_license_servers/00790000000t000000/)) avec pour valeur le port et l&apos;adresse de votre serveur de licence (information située dans ArcGIS Administrator) :
 
-	![Scan - ArcGIS SDE license](/images/scanFME_install_SDE_env_var_arcgis_licensing.png "Variable d'environnement pour le serveur de licence d'ArcGIS")
+	![Scan - ArcGIS SDE license](/images/scanFME_install_SDE_env_var_arcgis_licensing.png "Variable d&apos;environnement pour le serveur de licence d&apos;ArcGIS")
 
 Pour aller plus loin :
 * consulter la [matrice des formats et versions de FME](http://www.safe.com/fme/formats-matrix/#search=arcsde) ;
-* consulter [l'article dédié [en]](https://knowledge.safe.com/articles/1517/notes-on-fme-and-esri-versions-and-compatibility.html) à ces questions d'interopérabilité sur le site de Safe, éditeur de FME.
-* si vous utilisez une [version d'ArcGIS qui n'est plus supportée](http://support.esri.com/other-resources/product-life-cycle) par Esri, [consulter l'article dédié](https://knowledge.safe.com/articles/22886/fme-compatibility-for-retired-esri-software.html) ;
+* consulter [l&apos;article dédié [en]](https://knowledge.safe.com/articles/1517/notes-on-fme-and-esri-versions-and-compatibility.html) à ces questions d&apos;interopérabilité sur le site de Safe, éditeur de FME.
+* si vous utilisez une [version d&apos;ArcGIS qui n&apos;est plus supportée](http://support.esri.com/other-resources/product-life-cycle) par Esri, [consulter l&apos;article dédié](https://knowledge.safe.com/articles/22886/fme-compatibility-for-retired-esri-software.html) ;
 * si vous utilisez Direct Connect, [consulter cet article](https://knowledge.safe.com/articles/227/how-do-i-connect-to-my-arcsde-geodatabase-using-di.html).
 
 ### Oracle
@@ -65,8 +65,8 @@ ___
 
 Vous devez créer un compte utilisateur Windows permettant :
 
-* d'exécuter FME Desktop sur le poste où est installé le service Isogeo,
-* d'écrire dans le répertoire d'installation du service Isogeo,
+* d&apos;exécuter FME Desktop sur le poste où est installé le service Isogeo,
+* d&apos;écrire dans le répertoire d&apos;installation du service Isogeo,
 * d’accéder aux ressources réseaux nécessaires pour lire vos données SIG.
 
 Il est recommandé de créer un nouveau compte utilisateur de niveau administrateur local intitulé Isogeo ayant les droits adéquats sur les données.
@@ -78,6 +78,6 @@ ___
 Si votre serveur est connecté à Internet via un réseau d’entreprise soumis à des politiques de sécurité (cas le plus fréquent), vous devez vous assurer que :
 
 * votre navigateur peut accéder aux différents sites Internet gérés par Isogeo (tous nos sites ont des domaines qui se terminent par isogeo.com et utilisent le protocole sécurisé HTTPS) tel que https://app.isogeo.com
-* votre système d’exploitation peut se connecter au port **5671** des domaines **daemons-mq.isogeo.com** et **daemons.isogeo.com**, tous deux sur l'IP *65.52.153.255*, à l'aide du **protocole TCP sécurisé**.
+* votre système d’exploitation peut se connecter au port **5671** des domaines **daemons-mq.isogeo.com** et **daemons.isogeo.com**, tous deux sur l&apos;IP *65.52.153.255*, à l&apos;aide du **protocole TCP sécurisé**.
 
 Il faut vérifier auprès de vos éventuels pare-feu, proxy et fichiers hosts que le filtre par domaine ou  IP autorise bien les communications. Généralement vous obtiendrez ces informations auprès de votre service informatique.

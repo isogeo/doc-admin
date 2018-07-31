@@ -19,6 +19,6 @@ Pour partager un ou plusieurs catalogues, vous devez :
 
 Le(s) destinataire(s) de votre partage pourront alors consulter votre catalogue directement dans leur Inventaire.
 
-En activant l’option `J'autorise les destinataires de ce partage à diffuser ces catalogues`, vous permettez à l’organisme destinataire de diffuser vos catalogues à travers ses propre partages CSW et OpenCatalog.
+En activant l’option `J&apos;autorise les destinataires de ce partage à diffuser ces catalogues`, vous permettez à l’organisme destinataire de diffuser vos catalogues à travers ses propre partages CSW et OpenCatalog.
 
 ![Partager sur la plateforme](/images/adm_shares_platform_edit.png "Partager les catalogues entre groupes de travail Isogeo")

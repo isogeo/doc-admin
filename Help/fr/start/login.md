@@ -5,7 +5,7 @@ Pour utiliser Isogeo, il suffit de se rendre sur https://app.isogeo.com muni(e) 
 * Adresse e-mail : exemple@domaine.fr ;
 * Mot de passe : monmotdepasse
 
-![Page d'authentification](/images/ID_log_in.gif "Page de connexion à la plateforme Isogeo")
+![Page d&apos;authentification](/images/ID_log_in.gif "Page de connexion à la plateforme Isogeo")
 
 Cliquez ensuite sur `Valider` : Isogeo vérifie vos identifiants et vous redirige vers la plateforme.
 

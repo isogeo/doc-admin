@@ -20,7 +20,7 @@ Geographic data search solution published by Isogeo. Allows geodata users to sea
 Geodata is the representation of an object or a real or imaginary phenomenon, in the past, present or future, located in space at a given moment in time, whatever the size and scale of the representation.
 
 # Metadata
-Data that defines and/or describes other data. Metadata can be considered the data's ID card. For example, it specifies when the data was created, by whom, and how. Metadata is essential for cataloging, searching and exchanging data with partners.
+Data that defines and/or describes other data. Metadata can be considered the data&apos;s ID card. For example, it specifies when the data was created, by whom, and how. Metadata is essential for cataloging, searching and exchanging data with partners.
 
 Isogeo distinguishes between 5 types of metadata. Metadata related to vector data, raster data, data series, data services and resources. 
 
@@ -31,7 +31,7 @@ Vector data is the geometric representation (point, line, polygon) of an object 
 Raster data is a matrix representation (scanned maps, aerial photos, satellite images) of an object or a real or imaginary phenomenon, in the past, present or future, located in space at a given moment in time, whatever the size and scale of the representation.
 
 # Data series
-A data series is a group of cohesive data designed and used in accordance with a dominant theme. For example, a local master plan, BD Topo (second component of France's geographic repository), or a cadastral survey are considered data series. 
+A data series is a group of cohesive data designed and used in accordance with a dominant theme. For example, a local master plan, BD Topo (second component of France&apos;s geographic repository), or a cadastral survey are considered data series. 
 
 # Data service
 A networked service or "web service" is a computer program used to communicate and exchange data between heterogeneous applications and systems in distributed environments. It includes a set of features provided on the Internet or on an Intranet by and for applications or machines in real time, without any human intervention. In geomatics, a web service provides a service that allows for remotely integrating data.

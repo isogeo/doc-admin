@@ -1,6 +1,6 @@
 # Editing metadata records by batch
 
-Since we're always trying to make it easier to enter data, you can complete more than one metadata record at once. For example, if 5 layers have the same history, you can select them and enter the history only once for all 5 layers. This feature is available for certain tabs.
+Since we&apos;re always trying to make it easier to enter data, you can complete more than one metadata record at once. For example, if 5 layers have the same history, you can select them and enter the history only once for all 5 layers. This feature is available for certain tabs.
 
 Proceed as follows:
 
