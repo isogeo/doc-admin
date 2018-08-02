@@ -98,7 +98,7 @@ jobs:
 
       - deploy:
           name: Upload to Azure Blob Storage
-          command: rclone sync dist/ qa:\$web/admin --delete-after
+          command: rclone sync dist/ qa:\$web/admin --delete-after --exclude Web.config
 
   deploy-prod:
     <<: *golang_container
