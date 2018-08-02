@@ -5,9 +5,7 @@ ENV GITBOOK_VERSION 3.2.3
 
 WORKDIR /srv/gitbook
 
-RUN apk --no-cache update\
-    && apk --no-cache upgrade \
-    && npm install --global --production gitbook-cli@$GITBOOK_CLI_VERSION \
+RUN npm install --global --production gitbook-cli@$GITBOOK_CLI_VERSION \
     && gitbook fetch $GITBOOK_VERSION \
     && gitbook install \
     && npm cache verify \
@@ -21,4 +19,4 @@ VOLUME /srv/gitbook /srv/html
 
 EXPOSE 4567 35729
 
-CMD gitbook install && gitbook --port 4567 serve
+CMD gitbook install && gitbook --lrport 35729 --port 4567 serve
