@@ -5,32 +5,7 @@ Isogeo.Help
 
 Isogeo.Help is the project used to generate the online help for the Isogeo platform.
 
-# Development
-
-## Development build
-
-For a lightweight build, run the following command from this directory: `build.bat /dev /nopause`. In case of success the resulting documentation artefacts can be found in the `tmp\obj\bin` folder. 
-
-- Prerequisites:
-  * [Git for Windows](https://git-for-windows.github.io/) 2.x
-  * [node.js](http://nodejs.org/) 4.x
-  * [npm](https://npmjs.org/) 4.x
-    + [Upgrading on Windows](https://github.com/npm/npm/wiki/Troubleshooting#upgrading-on-windows)
-  * [Grunt CLI](http://gruntjs.com/):
-    + `npm install -g grunt-cli`
-  * [rimraf](https://www.npmjs.com/package/rimraf):
-    + `npm install -g rimraf`
-  * [Calibre](http://calibre-ebook.com/download_windows64) 64bit 3.5.0
-
-## CI build
-
-To simulate the CI continuous build, run the following command from this directory: `build.bat /nopause`.
-
-- Prerequisites (in addition to all of the above):
-  * Microsoft Visual Studio 2015
-  * [MSBuild.Community.Tasks 1.5.0](https://github.com/loresoft/msbuildtasks)
-
-### Circle CI
+## Continuous integration
 
 The project is tested, built and served on CircleCI: https://circleci.com/bb/isogeo/isogeo-help.
 
