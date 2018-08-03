@@ -1,6 +1,8 @@
 Isogeo.Help
 ============
 
+[![CircleCI](https://circleci.com/gh/isogeo/doc-isogeo-help.svg?style=svg)](https://circleci.com/gh/isogeo/doc-isogeo-help)
+
 # General information
 
 Isogeo.Help is the project used to generate the online help for the Isogeo platform.
