@@ -12,7 +12,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://bitbucket.org/isogeo/isogeo-help"
+    "url": "https://github.com/isogeo/doc-isogeo-help"
   },
   "dependencies": {
     "gitbook": "^3.2.3",
@@ -20,9 +20,11 @@
     "gitbook-plugin-ga": "^1.0.1",
     "gitbook-plugin-image-captions": "^3.1.0",
     "gitbook-plugin-page-toc": "^1.0.2",
+    "gitbook-plugin-swagger": "^0.2.0",
     "gitbook-plugin-timeline": "^1.0.13",
     "gitbook-plugin-toggle-headers": "^0.1.0",
-    "gitbook-plugin-youtube": "^1.1.0"
+    "gitbook-plugin-youtube": "^1.1.0",
+    "npm": "^6.3.0"
   },
   "devDependencies": {
     "grunt": "^1.0.1",

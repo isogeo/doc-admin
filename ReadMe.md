@@ -5,13 +5,13 @@ Isogeo.Help
 
 # General information
 
-Isogeo.Help is the project used to generate the online help for the Isogeo platform.
+Isogeo Help is the project used to generate the online help for the Isogeo platform.
 
 ## Continuous integration
 
 The project is tested, built and served on CircleCI: https://circleci.com/bb/isogeo/isogeo-help.
 
-As specified in the CircleCI configuration (see: .circleci/config.yml):
+As specified in the CircleCI configuration (see: [.circleci/config.yml](https://github.com/isogeo/doc-isogeo-help/blob/master/.circleci/config.yml)):
 
 - each commit triggers a deploy on QA (http://help.qa.isogeo.com/ = https://qaisogeohelp.z28.web.core.windows.net/)
 - each tag triggers a deploy on PROD - not configured yet
@@ -51,12 +51,24 @@ To stop it : ```docker stop isogeo-help```
 docker run --rm -v $PWD/Help:/srv/gitbook -v $PWD/dist:/srv/html isogeo/gitbook-builder gitbook build . /srv/html
 ```
 
+### Push to Azure private container
+
+Using Azure CLI ([see: official doc](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-get-started-docker-cli)).
+
+
+```bash
+# login
+az login -u firstname.lastname@isogeo.fr -p myGre4atPachweurd
+# tag it
+docker build --rm -f Dockerfile -t isogeo.azurecr.io/gitbook-builder:latest .
+# push it
+docker push isogeo.azurecr.io/gitbook-builder:latest
+# check it
+az acr repository list --name isogeo
+```
+
 ----
 
 # Related resources
 
-- [Document de travail initial](https://docs.google.com/a/isogeo.fr/document/d/1D39wXdfw0ueq9PViHike9qlAO26PSs6IoyAUgsvC3_Y/edit)
-- [Dedicated folder on Google Drive](https://drive.google.com/drive/u/0/#folders/0B1LzWJagMM-PVFZpeU9jQjZRYUk)
-- [Redmine project (bug tracking)](https://dev.isogeo.net/redmine/projects/help)
-- [WYSIWYG Editor (desktop)](https://github.com/GitbookIO/editor)
 - [GitBook official website](https://www.gitbook.com)
