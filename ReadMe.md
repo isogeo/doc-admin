@@ -1,27 +1,40 @@
-Isogeo.Help
+Isogeo - Admin documentation
 ============
 
 [![CircleCI](https://circleci.com/gh/isogeo/doc-isogeo-help.svg?style=svg)](https://circleci.com/gh/isogeo/doc-isogeo-help)
 
 # General information
 
-Isogeo Help is the project used to generate the online help for the Isogeo platform.
+Isogeo Help is the project used to generate the online help for the Isogeo administration platform.
 
 ## Continuous integration
 
-The project is tested, built and served on CircleCI: https://circleci.com/bb/isogeo/isogeo-help.
+The project is tested, built and served on CircleCI: https://circleci.com/gh/isogeo/doc-isogeo-help.
 
 As specified in the CircleCI configuration (see: [.circleci/config.yml](https://github.com/isogeo/doc-isogeo-help/blob/master/.circleci/config.yml)):
 
 - each commit triggers a deploy on QA (http://help.qa.isogeo.com/ = https://qaisogeohelp.z28.web.core.windows.net/)
-- each tag triggers a deploy on PROD - not configured yet
+- each tagged commit triggers a deploy on PROD - (http://help.isogeo.com/ = https://prodisogeohelp.z28.web.core.windows.net/)
 
 It pushes built static website on a Static Website hosted on Azure Storage (GPv2). For more details on this kind of product, refer to these resources:
 
 - [Blog: Static website hosting for Azure Storage now in public preview](https://azure.microsoft.com/en-us/blog/azure-storage-static-web-hosting-public-preview/)
 - [Official documentation: Static website hosting in Azure Storage](https://docs.microsoft.com/fr-fr/azure/storage/blobs/storage-blob-static-website)
 
-To upload built result, [rclone](https://rclone.org/azureblob/) is preferred to azure-cli because of more efficient and flexible. It's installed and used through go context in CircleCI. It needs some environment variables corresponding to the [storage account keys (example for QA)](https://portal.azure.com/#@mathieubeckerhotmail.onmicrosoft.com/resource/subscriptions/82885610-5841-4749-8d71-46f56b643ad2/resourceGroups/QA-isogeo/providers/Microsoft.Storage/storageAccounts/qaisogeohelp/keys) and set in the [CircleCI project settings](https://circleci.com/bb/isogeo/isogeo-help/edit#env-vars).
+To upload built result, [rclone](https://rclone.org/azureblob/) is preferred to azure-cli because of more efficient and flexible. It's installed and used through go context in CircleCI. It needs some environment variables corresponding to the storage account keys and set in the [CircleCI project settings](https://circleci.com/gh/isogeo/doc-isogeo-help/edit#env-vars).
+
+----
+
+## Local build
+
+Git clone this repository then:
+
+```powershell
+yarn
+cd ./Help
+gitbook install
+gitbook serve
+```
 
 ----
 
