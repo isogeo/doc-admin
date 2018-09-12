@@ -116,6 +116,7 @@
 * [Se faire moissonner par le Géocatalogue national](appendices/harvest_geocatalogue_fr.md)
 * [Se faire moissonner par OpenDataSoft](appendices/harvest_opendatasoft.md)
 * [Diffuser ses donn&eacute;es sur DataGouv.fr](appendices/harvest_datagouv_fr.md)
+* [RGPD](appendices/gdpr.md)
 * [Autres ressources en ligne](appendices/others.md)
 * [Glossaire](GLOSSARY.md)
 * [Architecture technique et politique de développement](appendices/technical_details_dev_policy.md)

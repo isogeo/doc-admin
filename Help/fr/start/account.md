@@ -6,7 +6,7 @@ En cliquant sur votre nom en haut à droite de votre écran, vous pouvez visuali
 
 ![Gestion compte utilisateur](/images/user_profile_options.png "Paramétrer son compte d&apos;utilisateur Isogeo")
 
-## Langue et fuseau horaire
+## Langue et fuseau horaire {#localization}
 
 Pour l&apos;instant, Isogeo est disponible en 2 langues :
 * Anglais ;
@@ -17,7 +17,7 @@ Vous pouvez spécifier un choix différent pour les paramètres détectés autom
 * La langue est celle du navigateur ;
 * Le fuseau horaire est celui du système d’exploitation.
 
-## Abonnements et liens utiles
+## Abonnements et liens utiles {#subscriptions}
 
 Vous pouvez choisir de vous abonner ou désabonner à nos listes de diffusion dédiées à nos utilisateurs :
 
