@@ -1,4 +1,4 @@
-## Ressources sur les autres applications tierces
+## Ressources sur les applications Isogeo {#others-docs}
 
 <html>
 	<head>
