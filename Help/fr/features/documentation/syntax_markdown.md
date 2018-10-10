@@ -130,9 +130,9 @@ Attention il n&apos;est pas possible de préciser les dimensions de l&apos;image
 #### Syntaxe
 
 ```no-highlight
-![Texte alternatif](https://www.isogeo.com/images/logo.png "Titre de l&apos;image")
+![Texte alternatif](https://www.isogeo.com/images/isogeo/logo-isogeo.png "Titre de l&apos;image")
 ```
 
 #### Rendu
 
-![Texte alternatif](https://www.isogeo.com/images/logo.png "Titre de l&apos;image")
+![Texte alternatif](https://www.isogeo.com/images/isogeo/logo-isogeo.png "Titre de l&apos;image")
