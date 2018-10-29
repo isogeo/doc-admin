@@ -1,5 +1,4 @@
 # custom
-*.log
 *Thumbs.db
 
 # outputs binaries
@@ -15,10 +14,7 @@ _tmp*
 dist/*
 
 # dependencies for build & serve commands
-dist/admin/
-tmp/
 node_modules/
-
 
 # logs files
 *.log
