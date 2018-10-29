@@ -80,7 +80,7 @@ jobs:
 
       - run:
           name: Build output bundles
-          command: yarn gitbook build Help/ dist/
+          command: yarn gitbook build ./ dist/admin
 
       - persist_to_workspace:
           root: *workspace_root
@@ -93,17 +93,10 @@ jobs:
       - *attach_workspace
 
       - run:
-          name: Install rclone
-          command: go get github.com/ncw/rclone
-
-      - deploy:
-          name: Upload to Azure Blob Storage
-          command: rclone sync dist/ qa:\$web/admin --delete-after --exclude Web.config
-
-  deploy-prod:
-    <<: *golang_container
-    steps:
-      - *attach_workspace
+          name: Rename robots.txt
+          command: |
+            mv dist/admin/robots_qa.txt dist/admin/robots.txt
+            rm dist/admin/robots_prod.txt
 
       - run:
           name: Install rclone
@@ -111,7 +104,26 @@ jobs:
 
       - deploy:
           name: Upload to Azure Blob Storage
-          command: rclone sync dist/ prod:\$web/admin --delete-after  --exclude Web.config
+          command: rclone sync dist/admin qa:\$web/admin --delete-after --exclude .circleci/ --exclude package.json --exclude yarn.lock
+
+  deploy-prod:
+    <<: *golang_container
+    steps:
+      - *attach_workspace
+
+      - run:
+          name: Rename robots.txt
+          command: |
+            mv dist/admin/robots_prod.txt dist/admin/robots.txt
+            rm dist/admin/robots_qa.txt
+
+      - run:
+          name: Install rclone
+          command: go get github.com/ncw/rclone
+
+      - deploy:
+          name: Upload to Azure Blob Storage
+          command: rclone sync dist/admin prod:\$web/admin --delete-after --exclude .circleci/ --exclude package.json --exclude yarn.lock
 
 
 workflows:
