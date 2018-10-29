@@ -1,5 +1,5 @@
 Isogeo - Admin documentation
-============
+============================
 
 [![CircleCI](https://circleci.com/gh/isogeo/doc-isogeo-help.svg?style=svg)](https://circleci.com/gh/isogeo/doc-isogeo-help)
 
@@ -31,9 +31,8 @@ Git clone this repository then:
 
 ```powershell
 yarn
-cd ./Help
-gitbook install
-gitbook serve
+yarn gitbook install
+yarn gitbook serve
 ```
 
 ----
@@ -49,9 +48,9 @@ docker build --rm -f Dockerfile -t isogeo/gitbook-builder:latest .
 ### Serve as a website
 
 ```powershell
-docker run --name isogeo-help -v $PWD/Help:/srv/gitbook --rm -it -d -p 4567:4567 isogeo/gitbook-builder:latest
+docker run --name isogeo-help -v $PWD:/srv/gitbook --rm -it -d -p 4567:4567 isogeo/gitbook-builder:latest
 # alternativately, you can use the live reload server
-docker run --name isogeo-help -v $PWD/Help:/srv/gitbook --rm -it -d -p 4567:4567 -p 35729:35729 isogeo/gitbook-builder:latest
+docker run --name isogeo-help -v $PWD:/srv/gitbook --rm -it -d -p 4567:4567 -p 35729:35729 isogeo/gitbook-builder:latest
 ```
 
 Then, open your favorite browser to http://localhost:4567.
@@ -61,7 +60,7 @@ To stop it : ```docker stop isogeo-help```
 ### Build static website
 
 ```powershell
-docker run --rm -v $PWD/Help:/srv/gitbook -v $PWD/dist:/srv/html isogeo/gitbook-builder gitbook build . /srv/html
+docker run --rm -v $PWD:/srv/gitbook -v $PWD/dist:/srv/html isogeo/gitbook-builder gitbook build . /srv/html
 ```
 
 ### Push to Azure private container
