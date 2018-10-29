@@ -28,7 +28,7 @@ Exemple :
 
 Selon les capacités du serveur WFS associé, OpenCatalog génère un formulaire d'extraction automatisée :
 
-![OpenCatalog - Formulaire extraction](/assets/oc/oc_wfs_extract.gif "Formulaire de téléchargement généré automatiquement à partir des capacités du WFS")
+![OpenCatalog - Formulaire extraction](/assets/oc/oc_search_extract.gif "Formulaire de téléchargement généré automatiquement à partir des capacités du WFS")
 
 ____
 
