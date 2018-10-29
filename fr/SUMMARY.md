@@ -74,6 +74,7 @@
 * [Partager avec d&apos;autres groupes](features/publish/share_platform.md)
 * [Diffuser en CSW](features/publish/csw_server.md)
 * [Diffuser avec OpenCatalog](features/publish/share_opencatalog.md)
+* [Diffuser une cartothèque](features/publish/share_maplibrary.md)
 * [Régler l&apos;affichage des liens selon les usages](features/publish/share_visibility.md)
 * [Utiliser vos catalogues dans d&apos;autres interfaces](features/publish/usages_api.md)
 
