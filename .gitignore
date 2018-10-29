@@ -9,15 +9,16 @@
 *.mobi
 *.epub
 
+# Book build output
+_book
+_tmp*
+dist/*
+
 # dependencies for build & serve commands
 dist/admin/
 tmp/
 node_modules/
-packages/
-Help/_book/
-HELP/local_build.bat
-Help/fr/_book/
-Help/en/_book/
+
 
 # logs files
 *.log
