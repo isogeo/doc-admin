@@ -7,22 +7,21 @@ Une fois constitué votre catalogue de données peut être diffusé en OpenCatal
 Les fiches (de données, d’ensemble de données ou de services) sont présentées de manière à répondre aux besoins des spécialistes comme des non-spécialistes. Elles sont conformes INSPIRE et donnent accès aux fichiers XML ISO 19139.
 
 Elles permettent également de mettre en valeur les ressources associées regroupées en 3 grandes actions :
+
 * Visualiser
 * Télécharger
 * Plus
-
 
 ## Générer un catalogue de consultation avec OpenCatalog
 
 Pour créer un OpenCatalog, il suffit de :
 
-1.	Dans le menu `Administration`  > `Partage`, cliquer sur `Nouveau` ;
-2.	Cliquer sur le bouton en forme d&apos;engrenages ;
-3.	Sélectionner l’application `OpenCatalog` ;
-4.	Sélectionner le ou les catalogues à publier ;
-5.	Nommer le partage ;
-6.	`Enregistrer` ;
-
+1. Dans le menu `Administration`  > `Partage`, cliquer sur `Nouveau` ;
+2. Cliquer sur le bouton en forme d&apos;engrenages ;
+3. Sélectionner l’application `OpenCatalog` ;
+4. Sélectionner le ou les catalogues à publier ;
+5. Nommer le partage ;
+6. `Enregistrer` ;
 
 L&apos;URL de consultation de l&apos;openCatalog apparaît alors.
 
@@ -62,10 +61,11 @@ ________
 Si vous ne souhaitez intégrer qu&apos;une seule fiche par exemple dans une fenêtre de type pop-up, c&apos;est également possible en mettant l&apos;URL complète vers la fiche souhaitée et en y ajoutant le paramètre `lock`.
 
 Différences par rapport à l&apos;intégration normale :
+
 * la barre de titre de la page est masqué ;
 * la navigation est désactivée (les filtres ne sont pas cliquables par exemple et il est impossible de revenir vers l&apos;opencatalog en entier)
 
-### Syntaxe
+#### Syntaxe
 
 Par exemple, pour intégrer [la fiche de métadonnées de démonstration sur les départements 2014](https://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0/r/754209f115c040a48d43ffc262b16500) :
 
@@ -75,18 +75,17 @@ Par exemple, pour intégrer [la fiche de métadonnées de démonstration sur les
 
 ________
 
-
 ### Ne pas utiliser les proxies OpenCatalog pour les services géographiques {#oc_proxy}
 
 Pour permettre facilement la consommation de services "internes" dans un OpenCatalog accessible via le réseau intranet de votre organisme, il suffit d&apos;ajouter le paramètre `no-proxy`.
 
 Conséquences :
-    
+
 * au client de bien s&apos;assurer qu&apos;il déclare et utilise bien des services accessibles en HTTPS si OpenCatalog est en HTTPS.
 
 * au client de bien configurer ses serveurs pour accepter les appels [Cross Origin](https://enable-cors.org/) ([GeoServer pour WFS](https://gis.stackexchange.com/questions/210316/access-control-allow-origin-openlayers-wfs) par exemple).
 
-### Syntaxe
+#### Syntaxe
 
 Par exemple, pour intégrer l&apos;[OpenCatalog de démonstration](https://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0) :
 

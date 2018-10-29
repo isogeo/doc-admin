@@ -25,12 +25,14 @@ Il est possible d&apos;utiliser l&apos;API dans autant d&apos;applications qu&ap
 [![Moteur de recherche Isogeo dans SIG](/assets/api_plugins_header.png "Chercher et afficher des données via le moteur de recherche Isogeo directement intégré aux logiciels SIG")](http://www.isogeo.com/applications)
 
 L&apos;un des usages les plus demandés est de pouvoir consulter les catalogues directement dans les logiciels SIG. Aujourd&apos;hui, des plugins ont été développés pour :
+
 * ArcMap(10.2/10.3/10.4),
 * ArcCatalog,
 * ArcGIS WebAppBuilder for Developer,
 * [QGIS 2.x LTR](https://isogeo.gitbooks.io/app-plugin-qgis/content/fr/).
 
 D&apos;autres sont en cours et attendent une contribution financière pour être développés ou finalisés :
+
 * AutoCAD,
 * AutoCAD Map
 * WordPress,
@@ -39,7 +41,7 @@ D&apos;autres sont en cours et attendent une contribution financière pour être
 
 > Astuce : consulter [le site dédié aux extensions](http://www.isogeo.com/applications/).
 
-___
+____
 
 #### Plugin pour QGIS
 
@@ -52,7 +54,7 @@ ___
 
 ![Captures plugins Esri](http://www.isogeo.com/_medias/assets/applications/portfolio/2widget-plugin.png "Captures d&apos;écran du plugin pour ArcMap et du widget pour ArcGIS WebAppBuilder")
 
-___
+____
 
 ### Les portails de données
 
@@ -82,6 +84,7 @@ Selon votre projet et vos besoins, il est possible d&apos;envisager la mise en p
 #### Réalisations intéressantes supplémentaires
 
 Voici une sélection de portails utilisant l&apos;API Isogeo pour apporter des fonctionnalités d&apos;interaction via le catalogue :
+
 * [Syndicat Mixte d&apos;Aménagement de la Vallée de la Durance (SMAVD)](http://geocatalogue.smavd.org/) ;
 * [Lorient Agglomération](http://geocatalogue.lorient-agglo.bzh/) ;
 * [Département d&apos;Indre-et-Loire (Touraine - 37)](http://data.touraine.fr) ;
@@ -104,7 +107,7 @@ Avec Isogeo, vous valorisez déjà votre ETL FME en capitalisant sur son intéro
 
 Consulter le [résumé du webinaire consacré à cette extension de février 2016](http://blog.isogeo.com/2016/03/16/retour-sur-le-webinaire-automatiser-lextraction-de-vos-donnees-sig-avec-lapi-isogeo/).
 
-___
+____
 
 ### L&apos;export vers les formats bureautiques
 
@@ -129,6 +132,7 @@ ____
 ### Notions
 
 Si vous avez des compétences en développement, voici les notions techniques utiles pour démarrer :
+
 * l&apos;API respecte le protocole REST pour les requêtes ;
 * oAuth2 pour l&apos;authentification des applications tierces ;
 * l&apos;accès aux fichiers hébergés via les métadonnées (données brutes, fiches XML...) est soumis à la mise en place d&apos;un proxy.

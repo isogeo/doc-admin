@@ -299,7 +299,6 @@ Consulter :
 https://www.youtube.com/watch?v=8f0FcliMd1M
 {% endyoutube %}
 
-
 #### API
 
 * finalisation de la version 1, prête pour être publique

@@ -41,6 +41,7 @@
     * [Associer couches de services et données](features/inventory/md_services/srv_association.md)
     * [Questions fréquentes et cas particuliers](features/inventory/md_services/srv_faq.md)
     * [Ressources sur les métadonnées de services](features/inventory/md_services/srv_resources.md)
+    * [Archive - Documentation manuelle](features/inventory/md_services/srv_manual.md)
 * [Moissonner un noeud CSW](features/csw_client/csw_harvest.md)
 * [Créer une fiche manuelle](features/documentation/md_new_manual.md)
 
