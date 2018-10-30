@@ -1,4 +1,4 @@
-# Diffuser les catalogues avec la cartothèque (beta)
+# Diffuser les catalogues avec la cartothèque
 
 ## Générer une cartothèque {#maplib_create}
 
@@ -6,10 +6,10 @@ Pour créer une cartothèque :
 
 1. Dans le menu `Administration`  > `Partage`, cliquer sur `Nouveau` ;
 2. Cliquer sur le bouton en forme d&apos;engrenages ;
-3. Sélectionner l’application `Cartothèque` ;
-4. Sélectionner le ou les catalogues à publier ;
+3. Sélectionner l’application `Cartothèque`. Cliquer le bouton `Enregistrer` en regard de l'application sélectionnée ;
+4. Sélectionner le ou les catalogues à publier. Cliquer le bouton `Enregistrer` en regard du/des catalogues sélectionnés ;
 5. Nommer le partage ;
-6. `Enregistrer` ;
+6. Cliquer sur `Créer` ;
 
 L&apos;URL de consultation de la cartothèque apparaît alors.
 
@@ -28,7 +28,7 @@ Pour créer une fiche de métadonnées de carte vous devez :
 
 ### Ajouter des filtres {#maplib_filters}
 
-Pour renseigner une “catégorie thématique”, il suffit de saisir un mot-clé en utilisant le préfixe **thematique:** . Par exemple pour le thème “tourisme” vous devez saisir `thematique:Tourisme`.
+Pour renseigner une “catégorie thématique”, il suffit de saisir un mot-clé en utilisant le préfixe **thematique:** . Par exemple pour le thème “tourisme” vous devez saisir `thematique:tourisme`.
 
 Pour renseigner le **type de carte**, saisir le mot-clé :
 
