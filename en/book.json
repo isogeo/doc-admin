@@ -1,0 +1,12 @@
+{
+    "language": "en",
+    "links": {
+        "sidebar": {
+            "Isogeo": "https://www.isogeo.com/page/In-english-please",
+            "Application": "https://app.isogeo.com"
+        	}
+        },
+    "variables": {
+        "pictures": []
+    }
+}

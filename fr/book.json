@@ -1,0 +1,14 @@
+{
+    "author": "Isogeo",
+    "language": "fr",
+    "title": "Documentation de l'interface d'administration de la plateforme Isogeo",
+    "links": {
+        "sidebar": {
+            "Site Isogeo": "https://www.isogeo.com",
+            "Autres documentations Isogeo": "http://help.isogeo.com"
+        }
+    },
+    "variables": {
+        "pictures": []
+    }
+}
