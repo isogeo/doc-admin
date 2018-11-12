@@ -13,6 +13,15 @@
             ]
         },
         {
+            "label": "Serve locally",
+            "type": "shell",
+            "group": "test",
+            "command": "yarn gitbook serve",
+            "problemMatcher": [
+                "$jshint"
+            ]
+        },
+        {
             "label": "Install dependencies",
             "type": "shell",
             "group": "build",
