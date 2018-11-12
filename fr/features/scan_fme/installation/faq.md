@@ -28,7 +28,7 @@ Si l&apos;un des messages ci-dessous s&apos;affiche, c&apos;est qu&apos;il y a u
 
 ____
 
-## Cas particuliers connus
+## Cas particuliers connus {#scan_known_cases}
 
 ### Shapefile supérieur à 2 Go {#scan_err_shp_too_big}
 
@@ -47,3 +47,31 @@ Dans le fichier LOG, l&apos;erreur intervient sur l&apos;étape "LookUp". Exempl
 ```json
 {"worker":"wk-d864517e","level":"info","message":"(etl) Start new fme script from queue with options :  [ &apos;C:\\\\PROGRA~1\\\\Isogeo\\\\ISOGEO~1\\\\scripts\\\\lookup-postgis.fmw&apos;,\n  &apos;--OUTPUT_JSON&apos;,\n  &apos;C:\\\\PROGRA~1\\\\Isogeo\\\\ISOGEO~1\\\\tmp\\\\lookup-gC9aIjzL6&apos;,\n  &apos;--LOG_FILE&apos;,\n  &apos;C:\\\\PROGRA~1\\\\Isogeo\\\\ISOGEO~1\\\\tmp\\\\log-UUOBAvNXz&apos;,\n  &apos;--USERNAME&apos;,\n  &apos;isogeo&apos;,\n  &apos;--PASSWORD&apos;,\n  &apos;modepassepasse&apos;,\n  &apos;--SOURCE&apos;,\n  &apos;bdgeo_prod&apos;,\n  &apos;--HOST&apos;,\n  &apos;192.168.1.1&apos;,\n  &apos;--PORT&apos;,\n  5432,\n  &apos;--FEATURE_TYPES&apos;,\n  &apos;schema.dataset&apos; ]","timestamp":"2017-12-14T16:14:30.604Z"}
 ```
+
+### Mauvais nombre d'entités géographiques détecté (voire doublé) {#scan_err_featureCount}
+
+#### Constat
+
+Après un Scan, le nombre d'entités détecté et reporté dans les métadonnées ne correspond pas à celui du jeu de données (voire est doublé).
+
+#### Problème
+
+Le Scan a été lancé avec une version de FME non compatible (FME 2018 ou 2017).
+
+#### Solution
+
+Installer FME 2016.1 comme indiqué dans [les prérequis](prerequisites.html), puis redémarrer le service.
+
+### Le nom de la donnée est le type de géométrie {#scan_err_badName}
+
+#### Constat {#scan_err_badName_obs}
+
+Après un Scan, le nom du jeu de données (et donc son titre si la métadonnée est nouvelle) est le type de géométrie (point...) au lieu du nom du fichier/de la table.
+
+#### Problème {#scan_err_badName_diagnostic}
+
+Le Scan a été lancé avec une version de FME non compatible (FME 2018 ou 2017).
+
+#### Solution {#scan_err_badName_solve}
+
+Installer FME 2016.1 comme indiqué dans [les prérequis](prerequisites.html), puis redémarrer le service.
