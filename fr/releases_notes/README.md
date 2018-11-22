@@ -88,14 +88,15 @@ Consulter :
 #### OpenCatalog
 
 * refonte de la prévisualisation intégrée des services géographiques :
-    - mise à jour des dépendances (Leaflet et plugins associés)
-    - définition plus précise du cas générique selon les formats et versions
-    - meilleure gestion des cas particuliers (SRS incompatibles, etc.)
+
+  * mise à jour des dépendances (Leaflet et plugins associés)
+  * définition plus précise du cas générique selon les formats et versions
+  * meilleure gestion des cas particuliers (SRS incompatibles, etc.)
 
 #### Applications tierces
 
-* sortie de la version 1.5 du [plugin pour QGIS](http://plugins.qgis.org/plugins/isogeo_search_engine/) (voir [documentation](https://isogeo.gitbooks.io/app-plugin-qgis/content/fr/)) ;
-* ajout d&apos;une gestion des droits affinée et refonte de la brique de recherche cartographique dans le [portail générique de données](https://isogeo.gitbooks.io/app-portal-pixup-admin/content/) ;
+* sortie de la version 1.5 du [plugin pour QGIS](http://plugins.qgis.org/plugins/isogeo_search_engine/) (voir [documentation](http://help.isogeo.com/qgis/fr/index.html)) ;
+* ajout d&apos;une gestion des droits affinée et refonte de la brique de recherche cartographique dans le [portail générique de données](http://help.isogeo.com/pixup-portal/index.html) ;
 
 <!-- /timeline -->
 
