@@ -7,7 +7,9 @@ OpenDataSoft est une entreprise éditrice de la plateforme logicielle éponyme d
 ## Prérequis {#requirements}
 
 - disposer d&apos;un groupe de travail Isogeo avec le module CSW activé
-- disposer d&apos;une organisation OpenDataSoft avec le moissonneur CSW activé
+- disposer d&apos;une organisation OpenDataSoft avec :
+  - le [moissonneur CSW](https://help.opendatasoft.com/platform/fr/publishing_data/02_harvesting_a_catalog/harvesters/csw.html) activé
+  - les métadonnées [DCAT](https://help.opendatasoft.com/platform/fr/publishing_data/06_configuring_metadata/interoperability_metadata.html#dcat-metadata) et [INSPIRE](https://help.opendatasoft.com/platform/fr/publishing_data/06_configuring_metadata/interoperability_metadata.html#inspire)
 - disposer de métadonnées de données avec des services WFS associés et accessibles publiquement
 
 ## Processus global {#step-by-step}
