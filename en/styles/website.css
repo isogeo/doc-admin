@@ -1,7 +1,29 @@
-/*.articles > li.chapter > a {
-  white-space: normal!important;
-}
-table {
-  table-layout: fixed
-}
-*/
+/* PAGE TOC */
+.page-toc:before {
+				content: "Table Of Anchors";
+				font-weight: bold;
+				}
+
+.page-toc {
+			float: right;
+			background: #f8f8f8;
+			border: 1px solid rgba(0, 0, 0, 0.07);
+			border-radius: 3px;
+			padding: 20px !important;
+			font-size: smaller;
+			}
+
+.page-toc ul {
+			padding-left: 15px;
+			}
+
+.page-toc > ul {
+			padding-left: 0;
+			}
+
+.page-toc li {
+			list-style: circle;
+			}
+
+/* BS row margins - links to others gitbooks */
+.top-buffer { margin-top:20px; }

@@ -2,9 +2,10 @@
 
 Vous gérez un catalogue de données moissonnable en CSW, vous souhaitez récupérer ces métadonnées dans Isogeo. Pour cela c’est très simple, il vous suffit de suivre la démarche suivante.
 
-## Principes des noeuds CSW
+## Principes des noeuds CSW {#csw_about}
 
 Lorsque l&apos;on parle d&apos;un noeud CSW ([*Catalog Service Web*](http://www.opengeospatial.org/standards/cat)), on entend l&apos;implémentation du standard de l&apos;OGC qui a 2 volets :
+
 * le serveur qui génère des flux selon les profils définis par le standard, interrogeables par les clients CSW ;
 * le client qui envoie les requêtes formatées selon le standard à n&apos;importe quel serveur CSW et en récupère les métadonnées.
 
@@ -14,16 +15,16 @@ Il s&apos;agit ici de moissonner les serveurs CSW grâce au client CSW intégré
 
 > Astuce : pour la partie serveur, voir [le chapitre dédié](../publish/csw_server.html).
 
-## Créer un point d&apos;entrée "Service CSW"
+## Créer un point d&apos;entrée Service CSW {#csw_new}
 
 Pour créer un point d’entrée « Service CSW », vous devez :
 
-1.  Dans le menu « Points d’entrée », créer un nouveau point d’entrée ;
-2.  Sélectionner le type « Service CSW » ;
-3.  Nommer le point d’entrée (exemple : catalogue CG Calvados) ;
-4.  Saisir l’URL du CSW sans les paramètres (c’est-à-dire sans ce qui est après le `?`) ;
-5.  Enregistrer ;
-6.  Scanner.
+1. Dans le menu « Points d’entrée », créer un nouveau point d’entrée ;
+2. Sélectionner le type « Service CSW » ;
+3. Nommer le point d’entrée (exemple : catalogue CG Calvados) ;
+4. Saisir l’URL du CSW sans les paramètres (c’est-à-dire sans ce qui est après le `?`) ;
+5. Enregistrer ;
+6. Scanner.
 
 ![Nouveau point d&apos;entrée CSW](/assets/adm_client_csw_new.png "Moissonner un serveur CSW")
 

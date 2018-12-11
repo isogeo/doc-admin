@@ -2,7 +2,7 @@
 
 If you manage a data catalog that can be harvested using CSW and you want to retrieve this metadata in Isogeo: simply proceed as explained below.
 
-## About CSW nodes
+## About CSW nodes {#csw_about}
 
 For the purpose of researching and viewing metadata, France&apos;s national GeoCatalog is the preferred node of the national Spatial Data Infrastructure (SDI). Its metadatabase is used for reports by France on the implementation of the INSPIRE directive.
 
@@ -12,16 +12,16 @@ Public authorities that possess geographical data and services within the scope 
 * posting metadata files to the GeoCatalog.
 * directly entering the metadata in the GeoCatalog (this method is explained below).
 
-## Creating a "CSW service" entry point
+## Creating a CSW entry point {#csw_new}
 
 Proceed as follows to create a "CSW service" entry point:
 
-1.  In the "Entry points" menu, create a new entry point;
-2.  Select the "CSW service" type;
-3.  Name the entry point (for example: CG Calvados catalog);
-4.  Enter the URL of the CSW without the parameters (excluding whatever comes after the `?`);
-5.  Save;
-6.  Scan.
+1. In the "Entry points" menu, create a new entry point;
+2. Select the "CSW service" type;
+3. Name the entry point (for example: CG Calvados catalog);
+4. Enter the URL of the CSW without the parameters (excluding whatever comes after the `?`);
+5. Save;
+6. Scan.
 
 ![New CSW entry point](/assets/adm_client_csw_new.png "Harvesting a CSW server")
 

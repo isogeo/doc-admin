@@ -30,7 +30,7 @@ The user will receive an invitation email ([see the dedicated chapter](/en/start
 
 | Functions                                       | Administrator     | Writer    | Reader   |
 | :---------------------------------------------- | :---------------: | :-------: | :-------: |
-| Manage users                                | X                 |           |           |
+| Manage users                                | X                 |           |     -     |
 | Manage the address book                 | X                 |           |           |
 | Manage the entry points                    | X                 |           |           |
 | Manage the scan                            | X                 |           |           |

@@ -12,10 +12,10 @@ To make it easier to manage these systems, and to avoid confusing writers (who a
 
 Proceed as follows to configure the list of coordinate systems:
 
-1.	Select `Administration` > `Coordinate systems`;
-2.	In the list on the left, search for the coordinate systems you wish to add to the list on the right (for example, RGF 93);
-3.	Click on the `+` button. The system is added to the list of selected coordinate systems;
-4.	Click on the pencil icon to specify an alias for a coordinate system. This can be useful for non-specialists.
+1. Select `Administration` > `Coordinate systems`;
+2. In the list on the left, search for the coordinate systems you wish to add to the list on the right (for example, RGF 93);
+3. Click on the `+` button. The system is added to the list of selected coordinate systems;
+4. Click on the pencil icon to specify an alias for a coordinate system. This can be useful for non-specialists.
 
 To remove a coordinate system from the list of selected systems, simply click on the trash can icon next to the corresponding projection (the alias is also deleted).
 
