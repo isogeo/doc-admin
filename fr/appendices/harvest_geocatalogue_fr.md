@@ -8,19 +8,19 @@ Chaque organisme adhérent peut ajouter ses services CSW à moissonner via l’a
 
 ## Processus global
 
-### Créer son compte
+### Créer son compte {#geocat_createAccount}
 
 > Attention, le site du géocatalogue ne semble pas gérer correctement les liens directs. Il est donc possible que vous soyez systématiquement redirigé sur la page d&apos;accueil.
 
 1. tout d&apos;abord, il faut disposer d&apos;un compte adhérent. Si ce n&apos;est pas le cas, la demande se fait sur le GéoCatalogue via [le formulaire dédié](http://www.geocatalogue.fr/#!CreateAccountTileForward) (menu "Cataloguer" > "Mon compte" > en bas : "Créer en ligne votre compte") ;
 
-    ![Création de compte sur le GéoCatalogue](/assets/annex_GeoCatalogueFR_signInForm.png "Remplir le formulaire de demande de création de compte pour le GéoCatalogue")
+    ![Création de compte sur le GéoCatalogue](/assets/annex_GeoCatalogueFR_signInForm.png)
 
 2. Vous recevez alors un email (cf. ci-dessous) qui vous demande de confirmer votre qualité d’organisme public par retour de mail ;
 
-    ```
+    ```txt
     Nous avons bien reçu votre demande de création de compte et nous vous remercions de votre intérêt pour le Géocatalogue.
-    Nous tenons à préciser que le Géocatalogue permet de rechercher et consulter les métadonnées sans qu&apos;il soit nécessaire de s&apos;inscrire en ligne.
+    Nous tenons à préciser que le Géocatalogue permet de rechercher et consulter les métadonnées sans qu'il soit nécessaire de s'inscrire en ligne.
 
     L&apos;inscription en ligne est adressée aux autorités publiques qui souhaitent publier leurs métadonnées géographiques, en accord avec la Directive européenne INSPIRE (voir les conditions d&apos;utilisation du Géocatalogue).
     Si vous êtes dans cette configuration nous vous remercions de nous le confirmer en réponse à ce mail. Nous vous ferons alors parvenir un identifiant et un mot de passe vous permettant de cataloguer vos métadonnées.
@@ -28,7 +28,7 @@ Chaque organisme adhérent peut ajouter ses services CSW à moissonner via l’a
 
 3. Une fois votre demande traitée, un email vous notifie avec les paramètres de connexion ;
 
-    ```
+    ```txt
     Votre inscription au GéoCatalogue a été prise en compte.
 
     Détail de votre inscription :
@@ -40,7 +40,9 @@ Chaque organisme adhérent peut ajouter ses services CSW à moissonner via l’a
 
     ```
 
-### Ajouter son CSW
+Depuis 2018, il semble que les comptes soient activés sans aucune confirmation.
+
+### Ajouter son CSW {#csw_add}
 
 1. Une fois authentifié, se rendre dans le menu ["Gérer mes points de moissonnage"](http://geocatalogue.fr/geocatadmin/admin/ListHarvestPoint.do) ;
 
@@ -67,7 +69,7 @@ Chaque organisme adhérent peut ajouter ses services CSW à moissonner via l’a
 
 10. Valider et cliquer sur `Lancer le moissonnage sur ce point` (double flèche verte vers le bas) : une popup vous informe quand le moissonnage est terminé et une notification vous est envoyée par email :
 
-    ```
+    ```txt
     Bonjour,
 
     Le point "Isogeo" a été visité et 2 métadonnée(s) ont été moissonnées :
@@ -83,8 +85,7 @@ Chaque organisme adhérent peut ajouter ses services CSW à moissonner via l’a
 Voici le processus suivi :
 ![Ajout d&apos;un point d&apos;entrée CSW](/assets/annex_GeoCatalogueFR_entryPointsAddConfig.gif "Configurer son point d&apos;entrée CSW")
 
-
-### Précisions
+### Précisions {#details}
 
 Le GéoCatalogue national est géré par le BRGM avec qui nous travaillons pour nous assurer de la bonne interopérabilité entre nos plateformes. Isogeo s&apos;assure de générer des CSW respectant les standards. Nous ne pouvons cependant pas répondre pour les anomalies liées au GéoCatalogue (ou à d&apos;autres plateformes).
 
