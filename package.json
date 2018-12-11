@@ -1,6 +1,6 @@
 {
   "name": "isogeo-help",
-  "version": "2010.11",
+  "version": "2018.12",
   "private": false,
   "description": "Isogeo - Administration documentation",
   "keywords": [
@@ -19,6 +19,7 @@
     "gitbook": "^3.2.3",
     "gitbook-cli": "^2.3.2",
     "gitbook-plugin-ga": "^1.0.1",
+    "gitbook-plugin-html-minifier": "^0.0.1",
     "gitbook-plugin-image-captions": "^3.1.0",
     "gitbook-plugin-page-toc": "^1.0.2",
     "gitbook-plugin-sitemap-general": "^0.1.1",
