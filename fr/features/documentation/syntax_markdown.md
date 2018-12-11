@@ -5,10 +5,10 @@ Toujours dans l&apos;optique de faciliter la saisie et la consultation des catal
 Un mémo est disponible sous forme de lien en regard de chaque zone de texte éditable dans l&apos;application, mais voici une liste exhaustive de ce qu&apos;il est possible de faire.
 
 Quelques recommandations :
+
 * les retours à la ligne sont interprétés. Par exemple, pour ouvrir une liste à puces, il faut sauter une ligne.
 * le rendu peut ne pas être le même partout (cela dépend des implémentations) ;
 * s&apos;en tenir à des mises en forme simples pour ne pas perdre en lisibilité ;
-
 
 > Astuce : cette aide en ligne est intégralement rédigée en markdown !
 
@@ -130,9 +130,9 @@ Attention il n&apos;est pas possible de préciser les dimensions de l&apos;image
 #### Syntaxe
 
 ```no-highlight
-![Texte alternatif](https://www.isogeo.com/assets/isogeo/logo-isogeo.png "Titre de l&apos;image")
+![Texte alternatif](https://www.isogeo.com/images/isogeo/logo-isogeo.png "Titre de l&apos;image")
 ```
 
 #### Rendu
 
-![Texte alternatif](https://www.isogeo.com/assets/isogeo/logo-isogeo.png "Titre de l&apos;image")
+![Texte alternatif](https://www.isogeo.com/images/isogeo/logo-isogeo.png "Titre de l&apos;image")
