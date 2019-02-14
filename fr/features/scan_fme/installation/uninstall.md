@@ -14,7 +14,7 @@ La suppression d&apos;un service Isogeo s&apos;effectue en deux étapes dépenda
 
 Si vous n&apos;avez plus de service d&apos;inscrit, vous serez automatiquement amené(e) à en télécharger un nouveau.
 
-## 2. Suppression du service installé
+## 2. Suppression du service installé sur l'infrastructure du client
 
 Plusieurs paramètres sont potentiellement spécifiques à votre installation.
 
@@ -25,3 +25,15 @@ Plusieurs paramètres sont potentiellement spécifiques à votre installation.
 3. Faites un clic droit sur le fichier uninstall.bat, puis `Exécuter en tant qu’administrateur`. Une fenêtre devrait s&apos;ouvrir puis se fermer automatiquement.
 
 4. Supprimez l&apos;ensemble de répertoire du service.
+
+### Suppression forcée du service dans Windows {#remove_cmd}
+
+Selon la configuration de l'environnement Windows, il se peut qu'il faille supprimer le service via une commande en mode administrateur :
+
+```cmd
+sc delete "Isogeo Worker"
+```
+
+![Scan - Supp](/assets/scanFME/scanFME_service_remove_cmd.png)
+
+Puis redémarrer la machine.
