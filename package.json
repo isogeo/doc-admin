@@ -1,38 +1,44 @@
 {
+  "author": "Isogeo <contact@isogeo.fr>",
   "name": "isogeo-help",
-  "version": "2018.12",
+  "version": "2019.03",
   "private": false,
   "description": "Isogeo - Administration documentation",
+  "license": "CC-BY-NC-SA-4.0",
   "keywords": [
     "isogeo",
     "help",
+    "INSPIRE",
+    "métadonnées",
+    "catalogage",
+    "SIG",
     "userguide",
     "documentation",
     "aide en ligne"
   ],
-  "license": "CC-BY-NC-SA-4.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/isogeo/doc-isogeo-help"
   },
+    "scripts": {
+      "build": "gitbook build",
+      "dev": "gitbook serve"
+    },
+    "engines": {
+      "node": ">=8.11.1",
+      "gitbook": ">=3.2.2",
+      "yarn": ">= 1.0.0"
+    },
   "dependencies": {
     "gitbook": "^3.2.3",
     "gitbook-cli": "^2.3.2",
     "gitbook-plugin-ga": "^1.0.1",
     "gitbook-plugin-html-minifier": "^0.0.1",
     "gitbook-plugin-image-captions": "^3.1.0",
-    "gitbook-plugin-page-toc": "^1.0.2",
+    "gitbook-plugin-page-toc": "^1.1.0",
     "gitbook-plugin-sitemap-general": "^0.1.1",
-    "gitbook-plugin-swagger": "^0.2.0",
     "gitbook-plugin-timeline": "^1.0.13",
     "gitbook-plugin-toggle-headers": "^0.1.0",
     "gitbook-plugin-youtube": "^1.1.0"
-  },
-  "devDependencies": {
-    "grunt": "^1.0.1",
-    "grunt-contrib-clean": "^1.1.0",
-    "grunt-contrib-copy": "^1.0.0",
-    "grunt-spawn": "^1.1.74",
-    "matchdep": "^2.0.0"
   }
 }
