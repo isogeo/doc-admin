@@ -3,7 +3,7 @@
 Question ? Souci ? Suggestion ? Angoisse ? Anomalie ? Dites-le nous sur le mail support... après avoir lu les quelques lignes ci-dessous ;)
 Cela évitera les mails "ping-pong" car, comme dit l&apos;adage : mieux vaut 1 bon mail que 10 incomplets !
 
-!["Support - A good mail is better than 10 useless"](http://ljdchost.com/iREPuffTNOthP.gif "Support - Eviter les échanges ping-pong")
+!["Support - A good mail is better than 10 useless"](/assets/support_ping-pong_cats.gif "Support - Eviter les échanges ping-pong")
 
 > **Astuce** : pour les problèmes liés au Scan FME, [consulter la section dédiée en cliquant ici](..\features\scan_fme\installation\support.html).
 
@@ -23,12 +23,9 @@ Si vous souhaitez que votre problème soit traité rapidement, voici quelques bo
 - mettre votre interlocuteur projet en copie ;
 - donner toute information complémentaire aidant à la compréhension du contexte (proxy, usages, configuration...)
 
-
 ## Modèle de courriel pour signaler une anomalie
 
-**A :** [support@isogeo.fr](mailto:support@isogeo.fr?subject=[Scan / OpenCatalog / APP] sujet problème&cc=projets@isogeo.fr)
-
-**Copie à :** chef_de_projet@isogeo.fr
+**A :** [support@isogeo.fr](mailto:support@isogeo.fr?subject="XXX SUJET A MODIFIER A AVANT ENVOI XXX"&cc=projets@isogeo.fr)
 
 **Objet :** Scan - Le nombre de fiches remontées ne correspond pas à celui attendu (nombre de données dans le point d&apos;entrée)
 
@@ -47,5 +44,3 @@ Pour reproduire :
 
 -----
 Signature
-
-

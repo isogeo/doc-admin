@@ -105,7 +105,7 @@
 
 ## Support
 
-* [Support](support/README.md)
+* [Contacter le support](support/README.md)
 
 ## Annexes
 
