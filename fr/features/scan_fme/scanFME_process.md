@@ -32,11 +32,11 @@ La licence de FME utilisée est de nouveau disponible pour d&apos;autres usages 
 
 4. Une fois terminé, le scan vous indique :
 
-    * La liste complète des données recensées. Dans cette liste, chaque donnée est caractérisée par un identifiant unique, son nom, son emplacement, son format et son statut (nouveau, modifiée, inchangée, supprimée, erreur). Vous pouvez trier cette liste ;
+    * La liste complète des données recensées. Dans cette liste, chaque donnée est caractérisée par un identifiant unique, son nom, son emplacement, son format et son statut (nouveau, modifiée, déplacée, inchangée, erreur). Vous pouvez trier ce tableau ;
     * La liste des données sans entités géographiques ;
     * La liste des données en doublons ;
 
-La liste des données sans entités géographiques et la liste des doublons sont informatives. Elles vous permettent d’agir au sein de votre base de données.
+La liste des données sans entités géographiques et celle des doublons sont informatives. Elles vous permettent d’agir au sein de votre base de données.
 
 La liste complète des données recensées pendant le scan vous permet d’identifier :
 
