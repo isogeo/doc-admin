@@ -1,20 +1,30 @@
-Isogeo - Admin documentation
-============================
+# Isogeo - Admin documentation
 
-[![CircleCI](https://circleci.com/gh/isogeo/doc-isogeo-help.svg?style=svg)](https://circleci.com/gh/isogeo/doc-isogeo-help)
+[![CircleCI](https://circleci.com/gh/isogeo/doc-admin.svg?style=svg)](https://circleci.com/gh/isogeo/doc-admin)
 
-# General information
+## General information
 
-Isogeo Help is the project used to generate the online help for the Isogeo administration platform.
+Project used to generate the online help for the Isogeo administration platform.
 
-## Continuous integration
+## Technical
 
-The project is tested, built and served on CircleCI: https://circleci.com/gh/isogeo/doc-isogeo-help.
+For full detailed developement guidelines, see [this wiki](https://github.com/isogeo/doc-homepage/wiki).
+
+### Continuous integration
+
+The project is tested, built and served on CircleCI: <https://circleci.com/gh/isogeo/doc-isogeo-help.>
 
 As specified in the CircleCI configuration (see: [.circleci/config.yml](https://github.com/isogeo/doc-isogeo-help/blob/master/.circleci/config.yml)):
 
-- each commit triggers a deploy on QA (http://help.qa.isogeo.com/ = https://qaisogeohelp.z28.web.core.windows.net/)
-- each tagged commit triggers a deploy on PROD - (http://help.isogeo.com/ = https://prodisogeohelp.z28.web.core.windows.net/)
+- each commit triggers a deploy on QA :
+
+  - <http://help.qa.isogeo.com/admin>
+  - <https://qaisogeohelp.z28.web.core.windows.net/admin>
+
+- each tagged commit triggers a deploy on PROD:
+
+  - <http://help.isogeo.com/admin>
+  = <https://prodisogeohelp.z28.web.core.windows.net/admin>
 
 It pushes built static website on a Static Website hosted on Azure Storage (GPv2). For more details on this kind of product, refer to these resources:
 
@@ -25,7 +35,7 @@ To upload built result, [rclone](https://rclone.org/azureblob/) is preferred to 
 
 ----
 
-## Local build
+### Local build
 
 Git clone this repository then:
 
@@ -37,7 +47,7 @@ yarn gitbook serve
 
 ----
 
-## Docker
+### Docker
 
 First of all: build it.
 
@@ -45,7 +55,7 @@ First of all: build it.
 docker build --rm -f Dockerfile -t isogeo/gitbook-builder:latest .
 ```
 
-### Serve as a website
+#### Serve as a website
 
 ```powershell
 docker run --name isogeo-help -v $PWD:/srv/gitbook --rm -it -d -p 4567:4567 isogeo/gitbook-builder:latest
@@ -53,20 +63,19 @@ docker run --name isogeo-help -v $PWD:/srv/gitbook --rm -it -d -p 4567:4567 isog
 docker run --name isogeo-help -v $PWD:/srv/gitbook --rm -it -d -p 4567:4567 -p 35729:35729 isogeo/gitbook-builder:latest
 ```
 
-Then, open your favorite browser to http://localhost:4567.
+Then, open your favorite browser to <http://localhost:4567.>
 
 To stop it : ```docker stop isogeo-help```
 
-### Build static website
+#### Build static website
 
 ```powershell
 docker run --rm -v $PWD:/srv/gitbook -v $PWD/dist:/srv/html isogeo/gitbook-builder gitbook build . /srv/html
 ```
 
-### Push to Azure private container
+#### Push to Azure private container
 
 Using Azure CLI ([see: official doc](https://docs.microsoft.com/en-us/azure/container-registry/container-registry-get-started-docker-cli)).
-
 
 ```bash
 # login
@@ -81,6 +90,7 @@ az acr repository list --name isogeo
 
 ----
 
-# Related resources
+## Related resources
 
 - [GitBook official website](https://www.gitbook.com)
+- [Isogeo documentations - contributor wiki](https://github.com/isogeo/doc-homepage/wiki)
