@@ -2,7 +2,8 @@
 .nuget
 .vscode
 dist/*
-Help/*
+Help/
+_book/*
 install/*
 node_modules/*
 tmp/*

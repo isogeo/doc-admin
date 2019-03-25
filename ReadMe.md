@@ -24,7 +24,7 @@ As specified in the CircleCI configuration (see: [.circleci/config.yml](https://
 - each tagged commit triggers a deploy on PROD:
 
   - <http://help.isogeo.com/admin>
-  = <https://prodisogeohelp.z28.web.core.windows.net/admin>
+  - <https://prodisogeohelp.z28.web.core.windows.net/admin>
 
 It pushes built static website on a Static Website hosted on Azure Storage (GPv2). For more details on this kind of product, refer to these resources:
 
