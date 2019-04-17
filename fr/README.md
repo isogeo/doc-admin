@@ -15,3 +15,7 @@ Isogeo désigne la plateforme _SaaS_ construite autour de son API REST et compos
 * d&apos;applications tierces,  utilisant l&apos;API Isogeo dans des interfaces logicielles indépendantes pour apporter de la valeur ajoutée complémentaire aux fonctions natives.
 
 ![La plateforme](/assets/offer_schema_platform_modAPI.png "Modules et ressources de la plateforme Isogeo")
+
+----
+
+Date de la dernière mise à jour de cette documentation : **{{ gitbook.time | date("DD/MM/YYYY") }}**.
