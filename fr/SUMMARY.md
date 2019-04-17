@@ -101,7 +101,6 @@
    * [Questions et erreurs fréquentes](features/scan_fme/installation/faq.md)
    * [Support Scan FME](features/scan_fme/installation/support.md)
    * [Configuration avancée](features/scan_fme/installation/advanced.md)
-   * [Notes de version du service](features/scan_fme/installation/releases_notes.md)
 
 ## Support
 
