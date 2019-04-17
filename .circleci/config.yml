@@ -119,7 +119,9 @@ jobs:
 
       - run:
           name: Generate PDF
-          command: yarn gitbook pdf ./ dist/admin/Isogeo_DOC_Admin.pdf
+          command: |
+            set +e
+            yarn gitbook pdf ./ dist/admin/Isogeo_DOC_Admin.pdf
 
       - persist_to_workspace:
           root: *workspace_root
