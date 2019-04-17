@@ -20,15 +20,15 @@
     "type": "git",
     "url": "https://github.com/isogeo/doc-isogeo-help"
   },
-    "scripts": {
-      "build": "gitbook build",
-      "dev": "gitbook serve"
-    },
-    "engines": {
-      "node": ">=8.11.1",
-      "gitbook": ">=3.2.2",
-      "yarn": ">= 1.0.0"
-    },
+  "scripts": {
+    "build": "gitbook build",
+    "dev": "gitbook serve"
+  },
+  "engines": {
+    "node": ">=8.11.1",
+    "gitbook": ">=3.2.2",
+    "yarn": ">= 1.0.0"
+  },
   "dependencies": {
     "gitbook": "^3.2.3",
     "gitbook-cli": "^2.3.2",
@@ -40,5 +40,8 @@
     "gitbook-plugin-timeline": "^1.0.13",
     "gitbook-plugin-toggle-headers": "^0.1.0",
     "gitbook-plugin-youtube": "^1.1.0"
+  },
+  "devDependencies": {
+    "ebook-convert": "^2.0.1"
   }
 }
