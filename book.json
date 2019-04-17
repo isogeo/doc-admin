@@ -4,6 +4,7 @@
         "html-minifier",
         "image-captions",
         "page-toc",
+        "redirect",
         "sitemap-general",
         "timeline",
         "toggle-headers",
