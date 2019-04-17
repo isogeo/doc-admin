@@ -185,10 +185,10 @@ workflows:
             - install
           filters: *default_filters
 
-      - pdf:
-          requires:
-            - build
-          filters: *default_filters
+      # - pdf:
+      #     requires:
+      #       - build
+      #     filters: *default_filters
 
       - deploy-qa:
           requires:
