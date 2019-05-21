@@ -27,12 +27,11 @@
 * [L&apos;administration](settings/administration.md)
 * [L&apos;inventaire](settings/inventory.md)
 * [La recherche](features/inventory/search.md)
+* [Fonctionnalités](features/README.md)
 
 ## Recenser
 
-* [Fonctionnalités](features/README.md)
-
-* [Recenser](features/scan_fme/README.md)
+* [Recenser](features/inventory/README.md)
 * [Scanner les données géographiques](features/scan_fme/scanFME_process.md)
     * [Points d&apos;entrée](features/scan_fme/scanFME_new_db.md)
     * [Formats pris en compte](features/scan_fme/scanFME_formats.md)

@@ -7,11 +7,12 @@ Vos données SIG, de types et formats différents (fichiers Shapefiles, MapInfo,
 Pour recenser rapidement toutes ces données au sein d’un inventaire unique et exhaustif, Isogeo met à votre disposition le Scan FME. L&apos;ancien moteur de scan « Isogeo Daemon » est déprécié depuis l&apos;automne 2015.
 
 D&apos;autres fonctionnalités de recensement sont documentées :
+
 * les métadonnées automatiques de services ;
 * le moissonnage CSW ;
 * les fiches manuelles.
 
-> Astuce : accéder directement à [la partie Recenser](scan_fme/index.html).
+> Astuce : accéder directement à [la partie Recenser](inventory/index.html).
 
 ## Documenter
 
