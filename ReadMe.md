@@ -1,6 +1,6 @@
 # Isogeo - Admin documentation
 
-[![CircleCI](https://circleci.com/gh/isogeo/doc-admin.svg?style=svg)](https://circleci.com/gh/isogeo/doc-admin)
+[![Build Status](https://dev.azure.com/isogeo/Documentations/_apis/build/status/isogeo.doc-admin?branchName=master)](https://dev.azure.com/isogeo/Documentations/_build/latest?definitionId=27&branchName=master)
 
 ## General information
 
@@ -12,9 +12,7 @@ For full detailed developement guidelines, see [this wiki](https://github.com/is
 
 ### Continuous integration
 
-The project is tested, built and served on CircleCI: <https://circleci.com/gh/isogeo/doc-isogeo-help.>
-
-As specified in the CircleCI configuration (see: [.circleci/config.yml](https://github.com/isogeo/doc-isogeo-help/blob/master/.circleci/config.yml)):
+The project is tested, built and served on Azure DevOps: <https://dev.azure.com/isogeo/Documentations/_build?definitionId=27&_a=summary>. As specified in the configuration (see: [azure-pipelines.yml](https://github.com/isogeo/doc-admin/blob/master/azure-pipelines.yml)):
 
 - each commit triggers a deploy on QA :
 
