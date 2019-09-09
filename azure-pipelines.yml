@@ -52,9 +52,11 @@ jobs:
     inputs:
       SourceFolder: '$(System.DefaultWorkingDirectory)/dist'
       Contents: |
+        .dockerignore
         .gitignore
         .vscode/*
         azure-pipelines.yml
+        Dockerfile
         package.json
         yarn.lock
 
