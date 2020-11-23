@@ -1,1 +1,1 @@
-!REDIRECT "http://help.isogeo.com/scan/fr/usage/entrypoint.html"
+!REDIRECT "https://help.isogeo.com/scan/fr/usage/entrypoint.html"

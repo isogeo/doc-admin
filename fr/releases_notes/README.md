@@ -120,8 +120,8 @@ Consulter :
 
 ### Applications tierces
 
-* sortie de la version 1.5 du [plugin pour QGIS](http://plugins.qgis.org/plugins/isogeo_search_engine/) (voir [documentation](http://help.isogeo.com/qgis/fr/index.html))
-* ajout d&apos;une gestion des droits affinée et refonte de la brique de recherche cartographique dans le [portail générique de données](http://help.isogeo.com/pixup-portal/index.html)
+* sortie de la version 1.5 du [plugin pour QGIS](http://plugins.qgis.org/plugins/isogeo_search_engine/) (voir [documentation](https://help.isogeo.com/qgis/fr/index.html))
+* ajout d&apos;une gestion des droits affinée et refonte de la brique de recherche cartographique dans le [portail générique de données](https://help.isogeo.com/pixup-portal/index.html)
 
 <!-- /timeline -->
 

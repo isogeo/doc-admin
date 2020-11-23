@@ -1,1 +1,1 @@
-!REDIRECT "http://help.isogeo.com/scan/fr/usage/inventory.html"
+!REDIRECT "https://help.isogeo.com/scan/fr/usage/inventory.html"

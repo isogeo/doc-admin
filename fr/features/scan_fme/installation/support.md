@@ -1,1 +1,1 @@
-!REDIRECT "http://help.isogeo.com/scan/fr/support/support.html"
+!REDIRECT "https://help.isogeo.com/scan/fr/support/support.html"

@@ -26,9 +26,9 @@ Il est possible d&apos;utiliser l&apos;API dans autant d&apos;applications qu&ap
 
 L&apos;un des usages les plus demandés est de pouvoir consulter les catalogues directement dans les logiciels SIG. Aujourd&apos;hui, des plugins ont été développés pour :
 
-* [ArcMap(10.2+)](http://help.isogeo.com/arcmap/fr/index.html),
-* [ArcGIS WebAppBuilder for Developer](http://help.isogeo.com/arcgis-webapp/fr/index.html),
-* [QGIS 2.x LTR](http://help.isogeo.com/qgis/fr/index.html).
+* [ArcMap(10.2+)](https://help.isogeo.com/arcmap/fr/index.html),
+* [ArcGIS WebAppBuilder for Developer](https://help.isogeo.com/arcgis-webapp/fr/index.html),
+* [QGIS 2.x LTR](https://help.isogeo.com/qgis/fr/index.html).
 
 D&apos;autres sont en cours et attendent une contribution financière pour être développés ou finalisés :
 
@@ -55,7 +55,7 @@ Si l&apos;OpenCatalog permet de couvrir l&apos;essentiel des besoins de consulta
 * interfaces *responsive design* ;
 * des fonctionnalités qu&apos;il tient à chacun de contribuer à développer ! :)
 
-> Astuce : Consulter [la documentation du portail](http://help.isogeo.com/pixup-portal/index.html).
+> Astuce : Consulter [la documentation du portail](https://help.isogeo.com/pixup-portal/index.html).
 
 #### Générique ou spécifique
 
@@ -101,7 +101,7 @@ Pour les besoins d&apos;une consultation hors-ligne, une sauvegarde ou une impre
 
 Au-delà de ces formats existants, il est possible d&apos;envisager d&apos;autres formats : CSV, base locale, etc.
 
-> Astuce : Consulter [la documentation de l&apos;application Isogeo to Office](http://help.isogeo.com/isogeo2office/fr/index.html).
+> Astuce : Consulter [la documentation de l&apos;application Isogeo to Office](https://help.isogeo.com/isogeo2office/fr/index.html).
 
 Capture d&apos;écran de l&apos;interface d&apos;isogeo2office :
 
@@ -111,7 +111,7 @@ ____
 
 ## Lancez vous {#dev}
 
-> Astuce : Consulter [la documentation dee l&apos;API](http://help.isogeo.com/api/fr/index.html).
+> Astuce : Consulter [la documentation dee l&apos;API](https://help.isogeo.com/api/fr/index.html).
 
 ### Notions {#dev_skills}
 
