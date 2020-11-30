@@ -2,6 +2,32 @@
 
 <!-- timeline -->
 
+## 2.20.2-3 {#v220}
+
+Publiée en novembre 2020 :
+
+### APP
+
+* dans l&apos;onglet Partages, dans un partage de groupe, suppression du bouton "J&apos;autorise les destinataires de ce partage à diffuser ces catalogues"
+* correction d&apos;un bug dans les onglets Spécifications et Licences qui n&apos;affichait pas tout lorsqu&apos;on revenait sur l&apos;onglet "Toutes"
+* amélioration de la reconnaissance de services OGC lors de la création d'une fiche manuelle
+
+### API
+
+* correction d&apos;un bug qui empêchait la suppression d&apos;un groupe ou d&apos;un catalogue dans un partage de groupe
+
+### OpenCatalog
+
+* mise en production de la version 3.0.0 de l&apos;OpenCatalog
+
+### Aide en ligne
+
+* activation du protocole HTTPS pour l&apos;aide en ligne Isogeo
+
+<!-- /timeline -->
+
+<!-- timeline -->
+
 ## 2.20.2-2 {#v220}
 
 Publiée en octobre 2020 :
