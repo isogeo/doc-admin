@@ -5,7 +5,7 @@ Cela évitera les mails "ping-pong" car, comme dit l&apos;adage : mieux vaut 1 b
 
 !["Support - A good mail is better than 10 useless"](/assets/support_ping-pong_cats.gif "Support - Eviter les échanges ping-pong")
 
-> **Astuce** : pour les problèmes liés au Scan FME, [consulter la section dédiée en cliquant ici](..\features\scan_fme\installation\support.html).
+> **Astuce** : pour les problèmes liés au Scan FME, [consulter la section dédiée en cliquant ici](https://help.isogeo.com/scan/fr/support/support.html).
 
 
 ## Bonnes pratiques
