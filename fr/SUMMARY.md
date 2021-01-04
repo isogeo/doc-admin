@@ -32,9 +32,7 @@
 ## Recenser
 
 * [Recenser](features/inventory/README.md)
-* [Scanner les données géographiques](features/scan_fme/scanFME_process.md)
-    * [Points d&apos;entrée](features/scan_fme/scanFME_new_db.md)
-    * [Formats pris en compte](features/scan_fme/scanFME_formats.md)
+* [Scanner les données géographiques](https://help.isogeo.com/scan/fr/usage/inventory.html)
 * [Scanner les services géographiques](features/inventory/md_services/srv_intro.md)
     * [Recenser les services](features/inventory/md_services/srv_howto.md)
     * [Associer couches de services et données](features/inventory/md_services/srv_association.md)
@@ -47,11 +45,11 @@
 ## Documenter
 
 * [Introduction](features/documentation/README.md)
-* [Eléments méthodologiques](features/documentation/methodology.md)
+* [Éléments méthodologiques](features/documentation/methodology.md)
 * [Les champs complétés automatiquement](features/documentation/md_fields_autos.md)
-* [Importer l&apos;existant](features/documentation/md_import.md)
-* [Etiqueter - classer les données](features/documentation/md_classify.md)
-* [Editer (et supprimer) par lot](features/documentation/md_edit_batch.md)
+* [Importer l'existant](features/documentation/md_import.md)
+* [Étiqueter - classer les données](features/documentation/md_classify.md)
+* [Éditer (et supprimer) par lot](features/documentation/md_edit_batch.md)
 * [Identification](features/documentation/md_identification.md)
 * [Histoire](features/documentation/md_history.md)
 * [Géographie](features/documentation/md_geography.md)
@@ -89,17 +87,6 @@
 * [Les mots-clés](features/admin/keywords.md)
 * [Les spécifications](features/admin/specifications.md)
 * [Les systèmes de coordonnées](features/admin/srs.md)
-
-## Installation
-
-* [Installation du service Isogeo Worker (FME)](features/scan_fme/installation/README.md)
-   * [Prérequis](features/scan_fme/installation/prerequisites.md)
-   * [Déploiement d&apos;un service](features/scan_fme/installation/setup.md)
-   * [Désinstaller](features/scan_fme/installation/uninstall.md)
-   * [Mettre à jour](features/scan_fme/installation/update.md)
-   * [Questions et erreurs fréquentes](features/scan_fme/installation/faq.md)
-   * [Support Scan FME](features/scan_fme/installation/support.md)
-   * [Configuration avancée](features/scan_fme/installation/advanced.md)
 
 ## Support
 

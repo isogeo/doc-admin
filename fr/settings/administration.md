@@ -21,4 +21,4 @@ Le menu administration, inaccesible aux `éditeurs` et `lecteurs`, permet de par
   * [Spécifications](../features/admin/specifications.html)
   * [Systèmes de coordonnées](../features/admin/srs.html)
 * Applications
-  * [Scan FME](../features/scan_fme/scanFME_process.html)
+  * [Scan FME](https://help.isogeo.com/scan/fr/usage/inventory.html)
