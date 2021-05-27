@@ -41,7 +41,7 @@ Cependant, il faut garder quelques règles en tête :
 
 * on peut créer 2 mots-clés qui diffèrent par leur accentuation : ils seront tous 2 renvoyés par les mêmes critères de recherche textuelle, avec ou sans accents (&apos;àéù&apos; est différent de &apos;aeu&apos;) ;
 
-## Recomandation minimale d'affectation de mots-clés
+## Recommandation minimale d'affectation de mots-clés
 
 Afin de faciliter la recherche et la découverte, il est conseillé d'affecter, à minima, un mot-clé pour :
 
