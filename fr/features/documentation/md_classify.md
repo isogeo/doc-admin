@@ -12,8 +12,8 @@ Dans tous les cas, une donnée peut se voir affecter une ou plusieurs étiquette
 
 Première étape du cycle de documentation, il est possible d&apos;affecter 3 types d&apos;étiquettes via un simple bouton :
 
-1.	Aller dans l&apos;inventaire et sélectionner une ou plusieurs données ;
-2.	Cliquer sur `Etiqueter`, le widget se déroule alors ;
+1. Aller dans l&apos;inventaire et sélectionner une ou plusieurs données ;
+2. Cliquer sur `Etiqueter`, le widget se déroule alors ;
 
 ![Etiqueter](/assets/inv_edit_tags_widget.png "Widget étiquetage")
 
