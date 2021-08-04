@@ -40,7 +40,7 @@ Pour plus d&apos;informations, consulter la page du [téléversement/télécharg
 
 Dans cette colonne, sont listés deux types de liens :
 * les liens externes, pointant vers d&apos;autres sites web ou applications liés à la donnée documentée ;
-* les liens internes, pointant vers des ressources secondaires à associer. C&apos;est le mécanisme permettant la [finesse d&apos;affichage des liens selon les destinataires et les usages](../publish/share_visibility.html). ;
+* les liens internes, pointant vers des ressources secondaires à associer. C&apos;est le mécanisme permettant la [finesse d&apos;affichage des liens selon les destinataires et les usages](https://help.isogeo.com/opencatalog/fr/appendices/oc_different_uses.html). ;
 
 ### Actions possibles par type de lien
 

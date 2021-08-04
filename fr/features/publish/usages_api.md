@@ -27,8 +27,9 @@ Il est possible d&apos;utiliser l&apos;API dans autant d&apos;applications qu&ap
 L&apos;un des usages les plus demandés est de pouvoir consulter les catalogues directement dans les logiciels SIG. Aujourd&apos;hui, des plugins ont été développés pour :
 
 * [ArcMap(10.2+)](https://help.isogeo.com/arcmap/fr/index.html),
+* [ArcGIS Pro (2.5+)](https://help.isogeo.com/arcgispro/fr/index.html),
 * [ArcGIS WebAppBuilder for Developer](https://help.isogeo.com/arcgis-webapp/fr/index.html),
-* [QGIS 2.x LTR](https://help.isogeo.com/qgis/fr/index.html).
+* [QGIS 3.x LTR](https://help.isogeo.com/qgis/fr/index.html).
 
 D&apos;autres sont en cours et attendent une contribution financière pour être développés ou finalisés :
 
@@ -71,12 +72,11 @@ Selon votre projet et vos besoins, il est possible d&apos;envisager la mise en p
 
 Voici une sélection de portails utilisant l&apos;API Isogeo pour apporter des fonctionnalités d&apos;interaction via le catalogue :
 
+* [Infrastructure de données géographiques du département des Hauts de Seine](https://geo.hauts-de-seine.fr/Site/)
 * [Syndicat Mixte d&apos;Aménagement de la Vallée de la Durance (SMAVD)](http://geocatalogue.smavd.org/) ;
 * [Lorient Agglomération](http://geocatalogue.lorient-agglo.bzh/) ;
-* [Département d&apos;Indre-et-Loire (Touraine - 37)](http://data.touraine.fr) ;
 
-D&apos;autres existent mais sont réservés à un accès en intranet (intranet du SMAVD, Grand Port Maritime de Nantes Saint-Nazaire, Département de la Moselle...).
-
+D&apos;autres existent mais sont réservés à un accès en intranet (GRDF, ADP, CD 64 par exemple)
 ____
 
 ### L&apos;extracteur de données {#extractor}

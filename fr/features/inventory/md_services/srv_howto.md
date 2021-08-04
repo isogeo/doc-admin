@@ -72,7 +72,7 @@ Voici la proc&eacute;dure r&eacute;sum&eacute;e en images :
 
 ![Services manual import](/assets/inv_edit_srv_manual_import.gif "Importer les capacit&eacute;s d&apos;un service interne ou authentifi&eacute;")
 
-> Astuce : [param&eacute;trer OpenCatalog pour visualiser les services internes](../../publish/share_opencatalog.html#oc_proxy)
+> Astuce : [param&eacute;trer OpenCatalog pour visualiser les services internes](https://help.isogeo.com/opencatalog/fr/usage/generate.html#oc_proxy)
 
 ____
 

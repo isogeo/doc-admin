@@ -26,7 +26,7 @@ Un partage est la configuration de la diffusion des catalogues de données. Il p
 Consulter les pages dédiées dans la rubrique **Valoriser** :
 * le [partage à d&apos;autres groupes de travail Isogeo](../publish/share_platform.html) ;
 * le [partage au serveur CSW](../publish/csw_server.html) ;
-* le [partage en OpenCatalog](../publish/share_opencatalog.html) ;
+* le [partage en OpenCatalog](https://help.isogeo.com/opencatalog/fr/usage/generate.html) ;
 * le [partage à une application tierce](../publish/usages_api.html).
 
 ## Administrer les partages

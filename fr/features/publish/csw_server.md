@@ -17,9 +17,9 @@ L’URL du service Web CSW fourni par Isogeo dispose d’une clef sécurisée (j
 
 Usages possibles :
 
-* [se faire moissonner par le géocatalogue](../../appendices/harvest_geocatalogue_fr.html) ;
+* [se faire moissonner par le géocatalogue](/features/publish/harvest_geocatalogue_fr.md) ;
 * se faire moissonner par un autre noeud INSPIRE en envoyant l&apos;URL générée au responsable du client tiers ;
-* [diffuser ses données sur DataGouv.fr](../../appendices/bridge_csw2datagouvfr.html) ;
+* [diffuser ses données sur DataGouv.fr](/features/publish/harvest_datagouv_fr.md) ;
 * consulter les catalogues dans les logiciels disposant d&apos;un bon client CSW (QGIS par exemple).
 
 ![Serveur CSW](/assets/adm_shares_CSW_edit.png "Diffuser les catalogues via le protocole CSW")

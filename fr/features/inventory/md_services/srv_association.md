@@ -50,7 +50,7 @@ Le principe est d&apos;associer une couche à une donnée. L&apos;association es
 
 ## Caractéristiques détaillées de l&apos;association
 
-* dans les partages, la couche associée est visible dans la fiche du jeu de données si et seulement si la fiche du service est dans le même partage. Voir [la partie dédiée à ce mécanisme avancé sur la visibilité des liens selon le partage](../../publish/share_visibility.html).
+* dans les partages, la couche associée est visible dans la fiche du jeu de données si et seulement si la fiche du service est dans le même partage. Voir [la partie dédiée à ce mécanisme avancé sur la visibilité des liens selon le partage](https://help.isogeo.com/opencatalog/fr/appendices/oc_different_uses.html).
 
 * une couche d&apos;un service ne peut être associée qu&apos;à une seule fiche de jeux de données et une fiche de jeu de données ne peut être associée qu&apos;à une seule couche par service (relation 1-1).  Il n&apos;est donc pas possible d&apos;associer toutes les couches d&apos;un même service WMS à la même fiche d&apos;un ensemble de données par exemple.
 

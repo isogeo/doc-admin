@@ -11,7 +11,7 @@ A la différence des mots-clés qui sont des éléments descriptifs, les catalog
 Voici quelques caractéristiques :
 * les catalogues sont visibles uniquement par les utilisateurs d&apos;APP, ils n&apos;apparaissent pas dans les OpenCatalogs par exemple ;
 * une fiche peut appartenir à un ou plusieurs catalogues (voir schéma ci-dessous) ;
-* le catalogue est l&apos;unité de partage, que ce soit [à un autre groupe de travail de la plateforme](../publish/share_platform.html), [CSW](../publish/csw_server.html) ou [OpenCatalog](../publish/share_opencatalog.html) ;
+* le catalogue est l&apos;unité de partage, que ce soit [à un autre groupe de travail de la plateforme](../publish/share_platform.html), [CSW](../publish/csw_server.html) ou [OpenCatalog](https://help.isogeo.com/opencatalog/fr/usage/generate.html) ;
 * une fiche n&apos;appartenant à aucun catalogue n&apos;est visible que par les utilisateurs disposant d&apos;un niveau d&apos;accès `Administrateur` (voir [la matrice des droits](../admin/users.html#droits-de-chaque-profil)) et ne peut être partagée.
 
 ![Concept de catalogue dans Isogeo](/assets/adm_catalog_principles.png "Une donnée peut appartenir à un ou plusieurs catalogues")

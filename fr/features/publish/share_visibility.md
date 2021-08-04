@@ -1,4 +1,4 @@
-# Des ressources adaptées aux usages
+# Publier plusieurs OpenCatalog pour des usages différents
 
 Il n’est pas rare que l’administrateur de données mette en place des ressources associées aux données qui ne sont pas accessibles ou visibles par tout le monde. Le cas de figure classique est la différence d’accès entre le grand public et les services internes.
 
