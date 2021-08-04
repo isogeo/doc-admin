@@ -16,3 +16,4 @@ Elles permettent également de mettre en valeur les ressources associées regrou
 
 * [Consulter l'aide en ligne dédiée de l'Open Catalog](https://help.isogeo.com/opencatalog/fr/)
 * [Générer un Open Catalog](https://help.isogeo.com/opencatalog/fr/usage/generate.html)
+* [Publier plusieurs OpenCatalog pour plusieurs usages](https://help.isogeo.com/opencatalog/fr/appendices/oc_different_uses.html)
