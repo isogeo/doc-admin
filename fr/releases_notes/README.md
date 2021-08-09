@@ -2,6 +2,29 @@
 
 <!-- timeline -->
 
+## 2.20.2-10 {#v220}
+
+Publiée en août 2021 :
+
+### APP
+
+* amélioration de la récupération et de l&apos;affichage des couches de services géographiques
+* amélioration du système de détection des services géographiques à la création de la fiche
+* possibilité de supprimer un contact depuis le Carnet d&apos;adresses même s&apos;il est encore associé à une ou plusieurs fiches
+* amélioration du système d&apos;étiquettage : il est possible d&apos;étiquetter avec les mots-clés "eau" ou "site" directement depuis l&apos;inventaire
+* les paramètres de recherche avancée ne disparaissent plus après la dé-sélection de toutes les fiches de métadonnées
+* remplacement de tous les fonds de carte par Open Layers
+* par défaut, l&apos;onglet Partages propose la création d&apos;un nouveau partage d&apos;application
+
+### API
+
+* les fiches de services géographiques ne sont plus renommées automatiquement lorsqu&apos;on actualise les données
+* amélioration du système de détection des couches de services
+
+<!-- /timeline -->
+
+<!-- timeline -->
+
 ## 2.20.2-3 {#v220}
 
 Publiée en novembre 2020 :
@@ -10,7 +33,7 @@ Publiée en novembre 2020 :
 
 * dans l&apos;onglet Partages, dans un partage de groupe, suppression du bouton "J&apos;autorise les destinataires de ce partage à diffuser ces catalogues"
 * correction d&apos;un bug dans les onglets Spécifications et Licences qui n&apos;affichait pas tout lorsqu&apos;on revenait sur l&apos;onglet "Toutes"
-* amélioration de la reconnaissance de services OGC lors de la création d'une fiche manuelle
+* amélioration de la reconnaissance de services OGC lors de la création d&apos;une fiche manuelle
 
 ### API
 
