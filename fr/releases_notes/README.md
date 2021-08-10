@@ -11,10 +11,11 @@ Publiée en août 2021 :
 * amélioration de la récupération et de l&apos;affichage des couches de services géographiques
 * amélioration du système de détection des services géographiques à la création de la fiche
 * possibilité de supprimer un contact depuis le Carnet d&apos;adresses même s&apos;il est encore associé à une ou plusieurs fiches
-* amélioration du système d&apos;étiquettage : il est possible d&apos;étiquetter avec les mots-clés "eau" ou "site" directement depuis l&apos;inventaire
+* correction d&apos;un bug du système d&apos;étiquettage qui proposait de créer à nouveau un mot-clé déjà existant (par exemple, avec le mot-clé "eau")
 * les paramètres de recherche avancée ne disparaissent plus après la dé-sélection de toutes les fiches de métadonnées
-* remplacement de tous les fonds de carte par Open Layers
-* par défaut, l&apos;onglet Partages propose la création d&apos;un nouveau partage d&apos;application
+* passage de tous les fonds de carte de Bing Maps à Open Layers
+* par défaut, l&apos;onglet Partages propose la création d&apos;un nouveau partage d&apos;application au lieu d&apos;un partage de groupe
+* prise en compte dans APP de la remontée des alias d'attributs depuis le scan Isogeo
 
 ### API
 
