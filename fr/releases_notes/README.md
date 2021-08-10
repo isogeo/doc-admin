@@ -40,10 +40,6 @@ Publiée en novembre 2020 :
 
 * correction d&apos;un bug qui empêchait la suppression d&apos;un groupe ou d&apos;un catalogue dans un partage de groupe
 
-### OpenCatalog
-
-* mise en production de la version 3.0.0 de l&apos;OpenCatalog
-
 ### Aide en ligne
 
 * activation du protocole HTTPS pour l&apos;aide en ligne Isogeo
@@ -92,10 +88,6 @@ Consulter :
 
 * import des métadonnées des services internes (privés) via l&apos;import du fichier des capacités
 
-### OpenCatalog
-
-* ajout de paramètres d&apos;URL à OpenCatalog permettant de passer outre les proxies intégrés afin de consommer les services internes
-
 ### Aide en ligne
 
 * GitBook version 3.2.x
@@ -103,35 +95,6 @@ Consulter :
 * nouveaux chapitres
 * menus repliables
 * notes de versions regroupées en une seule page
-
-<!-- /timeline -->
-
-<!-- timeline -->
-
-## 2.18.5 {#v2185}
-
-Publiée fin juillet 2017.
-
-Cette version correspond à la version 2.3 d&apos;OpenCatalog, module exclusivement concerné par cette mise à jour.
-
-Consulter :
-
-* le [mail envoyé aux utilisateurs](http://us4.campaign-archive1.com/?u=256352d96aabf0dec0ee32d84&id=b57277a32c)
-* le [billet de blog](http://blog.isogeo.com/?p=3931)
-
-### OpenCatalog
-
-* refonte complète de l&apos;ergonomie et de l&apos;interface :
-  * les sections d&apos;une fiche de métadonnées sont piables/dépliables
-  * ajout d&apos;un bouton pour copier/coller les URLs des capacités des services
-  * ajout des vignettes basées sur l&apos;emprise
-  * navigation réciproque entre métadonnée d&apos;un jeu de données et métadonnées des services associés
-
-* bascule du widget de recherche sur celui d&apos;APP avec notamment l&apos;ajout du tri des résultats et de l&apos;auto-complétion
-* mise en cohérence de la construction des URLs (structure et paramètres)
-* refonte de la visualisation des couches de service
-* ajout d&apos;un formulaire de téléchargement des données vectorielles généré automatiquement à partir des WFS
-* refactoring complet du code source
 
 <!-- /timeline -->
 
@@ -159,14 +122,6 @@ Consulter :
   * gestion des espaces de nommage des WFS
 
 * Suppression par lot des métadonnées
-
-### OpenCatalog
-
-* refonte de la prévisualisation intégrée des services géographiques :
-
-  * mise à jour des dépendances (Leaflet et plugins associés)
-  * définition plus précise du cas générique selon les formats et versions
-  * meilleure gestion des cas particuliers (SRS incompatibles, etc.)
 
 ### Applications tierces
 
@@ -197,11 +152,6 @@ Consulter :
   * association dynamique entre la couche d&apos;un service et la fiche d&apos;une donnée
   * recherche dans les couches d&apos;un service
 * nouvelle interface de gestion des ressources associées
-
-### OC
-
-* les liens de visualisation des services géographiques rencensés et associés avec la nouvelle méthode sont automatiquement générés dans le bouton "Visualiser"
-* si le service WFS associé le permet, un lien de téléchargement de la donnée brute est automatiquement généré dans le bouton "Télécharger".
 
 ### Applications tierces
 
@@ -283,13 +233,6 @@ Consulter :
   * Optimisation du système de mise à jour du widget de recherche
   * Titre de la page contextualisé dans l&apos;onglet du navigateur, finis les "Solution Isogeo...."
 
-### Opencatalog
-
-* les résultats d&apos;une recherche par désormais trier par "pertinence" puis par "date de création de la fiche de métadonnée (ordre décroissant)" : fonctionnement identique à APP
-* dans une fiche de métadonnées, possibilité de :
-  * trier la liste des champs attributaires (comportement identique à celui de APP)
-  * revenir en haut de la page
-
 ### CSW
 
 * les fiches de métadonnées au format ISO19139 sont générées par lot
@@ -343,11 +286,6 @@ Consulter :
 * tableau de bord : répartition des ressources par groupe de travail propriétaire.
 * l&apos;édition par lot de la langue des attributs prend désormais en compte l&apos;implémentation des types texte d&apos;Esri
 * pages d&apos;erreurs personnalisées en cas de problème sur l&apos;application (et non plus les pages http basiques)
-
-### OpenCatalog
-
-* conforme au WCAG 2.0 niveau AA
-* Sécurisation du proxy Open Catalog
 
 ### CSW
 
@@ -434,11 +372,6 @@ Nota bene : si le format, sa version, le type et la catégorie de service sont d
 * la version 2.13 sera moissonnable par GéoSource 3.0.1 mais non par 2.11.2
 * GeoSIK : légère adaptation pour accepter les paramètres "bizarres" (vides) passés par GéoSource dans les requêtes HTTP
 
-### OpenCatalog
-
-* Changement dynamique du fond de plan
-* Ajout de pages d&apos;erreur pour les ressources introuvables et pour les connexions lentes
-
 ### Scan
 
 * ajout du format LIDAR-LAS
@@ -495,16 +428,6 @@ Consulter :
 * préchargement des contacts lors de l&apos;affichage d&apos;une métadonnées pour éviter les bugs d&apos;affichage du valideur INSPIRE
 * mise en place d&apos;une alerte non bloquante pour les navigateurs non supportés officiellement
 * suppression de l&apos;option "être référencé comme contact" pour un compte utilisateur
-
-### OpenCatalog
-
-* choix du fond de plan parmi :
-  * Bing Maps Road (par défaut) vue classique
-  * Bing Maps Aerial vue satellite
-  * OpenStreetMap.BlackAndWhite vue noir et blanc
-  * OpenMapSurfer.road
-  * vide (utile pour les services de carte sans transparence)
-* mise en place d&apos;une page "ressource introuvable"
 
 ### Scan FME
 
@@ -587,12 +510,6 @@ Consulter :
   * si la géométrie n&apos;est pas renseignée, l&apos;import est tout de même effectué
   * optimisation et stabilisation du client CSW
 
-### OpenCatalog
-
-* mise en production de la version 2 : voir [le mailing associé](http://eepurl.com/bfpoQb).
-* utilisation des filtres présents dans les fiches de métadonnées
-* affichage des services cartographiques issus de Business Geographic
-
 ### Aide en ligne
 
 * refonte de l&apos;aide en ligne pour un site autonome et interactif, basé sur GitBook
@@ -636,15 +553,6 @@ Consulter :
 * correction de bugs
 * prise en charge des formats PNG, GPx  et APIC ASC.
 
-### OpenCatalog
-
-* Possible de visualiser les flux WMTS.
-* Page de résultats : les traits entre les fiches de métadonnées s&apos;affichent
-* Les couleurs des boutons "Actions" sont bien gérées
-* Les flux WFS s&apos;affichent sur la carte si au format JSONP
-* Le bouton "Plein écran" s&apos;affiche dans la carte
-* Les liens associés s&apos;affichent dans les actions
-
 <!-- /timeline -->
 
 <!-- timeline -->
@@ -671,10 +579,6 @@ Consulter :
 * documentation à jour,
 * les filtres s&apos;affichent de nouveau dans l&apos;ordre alphabétique (APP et OpenCatalog),
 * le format DGN ne s&apos;affichait pas correctement,
-
-### OpenCatalog
-
-* il est désormais possible de gérer l&apos;affichage des ressources selon les usages,
 
 ### Scan FME
 
@@ -706,12 +610,6 @@ Consulter :
 * enlever une thématique INSPIRE,
 * corrections mineures.
 * fin de la vignette = fin coupe du monde
-
-### OpenCatalog
-
-* mise en valeur des ressources associées via des boutons de visualisation, téléchargement et autres,
-* possiblité de personnaliser la couleur du thème,
-* le nom du bandeau est celui du partage,
 
 ### Scan FME
 
