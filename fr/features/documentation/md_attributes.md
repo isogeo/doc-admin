@@ -1,11 +1,8 @@
-## <i class="fa fa-list-alt"></i>  Onglet "Attributs"
+# <i class="fa fa-list-alt"></i> Onglet "Attributs"
 
-L’onglet « Attribut » liste tous les champs attributaires de la donnée et précise pour chaque champ son nom, son alias, sa description et sa langue.
+L’onglet « Attributs » liste tous les champs attributaires de la donnée et précise pour chaque champ son nom, son alias, son type, sa description et sa langue.
 
-![Edition unitaire - Attributs](/assets/inv_edit_one_attributes.png "L&apos;édition unitaire - onglet Attributs")
-
-> Astuce : chaque attribut étant une sous-ressource de la métadonnée, il faut enregistrer les modifications de chaque attribut avant d&apos;enregistrer les modifications au niveau de la métadonnée, sans quoi les modifications seront perdues !
-
+![Mode édition - Attributs](/assets/inv_edit_attributes.png "Mode édition - onglet Attributs")
 
 | Définition          | Liste des champs de la table attributaire |
 | :------------------ | :---------------------------------------- |
@@ -18,19 +15,16 @@ L’onglet « Attribut » liste tous les champs attributaires de la donnée et p
 | Fiche ressource     | Non                           |
 | Fiche service       | Non                           |
 
+## Édition par lots de la langue des attributs
 
-### Edition par lot de la langue des attributs
+Pour faciliter la saisie de la langue des attributs, il est possible de l&apos;affecter en une seule fois **uniquement aux champs textuels qui contiennent du texte traduisible**. De façon à respecter les bonnes pratiques de modélisation d&apos;une base de données relationnelle, les types suivants sont éligibles :
 
-De façon à faciliter la saisie de la langue des attributs, il est possible de l&apos;affecter en une seule fois **uniquement aux champs textuels qui contiennent du texte traduisible**. De façon à respecter les bonnes pratiques de modélisation d&apos;une base de données relationnelle, les types suivants sont éligibles :
-
-* clob
-* nvarchar
-* nvarchar2
-* string
-* text
-* texte
-* varchar
-* varchar2
-
-En revanche les attributs de type *CHAR* ou *NCHAR*, de taille fixe, sont destinés à recevoir des listes de valeur, des énumérations, qui s&apos;apparentent à des codes informatiques. Ils ne sont donc pas concernés par cette fonctionnalité.
-
+* clob,
+* char,
+* nvarchar,
+* nvarchar2,
+* string,
+* text,
+* texte,
+* varchar,
+* varchar2.
