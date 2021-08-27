@@ -2,6 +2,22 @@
 
 <!-- timeline -->
 
+## 2.20.2-11 {#v220}
+
+Publiée fin août 2021 :
+
+### APP
+
+* dans l'onglet administration, l'utilisateur reste dans l'onglet actif (Toutes, Mes catalogues, Autres) après la suppression d'un catalogue, d'une licence ou d'une spécification
+* correction d'un bug qui empêchait parfois l'ajout d'une nouvelle donnée ou d'un nouveau lien dans une fiche de métadonnée
+* amélioration du système d'édition des attributs
+* ajout de vignettes spécifiques selon le type de ressource qui s'affichent si aucune emprise n'est renseignée
+* affichage de l'emprise dans la vignette de la fiche détaillée si elle existe
+
+<!-- /timeline -->
+
+<!-- timeline -->
+
 ## 2.20.2-10 {#v220}
 
 Publiée en août 2021 :
