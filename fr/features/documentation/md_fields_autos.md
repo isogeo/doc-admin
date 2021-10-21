@@ -22,7 +22,8 @@ Pour vous faciliter la saisie des métadonnées, le scan remplit et maintient à
 * Dans l’onglet **Attributs** :
 
     * le nom de chaque attribut ;
-    * le type de chaque attibut.
+    * le type de chaque attibut ;
+    * l'alias ou le commentaire en base de chaque attribut ;
 
 * Dans l’onglet **Avancé** :
 
