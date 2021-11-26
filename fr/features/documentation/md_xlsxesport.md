@@ -1,11 +1,11 @@
 # Exporter les données en tableur
 
-Il est possible d’exporter tout ou partie de son patrimoine de métadonnées en format tableur. 
+Il est possible d’exporter tout ou une partie de son patrimoine de métadonnées en format tableur. 
 
 Cela répond à différents besoins : 
 
 * génération d’un fichier de support pour faciliter les contributions en interne (metadata party par exemple), le fichier Excel étant par définition filtrable ;
-* suivi du projet de catalogage ;
+* suivi du projet de catalogage afin d'avoir une visibilité sur le niveau de remplissage des données ;
 * transmission en interne pour des consultations hors-ligne au plus proche des habitudes métiers ;
 * sauvegarde. 
 
@@ -26,7 +26,7 @@ Pour exporter :
 ![Popup Export](/assets/exportModal.png)
 
 
-Attention, il ne faut pas fermer le module pendant le traitement des données. Le téléchargement se déclanchera automatiquement une fois les fichiers prêts. 
+Attention, il ne faut pas fermer le module pendant le traitement des données. Le téléchargement se déclanchera automatiquement une fois les fichiers prêts à être téléchargés. 
 
 
 ## Paramètrage
@@ -54,7 +54,6 @@ Valeurs possibles :
 
 Valeur par défaut : La date et l'heure.
 
-
 ## Contenu
 
 ### Contenu de l'Excel
@@ -66,7 +65,9 @@ L'excel est composé de quatre onglets, un pour chaque type de donnée :
 * Service
 * Ressource
 
-Chaque onglet contient les informations d'intérêt associés à chaque type de ressource. 
+Chaque onglet contient les informations d'intérêt associées à chaque type de ressource. 
+
+![Excel Sample](/assets/excelspreadsheet.png)
 
 ### Contenu du csv
 
@@ -76,5 +77,57 @@ L'export en cvs consiste en un zip contenant quatre fichiers csv, un pour chaque
 * Rasteur
 * Service
 * Ressource
+
+### Contenu par types
+
+| Champs       | Vecteur      | Raster | Service | Ressource |
+| :------------- | :--------- |:---------|:---------|:---------|
+| Nom | X | X | X | |
+| Titre | X | X | X | X |
+| Résumé | X | X | X |X |
+| Emplacement | X | X | X | X |
+| Propriétaire | X | X | X | X |
+| # de catalogues | X | X | X | X |
+| Catalogues | X | X | X | X |
+| Mots-clés | X | X | X | X |
+| Thématiques INSPIRE | X | X |  | |
+| Conformité INSPIRE | X | X |  | |
+| Contexte de collecte | X | X |  | |
+| Méthode de collecte | X | X |  | |
+| Début de validité | X | X |  | |
+| Fin de validité | X | X |  |  |
+| Fréquence de mise à jour | X | X |  |  |
+| Commentaire validité | X | X |  |  |
+| Date de création | X | X | X | X |
+| Dernière mise à jour | X | X | X | X |
+| Dernière publication | X | X | X | X |
+| # d'événements | X | X | X | X |
+| Format | X | X | X | X |
+| SRS (EPSG) | X | X |  |  |
+| Emrpise | X | X | X |  |
+| Géométrie | X |  |  |  |
+| Résolution | X | X |  |  |
+| Echelle | X | X |  |  |
+| # d'entités | X |  |  |  |
+| # d'attributs | X |  |  |  |
+| Attributs | X |  |  |  |
+| # de couches |  |  | x |  |
+| Couches |  |  | x |  |
+| Services | X | X |  |  |
+| Spécifications | X | X | X |  |
+| # de spécifications | X | X | X |  |
+| Résolution | X | X | X |  |
+| Cohérance topologique | X |  |  |  |
+| # de conditions | X | X | X | X |
+| CGUS (conditions) | X | X | X | X |
+| Limitations | X | X | X | X |
+| # de contacts | X | X | X | X |
+| Contacts | X | X | X | X |
+| Liens | X | X | X | X |
+| Editer | X | X | X | X |
+| MD - UUID | X | X | X | X |
+| MD - Date de création | X | X | X | X |
+| MD - Modification | X | X | X | X |
+| Langue | X | X | X | X |
 
 

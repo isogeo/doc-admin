@@ -7,7 +7,7 @@ It can help to :
 * generate a support to facilitate contributions from intern staff members (metadata parties for instance), a filter can be used in the spreadsheet ;
 * help track the cataloguing projet ;
 * relay internally to allow off-line consulttions ;
-* generate a backup ;
+* generate a backup.
 
 ## How to use
 
@@ -65,6 +65,8 @@ The excel file is made of four tabs, one for each data type :
 
 Each tab contains informations specific to each resource type.
 
+![Excel Sample](/assets/excelspreadsheet.png)
+
 ### CSV content
 
 The csv export is a zip with quatre csv files, one for each data type : 
@@ -73,3 +75,14 @@ The csv export is a zip with quatre csv files, one for each data type :
 * Raster
 * Service
 * Resource
+
+
+### Content by datatype
+
+| Fields      | Vector      | Raster | Service | Resource |
+| :------------- | :--------- |:---------|:---------|:---------|
+| Name | X | X | X | |
+| Title | X | X | X | X |
+| Abstract | X | X | X |X |
+| Location | X | X | X | X |
+| Owner | X | X | X | X |
