@@ -46,13 +46,13 @@ Il est possible d'ajouter un prefixe qui sera ajouté au début du nom de tel so
 
 #### Date
 
-Valeurs possibles :
+Il est également possible d'y ajouter la date. Trois valeurs sont possibles : 
 
-- rien n'est ajouté au nom du fichier ;
-- seule la date est ajoutée, sous la forme \`AAAA-MM-JJ\` ;
-- la date et l'heure est ajoutée, sous la forme \`AAAA-MM-JJ-HHmm\`.
+- Pas de date : rien n'est ajouté au nom du fichier ;
+- Date : Seule la date est ajoutée, sous la forme \`AAAA-MM-JJ\` ;
+- Date et heure : La date et l'heure est ajoutée, sous la forme \`AAAA-MM-JJ-HHmm\`.
 
-Valeur par défaut : La date et l'heure.
+Par défaut, la date et l'heure sont ajoutés au titre. 
 
 ## Contenu
 
@@ -67,11 +67,11 @@ L'excel est composé de quatre onglets, un pour chaque type de donnée :
 
 Chaque onglet contient les informations d'intérêt associées à chaque type de ressource. 
 
-![Excel Sample](/assets/excelspreadsheet.png)
+![Echantillon d'export Excel(/assets/excelspreadsheet.png)
 
 ### Contenu du csv
 
-L'export en cvs consiste en un zip contenant quatre fichiers csv, un pour chaque type de donnée : 
+L'export en csv consiste en un zip contenant quatre fichiers csv, un pour chaque type de donnée : 
 
 * Vecteur
 * Rasteur

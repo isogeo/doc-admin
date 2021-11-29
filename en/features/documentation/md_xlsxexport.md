@@ -5,8 +5,8 @@ It is possible to export your metadatas in whole or in part as a spreadsheet.
 It can help to : 
 
 * generate a support to facilitate contributions from intern staff members (metadata parties for instance), a filter can be used in the spreadsheet ;
-* help track the cataloguing projet ;
-* relay internally to allow off-line consulttions ;
+* help track the cataloging projet ;
+* relay internally to allow off-line consultations ;
 * generate a backup.
 
 ## How to use
@@ -33,7 +33,7 @@ The download will start automatically when the files are ready if the modal was 
 
 When exporting, two formats are available : 
 
-* `.csv` using the coma as the separator (`,`);
+* `.csv` using the comma as the separator (`,`);
 * `.xlss`.
 
 ### Personalize output files name
