@@ -80,8 +80,10 @@ L'export en cvs consiste en un zip contenant quatre fichiers csv, un pour chaque
 
 ### Contenu par types
 
+Les champs suivants sont exportés : 
+
 | Champs       | Vecteur      | Raster | Service | Ressource |
-| :------------- | :--------- |:---------|:---------|:---------|
+| :------------- | :---------: |:---------:|:---------:|:---------:|
 | Nom | X | X | X | |
 | Titre | X | X | X | X |
 | Résumé | X | X | X |X |
@@ -91,6 +93,7 @@ L'export en cvs consiste en un zip contenant quatre fichiers csv, un pour chaque
 | Catalogues | X | X | X | X |
 | Mots-clés | X | X | X | X |
 | Thématiques INSPIRE | X | X |  | |
+| Thématique de groupe | X | X | X | X |
 | Conformité INSPIRE | X | X |  | |
 | Contexte de collecte | X | X |  | |
 | Méthode de collecte | X | X |  | |
@@ -104,15 +107,15 @@ L'export en cvs consiste en un zip contenant quatre fichiers csv, un pour chaque
 | # d'événements | X | X | X | X |
 | Format | X | X | X | X |
 | SRS (EPSG) | X | X |  |  |
-| Emrpise | X | X | X |  |
+| Emprise | X | X | X |  |
 | Géométrie | X |  |  |  |
 | Résolution | X | X |  |  |
 | Echelle | X | X |  |  |
 | # d'entités | X |  |  |  |
 | # d'attributs | X |  |  |  |
 | Attributs | X |  |  |  |
-| # de couches |  |  | x |  |
-| Couches |  |  | x |  |
+| # de couches |  |  | X |  |
+| Couches |  |  | X |  |
 | Services | X | X |  |  |
 | Spécifications | X | X | X |  |
 | # de spécifications | X | X | X |  |
