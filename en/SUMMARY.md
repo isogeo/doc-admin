@@ -47,6 +47,7 @@
        * [Metadata](features/documentation/md_metadata.md)
        * [Formatting texts](features/documentation/syntax_markdown.md)
        * [Creating INSPIRE metadata](features/documentation/md_inspire.md)
+       * [Export in xlsx and CSV](features/documentation/md_xlsxexport.md)
    * [Adding value](features/publish/README.md)
        * [Associating geographic services](features/publish/webservices.md)
        * [Associating the data to download](features/publish/hosting.md)
