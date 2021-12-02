@@ -2,6 +2,30 @@
 
 <!-- timeline -->
 
+## 2.21.0-0 {#v221}
+
+Publiée début décembre 2021 :
+
+### APP
+
+* ajout des thématiques :
+  * création du thésaurus des thématiques en base de données
+  * possibilité d'assigner et de filtrer sur les thématiques
+  * Administration : possibilité de gérer les thématiques du groupe depuis un onglet dédié
+* ajout de l'export en XLSX ou CSV des fiches d'une recherche dans l'inventaire
+* correction d'un bug qui empêchait l'affichage de la vignette après l'affection d'un mot-clé à une fiche de métadonnée
+* Administration : passage du nombre de mots-clés affichés dans l'onglet mots-clés de 15 à 30 et ajout d'un système de tri par nombre d'occurrences ou par ordre alphabétique
+* Administration : modification de l'ordre des onglets
+* ajout de la possibilité de créer un partage vers le serveur DCAT
+
+### API
+
+* possibilité de filtrer les fiches de métadonnées en fonction du nom ou de l'emplacement de la donnée avec les filtres "name:_nom-de-la-donnée_" et "path:_emplacement-de-la-donnée_"
+
+<!-- /timeline -->
+
+<!-- timeline -->
+
 ## 2.20.2-11 {#v220}
 
 Publiée fin août 2021 :
