@@ -61,7 +61,7 @@
 * [Propriétés](features/documentation/md_metadata.md)
 * [Mettre en forme les textes](features/documentation/syntax_markdown.md)
 * [Faire une métadonnée INSPIRE](features/documentation/md_inspire.md)
-* [Voir l'avancement du catalogage avec l'export tableur](features/documentation/md_xlsxexport.md)
+* [Exporter les données en tableur](features/documentation/md_xlsxexport.md)
 
 ## Valoriser
 
