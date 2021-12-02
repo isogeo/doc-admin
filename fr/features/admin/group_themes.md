@@ -8,7 +8,7 @@ Chaque thématique, comme pour les mots-clés, est qualifiée par son nombre d'o
 
 ### Via l'onglet Administration
 
-Cette interface, similaire à celle des mots-clés, permet aux administrateurs de chaque groupe de travail de parcourir le thésaurus des thématiques et d'y sélectionner celles qui correspondent le mieux aux thématiques des données de l'inventaire.
+Cette interface, similaire à celle des mots-clés, permet aux administrateurs de chaque groupe de travail de parcourir le thésaurus des thématiques et d'y sélectionner celles qui correspondent le mieux aux thématiques des données inventoriées.
 
 > Astuce : accéder directement aux [thématiques](https://app.isogeo.com/admin/group-themes).
 
