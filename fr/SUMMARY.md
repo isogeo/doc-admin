@@ -88,7 +88,7 @@
 * [Les licences](features/admin/licenses.md)
 * [Les spécifications](features/admin/specifications.md)
 * [Les mots-clés](features/admin/keywords.md)
-* [Les thématiques](feature/admin/group_themes.md)
+* [Les thématiques](features/admin/group_themes.md)
 * [Les systèmes de coordonnées](features/admin/srs.md)
 
 ## Support
