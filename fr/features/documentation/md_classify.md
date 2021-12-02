@@ -4,6 +4,7 @@ Dans Isogeo, il est possible d&apos;affecter 3 types d&apos;étiquettes aux fich
 
 * les catalogues, orientés usages, métiers, thématiques ;
 * les thématiques INSPIRE pour les données destinées à être en conformité avec la directive européenne ;
+* les thématiques, spécifiques à chaque groupe, permettant un classement plus personnalisable ;
 * les mots-clés descriptifs.
 
 Dans tous les cas, une donnée peut se voir affecter une ou plusieurs étiquettes de chaque type, même si dans le cas d&apos;INSPIRE, il est recommandé de ne choisir qu&apos;une seule thématique.
@@ -23,11 +24,11 @@ Vous voyez alors :
 * un champ de saisie vous permettant de :
   * rechercher dans les étiquettes déjà affectées ;
   * rechercher parmi les mots-clés existant dans tous les groupes de travail Isogeo (y compris le vôtre) ;
-
-* trois boutons de filtres :
+* quatre boutons de filtres :
   * `Voir tous les catalogues` permet d&apos;afficher tous les catalogues disponibles dans votre groupe de travail ;
   * `Voir toutes les thématiques Inspire` permet d&apos;afficher toutes les thématiques de la directive ;
-  * `Voir les mots-clés` permet d&apos;afficher les mots-clés utilisés dans les données selectionnées et les mots-clés correspondant à la recherche saisie ;
+  * `Voir toutes les thématiques du groupe de travail` permet d&apos;afficher toutes les thématiques spécifiques au groupe de travail ;
+  * `Voir uniquement les mots-clés` permet d&apos;afficher les mots-clés utilisés dans les données selectionnées et les mots-clés correspondant à la recherche saisie ;
 
 ![Affecter et enlever des mots-clés](/assets/inv_edit_tags_keywords.gif "Mots-clés")
 
@@ -37,9 +38,11 @@ Les mots-clés libres sont issus d&apos;un référentiel ouvert et partagé à t
 
 Cependant, il faut garder quelques règles en tête :
 
-* on ne peut pas créer 2 mots-clés avec une casse différente : ce sont les mêmes (&apos;ABC&apos; est équivalent à &apos;abc&apos;) ;
+* on ne peut pas créer 2 mots-clés avec une casse différente : ce sont les mêmes (`ABC` est équivalent à `abc`) ;
 
 * on peut créer 2 mots-clés qui diffèrent par leur accentuation : ils seront tous 2 renvoyés par les mêmes critères de recherche textuelle, avec ou sans accents (&apos;àéù&apos; est différent de &apos;aeu&apos;) ;
+
+Ces règles s'appliquent également aux thématiques, à la seule différence que celles-ci doivent au préalable être sélectionnées ou créées depuis l'onglet Administration pour constituer la liste restreinte au groupe de travail.
 
 ## Recommandation minimale d'affectation de mots-clés
 

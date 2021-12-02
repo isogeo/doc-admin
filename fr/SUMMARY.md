@@ -86,8 +86,9 @@
 * [Les partages](features/admin/shares.md)
 * [Le carnet d&apos;adresses](features/admin/contacts.md)
 * [Les licences](features/admin/licenses.md)
-* [Les mots-clés](features/admin/keywords.md)
 * [Les spécifications](features/admin/specifications.md)
+* [Les mots-clés](features/admin/keywords.md)
+* [Les thématiques](feature/admin/group_themes.md)
 * [Les systèmes de coordonnées](features/admin/srs.md)
 
 ## Support
