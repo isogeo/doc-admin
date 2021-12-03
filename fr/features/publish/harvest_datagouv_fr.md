@@ -12,19 +12,19 @@ Afin que vos données puissent être remontées sur data.gouv.fr, il faut qu'ell
 * lien vers un service WFS ou EFS capable de délivrer la donnée au format GeoJSON en WGS84 (4326) : voir [affecter un service WFS](/features/publish/webservices.html#associer-un-flux-wfs) ;
 * lien vers des fichiers de données vecteur (GeoJSON, Shapefile, MapInfo MIF/MID, MapInfo TAB et GML) ou raster (ECW, JPEG2000 et GeoTIFF) : voir [affecter un lien de téléchargement](/features/publish/hosting.html) ;
 
-### Compte et organisation sur DataGouv {#dataGouvAccount}
+### Compte et organisation sur data.gouv.fr {#dataGouvAccount}
 
 1. Créer un compte sur data.gouv.fr
 
     Pour créer un compte ou se connecter : <https://www.data.gouv.fr/login>. Il est recommandé de créer un compte directement sans l'interface d'un réseau social.
 
-    ![DataGouv - Inscription/connexion](/assets/datagouv/annex_bridge_INSPIRE_DataGouv_00a.png "Se connecter ou créer un compte sur DataGouv")
+    ![data.gouv.fr - Inscription/connexion](/assets/datagouv/annex_bridge_INSPIRE_DataGouv_00a.png "Se connecter ou créer un compte sur data.gouv.fr")
 
 2. Créer / rejoindre une organisation sur data.gouv.fr
 
     Pour cela, il faut passer par l'administration de son profil : <https://www.data.gouv.fr/fr/admin/organization/new/>. Si elle existe déjà, faites une demande pour la rejoindre.
 
-    ![DataGouv - Organisation](/assets/datagouv/annex_bridge_INSPIRE_DataGouv_00b_NewOrganization.png "Créer son organisation sur DataGouv")
+    ![data.gouv.fr - Organisation](/assets/datagouv/annex_bridge_INSPIRE_DataGouv_00b_NewOrganization.png "Créer son organisation sur data.gouv.fr")
 
 _______
 
@@ -43,37 +43,36 @@ _______
 
 4. Un message vous indiquant que votre moissonneur doit être validé par l'équipe d'administration est affiché. Cliquer sur "Voir dans l'administration"
 
-     ![Configurer le nouveau moissonneur](/assets/datagouv/DataGouv_dcat_validation.png)
+     ![Validation du DCAT](/assets/datagouv/DataGouv_dcat_validation.png)
 
 5. Cliquer sur "Editer", puis "Editer"
 
-     ![Configurer le nouveau moissonneur](/assets/datagouv/DataGouv_dcat_edit.png)
+     ![Edition du DCAT](/assets/datagouv/DataGouv_dcat_edit.png)
 
 6. Tester le moissonnage en cliquant sur "Prévisualiser" et vérifier le nombre de jeu de donnée validé.
 
-     ![Configurer le nouveau moissonneur](/assets/datagouv/DataGouv_dcat_previsualisation.png)
-Si une donnée semble ne pas être disponible, revérifier les [prérequis](#prerequisites) puis [contacter l'équipe DataGouv](mailto:support@data.gouv.fr?subject=Problème%20de%20moissonnage%20DCAT%20Isogeo&cc=support@isogeo.fr).
+     ![Prévisualisation des résultats du moissonnage](/assets/datagouv/DataGouv_dcat_previsualisation.png)
+Si une donnée semble ne pas être disponible, revérifier les [prérequis](#prerequisites) puis [contacter l'équipe data.gouv.fr](mailto:support@data.gouv.fr?subject=Problème%20de%20moissonnage%20DCAT%20Isogeo&cc=support@isogeo.fr).
 
 7. Vérifier le moissonnage
 
-Une fois le moissoneur validé, vous pouvez consulter les différentes opérations de moissonnage réalisées, celui-ci étant lancé quotidiennement.
-
-![Configurer le nouveau moissonneur](/assets/datagouv/DataGouv_dcat_validated.png)
+Une fois le moissoneur validé, vous pouvez consulter les différentes opérations de moissonnage réalisées, celui-ci étant lancé quotidiennement. 
+     ![Résultats des moissonnages](/assets/datagouv/DataGouv_dcat_validated.png)
 
 ### Liste des champs complétés {#fields}
 
-| Champs data.gouv.fr        | Champs Isogeo               |
-|:--------------------------:|:-------------------------- :|
-| Titre                      | Titre                       |
-| Acronyme                   | Non rempli                  |
-| Description                | Mélange de plusieurs champs |
-| Mots-clés                  | Mots-clés et Thématiques    |
-| Licence                    | Conditions                  |
+| Champs data.gouv.fr        | Champs Isogeo                   |
+|:--------------------------:|:-------------------------------:|
+| Titre                      | Titre                           |
+| Acronyme                   | Non rempli                      |
+| Description                | Mélange de plusieurs champs     |
+| Mots-clés                  | Mots-clés et Thématiques        |
+| Licence                    | Conditions                      |
 | Couverture spatiale        | Non récupéré par le moissonneur |
-| Couverture temporelle      | Période de validité         |
-| Fréquence de mise à jour   | Fréquence de mise à jour    |
-| Identifiant distant        | Identifiant unique          |
-| URI                        | Non rempli                  |
+| Couverture temporelle      | Période de validité             |
+| Fréquence de mise à jour   | Fréquence de mise à jour        |
+| Identifiant distant        | Identifiant unique              |
+| URI                        | Non rempli                      |
 
 #### Description {#description_field}
 
