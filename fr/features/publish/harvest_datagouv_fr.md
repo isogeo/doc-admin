@@ -52,13 +52,13 @@ _______
 6. Tester le moissonnage en cliquant sur "Prévisualiser" et vérifier le nombre de jeu de donnée validé.
 
      ![Configurer le nouveau moissonneur](/assets/datagouv/DataGouv_dcat_previsualisation.png)
-Si une donnée semble ne pas être disponible, revérifier les [prérequis](#prerequisites) puis [contacter l'équipe DataGouv](mailto:support@data.gouv.fr?subject=Problème%20de%20moissonnage%20d'un%20DCAT%20Isogeo&cc=support@isogeo.fr).
+Si une donnée semble ne pas être disponible, revérifier les [prérequis](#prerequisites) puis [contacter l'équipe DataGouv](mailto:support@data.gouv.fr?subject=Problème%20de%20moissonnage%20DCAT%20Isogeo&cc=support@isogeo.fr).
 
 7. Vérifier le moissonnage
 
 Une fois le moissoneur validé, vous pouvez consulter les différentes opérations de moissonnage réalisées, celui-ci étant lancé quotidiennement.
 
-     ![Configurer le nouveau moissonneur](/assets/datagouv/DataGouv_dcat_validated.png)
+![Configurer le nouveau moissonneur](/assets/datagouv/DataGouv_dcat_validated.png)
 
 ### Liste des champs complétés {#fields}
 
@@ -120,6 +120,6 @@ Pour alimenter la fiche data.gouv en ressource téléchargeable, plusieurs types
 * lien vers un fichier téléversé dans Isogeo (hosted)
 * lien vers des fichiers de données vecteur (GeoJSON, Shapefile et GML) ou raster (ECW, JPEG2000 et GeoTIFF) en tant que lien de donnée avec l’action téléchargé
 * lien vers un service WFS ou EFS
-  * le nombre d’entités doit être inférieur au seuil du serveur carto (paramètre MaxRecordCount=1000 par défaut pour ArcGIS Server)
+  * le nombre d’entités doit être inférieur au seuil du serveur carto (paramètre *MaxRecordCount=1000* par défaut pour ArcGIS Server, paramètre *nombre maximal d'objets* pour Geoserver)
   * le système de coordonnées 4326 doit être disponible dans les capacités
   * le format d’export Geojson également
