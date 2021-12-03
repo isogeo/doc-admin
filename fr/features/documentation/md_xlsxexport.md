@@ -89,9 +89,9 @@ Les champs suivants sont exportés :
 | Propriétaire | X | X | X | X |
 | # de catalogues | X | X | X | X |
 | Catalogues | X | X | X | X |
+| Thématique de groupe | X | X | X | X |
 | Mots-clés | X | X | X | X |
 | Thématiques INSPIRE | X | X |  | |
-| Thématique de groupe | X | X | X | X |
 | Conformité INSPIRE | X | X |  | |
 | Contexte de collecte | X | X |  | |
 | Méthode de collecte | X | X |  | |
@@ -112,9 +112,6 @@ Les champs suivants sont exportés :
 | # d'entités | X |  |  |  |
 | # d'attributs | X |  |  |  |
 | Attributs | X |  |  |  |
-| # de couches |  |  | X |  |
-| Couches |  |  | X |  |
-| Services | X | X |  |  |
 | Spécifications | X | X | X |  |
 | # de spécifications | X | X | X |  |
 | Résolution | X | X | X |  |
@@ -122,9 +119,16 @@ Les champs suivants sont exportés :
 | # de conditions | X | X | X | X |
 | CGUS (conditions) | X | X | X | X |
 | Limitations | X | X | X | X |
+| # de couches |  |  | X |  |
+| Couches associées |  |  | X |  |
+| Couches non associées associées |  |  | X |  |
+| Services | X | X |  |  |
+| # de liens | X | X | X | X |
+| Liens | X | X | X | X |
 | # de contacts | X | X | X | X |
 | Contacts | X | X | X | X |
-| Liens | X | X | X | X |
+| Version du format | X | X | X |  |
+| Encodage | X | X |  |  |
 | Editer | X | X | X | X |
 | MD - UUID | X | X | X | X |
 | MD - Date de création | X | X | X | X |

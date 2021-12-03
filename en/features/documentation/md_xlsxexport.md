@@ -89,9 +89,9 @@ The following fields are exported :
 | Owner | X | X | X | X |
 | # of catalogs | X | X | X | X |
 | Catalogs | X | X | X | X |
+| Group theme | X | X | X | X |
 | Keywords | X | X | X | X |
 | INSPIRE theme | X | X |  | |
-| Group theme | X | X | X | X |
 | INSPIRE conformity | X | X |  | |
 | Collect context | X | X |  | |
 | Collect method | X | X |  | |
@@ -112,9 +112,6 @@ The following fields are exported :
 | # of entites | X |  |  |  |
 | # of attributes | X |  |  |  |
 | Attributes | X |  |  |  |
-| # of layers |  |  | X |  |
-| Layers |  |  | X |  |
-| Services | X | X |  |  |
 | Specifications | X | X | X |  |
 | # of specifications | X | X | X |  |
 | Resolution | X | X | X |  |
@@ -122,9 +119,16 @@ The following fields are exported :
 | # of conditions | X | X | X | X |
 | CGUS (conditions) | X | X | X | X |
 | Limitations | X | X | X | X |
+| # of layers |  |  | X |  |
+| Associated Layers |  |  | X |  |
+| Non Associated Layers |  |  | X |  |
+| Services | X | X |  |  |
+| # of links | X | X | X | X |
+| Links | X | X | X | X |
 | # of contacts | X | X | X | X |
 | Contacts | X | X | X | X |
-| Links | X | X | X | X |
+| Format version | X | X | X |  |
+| Encoding | X | X |  |  |
 | Edit | X | X | X | X |
 | MD - UUID | X | X | X | X |
 | MD - Creation date | X | X | X | X |
