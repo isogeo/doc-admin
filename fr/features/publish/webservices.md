@@ -9,27 +9,11 @@ Depuis la version 2.17 (septembre 2016) et la documentation dynamique des servic
 
 ## Résultats dans OpenCatalog
 
-### Visualisation dans OpenCatalog {#oc_view}
+### Visualisation et extraction dans OpenCatalog {#oc_view}
 
-Des liens de visualisation sont générés pour les services :
+La visualisation et l'extraction de services géographiques sont possibles dans l'OpenCatalo pour les services [respectant ces prérequis](https://help.isogeo.com/opencatalog/fr/prerequisites.html#services-g%C3%A9ographiques-pris-en-charge). 
 
-* WFS :
-  * projetés en [EPSG:4326](https://epsg.io/4326)
-  * si le serveur supporte le JSON/JSON-P (ce qui n&apos;est pas le cas des service générés par ArcGIS Server notamment) ;
-* WMS projetés en [EPSG:3857](https://epsg.io/3857)
-* Esri Feature Service
-* Esri (Tiled) Map Service : si les opérations *Map* et *Tile* sont activées, le service tuilé sera utilisé.
-
-Exemple :
-
-![OpenCatalog - Liens visualisation](/assets/OC_dynamicServices_view_departements2014.png "Liens de visualisation générés automatiquement")
-
-### Extraction dynamique dans OpenCatalog {#oc_wfs_extract}
-
-Selon les capacités du serveur WFS associé, OpenCatalog génère un formulaire d'extraction automatisée :
-
-![OpenCatalog - Formulaire extraction](/assets/oc/oc_search_extract.gif "Formulaire de téléchargement généré automatiquement à partir des capacités du WFS")
-
+Le fonctionnement est décrit [dans la documentation de l'OpenCatalog](https://help.isogeo.com/opencatalog/fr/usage/visitPage.html#exploitation-des-services).
 ____
 
 ## Résultats dans le XML ISO 19139 (et donc le CSW)
