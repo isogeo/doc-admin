@@ -19,7 +19,6 @@ Usages possibles :
 
 * [se faire moissonner par le géocatalogue](/features/publish/harvest_geocatalogue_fr.md) ;
 * se faire moissonner par un autre noeud INSPIRE en envoyant l&apos;URL générée au responsable du client tiers ;
-* [diffuser ses données sur DataGouv.fr](/features/publish/harvest_datagouv_fr.md) ;
 * consulter les catalogues dans les logiciels disposant d&apos;un bon client CSW (QGIS par exemple).
 
 ![Serveur CSW](/assets/adm_shares_CSW_edit.png "Diffuser les catalogues via le protocole CSW")
@@ -34,6 +33,6 @@ http:// services.api.isogeo.com/ows/ s/77c4ab4d358d47e9aff30b550df007f9/<span st
 
 ## Caractéristiques techniques du serveur CSW
 
-Le serveur CSW (tout comme [le client](../csw_client/csw_harvest.html)), s&apos;appuie sur [GeoSIK](http://geosik.codeplex.com/), bibliothèque .NET libre et gratuite développée au sein d&apos;Isogeo facilitant l&apos;implémentation des services standardisés de l&apos;OGC.
+Le serveur CSW, s&apos;appuie sur [GeoSIK](http://geosik.codeplex.com/), bibliothèque .NET libre et gratuite développée au sein d&apos;Isogeo facilitant l&apos;implémentation des services standardisés de l&apos;OGC.
 
 Il respecte la version 1.0 du profil ISO de la version 2.0.2 du standard CSW.

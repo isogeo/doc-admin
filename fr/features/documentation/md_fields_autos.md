@@ -17,20 +17,21 @@ Pour vous faciliter la saisie des métadonnées, le scan remplit et maintient à
     * le nombre d’entités géographiques ;
     * le type de géométrie ;
     * le système de coordonnées (nom et code EPSG) ;
-    * l&apos;enveloppe convexe.
+    * l'enveloppe convexe.
 
 * Dans l’onglet **Attributs** :
 
     * le nom de chaque attribut ;
     * le type de chaque attibut ;
     * l'alias ou le commentaire en base de chaque attribut ;
+    * la langue de chaque attribut, saisie selon celle paramétrée dans le groupe de travail.
 
 * Dans l’onglet **Avancé** :
 
     * le type de ressource (données, ensemble de données) ;
     * le format de la donnée.
 
-* Dans l&apos;onglet **Propriétés** :
+* Dans l'onglet **Propriétés** :
 
     * la date de création de la fiche de métadonnée ;
 

@@ -35,7 +35,6 @@ L&apos;utilisateur reçoit alors un courriel d&apos;invitation ([voir le chapitr
 | Gérer le scan                                 | X                 |           |           |
 | Créer, affecter ou désaffecter un catalogue   | X                 |           |           |
 | Gérer les partages                            | X                 |           |           |
-| Gérer le moissonnage CSW                      | X                 |           |           |
 | Gérer la liste des système des coordonnées    | X                 |           |           |
 | Gérer les licences                            | X                 |           |           |
 | Gérer les spécifications                      | X                 |           |           |

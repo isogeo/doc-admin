@@ -8,7 +8,7 @@ L’onglet « Propriétés » permet d’indiquer la date de création et la lan
 
 | Définition          | Date de création de la métadonnée |
 | :------------------ | :------------------------------------------------ |
-| Indications         | Elle est enregistrée automatiquement, que ce soit à partir d&apos;un scan, d&apos;un moissonnage CSW, d&apos;un import XML ou d&apos;une création manuelle. C&apos;est cette date qui est transmise dans la balise *dateStamp* du profil CSW de l&apos;ISO 19115.<br />Il n&apos;est pas possible d&apos;éditer ce champ. |
+| Indications         | Elle est enregistrée automatiquement, que ce soit à partir d&apos;un scan, d&apos;un import XML ou d&apos;une création manuelle. C&apos;est cette date qui est transmise dans la balise *dateStamp* du profil CSW de l&apos;ISO 19115.<br />Il n&apos;est pas possible d&apos;éditer ce champ. |
 | Exemple             | 23/06/2015                    |
 | Exigence INSPIRE    | Obligatoire                   |
 | Edition par lot     | Non                           |
