@@ -24,7 +24,7 @@ Chaque catégorie en orange affiche un graphique différent correspondant à la 
 
 Les éléments des graphiques agissent comme des raccourcis filtrés sur l&apos;inventaire. Par exemple, dans le diagramme circulaire des formats, si vous cliquez sur l&apos;un des formats représentés, vous accèderez directement à la liste des données correspondantes au format choisi.
 
-> A noter : les métriques prennent en compte uniquement les données **appartenant** à votre groupe de travail. Celles qui vous ont été partagées par d&apos;autres groupes ou celles moissonnées depuis un service CSW ne sont pas représentées.
+> A noter : les métriques prennent en compte uniquement les données **appartenant** à votre groupe de travail. Celles qui vous ont été partagées par d&apos;autres groupes ne sont pas représentées.
 
 ## Le point de contact du groupe de travail
 

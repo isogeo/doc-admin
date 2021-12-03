@@ -56,7 +56,6 @@ Il y a deux dates liées à la métadonnée dans Isogeo qui sont gérées de fa�
 Elle est générée automatiquement :
 * lors du scan,
 * de la création manuelle de la fiche de métadonnée,
-* ou bien récupérée lors d&apos;un import CSW (via le client ou via un import manuel).
 
 Où la trouver :
 * dans APP, elle se situe dans l&apos;onglet `Métadonnée` de la fiche (voir [la page dédiée](../features/documentation/md_metadata.html#date-de-cration)).

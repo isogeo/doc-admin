@@ -38,7 +38,6 @@
     * [Associer couches de services et données](features/inventory/md_services/srv_association.md)
     * [Questions fréquentes et cas particuliers](features/inventory/md_services/srv_faq.md)
     * [Ressources sur les métadonnées de services](features/inventory/md_services/srv_resources.md)
-* [Moissonner un noeud CSW](features/csw_client/csw_harvest.md)
 * [Créer une fiche manuelle](features/documentation/md_new_manual.md)
 
 ## Documenter
@@ -71,8 +70,8 @@
 * [Partage de groupe](features/publish/share_platform.md)
 * [OpenCatalog](https://help.isogeo.com/opencatalog/fr/usage/generate.html)
     * [Régler l'affichage des liens selon les usages](https://help.isogeo.com/opencatalog/fr/appendices/oc_different_uses.html)
+* [DCAT (data.gouv.fr)](features/publish/harvest_datagouv_fr.md)
 * [CSW](features/publish/csw_server.md)
-    * [DataGouv](features/publish/harvest_datagouv_fr.md)
     * [Géocatalogue national](features/publish/harvest_geocatalogue_fr.md)
     * [Opendatasoft](features/publish/harvest_opendatasoft.md)
 * [Utiliser vos catalogues dans d&apos;autres interfaces](features/publish/usages_api.md)

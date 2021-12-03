@@ -12,8 +12,6 @@ Le menu administration, inaccesible aux `éditeurs` et `lecteurs`, permet de par
 * Inventaire
   * [Catalogues](../features/admin/catalogs.html)
   * [Partages](../features/admin/shares.html)
-* Synchronisation
-  * [Points d&apos;entrée (client CSW)](../features/csw_client/csw_harvest.html)
 * Configuration
   * [Carnet d&apos;adresses](../features/admin/contacts.html)
   * [Licences](../features/admin/licenses.html)

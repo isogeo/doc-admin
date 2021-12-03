@@ -30,7 +30,6 @@ Petite compilation à l&apos;usage des power-users !
 | Catalogues - Nouveau | [/admin/catalogs/new](https://app.isogeo.com/admin/catalogs/new) |
 | Partages - Liste | [/admin/shares](https://app.isogeo.com/admin/shares) |
 | Partages - Nouveau | [/admin/shares/new](https://app.isogeo.com/admin/shares/new) |
-| Client CSW | [/admin/entry-points](https://app.isogeo.com/admin/entry-points) |
 | Mots-clés   | [/admin/keywords](https://app.isogeo.com/admin/keywords) |
 | Carnet d&apos;adresses - Liste   | [/admin/address-book](https://app.isogeo.com/admin/address-book) |
 | Carnet d&apos;adresses - Nouveau   | [/admin/address-book/new](https://app.isogeo.com/admin/address-book/new) |
