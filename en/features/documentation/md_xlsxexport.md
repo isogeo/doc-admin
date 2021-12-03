@@ -2,7 +2,7 @@
 
 It is possible to export your metadatas in whole or in part as a spreadsheet.
 
-It can help to : 
+It can help to :
 
 * generate a support to facilitate contributions from intern staff members (metadata parties for instance), a filter can be used in the spreadsheet ;
 * help track the cataloging projet ;
@@ -15,7 +15,7 @@ This functionnaly can be used directly on the admin plateform, in tab `Inventory
 
 ![Export spreadsheet](/assets/exportFullPage.png)
 
-To export : 
+To export :
 
 1. Search results
 2. Click on the export button
@@ -25,13 +25,13 @@ To export :
 
 ![Popup Export](/assets/exportModal.png)
 
-The download will start automatically when the files are ready if the modal was not closed. 
+The download will start automatically when the files are ready if the modal was not closed.
 
 ## Parameters
 
 ### Available formats
 
-When exporting, two formats are available : 
+When exporting, two formats are available :
 
 * `.csv` using the comma as the separator (`,`);
 * `.xlss`.
@@ -44,9 +44,9 @@ A prefix can be added to the export files using the following model **Prefix_Iso
 
 #### Date
 
-Possible values : 
+Possible values :
 
-* No date is added ; 
+* No date is added ;
 * Only the dae is added, following the \`AAAA-MM-JJ\` model
 * Date and time are added, using the \`AAAA-MM-JJ-HHmm\` model
 
@@ -56,7 +56,7 @@ Default value : Date and time
 
 ### Excel content
 
-The excel file is made of four tabs, one for each data type : 
+The excel file is made of four tabs, one for each data type :
 
 * Vector
 * Raster
@@ -69,17 +69,16 @@ Each tab contains informations specific to each resource type.
 
 ### CSV content
 
-The csv export is a zip with four csv files, one for each data type : 
+The csv export is a zip with four csv files, one for each data type :
 
 * Vector
 * Raster
 * Service
 * Resource
 
-
 ### Content by datatype
 
-The following fields are exported : 
+The following fields are exported :
 
 | Fields      | Vector      | Raster | Service | Resource |
 | :------------- | :---------: |:---------:|:---------:|:---------:|
@@ -90,9 +89,9 @@ The following fields are exported :
 | Owner | X | X | X | X |
 | # of catalogs | X | X | X | X |
 | Catalogs | X | X | X | X |
+| Group theme | X | X | X | X |
 | Keywords | X | X | X | X |
 | INSPIRE theme | X | X |  | |
-| Group theme | X | X | X | X |
 | INSPIRE conformity | X | X |  | |
 | Collect context | X | X |  | |
 | Collect method | X | X |  | |
@@ -113,9 +112,6 @@ The following fields are exported :
 | # of entites | X |  |  |  |
 | # of attributes | X |  |  |  |
 | Attributes | X |  |  |  |
-| # of layers |  |  | X |  |
-| Layers |  |  | X |  |
-| Services | X | X |  |  |
 | Specifications | X | X | X |  |
 | # of specifications | X | X | X |  |
 | Resolution | X | X | X |  |
@@ -123,9 +119,16 @@ The following fields are exported :
 | # of conditions | X | X | X | X |
 | CGUS (conditions) | X | X | X | X |
 | Limitations | X | X | X | X |
+| # of layers |  |  | X |  |
+| Associated Layers |  |  | X |  |
+| Non Associated Layers |  |  | X |  |
+| Services | X | X |  |  |
+| # of links | X | X | X | X |
+| Links | X | X | X | X |
 | # of contacts | X | X | X | X |
 | Contacts | X | X | X | X |
-| Links | X | X | X | X |
+| Format version | X | X | X |  |
+| Encoding | X | X |  |  |
 | Edit | X | X | X | X |
 | MD - UUID | X | X | X | X |
 | MD - Creation date | X | X | X | X |

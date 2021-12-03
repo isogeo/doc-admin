@@ -38,6 +38,7 @@ Quand l&apos;option est activée dans [les paramètres du groupe de travail](../
 ![Tri](/assets/inv_order_options.png "Options de tri")
 
 Dérouler pour gérer les options de tri :
+
 * <i class="fa fa-star fa-fw"></i> par pertinence (par défaut) ;
 * <i class="fa fa-font fa-fw"></i> par titre ;
 * <i class="fa fa-calendar fa-fw text-violet"></i> par date de création de la métadonnée (par défaut si recherche vide) ;
@@ -47,6 +48,7 @@ Dérouler pour gérer les options de tri :
 * <i class="fa fa-calendar fa-fw text-warning"></i> par date de publication de la donnée.
 
 Et de choisir la direction du tri :
+
 * <i class="fa fa-sort-alpha-asc"></i> ascendant : ordre alphabétique, du plus petit au plus grand, du plus ancien au  plus récent ;
 * <i class="fa fa-sort-alpha-desc"></i> descendant (valeur par défaut)
 
@@ -59,9 +61,10 @@ En haut à droite, il est possible de sélectionner une page en particulier :
 ![Pagination](/assets/inv_pagination_browse.png "Aller à une page")
 
 Tout en bas à gauche, il est possible de régler la pagination :
-*  afficher 20 fiches par page (par défaut) ;
-*  afficher 30 fiches par page ;
-*  afficher 50 fiches par page.
+
+* afficher 20 fiches par page (par défaut) ;
+* afficher 30 fiches par page ;
+* afficher 50 fiches par page.
 
 ![Pagination](/assets/inv_pagination_display.png "Nombre de fiches par page")
 
@@ -77,6 +80,7 @@ Tout en bas à gauche, il est possible de régler la pagination :
 * le système de coordonnées : <span style="color:#999">en gris foncé</span>
 * le(s) catalogue(s) : <span style="color:#bed3db">en gris clair</span>
 * les thèmes Inspire précédés d’une icône en forme de feuille <i class="fa fa-leaf"></i> ;
+* les thématiques précédées d'une icône en forme de trombone <i class="fa fa-paperclip"></i> ;
 * les mots-clés précédés d’une icône en forme d&apos;étiquette  <i class="fa fa-tag"></i> ;
 * sur la droite, la date de tri choisie s’affiche ;
 * la couleur tout à droite est calculée automatiquement sur la base du nom du groupe de travail.

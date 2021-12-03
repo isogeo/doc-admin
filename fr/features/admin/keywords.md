@@ -6,8 +6,7 @@ Dans Isogeo, les mots-clés sont gérés de façon centralisée dans ce que l&ap
 
 Chaque mot-clé, qu&apos;il soit affecté à une donnée du groupe de travail ou pas, est qualifié par son nombre d&apos;occurrences dans tout Isogeo et dans le groupe de travail.
 
-
-### Via l&apos;administration
+### Via l&apos;onglet Administration
 
 A l&apos;instar de la page des systèmes de coordonnées, cette interface permet aux administrateurs de chaque groupe de travail de parcourir le thésaurus Isogeo et l&apos;ensemble des mots-clés présents dans son groupe de travail.
 
@@ -18,16 +17,18 @@ A l&apos;instar de la page des systèmes de coordonnées, cette interface permet
 Fonctionnement détaillé :
 
 * à gauche, la liste des mots-clés et leurs nombre d&apos;occurrences dans le thésaurus Isogeo. Il est possible de chercher dedans et d&apos;ajouter des mots-clés à la liste de son groupe de travail quand la liste est restreinte.
-* à droite, la liste de smots-clés affectés à au moins une métadonnée appartenant au groupe de travail.
+* à droite, la liste de mots-clés affectés à au moins une métadonnée appartenant au groupe de travail.
 
 ![Ajouter un mot-clé](/assets/adm_keywords_restricted_addToIsogeo.gif "Ajouter un mot-clé à son groupe de travail à partir du thésaurus Isogeo")
 
 #### Fontionnement du filtre et du tri
 
-* quand aucune recherche n&apos;est active, les mots-clés sont triés par nombre d&apos;occurrences
+* quand aucune recherche n&apos;est active, les mots-clés sont par défault triés par nombre d&apos;occurrences
 * quand une recherche est lancée, les mots-clés sont triés selon leur score de correspondance avec les caractères entrés.
 
 ![Filtre et tri](/assets/adm_keywords_filtrer_order.gif "Comprendre le fonctionnement du tri et du filtre par recherche dynamique")
+
+La mise à jour 2.21.0 ajoute également la possibilité de trier par nombre d'occurrences et par ordre alphabétique en cliquant sur les en-têtes des colonnes <i class="fa fa-dashboard"></i> et **Nom**.
 
 ### Au moment d&apos;étiqueter
 
@@ -43,17 +44,19 @@ ____
 
 En tant qu&apos;administrateur, il est possible de restreindre la liste des mots-clés disponible lors de l&apos;étiquetage pour guider les éditeurs dans le choix de leurs mots-clés. Cela permet d&apos;assurer une certaine cohérence et homogénéité dans le thésaurus du groupe de travail.
 
-### Si l’administrateur a restreint la liste des mots-clés disponibles :
+### Si l’administrateur a restreint la liste des mots-clés disponibles
 
 Quand la liste est active :
+
 * seuls les mots-clés présents dans la liste sont disponibles à l’affectation pour un administrateur ou un éditeur ;
 * seul un administrateur peut créer un nouveau mot-clé via l&apos;interface d&apos;administration.
 
 ![Mots-clés - liste restreinte](/assets/inv_edit_tags_keywords_restricted.gif "Créer un nouveau mot-clé quand la liste est restreinte")
 
-### Si la liste des mots-clés n’est pas restreinte :
+### Si la liste des mots-clés n’est pas restreinte
 
 Quand la liste n&apos;est pas active :
+
 * tous les mots-clés sont disponibles à l’affectation pour un administrateur ou un éditeur ;
 * un administrateur ou un éditeur peut créer un nouveau mot-clé qui est ajouté au thésaurus Isogeo et au groupe de travail.
 
@@ -66,6 +69,7 @@ ____
 En plus de pouvoir encadrer la cohérence au moment de la saisie, l&apos;administrateur peut choisir de quelle façon sont affichés les mots-clés lors de la recherche et de la consultation.
 
 il peut choisir le mode d’affichage des mots-clés :
+
 * en minuscules ;
 * EN MAJUSCULES ;
 * En Capitalisation Sur La Première Lettre ;

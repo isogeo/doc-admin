@@ -60,7 +60,7 @@
 * [Propriétés](features/documentation/md_metadata.md)
 * [Mettre en forme les textes](features/documentation/syntax_markdown.md)
 * [Faire une métadonnée INSPIRE](features/documentation/md_inspire.md)
-* [Voir l'avancement du catalogage avec l'export tableur](features/documentation/md_xlsxexport.md)
+* [Exporter les données en tableur](features/documentation/md_xlsxexport.md)
 
 ## Valoriser
 
@@ -85,8 +85,9 @@
 * [Les partages](features/admin/shares.md)
 * [Le carnet d&apos;adresses](features/admin/contacts.md)
 * [Les licences](features/admin/licenses.md)
-* [Les mots-clés](features/admin/keywords.md)
 * [Les spécifications](features/admin/specifications.md)
+* [Les mots-clés](features/admin/keywords.md)
+* [Les thématiques](features/admin/group_themes.md)
 * [Les systèmes de coordonnées](features/admin/srs.md)
 
 ## Support

@@ -15,8 +15,9 @@ Le menu administration, inaccesible aux `éditeurs` et `lecteurs`, permet de par
 * Configuration
   * [Carnet d&apos;adresses](../features/admin/contacts.html)
   * [Licences](../features/admin/licenses.html)
-  * [Mots-clés](../features/admin/keywords.html)
   * [Spécifications](../features/admin/specifications.html)
+  * [Mots-clés](../features/admin/keywords.html)
+  * [Thématiques](../features/admin/group_themes.html)
   * [Systèmes de coordonnées](../features/admin/srs.html)
 * Applications
   * [Scan FME](https://help.isogeo.com/scan/fr/usage/inventory.html)

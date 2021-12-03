@@ -49,15 +49,15 @@ Suivant les logiques des principaux systèmes de recherche, Isogeo encourage les
 
 ### Les étapes d&apos;une recherche
 
-1.	Commencer à formuler les termes dans la barre recherche, choisir parmi les propositions de l&apos;auto-complétion :
+1. Commencer à formuler les termes dans la barre recherche, choisir parmi les propositions de l&apos;auto-complétion :
 
     ![Première étape, la barre de recherche](/assets/search_bar_submersion.png "Commencer par taper les termes de la recherche")
 
-2.	Appliquer les filtres : le menu déroulant à droite de la barre de recherche affiche les filtres disponibles selon les résultats de la recherche :
+2. Appliquer les filtres : le menu déroulant à droite de la barre de recherche affiche les filtres disponibles selon les résultats de la recherche :
 
     ![Appliquer les filtres via le formulaire](/assets/search_bar_filters_submersion.png "Filtrer sur les différents critères disponibles")
 
-3.	Régler l’affichage avec les options de [tri et de pagination](../../settings/inventory.html#linterface) :
+3. Régler l’affichage avec les options de [tri et de pagination](../../settings/inventory.html#linterface) :
 
     ![Options de tri et de pagination](/assets/inv_ordering_pagination_options.png "Trier et régler la pagination")
 
@@ -74,18 +74,18 @@ Lorsque l&apos;on tape dans la barre de recherche, l’auto-complétion propose 
 
 ![Démo auto-complétion](/assets/search_bar_autocompletion.gif "L&apos;auto-complétion permet de gagner du temps lors de la recherche")
 
-
 #### Matrice des icônes par champ de recherche
 
 | Champ                     | Icône                             |
 | :------------------------ | :-------------------------------: |
-| Catalogues                | <i class="fa fa-book"></i>        |
-| Contacts                  | <i class="fa fa-phone"></i>       |
-| Formats                   | <i class="fa fa-cube"></i>        |
-| Licences                  | <i class="fa fa-gavel"></i>       |
-| Mots-clés                 | <i class="fa fa-tag"></i>         |
 | Propriétaires             | <i class="fa fa-users"></i>       |
+| Catalogues                | <i class="fa fa-book"></i>        |
+| Thématiques               | <i class="fa fa-paperclip"></i>   |
+| Mots-clés                 | <i class="fa fa-tag"></i>         |
+| Types de ressource        | <i class="fa fa-asterisk"></i>    |
+| Formats                   | <i class="fa fa-cube"></i>        |
 | Systèmes de coordonnées   | <i class="fa fa-globe"></i>       |
 | Thèmes INSPIRE            | <i class="fa fa-leaf"></i>        |
-| Types de ressource        | <i class="fa fa-asterisk"></i>    |
 | Types d&apos;actions associées | <i class="fa fa-play"></i>        |
+| Licences                  | <i class="fa fa-gavel"></i>       |
+| Contacts                  | <i class="fa fa-phone"></i>       |
