@@ -6,27 +6,23 @@ Suite à l'[arrêt de geo.data.gouv.fr](https://www.data.gouv.fr/fr/posts/extinc
 
 Afin que vos données puissent être remontées sur data.gouv.fr, il faut qu'elles remplissent plusieurs critères :
 
-* avoir le mot-clé `données ouvertes` (voir [étiqueter](../features/documentation/md_classify.html)) ;
-* avoir une licence ouverte et indiquer qu'il n'y a aucune limitation au sens INSPIRE (voir [gérer les CGUs](../features/documentation/md_cgu.html#conditions)) ;
+* avoir une licence ouverte et indiquer qu'il n'y a aucune limitation au sens INSPIRE (voir [gérer les CGUs](/features/documentation/md_cgu.html#conditions)) ;
 * être dans un catalogue partagé au serveur DCAT et à l'OpenCatalog
 * contenir au moins un lien de téléchargement opérationnel. Les liens de téléchargement reconnus sont :
- * lien vers un service WFS ou EFS capable de délivrer la donnée au format GeoJSON dans le système de coordonnée WGS84 (4326): voir [affecter un service WFS](../features/publish/webservices.html#associer-un-flux-wfs) ;
- * lien vers des fichiers de données vecteur (GeoJSON, Shapefile, MapInfo MIF/MID, MapInfo TAB et GML) ou raster (ECW, JPEG2000 et GeoTIFF) : voir [affecter un lien de téléchargement](../features/publish/hosting.html)
-
-A vérifier :
-<!-- Les liens vers des fichiers PDF ne sont pas reconnus comme des liens vers des données. -->
+* lien vers un service WFS ou EFS capable de délivrer la donnée au format GeoJSON en WGS84 (4326) : voir [affecter un service WFS](/features/publish/webservices.html#associer-un-flux-wfs) ;
+* lien vers des fichiers de données vecteur (GeoJSON, Shapefile, MapInfo MIF/MID, MapInfo TAB et GML) ou raster (ECW, JPEG2000 et GeoTIFF) : voir [affecter un lien de téléchargement](/features/publish/hosting.html) ;
 
 ### Compte et organisation sur DataGouv {#dataGouvAccount}
 
 1. Créer un compte sur data.gouv.fr
 
-    Pour créer un compte ou se connecter : https://www.data.gouv.fr/login. Il est recommandé de créer un compte directement sans l'interface d'un réseau social.
+    Pour créer un compte ou se connecter : <https://www.data.gouv.fr/login>. Il est recommandé de créer un compte directement sans l'interface d'un réseau social.
 
     ![DataGouv - Inscription/connexion](/assets/datagouv/annex_bridge_INSPIRE_DataGouv_00a.png "Se connecter ou créer un compte sur DataGouv")
 
 2. Créer / rejoindre une organisation sur data.gouv.fr
 
-    Pour cela, il faut passer par l'administration de son profil : https://www.data.gouv.fr/fr/admin/organization/new/. Si elle existe déjà, faites une demande pour la rejoindre.
+    Pour cela, il faut passer par l'administration de son profil : <https://www.data.gouv.fr/fr/admin/organization/new/>. Si elle existe déjà, faites une demande pour la rejoindre.
 
     ![DataGouv - Organisation](/assets/datagouv/annex_bridge_INSPIRE_DataGouv_00b_NewOrganization.png "Créer son organisation sur DataGouv")
 
@@ -36,7 +32,7 @@ _______
 
 1. Ajouter un nouveau moissonneur
 
-    Une fois votre flux DCAT créé dans Isogeo, ajouter un nouveau moissonneur depuis l'interface d'administration de data.gouv.fr 
+    Une fois votre flux DCAT créé dans Isogeo, ajouter un nouveau moissonneur depuis l'interface d'administration de data.gouv.fr
 
      ![Créer un nouveau moissonneur](/assets/datagouv/DataGouv_new_dcat.png)
 
@@ -56,8 +52,7 @@ _______
 6. Tester le moissonnage en cliquant sur "Prévisualiser" et vérifier le nombre de jeu de donnée validé.
 
      ![Configurer le nouveau moissonneur](/assets/datagouv/DataGouv_dcat_previsualisation.png)
-
-Si une donnée semble ne pas être disponible, revérifier les [prérequis](#prerequisites) puis [contacter l'équipe DataGouv](mailto:contact@geo.data.gouv.fr?subject=Problème de moissonnage d'un DCAT Isogeo&cc=support@isogeo.fr).
+Si une donnée semble ne pas être disponible, revérifier les [prérequis](#prerequisites) puis [contacter l'équipe DataGouv](mailto:support@data.gouv.fr?subject=Problème%20de%20moissonnage%20d'un%20DCAT%20Isogeo&cc=support@isogeo.fr).
 
 7. Vérifier le moissonnage
 
@@ -65,7 +60,7 @@ Une fois le moissoneur validé, vous pouvez consulter les différentes opératio
 
      ![Configurer le nouveau moissonneur](/assets/datagouv/DataGouv_dcat_validated.png)
 
-### Liste des champs complétés
+### Liste des champs complétés {#fields}
 
 | Champs data.gouv.fr        | Champs Isogeo               |
 |:--------------------------:|:-------------------------- :|
@@ -80,41 +75,49 @@ Une fois le moissoneur validé, vous pouvez consulter les différentes opératio
 | Identifiant distant        | Identifiant unique          |
 | URI                        | Non rempli                  |
 
+#### Description {#description_field}
+
 La description est formatée de la manière suivante :
 
 **Description :** Résumé
+
 **Contexte de collecte :** Contexte de collecte de la donnée (s'il existe)  
-**Méthode de collecte :** Méthode de collecte de la donnée (si elle existe) 
-**Attributs** : tableau contenant le nom du champ et l'alias ? 
+
+**Méthode de collecte :** Méthode de collecte de la donnée (si elle existe)
+
+**Attributs** : tableau contenant le nom du champ, l'alias (ou le commentaire en base) et le type.
+
 Pour plus d’informations, consultez la métadonnée sur le catalogue Isogeo (lien OpenCatalog).
+
+#### Fréquence de mise à jour {#updateFrequency_field}
 
 La fréquence de mise à jour est saisie selon cette correspondance :
 
 |         Isogeo        |         data.gouv        |
 |:---------------------:|:------------------------:|
-| Toutes les heures     | Toutes les heures        |
-| Toutes les 6 heures   | Quatre fois par jour     |
-| Toutes les 12 heures  | Deux fois par jour       |
-| Tous les jours        | Quotidienne              |
-| Tous les 3 jours      | Deux fois par semaine    |
-| Toutes les semaines   | Hebdomadaire             |
+|   Toutes les heures   |     Toutes les heures    |
+|  Toutes les 6 heures  |   Quatre fois par jour   |
+|  Toutes les 12 heures |    Deux fois par jour    |
+|     Tous les jours    |        Quotidienne       |
+|    Tous les 3 jours   |   Deux fois par semaine  |
+|  Toutes les semaines  |       Hebdomadaire       |
 | Toutes les 2 semaines | Toutes les deux semaines |
-| Tous les mois         | Mensuelle                |
-| Tous les 2 mois       | Bimestrielle             |
-| Tous les 3 mois       | Trimestrielle            |
-| Tous les 4 mois       | Trois fois par an        |
-| Tous les 6 mois       | Semestrielle             |
-| Tous les ans          | Annuelle                 |
-| Tous les 2 ans        | Biennale                 |
-| Tous les 3 ans        | Triennale                |
-| Tous les 5 ans        | Quinquennalle            |
-| Autre fréquence       | Inconnu                  |
+|     Tous les mois     |         Mensuelle        |
+|    Tous les 2 mois    |       Bimestrielle       |
+|    Tous les 3 mois    |       Trimestrielle      |
+|    Tous les 4 mois    |     Trois fois par an    |
+|    Tous les 6 mois    |       Semestrielle       |
+|      Tous les ans     |         Annuelle         |
+|     Tous les 2 ans    |         Biennale         |
+|     Tous les 3 ans    |         Triennale        |
+|     Tous les 5 ans    |       Quinquennalle      |
+|    Autre fréquence    |          Inconnu         |
 
-### Téléchargement des données
+### Téléchargement des données {#download_links}
 
 Pour alimenter la fiche data.gouv en ressource téléchargeable, plusieurs types de liens peuvent être remontés.
 
-* lien vers un fichier téléversé dans Isogeo (hosted) 
+* lien vers un fichier téléversé dans Isogeo (hosted)
 * lien vers des fichiers de données vecteur (GeoJSON, Shapefile et GML) ou raster (ECW, JPEG2000 et GeoTIFF) en tant que lien de donnée avec l’action téléchargé
 * lien vers un service WFS ou EFS
   * le nombre d’entités doit être inférieur au seuil du serveur carto (paramètre MaxRecordCount=1000 par défaut pour ArcGIS Server)
