@@ -119,3 +119,20 @@ ________
 | Fiche ressource            | Non                                           |
 | Fiche service              | Non                                           |
 
+________
+
+## Contexte géographique
+
+| Définition                 | Description de la raison pour laquelle la donnée tabulaire peut-être considérée comme géographique |
+| :------------------------- | :--------------------------------------------------------- |
+| Indications                | La table contient des valeurs de latitude et de longitude, contient un champ joignable à une table géographique etc... |
+| Exemple                    | Cette donnée est un indicateur de l'INSEE qui joint à la couche géographique des IRIS via le Code INSEE permet de cartographier le taux de chômage par habitants.|
+| Exigence INSPIRE           | Non            |
+| Edition par lot            | Oui, par écrasement    |
+| Scan                       | Non            |
+| Moteur de recherche        | Non                    |
+| Fiche vecteur              | Non                           |
+| Fiche raster               | Non                           |
+| Fiche tabulaire non géographique               | Oui                           |
+| Fiche service              | Non                           |
+| Fiche ressource            | Non                           |

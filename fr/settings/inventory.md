@@ -11,7 +11,6 @@ Vous y retrouvez :
 * Les fiches créées automatiquement par un scan ;
 * Les fiches créées manuellement par un membre de votre groupe de travail ;
 * Les fiches créées par d’autres groupes Isogeo et partagées avec vous ;
-* Les fiches moissonnées à partir d&apos;un service CSW.
 
 ## L&apos;interface
 

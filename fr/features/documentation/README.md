@@ -7,24 +7,22 @@ Chaque ressource (donnée, ensemble de données, service, ressource) de votre in
 Il y a plusieurs types de fiches de métadonnées possibles :
 * jeu de données de type vecteur ;
 * jeu de données de type raster ;
+* jeu de données de type tabulaire non-géographique ;
 * ensemble de données (collection) ;
 * service ;
 * ressource.
 
 ## Onglets par type de fiches de métadonnées
 
-| Onglet          | Vecteur | Raster  | Ensemble | Service | Ressource | Queue d&apos;URL      |
-|:---------------:|:-------:|:-------:|:--------:|:-------:|:---------:|:----------------:|
-| Identification  | X       | X       | X        | X       | X         | /identification  |
-| Histoire        | X       | X       | X        | X       | X         | /history         |
-| Géographie      | X       | X       | X        | X       |           | /geography       |
-| Qualité         | X       | X       | X        | X       |           | /quality         |
-| Attributs       | X       |         | X        |         |           | /attributes      |
-| CGU             | X       | X       | X        | X       | X         | /constraints     |
-| Ressources      | X       | X       | X        | X       | X         | /resources       |
-| Contacts        | X       | X       | X        | X       | X         | /contacts        |
-| Avancé          | X       | X       | X        | X       | X         | /advanced        |
-| Propriétés      | X       | X       | X        | X       | X         | /metadata        |
-
-
-
+| Onglet          | Vecteur | Raster  | Tabulaire non géographique  | Ensemble | Service | Ressource | Queue d&apos;URL      |
+|:---------------:|:-------:|:-------:|:---------------------------:|:--------:|:-------:|:---------:|:----------------:|
+| Identification  | X       | X       | X                           | X        | X       | X         | /identification  |
+| Histoire        | X       | X       | X                           | X        | X       | X         | /history         |
+| Géographie      | X       | X       | X (/context)                | X        | X       |           | /geography       |
+| Qualité         | X       | X       | X                           | X        | X       |           | /quality         |
+| Attributs       | X       |         | X                           | X        |         |           | /attributes      |
+| CGU             | X       | X       | X                           | X        | X       | X         | /constraints     |
+| Ressources      | X       | X       | X                           | X        | X       | X         | /resources       |
+| Contacts        | X       | X       | X                           | X        | X       | X         | /contacts        |
+| Avancé          | X       | X       | X                           | X        | X       | X         | /advanced        |
+| Propriétés      | X       | X       | X                           | X        | X       | X         | /metadata        |

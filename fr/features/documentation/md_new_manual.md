@@ -6,6 +6,7 @@ Vous pouvez choisir parmi les différents modèles disponibles :
 
 * Données (vecteur) ;
 * Données (raster) ;
+* Données (tabulaire non géographique) ;
 * Ensemble de données ;
 * Ressource ;
 * Service.
@@ -27,7 +28,7 @@ Cette fonctionnalité est utile dans différents cas de figure :
 
 ## Documenter un service
 
-Depuis la version 2.17 d&apos;Isogeo (septembre 2016), la documentation des services géographiques est automatisée et dynamique : [consulter la section dédiée](../inventory/md_services/srv_howto.html).
+La documentation des services géographiques est automatisée et dynamique : [consulter la section dédiée](../inventory/md_services/srv_howto.html).
 
 > Astuce : pour retrouver toutes les fiches de type service de votre inventaire, [cliquer ici](https://app.isogeo.com/inventory/search?p=1&ob=_created&od=des&q=type%3Aservice).
 
