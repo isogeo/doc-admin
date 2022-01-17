@@ -17,11 +17,11 @@ Vous pouvez spécifier un choix différent pour les paramètres détectés autom
 * La langue est celle du navigateur ;
 * Le fuseau horaire est celui du système d’exploitation.
 
-## Abonnements et liens utiles {#subscriptions}
+<!-- ## Abonnements et liens utiles {#subscriptions}
 
 Vous pouvez choisir de vous abonner ou désabonner à nos listes de diffusion dédiées à nos utilisateurs :
 
 * La liste des nouveautés pour être prévenu des nouvelles versions ;
 * La liste des trucs et astuces pour bénéficier de petits tutoriels sur des fonctionnalités ;
 
-Vous pouvez également accéder à nos réseaux sociaux ou bien au blog, sur lequel vous pouvez gérer votre abonnement à la liste de diffusion globale d’Isogeo (indépendant des deux autres).
+Vous pouvez également accéder à nos réseaux sociaux ou bien au blog, sur lequel vous pouvez gérer votre abonnement à la liste de diffusion globale d’Isogeo (indépendant des deux autres). -->

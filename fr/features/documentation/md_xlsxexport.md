@@ -60,6 +60,7 @@ L'excel est composé de quatre onglets, un pour chaque type de donnée :
 
 * Vecteur
 * Rasteur
+* Tabulaire non géographique
 * Service
 * Ressource
 
@@ -73,6 +74,7 @@ L'export en csv consiste en un zip contenant quatre fichiers csv, un pour chaque
 
 * Vecteur
 * Rasteur
+* Tabulaire non géographique
 * Service
 * Ressource
 
@@ -105,10 +107,11 @@ Les champs suivants sont exportés :
 | # d'événements | X | X | X | X | X |
 | Format | X | X | X | X | X |
 | SRS (EPSG) | X | X |  |  |  |
-| Emprise | X | X | X |  |  |
+| Emprise | X | X |  | X |  |
 | Géométrie | X |  |  |  |  |
 | Résolution | X | X |  |  |  |
 | Echelle | X | X |  |  |  |
+| Contexte géographique |  |  | X |  |  |
 | # d'entités | X |  | X |  |  |
 | # d'attributs | X |  | X |  |  |
 | Attributs | X |  | X |  |  |
@@ -118,7 +121,7 @@ Les champs suivants sont exportés :
 | # de conditions | X | X | X | X | X |
 | CGUS (conditions) | X | X | X | X | X |
 | Limitations | X | X | X | X | X |
-| # de couches | X |  |  | X |  |
+| # de couches |  |  |  | X |  |
 | Couches associées |  |  |  | X |  |
 | Couches non associées associées |  |  |  | X |  |
 | Services | X | X |  |  |  |
