@@ -8,10 +8,13 @@ Ensemble cohérent de fiches de métadonnée. Il permet d’organiser son invent
 Représentation d&apos;un objet où d&apos;un phénomène réel ou imaginaire, présent, passé ou futur, localisé dans l&apos;espace à un moment donné et quelles qu&apos;en soient la dimension et l&apos;échelle de représentation.
 
 # Donnée raster
-Représentation matricielle (plans scannés, photographies aériennes, images satellitaires) d&apos;un objet où d&apos;un phénomène réel ou imaginaire, présent, passé ou futur, localisé dans un espace à un moment donné et quelles qu&apos;en soient la dimension et l&apos;échelle de représentation.
+Représentation matricielle (plans scannés, photographies aériennes, images satellitaires) d&apos;un objet ou d&apos;un phénomène réel ou imaginaire, présent, passé ou futur, localisé dans un espace à un moment donné et quelles qu&apos;en soient la dimension et l&apos;échelle de représentation.
 
 # Donnée vecteur
-Représentation géométrique (point, ligne, polygone) d&apos;un objet où d&apos;un phénomène réel ou imaginaire, présent, passé ou futur, localisé dans un espace à un moment donné et quelles qu&apos;en soient la dimension et l&apos;échelle de représentation.
+Représentation géométrique (point, ligne, polygone) d&apos;un objet ou d&apos;un phénomène réel ou imaginaire, présent, passé ou futur, localisé dans un espace à un moment donné et quelles qu&apos;en soient la dimension et l&apos;échelle de représentation.
+
+# Donnée tabulaire non géographique
+Représentation tabulaire d'un objet ou d'un phénomène réel ou imaginaire, présent, passé ou futur localisable indirectement c'est à dire sans géométrie.
 
 # Ensemble de données
 Un ensemble de donnée est un regroupement cohérent de donnée conçues et utilisées selon un théme dominant. Par exemple le PLU, la BD Topo ou encore le Cadastre sont considérés comme des ensembles de données.

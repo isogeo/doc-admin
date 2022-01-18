@@ -52,10 +52,10 @@ La plupart de ces exemples correspondent aux filtres et tris de la recherche don
 | Métadonnées sans mot-clé | [/inventory/search?q=has-no:keyword](https://app.isogeo.com/inventory/search?q=has-no:keyword) |
 | Métadonnées sans catalogue (seulement pour les admins) | [/inventory/search?q=has-no:catalog](https://app.isogeo.com/inventory/search?q=has-no:catalog) |
 | Métadonnées sans mot-clé | [/inventory/search?q=has-no:keyword](https://app.isogeo.com/inventory/search?q=has-no:keyword) |
-| Vecteurs et rasters | [/inventory/search?q=type:dataset](https://app.isogeo.com/inventory/search?q=type:dataset) |
-| Vecteurs et rasters sans mot-clé | [/inventory/search?q=type:dataset has-no:keyword](https://app.isogeo.com/inventory/search?q=type:dataset has-no:keyword) |
-| Vecteurs et rasters sans SRS | [/inventory/search?q=type:dataset has-no:coordinate-system](https://app.isogeo.com/inventory/search?q=type:dataset has-no:coordinate-system) |
-| Vecteurs et rasters sans thème INSPIRE | [/inventory/search?q=type:dataset has-no:keyword:inspire-theme](https://app.isogeo.com/inventory/search?q=type:dataset has-no:keyword:inspire-theme) |
+| Vecteurs, rasters et données tabulaires non géographiques | [/inventory/search?q=type:dataset](https://app.isogeo.com/inventory/search?q=type:dataset) |
+| Vecteurs, rasters et données tabulaires non géographiques sans mot-clé | [/inventory/search?q=type:dataset has-no:keyword](https://app.isogeo.com/inventory/search?q=type:dataset has-no:keyword) |
+| Vecteurs, rasters et données tabulaires non géographiques sans SRS | [/inventory/search?q=type:dataset has-no:coordinate-system](https://app.isogeo.com/inventory/search?q=type:dataset has-no:coordinate-system) |
+| Vecteurs, rasters et données tabulaires non géographiques sans thème INSPIRE | [/inventory/search?q=type:dataset has-no:keyword:inspire-theme](https://app.isogeo.com/inventory/search?q=type:dataset has-no:keyword:inspire-theme) |
 | Vecteurs | [/inventory/search?q=type:vector-dataset](https://app.isogeo.com/inventory/search?q=type:vector-dataset) |
 | Vecteurs sans mot-clé | [/inventory/search?q=type:vector-dataset has-no:keyword](https://app.isogeo.com/inventory/search?q=type:vector-dataset has-no:keyword) |
 | Vecteurs sans SRS | [/inventory/search?q=type:vector-dataset has-no:coordinate-system](https://app.isogeo.com/inventory/search?q=type:vector-dataset has-no:coordinate-system) |
@@ -67,6 +67,4 @@ La plupart de ces exemples correspondent aux filtres et tris de la recherche don
 | Services visualisables | [/inventory/search?q=type:service action:view](https://app.isogeo.com/inventory/search?q=type:service action:view) |
 | Services sans aucun lien | [/inventory/search?q=type:service has-no:action](https://app.isogeo.com/inventory/search?q=type:service has-no:action) |
 
-
-*Ces paramètres fonctionnent aussi sur OpenCatalog en remplaçant l&apos;URL de base par celle de l&apos;OpenCatalog en question.
-
+> Ces paramètres fonctionnent aussi sur OpenCatalog en remplaçant l&apos;URL de base par celle de l&apos;OpenCatalog en question.

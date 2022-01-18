@@ -2,8 +2,6 @@
 
 La plateforme Isogeo repose sur la puissance de son API qui permet de développer des applicatifs adaptés à tous les besoins, en utilisant les métadonnées comme une couche d&apos;abstraction intelligente pour brancher des services sur le patrimoine de données.
 
-![Cartographie de l&apos;offre usages](/assets/schema_CartoOffre.png "Une plateforme orientée usages")
-
 ## Les principes
 
 Respectant l&apos;architecture [REST](https://fr.wikipedia.org/wiki/Representational_State_Transfer),  l&apos;API publique est dédiée à la lecture des catalogues et ouverte à quiconque souhaite développer et possède un accès à Isogeo. Elle permet d&apos;exécuter des requêtes et d&apos;en retranscrire les résultats dans une interface originale. L&apos;idée est d&apos;élargir les horizons des usages des catalogues de données constitués dans Isogeo.
@@ -26,20 +24,11 @@ Il est possible d&apos;utiliser l&apos;API dans autant d&apos;applications qu&ap
 
 L&apos;un des usages les plus demandés est de pouvoir consulter les catalogues directement dans les logiciels SIG. Aujourd&apos;hui, des plugins ont été développés pour :
 
-* [ArcMap(10.2+)](https://help.isogeo.com/arcmap/fr/index.html),
 * [ArcGIS Pro (2.5+)](https://help.isogeo.com/arcgispro/fr/index.html),
 * [ArcGIS WebAppBuilder for Developer](https://help.isogeo.com/arcgis-webapp/fr/index.html),
 * [QGIS 3.x LTR](https://help.isogeo.com/qgis/fr/index.html).
 
-D&apos;autres sont en cours et attendent une contribution financière pour être développés ou finalisés :
-
-* AutoCAD,
-* AutoCAD Map
-* WordPress,
-* Drupal,
-* etc.
-
-> Astuce : consulter [la page des plugins et widgets sur le site isogeo](https://www.isogeo.com/nos-produits/Plugins-Widgets).
+> Astuce : consulter [la page des plugins et widgets sur le site isogeo](https://www.isogeo.com/nos-produits/plugins/7).
 
 ____
 
@@ -56,7 +45,7 @@ Si l&apos;OpenCatalog permet de couvrir l&apos;essentiel des besoins de consulta
 * interfaces *responsive design* ;
 * des fonctionnalités qu&apos;il tient à chacun de contribuer à développer ! :)
 
-> Astuce : Consulter [la documentation du portail](https://help.isogeo.com/pixup-portal/index.html).
+> Astuce : Consulter [la documentation du portail](https://help.isogeo.com/pixup-portal/fr/).
 
 #### Générique ou spécifique
 
@@ -79,7 +68,7 @@ Voici une sélection de portails utilisant l&apos;API Isogeo pour apporter des f
 D&apos;autres existent mais sont réservés à un accès en intranet (GRDF, ADP, CD 64 par exemple)
 ____
 
-### L&apos;extracteur de données {#extractor}
+<!-- ### L&apos;extracteur de données {#extractor}
 
 Avec Isogeo, vous valorisez déjà votre ETL FME en capitalisant sur son intéropérabilité via le Scan. L&apos;extracteur permet d&apos;aller plus loin en proposant de s&apos;appuyer sur l&apos;API Isogeo pour automatiser et optimiser la mise à disposition des données auprès de différents destinataires :
 
@@ -89,7 +78,7 @@ Avec Isogeo, vous valorisez déjà votre ETL FME en capitalisant sur son intéro
 
 <iframe src="//fr.slideshare.net/slideshow/embed_code/key/4Gc2nND2iDRxWY" width="595" height="485" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC; border-width:1px; margin-bottom:5px; max-width: 100%;" allowfullscreen> </iframe>
 
-____
+____ -->
 
 ### L&apos;export vers les formats bureautiques {#isogeotooffice}
 

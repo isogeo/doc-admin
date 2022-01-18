@@ -18,7 +18,7 @@ ____
 
 ## Résultats dans le XML ISO 19139 (et donc le CSW)
 
-Pour les organismes tenus à conformité Lvec la directive INSPIRE, les liens des scénarios A et B sont générés dynamiquement. Par exemple, pour un service WFS :
+Pour les organismes tenus à conformité avec la directive INSPIRE, les liens des scénarios A et B sont générés dynamiquement. Par exemple, pour un service WFS :
 
 ```xml
 <MD_DigitalTransferOptions>
