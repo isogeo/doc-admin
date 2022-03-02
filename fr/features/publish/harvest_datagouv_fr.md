@@ -62,7 +62,7 @@ La fréquence de mise à jour est saisie selon cette correspondance :
 |      Tous les ans     |         Annuelle         |
 |     Tous les 2 ans    |         Biennale         |
 |     Tous les 3 ans    |         Triennale        |
-|     Tous les 5 ans    |       Quinquennalle      |
+|     Tous les 5 ans    |       Quinquennale      |
 |    Autre fréquence    |          Inconnu         |
 
 ## Téléchargement des données {#download_links}
@@ -128,7 +128,7 @@ _______
 
      ![Edition du DCAT](/assets/datagouv/DataGouv_dcat_edit.png)
 
-6. Tester le moissonnage en cliquant sur "Prévisualiser" et vérifier le nombre de jeu de donnée validé.
+6. Tester le moissonnage en cliquant sur "Prévisualiser" et vérifier le nombre de jeux de données validés.
 
      ![Prévisualisation des résultats du moissonnage](/assets/datagouv/DataGouv_dcat_previsualisation.png)
 Si une donnée semble ne pas être disponible, revérifier les [prérequis](#prerequisites) puis [contacter l'équipe data.gouv.fr](mailto:support@data.gouv.fr?subject=Problème%20de%20moissonnage%20DCAT%20Isogeo&cc=support@isogeo.fr).
