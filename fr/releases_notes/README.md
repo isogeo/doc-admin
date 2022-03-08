@@ -2,6 +2,21 @@
 
 <!-- timeline -->
 
+## 2.21.1-0 {#v221}
+
+Publiée en mars 2022 :
+
+### APP
+
+* ajout du nouveau type de fiche "Donnée tabulaire non géographique"
+  * onglets Identification, Histoire, Géographie, Qualité, Attributs, CGU, Ressources, Contacts
+  * ajout de formats spécifiques (XSLX, XLS, CSV, TSV, ODS) et prise en compte des formats existants
+  * compatibilité avec les outils existants (moteur de recherche, étiquetage, applications tierces, export tableur)
+
+<!-- /timeline -->
+
+<!-- timeline -->
+
 ## 2.21.0-0 {#v221}
 
 Publiée début décembre 2021 :
