@@ -10,8 +10,8 @@ _________
 
 | Définition       | Intitulé de la ressource, le titre doit permettre de distinguer la donnée de celles qui pourraient être similaires. |
 | :--------------- | :--------------------------------------  |
-| Indications      |  Le titre doit être unique et indiquer systématiquement : le phénomène géographique représenté,  le territoire couvert et l’année de la donnée si elle est versionnée ou millésimée.<br>Structure type : *Intitulé [(Ensemble)] - Territoire concerné  + emprise géographique [- date]*. |
-| Exemple          |  Communes - France Métropolitaine - 2014 |
+| Indications      |  Le titre doit être unique et indiquer systématiquement : le phénomène géographique représenté,  le territoire couvert et l’année de la donnée si elle est versionnée ou millésimée.<br>Structure type : *Intitulé [(Ensemble)] du Territoire concerné  + emprise géographique [- date]*. |
+| Exemple          |  Communes en France Métropolitaine - 2014 |
 | Exigence INSPIRE           | Obligatoire                    |
 | Edition par lot            | Oui, par écrasement            |
 | Scan                       | Non                            |
@@ -21,7 +21,7 @@ _________
 
 > Astuce : une métadonnée nouvellement produite par le Scan FME voit son titre prendre la valeur du nom de la donnée. Voir ci-dessous. 
 
--------
+_________
 
 ## Nom de la donnée {#name}
 
@@ -59,7 +59,7 @@ _________
 | :------------------ | :-------------------------------------------------------------------------------------------  |
 | Indications         | En ce qui concerne les données et les ressources, le chemin absolu depuis le scan est indiqué pour les fichiers et le schéma pour les tables en base de données. Le champ reste libre pour les fiches manuelles.<br />En ce qui concerne les services, il s&apos;agit d&apos;indiquer l&apos;URL du GetCapabilities du service concerné. |
 | Exemple             | \\\datastore\SIG\DATA\Vecteur\GeoFLA\2014\Communes\Métropole\COMMUNE.SHP |
-| Exigence INSPIRE    | Obligatoire         |
+| Exigence INSPIRE    | Non         |
 | Edition par lot     | Oui, par écrasement |
 | Scan                | Oui : <br />- Chemin absolu pour les fichiers,<br />- Nom du serveur + le nom de la base / l&apos;instance,<br />- Nom du fichier SDE pour les cartouches Esri |
 | Moteur de recherche | X                   |

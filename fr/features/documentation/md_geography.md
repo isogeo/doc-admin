@@ -27,18 +27,9 @@ ________
 Pour dessiner manuellement l’emprise de la donnée sur la carte :
 
 1.	Cliquer sur « Modifier » ;
-2.	Dans la carte, choisir l’outil « dessiner un polygone » ou « dessiner un rectangle » ;
-3.	Tracer l’emprise sur la carte **en respectant le sens anti-horaire (voir plus bas)** ;
-4.	Terminer votre saisie en double-cliquant sur la carte ou en recliquant sur le premier sommet du polygone ;
-5.	Enregistrer.
-
-**De l&apos;importance du sens de saisie :**
-
-En traçant un polygone, il est essentiel de se préoccuper de l&apos;ordre de saisie, en respectant la règle du sens anti-horaire (dite [Left Hand Rule](https://docs.microsoft.com/en-us/sql/relational-databases/spatial/spatial-data-types-overview)).
-
-En fait, saisir les points dans le sens horaire revient à saisir une emprise qui correspond à toute la Terre, à l&apos;exception du polygone lui-même.
-
-Plus d&apos;infos dans [cet article de blog technique](http://www.scalefocus.com/blog/using-spatial-data-in-sql-server-the-left-hand-rule/) (en angais).
+2.	Dans la carte, tracer l’emprise sur la carte ;
+3.	Terminer votre saisie en double-cliquant sur la carte ou en recliquant sur le premier sommet du polygone ;
+4.	Enregistrer.
 
 ______
 
@@ -85,7 +76,6 @@ ________
 | Moteur de recherche        | Filtre                 |
 | Fiche ressource            | Non                    |
 | Fiche service              | Non                    |
-
 
 > Astuce : si le système de coordonnées n&apos;est pas reconnu automatiquement par le scan, consultez [l&apos;annexe à ce sujet](/fr/appendices/scan_srsnotfound_fme_fix.html).
 

@@ -2,7 +2,7 @@
 
 L’onglet « Ressources » regroupe les liens vers les documents (cartes, statistiques, etc.) et les services web associés à la donnée (visualiser, télécharger, etc.).
 
-![Edition unitaire - Ressources](/assets/inv_edit_one_linkedResources.png "L&apos;édition unitaire - onglet Ressources")
+![Edition unitaire - Ressources](/assets/inv_edit_one_linkedResources_new.png "L&apos;édition unitaire - onglet Ressources")
 
 Dans Isogeo, on recense et documente les données sources, mais il est également possible de renseigner  les services (géographiques par exemple), documents ou téléchargements liés à chaque donnée. Cela permet d&apos;**enrichir énormément l&apos;expérience de consultation** des fiches et donc la valorisation du patrimoine.
 
@@ -20,12 +20,6 @@ Dans cette colonne, sont listées les associations dynamiques avec les couches d
 
 Pour voir comment associer des couches de services à une donnée, [consulter la page dédiée](../inventory/md_services/srv_association.html#depuis-la-fiche-du-jeu-de-donn%C3%A9es).
 
-## <i class="fa fa-globe"></i> Services cartographiques
-
-Dans cette colonne, sont listés les liens directs vers des couches de services géographiques **documentés manuellement** (c&apos;est-à-dire avec l&apos;identifiant de la couche).
-
-Cette méthode n&apos;est conseillée que dans le cas de la documentation de services géographiques inaccessibles publiquement (serveur géographique intranet par exemple).
-
 ## <i class="fa fa-archive"></i> Données
 
 Dans cette colonne, sont listés les liens donnant accès au téléchargement des données ou documents associés :
@@ -39,12 +33,14 @@ Pour plus d&apos;informations, consulter la page du [téléversement/télécharg
 ## <i class="fa fa-external-link"></i> Liens associés
 
 Dans cette colonne, sont listés deux types de liens :
+
 * les liens externes, pointant vers d&apos;autres sites web ou applications liés à la donnée documentée ;
 * les liens internes, pointant vers des ressources secondaires à associer. C&apos;est le mécanisme permettant la [finesse d&apos;affichage des liens selon les destinataires et les usages](https://help.isogeo.com/opencatalog/fr/appendices/oc_different_uses.html). ;
 
 ### Actions possibles par type de lien
 
 Légende :
+
 * X = possible
 * (X) = valeur par défaut
 
@@ -58,4 +54,3 @@ Légende :
 | Esri Map       |                | (X)           | X     |
 | Esri Tile      |                | (X)           | X     |
 | Donnée brute   | (X)            |               | X     |
-

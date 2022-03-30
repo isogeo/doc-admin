@@ -35,7 +35,7 @@ L’onglet « Avancé » permet de spécifier le format, la version du format et
 | :------------------ | :------------------------------------------------ |
 | Indications         | L&apos;encodage définit la façon dont sont codés les caractères et il est souvent lié au système d&apos;exploitation et aux logiciels utilisés. Par exemple, si vous créez vos données avec ArcGIS sur Windows, l&apos;encodage a (très) grandes chances d&apos;être *Windows-1252* qui est une déclinaison de l&apos;*[ISO 8859-1](https://fr.wikipedia.org/wiki/ISO_8859-1)*. |
 | Exemple             | UTF-8 |
-| Exigence INSPIRE    | Obligatoire                   |
+| Exigence INSPIRE    | Obligatoire, si l'encodage utilisé n'est pas basé sur du utf-8  |
 | Edition par lot     | Oui, par écrasement           |
 | Scan                | Non                           |
 | Moteur de recherche | Non                           |

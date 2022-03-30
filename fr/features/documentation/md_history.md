@@ -42,7 +42,7 @@ _________
 | :------------------------- | :---------------------------------------------------- |
 | Indications                | Cette période peut-être interprétée de deux manières :<br />- techniquement : dates de l’objet le plus ancien et du plus récent ;<br/>- thématiquement : par exemple la période de validité d’un Plan Local d’Urbanisme. |
 | Exemple                    | Du 02/04/2012 au 09/08/2017 |
-| Exigence INSPIRE           | Obligatoire         |
+| Exigence INSPIRE           | Obligatoire, si pas de dates de publication, de mise  à jour ou de création renseignées         |
 | Edition par lot            | Oui, par écrasement |
 | Scan                       | Non                 |
 | Moteur de recherche        | Non                 |
@@ -89,7 +89,7 @@ _________
 | :------------------------- | :------------------------------------------------ |
 | Indications                | Ces dates rendent compte de la vie de la donnée. Elles peuvent être de 3 types (correspondant à 3 couleurs) : <br /><br />- création (vert, unique, manuelle) : quand la donnée a été créée la toute première fois. Il ne s&apos;agit pas de la date de référence du phénomène décrit. Typiquement, si la série de données est une photographie prise le 15 mai 2000 d’un monument historique datant de 1920, la date de création de la ressource est le 15 mai 2000, pas 1920 ;<br /><br />- modification (bleu, multiple, auto et manuelle) : indique une révision de la donnée. Le scan crée automatiquement l&apos;événement si des modifications sont détectées sur la géométrie, les attributs ou la projection ;<br /><br />- publication (gris, multiple, manuelle) :  date à laquelle la ressource est disponible ou la date d’entrée en vigueur.|
 | Exemple                    | ![Onglet histoire - événements](/assets/inv_edit_one_history_events_512px.png "La gestion des événements de la vie d&apos;une donnée") |
-| Exigence INSPIRE           | Obligatoire si la période de validité n’est pas renseignée et fortement recommandé |
+| Exigence INSPIRE           | Obligatoire si la période de validité n’est pas renseignée |
 | Edition par lot            | Oui par incrémentation, pour les dates de modification et de publication |
 | Scan                       | Oui, pour les dates de modification |
 | Moteur de recherche        | Tri                                 |
