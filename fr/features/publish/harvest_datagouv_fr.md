@@ -9,7 +9,7 @@ Afin que vos données puissent être remontées sur data.gouv.fr, il faut qu'ell
 * avoir une licence ouverte et indiquer qu'il n'y a aucune limitation au sens INSPIRE (voir [gérer les CGUs](/features/documentation/md_cgu.html#conditions)) ;
 * être dans un catalogue partagé au serveur DCAT et à l'OpenCatalog
 * contenir au moins un lien de téléchargement opérationnel. Les liens de téléchargement reconnus sont :
-  * lien vers un service WFS ou EFS capable de délivrer la donnée au format GeoJSON en WGS84 (4326) : voir [affecter un service WFS](/features/publish/webservices.html#associer-un-flux-wfs) ;
+  * lien vers un service WFS capable de délivrer la donnée au format GeoJSON en WGS84 (4326) : voir [affecter un service WFS](/features/publish/webservices.html#associer-un-flux-wfs) ;
   * lien vers des fichiers de données vecteur (GeoJSON, Shapefile Zippé et Geopackage), raster (ECW, JPEG2000 et GeoTIFF) ou tabulaire (csv, xls et xlsx) : voir [affecter un lien de téléchargement](/features/publish/hosting.html) ;
 
 ## Liste des champs complétés {#fields}
@@ -71,8 +71,8 @@ Pour alimenter la fiche data.gouv en ressource téléchargeable, plusieurs types
 
 * lien vers un fichier téléversé dans Isogeo (hosted)
 * lien vers des fichiers de données vecteur (GeoJSON, Shapefile Zippé et Geopackage), raster (ECW, JPEG2000 et GeoTIFF) ou tabulaire (csv, xls et xlsx) en tant que lien de donnée avec l’action téléchargé
-* lien vers un service WFS ou EFS
-  * le nombre d’entités doit être inférieur au seuil du serveur carto (paramètre *MaxRecordCount=1000* par défaut pour ArcGIS Server, paramètre *nombre maximal d'objets* pour Geoserver)
+* lien vers un service WFS
+  * le nombre d’entités doit être inférieur au seuil du serveur carto (paramètre *MaxRecordCount=1000* par défaut pour ArcGIS Server, paramètre *nombre maximal d'objets* pour Geoserver etc..)
   * le système de coordonnées 4326 doit être disponible dans les capacités
   * le format d’export Geojson également
 
