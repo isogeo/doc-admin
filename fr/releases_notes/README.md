@@ -2,6 +2,23 @@
 
 <!-- timeline -->
 
+## 2.21.2.0 {#v221}
+
+Publiée en mai 2022 :
+
+### APP
+
+* le choix du nombre de fiches par page dans l'inventaire s'affiche désormais en haut, à côté des options de tri, et est passé à 100 fiches par page au maximum
+* le choix du tri est conservé d'une recherche à l'autre
+* filtrer sur "Aucun mot-clé" lors d'une recherche n'exclut plus les thématiques et les thèmes Inspire de la recherche
+* suppression du message d'avertissement à l'ouverture sur Microsoft Edge
+* suppression de la possibilité d'associer des couches à des fiches Ressources
+* suppression du champ cohérence topologique pour les fiches Rasters
+
+<!-- /timeline -->
+
+<!-- timeline -->
+
 ## 2.21.1-0 {#v221}
 
 Publiée en mars 2022 :
