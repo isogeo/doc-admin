@@ -2,6 +2,21 @@
 
 <!-- timeline -->
 
+## 2.21.3 {#v221}
+
+Publiée en juin 2022 :
+
+### APP
+
+* amélioration de la précision et de la pertinence des résultats de la recherche textuelle
+* passage de l'ordre de tri par défaut de date de création de la fiche à date de dernière modification de la fiche
+* ajout de filtres sur les contacts du carnet d'adresse et les contacts de référence lors de d'ajout d'un contact à une fiche de métadonnées
+* passage de 20 à 100 résultats proposés lors de la création d'association d'une couche de service et d'une donnée
+
+<!-- /timeline -->
+
+<!-- timeline -->
+
 ## 2.21.2.0 {#v221}
 
 Publiée en mai 2022 :
