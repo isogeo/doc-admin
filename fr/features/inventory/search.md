@@ -9,9 +9,10 @@ Lorsque l&apos;utilisateur entre une recherche libre (champ `contient`), le mote
 * Le titre ;
 * Le nom de la table ou du fichier (sans son extension) ;
 * Le résumé ;
-* Le format ;
+* L'emplacement de la ressource ou l'URL du service ;
 * Les mots-clés ;
-* Les thématiques INSPIRE.
+* Les thématiques INSPIRE ;
+* Les thématiques du groupe de travail.
 
 ### Pertinence <i class="fa fa-star fa-fw"></i>
 
@@ -19,25 +20,25 @@ Le moteur calcule un score de pertinence qui impacte l&apos;ordre d&apos;afficha
 
 ![Pertinence](/assets/search_relevance_prescription.png "Mise en évidence des mots recherchés dans l&apos;affichage des résultats")
 
-La pertinence est définie comme le nombre de fois où un mot de la recherche textuelle apparaît exactement dans les champs concernés. Le tri par pertinence est un tri basé sur cette valeur, calculée pour chaque recherche sur chaque métadonnée renvoyée. En cas d’égalité, les métadonnées sont triées selon la date de création des fiches de métadonnées (ordre stable).
+La pertinence est définie comme le nombre de fois où un mot de la recherche textuelle apparaît exactement dans les champs concernés. Le tri par pertinence est un tri basé sur cette valeur, calculée pour chaque recherche sur chaque métadonnée renvoyée. En cas d’égalité, les métadonnées sont triées selon la date de dernière modification des fiches de métadonnées (ordre stable).
 
 Le score de pertinence est la somme des pertinences pondérées de chaque champ :
 
 | Champ métadonnée | Pondération |
 | :--------------- | :---------: |
 | Titre            | 100%        |
-| Nom technique    | 83%         |
-| Résumé           | 10%         |
-| Format           | 20%         |
-| Mots-clés        | 50%         |
+| Nom technique    | 80%         |
+| Résumé           | 50%         |
+| Emplacement      | 50%         |
+| Mots-clés        | 100%        |
 
 ### Caractères spéciaux et casse
 
 Il est important de garder certaines caractéristiques à l’esprit quand on utilise la recherche textuelle :
 
 * le moteur  est insensible à la casse (minuscules / majuscules), donc &apos;ABC&apos; est équivalent à &apos;abc&apos; ;
-* il ne prend pas en compte les caractères spéciaux (points, accents…), donc &apos;àéù&apos; est équivalent à &apos;aeu&apos; ;
-* il est en revanche sensible à la casse singulier - pluriel. Il faut donc privilégier le pluriel dans la mesure du possible.
+* il ne prend pas en compte les caractères avec accents, donc &apos;àéù&apos; est équivalent à &apos;aeu&apos; ;
+* il ne prend pas en compte certains caractères spéciaux, en particuliers les crochets, les parenthèses ou les slash.
 
 ___________
 
