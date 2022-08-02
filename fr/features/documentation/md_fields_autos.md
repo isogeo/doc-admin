@@ -40,7 +40,7 @@ Pour vous faciliter la saisie des métadonnées, le scan remplit et maintient à
     * la date de dernière modification de la métadonnée (en bas à droite) ;
     * le/s catalogue/s indiqués comme devant être affectés en sortie de scan.
 
-* Dans la version **XML ISO 19139** de la fiche :
+Les champs suivants sont renseignés automaitquement dans la version **XML ISO 19139** de la fiche :
 
     * l’encodage des caractères de la métadonnée ;
     * l’identifiant unique ;
