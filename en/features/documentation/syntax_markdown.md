@@ -131,9 +131,9 @@ Note that you cannot specify the dimensions of the image. You must link to an im
 #### Syntax
 
 ```no-highlight
-![Alternate text](http://www.isogeo.com/assets/logo.png "Image title")
+![Alternate text](https://www.isogeo.com/images/logos/nav-logo-isogeo.svg "Image title")
 ```
 
 #### Result
 
-![Alternate text](http://www.isogeo.com/assets/logo.png "Image title")
+![Alternate text](https://www.isogeo.com/images/logos/nav-logo-isogeo.svg "Image title")

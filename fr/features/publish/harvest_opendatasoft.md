@@ -9,10 +9,13 @@ Opendatasoft est une entreprise éditrice de la plateforme logicielle éponyme d
 ## Prérequis {#requirements}
 
 - disposer d&apos;un groupe de travail Isogeo avec le module CSW activé
+- disposer de métadonnées de données avec des services WFS associés et accessibles publiquement
 - disposer d&apos;une organisation Opendatasoft avec :
   - le [moissonneur CSW](https://help.opendatasoft.com/platform/fr/publishing_data/02_harvesting_a_catalog/harvesters/csw.html) activé
   - les métadonnées [DCAT](https://help.opendatasoft.com/platform/fr/publishing_data/06_configuring_metadata/interoperability_metadata.html#dcat-metadata) et [INSPIRE](https://help.Opendatasoft.com/platform/fr/publishing_data/06_configuring_metadata/interoperability_metadata.html#inspire)
-- disposer de métadonnées de données avec des services WFS associés et accessibles publiquement
+  - la congiguration dans le back-office :
+    - des [licences](https://help.opendatasoft.com/platform/fr/configuring_domain/02_managing_legal_information/legals.html#licenses) pour le mapping avec les licences Isogeo
+    - des [thèmes](https://help.opendatasoft.com/platform/fr/customizing_look_and_feel/05_defining_dataset_themes/dataset_themes.html) pour le mapping avec les thématiques Inspire
 
 ## Processus global {#step-by-step}
 
@@ -38,7 +41,10 @@ La [documentation officielle d&apos;Opendatasoft fait référence](https://docs.
 
 ![](/assets/ods/csw2ods_harvester_create.png "Opendatasoft - Création du moissonneur CSW")
 
-3. Dans le formulaire, coller l&apos;URL du service CSW généré à l&apos;étape précédente et cliquer sur `Aperçu`puis sur `Enregistrer`.
+3. Dans le formulaire, coller l&apos;URL du service CSW généré à l&apos;étape précédente
+4. Indiquer les noms exacts des licences Isogeo et leurs correspondance avec les licences ODS
+5. Faire de même avec les thèmes Inspire
+cliquer sur `Aperçu`puis sur `Enregistrer`.
 
 ### Optionnellement {#options}
 

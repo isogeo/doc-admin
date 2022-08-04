@@ -34,6 +34,16 @@ Tous les champs sont éditables par lot, à l&apos;exception de :
 
 * si plusieurs types de ressources sont représentés dans la sélection (par exemple des données vecteurs avec des services), les champs disponibles pour l&apos;édition par lot seront limités au plus petit dénominateur commun.
 
+Globalement, le fonctionnement de l'édition par lot peut-être résumé selon le tableau suivant : 
+
+| **Type de champ** | **Exemple** | **Edition unitaire**                                      | **Edition par lot**                                                                                                                                                                                                                                                          |
+|:-----------------:|:-----------:|:---------------------------------------------------------:|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------:|
+| **Textuel**       | Titre       | Affichage du texte déjà saisi.                            | Ecrasement du texte sur toutes les fiches (même si du texte est déjà saisi).                                                                                                                                                                                                 |
+| **Numérique**     | Echelle     | Affichage du nombre déjà saisi.                           | Ecrasement du nombre sur toutes les fiches (même si un nombre est déjà saisi).                                                                                                                                                                                               |
+| **Date**          | Date        | Affichage de la date déjà saisi.                          | Ecrasement de la date sur toutes les fiches (même si une date est déjà saisie).                                                                                                                                                                                              |
+| **Associatif**    | Contact     | Affichage de la liste des sous-ressources déjà associées. | Ajout de la sous-ressource sur toutes les fiches même si elle est déjà associée.                                                                                                                                                                                             |
+| **Etiquette**     | Mot-clé     | Affichage des étiquettes déjà affectées.                  | Affichage des étiquettes déjà affectées sur toutes les fiches (✔), des étiquettes affectées sur au moins une fiche de la sélection (-) et des étiquettes non affectées (☐). Cocher ajoute l'étiquette à toute les fiches, décocher supprime l'étiquette à toutes les fiches. |
+
 ________
 
 ## L&apos;édition unitaire
