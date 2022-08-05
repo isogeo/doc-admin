@@ -27,10 +27,10 @@ Le score de pertinence est la somme des pertinences pondérées de chaque champ 
 | Champ métadonnée | Pondération |
 | :--------------- | :---------: |
 | Titre            | 100%        |
+| Mots-clés        | 100%        |
 | Nom technique    | 80%         |
 | Résumé           | 50%         |
 | Emplacement      | 50%         |
-| Mots-clés        | 100%        |
 
 ### Caractères spéciaux et casse
 
@@ -38,7 +38,7 @@ Il est important de garder certaines caractéristiques à l’esprit quand on ut
 
 * le moteur  est insensible à la casse (minuscules / majuscules), donc &apos;ABC&apos; est équivalent à &apos;abc&apos; ;
 * il ne prend pas en compte les caractères avec accents, donc &apos;àéù&apos; est équivalent à &apos;aeu&apos; ;
-* il ne prend pas en compte certains caractères spéciaux, en particuliers les crochets, les parenthèses ou les slash.
+* il ne prend pas en compte certains caractères spéciaux, en particuliers les crochets, les parenthèses ou les slashs.
 
 ___________
 
