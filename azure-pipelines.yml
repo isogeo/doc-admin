@@ -27,13 +27,6 @@ jobs:
     inputs:
       versionSpec: '12.18.2'
     displayName: 'Install Node.js 12.18.2'
- 
-  # - task: CacheBeta@0
-  #   continueOnError: true
-  #   inputs:
-  #     key: "isogeo-help-yarn-$(Agent.OS)"
-  #     path: $(yarn_cache_folder)
-  #   displayName: 'Cache Yarn packages'
 
   - script: yarn global add gitbook
     displayName: 'Install Gitbook'
@@ -63,7 +56,7 @@ jobs:
   - task: PublishPipelineArtifact@1
     displayName: 'Publish Artifact: $(project_name)'
     inputs:
-      path: $(System.DefaultWorkingDirectory)/dist
+      targetPath: $(System.DefaultWorkingDirectory)/dist
       artifact: '$(project_name)_$(Build.SourceBranchName)_$(Build.BuildId)'
 
 # PUBLISH TO QA
@@ -148,3 +141,10 @@ jobs:
       storage: 'prodisogeohelp'
       ContainerName: '$web'
       BlobPrefix: '$(project_name_clean)'
+
+  - task: AzureCLI@1
+    displayName: Purge endpoint cache
+    inputs:
+      azureSubscription: 'Isogeo - MPN(82885610-5841-4749-8d71-46f56b643ad2)'
+      scriptLocation: 'inlineScript'
+      inlineScript: 'az cdn endpoint purge --resource-group isogeo --profile-name isogeo-help --name prodisogeohelp --content-paths /admin/* --no-wait'
