@@ -13,7 +13,7 @@ Opendatasoft est une entreprise éditrice de la plateforme logicielle éponyme d
 - disposer d&apos;une organisation Opendatasoft avec :
   - le [moissonneur CSW](https://help.opendatasoft.com/platform/fr/publishing_data/02_harvesting_a_catalog/harvesters/csw.html) activé
   - les métadonnées [DCAT](https://help.opendatasoft.com/platform/fr/publishing_data/06_configuring_metadata/interoperability_metadata.html#dcat-metadata) et [INSPIRE](https://help.Opendatasoft.com/platform/fr/publishing_data/06_configuring_metadata/interoperability_metadata.html#inspire)
-  - la congiguration dans le back-office :
+  - la configuration dans le back-office :
     - des [licences](https://help.opendatasoft.com/platform/fr/configuring_domain/02_managing_legal_information/legals.html#licenses) pour le mapping avec les licences Isogeo
     - des [thèmes](https://help.opendatasoft.com/platform/fr/customizing_look_and_feel/05_defining_dataset_themes/dataset_themes.html) pour le mapping avec les thématiques Inspire
 
@@ -41,16 +41,20 @@ La [documentation officielle d&apos;Opendatasoft fait référence](https://docs.
 
 ![](/assets/ods/csw2ods_harvester_create.png "Opendatasoft - Création du moissonneur CSW")
 
-3. Dans le formulaire, coller l&apos;URL du service CSW généré à l&apos;étape précédente
-4. Indiquer les noms exacts des licences Isogeo et leurs correspondance avec les licences ODS
-5. Faire de même avec les thèmes Inspire
-cliquer sur `Aperçu`puis sur `Enregistrer`.
+3. Dans le formulaire, nommer le moissonneur puis coller l&apos;URL du service CSW généré à l&apos;étape précédente ;
+4. Indiquer les noms exacts des licences Isogeo et leurs correspondances avec les licences ODS (`Licence ouverte ETALAB 2.0` et `ODbL 1.0 - Open Database Licence` en général) ;
+5. Faire de même avec les thèmes Inspire en ajoutant le thésaurus `GEMET - INSPIRE themes, version 1.0` ;
+
+!["Correspondance entre les thèmes Inspires et les thèmes ODS"](/assets/ods/licenses_and_inspire_themes_mapping.png)
+
+6. Cliquer sur `Aperçu`puis sur `Enregistrer`.
 
 ### Optionnellement {#options}
 
 Il est possible de :
 
-- planifier le moissonnage : [voir la documentation Opendatasoft](https://docs.opendatasoft.com/fr/sourcing_and_processing_data/harvesting_a_catalog.html#scheduling).
-- surcharger les métadonnées pour assurer une traçabilité :
-
+* supprimer les jeux de données du Portail ODS autoamtiquement si le jeu de donnée source est supprimé du moissonnage ;
+* restreindre la visibilité des jeux de données nouvellement moissonnés ;
+* surcharger les métadonnées pour assurer une traçabilité :
 ![](/assets/ods/csw2ods_harvester_option_overload.png "Opendatasoft - Surcharger les métadonnées")
+* planifier le moissonnage : [voir la documentation Opendatasoft](https://docs.opendatasoft.com/fr/sourcing_and_processing_data/harvesting_a_catalog.html#scheduling) en paramétrant les traitements récurrents.
