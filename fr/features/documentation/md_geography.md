@@ -83,7 +83,7 @@ ________
 
 ## <i class="fa fa-search"></i> Echelle
 
-| Définition                 | Précision géographique de la ressource (surtout utilisée pour les données vecteur) |
+| Définition                 | Précision géographique de la ressource (surtout utilisée pour les données vecteur), à défaut, il s'agit de l'échelle optimum d'emploi de la donnée |
 | :------------------------- | :--------------------------------------------------------- |
 | Indications                | Numérique |
 | Exemple                    | 10000 |
