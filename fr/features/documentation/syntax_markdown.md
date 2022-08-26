@@ -112,7 +112,6 @@ Ou sans numéros :
 
 [Lien simple vers le site Isogeo avec une référence](http://www.isogeo.com "Site d&apos;Isogeo")
 
-[Chemin relatif vers un fichier par exemple](../Isogeo.Help_fr.pdf)
 ```
 
 #### Rendu

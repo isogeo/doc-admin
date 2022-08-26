@@ -20,7 +20,7 @@ ________
 | Fiche service              | Oui                           |
 
 
-> Astuce : si l&apos;enveloppe convexe n&apos;est pas reconnue automatiquement par le scan, consultez [l&apos;annexe à ce sujet](/fr/appendices/scan_srsnotfound_fme_fix.html).
+> Astuce : si l&apos;enveloppe convexe n&apos;est pas reconnue automatiquement par le scan, consultez [l&apos;annexe à ce sujet](/appendices/scan_srsnotfound_fme_fix.html).
 
 ### Saisie manuelle d&apos;une emprise géographique
 
@@ -68,7 +68,7 @@ ________
 
 | Définition                 | Nom et code EPSG du système de coordonnées géographique ou projeté |
 | :------------------------- | :--------------------------------------------------------- |
-| Indications                | Si le système n&apos;a pas été reconnu automatiquement, choisir une valeur dans la liste disponible, personnalisable par l&apos;administrateur ([voir chapitre dédié](/fr/features/admin/srs.html)) |
+| Indications                | Si le système n&apos;a pas été reconnu automatiquement, choisir une valeur dans la liste disponible, personnalisable par l&apos;administrateur ([voir chapitre dédié](/features/admin/srs.html)) |
 | Exemple                    | Code EPSG : 2154<br />Nom : RGF93 / Lambert-93  |
 | Exigence INSPIRE           | Obligatoire            |
 | Edition par lot            | Oui, par écrasement    |
@@ -77,7 +77,7 @@ ________
 | Fiche ressource            | Non                    |
 | Fiche service              | Non                    |
 
-> Astuce : si le système de coordonnées n&apos;est pas reconnu automatiquement par le scan, consultez [l&apos;annexe à ce sujet](/fr/appendices/scan_srsnotfound_fme_fix.html).
+> NB : si le système de coordonnées n&apos;est pas reconnu automatiquement par le scan, consultez [l&apos;annexe à ce sujet](/appendices/scan_srsnotfound_fme_fix.md).
 
 ________
 

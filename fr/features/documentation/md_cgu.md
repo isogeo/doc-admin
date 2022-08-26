@@ -10,7 +10,7 @@ _________
 
 | Définition          | Règles encadrant l&apos;accès et l&apos;usage des ressources |
 | :------------------ | :------------------------------------------------ |
-| Indications         | Préciser les conditions applicables à l’accès et à l’utilisation des données et des services de données géographiques, et, le cas échéant, les frais correspondants.<br />Ces informations sont regroupées dans une licence qu&apos;elle soit standard (ODbL, IGN Service public, etc.) ou spécifique (convention d&apos;échanges, charte d&apos;utilisation...).<br />La liste des licences disponibles est modifiable par l&apos;administrateur (voir [le chapitre dédié](/fr/features/admin/licenses.html)).|
+| Indications         | Préciser les conditions applicables à l’accès et à l’utilisation des données et des services de données géographiques, et, le cas échéant, les frais correspondants.<br />Ces informations sont regroupées dans une licence qu&apos;elle soit standard (ODbL, IGN Service public, etc.) ou spécifique (convention d&apos;échanges, charte d&apos;utilisation...).<br />La liste des licences disponibles est modifiable par l&apos;administrateur (voir [le chapitre dédié](/features/admin/licenses.html)).|
 | Exemple             | Convention d&apos;échange - prestataires/partenaires<br />**Convention destinée à encadrer l&apos;échange temporaire ou pérenne de données géographiques auprès des prestataires ou partenaires.** |
 | Exigence INSPIRE    | Obligatoire                   |
 | Edition par lot     | Oui, par incrémentation       |

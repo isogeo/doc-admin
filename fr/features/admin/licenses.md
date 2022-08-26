@@ -37,7 +37,7 @@ Toutes les licences ajoutées sont disponibles dans l’onglet `CGU` > `Conditio
 
 Tenant compte du fait que les textes des licences sont rarement lus, une bonne pratique consiste à mettre des pictogrames résumant les principales conditions.
 
-Par exemple, pour indiquer une licence de type libre, impliquant la citation de la source mais empêchant la réutilisation commerciale ou la modification, on peut avoir recours à la [syntaxe markdown](/fr/features/documentation/syntax_markdown.html) :
+Par exemple, pour indiquer une licence de type libre, impliquant la citation de la source mais empêchant la réutilisation commerciale ou la modification, on peut avoir recours à la [syntaxe markdown](/features/documentation/syntax_markdown.html) :
 
 ### Syntaxe
 
