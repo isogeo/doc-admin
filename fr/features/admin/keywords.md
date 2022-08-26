@@ -44,7 +44,7 @@ ____
 
 En tant qu&apos;administrateur, il est possible de restreindre la liste des mots-clés disponible lors de l&apos;étiquetage pour guider les éditeurs dans le choix de leurs mots-clés. Cela permet d&apos;assurer une certaine cohérence et homogénéité dans le thésaurus du groupe de travail.
 
-### Si l’administrateur a restreint la liste des mots-clés disponibles
+### Si l’administrateur a restreint la liste des mots-clés disponibles {#restrict_keywords}
 
 Quand la liste est active :
 
