@@ -1,8 +1,8 @@
-# L&apos;édition des métadonnées
+# L'édition des métadonnées
 
 ## Éditer des métadonnées par lot
 
-Toujours dans le but de faciliter la saisie, vous pouvez saisir plusieurs fiches en même temps. Par exemple, si 5 couches ont le même historique, il vous suffit de les sélectionner et de renseigner une seule fois l’historique pour ces 5 données. Cette fonctionnalité est disponible pour un certain nombre d&apos;onglets.
+Toujours dans le but de faciliter la saisie, vous pouvez saisir plusieurs fiches en même temps. Par exemple, si 5 couches ont le même historique, il vous suffit de les sélectionner et de renseigner une seule fois l’historique pour ces 5 données. Cette fonctionnalité est disponible pour un certain nombre d'onglets.
 
 La démarche à suivre est la suivante :
 
@@ -10,29 +10,29 @@ La démarche à suivre est la suivante :
 2.	Cliquez sur le bouton « Editer »,
 3.	Renseignez les champs que vous souhaitez puis cliquez sur "Enregistrer".
 
-![L&apos;édition par lot](/assets/inv_edit_batch_demo_history_comment.gif "Démonstration de l&apos;édition par lot")
+![L'édition par lot](/assets/inv_edit_batch_demo_history_comment.gif "Démonstration de l'édition par lot")
 
 > Astuce : vérifiez bien votre sélection avant de vous lancer dans une édition par lot (voir les précisions plus bas).
 
 ### Champs éditables par lot
 
-Tous les champs sont éditables par lot, à l&apos;exception de :
+Tous les champs sont éditables par lot, à l'exception de :
 
-* l&apos;emplacement ;
+* l'emplacement ;
 * la date de création de la donnée ;
 * les attributs.
 
 ### Fonctionnement et précisions
 
-*  l&apos;édition par lot n&apos;affiche pas les informations déjà renseignées dans les fiches sélectionnées. C&apos;est pourquoi l&apos;onglet géographie affiche toujours une carte vide, même si les enveloppes convexes (emprises) existent déjà dans les fiches sélectionnées.
+*  l'édition par lot n'affiche pas les informations déjà renseignées dans les fiches sélectionnées. C'est pourquoi l'onglet géographie affiche toujours une carte vide, même si les enveloppes convexes (emprises) existent déjà dans les fiches sélectionnées.
 
-* l&apos;édition par lot écrase les valeurs existantes des champs uniques et ajoute les valeurs indiquées pour les champs multiples. Par exemple, si vous indiquez un résumé et une ressource associée, il écrasera les résumés éventuellement renseignés auparavant mais ajoutera la ressource associée aux précédentes.
+* l'édition par lot écrase les valeurs existantes des champs uniques et ajoute les valeurs indiquées pour les champs multiples. Par exemple, si vous indiquez un résumé et une ressource associée, il écrasera les résumés éventuellement renseignés auparavant mais ajoutera la ressource associée aux précédentes.
 
-* l&apos;édition par lot ne s&apos;appliquera qu&apos;aux champs modifiés. Par exemple, si vous n&apos;ajoutez que le résumé, les autres champs seront laissés en l&apos;état.
+* l'édition par lot ne s'appliquera qu'aux champs modifiés. Par exemple, si vous n'ajoutez que le résumé, les autres champs seront laissés en l'état.
 
-* si une fiche de la sélection ne vous appartient pas, vous ne pourrez pas réaliser l&apos;édition par lot. Pensez à filtrer sur votre groupe de travail.
+* si une fiche de la sélection ne vous appartient pas, vous ne pourrez pas réaliser l'édition par lot. Pensez à filtrer sur votre groupe de travail.
 
-* si plusieurs types de ressources sont représentés dans la sélection (par exemple des données vecteurs avec des services), les champs disponibles pour l&apos;édition par lot seront limités au plus petit dénominateur commun.
+* si plusieurs types de ressources sont représentés dans la sélection (par exemple des données vecteurs avec des services), les champs disponibles pour l'édition par lot seront limités au plus petit dénominateur commun.
 
 Globalement, le fonctionnement de l'édition par lot peut-être résumé selon le tableau suivant : 
 
@@ -46,7 +46,7 @@ Globalement, le fonctionnement de l'édition par lot peut-être résumé selon l
 
 ________
 
-## L&apos;édition unitaire
+## L'édition unitaire
 
 ### Pas à pas
 
@@ -64,7 +64,7 @@ ________
 
 ## Supprimer des métadonnées
 
-La suppression d&apos;une métadonnée se fait à 2 niveaux :
+La suppression d'une métadonnée se fait à 2 niveaux :
 * au niveau de votre inventaire ;
 * dans la base du Scan FME. Si vous scannez la donnée une nouvelle fois, il faudra saisir les métadonnées de nouveau.
 
@@ -85,7 +85,7 @@ Pour supprimer plusieurs métadonnées par lot :
 Pour supprimer une fiche en particulier :
 
 1. Ouvrir la fiche dans le navigateur ;
-2. Cliquer sur l&apos;icône en forme de poubelle en haut à droite <button class="metadata-delete btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button> ;
+2. Cliquer sur l'icône en forme de poubelle en haut à droite <button class="metadata-delete btn btn-danger btn-sm"><i class="fa fa-trash-o"></i></button> ;
 3. Confirmer la suppression.
 
-![La suppression d&apos;une métadonnée dans Isogeo](/assets/inv_edit_one_delete.png "Démonstration de la suppression unitaire")
+![La suppression d'une métadonnée dans Isogeo](/assets/inv_edit_one_delete.png "Démonstration de la suppression unitaire")

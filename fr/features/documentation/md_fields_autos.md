@@ -24,7 +24,7 @@ Pour vous faciliter la saisie des métadonnées, le scan remplit et maintient à
   * le nom de chaque attribut ;
   * le type de chaque attibut ;
   * l'alias ou le commentaire en base de chaque attribut ;
-  * la langue de chaque attribut, saisie selon celle paramétrée dans le groupe de travail.
+  * la langue de chaque attribut, saisie selon celle paramétrée dans le groupe de travail (pour les données scannées uniquement).
 
 * Dans l’onglet **Avancé** :
 
