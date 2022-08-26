@@ -30,7 +30,7 @@ Cette étape est le fonctionnement décrit dans la section : [Valoriser : diffus
 
 Si plusieurs catalogues sont partagés, il est recommandé d&apos;appliquer la manipulation décrite permettant d&apos;obtenir une seule URL pour tous les catalogues : [un service, des catalogues](https://help.isogeo.com/fr/features/publish/csw_server.html#un-service-des-catalogues).
 
-Au terme de cette étape, vous disposez d&apos;une URL (dite GetCapabilities) du service CSW du type : <https://services.api.isogeo.com/ows/s/22ececf244e14be293a7a1e58619289e/8WuwB5H9ysC-XztiBS93s-DmDNdW0?service=CSW&version=2.0.2&request=GetCapabilities.>
+Au terme de cette étape, vous disposez d&apos;une URL (dite GetCapabilities) du service CSW du type : https://services.api.isogeo.com/ows/s/8d491301f61249139918e3710cd39eb7/c/355b870869204c39b0fb9deb44469f2a/wak8OBU2hQX6F6rtIe3fWiRCvzFH0?service=CSW&version=2.0.2&request=GetCapabilities
 
 ### Moissonner le service CSW dans Opendatasoft {#harvester}
 
