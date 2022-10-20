@@ -9,7 +9,7 @@ Opendatasoft est une entreprise éditrice de la plateforme logicielle éponyme d
 ## Prérequis {#requirements}
 
 - disposer d&apos;un groupe de travail Isogeo avec le module CSW activé
-- disposer de métadonnées de données avec des services WFS associés et accessibles publiquement
+- disposer de métadonnées de données avec des services WFS associés et accessibles publiquement (compatibilité validée pour les services WFS ArcGIS Server et Geoserver)
 - disposer d&apos;une organisation Opendatasoft avec :
   - le [moissonneur CSW](https://help.opendatasoft.com/platform/fr/publishing_data/02_harvesting_a_catalog/harvesters/csw.html) activé
   - les métadonnées [DCAT](https://help.opendatasoft.com/platform/fr/publishing_data/06_configuring_metadata/interoperability_metadata.html#dcat-metadata) et [INSPIRE](https://help.Opendatasoft.com/platform/fr/publishing_data/06_configuring_metadata/interoperability_metadata.html#inspire)
@@ -17,11 +17,25 @@ Opendatasoft est une entreprise éditrice de la plateforme logicielle éponyme d
     - des [licences](https://help.opendatasoft.com/platform/fr/configuring_domain/02_managing_legal_information/legals.html#licenses) pour le mapping avec les licences Isogeo
     - des [thèmes](https://help.opendatasoft.com/platform/fr/customizing_look_and_feel/05_defining_dataset_themes/dataset_themes.html) pour le mapping avec les thématiques Inspire
 
+## Correspondance des champs 
+
+| Champ Isogeo                     | Champ Opendatasoft | Remarques                                                                                                        |
+|----------------------------------|--------------------|------------------------------------------------------------------------------------------------------------------|
+| Titre                            | Titre              |                                                                                                                  |
+| Résumé                           | Description        | sans interprétation du markdown                                                                                  |
+| Mots-clés                        | Mots-clés          |                                                                                                                  |
+| Thèmes Inspire                   | Thèmes             | récupérés en indiquant le thésaurus GEMET - INSPIRE themes, version 1.0 et la correspondance avec les thèmes ODS |
+| Thématiques du groupe de travail |                    | non récupérées                                                                                                   |
+| Licence                          | Licence            | récupérée en indiquant la correspondance avec les licences ODS                                                    |
+| Contact                          | Contacts (INSPIRE) | rôle et email récupérés                                                                                          |
+| Propriétaire                     | Producteur         |                                                                                                                  |
+
+
 ## Processus global {#step-by-step}
 
 Voici les grandes étapes :
 
-1. Créer un partage Isogeo à l&apos;applicatikon CSW et récupérer l&apos;URL du service CSW ;
+1. Créer un partage Isogeo à l&apos;application CSW et récupérer l&apos;URL du service CSW ;
 2. Ajouter un [moissonneur CSW](https://docs.opendatasoft.com/fr/sourcing_and_processing_data/harvesters/csw.html) dans le _Back Office_ Opendatasoft
 
 ### Créer un service CSW dans Isogeo {#csw-srv}
@@ -38,22 +52,18 @@ La [documentation officielle d&apos;Opendatasoft fait référence](https://docs.
 
 1. Dans le `Back Office`, se rendre dans la gestion des moissonneurs (une url du type : <https://monorganisation.opendatasoft.com/backoffice/catalog/harvesters/)> et cliquer sur le bouton `+ Ajouter un moissonneur`.
 2. Créer un moissonneur en sélectionnant le type `CSW` :
-
 ![](/assets/ods/csw2ods_harvester_create.png "Opendatasoft - Création du moissonneur CSW")
-
 3. Dans le formulaire, nommer le moissonneur puis coller l&apos;URL du service CSW généré à l&apos;étape précédente ;
 4. Indiquer les noms exacts des licences Isogeo et leurs correspondances avec les licences ODS (`Licence ouverte ETALAB 2.0` et `ODbL 1.0 - Open Database Licence` en général) ;
 5. Faire de même avec les thèmes Inspire en ajoutant le thésaurus `GEMET - INSPIRE themes, version 1.0` ;
-
 !["Correspondance entre les thèmes Inspires et les thèmes ODS"](/assets/ods/licenses_and_inspire_themes_mapping.png)
-
 6. Cliquer sur `Aperçu`puis sur `Enregistrer`.
 
 ### Optionnellement {#options}
 
 Il est possible de :
 
-* supprimer les jeux de données du Portail ODS autoamtiquement si le jeu de donnée source est supprimé du moissonnage ;
+* supprimer les jeux de données du Portail ODS automatiquement si le jeu de donnée source est supprimé du moissonnage ;
 * restreindre la visibilité des jeux de données nouvellement moissonnés ;
 * surcharger les métadonnées pour assurer une traçabilité :
 ![](/assets/ods/csw2ods_harvester_option_overload.png "Opendatasoft - Surcharger les métadonnées")
