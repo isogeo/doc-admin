@@ -8,9 +8,13 @@ Opendatasoft est une entreprise éditrice de la plateforme logicielle éponyme d
 
 ## Prérequis {#requirements}
 
-- disposer d'un groupe de travail Isogeo avec le module CSW activé
-- disposer de métadonnées de données **vecteurs et rasters uniquement** car les données tabulaires non-géographiques ne sont pas prises en charge par le CSW
-- disposer de services WFS associés et accessibles publiquement pour récupérer automatiquement les données vecteurs (compatibilité validée pour les services WFS ArcGIS Server et Geoserver)
+### Isogeo
+
+- disposer d'un groupe de travail Isogeo avec le module CSW activé ;
+- disposer de métadonnées de données **vecteurs et rasters** partagées à l'application CSW (les données tabulaires non-géographiques ne sont pas prises en charge par le CSW) ;
+- disposer de services WFS accessibles publiquement, associés aux métadonnées vecteurs et partagés à l'application CSW pour automatiser la récupération des données par Opendatasoft (compatibilité validée pour les services WFS ArcGIS Server et Geoserver).
+
+### Opendatasoft
 - disposer d'une organisation Opendatasoft avec :
   - le [moissonneur CSW](https://help.opendatasoft.com/platform/fr/publishing_data/02_harvesting_a_catalog/harvesters/csw.html) activé
   - les métadonnées [DCAT](https://help.opendatasoft.com/platform/fr/publishing_data/06_configuring_metadata/interoperability_metadata.html#dcat-metadata) et [INSPIRE](https://help.Opendatasoft.com/platform/fr/publishing_data/06_configuring_metadata/interoperability_metadata.html#inspire)
@@ -20,18 +24,20 @@ Opendatasoft est une entreprise éditrice de la plateforme logicielle éponyme d
 
 ## Correspondance des champs 
 
+Les champs suivants sont moissonnés par Opendatasoft :
+
 | Champ Isogeo                     | Champ Opendatasoft | Remarques                                                                                                        |
 |----------------------------------|--------------------|------------------------------------------------------------------------------------------------------------------|
 | Titre                            | Titre              |                                                                                                                  |
 | Résumé                           | Description        | sans interprétation du markdown                                                                                  |
 | Mots-clés                        | Mots-clés          |                                                                                                                  |
 | Thèmes Inspire                   | Thèmes             | récupérés en indiquant le thésaurus GEMET - INSPIRE themes, version 1.0 et la correspondance avec les thèmes ODS |
-| Thématiques du groupe de travail |                    | non récupérées                                                                                                   |
 | Licence                          | Licence            | récupérée en indiquant la correspondance avec les licences ODS                                                   |
 | Contact                          | Contacts (INSPIRE) | rôle et email récupérés                                                                                          |
 | Propriétaire                     | Producteur         |                                                                                                                  |
 | Emprise                          | Latitudes/longitudes | Longitude Ouest, Longitude Est, Latitude Sud, Latitude Nord du rectangle englobant (boundingbox) en WGS 84     |
 
+> NB : les thématiques du groupe de travail ne sont pas remontées par le moissonneur CSW car elles ne correspondent pas à un thésaurus officiel de la norme ISO.
 
 ## Processus global {#step-by-step}
 
