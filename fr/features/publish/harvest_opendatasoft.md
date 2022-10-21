@@ -56,7 +56,7 @@ Au terme de cette étape, vous disposez d'une URL (dite GetCapabilities) du serv
 
 ### Moissonner le service CSW dans Opendatasoft {#harvester}
 
-La [documentation officielle d'Opendatasoft fait référence](https://docs.opendatasoft.com/fr/sourcing_and_processing_data/harvesting_a_catalog.html), ce paragraphe n'étant destiné qu'à accompagner au mieux l'administrateur Isogeo. 
+La [documentation officielle d'Opendatasoft fait office de référence](https://docs.opendatasoft.com/fr/sourcing_and_processing_data/harvesting_a_catalog.html), ce paragraphe n'étant destiné qu'à accompagner au mieux l'administrateur Isogeo. 
 
 1. Dans le `Back Office`, se rendre dans la gestion des moissonneurs (une url du type : <https://monorganisation.opendatasoft.com/backoffice/catalog/harvesters/)> et cliquer sur le bouton `+ Ajouter un moissonneur`.
 2. Créer un moissonneur en sélectionnant le type `CSW` :
@@ -64,7 +64,7 @@ La [documentation officielle d'Opendatasoft fait référence](https://docs.opend
 3. Dans le formulaire, nommer le moissonneur puis coller l'URL du service CSW généré à l'étape précédente ;
 4. Indiquer les noms exacts des licences Isogeo et leurs correspondances avec les licences ODS (`Licence ouverte ETALAB 2.0` et `ODbL 1.0 - Open Database Licence` en général) ;
 5. Faire de même avec les thèmes Inspire en ajoutant le thésaurus `GEMET - INSPIRE themes, version 1.0` ;
-!["Correspondance entre les thèmes Inspires et les thèmes ODS"](/assets/ods/licenses_and_inspire_themes_mapping.png)
+!["Correspondance entre les thèmes Inspire et les thèmes ODS"](/assets/ods/licenses_and_inspire_themes_mapping.png)
 6. Cliquer sur `Aperçu`puis sur `Enregistrer`.
 
 ### Optionnellement {#options}
