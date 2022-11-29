@@ -2,6 +2,24 @@
 
 <!-- timeline -->
 
+## 2.22.0 {#v222}
+
+Publiée en novembre 2022 :
+
+### APP
+
+* première version _On Premises_
+* mise à jour des spécifications et des licences
+* ajout des formats 10.9 et 10.9.1 des services Esri
+* affichage du nombre de fois où les thématiques, catalogues ou thématiques Inspire sont affectés dans l'onglet d'étiquetage
+* correction d'un bug lors de la suppression d'attributs
+* meilleure gestion des fuseaux horaires
+* correction de bugs mineurs
+
+<!-- /timeline -->
+
+<!-- timeline -->
+
 ## 2.21.3 {#v221}
 
 Publiée en juin 2022 :
