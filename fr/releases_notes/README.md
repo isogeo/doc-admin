@@ -2,6 +2,25 @@
 
 <!-- timeline -->
 
+## 2.22.3 {#v222}
+
+Publiée en mars 2023 :
+
+### APP
+
+* prise en compte des tables de service
+* ajout de la possibilité d'associer une couche/table de service à plusieurs fiches de métadonnées à la fois
+* ajout de la possibilité d'associer plusieurs couches/tables d'un même service à une même fiche de métadonnée
+* modification de l'affichage des couches/tables de service dans l'onglet Ressources
+
+### API
+
+* ajout du paramètre `targetDataset` à la requête de création d'une couche de service pour l'automatisation des associations
+
+<!-- /timeline -->
+
+<!-- timeline -->
+
 ## 2.22.0 {#v222}
 
 Publiée en novembre 2022 :
