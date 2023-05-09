@@ -2,6 +2,19 @@
 
 <!-- timeline -->
 
+## 2.22.5 {#v222}
+
+Publiée en mai 2023 :
+
+### API
+
+* prise en compte des groupes de couches de service
+* amélioration des performances de la route de création d'une couche avec le paramètre `targetDataset` renseigné
+
+<!-- /timeline -->
+
+<!-- timeline -->
+
 ## 2.22.3 {#v222}
 
 Publiée en mars 2023 :
