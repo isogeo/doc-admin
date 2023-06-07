@@ -2,6 +2,20 @@
 
 <!-- timeline -->
 
+## 2.22.6 {#v222}
+
+Publiée en juin 2023 :
+
+### API
+
+* ajout de l'authentification Okta SSO multi-tenant
+* ajout d'une route de recherche des mots-clés par leur texte
+* ajout des dernières versions des formats de données Oracle et PostGIS
+
+<!-- /timeline -->
+
+<!-- timeline -->
+
 ## 2.22.5 {#v222}
 
 Publiée en mai 2023 :
