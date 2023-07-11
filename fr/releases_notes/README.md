@@ -2,7 +2,19 @@
 
 <!-- timeline -->
 
-## 2.22.6 {#v222}
+## 2.22.7 {#v2227}
+
+Publiée en juillet 2023 :
+
+### APP
+
+* correctifs divers
+
+<!-- /timeline -->
+
+<!-- timeline -->
+
+## 2.22.6 {#v2226}
 
 Publiée en juin 2023 :
 
@@ -16,7 +28,7 @@ Publiée en juin 2023 :
 
 <!-- timeline -->
 
-## 2.22.5 {#v222}
+## 2.22.5 {#v2225}
 
 Publiée en mai 2023 :
 
