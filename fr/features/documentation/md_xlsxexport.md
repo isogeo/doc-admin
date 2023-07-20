@@ -27,6 +27,8 @@ Pour exporter :
 
 Attention, il ne faut pas fermer le module pendant le traitement des données. Le téléchargement se déclanchera automatiquement une fois les fichiers prêts à être téléchargés.
 
+**Note** : Il est possible d'obtenir un timeout en tentant d'exporter plus de 500 fiches. Pour remédier à cela, affinez votre recherche et relancer l'export.
+
 ## Paramètrage
 
 ### Formats

@@ -4,11 +4,11 @@ La plateforme Isogeo repose sur la puissance de son API qui permet de développe
 
 ## Les principes
 
-Respectant l&apos;architecture [REST](https://fr.wikipedia.org/wiki/Representational_State_Transfer),  l&apos;API publique est dédiée à la lecture des catalogues et ouverte à quiconque souhaite développer et possède un accès à Isogeo. Elle permet d&apos;exécuter des requêtes et d&apos;en retranscrire les résultats dans une interface originale. L&apos;idée est d&apos;élargir les horizons des usages des catalogues de données constitués dans Isogeo.
+Respectant l&apos;architecture [REST](https://fr.wikipedia.org/wiki/Representational_State_Transfer),  l&apos;API publique (ou API ouverte) est dédiée à la lecture des catalogues et ouverte à quiconque souhaite développer et possède un accès à Isogeo. Elle permet d&apos;exécuter des requêtes et d&apos;en retranscrire les résultats dans une interface originale. L&apos;idée est d&apos;élargir les horizons des usages des catalogues de données constitués dans Isogeo.
 
 Les premières applications à utiliser l&apos;API Isogeo ne sont autres que APP et OpenCatalog !
 
-Une application tierce peut être développée par Isogeo, un intégrateur, un partenaire ou un développeur indépendant.
+Une application tierce peut être développée par Isogeo, un intégrateur, un partenaire.
 
 ____
 
@@ -80,7 +80,7 @@ Avec Isogeo, vous valorisez déjà votre ETL FME en capitalisant sur son intéro
 
 ____ -->
 
-### L&apos;export vers les formats bureautiques {#isogeotooffice}
+<!--### L&apos;export vers les formats bureautiques {#isogeotooffice}
 
 Pour les besoins d&apos;une consultation hors-ligne, une sauvegarde ou une impression dans un modèle graphique propre à un organisme, un petit programme a été développé permettant d&apos;exporter par lot les métadonnées dans des formats bureautiques :
 
@@ -126,4 +126,4 @@ Des exemples de code dans différents langages sont librement disponibles en lig
 
 | [![](/assets/logos/nodejs.png)](https://bitbucket.org/snippets/isogeo/L8rKz) | [![](/assets/logos/python.png)](https://pypi.python.org/pypi/isogeo-pysdk) | [![](/assets/logos/php.png)](https://github.com/pixup/isogeo-api-PHP-samples) |
 | :--: | :--: | :--: |
-| [JavaScript<br \>(nodeJS)](https://bitbucket.org/snippets/isogeo/L8rKz) | [Python](https://pypi.python.org/pypi/isogeo-pysdk) | [PHP](https://github.com/pixup/isogeo-api-PHP-samples) |
+| [JavaScript<br \>(nodeJS)](https://bitbucket.org/snippets/isogeo/L8rKz) | [Python](https://pypi.python.org/pypi/isogeo-pysdk) | [PHP](https://github.com/pixup/isogeo-api-PHP-samples) | -->
