@@ -4,11 +4,11 @@ La plateforme Isogeo repose sur la puissance de son API qui permet de développe
 
 ## Les principes
 
-Respectant l&apos;architecture [REST](https://fr.wikipedia.org/wiki/Representational_State_Transfer),  l&apos;API publique (ou API ouverte) est dédiée à la lecture des catalogues et ouverte à quiconque souhaite développer et possède un accès à Isogeo. Elle permet d&apos;exécuter des requêtes et d&apos;en retranscrire les résultats dans une interface originale. L&apos;idée est d&apos;élargir les horizons des usages des catalogues de données constitués dans Isogeo.
+Respectant l&apos;architecture [REST](https://fr.wikipedia.org/wiki/Representational_State_Transfer),  l&apos;API publique est dédiée à la lecture des catalogues et ouverte à quiconque souhaite développer et possède une clé de connexion permettant le développement autour de l'API Isogeo. Elle permet d&apos;exécuter des requêtes et d&apos;en retranscrire les résultats dans une interface originale. L&apos;idée est d&apos;élargir les horizons des usages des catalogues de données constitués dans Isogeo.
 
 Les premières applications à utiliser l&apos;API Isogeo ne sont autres que APP et OpenCatalog !
 
-Une application tierce peut être développée par Isogeo, un intégrateur, un partenaire.
+Une application tierce peut être développée par Isogeo, un intégrateur ou un partenaire.
 
 ____
 
