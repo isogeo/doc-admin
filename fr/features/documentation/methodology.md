@@ -28,17 +28,17 @@ Plus concrètement, voici comment nous vous conseillons de procéder pour avance
 
 Le groupe de travail sur les métadonnées, composé de membres du Groupe de liaison et du Groupe de Travail GéoSource du CNIG, animé par M. Léobet et dont le secrétariat a été assuré par E. Roos, a créé des guides de recommandations nationales concernant les métadonnées INSPIRE des séries et ensembles de séries de données. Ils sont destinés à ceux qui doivent saisir les métadonnées, et permettent de répondre aux obligations imposées par la règlementation.
 
-* [Guide de saisie pour les données - Version complète - v1.1.1 de juillet 2014](http://cnig.gouv.fr/wp-content/uploads/2014/07/Guide-de-saisie-des-%C3%A9l%C3%A9ments-de-m%C3%A9tadonn%C3%A9es-INSPIRE-v1.1.1.pdf) (pdf de 705 Ko)
-* [Guide de saisie pour les données - Version allégée - v1.1 de décembre 2013](http://cnig.gouv.fr/wp-content/uploads/2014/01/Guide-de-saisie-des-%C3%A9l%C3%A9ments-de-m%C3%A9tadonn%C3%A9es-INSPIRE-v1.1-final-light.pdf) (pdf de 396 Ko)
-* [Guide de gestion des catalogues de métadonnées INSPIRE - version 1.0 - août 2012](http://inspire.ign.fr/sites/all/files/2012-08-20_guide-catalogues-md-inspire-v1.0.pdf) (pdf de 249 Ko)
+* [Guide de saisie pour les données - Version complète - v2.0 de décembre 2019](https://cnig.gouv.fr/IMG/pdf/guide-de-saisie-des-elements-de-metadonnees-inspire-v2.0-1.pdf)
+* [Guide de saisie pour les données - Version allégée - v2.0 de décembre 2019](https://cnig.gouv.fr/IMG/pdf/guide-de-saisie-des-elements-de-metadonnees-inspire-v2.0-allege.pdf)
+* [Guide de gestion des catalogues de métadonnées INSPIRE - version 1.0 - août 2012](https://cnig.gouv.fr/IMG/documents_wordpress/2014/01/2012-08-20_guide-catalogues-md-inspire-v1.0.pdf)
 * [Guide de saisie sur le Wiki de GeoRezo](http://georezo.net/wiki/main/donnees/inspire/aide_a_la_saisie_des_metadonnees_inspire) (html)
 
 En tant que membre actif de ce groupe de travail, Isogeo vous accompagne dans ce travail de saisie.
 
 ### Exemples de métadonnées
 
-Pour que vous puissiez avoir des modèles de fiches complètes, nous avons documenté les données du référentiel administratif GeoFLA :
+Pour que vous puissiez avoir des modèles de fiches complètes, nous avons documenté certaines données de la BD Topo:
 
-* les [départements de France métropolitaine en 2014](http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0/m/754209f115c040a48d43ffc262b16500) ;
-* les [communes de France métropolitaine en 2014](http://open.isogeo.com/s/344d51c3edfb435daf9d98d948fa207e/Sbd1w7PgqE8n7LDq3azRqNhiMHZf0/m/fa079cbb63cd4099bf249e572dbf4563).
+* les [bâtiments](https://open.isogeo.com/s/8d491301f61249139918e3710cd39eb7/wak8OBU2hQX6F6rtIe3fWiRCvzFH0/r/3b721c3e473d471cb5818615a06644bb?) ;
+* les [arrondissements](https://open.isogeo.com/s/8d491301f61249139918e3710cd39eb7/wak8OBU2hQX6F6rtIe3fWiRCvzFH0/r/e16944e613de401faa693f524a91a962?).
 
