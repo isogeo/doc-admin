@@ -11,7 +11,7 @@ Isogeo distingue trois profils utilisateurs :
 
 ## Inviter un nouvel utilisateur
 
-Pour inviter un nouvel utilisateur :
+Pour inviter un nouvel utilisateur en version :
 
 1. Aller dans [le menu dédié](https://app.isogeo.com/admin/users) ;
 2. Cliquer sur [l&apos;onglet `+ Inviter`](https://app.isogeo.com/admin/users/invitations/new) ;
@@ -19,11 +19,15 @@ Pour inviter un nouvel utilisateur :
 4. Choisir le niveau d&apos;accès ;
 5. Cliquer sur `Inviter`.
 
-L&apos;utilisateur reçoit alors un courriel d&apos;invitation ([voir le chapitre dédié](../../start/signup.html)).
+L&apos;utilisateur reçoit alors un courriel d&apos;invitation ([voir le chapitre dédié](../../start/signup.html)). 
 
-> L’invitation est valable 7 jours et un administrateur peut la révoquer à tout moment.
+> L’invitation est valable 7 jours et un administrateur peut la révoquer à tout moment. 
 
-![Nouvel utilisateur](/assets/adm_users_add.gif "Inviter un nouvel utilisateur")
+![Inviter un nouvel utilisateur en version SaaS](/assets/adm_users_add.gif)
+
+> En version *On premises*, aucun mail n'est envoyé automatiquement, il faut envoyer par ses propres moyens le lien d'activation généré à l'utilisateur. 
+
+![Inviter un nouvel utilisateur en version On premises](/assets/adm_users_add_onprem.PNG)
 
 ## Droits de chaque profil
 

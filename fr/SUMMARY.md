@@ -3,7 +3,7 @@
 ## Généralités
 
 * [Introduction](README.md)
-* [Prérequis techniques](introduction/requirements_app_oc.md)
+* [Prérequis techniques](introduction/requirements.md)
 * [Présentation générale](introduction/README.md)
 * [Recenser](introduction/inventorize.md)
 * [Documenter](introduction/documentation.md)

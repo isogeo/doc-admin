@@ -1,32 +1,30 @@
-# S&apos;inscrire à Isogeo
+# S'inscrire à Isogeo
 
 Isogeo est une application web professionnelle. Chaque utilisateur y accède via un identifiant et un mot de passe sécurisé qu’il définit lors de son inscription.
 
 Pour s’inscrire à Isogeo il faut y être invité par un administrateur. En effet, dès lors qu’un administrateur a accès à la plateforme il peut inviter autant d’utilisateurs qu’il le souhaite à rejoindre son groupe d’utilisateurs.
 
-Voici les étapes qui suivent l&apos;invitation d&apos;un utilisateur :
+Voici les étapes qui suivent l'invitation d'un utilisateur :
 
-1.	Vous venez de recevoir un mail vous invitant à rejoindre un groupe d’utilisateur sur Isogeo :
+1.	En version *SaaS*, vous recevez un mail vous invitant à rejoindre un groupe d’utilisateur sur Isogeo (verifier le courier indésirable). :
 
-    ![Courrier d&apos;invitation](/assets/Isogeo_invitation_mail.png "Vous êtes invités sur Isogeo - Checkez le courrier indésirable")
+    ![Courrier d'invitation](/assets/Isogeo_invitation_mail.png "Vous êtes invités sur Isogeo - Vérifiez le courrier indésirable")
 
-2.	Cliquer sur le lien contenu dans le mail, la page ci-dessous s’ouvre dans votre navigateur :
+> NB : En version *On premises*, c'est votre administrateur qui vous fourni directement le lien d'activation.
 
-    ![Connexion / inscription](/assets/Isogeo_invitation_join.png "Connectez-vous ou créez votre compte")
+2.	Cliquez sur le lien, la page ci-dessous s’ouvre dans votre navigateur :
 
-3.	Cliquez sur le lien « Créer un compte ! » la page suivante s’affiche :
+    ![Création de compte](/assets/ID_creation_compte.png "Formulaire d'inscription à Isogeo")
 
-    ![Création de compte](/assets/ID_creation_compte.png "Formulaire d&apos;inscription à Isogeo")
+3.	Indiquer votre Prénom et NOM  ;
 
-4.	Indiquer votre Prénom et Nom ;
+4.	Indiquer votre mail ;
 
-5.	Indiquer votre mail ;
+5.	Créer votre mot de passe. La seule contrainte à respecter est la longueur minimale de 6 caractères. ;
 
-6.	Créer votre mot de passe. La seule contrainte à respecter est la longueur minimale de 6 caractères. ;
+6.	Cliquer sur `Valider`, la page suivante s’affiche ;
 
-7.	Cliquer sur `Valider`, la page suivante s’affiche ;
-
-8.	Cliquer sur `Accepter`, vous êtes inscrit à Isogeo !
+7.	Cliquer sur `Accepter`, vous êtes inscrit à Isogeo !
 
     ![Rejoindre le groupe qui vous a invité](/assets/Isogeo_invitation_accept.png "Bienvenue sur le groupe qui vous a invité")
 
