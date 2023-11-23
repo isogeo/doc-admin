@@ -75,6 +75,7 @@
     * [Géocatalogue national](features/publish/harvest_geocatalogue_fr.md)
     * [Opendatasoft](features/publish/harvest_opendatasoft.md)
 * [Utiliser vos catalogues dans d&apos;autres interfaces](features/publish/usages_api.md)
+* [Connecteur JMap/Isogeo](features/publish/jmap_connector.md)
 
 ## Administrer
 
