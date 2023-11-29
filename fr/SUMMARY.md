@@ -103,6 +103,5 @@
 * [Services - Configurer les WFS en JSONP](appendices/wfs_jsonp.md)
 * [RGPD](appendices/gdpr.md)
 * [Glossaire](GLOSSARY.md)
-* [Architecture technique et politique de développement](appendices/technical_details_dev_policy.md)
 * [Notes des versions](releases_notes/README.md)
 * [Table des figures](pictures.md)

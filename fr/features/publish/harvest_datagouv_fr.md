@@ -12,6 +12,8 @@ Afin que vos données puissent être remontées sur data.gouv.fr, il faut qu'ell
   * lien vers un service WFS capable de délivrer la donnée au format GeoJSON en WGS84 (4326) : voir [affecter un service WFS](/features/publish/webservices.html#associer-un-flux-wfs) ;
   * lien vers des fichiers de données vecteur (GeoJSON, Shapefile Zippé et Geopackage), raster (ECW, JPEG2000 et GeoTIFF) ou tabulaire (csv, xls et xlsx) : voir [affecter un lien de téléchargement](/features/publish/hosting.html) ;
 
+> En mode on-premises, l'URL du DCAT doit être rendue accessible publiquement.
+
 ## Liste des champs complétés {#fields}
 
 | Champs data.gouv.fr        | Champs Isogeo                   |

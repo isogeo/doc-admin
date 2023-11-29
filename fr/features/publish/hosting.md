@@ -1,8 +1,8 @@
 # Lier les données à télécharger
 
-Toujours en vue d&apos;enrichir l&apos;expérience des utilisateurs de vos catalogues, par exemple pour répondre à des besoins métiers ou dans le cadre d&apos;une démarche d&apos;ouverture des données (Open Data), il est possible de permettre le téléchargement de données ou de documents directement depuis la fiche de métadonnées.
+Toujours en vue d'enrichir l'expérience des utilisateurs de vos catalogues, par exemple pour répondre à des besoins métiers ou dans le cadre d'une démarche d'ouverture des données (Open Data), il est possible de permettre le téléchargement de données ou de documents directement depuis la fiche de métadonnées.
 
-Plusieurs options s&apos;offrent à vous :
+Plusieurs options s'offrent à vous :
 
 * héberger directement la donnée sur Isogeo ;
 * indiquer un lien direct vers la donnée hébergée par ailleurs ;
@@ -28,8 +28,10 @@ Remarques :
 * Pour des raisons de bande passante, il n’est possible de téléverser que des fichiers inférieurs à 10 Mo
 * Pour des raisons de sécurité, les scripts et exécutables ne sont pas autorisés.
 
+> En mode On-premises, les données sont stockées directement dans le système de fichier de l'API selon l'arborescence et la nomenclature suivante : Api.V10.Web/Storage/workgroup_{uid}/ressource_{uid}/data/{uid}.bin
+
 ## Lier vers des données hébergées par ailleurs {#external_data}
 
-Si vous disposez d&apos;un hébergement en ligne par ailleurs, vous pouvez évidemment indiquer les liens vers les données et documents concernées.
+Si vous disposez d'un hébergement en ligne par ailleurs, vous pouvez évidemment indiquer les liens vers les données et documents concernées.
 
 ![Lien externe](/assets/inv_edit_one_resource_download_link.png "Lier vers un hébergement externe")

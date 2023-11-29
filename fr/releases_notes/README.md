@@ -14,8 +14,6 @@ Publiée en juillet 2023 :
 
 <!-- timeline -->
 
-<!-- timeline -->
-
 ## 2.22.7 {#v2227}
 
 Publiée en juillet 2023 :
