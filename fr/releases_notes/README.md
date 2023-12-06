@@ -2,6 +2,19 @@
 
 <!-- timeline -->
 
+## 2.22.11 {#v22211}
+
+Publiée en décembre 2023 :
+
+### APP
+
+* Résolution du changement du sens de tri dans l'inventaire, lors de la sélection d'un filtre ;
+* Résolution de la disparition de la recherche des partages dans l'onglet administration ;
+* Possibilité d'ajouter une directive Inspire à une fiche de service.
+
+<!-- /timeline -->
+<!-- timeline -->
+
 ## 2.22.9 {#v2229}
 
 Publiée en juillet 2023 :
