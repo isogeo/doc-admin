@@ -3,7 +3,7 @@
 Dans Isogeo, il est possible d'affecter 3 types d'étiquettes aux fiches de métadonnées :
 
 * les catalogues, orientés usages, métiers, thématiques ;
-* les thématiques INSPIRE pour les données destinées à être en conformité avec la directive européenne ;
+* les thématiques INSPIRE pour les données ou services destinés à être en conformité avec la directive européenne ;
 * les thématiques, spécifiques à chaque groupe, permettant un classement plus personnalisable ;
 * les mots-clés descriptifs.
 
