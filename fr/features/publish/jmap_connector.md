@@ -44,7 +44,7 @@ Voici les étapes à suivre afin de paramétrer le connecteur JMap/isogeo dans I
 
 ![Configurer l'extension Isogeo dans JMap Admin](/assets/Connecteur_JMap/Configuration_isogeo_extension.png)
 
-8. (facultatif) Cocher la case `Activer le planificateur` pour planifier le lancement de la synchronisation ;
+8. (facultatif) Cocher la case `Activer le planificateur` pour planifier le lancement de la synchronisation.
 
 ![Planifier le lancement des synchronisation](/assets/Connecteur_JMap/Configuration_tache_planifiee.png)
 
