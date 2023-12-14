@@ -60,7 +60,7 @@ Vous pourrez ainsi visualiser vos fiches de métadonnées Isogeo dans JMap NG et
 
 ![Visualisation d'une fiche de l'OpenCatalog dans JMap NG](/assets/Connecteur_JMap/Fiche_OC_JMapNG.png)
 
-![Visualisation d'une fiche de l'OpenCatalog dans JMap Pro](/assets/Connecteur_JMap/Fiche_OC_JMapPro.JPG)
+![Visualisation d'une fiche de l'OpenCatalog dans JMap Pro](/assets/Connecteur_JMap/Fiche_OC_JMapPro.png)
 
 ### Vérification des logs {#logs}
 
