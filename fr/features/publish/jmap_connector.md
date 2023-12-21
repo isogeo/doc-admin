@@ -52,7 +52,7 @@ Voici les étapes à suivre afin de paramétrer le connecteur JMap/isogeo dans I
 
 Une fois le paramétrage réalisé, il suffira de cliquer sur `Synchroniser` pour lancer la synchronisation.
 
-Une fois la synchronisation terminée vous pourrez constater  que le champ `Métadonnées` est renseigné avec l'URL de la fiche de l'OpenCatalog correspondante. En effet, cela sera le cas pour toutes pour les datasources pour lesquelles une correspondance a été établie avec une fiche de l'OpenCatalog.
+Une fois la synchronisation terminée vous pourrez constater  que le champ `Métadonnées` est renseigné avec l'URL de la fiche de l'OpenCatalog correspondante. En effet, cela sera le cas pour toutes les datasources pour lesquelles une correspondance a été établie avec une fiche de l'OpenCatalog.
 
 ![URL de métadonnées renseigné automatiquement par le connecteur JMap/Isogeo](/assets/Connecteur_JMap/URL_OC_dans_jmap_admin.png)
 
