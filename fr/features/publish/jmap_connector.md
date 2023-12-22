@@ -40,7 +40,7 @@ Voici les étapes à suivre afin de paramétrer le connecteur JMap/isogeo dans I
 4. L'URL de l'OpenCatalog : URL de l'OpenCatalog généré côté Isogeo inclue dans le partage du connecteur ;  
 5. ID du client : identifiant contenu dans le fichier JSON d'authentification fourni par Isogeo ;
 6. Sercret du client : mot de passe du client contenu dans le fichier JSON d'authentification fourni par Isogeo ;
-7. URL de base de JMap Admin pour la journalisation ;
+7. URL de base de JMap Admin pour la journalisation.
 
 ![Configurer l'extension Isogeo dans JMap Admin](/assets/Connecteur_JMap/Configuration_isogeo_extension.png)
 
