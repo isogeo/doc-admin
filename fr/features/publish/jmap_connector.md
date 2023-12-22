@@ -28,7 +28,7 @@ Voici les étapes à suivre afin de paramétrer le connecteur JMap/isogeo dans I
 3. Sélectionner les applications `OpenCatalog` et `connecteur JMap/Isogeo` ;
 4. Sélectionner le ou les catalogues à publier ;
 5. Nommer le partage ;
-6. `Enregistrer` ;
+6. `Enregistrer`.
 
 ![Configurer le partage du connecteur JMap/Isogeo](/assets/Connecteur_JMap/Configuration_partage.png)
 
@@ -40,11 +40,13 @@ Voici les étapes à suivre afin de paramétrer le connecteur JMap/isogeo dans I
 4. L'URL de l'OpenCatalog : URL de l'OpenCatalog généré côté Isogeo inclue dans le partage du connecteur ;  
 5. ID du client : identifiant contenu dans le fichier JSON d'authentification fourni par Isogeo ;
 6. Sercret du client : mot de passe du client contenu dans le fichier JSON d'authentification fourni par Isogeo ;
-7. URL de base de JMap Admin pour la journalisation.
+7. URL de base de JMap Admin pour la journalisation ;
 
 ![Configurer l'extension Isogeo dans JMap Admin](/assets/Connecteur_JMap/Configuration_isogeo_extension.png)
 
-8. (facultatif) Cocher la case `Activer le planificateur` pour planifier le lancement de la synchronisation.
+#### Planification de la Synchronisation {#configuration_jmap_planification}
+
+Il vous suffira de cocher la case `Activer le planificateur` pour planifier le lancement de la synchronisation. Cette étape est optionnelle.
 
 ![Planifier le lancement des synchronisation](/assets/Connecteur_JMap/Configuration_tache_planifiee.png)
 
