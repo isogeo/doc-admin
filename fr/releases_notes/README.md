@@ -2,6 +2,18 @@
 
 <!-- timeline -->
 
+## 2.22.12 {#v22212}
+
+Publiée en janvier 2024 :
+
+### APP
+
+* Ajout de l'exportation des attributs des fiches de métadonnées au format CSV.
+
+<!-- /timeline -->
+
+<!-- timeline -->
+
 ## 2.22.11 {#v22211}
 
 Publiée en décembre 2023 :
@@ -13,6 +25,7 @@ Publiée en décembre 2023 :
 * Possibilité d'ajouter une directive Inspire à une fiche de service.
 
 <!-- /timeline -->
+
 <!-- timeline -->
 
 ## 2.22.9 {#v2229}
