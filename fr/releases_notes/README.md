@@ -2,6 +2,27 @@
 
 <!-- timeline -->
 
+## 2.22.13 {#v22213}
+
+Publiée en février 2024 :
+
+### APP
+
+* Ajout de la personnalisation du fond de carte (XYZ) dans l'onglet administration.
+
+### API
+
+* Récupération et envoi des informations du fond de carte dans la base de données.
+
+### Applications tierces
+
+* OpenCatalog :
+  * Le fond de carte s'adapte à celui renseigné dans l'interface d'administration d'APP
+
+<!-- /timeline -->
+
+<!-- timeline -->
+
 ## 2.22.12 {#v22212}
 
 Publiée en janvier 2024 :
