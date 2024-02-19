@@ -28,3 +28,25 @@ Pour faciliter la saisie de la langue des attributs, il est possible de l&apos;a
 * texte,
 * varchar,
 * varchar2.
+
+## Export des attributs en CSV
+
+En mode visualisation, il est possible d'exporter les attributs au format CSV. Le délimiteur pour séparer les champs peut-être précisé lors de l'export entre : 
+* Virgule ,
+* Point-virgule ;
+* Pipe |
+* Délimiteur personnalisé (un caractère entré manuellement dans un champs textuel)
+
+A savoir: Si le caractère choisi pour délimiter les champs est présent dans l'un des champs, il sera supprimé du champs en question.
+
+Le fichier exporté est alors un fichier CSV codé en UTF-8, les chaînes de caractères sont délimitées par des guillements `"`, et comportant 7 colonnes :
+
+| Définition          | Liste des champs de la table attributaire |
+| :------------------ | :---------------------------------------- |
+| name                | Information contenue dans le champs "Nom"|
+| alias               | Information contenue dans le champs "Alias" |
+| comment             | Information contenue dans le champs "Alias", dans le cas d'une donnée venant d'une base de données|
+| dataType            | Information contenue dans le champs "Type" |
+| description         | Information contenue dans le champs "Description" |
+| language            | Information contenue dans le champs "Langue" |
+| _id                 | Identifiant Isogeo de la donnée |
