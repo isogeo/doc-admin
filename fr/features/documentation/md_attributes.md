@@ -35,18 +35,18 @@ En mode visualisation, il est possible d'exporter les attributs au format CSV. L
 * Virgule ,
 * Point-virgule ;
 * Pipe |
-* Délimiteur personnalisé (un caractère entré manuellement dans un champs textuel)
+* Délimiteur personnalisé (un caractère entré manuellement dans un champ textuel)
 
-A savoir: Si le caractère choisi pour délimiter les champs est présent dans l'un des champs, il sera supprimé du champs en question.
+A savoir: Si le caractère choisi pour délimiter les champs est présent dans l'un des champs, il sera supprimé du champ en question.
 
 Le fichier exporté est alors un fichier CSV codé en UTF-8, les chaînes de caractères sont délimitées par des guillements `"`, et comportant 7 colonnes :
 
 | Définition          | Liste des champs de la table attributaire |
 | :------------------ | :---------------------------------------- |
-| name                | Information contenue dans le champs "Nom"|
-| alias               | Information contenue dans le champs "Alias" |
-| comment             | Information contenue dans le champs "Alias", dans le cas d'une donnée venant d'une base de données|
-| dataType            | Information contenue dans le champs "Type" |
-| description         | Information contenue dans le champs "Description" |
-| language            | Information contenue dans le champs "Langue" |
+| name                | Information contenue dans le champ "Nom"|
+| alias               | Information contenue dans le champ "Alias" |
+| comment             | Information contenue dans le champ "Alias", dans le cas d'une donnée venant d'une base de données|
+| dataType            | Information contenue dans le champ "Type" |
+| description         | Information contenue dans le champ "Description" |
+| language            | Information contenue dans le champ "Langue" |
 | _id                 | Identifiant Isogeo de la donnée |
