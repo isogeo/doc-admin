@@ -29,4 +29,4 @@ Si vous souhaitez intégrer au mieux les OpenCatalogs dans la charte graphique d
 
 ## Fond de carte des applications
 
-Si vous souhaitez personnaliser les fonds de carte de votre groupe de travail, il est possible de renseigner l'URL d'un service générateur de tuiles raster XYZ. Dans le cas ou l'URL provient de vos services, il sera peut-être nécessaire d'autoriser l'URL de la plateforme pour éviter les problèmes de CORS.
+Si vous souhaitez personnaliser les fonds de carte de votre groupe de travail, il est possible de renseigner l'URL d'un service générateur de tuiles raster XYZ. Dans le cas où l'URL provient de vos services, il peut être nécessaire d'autoriser l'URL de la plateforme pour éviter les problèmes de CORS.
