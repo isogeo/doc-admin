@@ -26,3 +26,7 @@ La langue d’une métadonnée doit être spécifiée dans l’onglet `Métadonn
 Si vous souhaitez intégrer au mieux les OpenCatalogs dans la charte graphique de votre organisme, vous pouvez sélectionner la couleur principale du thème.
 
 ![Thème OpenCatalogs](/assets/adm_global_OC_ThemeSwitcher.gif "Configurer la coleur principale des OpenCatalogs")
+
+## Fond de carte des applications
+
+Si vous souhaitez personnaliser les fonds de carte de votre groupe de travail, il est possible de renseigner l'URL d'un service générateur de tuiles raster XYZ. Dans le cas où l'URL provient de vos services, il peut être nécessaire d'autoriser l'URL de la plateforme pour éviter les problèmes de CORS.
