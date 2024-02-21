@@ -64,8 +64,13 @@ La [documentation officielle d'Opendatasoft fait office de référence](https://
 3. Dans le formulaire, nommer le moissonneur puis coller l'URL du service CSW généré à l'étape précédente ;
 4. Indiquer les noms exacts des licences Isogeo et leurs correspondances avec les licences ODS (`Licence ouverte ETALAB 2.0` et `ODbL 1.0 - Open Database Licence` en général) ;
 5. Faire de même avec les thèmes Inspire en ajoutant le thésaurus `GEMET - INSPIRE themes, version 1.0` ;
+
 ![Correspondance entre les thèmes Inspire et les thèmes ODS](/assets/ods/licenses_and_inspire_themes_mapping.png)
-6. Cliquer sur `Aperçu`puis sur `Enregistrer`.
+
+6. Cliquer sur `Aperçu`puis sur `Enregistrer` ;
+7. Se rendre dans la gestion des moissonneurs pour lancer le moissonnage du CSW Isogeo.
+
+![Correspondance entre les thèmes Inspire et les thèmes ODS](/assets/ods/launch_harvest.png)
 
 ### Optionnellement {#options}
 
