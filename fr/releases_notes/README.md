@@ -2,6 +2,15 @@
 
 <!-- timeline -->
 
+## 2.22.14 {#v22214}
+
+Publiée en février 2024 :
+
+### APP
+
+* Ajout de l'import en CSV des attributs des fiches de métadonnées.
+
+
 ## 2.22.13 {#v22213}
 
 Publiée en février 2024 :

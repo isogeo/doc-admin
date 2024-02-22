@@ -39,7 +39,7 @@ En mode visualisation, il est possible d'exporter les attributs au format CSV. L
 
 A savoir: Si le caractère choisi pour délimiter les champs est présent dans l'un des champs, il sera supprimé du champ en question.
 
-Le fichier exporté est alors un fichier CSV codé en UTF-8, les chaînes de caractères sont délimitées par des guillements `"`, et comportant 7 colonnes :
+Le fichier exporté est alors un fichier CSV codé en UTF-8, dont les chaînes de caractères sont délimitées par des guillements `"`, et comporte 7 colonnes :
 
 | Définition          | Liste des champs de la table attributaire |
 | :------------------ | :---------------------------------------- |
