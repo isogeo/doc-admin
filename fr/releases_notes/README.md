@@ -2,6 +2,18 @@
 
 <!-- timeline -->
 
+## 2.22.15 {#v22215}
+
+Publiée en février 2024 :
+
+### APP
+
+* Génération de l'url vers le module Ckan dans l'interface des partages.
+
+<!-- /timeline -->
+
+<!-- timeline -->
+
 ## 2.22.14 {#v22214}
 
 Publiée en février 2024 :
@@ -10,7 +22,9 @@ Publiée en février 2024 :
 
 * Ajout de l'import en CSV des attributs des fiches de métadonnées.
 
+<!-- /timeline -->
 
+<!-- timeline -->
 ## 2.22.13 {#v22213}
 
 Publiée en février 2024 :
