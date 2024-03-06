@@ -40,7 +40,13 @@ La description est formatée de la manière suivante :
 
 **Attributs** : tableau contenant le nom du champ, le type et l'alias (ou le commentaire en base).
 
-## Liste de champs "ressources" complétés {#ressources_fields_list}
+## Liste de champs complétés automatiquement dans les ressources de la fiche de Données Québec {#ressources_fields_list}
+
+Lorsque vous éditer une ressource sur Données Québec, vous avez la possibilité d'ajouter des informations concernant cette dernière. 
+
+![Modification de la ressources manuellement](/assets/CKAN/modify_ressources.png)
+
+Voici la liste de champs d'une ressource que le CKAN Isogeo modifie automatiquement :
 
 | Champs Données Québec                                                   | Choix complété automatiquement                                    |
 |:-----------------------------------------------------------------------:|:-----------------------------------------------------------------:|
@@ -59,8 +65,6 @@ La fréquence de mise à jour est saisie selon cette correspondance :
 
 |         Isogeo      |    Données Québec        |
 |:-------------------:|:------------------------:|
-| Temps réel          | À compléter manuellement |
-| Irrégulier          | À compléter manuellement |
 | Toutes les heures   | Horaire                  |
 | Tous les jours      | Quotidien                |
 | Toutes les semaines | Hebdomadaire             |
@@ -70,7 +74,8 @@ La fréquence de mise à jour est saisie selon cette correspondance :
 | Tous les ans        | Annuel                   |
 | Tous les 2 ans      | Biennal                  |
 | Tous les 3 ans      | Triennal                 |
-| Archives            | À compléter manuellement |
+
+Les valeurs "Temps réel", "Irrégulier" et "Archives sont à compléter manuellement car elles n'ont pas d'équivalent dans Isogeo.
 
 ## Liens des services, de téléchargement des données et des cartes interactives {#download_links}
 
