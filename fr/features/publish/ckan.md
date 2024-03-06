@@ -45,11 +45,11 @@ La description est formatée de la manière suivante :
 
 ## Liste de champs complétés automatiquement dans les ressources de la fiche de Données Québec {#ressources_fields_list}
 
-Lorsque vous éditer une ressource sur Données Québec, vous avez la possibilité d'ajouter des informations concernant cette dernière. 
+Lorsque vous éditer une ressource sur Données Québec, vous avez la possibilité d'ajouter des informations concernant cette dernière (cf. capture).
 
 ![Modification de la ressources manuellement](/assets/CKAN/modify_ressources.png)
 
-Voici la liste de champs d'une ressource que le CKAN Isogeo modifie automatiquement :
+Voici la liste de champs d'une ressource que le CKAN Isogeo renseigne automatiquement :
 
 | Champs Données Québec                                                   | Choix complété automatiquement                                    |
 |:-----------------------------------------------------------------------:|:-----------------------------------------------------------------:|
