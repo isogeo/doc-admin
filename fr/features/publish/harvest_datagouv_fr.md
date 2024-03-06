@@ -2,7 +2,7 @@
 
 Suite à l'[arrêt de geo.data.gouv.fr](https://www.data.gouv.fr/fr/posts/extinction-de-geo-data-gouv-fr/), un serveur DCAT compatible avec le modèle du [moissonneur DCAT](https://doc.data.gouv.fr/moissonnage/dcat/) de [data.gouv.fr](https://www.data.gouv.fr) a été développé grâce à un financement tripartite du département du [Loiret](https://www.loiret.fr/), du [Calvados](https://www.calvados.fr/accueil.html) et de la ville de [Bayonne](https://www.bayonne.fr/).
 
-## Pré-requis {#prerequisites}
+## Prérequis {#prerequisites}
 
 Afin que vos données puissent être remontées sur data.gouv.fr, il faut qu'elles remplissent plusieurs critères :
 
@@ -10,7 +10,7 @@ Afin que vos données puissent être remontées sur data.gouv.fr, il faut qu'ell
 * être dans un catalogue partagé au serveur DCAT et à l'OpenCatalog
 * contenir au moins un lien de téléchargement opérationnel. Les liens de téléchargement reconnus sont :
   * lien vers un service WFS capable de délivrer la donnée au format GeoJSON en WGS84 (4326) : voir [affecter un service WFS](/features/publish/webservices.html#associer-un-flux-wfs) ;
-  * lien vers des fichiers de données vecteur (GeoJSON, Shapefile Zippé et Geopackage), raster (ECW, JPEG2000 et GeoTIFF) ou tabulaire (csv, xls et xlsx) : voir [affecter un lien de téléchargement](/features/publish/hosting.html) ;
+  * lien vers des fichiers de données vecteur (GeoJSON, Shapefile Zippé et Geopackage), raster (ECW, JPEG2000 et GeoTIFF) ou tabulaire (csv, xls et xlsx) : voir [affecter un lien de téléchargement](/features/publish/hosting.html).
 
 > En mode on-premises, l'URL du DCAT doit être rendue accessible publiquement.
 
@@ -72,7 +72,7 @@ La fréquence de mise à jour est saisie selon cette correspondance :
 Pour alimenter la fiche data.gouv en ressource téléchargeable, plusieurs types de liens peuvent être remontés.
 
 * lien vers un fichier téléversé dans Isogeo (hosted)
-* lien vers des fichiers de données vecteur (GeoJSON, Shapefile Zippé et Geopackage), raster (ECW, JPEG2000 et GeoTIFF) ou tabulaire (csv, xls et xlsx) en tant que lien de donnée avec l’action téléchargé
+* lien vers des fichiers de données vecteur (GeoJSON, Shapefile Zippé et Geopackage), raster (ECW, JPEG2000 et GeoTIFF) ou tabulaire (csv, xls et xlsx) en tant que lien de donnée avec l’action *téléchargement*
 * lien vers un service WFS
   * le nombre d’entités doit être inférieur au seuil du serveur carto (paramètre *MaxRecordCount=1000* par défaut pour ArcGIS Server, paramètre *nombre maximal d'objets* pour Geoserver etc..)
   * le système de coordonnées 4326 doit être disponible dans les capacités
