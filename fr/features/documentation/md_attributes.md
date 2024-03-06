@@ -6,7 +6,7 @@ L’onglet « Attributs » liste tous les champs attributaires de la donnée et 
 
 | Définition          | Liste des champs de la table attributaire |
 | :------------------ | :---------------------------------------- |
-| Indications         | Le scan remonte le nom ainsi que le type de chaque attribut. Il s&apos;agit donc de renseigner :<br />- l&apos;alias,<br />- une description,<br />- la langue. |
+| Indications         | Le scan remonte le nom, le type de chaque attribut et le commentaire / l'alias en base de donnée. Il s&apos;agit donc de renseigner :<br />- l&apos;alias,<br />- une description,<br />- la langue. |
 | Exemple             | Nom : type_epci<br />Alias : Type d&apos;intercommunalité<br />Type : char(80)<br />Description : Type d&apos;EPCI (source OSM) :<br />- CC = Communauté de Communes (1900)<br />- CA = Communauté d&apos;Agglomération (222)<br />- CU = Communauté Urbaine (15)<br />- metropole = Métropole (1)<br />- SAN = Syndicat d&apos;Agglomération Nouvelle (4)<br />- NULL = non renseigné (3)<br />Langue : Français |
 | Exigence INSPIRE    | Facultatif                    |
 | Edition par lot     | Oui, par incrémentation       |
@@ -29,46 +29,50 @@ Pour faciliter la saisie de la langue des attributs, il est possible de l&apos;a
 * varchar,
 * varchar2.
 
-## Export et import des attributs en CSV
+## Export et import des attributs en CSV {#export_import_attributes}
 
-### Export 
+Pour faciliter la documentation des attributs par des utilisateurs n'ayant pas accès à la plateforme par exemple, vous pouvez exporter les exporter afin que ces derniers les complètent dans un tableur puis importer le tableau complété dans la fiche de métadonnée.
 
-En mode visualisation, il est possible d'exporter les attributs au format CSV. Le délimiteur pour séparer les champs peut-être précisé lors de l'export entre : 
+Pour information, le markdown et les sauts de lignes éventuels sont gérés à l'export et à l'import. 
+
+### Export {#export}
+
+En mode consultation de la fiche, il est possible d'exporter les attributs au format CSV. Le délimiteur pour séparer les champs peut-être précisé lors de l'export entre : 
+
+* Point-virgule ; (idéal pour l'ouverture avec Excel)
 * Virgule ,
-* Point-virgule ;
 * Pipe |
 * Délimiteur personnalisé (un caractère entré manuellement dans un champ textuel)
 
-A savoir: Si le caractère choisi pour délimiter les champs est présent dans l'un des champs, il sera supprimé du champ en question.
+**A savoir** : Si le caractère choisi pour délimiter les champs est présent dans l'un des champs, il sera supprimé du champ en question.
 
-Le fichier exporté est alors un fichier CSV encodé en UTF-8, dont les chaînes de caractères sont délimitées par des guillements `"`, et comporte 7 colonnes :
+Le fichier exporté est alors un fichier CSV encodé en *UTF-8*, dont les chaînes de caractères sont délimitées par des guillemets `"`, et comporte 7 colonnes :
 
-| Nom de la colonne   | Correspondance avec la table attributaire Isogeo |
+| Nom de la colonne   | Champ Isogeo |
 | :------------------ | :---------------------------------------- |
-| name                | Information contenue dans le champ "Nom"|
-| alias               | Information contenue dans le champ "Alias" |
-| comment             | Information contenue dans le champ "Alias", dans le cas d'une donnée venant d'une base de données|
-| dataType            | Information contenue dans le champ "Type" |
-| description         | Information contenue dans le champ "Description" |
-| language            | Information contenue dans le champ "Langue" |
-| _id                 | Identifiant Isogeo de la donnée |
+| name                | Nom |
+| alias               | Alias |
+| comment             | Alias, *en italique* dans le cas d'une donnée de BDD |
+| dataType            | Type |
+| description         | Description |
+| language            | Langue |
+| _id                 | Identifiant Isogeo de l'attribut |
 
+### Import {#import}
 
-### Import  
-
-En mode édition, il est possible d'importer des attributs au format CSV. Le CSV fournis doit être encodé en UTF-8 et les chaînes de caractères délimitées par des guillements `"` ou par aucune délimitation. Le délimiteur de colonne quant à lui est automatiquement identifié. 
+En mode édition de la fiche, il est possible d'importer des attributs à partir d'un fichier CSV encodé en UTF-8. Les chaînes de caractères peuvent être délimitées par des guillemets `"` ou non. En effet cette pratique dépend du tableur utilisé (Excel, Libre Office etc.). Le délimiteur de colonne est automatiquement identifié. 
 
 Le contenu du fichier doit respecter la présence des colonnes suivantes :
 
-| Nom de la colonne   | Correspondance avec la table attributaire Isogeo |
+| Nom de la colonne   | Champ Isogeo |
 | :------------------ | :---------------------------------------- |
-| name                | Information contenue dans le champ "Nom"|
-| alias               | Information contenue dans le champ "Alias" |
-| comment             | Information contenue dans le champ "Alias", dans le cas d'une donnée venant d'une base de données|
-| dataType            | Information contenue dans le champ "Type" |
-| description         | Information contenue dans le champ "Description" |
-| language            | Information contenue dans le champ "Langue" |
-| _id                 | Identifiant Isogeo de la donnée |
+| name                | Nom |
+| alias               | Alias |
+| comment             | Alias, *en italique* dans le cas d'une donnée de BDD |
+| dataType            | Type |
+| description         | Description |
+| language            | Langue |
+| _id                 | Identifiant Isogeo de l'attribut |
 
 A savoir: Si un attribut se trouve en plusieurs exemplaires, seul le dernier exemplaire sera importé.
 
@@ -77,8 +81,10 @@ Avant de valider l'import, deux options sont sélectionnables :
 * Ajouter les nouveaux attributs.
 
 #### Ne mettre à jour que les champs renseignés  
-Dans le cas où des attributs sont déjà présents sur la fiche et que des champs sont laissés vide dans le fichier CSV. L'import ne modifiera que les champs renseignés dans le fichier d'import et n'écrasera pas les données déjà présentes qui ne possèdent pas de nouvelles informations. Si vous souhaitez écraser le contenu des champs même en cas de données vides, il vous faudra décocher cette option.
+
+Dans le cas où des attributs sont déjà documentés sur la fiche et que des champs sont vides dans le fichier CSV, l'import ne modifiera que les champs renseignés dans le fichier et n'écrasera pas les attributs déjà documentés. Si vous souhaitez écraser le contenu pour tous les champs (même vides), il vous faudra décocher cette option.
 
 #### Ajouter les nouveaux attributs
+
 Par défaut, l'import ne met à jour que les attributs ayant un nom similaire aux attributs déjà présents dans la fiche. Si vous souhaitez ajouter de nouveaux attributs à la fiche, il vous faudra cocher cette option.
 
