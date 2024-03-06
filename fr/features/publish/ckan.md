@@ -53,7 +53,7 @@ Voici la liste de champs d'une ressource que le CKAN Isogeo modifie automatiquem
 
 | Champs Données Québec                                                   | Choix complété automatiquement                                    |
 |:-----------------------------------------------------------------------:|:-----------------------------------------------------------------:|
-| Description des champs                                                  | Fournie dans la description des métadonnées                                      |
+| Description des champs                                                  | Fournie dans la description des métadonnées                       |
 | Séparateur virgule (CSV seulement)                                      | Oui                                                               |
 | utf-8                                                                   | Oui                                                               |
 | EPSG 4326 / EPSG 32198                                                  | Oui                                                               |
