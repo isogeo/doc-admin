@@ -1,12 +1,15 @@
 # Publier vos données sur Données Québec
 
-Une fois constitué, votre catalogue peut être synchronisé sur Données Québec à l'aide du module CKAN Server développé par Isogeo.
+Une fois constitué, votre catalogue peut être publié sur [Données Québec](https://www.donneesquebec.ca) à l'aide du module CKAN Server développé par Isogeo.
 
-## Pré-requis {#prerequisits}
+## Prérequis {#prerequisites}
 
-* au moins un groupe de travail Isogeo ;
-* au moins un catalogue contenant au moins une métadonnée, partagé à l'application ;
-* accès au module CKAN.
+Afin que vos données puissent être remontées sur [Données Québec](https://www.donneesquebec.ca), il faut qu'elles remplissent plusieurs critères :
+
+* être dans un catalogue partagé au serveur CKAN et à l'OpenCatalog ;
+* contenir au moins un lien de téléchargement opérationnel. Les liens de téléchargement reconnus sont :
+  * lien vers un service WFS capable de délivrer la donnée au format GeoJSON en WGS84 (4326) : voir [affecter un service WFS](/features/publish/webservices.html#associer-un-flux-wfs) ;
+  * lien vers des fichiers de données vecteur (GeoJSON, Shapefile Zippé et Geopackage), raster (ECW, JPEG2000 et GeoTIFF) ou tabulaire (csv, xls et xlsx) : voir [affecter un lien de téléchargement](/features/publish/hosting.html).
 
 ## Liste de champs "métadonnées" complétés {#fields_list}
 
@@ -16,7 +19,7 @@ Une fois constitué, votre catalogue peut être synchronisé sur Données Québe
 | Description                | Mélange de plusieurs champs                                               |
 | Organisation               | Organisation Données Québec                                               |
 | Étiquettes                 | Mots-clés                                                                 |
-| Catégorie                  | Thématique                                                                |
+| Catégorie                  | Thématique dont la chaîne de caractère est identique aux catégories donneesquebec.ca)                                                               |
 | Licence                    | Conditions                                                                |
 | Responsable                | Nom du groupe de travail                                                  |
 | Courriel                   | Courriel du contact associé à la fiche ayant pour rôle "Point de contact" |
@@ -44,7 +47,7 @@ La description est formatée de la manière suivante :
 
 | Champs Données Québec                                                   | Choix complété automatiquement                                    |
 |:-----------------------------------------------------------------------:|:-----------------------------------------------------------------:|
-| Description des champs                                                  | Fournie dans les métadonnées                                      |
+| Description des champs                                                  | Fournie dans la description des métadonnées                                      |
 | Séparateur virgule (CSV seulement)                                      | Oui                                                               |
 | utf-8                                                                   | Oui                                                               |
 | EPSG 4326 / EPSG 32198                                                  | Oui                                                               |
@@ -77,30 +80,31 @@ La fréquence de mise à jour est saisie selon cette correspondance :
 Pour alimenter la fiche de Données Québec en ressources, plusieurs types de liens peuvent être remontés.
 
 * liens de services :
-  * lien vers un service de visualisation WMS ;
+  * lien vers un service de visualisation WMS (Web Map Service) ;
   * lien vers un service de visualisation EMS (Esri Map Service) ;
 * liens de téléchargement :
   * lien vers un fichier téléversé dans Isogeo (hosted) ;
-  * lien vers des fichiers de données vecteur (GeoJSON, Shapefile Zippé, Geopackage KML/GML, CSV), raster (GeoTIFF et JPEG2000) ou tabulaire (csv et xlsx) en tant que lien de type "Données" avec l’action téléchargement ;
-  * lien vers une donnée de service de téléchargement WFS ;
-  * lien vers une donnée de service de téléchargement EFS (Esri Feature Service) ;
-* lien de cartes interactives : liens vers une ressource de type "Données" ou "Liens" avec l'action visualisation.
+  * lien vers des fichiers de données vecteur (GeoJSON, Shapefile Zippé, Geopackage KML/GML, CSV), raster (GeoTIFF et JPEG2000) ou tabulaire (csv et xlsx) en tant que lien de type "Données" avec l’action *téléchargement* ;
+* lien vers un service WFS
+  * le nombre d’entités doit être inférieur au seuil du serveur carto (paramètre *MaxRecordCount=1000* par défaut pour ArcGIS Server, paramètre *nombre maximal d'objets* pour Geoserver etc..)
+  * le système de coordonnées 4326 doit être disponible dans les capacités
+  * le format d’export Geojson également
+* lien de cartes interactives : liens vers une ressource de type "Données" ou "Liens" avec l'action *visualisation*.
 
 ## Génération et suivi des jeux de données valides {#generate}
 
 1. Pour générer un nouveau lien de moissonnage, aller dans `Administration`, `Partages` puis cliquer sur `Nouveau` ;
 2. Choisir ensuite l'application CKAN, un catalogue et un Nom pour le partage ;
 3. Cliquer sur `Créer` ;
-4. Un lien est automatiquement généré, c'est celui-ci qui permettra de lancer la synchronisation afn de publier vos données sur Données Québec.
+4. Un lien est automatiquement généré, c'est celui-ci qui permettra de lancer la synchronisation afin de publier vos données sur Données Québec.
 
-Pour information, les fiches de services et les fiches de données qui ne disposent pas de lien de téléchargement respectant les prérequis ci-dessus sont considérées comme invalides.
+Pour information, les fiches de données qui ne disposent pas de lien de téléchargement respectant les prérequis [ci-dessus](#download_links) sont considérées comme invalides.
 
 ## Liste d'erreurs de synchronisation possibles
 
-Voici la liste des erreurs possible lors du lancement de la synchronisation :
+Voici la liste des erreurs possibles lors du lancement de la synchronisation :
 
-* Unable to update dataset to CKAN : Impossibilité de mettre à jour une donnée (généralement problème d'autorisation)
-* Unable to compute CKAN dataset : Impossibilité de récupérer les données présentes dans l'api CKAN
-* Mismatch between organization on CKAN and target organization : Je ne sais pas
-* No defined target organization : L'organisation CKAN renseignée n'est pas trouvée
-* CKAN dataset is now orphean from Isogeo : Une donnée est présente dans le CKAN mais plus chez Isogeo
+* `Unable to update dataset to CKAN` : Impossible de mettre à jour une donnée (généralement problème d'autorisation) dans le portail CKAN
+* `Unable to compute CKAN dataset` : Impossible de récupérer les données présentes dans le portail CKAN
+* `No defined target organization` : L'organisation CKAN renseignée n'est pas trouvée dans le portail CKAN
+* `CKAN dataset is now orphean from Isogeo` : Une donnée est présente dans le portail CKAN mais plus dans le catalogue Isogeo
