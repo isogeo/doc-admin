@@ -47,7 +47,7 @@ La description est formatée de la manière suivante :
 
 Lorsque vous éditer une ressource sur Données Québec, vous avez la possibilité d'ajouter des informations concernant cette dernière (cf. capture).
 
-![Modification manuellement de la ressource](/assets/CKAN/modify_ressources.png)
+![Modification manuelle de la ressource](/assets/CKAN/modify_ressources.png)
 
 Voici la liste de champs d'une ressource que le CKAN Isogeo renseigne automatiquement :
 
