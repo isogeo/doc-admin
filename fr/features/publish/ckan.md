@@ -47,7 +47,7 @@ La description est formatée de la manière suivante :
 
 Lorsque vous éditer une ressource sur Données Québec, vous avez la possibilité d'ajouter des informations concernant cette dernière (cf. capture).
 
-![Modification de la ressources manuellement](/assets/CKAN/modify_ressources.png)
+![Modification manuellement de la ressource](/assets/CKAN/modify_ressources.png)
 
 Voici la liste de champs d'une ressource que le CKAN Isogeo renseigne automatiquement :
 
@@ -109,7 +109,7 @@ Pour information, les fiches de données qui ne disposent pas de lien de téléc
 
 Voici la liste des erreurs possibles lors du lancement de la synchronisation :
 
-* `Unable to update dataset to CKAN` : Impossible de mettre à jour une donnée (généralement problème d'autorisation) dans le portail CKAN
-* `Unable to compute CKAN dataset` : Impossible de récupérer les données présentes dans le portail CKAN
-* `No defined target organization` : L'organisation CKAN renseignée n'est pas trouvée dans le portail CKAN
-* `CKAN dataset is now orphean from Isogeo` : Une donnée est présente dans le portail CKAN mais plus dans le catalogue Isogeo
+* `Unable to update dataset to CKAN` : Impossible de mettre à jour une donnée (généralement problème d'autorisation) dans le portail CKAN ;
+* `Unable to compute CKAN dataset` : Impossible de récupérer les données présentes dans le portail CKAN ;
+* `No defined target organization` : L'organisation CKAN renseignée n'est pas trouvée dans le portail CKAN ;
+* `CKAN dataset is now orphean from Isogeo` : Une donnée est présente sur DOnnées Québec mais plus dans le catalogue Isogeo.
