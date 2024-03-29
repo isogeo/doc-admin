@@ -105,7 +105,9 @@ Pour alimenter la fiche de Données Québec en ressources, plusieurs types de li
 
 Pour information, les fiches de données qui ne disposent pas de lien de téléchargement respectant les prérequis [ci-dessus](#download_links) sont considérées comme invalides.
 
-## Liste d'erreurs de synchronisation possibles
+![Configurer votre partage](/assets/CKAN/share_configuration.png)
+
+## Liste d'erreurs de synchronisation possibles {#errors_list}
 
 Voici la liste des erreurs possibles lors du lancement de la synchronisation :
 
