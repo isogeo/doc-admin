@@ -2,6 +2,18 @@
 
 <!-- timeline -->
 
+## 2.22.17 {#v22217}
+
+Publiée en avril 2024 :
+
+### APP
+
+* Correction de bugs mineurs.
+
+<!-- /timeline -->
+
+<!-- timeline -->
+
 ## 2.22.15 {#v22215}
 
 Publiée en février 2024 :
